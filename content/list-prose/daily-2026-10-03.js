@@ -1,0 +1,71 @@
+/** 每日推荐阅读指引 · 2026-10-03 */
+export const batch = {
+  '1177-bc-the-year-civilization-collapsed': {
+    description_zh: '《文明的崩塌》是美国考古学家埃里克·H. 克莱因 2014 年出版的著作，聚焦公元前 1177 年前后东地中海世界的连锁崩溃：迈锡尼、赫梯、乌加里特等青铜时代强国在数十年间相继瓦解，埃及虽击退了被称为「海上民族」的入侵者，也从此一蹶不振。克莱因不满足于「外族入侵」这一传统解释，而是把考古证据、泥板文书与气候、地震研究并置，指出这场崩溃是干旱、饥荒、内乱、贸易网络断裂与入侵叠加而成的「完美风暴」。他借用系统崩溃理论，把青铜时代晚期的地中海视为一个高度互联的国际贸易体系，其繁荣与脆弱同源，并在结尾把这一案例与当今全球化世界相互对照。',
+    description_en: '1177 B.C. is the American archaeologist Eric H. Cline\'s 2014 book on the collapse of the Late Bronze Age world. Around 1177 BCE the great powers of the eastern Mediterranean — Mycenae, the Hittite empire, Ugarit, and others — fell within a few decades, while Egypt, though it repelled the invaders it called the Sea Peoples, never recovered its former strength. Cline rejects the traditional single-cause explanation of foreign invasion. Setting archaeological evidence alongside cuneiform tablets, Hittite and Egyptian records, and studies of climate and earthquakes, he argues that the collapse was a \'perfect storm\' produced by drought, famine, internal revolt, the breakdown of trade networks, and invasion acting together. Drawing on collapse theory, he treats the Late Bronze Age Mediterranean as a highly interconnected international trading system whose prosperity and fragility had the same source, and closes by comparing that case with today\'s globalized world.',
+    why_read_zh: '这本书示范了历史学最有用的一种思路：面对一场灾难，先问「有多少种原因同时发生」，而不是急着找一个罪魁祸首。青铜时代晚期的地中海与现代世界有惊人的结构相似性——高度专业化、长距离依赖、看似稳固的贸易网络。克莱因的论证方式对做风险判断的人尤其有价值：真正的系统性风险往往不是单一冲击，而是多重压力叠加后系统失去冗余。叙事清晰、节奏紧凑，是理解「复杂社会为什么会崩溃」最友好的入口。',
+    why_read_en: 'The book demonstrates one of the most useful habits in historical thinking: when confronted with a catastrophe, ask how many causes coincided rather than rushing to name a single culprit. The Late Bronze Age Mediterranean resembles the modern world in striking structural ways — high specialization, long-distance dependence, trade networks that look permanent. Cline\'s method is especially valuable for anyone who assesses risk: genuine systemic risk usually comes not from one shock but from several stresses arriving at once, after a system has lost its redundancy. The narrative is clear and brisk, making it the most accessible entry into the question of why complex societies collapse.',
+    core_ideas_zh: [
+        '单一原因解释不足以说明青铜时代晚期的崩溃；干旱、饥荒、内乱、贸易中断与入侵等多重压力叠加，才构成「完美风暴」。',
+        '高度互联的国际贸易体系同时带来繁荣与脆弱性：专业化分工越深，网络中断时的连锁损失越大。',
+        '被称为「海上民族」的入侵者更像是崩溃的结果与放大器，而非唯一原因。',
+        '强国之间的相互依赖——外交、联姻、礼物交换、贸易——在系统承压时反而成为传导危机的通道。',
+        '文明的崩溃往往不是突然的毁灭，而是数十年间冗余被逐步耗尽的过程。'
+      ],
+    core_ideas_en: [
+        'Single-cause explanations cannot account for the Late Bronze Age collapse; drought, famine, internal revolt, broken trade routes, and invasion combined into a \'perfect storm\'.',
+        'A highly interconnected trading system brings prosperity and fragility together: the deeper the specialization, the larger the cascading losses when the network fails.',
+        'The invaders called the Sea Peoples are better understood as a consequence and amplifier of collapse than as its sole cause.',
+        'The interdependence of the great powers — diplomacy, dynastic marriage, gift exchange, trade — became the channel through which crisis propagated when the system came under strain.',
+        'The collapse of a civilization is rarely a sudden destruction; it is a process in which redundancy is exhausted over decades.'
+      ],
+    key_questions_zh: [
+        '一个繁荣、互联、看似稳固的文明体系，为什么会在一两代人之内瓦解？',
+        '当多重危机同时到来时，哪些因素决定了一个社会能否恢复？',
+        '今天高度全球化的世界，与青铜时代晚期的地中海有哪些结构上的相似之处？'
+      ],
+    key_questions_en: [
+        'Why does a prosperous, interconnected, apparently stable civilization disintegrate within one or two generations?',
+        'When several crises arrive at once, what determines whether a society recovers?',
+        'What structural similarities exist between today\'s globalized world and the Late Bronze Age Mediterranean?'
+      ],
+    who_should_read_zh: '适合对世界史、古代文明与考古感兴趣的读者，也适合关注系统性风险的人——做投资、供应链、地缘研究或风险管理的人，会从「多重冲击叠加」的分析框架中直接受益。不要求考古学背景，作者把专业证据写得相当好读。',
+    who_should_read_en: 'Readers interested in world history, ancient civilizations, and archaeology, and equally those concerned with systemic risk — anyone working on investing, supply chains, geopolitics, or risk management will profit directly from the \'multiple shocks\' framework. No archaeological background is required; the author presents technical evidence accessibly.',
+    reading_note_zh: '按章节顺序读即可，全书围绕「崩溃如何发生」逐层展开，篇幅不大。重点看作者如何把不同来源的证据拼合起来，而不是记住哪一年发生了哪件事。可与塔恩特《复杂社会的崩溃》对读：后者提供理论框架（边际收益递减与复杂性成本），本书提供具体案例，两书配合能把「崩溃」从故事变成机制。',
+    reading_note_en: 'Read it in order; the book builds its case for how the collapse happened step by step and is not long. Focus on how the author fits evidence of different kinds together rather than on memorizing which event occurred in which year. Read it alongside Joseph Tainter\'s The Collapse of Complex Societies: Tainter supplies the theoretical frame — diminishing returns and the cost of complexity — while Cline supplies the concrete case, and together they turn \'collapse\' from a story into a mechanism.'
+  },
+  'the-man-behind-the-microchip': {
+    description_zh: '《硅谷之父》是历史学家莱斯利·柏林 2005 年出版的罗伯特·诺伊斯传记。诺伊斯是集成电路的共同发明人，也是仙童半导体与英特尔两家公司的联合创始人。全书从他 1927 年在爱荷华州的童年写起，经麻省理工学院的物理学训练、肖克利半导体实验室，到 1957 年他与七位同事集体出走创办仙童，再到 1959 年提出基于平面工艺的集成电路方案、1968 年与戈登·摩尔创办英特尔。柏林不只写个人，也写制度：她追踪诺伊斯如何刻意建立一种扁平、开放、容忍失败的公司文化，以及风险资本、股权激励与工程师创业如何被固化为可复制的模式。这本书同时是一部硅谷的形成史。',
+    description_en: 'The Man Behind the Microchip is the historian Leslie Berlin\'s 2005 biography of Robert Noyce. Noyce was a co-inventor of the integrated circuit and a co-founder of two companies, Fairchild Semiconductor and Intel. Berlin begins with his Iowa childhood in 1927 and follows him through physics training at MIT and Shockley Semiconductor Laboratory to the departure of the \'traitorous eight\' in 1957 and the founding of Fairchild, then to his 1959 proposal for an integrated circuit built on the planar process, and finally to the creation of Intel with Gordon Moore in 1968. Berlin writes about institutions as much as about a person: she traces how Noyce deliberately built a flat, open, failure-tolerant corporate culture, and how venture capital, equity compensation, and engineer-founded startups became a repeatable model. The book is also a history of how Silicon Valley came to be.',
+    why_read_zh: '这是理解半导体产业为什么长成今天这个样子的一本关键传记。诺伊斯一生贯穿了从晶体管到集成电路再到微处理器的全部关键节点，而他真正的影响在于组织方式：他证明了技术突破必须配上能让工程师共享成果的制度，才可能持续。对做材料、器件、设备与供应链的人来说，书中细节——平面工艺如何解决可靠性与量产、硅如何取代锗、实验室如何走向规模化制造——比产业报告更具体。对管理者，它是一部关于「文化如何被设计出来」的案例集。',
+    why_read_en: 'This is a key biography for understanding why the semiconductor industry took the shape it did. Noyce\'s life runs through every crucial transition from the transistor to the integrated circuit and the microprocessor, yet his real influence was organizational: he showed that a technical breakthrough only persists when paired with institutions that let engineers share in the rewards. For those working in materials, devices, equipment, and supply chains, the book\'s specifics — how the planar process solved reliability and manufacturability, how silicon displaced germanium, how a laboratory becomes volume manufacturing — are more concrete than any industry report. For managers it is a casebook on how a culture can be deliberately designed.',
+    core_ideas_zh: [
+        '集成电路的诞生是集体条件与个人洞察的结合：霍尼的平面工艺提供了技术前提，诺伊斯把它与互连方案结合，才形成可量产的芯片。',
+        '平面工艺是半导体制造的分水岭：把 PN 结保护在氧化层之下，同时解决了可靠性、可制造性，并为后续光刻集成打开道路。',
+        '硅取代锗不只是材料性能的选择，也是制造工艺、成本与供应链共同作用的结果。',
+        '诺伊斯的管理遗产是一种制度设计：扁平结构、开放沟通、股权与期权分享、容忍失败，使人才可以在生态内反复创业而不必离开。',
+        '个人天才需要一个能复制其成果的环境；硅谷的独特性在于把「一次成功」变成了可重复的流程。'
+      ],
+    core_ideas_en: [
+        'The integrated circuit came from collective conditions plus individual insight: Hoerni\'s planar process supplied the technical premise, and Noyce\'s interconnection scheme turned it into a manufacturable chip.',
+        'The planar process was the watershed of semiconductor manufacturing: protecting junctions beneath an oxide layer solved reliability and manufacturability at once, and opened the way to later lithographic integration.',
+        'Silicon displaced germanium not only through material properties but through the combined pressures of process, cost, and supply chain.',
+        'Noyce\'s managerial legacy was institutional design: flat structures, open communication, shared equity and options, and tolerance of failure, which let talent start companies again without leaving the ecosystem.',
+        'Individual genius needs an environment that can replicate its results; Silicon Valley\'s distinctiveness lay in turning a single success into a repeatable process.'
+      ],
+    key_questions_zh: [
+        '一项技术突破要经过什么条件，才能从实验室变成大规模产业？',
+        '工程师的个人创造与公司制度之间，究竟是谁塑造了谁？',
+        '一个地区为什么会持续产生新公司，而不是只诞生一家成功企业？'
+      ],
+    key_questions_en: [
+        'What conditions must a technical breakthrough pass through before it becomes a large-scale industry?',
+        'Between the individual creativity of engineers and the institutions of a company, which shapes the other?',
+        'Why does a region keep producing new companies rather than a single successful firm?'
+      ],
+    who_should_read_zh: '适合半导体与电子材料从业者、硬件与制造业管理者、创业者，以及关心科技产业史的读者。想理解「芯片是怎么被造出来的、硅谷是怎么形成的」的人，会比读产业分析报告收获更具体。不要求技术背景，但对工艺细节感兴趣的读者会读得更深。',
+    who_should_read_en: 'Suited to people working in semiconductors and electronic materials, managers in hardware and manufacturing, founders, and readers interested in the history of the technology industry. Anyone who wants to understand how chips came to be made and how Silicon Valley formed will get more concrete detail here than from industry reports. No technical background is required, though readers curious about process detail will get more out of it.',
+    reading_note_zh: '按时间顺序读最顺，全书以诺伊斯的职业生涯为线索。重点章节是仙童时期（平面工艺与集成电路）与英特尔早期（存储器与微处理器），这两段决定了今天产业的形态。可配合《晶体之火》对读：后者讲贝尔实验室发明晶体管，本书讲它如何被产业化，两书连起来是完整的产业链前史。',
+    reading_note_en: 'Reading in chronological order works best, since the book follows Noyce\'s career. The key sections are the Fairchild years — the planar process and the integrated circuit — and the early Intel years of memory and the microprocessor, which together determined the shape of today\'s industry. Read it alongside Crystal Fire: that book covers the invention of the transistor at Bell Labs, while this one covers how it was industrialized, and the pair forms a complete prehistory of the industry chain.'
+  }
+};

@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output (run `node src/build.mjs` to regenerate)
+dist/
+build/
+.next/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Staging: cover source images & intermediate artifacts (~150MB)
+_stage/
+
+# Responsive audit screenshots
+_audit/
+
+# WorkBuddy workspace state
+.workbuddy/
+.workbuddy-ai/
+.wbapp_*.genie
+
+# Generated de-dup清单
+_exist.txt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log

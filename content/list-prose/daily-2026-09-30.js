@@ -1,0 +1,67 @@
+/** 每日推荐阅读指引 · 2026-09-30 */
+export const batch = {
+  'crystal-fire': {
+    description_zh: '《晶体之火》由科学史家 Michael Riordan 与 Lillian Hoddeson 合著，聚焦 1947 年 12 月贝尔实验室发明晶体管的过程。全书从十九世纪对电与物质结构的探索写起，交代量子力学如何为固体物理奠基，再进入二战期间雷达研究对锗、硅提纯工艺的推动，最终落在 Bardeen、Brattain 与 Shockley 三人的合作与决裂上。作者依据实验室档案与访谈，还原了掺杂、区熔提纯、点接触与结型晶体管等关键突破，也写了贝尔实验室的组织方式、专利与商业化的博弈，以及晶体管如何一路催生硅谷与整个电子产业。它不是人物传奇，而是一部把物理、材料、工业与制度编织在一起的技术史。',
+    description_en: 'Crystal Fire, by the physicist-historian Michael Riordan and the historian of physics Lillian Hoddeson, tells how the transistor was invented at Bell Telephone Laboratories in December 1947. The book begins in the nineteenth century with early investigations into electricity and the structure of matter, and shows how quantum mechanics gave solid-state physics its theoretical footing. It then follows the wartime radar programme, which pushed forward the purification of germanium and silicon, before arriving at the collaboration, and eventual rupture, between John Bardeen, Walter Brattain and William Shockley. Drawing on laboratory archives and interviews, the authors reconstruct the technical steps that mattered: doping, zone refining, the point-contact and junction transistors. They give equal weight to the institutional setting, showing how Bell Labs organised industrial research, how patents and commercialisation were negotiated, and how the device migrated out of a telephone monopoly into the wider electronics industry. The result is not a heroic biography but a layered history in which physics, materials science, industrial organisation and national priorities are inseparable.',
+    why_read_zh: '今天谈半导体，多数人从产业格局与地缘政治切入，很少追问器件本身是怎么被造出来的。《晶体之火》补的正是这一层：它让你看到晶体管的诞生依赖于高纯锗与硅的提纯工艺、对半导体表面态的长期试错，以及一个允许基础研究长期存在的工业实验室。对做材料、封装或设备的人，这本书提供了理解今天工艺路线从何而来的坐标系；对关心产业的人，它解释了为什么材料与工艺的积累往往先于商业爆发。',
+    why_read_en: 'Most discussions of semiconductors today start from industrial structure and geopolitics and never ask how the device itself came into being. Crystal Fire supplies exactly that missing layer. It shows that the transistor depended on the purification of germanium and silicon, on years of trial and error with semiconductor surface states, and on an industrial laboratory willing to fund open-ended basic research. Readers working in materials, packaging or equipment will find a coordinate system for where today\'s process routes came from; readers interested in industry will see why materials and process capability typically accumulate well before commercial take-off.',
+    core_ideas_zh: [
+        '晶体管的诞生是量子力学、材料提纯与战时雷达研究三条线索汇合的结果，而非某个人的灵光一现。',
+        '贝尔实验室的组织方式——长期基础研究、跨学科团队与专利制度——本身就是这项发明得以发生的前提条件。',
+        '点接触与结型晶体管的路线之争说明，工程上可行的方案与理论上更优的方案往往并不同步。',
+        '从锗到硅的转换不只是更换材料，而是整个工艺体系与供应链的重建。'
+      ],
+    core_ideas_en: [
+        'The transistor emerged from the convergence of quantum mechanics, materials purification and wartime radar research, not from a single flash of individual genius.',
+        'The way Bell Labs was organised, with long-horizon basic research, interdisciplinary teams and a patent regime, was itself a precondition for the invention.',
+        'The rivalry between the point-contact and junction designs shows that what is engineering-feasible and what is theoretically superior rarely arrive at the same time.',
+        'The shift from germanium to silicon was not the substitution of one material for another but the rebuilding of an entire process and supply system.'
+      ],
+    key_questions_zh: [
+        '一项改变世界的技术发明，需要哪些前置条件同时成立？',
+        '工业实验室如何在回应商业压力的同时，为长期基础研究留出空间？',
+        '为什么材料与工艺的突破，往往先于它所催生的产业爆发？'
+      ],
+    key_questions_en: [
+        'What preconditions must hold at the same time for a world-changing invention to occur?',
+        'How can an industrial laboratory fund long-horizon basic research while still answering to commercial pressure?',
+        'Why do breakthroughs in materials and process usually precede the industrial boom they make possible?'
+      ],
+    who_should_read_zh: '适合半导体材料、封装、设备与工艺从业者，尤其是希望理解器件物理源头而非只看产业新闻的工程师；也适合科技史与科学传播读者，以及关心创新如何从实验室走向产业的创业者与投资人。具备高中以上物理基础即可阅读，专业术语作者都作了交代。',
+    who_should_read_en: 'Engineers and business people in semiconductor materials, packaging, equipment and process integration who want the physical origins of the device rather than the latest industry headlines; also readers of the history of science and technology, and founders or investors interested in how laboratory work becomes an industry. A high-school physics background is sufficient, and technical terms are explained as they appear.',
+    reading_note_zh: '建议先读前三章，建立量子力学与固体物理的背景；再重点读锗、硅提纯与点接触晶体管实验的部分，那是全书技术密度最高的章节。最后一部分讲晶体管如何离开贝尔实验室、走向德州仪器与硅谷，可与《芯片战争》对读：一本讲器件如何被发明，一本讲它如何变成大国竞争的核心。技术细节不必逐段推演，抓住“材料纯度决定器件性能”这条主线即可。',
+    reading_note_en: 'Start with the first three chapters for the background in quantum mechanics and solid-state physics, then focus on the sections covering germanium and silicon purification and the point-contact experiments, where the technical density is highest. The final part, on how the transistor left Bell Labs for Texas Instruments and Silicon Valley, reads well alongside Chip War: one book explains how the device was invented, the other how it became the object of great-power competition. There is no need to work through every technical passage; follow the single thread that material purity determines device performance.'
+  },
+  'the-man-who-mistook-his-wife-for-a-hat': {
+    description_zh: '《错把妻子当帽子》是英国神经病学家 Oliver Sacks 出版于 1985 年的临床病例集，收录二十余则真实病例。书中的人物患有各种罕见的神经系统障碍：有人无法辨认熟悉的面孔与物体，会伸手去抓妻子的头，以为那是一顶帽子；有人失去本体感觉，只能靠视觉与意志控制自己的肢体；也有人智力严重受损，却在音乐或数字上表现出惊人的天赋。Sacks 不作冷冰冰的病理罗列，而是把每位患者当作一个完整的人来写，追问疾病之后“那个人”是否还在。全书分为缺失、过剩、转移、简单的世界等部分，既有临床观察的精确，也有近乎文学的叙事。它让读者意识到，所谓正常的自我，其实是大脑多个系统精密协作的产物，任何一环出错都会改写一个人的世界。',
+    description_en: 'Published in 1985, The Man Who Mistook His Wife for a Hat is a collection of more than twenty clinical tales drawn from the neurological practice of Oliver Sacks. His patients live with rare disorders of the nervous system: a man who cannot recognise familiar faces or objects and reaches for his wife\'s head as though it were a hat; people who have lost proprioception and must govern their own limbs by sight and conscious effort; others with severe intellectual impairment who nonetheless display extraordinary musical or numerical gifts. Sacks refuses the cold catalogue of pathology. He writes each patient as a whole person and keeps asking whether the person survives the disease. Organised into sections on losses, excesses, transports and the world of the simple, the book combines clinical precision with a narrative gift close to literature. It leaves the reader with an unsettling insight: the ordinary sense of a unified self is the product of many brain systems working in concert, and damage to any one of them rewrites a person\'s world.',
+    why_read_zh: '这本书几乎重新定义了一种写法：医学观察可以同时是严格的，也是有人味的。它提供的是认知科学最直观的入口——不靠抽象模型，而是让读者亲眼看到当记忆、面孔识别、身体感知、语言或音乐能力单独失灵时，人的心智会呈现出什么形状。对研究人工智能与认知架构的人，这些病例是天然的“消融实验”：每去掉一个功能模块，就能观察系统其余部分如何补偿、如何坍塌。它同时也是一本关于尊严的书。',
+    why_read_en: 'The book almost single-handedly redefined a genre: clinical observation can be rigorous and humane at the same time. It is the most intuitive introduction to cognitive science available, not through abstract models but by letting the reader watch what the mind looks like when memory, face recognition, bodily awareness, language or musical ability fails in isolation. For anyone working on artificial intelligence or cognitive architecture, these cases are natural ablation studies: remove one functional module and observe how the rest of the system compensates or collapses. It is also, throughout, a book about dignity.',
+    core_ideas_zh: [
+        '自我不是单一实体，而是记忆、感知、语言与运动控制等多个系统协作的产物，任何一处损伤都会重新划定一个人的边界。',
+        '缺陷与补偿是一体两面：某个功能丧失后，大脑常以其他通道重建秩序，有时甚至换来意想不到的能力。',
+        '临床上的“病人”首先是一个“人”，神经系统疾病改写的是他的世界，而不只是一个器官。',
+        '对神经疾病的细致观察，是理解正常心智如何运作的最直接途径。'
+      ],
+    core_ideas_en: [
+        'The self is not a single entity but the product of memory, perception, language and motor control working together; damage to any one of them redraws the boundaries of a person.',
+        'Deficit and compensation are two sides of one process: when a function is lost, the brain often rebuilds order through other channels, sometimes at the price of unexpected gifts.',
+        'A patient is a person first; neurological disease alters a world, not merely an organ.',
+        'Careful observation of neurological disorder is the most direct route to understanding how the healthy mind works.'
+      ],
+    key_questions_zh: [
+        '当大脑的某个功能模块失灵时，剩下的部分还能构成一个完整的“我”吗？',
+        '我们所谓的正常心智，究竟依赖多少彼此独立的系统同时运转？',
+        '疾病剥夺了一个人的能力之后，他还能以什么方式成为他自己？'
+      ],
+    key_questions_en: [
+        'When one functional module of the brain fails, can what remains still constitute a coherent self?',
+        'How many independent systems must run at once for what we call a normal mind to exist?',
+        'After illness takes away a person\'s capacities, in what sense can they still be themselves?'
+      ],
+    who_should_read_zh: '适合对认知科学、神经科学与人工智能感兴趣的读者，尤其是希望理解智能由哪些功能模块构成的工程与研究人员；也适合医学、心理与社工从业者，以及任何关心疾病与人格关系的普通读者。全书由短篇病例构成，无需专业背景即可进入。',
+    who_should_read_en: 'Readers interested in cognitive science, neuroscience and artificial intelligence, especially engineers and researchers who want to understand what functional modules intelligence is built from; also practitioners in medicine, psychology and social work, and general readers concerned with the relation between illness and personhood. The book consists of short case studies and requires no specialist background.',
+    reading_note_zh: '不必按顺序通读。可以先读第一部分的“缺失”，那是全书最经典的病例；再读关于音乐与数字天赋的部分，理解缺陷与补偿的另一面。每读完一则，不妨停下来问一句：这位病人失去了哪一项功能，大脑用什么替代了它。若想进一步深入，可接读 Antonio Damasio 的 Descartes\' Error 与 V. S. Ramachandran 的 Phantoms in the Brain，把病例层面的观察接到机制层面的解释上。',
+    reading_note_en: 'There is no need to read it straight through. Begin with the first section, on losses, which contains the most celebrated cases, then move to the chapters on musical and numerical gifts to see the other face of deficit and compensation. After each tale, pause and ask which function this patient lost and what the brain used instead. For a deeper follow-up, read Antonio Damasio\'s Descartes\' Error and V. S. Ramachandran\'s Phantoms in the Brain, which carry the observation from the level of the case to the level of mechanism.'
+  }
+};

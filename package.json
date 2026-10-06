@@ -1,0 +1,26 @@
+{
+  "name": "classics-library",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Classics Library — a bilingual (Chinese / English) personal library of classic books, ideas and mental models.",
+  "scripts": {
+    "build": "node src/build.mjs",
+    "serve": "node src/serve.mjs",
+    "dev": "node src/build.mjs && node src/serve.mjs",
+    "check": "node src/check.mjs",
+    "ingest": "node src/ingest-books.mjs",
+    "books:existing": "node src/ingest-books.mjs --existing",
+    "covers": "node src/covers-check.mjs",
+    "covers:ingest": "node src/covers-ingest.mjs",
+    "covers:list": "node src/gen-covers-md.mjs",
+    "covers:match-test": "node scripts/covers-match-selftest.mjs",
+    "content:brief": "node src/articles-brief.mjs",
+    "articles:brief": "node src/articles-brief.mjs",
+    "verify:my-reading": "node scripts/verify-my-reading.mjs",
+    "verify:my-reading:live": "node scripts/verify-my-reading-live.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

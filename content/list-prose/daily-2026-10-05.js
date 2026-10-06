@@ -1,0 +1,71 @@
+/** 每日推荐阅读指引 · 2026-10-05 */
+export const batch = {
+  'the-idea-factory': {
+    description_zh: '《贝尔实验室与美国革新大时代》是美国记者乔恩·格特纳 2012 年出版的科技史著作，讲述 AT&T 旗下贝尔实验室从 1920 年代创立，到 1980 年代被拆分并走向衰落的全过程。全书以默文·凯利（Mervin Kelly）为核心人物：他先做真空管，后出任实验室总裁，并主导了「固态研究」计划，正是这一计划催生了晶体管；与之并列的还有香农（信息论）、皮尔斯（卫星通信）、肖克利（晶体管物理）等人。格特纳着墨最多的不是灵感，而是条件——经费如何长期稳定、不同学科的人如何被安排在同一条长廊里、基础研究与产品开发之间如何维持张力。他还专辟一章写「错误」，记录贝尔实验室与 AT&T 如何错失自己发明的机会。晶体管的诞生在这里不是天才的瞬间，而是材料纯度、晶体生长与器件设计等一连串工程难题被逐个解决的结果。',
+    description_en: 'The Idea Factory is a 2012 work of technology history by the American journalist Jon Gertner. It follows Bell Labs, the research arm of AT&T, from its founding in the 1920s through its breakup and decline in the 1980s. The central figure is Mervin Kelly: a vacuum-tube man who became the labs\' president and drove the solid-state research program that produced the transistor. Alongside him stand Claude Shannon (information theory), John Pierce (satellite communications), and William Shockley (transistor physics). Gertner\'s real subject is not inspiration but conditions — how funding was kept stable for decades, how people from different disciplines were placed along the same corridor, and how the tension between basic research and product development was sustained. One chapter is devoted to \'Mistakes\', recounting how Bell Labs and AT&T failed to capture value from inventions they themselves had made. The transistor appears here not as a moment of genius but as the cumulative resolution of engineering problems in material purity, crystal growth, and device design.',
+    why_read_zh: '这本书回答的是一个极少被认真回答的问题：让突破性发现反复出现的，究竟是天才，还是制度？贝尔实验室在半个世纪里产出晶体管、激光、信息论、卫星通信与太阳能电池，靠的不是运气，而是一套被刻意设计出来的组织条件。对做产业与研发的人来说，它提供了罕见的反面案例——同一套制度在监管环境改变后如何迅速瓦解，「错误」一章尤其值得细读。对关注半导体与材料的读者，书中的固态研究、硅提纯与晶体生长章节，把「发明」还原成必须解决材料问题才能成立的事。',
+    why_read_en: 'The book answers a question that is rarely taken seriously: what makes breakthrough discoveries recur — genius, or institutions? Over half a century Bell Labs produced the transistor, the laser, information theory, satellite communications, and the solar cell, not through luck but through deliberately designed organizational conditions. For anyone in industry or R&D it offers a rare reverse case study: how the same system collapsed once its regulatory environment changed, with the \'Mistakes\' chapter especially worth close reading. For readers focused on semiconductors and materials, the chapters on solid-state research, silicon purification, and crystal growth reduce \'invention\' to something that only becomes possible once material problems are solved.',
+    core_ideas_zh: [
+        '创新的关键变量是制度设计，而非个体天赋：长期稳定的经费、免于短期业绩压力的研究自由，以及能容纳「无用之用」的组织结构，共同构成了贝尔实验室持续产出的前提。',
+        '物理空间塑造知识流动：凯利坚持把不同学科的人安排在同一条长廊里，走廊与公共空间被刻意设计成「偶遇」发生的场所，跨领域的连接由此产生。',
+        '强项不是单点发明，而是从材料到系统的完整链条：固态物理、材料提纯、晶体生长、器件设计与系统应用被串成一条线——晶体管必须等到锗与硅的纯度问题被解决，才可能走向量产。',
+        '基础研究与开发之间存在结构性张力：太偏基础则无法交付，太偏开发则丧失长期优势；贝尔实验室用「一个机构、两种任务」的方式长期维持这种张力，也因此与 AT&T 的垄断与监管环境深度绑定。',
+        '成功的制度也会失败：垄断地位、监管拆分与战略误判让贝尔实验室在 1980 年代后瓦解。能发明新东西的机构，未必能识别并留住自己的发明。'
+      ],
+    core_ideas_en: [
+        'The decisive variable in innovation is institutional design, not individual talent: decades of stable funding, research freedom insulated from short-term performance pressure, and an organization able to accommodate \'useless\' inquiry together made Bell Labs\' output possible.',
+        'Physical space shapes the flow of knowledge: Kelly insisted on putting people from different disciplines along the same corridor, and corridors and common areas were deliberately designed as places where encounters would happen.',
+        'The strength was not isolated invention but a complete chain from material to system: solid-state physics, materials purification, crystal growth, device design, and system application were linked — the transistor could only reach mass production once the purity of germanium and silicon had been solved.',
+        'A structural tension runs between basic research and development: too basic and nothing ships, too applied and long-term advantage is lost. Bell Labs sustained this tension through one institution carrying two missions, which also bound it tightly to AT&T\'s monopoly and its regulators.',
+        'Successful institutions fail too: monopoly, regulatory breakup, and strategic misjudgment dismantled Bell Labs after the 1980s. An organization capable of inventing new things is not necessarily able to recognize and keep its own inventions.'
+      ],
+    key_questions_zh: [
+        '什么样的组织条件，能让突破性的科学发现反复出现，而不是只偶然发生一次？',
+        '基础研究与商业开发之间应当如何配比，才能既不失长期优势，又不至于无法交付？',
+        '一个曾被认为最擅长发明的机构，为什么会错失自己发明的价值？'
+      ],
+    key_questions_en: [
+        'What organizational conditions allow breakthrough discoveries to recur rather than happen only once by accident?',
+        'How should basic research and commercial development be balanced so that neither long-term advantage nor delivery is sacrificed?',
+        'Why did an institution once regarded as the world\'s best at invention fail to capture the value of its own inventions?'
+      ],
+    who_should_read_zh: '适合科技行业从业者、研发管理者与创业者，尤其是关心「如何让创新持续发生」的人。对半导体、材料与电子工业史感兴趣的读者，会看到晶体管从实验室走向量产时的材料与工程细节；做产业研究与企业战略的人，可以把它当作创新制度的案例读本。不需要物理或工程背景。',
+    who_should_read_en: 'Suited to people working in technology, R&D managers, and founders — above all anyone asking how innovation can be made to happen repeatedly. Readers interested in semiconductors, materials, and the history of the electronics industry will find the materials and engineering detail behind the transistor\'s move from laboratory to production line; those in industry research and corporate strategy can use it as a casebook on the institutions of innovation. No physics or engineering background is required.',
+    reading_note_zh: '建议先读导论与第 5 章「固态研究」、第 10 章「硅」，把握晶体管与材料问题之间的关系；再读第 6 章「魔法屋」与第 12 章「激励者」，理解凯利的组织设计与空间安排；第 15 章「错误」与第 19 章「遗产」放在最后，用来评估这套制度为何终结。可与《晶体之火》对读：后者聚焦晶体管发明的物理过程，本书聚焦发明得以发生的组织条件。',
+    reading_note_en: 'Start with the introduction, then Chapter 5, \'Solid State\', and Chapter 10, \'Silicon\', to see how the transistor depended on materials problems. Next read Chapter 6, \'House of Magic\', and Chapter 12, \'An Instigator\', for Kelly\'s organizational and spatial design. Leave Chapter 15, \'Mistakes\', and Chapter 19, \'Inheritance\', for last, to judge why the system ended. Reading it alongside Crystal Fire is rewarding: that book follows the physics of the transistor\'s invention, while this one follows the organizational conditions that made the invention possible.'
+  },
+  'the-language-instinct': {
+    description_zh: '《语言本能》是认知心理学家史蒂芬·平克 1994 年出版的著作，也是把乔姆斯基式语言学带入大众视野的一本书。平克的核心主张是：语言不是文化教出来的习惯，也不是需要刻意训练的技艺，而是人脑中被自然选择塑造出来的一种生物本能——他称之为「语言本能」，并把它类比为蜘蛛结网、海狸筑坝。全书从多个方向论证这一点：儿童在缺乏系统教学与充分示范的条件下仍能掌握复杂的语法；聋童群体在无可学语言时会自行创造出一套有完整语法的新语言；失语症与脑损伤研究显示语言能力与特定脑区相关；皮钦语向克里奥尔语的演化也指向同样的结论。书中还专章批评「语言卫士」式的语法规定，指出许多被禁止的用法并无语言学依据；同时反驳「语言决定思维」的强版本，主张思维另有其表征系统。',
+    description_en: 'The Language Instinct is a 1994 book by the cognitive psychologist Steven Pinker and the work that brought Chomskyan linguistics to a general readership. Pinker\'s central claim is that language is neither a cultural habit nor a skill requiring deliberate training, but a biological instinct shaped in the human brain by natural selection — an instinct he compares to a spider\'s web-spinning or a beaver\'s dam-building. He argues the case from several directions: children master complex grammar without systematic instruction or adequate models; communities of deaf children with no language available to learn invent a new one with full grammar of its own; aphasia and brain-injury research ties language capacity to specific brain regions; and the emergence of creoles from pidgins points the same way. One chapter takes aim at \'language mavens\', showing that many proscribed usages have no linguistic basis, and he also rejects strong versions of the claim that language determines thought, arguing that thought has a representational system of its own.',
+    why_read_zh: '这是认知科学最清晰的一本入门书，也是理解「先天与后天」之争的最佳入口。平克没有把语言当作孤立的研究对象，而是把它放进进化、神经科学与儿童发展三条证据链里，逐条检验「语言是文化产物」这一常识假设。对今天关注大语言模型的读者，这本书提供了一个必要的对照视角：人类语言的习得机制与统计学习之间究竟是什么关系，哪些部分可能被机器复现，哪些部分看起来是生物专属的。它也是少数能把专业论证写得既严谨又好读的著作。',
+    why_read_en: 'This is the clearest introduction to cognitive science and the best entry point into the nature–nurture debate. Pinker never treats language as an isolated object of study; he places it within three chains of evidence — evolution, neuroscience, and child development — testing the common-sense assumption that language is a cultural artifact. For readers now following large language models, the book supplies a necessary counterpoint: what exactly is the relation between human language acquisition and statistical learning, which parts might be reproducible in machines, and which appear to be biologically specific. It is also one of the few works that makes a technical argument both rigorous and genuinely readable.',
+    core_ideas_zh: [
+        '语言是一种生物本能而非文化发明：它像视觉或直立行走一样，是人脑中被自然选择塑造出来的适应器，儿童无需系统教学即可习得。',
+        '语法能力是一种「心理器官」：人脑先天具备一套普遍语法的框架，具体语言之间的差异是在这套框架内被参数化的结果。',
+        '语言不等于思维：思维使用一套独立的表征系统（平克称之为「心语」，mentalese），语言只是把它表达出来的媒介之一。',
+        '儿童的语言习得是主动建构而非单纯模仿：皮钦语向克里奥尔语的演化、聋童自创手语等案例显示，人类会为输入不足的语言材料补上语法结构。',
+        '规范性语法规则多无科学依据：许多被「语言卫士」禁止的用法只是特定时代的文体偏好，与语言真实的运作机制无关。'
+      ],
+    core_ideas_en: [
+        'Language is a biological instinct rather than a cultural invention: like vision or upright walking, it is an adaptation shaped in the human brain by natural selection, and children acquire it without systematic instruction.',
+        'Grammatical competence is a kind of \'mental organ\': the brain comes with a framework of universal grammar, and the differences among particular languages are the result of parameters set within that framework.',
+        'Language is not the same as thought: thought runs on an independent representational system — what Pinker calls mentalese — and language is only one medium for expressing it.',
+        'Children actively construct language rather than merely imitating it: the emergence of creoles from pidgins, and deaf children inventing sign languages, show that humans supply grammatical structure when the input is too thin to explain it.',
+        'Most prescriptive grammar rules have no scientific basis: many usages banned by \'language mavens\' reflect the stylistic preferences of a particular era rather than the actual workings of language.'
+      ],
+    key_questions_zh: [
+        '语言能力是先天的还是后天习得的？如果两者都在起作用，各自的边界在哪里？',
+        '语言与思维是什么关系——我们是「用语言思考」，还是先有思想、再把它翻译成语言？',
+        '一套完整的语法结构，如何能在缺乏教学与充分示范的条件下，被儿童自行建立起来？'
+      ],
+    key_questions_en: [
+        'Is language innate or learned — and if both are at work, where is the boundary between them?',
+        'What is the relation between language and thought: do we think in language, or do we form thoughts first and then translate them into language?',
+        'How can a complete grammatical structure be built by children themselves, in the absence of instruction and adequate models?'
+      ],
+    who_should_read_zh: '适合对认知科学、语言学、进化心理学与人工智能感兴趣的读者。关心大语言模型的读者会从中获得一个重要的对照视角：人类语言的习得机制与统计学习之间究竟是什么关系。教师、译者以及写作与内容从业者，也能从中获得判断语法规则是否成立的更可靠标准。不需要任何语言学基础。',
+    who_should_read_en: 'Suited to readers interested in cognitive science, linguistics, evolutionary psychology, and artificial intelligence. Those following large language models will find an important counterpoint: what is the actual relation between human language acquisition and statistical learning? Teachers, translators, and anyone working with writing and content will also take away more reliable criteria for judging whether a grammatical rule holds. No prior background in linguistics is required.',
+    reading_note_zh: '可按主题选读。建议先读第 1 章「语言本能」确立核心主张，再读第 2 章「语言官能」与第 7 章「语言器官与语法基因」了解生物学证据；第 9 章「语言卫士」最好玩，也最实用。第 3 章关于「心语」的部分较抽象，可留到最后。可与《心智社会》对读：明斯基从计算结构出发解释心智，平克从进化与语言学出发解释语言，两者都主张心智具有先天的组织结构。',
+    reading_note_en: 'It can be read by topic rather than straight through. Begin with Chapter 1, \'An Instinct to Acquire an Art\', to fix the central claim, then Chapters 2 and 7 for the biological evidence on the language faculty and the \'grammar gene\'. Chapter 9, on language mavens, is the most enjoyable and the most practically useful. Chapter 3, on mentalese, is the most abstract and can wait until last. Reading it alongside The Society of Mind is rewarding: Minsky explains mind from computational structure, Pinker explains language from evolution and linguistics, and both hold that the mind has an innate organizational structure.'
+  }
+};

@@ -1,0 +1,370 @@
+{
+  "site": {
+    "name": "Classics Library",
+    "name_full": "Classics Library",
+    "tagline": "Read the classics. Think deeper.",
+    "sub_tagline": "Build your model of the world through the classics.",
+    "curated_by": "Curated by Rayman",
+    "description": "A personal library of classic books for understanding the world: AI, finance, investing, economics, history, business, philosophy, and technology."
+  },
+  "nav": {
+    "home": "Home",
+    "library": "Library",
+    "topics": "Topics",
+    "paths": "Reading Paths",
+    "articles": "Articles",
+    "notes": "Reading Notes",
+    "myReading": "My Reading",
+    "about": "About",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "lang": {
+    "zh": "中文",
+    "en": "EN",
+    "label": "Language",
+    "switchTo": "Switch to Chinese",
+    "current": "Current language"
+  },
+  "home": {
+    "hero_title": "Build your model of the world through the classics.",
+    "hero_sub": "AI · Finance · Investment · History · Economics · Business · Philosophy · Technology",
+    "hero_lede": "Skip the noise, follow the underlying patterns. One book to understand a field, a set of classics to build a cognitive map.",
+    "search_placeholder": "Search books, authors, topics, keywords...",
+    "explore": "Explore the Classics",
+    "browse_library": "Browse the Library",
+    "featured_title": "Featured Classics",
+    "featured_sub": "A starting point from a hundred books.",
+    "botd_label": "Today's Classic Book Pick",
+    "botd_en": "BOOK OF THE DAY",
+    "botd_why": "Why this book",
+    "botd_idea": "Today's Idea",
+    "botd_recent_title": "Last 7 Days",
+    "botd_recent_sub": "Two books a day, deduplicated against the whole library.",
+    "botd_read": "Read this book",
+    "botd_all": "See all books",
+    "categories_title": "Categories",
+    "categories_sub": "Twelve doorways into the world.",
+    "paths_title": "Reading Paths",
+    "paths_sub": "Sequence matters more than the list.",
+    "topics_title": "Topics",
+    "topics_sub": "Coordinates of thought that cut across categories.",
+    "articles_title": "Latest Articles",
+    "articles_sub": "Longer writing around books and ideas.",
+    "map_title": "Knowledge Map",
+    "map_sub": "How books connect into a map of understanding.",
+    "map_note": "Every node exists in both English and Chinese. A single book can connect to several topics.",
+    "view_all": "View all",
+    "view_all_books": "View all books",
+    "stats_total": "books",
+    "stats_books": "curated classics",
+    "stats_categories": "categories",
+    "stats_topics": "topics",
+    "stats_paths": "reading paths",
+    "stats_list": "from reading lists"
+  },
+  "library": {
+    "title": "Library",
+    "sub": "248 books — 100 curated classics plus 148 titles from reading lists — across twelve fields, on one map of understanding.",
+    "intro": "This is not a bestseller list. Every book was selected by one test: does it explain an underlying pattern, and will it still be worth rereading in ten years?",
+    "all": "All",
+    "category": "Category",
+    "topic": "Topic",
+    "difficulty": "Difficulty",
+    "tag": "Tag",
+    "sort": "Sort",
+    "sort_index": "Classic Index",
+    "sort_year_new": "Year (newest first)",
+    "sort_year_old": "Year (oldest first)",
+    "sort_title": "Title",
+    "results": "books",
+    "no_results": "No books match these filters.",
+    "clear": "Clear filters",
+    "filter_hint": "Filter by category, or search directly.",
+    "filter_source": "Source",
+    "source_all": "All",
+    "source_curated": "Curated",
+    "source_list": "From reading lists",
+    "list_note": "The following titles come from the reading lists of the channels AZM and XMS. They are included as lightweight entries without long-form commentary."
+  },
+  "book": {
+    "what_is_it": "What is this book about?",
+    "why_read": "Why read it?",
+    "core_ideas": "Core Ideas",
+    "key_questions": "What questions does this book try to answer?",
+    "who_should_read": "Who should read it?",
+    "reading_note": "How to Read It",
+    "details": "Book Details",
+    "author": "Author",
+    "year": "Published",
+    "category": "Category",
+    "difficulty": "Difficulty",
+    "reading_time": "Reading time",
+    "classic_index": "Classic Index",
+    "index_note": "The Classic Index is not an objective scientific measure. It is this site's personal curation score.",
+    "index_dims": "Dimensions",
+    "tags": "Tags",
+    "topics": "Topics",
+    "related": "Related Books",
+    "if_you_like": "If you like this book",
+    "more_by_author": "More by this author",
+    "read_notes": "Reading notes",
+    "back_to_library": "Back to the library",
+    "original_language": "Original language",
+    "add_to_reading": "Add to My Reading",
+    "in_reading": "In your reading list",
+    "prev": "Previous",
+    "next": "Next",
+    "from_list": "This is a lightweight entry imported from a reading list",
+    "no_prose": "No long-form commentary has been written for this title. Below is the core theme as framed by the source channel.",
+    "year_unknown": "Year unverified",
+    "theme": "Source theme",
+    "see_source": "View source"
+  },
+  "index": {
+    "historical_influence": "Historical Influence",
+    "intellectual_depth": "Intellectual Depth",
+    "long_term_relevance": "Long-term Relevance",
+    "cross_domain_influence": "Cross-domain Influence",
+    "intellectual_value": "Intellectual Value",
+    "practical_value": "Practical Value",
+    "label": "Classic Index",
+    "unit": "/ 100"
+  },
+  "difficulty": {
+    "1": "Beginner",
+    "2": "Intermediate",
+    "3": "Advanced",
+    "label": "Difficulty"
+  },
+  "categories": {
+    "title": "Categories",
+    "sub": "Twelve doorways into the world.",
+    "intro": "A category is not a shelf. It is an entrance — and behind each entrance is a set of questions, not a pile of books.",
+    "books_in": "books",
+    "explore": "Enter category"
+  },
+  "topics": {
+    "title": "Topics",
+    "sub": "Coordinates of thought that cut across categories.",
+    "intro": "A book can belong to several topics at once. Topics are the threads that connect otherwise separate fields.",
+    "books": "Books",
+    "related_topics": "Related topics",
+    "count": "books"
+  },
+  "authors": {
+    "title": "Authors",
+    "sub": "The people who wrote these classics.",
+    "intro": "Reading the classics is ultimately reading people. Here are all the authors in the library, with their central ideas.",
+    "biography": "Biography",
+    "books": "Books",
+    "ideas": "Central Ideas",
+    "related_topics": "Related topics",
+    "books_count": "books in the library"
+  },
+  "paths": {
+    "title": "Reading Paths",
+    "sub": "Sequence matters more than the list.",
+    "intro": "A list tells you what to read. A path tells you what to read first. Each of these five paths is ordered by how understanding actually accumulates.",
+    "level": "Level",
+    "level_unit": "",
+    "books": "books",
+    "start": "Start at level 1",
+    "all_paths": "All paths",
+    "steps": "levels"
+  },
+  "articles": {
+    "title": "Articles",
+    "sub": "Longer writing around books and ideas.",
+    "intro": "Articles are the connective tissue between books: putting several of them side by side to answer a larger question.",
+    "read_more": "Read more",
+    "coming_soon": "English version coming soon.",
+    "coming_soon_zh": "Chinese version coming soon.",
+    "related_books": "Related books",
+    "related_topics": "Related topics",
+    "published": "Published",
+    "back": "Back to articles",
+    "lang_note_zh": "This article is only available in Chinese",
+    "lang_note_en": "This article is available in English only",
+    "other_lang": "Other language version"
+  },
+  "reading": {
+    "title": "My Reading",
+    "sub": "A living record of what I am reading.",
+    "intro": "Reading status is stored in your own browser. Use the button on any book page to change it.",
+    "my_list": "My list",
+    "curated": "Starting list",
+    "count": "books",
+    "clear": "Reset local status",
+    "cleared": "Reset done",
+    "status": {
+      "want": "Want to Read",
+      "reading": "Reading",
+      "finished": "Finished",
+      "rereading": "Re-reading",
+      "favorite": "Favorite"
+    },
+    "filter_all": "All statuses"
+  },
+  "notes": {
+    "title": "Reading Notes",
+    "sub": "Not a summary of the book, but a record of what it actually changed.",
+    "intro": "Each note takes one core insight and explains why it is worth remembering. Entries labelled \"My Thinking\" are the site owner's personal notes; entries labelled \"Editor's Note\" are the site's own reading.",
+    "book": "Book",
+    "date": "Date",
+    "key_insight": "Key Insight",
+    "quote": "Quote",
+    "my_thinking": "My Thinking",
+    "editorial_note": "Editor's Note",
+    "related_topics": "Related topics",
+    "read_book": "View book"
+  },
+  "search": {
+    "title": "Search",
+    "sub": "Search in Chinese or English.",
+    "placeholder": "Search books, authors, topics, keywords...",
+    "button": "Search",
+    "results": "Found",
+    "result_unit": "results",
+    "no_results": "Nothing matched your search.",
+    "no_results_hint": "Try a shorter keyword, or search a field name such as \"AI\", \"investing\", \"history\", or \"chips\".",
+    "try": "Try searching",
+    "type_book": "Book",
+    "type_author": "Author",
+    "type_topic": "Topic",
+    "type_category": "Category",
+    "type_article": "Article",
+    "type_path": "Reading Path",
+    "bilingual_hint": "Bilingual search is supported: searching \"人工智能\" also finds Artificial Intelligence, AI, and AGI.",
+    "open": "Open search page"
+  },
+  "about": {
+    "title": "About",
+    "sub": "A bilingual personal library of books, ideas, and mental models.",
+    "p1": "This site is not a display of what I have read. It is a personal navigation system for knowledge: using classic books as entry points to understand AI, technology, finance, investment, economics, history, society, business, and ideas.",
+    "p2": "It rests on three simple judgments. First, read fewer bad books and more classics. Second, follow underlying patterns rather than news cycles. Third, use one book to understand a field and a set of classics to build a cognitive map.",
+    "p3": "All Chinese and English content is written separately, not machine translated. Bibliographic details are verified, and every summary is original.",
+    "how_title": "Structure",
+    "how_body": "Book → Idea → Topic → Article → Knowledge Map → Personal World Model. You can enter at any layer, or follow it through.",
+    "principles_title": "Three principles",
+    "principles": [
+      {
+        "title": "Classics first",
+        "body": "Only books that explain underlying patterns and remain worth rereading a decade later. Popularity is not a reason to include a book."
+      },
+      {
+        "title": "Bilingual by design",
+        "body": "Chinese and English are two independent content fields, each written naturally, consistent in meaning but not word-for-word."
+      },
+      {
+        "title": "Built to last",
+        "body": "Content is plain text and structured data. It depends on no commercial platform and can be migrated, backed up, and republished at any time."
+      }
+    ],
+    "stack_title": "How it is built",
+    "stack_body": "Statically generated, with no runtime dependencies. The site uses files as its database and renders every page at build time, which makes it fast, durable, and easy to move.",
+    "contact_title": "About the curator",
+    "contact_body": "Rayman works in semiconductor materials, invests in US equities, and follows AI, materials science, and cognitive methods closely. This library is his personal reading and thinking system."
+  },
+  "map": {
+    "title": "Knowledge Map",
+    "sub": "How books, ideas, and topics connect into a map.",
+    "root_label": "Classics Library",
+    "hint": "Click any node to open the topic.",
+    "note": "Every node exists in both English and Chinese. A single book can connect to several topics."
+  },
+  "footer": {
+    "tagline": "Read the classics. Think deeper.",
+    "note": "Build your model of the world through the classics.",
+    "curated": "Curated by Rayman",
+    "sections": "Navigate",
+    "explore": "Explore",
+    "language": "Language",
+    "copyright": "A personal knowledge library. All summaries are original; book rights belong to their authors and publishers."
+  },
+  "common": {
+    "back": "Back",
+    "home": "Home",
+    "all": "All",
+    "more": "More",
+    "books": "Books",
+    "book": "books",
+    "hours": "hours",
+    "year": "",
+    "updated": "Updated",
+    "skip_to_content": "Skip to content",
+    "loading": "Loading...",
+    "site_language": "Site language",
+    "switch_lang": "Switch language",
+    "no_content": "No content yet"
+  },
+  "notfound": {
+    "title": "Page not found",
+    "text": "This page may have moved, or it may never have existed.",
+    "cta": "Back to home"
+  },
+  "redirect": {
+    "title": "Page merged · Classics Library",
+    "body": "This address has been merged into a new page. Redirecting to:"
+  },
+  "meta": {
+    "home": {
+      "title": "Classics Library · Build your model of the world through the classics",
+      "description": "A bilingual personal library of 248 books: 100 curated classics plus 148 titles imported from reading lists, 12 categories, and 5 reading paths for understanding AI, finance, investing, economics, history, business, and philosophy."
+    },
+    "library": {
+      "title": "Library · All 248 books",
+      "description": "Browse all 248 books by category, source, topic, and difficulty. The 100 curated classics each carry a bilingual summary, core ideas, and why they still matter; the 148 imported titles carry bibliographic facts and the source channel’s framing."
+    },
+    "categories": {
+      "title": "Categories · Classics Library",
+      "description": "From AI, technology, finance, and investing to history, philosophy, psychology, and literature — twelve doorways into the world."
+    },
+    "topics": {
+      "title": "Topics · Classics Library",
+      "description": "Coordinates of thought across categories: risk, uncertainty, innovation, the monetary system, decision-making, and civilization."
+    },
+    "authors": {
+      "title": "Authors · Classics Library",
+      "description": "The people behind the classics: bilingual biographies, central ideas, and their books."
+    },
+    "paths": {
+      "title": "Reading Paths · Classics Library",
+      "description": "Five reading paths ordered by how understanding accumulates: AI, investing from first principles, world history, economics, and thinking better."
+    },
+    "articles": {
+      "title": "Articles · Classics Library",
+      "description": "Longer writing around books and ideas: a reading list for the AI era, a semiconductor reading path, mental models, and what history is for."
+    },
+    "reading": {
+      "title": "My Reading · Classics Library",
+      "description": "Personal reading status: want to read, reading, finished, re-reading, and favorites."
+    },
+    "notes": {
+      "title": "Reading Notes · Classics Library",
+      "description": "Not a summary of the book, but a record of what it actually changed."
+    },
+    "about": {
+      "title": "About · Classics Library",
+      "description": "A bilingual personal library of classic books, ideas, and mental models."
+    },
+    "search": {
+      "title": "Search · Classics Library",
+      "description": "Search every book, author, topic, and article in Chinese or English."
+    },
+    "notfound": {
+      "title": "Page not found · Classics Library",
+      "description": "The page you are looking for could not be found."
+    }
+  },
+  "source": {
+    "anzhengming": "AZM's list",
+    "xiaomingshuo": "XMS's list",
+    "curated": "Curated",
+    "daily": "Daily Pick",
+    "label": "Source",
+    "list_label": "Source list",
+    "also_in": "Also in",
+    "note": "Imported from a third-party reading list or added as a daily pick — bibliographic facts, the source framing, and a full reading guide."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_说明": "每日推荐载荷模板。复制为 _inbox/YYYY-MM-DD.json 后填写，再执行 node src/ingest-books.mjs --file _inbox/YYYY-MM-DD.json。取不到的字段填 null 或空字符串，绝不编造。",
+  "date": "YYYY-MM-DD",
+  "books": [
+    {
+      "slug": "kebab-case-english-slug",
+      "category": "ai | technology | finance | investment | us-stocks | economics | history | business | philosophy | psychology | society | literature",
+      "title_zh": "中文书名",
+      "title_en": "English Title",
+      "author": "author-slug-lowercase-hyphen",
+      "author_zh": "作者中文名",
+      "author_en": "Author Name",
+      "nationality_zh": "国籍",
+      "nationality_en": "Nationality",
+      "year": 1986,
+      "original_language": "en",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "一句话核心主题",
+      "theme_en": "One-line core theme",
+      "tags": ["ai", "agi", "cognitive-science"],
+      "topics": ["ai", "cognitive-science"],
+      "prose": {
+        "description_zh": "这本书讲什么（150-250 字，客观概述，不剧透）",
+        "description_en": "What this book is about (150-250 words)",
+        "why_read_zh": "为什么值得读（100-180 字）",
+        "why_read_en": "Why it is worth reading",
+        "core_ideas_zh": ["核心思想 1", "核心思想 2", "核心思想 3"],
+        "core_ideas_en": ["Core idea 1", "Core idea 2", "Core idea 3"],
+        "key_questions_zh": ["它试图回答的问题 1", "它试图回答的问题 2"],
+        "key_questions_en": ["Question 1", "Question 2"],
+        "who_should_read_zh": "适合谁读（80-120 字）",
+        "who_should_read_en": "Who should read it",
+        "reading_note_zh": "怎么读（阅读顺序 / 重点章节 / 配合读物，80-150 字）",
+        "reading_note_en": "How to read it"
+      }
+    }
+  ]
+}

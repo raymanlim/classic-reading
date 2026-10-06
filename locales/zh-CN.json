@@ -1,0 +1,370 @@
+{
+  "site": {
+    "name": "经典书库",
+    "name_full": "Classics Library",
+    "tagline": "少读烂书，多读经典。",
+    "sub_tagline": "用经典书籍，建立自己的世界模型。",
+    "curated_by": "由 Rayman 策展",
+    "description": "一个通过经典书籍理解世界的个人知识库：AI、金融、投资、经济、历史、商业、哲学与科技。"
+  },
+  "nav": {
+    "home": "首页",
+    "library": "经典书库",
+    "topics": "主题",
+    "paths": "阅读路线",
+    "articles": "文章",
+    "notes": "阅读笔记",
+    "myReading": "我的阅读",
+    "about": "关于",
+    "menu": "菜单",
+    "close": "关闭"
+  },
+  "lang": {
+    "zh": "中文",
+    "en": "EN",
+    "label": "语言",
+    "switchTo": "切换到英文",
+    "current": "当前语言"
+  },
+  "home": {
+    "hero_title": "用经典书籍，建立自己的世界模型。",
+    "hero_sub": "AI · 金融 · 投资 · 历史 · 经济 · 商业 · 哲学 · 科技",
+    "hero_lede": "不追热点，追底层规律。用一本书理解一个领域，用一组经典构建认知地图。",
+    "search_placeholder": "搜索书名、作者、主题、关键词……",
+    "explore": "探索经典",
+    "browse_library": "浏览书库",
+    "featured_title": "精选经典",
+    "featured_sub": "从 100 本经典中，先看这几本。",
+    "botd_label": "今日经典书籍推荐",
+    "botd_en": "BOOK OF THE DAY",
+    "botd_why": "为什么推荐这本",
+    "botd_idea": "今日思想",
+    "botd_recent_title": "近 7 日推荐",
+    "botd_recent_sub": "每日自动推荐两本，已与全库书目去重。",
+    "botd_read": "阅读本书",
+    "botd_all": "查看全部书籍",
+    "categories_title": "分类",
+    "categories_sub": "十二个进入世界的入口。",
+    "paths_title": "阅读路线",
+    "paths_sub": "顺序比书单更重要。",
+    "topics_title": "主题",
+    "topics_sub": "跨越分类的思想坐标。",
+    "articles_title": "最新文章",
+    "articles_sub": "围绕书与思想的长文。",
+    "map_title": "知识地图",
+    "map_sub": "书籍如何连成一张认知地图。",
+    "map_note": "每个节点同时是英文与中文。一本书可以连接多个主题。",
+    "view_all": "查看全部",
+    "view_all_books": "查看全部书籍",
+    "stats_total": "本书",
+    "stats_books": "本策展经典",
+    "stats_categories": "个分类",
+    "stats_topics": "个主题",
+    "stats_paths": "条阅读路线",
+    "stats_list": "本书单推荐"
+  },
+  "library": {
+    "title": "经典书库",
+    "sub": "248 本书：100 本策展经典 + 148 本书单推荐，十二个领域，一套认知地图。",
+    "intro": "这里不是畅销榜。每一本都经过筛选：它是否解释了一个底层规律，是否在十年后仍然值得重读。",
+    "all": "全部",
+    "category": "分类",
+    "topic": "主题",
+    "difficulty": "难度",
+    "tag": "标签",
+    "sort": "排序",
+    "sort_index": "经典指数",
+    "sort_year_new": "年份（新→旧）",
+    "sort_year_old": "年份（旧→新）",
+    "sort_title": "书名",
+    "results": "本",
+    "no_results": "没有符合条件的书籍。",
+    "clear": "清除筛选",
+    "filter_hint": "点击筛选，或直接搜索。",
+    "filter_source": "来源",
+    "source_all": "全部",
+    "source_curated": "策展经典",
+    "source_list": "书单导入",
+    "list_note": "以下为「AZM / XMS」频道推荐书目，作为轻量条目收录，暂未撰写深度解读。"
+  },
+  "book": {
+    "what_is_it": "这本书讲什么？",
+    "why_read": "为什么值得读？",
+    "core_ideas": "核心思想",
+    "key_questions": "这本书试图回答什么？",
+    "who_should_read": "适合谁？",
+    "reading_note": "阅读指引",
+    "details": "书籍信息",
+    "author": "作者",
+    "year": "出版年份",
+    "category": "分类",
+    "difficulty": "阅读难度",
+    "reading_time": "预计阅读",
+    "classic_index": "经典指数",
+    "index_note": "经典指数不是客观科学指标，而是本站的个人策展指标。",
+    "index_dims": "维度",
+    "tags": "标签",
+    "topics": "主题",
+    "related": "相关书籍",
+    "if_you_like": "如果你喜欢这本书",
+    "more_by_author": "同一作者的其他著作",
+    "read_notes": "相关阅读笔记",
+    "back_to_library": "返回书库",
+    "original_language": "原书语言",
+    "add_to_reading": "加入我的阅读",
+    "in_reading": "已在阅读清单",
+    "prev": "上一本",
+    "next": "下一本",
+    "from_list": "本条为书单导入的轻量条目",
+    "no_prose": "该书尚未撰写深度解读，以下为来源频道给出的核心主题。",
+    "year_unknown": "年份待考",
+    "theme": "来源主题",
+    "see_source": "查看来源"
+  },
+  "index": {
+    "historical_influence": "历史影响力",
+    "intellectual_depth": "思想深度",
+    "long_term_relevance": "长期价值",
+    "cross_domain_influence": "跨领域影响力",
+    "intellectual_value": "思想价值",
+    "practical_value": "实践价值",
+    "label": "经典指数",
+    "unit": "分"
+  },
+  "difficulty": {
+    "1": "入门",
+    "2": "中等",
+    "3": "艰深",
+    "label": "难度"
+  },
+  "categories": {
+    "title": "分类",
+    "sub": "十二个进入世界的入口。",
+    "intro": "分类不是书架，而是入口。每个入口背后是一组问题，而不是一堆书。",
+    "books_in": "本著作",
+    "explore": "进入分类"
+  },
+  "topics": {
+    "title": "主题",
+    "sub": "跨越分类的思想坐标。",
+    "intro": "同一本书可以属于多个主题。主题是连接不同领域的线索。",
+    "books": "相关书籍",
+    "related_topics": "相关主题",
+    "count": "本"
+  },
+  "authors": {
+    "title": "作者",
+    "sub": "写下这些经典的人。",
+    "intro": "读经典最终是读人。这里汇集了书库中所有作者，以及他们的核心思想。",
+    "biography": "作者简介",
+    "books": "著作",
+    "ideas": "核心思想",
+    "related_topics": "相关主题",
+    "books_count": "本著作收录"
+  },
+  "paths": {
+    "title": "阅读路线",
+    "sub": "顺序比书单更重要。",
+    "intro": "书单告诉你读什么，路线告诉你先读什么。以下五条路线，每一条都按认知顺序排列。",
+    "level": "第",
+    "level_unit": "级",
+    "books": "本",
+    "start": "从第 1 级开始",
+    "all_paths": "全部路线",
+    "steps": "级"
+  },
+  "articles": {
+    "title": "文章",
+    "sub": "围绕书与思想的长文。",
+    "intro": "文章是书籍之间的连接组织：把几本书放在一起，回答一个更大的问题。",
+    "read_more": "阅读全文",
+    "coming_soon": "英文版即将推出。",
+    "coming_soon_zh": "中文版即将推出。",
+    "related_books": "相关书籍",
+    "related_topics": "相关主题",
+    "published": "发布于",
+    "back": "返回文章列表",
+    "lang_note_zh": "本文仅有中文版",
+    "lang_note_en": "This article is available in English only",
+    "other_lang": "其他语言版本"
+  },
+  "reading": {
+    "title": "我的阅读",
+    "sub": "一份持续更新的个人阅读状态。",
+    "intro": "阅读状态保存在你自己的浏览器里，点击书籍详情页的按钮即可修改。",
+    "my_list": "我的清单",
+    "curated": "初始清单",
+    "count": "本",
+    "clear": "重置本地状态",
+    "cleared": "已重置",
+    "status": {
+      "want": "想读",
+      "reading": "正在阅读",
+      "finished": "已读",
+      "rereading": "重读",
+      "favorite": "收藏"
+    },
+    "filter_all": "全部状态"
+  },
+  "notes": {
+    "title": "阅读笔记",
+    "sub": "不复述书的内容，而是留下一本书真正改变了什么。",
+    "intro": "每则笔记聚焦一个核心洞见，并说明它值得被记住的理由。标为「我的思考」的是站点所有者的个人笔记，标为「编者笔记」的是站点的解读。",
+    "book": "书籍",
+    "date": "日期",
+    "key_insight": "核心洞见",
+    "quote": "摘录",
+    "my_thinking": "我的思考",
+    "editorial_note": "编者笔记",
+    "related_topics": "相关主题",
+    "read_book": "查看书籍"
+  },
+  "search": {
+    "title": "搜索",
+    "sub": "中文或英文，都能找到。",
+    "placeholder": "搜索书名、作者、主题、关键词……",
+    "button": "搜索",
+    "results": "找到",
+    "result_unit": "个结果",
+    "no_results": "没有找到匹配内容。",
+    "no_results_hint": "试试更短的关键词，或搜索领域名称，例如「人工智能」「投资」「历史」「芯片」。",
+    "try": "试试搜索",
+    "type_book": "书籍",
+    "type_author": "作者",
+    "type_topic": "主题",
+    "type_category": "分类",
+    "type_article": "文章",
+    "type_path": "阅读路线",
+    "bilingual_hint": "支持中英文混合检索：搜「人工智能」可以找到 Artificial Intelligence、AI、AGI。",
+    "open": "打开搜索页"
+  },
+  "about": {
+    "title": "关于",
+    "sub": "一个中英文双语的个人经典书籍库、思想库与世界模型入口。",
+    "p1": "这个网站不是「我读过哪些书」的展示，而是一套个人知识导航系统：通过经典书籍，理解 AI、科技、金融、投资、经济、历史、社会、商业与思想。",
+    "p2": "它遵循三个很朴素的判断。第一，少读烂书，多读经典。第二，不追热点，追底层规律。第三，用一本书理解一个领域，用一组经典构建认知地图。",
+    "p3": "所有中文与英文内容都是分别撰写的，不是机器翻译。书目信息经过核验，观点概括均为原创。",
+    "how_title": "知识结构",
+    "how_body": "书籍 → 思想 → 主题 → 文章 → 知识地图 → 个人世界模型。每一层都可以单独进入，也可以顺着读下去。",
+    "principles_title": "三条原则",
+    "principles": [
+      {
+        "title": "经典优先",
+        "body": "只收录那些解释底层规律、十年后仍值得重读的书。热门程度不作为入选理由。"
+      },
+      {
+        "title": "双语对等",
+        "body": "中英文是两个独立内容字段，各自自然表达，语义一致而不逐字对应。"
+      },
+      {
+        "title": "可长期维护",
+        "body": "内容是纯文本与结构化数据，不依赖任何商业平台，随时可以迁移、备份与再发布。"
+      }
+    ],
+    "stack_title": "技术说明",
+    "stack_body": "静态生成、无运行时依赖、内容即数据。网站以文件为数据库，构建时生成全部页面，因此加载快、可长期保存、易于迁移。",
+    "contact_title": "关于策展人",
+    "contact_body": "Rayman：半导体材料行业从业者，美股投资者，长期关注 AI、材料科学与认知方法。这个书库是他的个人阅读与思考系统。"
+  },
+  "map": {
+    "title": "知识地图",
+    "sub": "书籍、思想与主题如何连成一张地图。",
+    "root_label": "经典书库",
+    "hint": "点击任一节点进入对应主题。",
+    "note": "每个节点同时存在英文名称与中文名称。一本书可以连接多个主题。"
+  },
+  "footer": {
+    "tagline": "Read the classics. Think deeper.",
+    "note": "用经典书籍，建立自己的世界模型。",
+    "curated": "Curated by Rayman",
+    "sections": "导航",
+    "explore": "探索",
+    "language": "语言",
+    "copyright": "个人知识库 · 内容为原创概括，书籍版权归原作者与出版方所有。"
+  },
+  "common": {
+    "back": "返回",
+    "home": "首页",
+    "all": "全部",
+    "more": "更多",
+    "books": "书籍",
+    "book": "本",
+    "hours": "小时",
+    "year": "年",
+    "updated": "更新于",
+    "skip_to_content": "跳到主要内容",
+    "loading": "加载中……",
+    "site_language": "网站语言",
+    "switch_lang": "切换语言",
+    "no_content": "暂无内容"
+  },
+  "notfound": {
+    "title": "页面不存在",
+    "text": "这个页面可能已被移动或从未存在。",
+    "cta": "回到首页"
+  },
+  "redirect": {
+    "title": "页面已合并 · 经典书库",
+    "body": "这个地址已合并到新的页面，正在跳转："
+  },
+  "meta": {
+    "home": {
+      "title": "经典书库 · 用经典书籍，建立自己的世界模型",
+      "description": "一个中英文双语的个人经典书籍库：248 本书（100 本策展经典 + 148 本书单推荐）、12 个分类、5 条阅读路线，通过书籍理解 AI、金融、投资、经济、历史、商业与哲学。"
+    },
+    "library": {
+      "title": "经典书库 · 全部 248 本书",
+      "description": "按分类、来源、主题与难度浏览全部 248 本书——100 本策展经典均有中英双语简介、核心思想与推荐理由，148 本书单推荐条目收录书目信息与来源主题。"
+    },
+    "categories": {
+      "title": "分类 · 经典书库",
+      "description": "从 AI、科技、金融、投资到历史、哲学、心理学与文学，十二个进入世界的入口。"
+    },
+    "topics": {
+      "title": "主题 · 经典书库",
+      "description": "跨越分类的思想坐标：风险、不确定性、创新、货币体系、决策与文明。"
+    },
+    "authors": {
+      "title": "作者 · 经典书库",
+      "description": "写下这些经典的人：作者双语简介、核心思想与著作列表。"
+    },
+    "paths": {
+      "title": "阅读路线 · 经典书库",
+      "description": "五条按认知顺序排列的阅读路线：AI 入门、投资第一性原理、世界历史、经济学、认知升级。"
+    },
+    "articles": {
+      "title": "文章 · 经典书库",
+      "description": "围绕书籍与思想的长文：AI 阅读清单、半导体的阅读路径、心智模型与历史的意义。"
+    },
+    "reading": {
+      "title": "我的阅读 · 经典书库",
+      "description": "个人阅读状态：想读、正在阅读、已读、重读与收藏。"
+    },
+    "notes": {
+      "title": "阅读笔记 · 经典书库",
+      "description": "不复述书的内容，而是留下一本书真正改变了什么。"
+    },
+    "about": {
+      "title": "关于 · 经典书库",
+      "description": "一个中英文双语的个人经典书籍库、思想库与世界模型入口。"
+    },
+    "search": {
+      "title": "搜索 · 经典书库",
+      "description": "搜索全部书籍、作者、主题与文章，支持中英文混合检索。"
+    },
+    "notfound": {
+      "title": "页面不存在 · 经典书库",
+      "description": "找不到你要访问的页面。"
+    }
+  },
+  "source": {
+    "anzhengming": "AZM推荐",
+    "xiaomingshuo": "XMS推荐",
+    "curated": "策展经典",
+    "daily": "每日推荐",
+    "label": "来源",
+    "list_label": "来源书单",
+    "also_in": "另见",
+    "note": "本条来自第三方频道推荐书目或每日推荐，收录书目事实信息、来源主题与完整阅读指引。"
+  }
+}
