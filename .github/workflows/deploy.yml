@@ -1,0 +1,45 @@
+name: Build & Deploy
+
+# 触发：push 到 main，或手动触发
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# 最小权限：只需读代码
+permissions:
+  contents: read
+
+# 同一分支的连续推送只保留最后一次，避免并发部署互相覆盖
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # 本项目零 npm 依赖，不需要 npm install
+      - name: Build
+        run: node src/build.mjs
+
+      # 门禁：数据完整性 + 死链。不通过就不部署，避免坏站点上公网
+      - name: Verify
+        run: node src/check.mjs
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=classic-reading --branch=main
