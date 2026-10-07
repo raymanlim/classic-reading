@@ -1,0 +1,60 @@
+name: Verify
+
+# 本工作流只做「校验」，不做部署。部署由 deploy.yml 完成（Cloudflare Pages）。
+#
+# 与 deploy.yml 的分工：
+#   - deploy.yml : push 到 main 时 build + check + 部署（部署前自检，只覆盖 main）
+#   - verify.yml : push / PR 都跑完整门禁，PR 也能在合并前拦下问题
+# 两者都会跑一次 check，属有意为之 —— 面向的触发面不同。
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verify-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # 本项目零 npm 依赖（dependencies / devDependencies 均为空），
+      # 因此不需要 npm install / npm ci。
+
+      # 门禁 1：构建。产物落在 dist/，下面的 check 会扫描其中的内部链接。
+      - name: Build
+        run: npm run build
+
+      # 门禁 2：数据与产物校验
+      # （双语字段完整性 / 作者与分类引用 / tags 与 topics 合法性 /
+      #   阅读路线引用 / 文章引用 / dist 内部死链）
+      - name: Check data & links
+        run: npm run check
+
+      # 门禁 3：封面清单校验 —— public/covers 下文件名是否与书籍 slug 一一对应。
+      # 防止「文件名拼错导致封面静默不生效」。
+      - name: Check covers
+        run: npm run covers
+
+      # 门禁 4：封面匹配逻辑回归测试（dry-run，不写盘）。
+      # covers-ingest 的匹配算法一旦判错，后果是「静默回退到程序化封面」
+      # 或「封面挂到别的书上」，线上看起来只是"没生效"，极难定位 ——
+      # 所以这里跑一遍预演测试兜住。
+      - name: Covers match self-test
+        run: npm run covers:match-test
