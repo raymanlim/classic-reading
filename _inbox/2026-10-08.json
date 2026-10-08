@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-08",
+  "books": [
+    {
+      "slug": "ethics-spinoza",
+      "category": "philosophy",
+      "title_zh": "伦理学",
+      "title_en": "Ethics",
+      "author": "baruch-spinoza",
+      "author_zh": "巴鲁赫·斯宾诺莎",
+      "author_en": "Baruch Spinoza",
+      "nationality_zh": "荷兰",
+      "nationality_en": "Dutch",
+      "year": 1677,
+      "original_language": "la",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "只有一个实体：斯宾诺莎如何用几何学证明，神即自然，而自由在于理解必然",
+      "theme_en": "There is only one substance: how Spinoza used geometry to show that God is Nature and freedom lies in understanding necessity",
+      "tags": ["philosophy", "ethics", "religion", "classics"],
+      "topics": ["philosophy", "religion-and-meaning", "science-and-nature"],
+      "prose": {
+        "description_zh": "《伦理学》是荷兰哲学家斯宾诺莎的代表作，以拉丁文写成，1677 年他去世后出版。全书仿照欧几里得《几何原本》，用定义、公理、命题与证明层层推演，把形而上学、认识论、心理学与伦理学收进同一个体系。斯宾诺莎主张只存在一个实体，即「神或自然」（Deus sive Natura）：心与物不是两种东西，而是同一实体的两种属性。他把人的情感当作自然现象来研究——欲望、快乐、痛苦及其派生的力量，都源于「努力」（conatus），即每个事物保持并增进自身存在的倾向。全书共五部分：论神、论心灵、论情感、论人的奴役、论人的自由。它不颁布道德训诫，而是论证：人被情感奴役，源于不充分的认识；自由则来自对必然性的理解。",
+        "description_en": "Ethics is the masterpiece of the Dutch philosopher Baruch Spinoza, written in Latin and published in 1677, the year of his death. Modelled on Euclid's Elements, it proceeds through definitions, axioms, propositions, and proofs, drawing metaphysics, epistemology, psychology, and ethics into a single system. Spinoza holds that there is only one substance, which he calls God or Nature (Deus sive Natura): mind and body are not two things but two attributes of one and the same substance. He treats the human emotions as natural phenomena — desire, pleasure, pain, and everything derived from them arise from conatus, the striving of each thing to persevere in its own being. The work has five parts: on God, on the mind, on the emotions, on human bondage, and on human freedom. It issues no moral commandments; it argues instead that bondage to the emotions springs from inadequate ideas, while freedom comes from understanding necessity.",
+        "why_read_zh": "它是西方哲学史上最彻底的一元论体系，也是把「伦理」直接建立在「必然」之上的唯一尝试。今天关于意识与身体、决定论与自由、理性与情绪的争论，都能在这里找到一个极端而严整的立场：如果心与物同属一个实体、如果一切皆出于必然，人的自由、情感与幸福还如何可能？读它不只是学一套学说，更是训练「从第一原理出发、不留跳步地推演」的思维——这种严格性对工程判断与投资决策同样有用。它对心身问题的回答，也与当代认知科学的具身进路构成一场跨三百年的对话。",
+        "why_read_en": "It is the most thoroughgoing monist system in the history of Western philosophy, and the only serious attempt to ground ethics directly in necessity. The arguments now running about consciousness and the body, determinism and freedom, reason and emotion all find here an extreme and rigorous position: if mind and body belong to one substance, and if everything follows from necessity, what becomes of human freedom, emotion, and happiness? Reading it is not merely learning a doctrine but training in reasoning that starts from first principles and leaves no step unproved — a discipline of use in engineering judgement and investment decisions alike. Its answer to the mind-body problem also opens a three-century conversation with the embodied turn in contemporary cognitive science.",
+        "core_ideas_zh": [
+          "实体一元论：只存在一个实体，即神或自然；一切个别事物都是它的样式，心与物是同一实体的两种属性，而不是两个世界。",
+          "神即自然：斯宾诺莎的「神」不是有位格、会干预世界的造物主，而是必然的、无限的自然整体——这一立场使他被同时代人指为无神论者。",
+          "努力（conatus）：每个事物都竭力保持并增进自身存在，人的欲望与情感都由此派生；情感本身没有善恶，只有力量的增减。",
+          "三种知识：想象或意见、理性、直观知识；只有后两者能给出真观念，也决定了人是被情感奴役还是获得自由。",
+          "自由即理解必然：人无法摆脱因果必然性，自由不是任意选择，而是理解自身与万物的必然秩序，从被动情感转向主动。",
+          "对神的理智之爱（amor Dei intellectualis）：最高的幸福不是外来的奖赏，而是认识并爱那个作为整体的自然，由此触及心灵中永恒的一面。"
+        ],
+        "core_ideas_en": [
+          "Substance monism: there is only one substance, God or Nature, and every particular thing is a mode of it; mind and body are two attributes of one substance rather than two separate worlds.",
+          "God is Nature: Spinoza's God is not a personal creator who intervenes in the world but the necessary, infinite whole of nature — a position for which his contemporaries charged him with atheism.",
+          "Conatus: every thing strives to persevere and increase in its own being, and human desire and emotion are derived from this striving; emotions are in themselves neither good nor evil, only increases or decreases of power.",
+          "Three kinds of knowledge: imagination or opinion, reason, and intuitive knowledge; only the latter two yield true ideas, and they determine whether a person remains in bondage to the emotions or becomes free.",
+          "Freedom is the understanding of necessity: one cannot escape causal necessity, and freedom is not arbitrary choice but the comprehension of the necessary order of oneself and all things, turning from passive emotion to activity.",
+          "The intellectual love of God (amor Dei intellectualis): the highest happiness is not an external reward but the knowledge and love of nature as a whole, through which the mind touches what is eternal in itself."
+        ],
+        "key_questions_zh": [
+          "如果一切皆出于必然，人的自由与道德责任还剩下什么？",
+          "心与物究竟是什么关系——两个实体，还是同一实体的两种描述？",
+          "情感能否被理性认识与转化，还是理性终究只是情感的奴隶？"
+        ],
+        "key_questions_en": [
+          "If everything follows from necessity, what remains of human freedom and moral responsibility?",
+          "What is the relation between mind and body — two substances, or two descriptions of one and the same substance?",
+          "Can the emotions be understood and transformed by reason, or is reason after all only the slave of the passions?"
+        ],
+        "who_should_read_zh": "适合对形而上学、伦理学与心身问题感兴趣的读者，包括哲学、认知科学、心理学与思想史方向的学生和研究者；也适合关心「自由意志与决定论」「理性与情感孰为驱动」这类根本问题的通识读者。阅读需要耐心，但不要求专业训练。",
+        "who_should_read_en": "Suited to readers drawn to metaphysics, ethics, and the mind-body problem — students and researchers in philosophy, cognitive science, psychology, and intellectual history among them. It also speaks to general readers concerned with such fundamental questions as free will and determinism, or whether reason or emotion drives us. It asks for patience rather than specialist training.",
+        "reading_note_zh": "不必对五个部分平均用力。建议先从第三部分（论情感）与第四部分（论人的奴役）入手，它们最贴近日常经验；再回到第一部分（论神）理解实体学说，最后读第五部分（论人的自由），把握全书的归宿。留意「定义—公理—命题—证明」的几何结构，遇到跳步就回查前面的定义。中译可参照贺麟译本（商务印书馆）。可与《第一哲学沉思集》对照阅读，看斯宾诺莎如何改写笛卡尔的心物二元论。",
+        "reading_note_en": "There is no need to give equal weight to all five parts. Begin with Part Three, on the emotions, and Part Four, on human bondage, which stay closest to lived experience; then return to Part One, on God, for the doctrine of substance; and finish with Part Five, on human freedom, where the whole work comes to rest. Attend to the geometric structure of definition, axiom, proposition, and proof, and when a step seems to jump, look back to the definitions. Among Chinese editions, He Lin's translation (Commercial Press) serves well. Read it against the Meditations on First Philosophy to see how Spinoza rewrites Descartes' dualism of mind and body."
+      }
+    },
+    {
+      "slug": "stuff-matters",
+      "category": "technology",
+      "title_zh": "迷人的材料",
+      "title_en": "Stuff Matters: Exploring the Marvelous Materials That Shape Our Man-Made World",
+      "author": "mark-miodownik",
+      "author_zh": "马克·米奥多尼克",
+      "author_en": "Mark Miodownik",
+      "nationality_zh": "英国",
+      "nationality_en": "British",
+      "year": 2013,
+      "original_language": "en",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "物质如何决定文明：从钢、玻璃到石墨与气凝胶，一部关于「东西」的材料科学导览",
+      "theme_en": "How matter shapes civilisation: a materials-science tour from steel and glass to graphite and aerogel",
+      "tags": ["materials", "science", "physics", "technology"],
+      "topics": ["technology", "science-and-nature", "innovation"],
+      "prose": {
+        "description_zh": "《迷人的材料》是英国材料科学家马克·米奥多尼克 2013 年出版的科普作品，2014 年获英国皇家学会温顿科学图书奖。全书以作者日常遭遇的物件为线索，逐一拆解十种塑造现代世界的材料：钢、纸、混凝土、巧克力、陶瓷、玻璃、塑料、石墨与钻石、气凝胶，以及人体植入材料。每一章都从一个具体场景出发——剃须刀片、茶杯、飞机舷窗、牙科植入体——再深入到原子结构与制造工艺，说明材料的性能如何由其内部构造决定，人类又如何通过控制结构发明出全新的材料。作者并不回避代价：混凝土的脆性、塑料带来的污染、陶瓷的易碎，都被如实呈现。它把「东西为什么是这个样子」这一朴素问题，写成了一部关于文明物质基础的导览。",
+        "description_en": "Stuff Matters is a work of popular science published in 2013 by the British materials scientist Mark Miodownik, and winner of the Royal Society Winton Prize for Science Books in 2014. Taking the objects he encounters in ordinary life as its thread, the book examines ten materials that have shaped the modern world: steel, paper, concrete, chocolate, ceramics, glass, plastic, graphite and diamond, aerogel, and the materials implanted in the human body. Each chapter begins in a concrete scene — a razor blade, a teacup, an aircraft window, a dental implant — and moves down to atomic structure and manufacturing process, showing how a material's properties follow from its internal arrangement and how people have invented new materials by controlling that arrangement. The costs are not glossed over: the brittleness of concrete, the pollution of plastics, and the fragility of ceramics are all presented as they are. The book turns the plain question of why things are the way they are into a guide to the material basis of civilisation.",
+        "why_read_zh": "它把最容易被忽略的东西变成最值得追问的问题：为什么钢能弯而玻璃只能碎？为什么混凝土既是现代文明的骨架，也是它最脆弱的一环？米奥多尼克用材料科学的眼光重新解释日常物件，让你在看一把刀、一只杯、一块屏幕时，看见原子排列与制造工艺留下的痕迹。对做半导体、电子材料与制造业的人，这是一本难得的「上游通识」：它讲的是所有器件共同的地基——材料如何被设计、如何失效、如何被替代。它也提醒我们，文明的每一次跃迁，几乎都紧跟一次材料上的突破。",
+        "why_read_en": "It turns the most easily overlooked things into the most worth asking about: why will steel bend while glass only shatters? Why is concrete at once the skeleton of modern civilisation and one of its weakest points? Miodownik re-explains everyday objects through the eyes of materials science, so that a knife, a cup, or a screen begins to show the traces of atomic arrangement and manufacturing process. For anyone working in semiconductors, electronic materials, or manufacturing, it is a rare kind of upstream literacy: it deals with the common ground of every device — how materials are designed, how they fail, how they are replaced. It also reminds us that nearly every leap of civilisation has followed close behind a breakthrough in materials.",
+        "core_ideas_zh": [
+          "结构决定性能：同一种元素，因原子排列不同，可以是柔软的石墨，也可以是最硬的钻石；材料科学的核心命题就是「结构即功能」。",
+          "材料是被发明的，而不是自然给定的：钢、玻璃、混凝土、塑料都出自人类对成分与工艺的控制，每一种都对应一套文明需求。",
+          "工艺常常先于科学：玻璃、陶瓷与钢在人们理解其原理之前就已被大规模制造，科学后来才解释「为什么可行」。",
+          "没有全面占优的材料：强度、韧性、耐蚀、成本与可回收性彼此冲突，工程选择永远是权衡，而不是求一个最优解。",
+          "材料反过来塑造生活：透明玻璃改变了建筑与卫生，钢骨架改变了城市的高度，半导体材料改变了信息处理的方式。",
+          "新材料仍在被发明：石墨烯、气凝胶与生物相容材料说明材料科学仍是一片开放的疆域，而不是已经写完的知识。"
+        ],
+        "core_ideas_en": [
+          "Structure determines properties: the same element, arranged differently at the atomic level, can be soft graphite or the hardest diamond; the central proposition of materials science is that structure is function.",
+          "Materials are invented, not given by nature: steel, glass, concrete, and plastic all come from human control of composition and process, and each answers a set of civilisational needs.",
+          "Craft often precedes science: glass, ceramics, and steel were made at scale long before anyone understood their principles, and science explained only later why they worked.",
+          "No material wins on every count: strength, toughness, corrosion resistance, cost, and recyclability conflict with one another, so engineering choice is always a trade-off rather than a search for a single optimum.",
+          "Materials shape life in return: transparent glass changed architecture and sanitation, steel frames changed the height of cities, and semiconductor materials changed how information is processed.",
+          "New materials are still being invented: graphene, aerogel, and biocompatible materials show that materials science remains open territory rather than finished knowledge."
+        ],
+        "key_questions_zh": [
+          "为什么同样是碳，石墨柔软而钻石坚硬？材料的性能究竟由什么决定？",
+          "人类如何在尚未理解原理时就先造出玻璃与钢，又如何在理解之后造出全新的材料？",
+          "当强度、韧性、成本与可持续性彼此冲突时，材料选择凭什么做出决定？"
+        ],
+        "key_questions_en": [
+          "Why, when both are carbon, is graphite soft and diamond hard — and what really determines a material's properties?",
+          "How did people make glass and steel before understanding their principles, and how do they invent wholly new materials once they do?",
+          "When strength, toughness, cost, and sustainability conflict, on what basis is a choice of material made?"
+        ],
+        "who_should_read_zh": "适合材料、半导体、电子制造与硬件行业的从业者，作为理解「上游地基」的通识读物；也适合对科学史、工艺与日常物件好奇的普通读者。无需专业背景，具备中学物理化学基础即可顺畅阅读。",
+        "who_should_read_en": "Suited to practitioners in materials, semiconductors, electronics manufacturing, and hardware as a primer on the upstream ground beneath their work. It also serves general readers curious about the history of science, craft, and the objects of daily life. No specialist background is required — school-level physics and chemistry suffice.",
+        "reading_note_zh": "可按章节独立阅读，不必从头到尾。建议先读「钢」与「玻璃」两章，建立「结构决定性能」的基本直觉；再读「混凝土」与「塑料」，理解材料的社会代价；最后读「气凝胶」与人体植入材料，看材料科学的前沿方向。可配合《晶体之火》理解半导体材料的来路，配合《创新者》看材料与器件如何互相推动。",
+        "reading_note_en": "The chapters can be read independently and in any order. Begin with steel and glass to fix the basic intuition that structure determines properties; then read concrete and plastic for the social costs of materials; and finish with aerogel and implant materials for the frontier of the field. Read it alongside Crystal Fire for the origins of semiconductor materials, and The Innovators to see how materials and devices advance each other."
+      }
+    }
+  ]
+}

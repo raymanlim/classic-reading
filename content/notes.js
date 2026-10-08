@@ -121,6 +121,60 @@ export const notes = [
       'Meadows\'s central claim is that a system\'s behaviour comes mainly from its structure, not from the intentions of the people inside it. Her leverage points run from parameters and buffers up through rules, goals and paradigms — the higher ones are more powerful and far harder to change, yet attention tends to go to the lower ones. The traps she catalogues — the tragedy of the commons, goal erosion, addiction — share one shape: each participant makes a locally rational choice, and the aggregate is collectively irrational. That complements social accounts of collective failure: those stress amplification, whereas Meadows stresses that structure alone can generate behaviour. The uncomfortable corollary is that attributing a recurring failure to particular people is usually the cheapest explanation and the least useful one.',
     topics: ['systems-thinking', 'complexity', 'decision-making'],
   },
+  {
+    id: 'note-008',
+    slug: 'the-information-meaning-vs-signal',
+    book: 'the-information',
+    date: '2026-10-06',
+    voice: 'editorial',
+    key_insight_zh:
+      '信息论刻意把「意义」排除在通信的数学之外，这既是它威力的来源，也是为什么传输量的增长从来不等于理解的增长。',
+    key_insight_en:
+      'Information theory deliberately excluded meaning from the mathematics of communication — the source of its power, and the reason more transmission has never automatically meant more understanding.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于它把「信息」从一个日常词汇改造成了一个可以被度量的量。香农的定义刻意不谈意义：一条消息携带多少信息，取决于它排除了多少不确定性，而与它是否真实、是否重要无关。这个抽象撑起了现代通信与存储的全部基础设施，同时也留下了一个容易被忽略的后果——信息量的增长与理解力的增长是两件不同的事。值得警惕的是，当一个组织把「更多数据」当作「更清楚」的替代品时，它其实是在用一个不属于意义范畴的量，去回答一个关于意义的问题。另一个容易被忽略的地方是噪音的地位：在这个框架里，噪音不是需要清除的杂质，而是前提；没有噪音，冗余就毫无价值，而冗余恰恰是意义得以存活的余地。',
+    thinking_en:
+      'The key move in this book is to convert "information" from an everyday word into a measurable quantity. Shannon\'s definition deliberately says nothing about meaning: how much information a message carries depends on how much uncertainty it resolves, not on whether it is true or important. That abstraction underwrites the entire infrastructure of modern communication and storage, and it leaves one easily overlooked consequence — growth in the volume of information and growth in understanding are two different things. The caution worth keeping is this: when an organisation treats "more data" as a substitute for "more clarity," it is using a quantity outside the domain of meaning to answer a question about meaning. The other easily missed point is the status of noise. In this framework noise is not an impurity to be eliminated but a precondition; without it, redundancy would be worthless — and redundancy is precisely the room in which meaning survives.',
+    topics: ['technology', 'cognitive-science'],
+  },
+  {
+    id: 'note-009',
+    slug: 'design-of-everyday-things-error-is-designed',
+    book: 'the-design-of-everyday-things',
+    date: '2026-10-07',
+    voice: 'editorial',
+    key_insight_zh:
+      '当同一类错误被一个人接一个人地反复犯下，缺陷通常不在人身上，而在于设计没有让正确的操作变得显而易见。',
+    key_insight_en:
+      'When the same mistake is made by one person after another, the defect is usually not in the people but in a design that failed to make the right action obvious.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于它把「犯错」从道德范畴挪到了设计范畴。诺曼的核心主张是：一件日常用品如果需要说明书才能用对，缺陷在于它给出的可供性，而不在于使用者的能力——人并非不理性，他们只是在按设计提供的线索行动。它真正改变的是归因方向：把反复出现的操作失误当作系统的属性来诊断，而不是当作个人的粗心。值得警惕的是，这种视角同样可以被滥用，把所有责任都推给「设计」和「系统」，会让人逐渐失去承担后果的能力。容易被忽略的一点是，诺曼并不主张设计应当消灭错误，而是主张让错误变得可见、可撤销、代价可控——这比追求零失误现实得多，也更接近工程上的诚实。',
+    thinking_en:
+      'The key move in this book is to shift "making a mistake" out of the moral register and into the register of design. Norman\'s central claim is that when an everyday object requires a manual to be used correctly, the defect lies in the affordances it offers rather than in the competence of its user — people are not irrational, they are following the cues the design supplies. What it genuinely changes is the direction of attribution: recurring operational errors get diagnosed as properties of a system rather than as individual carelessness. The caution worth keeping is that the same lens can be abused; assigning all responsibility to "design" and "the system" gradually erodes the capacity to own a consequence. The easily missed point is that Norman does not argue for eliminating error at all. He argues for making error visible, reversible, and cheap — a far more realistic goal than zero defects, and a more honest one in engineering terms.',
+    topics: ['systems-thinking', 'decision-making'],
+  },
+  {
+    id: 'note-010',
+    slug: 'palliative-society-pain-as-threshold',
+    book: 'the-palliative-society',
+    date: '2026-10-08',
+    voice: 'editorial',
+    key_insight_zh:
+      '把痛苦当成需要消除的故障，代价是同时抹掉了痛苦的另一种功能——它是一道门槛，越过去，人才会真正改变。',
+    key_insight_en:
+      'Treating pain as a malfunction to be eliminated also erases its other function: pain is a threshold, and only by crossing it does anyone actually change.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于把痛苦从「需要被消除的故障」重新定义成一种有认知功能的经验，而不是一种纯粹的损耗。韩炳哲的观察是双向的：社会把痛苦医疗化、私人化，使它退出公共讨论；个体则把自己交给绩效与自我优化，在持续的不适管理里完成自愿的自我剥削。它真正改变的是对「舒适」的评价——一个把所有摩擦都磨平的体系，同时也磨掉了越过门槛所需要的那股张力。值得警惕的是，这个诊断很容易被误读成对苦难的美化；它要求的不是主动去找痛，而是拒绝把任何不适都当成需要立刻修复的缺陷。容易被忽略的一点是，妥协并非软弱，而是一种理性计算：在一个把反抗定价过高的环境里，顺从往往是个人层面的最优解——正因如此，问题才不在个人身上。',
+    thinking_en:
+      'The key move in this book is to redefine pain as an experience with a cognitive function rather than as pure loss — something to be eliminated. Han\'s observation runs in two directions at once: society medicalises and privatises pain until it drops out of public argument, while individuals hand themselves over to performance and self-optimisation, completing a voluntary self-exploitation through the continuous management of discomfort. What it genuinely changes is the valuation of comfort — a system that sands down every source of friction also sands down the tension required to cross a threshold. The caution worth keeping is that the diagnosis is easily misread as a romanticisation of suffering; what it asks for is not the pursuit of pain but a refusal to treat every discomfort as a defect requiring immediate repair. The easily missed point is that compromise is not weakness but a rational calculation: where resistance has been priced very high, compliance is often the optimal individual move — which is precisely why the problem does not lie with the individual.',
+    topics: ['modern-society', 'philosophy'],
+  },
 ];
 
 export default notes;

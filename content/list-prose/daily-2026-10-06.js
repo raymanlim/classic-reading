@@ -1,0 +1,71 @@
+/** 每日推荐阅读指引 · 2026-10-06 */
+export const batch = {
+  'cybernetics': {
+    description_zh: '《控制论》是数学家诺伯特·维纳于 1948 年出版的跨学科奠基之作。全书围绕一个统一命题展开：无论是一台机器、一个神经系统，还是一个社会群体，只要它依赖信息反馈来维持稳定并达成目标，就可以用同一套语言来描述。维纳把「通信」与「控制」提升为普遍范畴，以信息、熵、反馈与稳态为核心概念，并用伺服机构、早期计算机和神经生理学的案例加以论证。书中还讨论了噪声、消息的统计性质、学习与自组织等议题，为此后人工智能、自动化与信息科学的发展提供了概念母体。维纳同时警惕技术可能被滥用，把「人如何与机器共处」变成科学伦理问题。它更像一场把生命与机器并置思考的思想实验，而非一本工程手册。',
+    description_en: 'Cybernetics is the 1948 book in which the mathematician Norbert Wiener proposed a single vocabulary for systems that steer themselves. Whether the system is a servomechanism, a nervous system, or a human institution, Wiener argued, it can be described in terms of communication, information, feedback, and stability. Drawing on wartime work on anti-aircraft prediction, on early computing machinery, and on physiology, he treats control not as a property of a particular device but as a general phenomenon of organised matter. The book ranges across the statistical nature of messages, noise, entropy, learning, and self-organisation, and it anticipates many of the questions later taken up by artificial intelligence and automation research. Wiener also turns repeatedly to the social and ethical consequences of his own science, warning that the same feedback machinery which extends human capability can be turned against human ends. It is a thought experiment that places organism and machine side by side, not an engineering manual.',
+    why_read_zh: '它揭示了一件今天常被忽略的事：人工智能并不是从计算机里长出来的，而是从「把生命与机器放在同一框架下理解」的野心里长出来的。读它可以看清反馈、信息、控制这些概念如何从工程问题升格为跨学科范式，也能理解此后深度学习、机器人、自动化所共享的思想底座。维纳对技术后果的清醒忧虑，在算法大规模进入社会的今天读来尤具分量。对想真正读懂 AI 思想谱系的人，这是一本绕不开的源头之书。',
+    why_read_en: 'Most accounts of artificial intelligence begin with the computer; Wiener begins with the idea that living things and machines can be described by the same laws of communication and control. Reading him restores the conceptual prehistory of AI — feedback, information, stability, self-organisation — that later technical work inherited without naming. The book is also unusually candid about consequences: Wiener warns early and forcefully that the machinery of control can serve domination as easily as it serves liberation. For anyone who wants the intellectual genealogy of AI rather than its product announcements, this is the source to read.',
+    core_ideas_zh: [
+        '通信与控制是同一现象的两面：任何系统只要依靠信息反馈维持稳定并指向目标，就落入统一的分析框架，机器与生命在这一点上没有本质差别。',
+        '信息可以被度量，而噪声与熵为可靠传递设定了硬性上限；对消息统计性质的讨论，直接通向此后独立发展的信息论。',
+        '生命与机器之间不存在不可逾越的鸿沟，两者都是组织化的、以目标为导向的动态系统，区别在于组织方式而非本质。',
+        '技术中立的说法站不住脚：控制机器一旦被用于支配他人，就会产生新的社会风险，科学家无法把后果推给使用者。',
+        '稳态依赖反馈回路，而反馈意味着误差、滞后与震荡；理解系统为何失稳，与控制它同样重要。'
+      ],
+    core_ideas_en: [
+        'Communication and control are two aspects of one phenomenon: any system that maintains stability and pursues a goal through feedback falls under a single analysis, and machine and organism do not differ in principle here.',
+        'Information can be measured, and noise and entropy impose hard limits on reliable transmission; the discussion of the statistical nature of messages leads directly toward information theory.',
+        'There is no unbridgeable gulf between organisms and machines: both are organised, goal-directed dynamical systems, and the difference lies in their organisation rather than their essence.',
+        'The claim that technology is neutral does not hold: control machinery turned toward domination creates new social risks, and the scientist cannot hand the consequences to the user.',
+        'Stability depends on feedback loops, and feedback brings error, lag, and oscillation; understanding why a system destabilises matters as much as controlling it.'
+      ],
+    key_questions_zh: [
+        '反馈能否解释从恒温器到神经系统、再到社会秩序的一切自稳定现象？',
+        '信息如何被度量，噪声又为可靠通信设定了怎样的极限？',
+        '当控制技术可以被用于支配人时，科学家应承担怎样的伦理责任？'
+      ],
+    key_questions_en: [
+        'Can feedback explain every self-stabilising phenomenon, from a thermostat to a nervous system to a social order?',
+        'How is information to be measured, and what limits does noise place on reliable communication?',
+        'When the machinery of control can be used to dominate people, what ethical responsibility falls on the scientist?'
+      ],
+    who_should_read_zh: '适合人工智能、自动化、控制科学与认知科学的从业者和研究者，尤其是想理解 AI 思想谱系而非只看最新产品的人；也适合关心技术伦理、科学与人文交叉议题的读者。需要一定的抽象思维能力，但不要求工程或数学专业背景。',
+    who_should_read_en: 'Suited to practitioners and students of artificial intelligence, automation, control science, and cognitive science — above all those who want the intellectual genealogy of AI rather than its latest results. It also suits readers concerned with technology ethics and the meeting point of science and the humanities. Some tolerance for abstract argument helps, though no engineering or mathematical background is required.',
+    reading_note_zh: '建议先读导论与第一章，抓住「反馈」这一核心概念，再跳到讨论信息与熵的章节。第二部分的计算与学习内容可略读，重点体会维纳如何把不同学科并置思考。可配合《人有人的用处》（1950）理解其社会关切，或对照香农的信息论看清两条路线的分岔。不必逐章精读，读其问题意识比读其公式更重要。',
+    reading_note_en: 'Start with the introduction and first chapter to fix the concept of feedback, then move to the chapters on information and entropy. The technical material on computation and learning in the second half can be skimmed; what matters is how Wiener places disciplines side by side. Pair it with The Human Use of Human Beings (1950) for his social argument, or read it against Shannon\'s information theory to see where the two lineages divide. It rewards attention to questions more than to formulas.'
+  },
+  'the-rise-and-fall-of-the-great-powers': {
+    description_zh: '《大国的兴衰》是英国历史学家保罗·肯尼迪 1987 年出版的国际关系史著作，副标题点明了范围：1500 至 2000 年的经济变迁与军事冲突。全书以五百年的长时段为尺度，逐一考察西班牙、荷兰、法国、英国、德国、俄国、日本与美国等大国的兴衰轨迹，核心论点是：一国的军事与战略地位最终取决于其经济与财政基础，而当战略承诺超出经济承受能力——即通常所说的「帝国过度扩张」——衰落便难以避免。肯尼迪并不把兴衰归因于单一因素，而是把技术、工业能力、财政制度、地理条件与联盟体系编织成一张比较框架。书末对未来的推演中，他讨论了美国相对地位的调整与中国的上升潜力。因其体量与判断力，该书被广泛视为大战略研究的经典。',
+    description_en: 'The Rise and Fall of the Great Powers is a work of international history published in 1987 by the British historian Paul Kennedy. Its subtitle states the scope: economic change and military conflict from 1500 to 2000. Over a five-century horizon Kennedy traces the trajectories of Spain, the Netherlands, France, Britain, Germany, Russia, Japan, and the United States, arguing that a great power\'s strategic position ultimately rests on its economic and fiscal base. When commitments outrun resources — the condition usually called imperial overstretch — decline becomes difficult to avoid. Kennedy resists single-cause explanations, weaving technology, industrial capacity, fiscal institutions, geography, and alliance systems into one comparative framework. In his closing projection he considers the relative adjustment of American power and the rising potential of China. Its scale and judgement have made it a standard reference in the study of grand strategy.',
+    why_read_zh: '如果你想理解「国力从何而来、又如何流失」，这本书提供的是一套可迁移的比较框架，而不是一句结论。它把军事史与财政史、技术史拧在一起，帮助读者看清今天围绕半导体、能源与供应链的竞争，其实延续着数百年的同一组变量：经济基础、财政能力与战略承诺之间的匹配。对关注地缘政治、宏观周期与产业竞争的读者，这是一本校准判断尺度的书。它的长时段视角，恰好可以抵消当下新闻的短视。',
+    why_read_en: 'Kennedy offers a transferable comparative framework for the question of where national power comes from and how it drains away, rather than a single verdict. By braiding military history together with fiscal and technological history, he shows that today\'s contests over semiconductors, energy, and supply chains turn on the same variables that have governed five centuries: the fit between economic base, fiscal capacity, and strategic commitment. For readers tracking geopolitics, macro cycles, and industrial competition, it is a calibration tool for judgement. Its long horizon is a useful antidote to the myopia of the news cycle.',
+    core_ideas_zh: [
+        '大国的兴衰根植于经济与财政基础，军事力量只是这一基础的表现而非原因；长期看，能负担什么，决定了能承诺什么。',
+        '「帝国过度扩张」是一种反复出现的机制：当战略承诺持续超出资源供给，衰落便进入自我强化的通道，且往往在外部挑战到来之前就已开始。',
+        '技术领先与工业能力是权力转移的关键变量，而领先者常因优势固化、路径依赖而丧失适应速度。',
+        '权力转移是长周期的相对变化，不是单点事件；短期胜负经常掩盖长期趋势，因此需要以百年尺度校准判断。',
+        '地理与联盟体系会放大或抵消经济优势：位置决定了防御成本，而联盟决定了可动员的资源边界。'
+      ],
+    core_ideas_en: [
+        'The rise and fall of great powers is rooted in economic and fiscal strength; military power expresses that base rather than creating it, and what a state can afford ultimately sets what it can commit to.',
+        'Imperial overstretch is a recurring mechanism: when strategic commitments persistently outrun resources, decline becomes self-reinforcing — and it typically begins before any external challenger arrives.',
+        'Technological and industrial leadership are pivotal variables in power transitions, and incumbents often lose the capacity to adapt as advantages harden into path dependence.',
+        'Power transitions are long-run relative shifts rather than single events; short-term outcomes routinely obscure the underlying trend, which is why judgement needs a century-long scale.',
+        'Geography and alliance systems amplify or cancel economic advantage: position sets the cost of defence, while alliances set the boundary of mobilisable resources.'
+      ],
+    key_questions_zh: [
+        '在五百年的大国竞争中，经济实力与军事力量之间究竟如何相互作用？',
+        '为什么一些国家能在技术变革中持续领先，而另一些迅速掉队？',
+        '当战略承诺超过经济承受力时，国家有哪些调整路径，各自的代价是什么？'
+      ],
+    key_questions_en: [
+        'Across five centuries of great-power competition, exactly how do economic strength and military power interact?',
+        'Why do some states sustain leadership through technological change while others fall away quickly?',
+        'When strategic commitments exceed economic capacity, what paths of adjustment remain open, and at what cost?'
+      ],
+    who_should_read_zh: '适合关注地缘政治、宏观周期、产业竞争与长期投资判断的读者，也适合历史学、国际关系与经济史的学习者。企业战略与政策研究者可借其框架理解技术与国力之间的关系。阅读需要耐心，但不要求专业史学训练。',
+    who_should_read_en: 'Suited to readers tracking geopolitics, macro cycles, industrial competition, and long-horizon investment judgement, along with students of history, international relations, and economic history. Corporate strategists and policy researchers can use its framework to think about how technology and national power connect. It demands patience rather than specialist training.',
+    reading_note_zh: '篇幅很大，建议不要顺序硬啃：先读导论与结论，抓住「经济基础—战略承诺」这条主线，再按兴趣选读国别章节，其中英国、德国与美国三章尤为关键。阅读时随手记录各国的「经济—财政—军事」三栏数据，便于横向比较。可配合布罗代尔的长时段方法对照，也可与《枪炮、病菌与钢铁》并读，比较两种解释路径。',
+    reading_note_en: 'It is long, so avoid a front-to-back grind: read the introduction and conclusion first to fix the base-versus-commitment argument, then choose country chapters by interest, with Britain, Germany, and the United States especially instructive. Keep a three-column tally — economy, fiscal capacity, military — as you go, to make comparisons concrete. It pairs well with Braudel\'s long-duration method, or read against Guns, Germs, and Steel to compare two explanatory strategies.'
+  }
+};
