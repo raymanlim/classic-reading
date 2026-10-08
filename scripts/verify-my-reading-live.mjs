@@ -1,8 +1,10 @@
 /**
- * 线上验证：/zh/my-reading/ 客户端重建后真实封面是否正常
+ * 线上验证：/zh/my-reading/ 与 /en/my-reading/ 客户端重建后真实封面是否正常
  * ------------------------------------------------------------------
  * 缺陷在客户端（app.js 重建列表），所以**只能**用真实浏览器验证线上页面。
- * 用法：node _stage/verify-live.mjs
+ * 用法：node scripts/verify-my-reading-live.mjs [baseUrl]
+ *   baseUrl 可省略，默认用稳定沙箱域名。
+ * 注意：懒加载必须显式 waitForFunction 等全部 complete，固定 sleep 会误报断链。
  */
 const pw = await import(
   'file:///C:/Users/shand/.workbuddy-ai/binaries/node/workspace/node_modules/playwright-core/index.js'
@@ -10,7 +12,7 @@ const pw = await import(
 const chromium = pw.chromium || (pw.default && pw.default.chromium);
 
 const EXEC = 'C:/Users/shand/AppData/Local/ms-playwright/chromium-1243/chrome-win64/chrome.exe';
-const BASE = 'https://0e00525f540948a2b66f58b8a0e4962d.sg2.agentos-app.run';
+const BASE = process.argv[2] || 'https://0e00525f540948a2b66f58b8a0e4962d.sg2.agentos-app.run';
 
 const browser = await chromium.launch({ executablePath: EXEC });
 const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });

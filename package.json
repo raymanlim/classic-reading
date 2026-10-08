@@ -18,7 +18,9 @@
     "content:brief": "node src/articles-brief.mjs",
     "articles:brief": "node src/articles-brief.mjs",
     "verify:my-reading": "node scripts/verify-my-reading.mjs",
-    "verify:my-reading:live": "node scripts/verify-my-reading-live.mjs"
+    "verify:my-reading:live": "node scripts/verify-my-reading-live.mjs",
+    "sync:books": "node scripts/export-to-books.mjs",
+    "sync:books:all": "node scripts/export-to-books.mjs --all"
   },
   "engines": {
     "node": ">=20"
