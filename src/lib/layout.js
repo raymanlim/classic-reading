@@ -210,6 +210,7 @@ export function page({ lang, meta, body, currentPath = '', bodyClass = '' }) {
     cleared: t(lang, 'reading.cleared'),
     foundLabel: t(lang, 'search.results'),
     resultUnit: t(lang, 'search.result_unit'),
+    looseHint: t(lang, 'search.loose_hint'),
     statusLabels: {
       want: t(lang, 'reading.status.want'),
       reading: t(lang, 'reading.status.reading'),
@@ -229,7 +230,7 @@ export function page({ lang, meta, body, currentPath = '', bodyClass = '' }) {
   return `<!DOCTYPE html>
 <html lang="${htmlLang}">
 <head>${head({ lang, ...meta, path: currentPath })}
-  <script>window.__CL_UI=${JSON.stringify(ui)};</script>
+  <script>window.__CL_UI=${JSON.stringify(ui)};window.__CL_BUILD="${BUILD_ID}";</script>
 </head>
 <body class="${bodyClass}" data-lang="${lang}">
 ${header(lang, currentPath)}

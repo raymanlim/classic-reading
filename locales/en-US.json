@@ -226,6 +226,7 @@
     "button": "Search",
     "results": "Found",
     "result_unit": "results",
+    "loose_hint": "No exact match — showing close results.",
     "no_results": "Nothing matched your search.",
     "no_results_hint": "Try a shorter keyword, or search a field name such as \"AI\", \"investing\", \"history\", or \"chips\".",
     "try": "Try searching",

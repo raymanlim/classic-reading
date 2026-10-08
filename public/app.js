@@ -365,17 +365,38 @@
       return new URLSearchParams(window.location.search);
     }
 
+    /* 严格检索：全部词项按子串打分 */
+    function collect(terms) {
+      var out = [];
+      if (!terms.length) return out;
+      index.entries.forEach(function (entry) {
+        var s = scoreEntry(entry, terms);
+        if (s > 0) out.push({ entry: entry, score: s });
+      });
+      out.sort(function (a, b) { return b.score - a.score; });
+      return out.slice(0, 60);
+    }
+
+    /* 宽松检索：仅在严格检索 0 命中时启用。
+       去掉中文虚词（的 / 之 / 与 / 和 / 及 / 或 / 是 / 在 / 了 / 吗 / 呢）与英文冠词介词后重试，
+       使「鞑靼人的沙漠」这类多打一个「的」的查询仍能命中《鞑靼人沙漠》。 */
+    function looseTerms(query, aliases) {
+      var stripped = query
+        .replace(/[的之与和及或是在了吗呢]/g, ' ')
+        .replace(/\b(?:the|of|and|a|an|to|in|on|for|is|are)\b/gi, ' ');
+      if (normalize(stripped) === normalize(query)) return [];
+      return expandTerms(stripped, aliases);
+    }
+
     function render(query) {
       if (!index) return;
-      var terms = expandTerms(query, index.aliases || {});
-      var hits = [];
-      if (terms.length) {
-        index.entries.forEach(function (entry) {
-          var s = scoreEntry(entry, terms);
-          if (s > 0) hits.push({ entry: entry, score: s });
-        });
-        hits.sort(function (a, b) { return b.score - a.score; });
-        hits = hits.slice(0, 60);
+      var aliases = index.aliases || {};
+      var hits = collect(expandTerms(query, aliases));
+      var loose = false;
+      if (!hits.length && query.trim()) {
+        /* 阈值 12：只保留标题 / 作者 / 关键词级别的匹配，滤掉仅正文偶然命中的弱结果 */
+        var alt = collect(looseTerms(query, aliases)).filter(function (h) { return h.score >= 12; });
+        if (alt.length) { hits = alt; loose = true; }
       }
 
       results.innerHTML = hits.map(function (hit) {
@@ -397,7 +418,8 @@
       if (countEl) {
         if (query.trim()) {
           countEl.removeAttribute('hidden');
-          countEl.textContent = (UI.foundLabel || '') + ' ' + hits.length + ' ' + (UI.resultUnit || '');
+          countEl.textContent = (UI.foundLabel || '') + ' ' + hits.length + ' ' + (UI.resultUnit || '') +
+            (loose && UI.looseHint ? ' · ' + UI.looseHint : '');
         } else {
           countEl.setAttribute('hidden', '');
         }
@@ -408,7 +430,10 @@
       }
     }
 
-    fetch('/search-index.json')
+    /* 索引 URL 带构建版本号：发布平台不下发 Cache-Control / ETag，
+       浏览器会按启发式规则缓存 —— 不带版本号会导致「新书搜不到」。 */
+    var indexUrl = '/search-index.json' + (window.__CL_BUILD ? '?v=' + window.__CL_BUILD : '');
+    fetch(indexUrl)
       .then(function (r) { return r.json(); })
       .then(function (data) {
         index = data;
