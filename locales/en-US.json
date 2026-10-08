@@ -65,7 +65,7 @@
   },
   "library": {
     "title": "Library",
-    "sub": "248 books — 100 curated classics plus 148 titles from reading lists — across twelve fields, on one map of understanding.",
+    "sub": "{total} books — {curated} curated classics plus {list} titles from reading lists — across {fields} fields, on one map of understanding.",
     "intro": "This is not a bestseller list. Every book was selected by one test: does it explain an underlying pattern, and will it still be worth rereading in ten years?",
     "all": "All",
     "category": "Category",

@@ -20,7 +20,12 @@ export function renderLibrary(lang, data) {
   const body = `
       ${pageHead(lang, {
         title: t(lang, 'library.title'),
-        sub: t(lang, 'library.sub'),
+        sub: t(lang, 'library.sub', {
+          total: data.books.length,
+          curated: data.curatedBooks.length,
+          list: data.listBooks.length,
+          fields: data.categories.length
+        }),
         intro: t(lang, 'library.intro'),
         crumbs: [{ label: t(lang, 'library.title') }]
       })}

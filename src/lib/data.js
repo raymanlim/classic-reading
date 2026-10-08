@@ -308,9 +308,21 @@ export async function loadData() {
   const now = new Date();
   const start = new Date(Date.UTC(now.getUTCFullYear(), 0, 0));
   const dayOfYear = Math.floor((now - start) / 86400000);
-  const sortedByIndex = [...books].sort(byIndex);
+
+  /* 书库总览顺序：策展经典（经典指数降序）→ 每日推荐（日期降序）→ 历史书单。
+     🔴 原实现是 [...books].sort(byIndex)：书单导入条目没有 classic_index，一律落到 index=0，
+     于是退化成「按文件读取顺序」= 最旧在前 —— 最新推荐沉到 266 本的最后两位，
+     用户点「每日推荐」筛选后看到的全是几天前的老书。此处显式分三组，保证最新在前。 */
   const curatedBooks = books.filter((b) => b.tier !== 'list');
   const listBooks = books.filter((b) => b.tier === 'list');
+  const byDailyDateDesc = (a, b) =>
+    a.daily_date === b.daily_date ? 0 : a.daily_date < b.daily_date ? 1 : -1;
+  const dailyListBooks = listBooks.filter((b) => b.daily_date).sort(byDailyDateDesc);
+  const legacyListBooks = listBooks.filter((b) => !b.daily_date);
+
+  const sortedByIndex = [...curatedBooks]
+    .sort(byIndex)
+    .concat(dailyListBooks, legacyListBooks);
   const curatedByIndex = [...curatedBooks].sort(byIndex);
   const bookOfTheDay = curatedByIndex[dayOfYear % curatedByIndex.length];
 
@@ -318,7 +330,7 @@ export async function loadData() {
      同一天入库多本时保持文件内的原有顺序。 */
   const dailyBooks = listBooks
     .filter((b) => b.source === 'daily' && b.daily_date)
-    .sort((a, b) => (a.daily_date === b.daily_date ? 0 : a.daily_date < b.daily_date ? 1 : -1));
+    .sort(byDailyDateDesc);
 
   /* 阅读状态初始清单 */
   const readingList = readingStatus
