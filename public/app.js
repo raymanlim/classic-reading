@@ -391,12 +391,16 @@
     function render(query) {
       if (!index) return;
       var aliases = index.aliases || {};
-      var hits = collect(expandTerms(query, aliases));
+      /* terms 必须留在 render 作用域：下面高亮 highlight() 要用它。
+         （曾因把它挪进 collect() 而漏掉这层声明，导致 ReferenceError 使搜索整体失效。） */
+      var terms = expandTerms(query, aliases);
+      var hits = collect(terms);
       var loose = false;
       if (!hits.length && query.trim()) {
+        var looseSet = looseTerms(query, aliases);
         /* 阈值 12：只保留标题 / 作者 / 关键词级别的匹配，滤掉仅正文偶然命中的弱结果 */
-        var alt = collect(looseTerms(query, aliases)).filter(function (h) { return h.score >= 12; });
-        if (alt.length) { hits = alt; loose = true; }
+        var altHits = collect(looseSet).filter(function (h) { return h.score >= 12; });
+        if (altHits.length) { hits = altHits; terms = looseSet; loose = true; }
       }
 
       results.innerHTML = hits.map(function (hit) {
