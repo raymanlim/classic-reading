@@ -188,10 +188,28 @@ chore:    构建/配置/杂项
   被静默冲掉（见第 6 节），也会被下一次自动化构建顺带发布到线上，造成「线上有、仓库没有」的孤儿内容。
 - 推送前必须 `git status` 确认范围；`_stage/`、`dist.local-backup-*/`、`nul` 已在 `.gitignore`。
 - 本站**没有** CI 自动提交，同步完全靠手动 / Agent 执行。
-- ⚠️ 本机曾出现 `git fetch` / `git push` 被代理拦截
-  （`CONNECT tunnel failed, response 502` / `unpack-objects failed`）。
-  若复现，改用 **GitHub Git Data API**（Create Blob → Create Tree → Create Commit → Update Ref），
-  `api.github.com` 始终可用；也可先 `git ls-remote origin` 探连通性（2026-10-11 实测已恢复正常）。
+- 🔴 **推送用 SSH，不要用 HTTPS**（2026-10-11 实测确证，最省事的解法）：
+  ```bash
+  git push ssh://git@github.com/raymanlim/classic-reading.git main
+  ```
+  - 本机 HTTPS 通道会被代理拦死：`git push` → `CONNECT tunnel failed, response 502`；
+    `git fetch` → `Error in the HTTP2 framing layer`；`git ls-remote origin` 同样失败。
+  - **SSH 通道完全正常**：`ssh -T git@github.com` → `Hi raymanlim! You've successfully authenticated`，
+    `git push ssh://…` 实测直接成功（`1732d46..c9605c6  main -> main`），
+    `git ls-remote ssh://…` 也能读到远端。
+  - ⚠️ **必须写完整的 `ssh://git@github.com/…`**，不能用 `git@github.com:` 简写 ——
+    本机全局 git 配置里有 `url.https://github.com/.insteadof git@github.com:`，
+    会把简写**静默重写成 HTTPS**，于是又掉回被拦的通道。
+  - 注意 `ssh://` 推送**不会**更新 `refs/remotes/origin/main`（remote 名不同），
+    推完需手动对齐，或改配一个 `ssh` remote。
+- 兜底方案（SSH 也不可用时）：**GitHub Git Data API**
+  （Create Blob → Create Tree(`base_tree`) → Create Commit → Update Ref），`api.github.com` 始终可用。
+  两个已知坑：
+  1. blob 内容必须取 `git cat-file blob <sha>`，**不能读工作区** ——
+     `core.autocrlf=true` 时工作区是 CRLF、仓库内是 LF，直接读会得到不同的 blob sha。
+  2. GitHub 会把 commit 的 author/committer 时区**归一化为 UTC**（`+0800` → `+0000`，unix 时间戳不变）：
+     **tree sha 与本地完全一致，commit sha 不同**，所以「commit sha 对不上」不等于失败，比对 **tree** 才算数。
+     想避免 sha 漂移，可在提交时就把时区写成 UTC（`GIT_AUTHOR_DATE=…+0000`），这样本地与远端 sha 完全相同。
 
 ---
 
