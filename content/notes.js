@@ -175,6 +175,42 @@ export const notes = [
       'The key move in this book is to redefine pain as an experience with a cognitive function rather than as pure loss — something to be eliminated. Han\'s observation runs in two directions at once: society medicalises and privatises pain until it drops out of public argument, while individuals hand themselves over to performance and self-optimisation, completing a voluntary self-exploitation through the continuous management of discomfort. What it genuinely changes is the valuation of comfort — a system that sands down every source of friction also sands down the tension required to cross a threshold. The caution worth keeping is that the diagnosis is easily misread as a romanticisation of suffering; what it asks for is not the pursuit of pain but a refusal to treat every discomfort as a defect requiring immediate repair. The easily missed point is that compromise is not weakness but a rational calculation: where resistance has been priced very high, compliance is often the optimal individual move — which is precisely why the problem does not lie with the individual.',
     topics: ['modern-society', 'philosophy'],
   },
+  {
+    id: 'note-011',
+    slug: 'scientific-revolutions-anomaly-before-crisis',
+    book: 'the-structure-of-scientific-revolutions',
+    date: '2026-10-09',
+    voice: 'editorial',
+    key_insight_zh:
+      '反常不是被发现的，而是被承认的：一个框架只有在它自己宣布过「这不该发生」的地方，才可能看见危机。',
+    key_insight_en:
+      'An anomaly is not so much discovered as admitted: a framework can only see a crisis where it has first declared that this should not happen.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于把「发现」重新描述成一件依赖框架的事：范式不只是关于世界的理论，它同时规定了什么问题值得问、什么答案算合格、什么观察算数据。它真正改变的是对「反常」的理解——同一份观察，在框架稳固时只是待解的谜题，只有在框架本身开始松动时才成为危机，区别不在观察，而在框架还剩多少余量。容易被忽略的一点是，库恩并不把范式转换描述成证据的累积胜利：他明确指出范式之间的选择无法被逻辑与证据完全决定，最终取决于相关共同体的认同，这也正是教科书会把革命重写成一连串平滑发现的原因。值得警惕的是，这个论证常被滥用来搁置任何不受欢迎的证据——只要把它称作「范式之争」即可；而库恩的原意恰恰相反，他要说明框架必须承担自己宣布过的检验，否则它连自己的反常都识别不出来。',
+    thinking_en:
+      'The key move in this book is to redescribe discovery as something framework-dependent: a paradigm is not merely a theory about the world but a set of commitments about which questions are worth asking, which answers count as admissible, and which observations count as data. What it genuinely changes is the meaning of an anomaly — the same observation is a puzzle awaiting solution while the framework holds, and becomes a crisis only once the framework itself begins to loosen; the difference lies not in the observation but in how much slack the framework still has. The easily missed point is that Kuhn does not present paradigm change as a cumulative victory of evidence. He states plainly that the choice between paradigms cannot be fully determined by logic and evidence and rests in the end on the assent of the relevant community, which is precisely why textbooks rewrite revolutions as a smooth sequence of discoveries. The caution worth keeping is that the argument is easily abused to shelve any unwelcome piece of evidence by calling it "a matter of paradigms," whereas Kuhn\'s intention runs the other way — a framework must answer the tests it has declared for itself, or it will not even be able to recognise its own anomalies.',
+    topics: ['science-and-nature', 'philosophy', 'systems-thinking'],
+  },
+  {
+    id: 'note-012',
+    slug: 'envy-the-passion-that-interests-cannot-tame',
+    book: 'envy',
+    date: '2026-10-10',
+    voice: 'editorial',
+    key_insight_zh:
+      '嫉妒由他人的所得触发，因而是唯一一种在财富增长时反而增多的激情——它正是「以利益驯服激情」这套现代方案漏掉的那一种。',
+    key_insight_en:
+      'Envy is triggered by what other people gain, which makes it the one passion that multiplies as wealth grows — the very one the modern project of taming passion with interest left out of account.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于把嫉妒从个人心理重新描述为社会结构：它不能被消灭，也不能被满足，因为它的触发条件是相对的——别人变好，它就产生。它真正改变的是对「公平」的理解：嫉妒既是分配正义的心理底座，没有它则任何公平规范都失去执行力，同时也是发展的永久刹车，因为它系统性地惩罚一切超出均值的成功。容易被忽略的一点是，嫉妒的对象总是具体的人而非抽象的制度，因此它倾向于把怨恨引向身边的成功者，而不是催生结构性变革——这解释了为什么普遍的嫉妒情绪常常与政治上的保守并行。值得警惕的是，追求「无嫉妒社会」的政治想象通常以更坏的结局收场：压制嫉妒需要持续的监督与强制，而执行监督的人自己并不对嫉妒免疫。',
+    thinking_en:
+      'The key move in this book is to redescribe envy from an individual psychological quirk into a social structure: it cannot be abolished and cannot be satisfied, because its trigger is relative — someone else improves, and envy appears. What it genuinely changes is the understanding of fairness: envy is the psychological foundation of distributive justice, without which no norm of fairness has any enforcing power, and at the same time a permanent brake on development, because it systematically punishes every success that rises above the average. The easily missed point is that envy always targets concrete people rather than abstract systems, so it channels resentment toward successful neighbours instead of producing structural change — which explains why pervasive envy so often coexists with political conservatism. The caution worth keeping is that political imaginings of an envy-free society tend to end far worse: suppressing envy requires continuous surveillance and coercion, and those who do the suppressing are not themselves immune to it.',
+    topics: ['class-and-inequality', 'modern-society', 'power-and-politics'],
+  },
 ];
 
 export default notes;

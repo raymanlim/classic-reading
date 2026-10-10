@@ -1,0 +1,71 @@
+/** 每日推荐阅读指引 · 2026-10-10 */
+export const batch = {
+  'les-mots-et-les-choses': {
+    description_zh: '《词与物》是米歇尔·福柯 1966 年出版的里程碑式著作，副标题为「人文科学的考古学」。它不写思想史，而写「知识的历史」——探究在不同历史时期，是什么无声的规则让某些陈述成为可能、成为「真理」，而另一些则被排除在外。福柯把西方思想史分为三个「知识型」：文艺复兴时期的「相似性知识型」、古典主义时期的「表征知识型」、现代时期的「人知识型」。每个知识型都有其基础码（如相似性、表征、有限性），它们不是被主体「发现」的，而是先在主体之前、为主体规定了思考的边界。书名「词与物」指的正是语言与世界之间并非自然对应，而是由知识型中介的任意关联。全书以「人」的消亡作结：正如海岸线上的沙画被海浪抹去，「人」这个现代发明终将在知识型变迁中消失。',
+    description_en: 'The Order of Things (Les mots et les choses), published in 1966, is Michel Foucault\'s landmark work subtitled \'An Archaeology of the Human Sciences\'. It is not a history of ideas but a history of knowledge — inquiring into the silent rules that, in each historical period, make certain statements possible and \'true\' while excluding others. Foucault divides Western thought into three epistemes: the Renaissance episteme of similitude, the Classical episteme of representation, and the Modern episteme of man. Each episteme has its fundamental codes (similitude, representation, finitude) which are not \'discovered\' by the subject but precede the subject and delimit the boundaries of thought. The title \'The Order of Things\' (originally \'Words and Things\') points to the arbitrary linkage between language and the world, mediated by the episteme. The book concludes with the disappearance of \'man\': just as a sand drawing on the shore is erased by waves, \'man\' — a modern invention — will vanish with the shifting of epistemes.',
+    why_read_zh: '它提供了一种彻底不同的阅读历史、阅读思想的方法：不再追问「谁想出了什么」，而是追问「什么条件让这种思想成为可能」。这种「考古学」视角能帮助我们识别当下思维中的隐性预设——比如我们理所当然的「主体」「作者」「人性」「结构」等概念，其实都是特定知识型的产物。对于从事 AI、认知科学、语言学、历史学、社会学的研究者，这本书是打破「常识性思维」的利器；对于决策者，它揭示了知识分类体系本身如何塑造权力与真理。',
+    why_read_en: 'It offers a radically different way of reading history and thought: not \'who thought what\' but \'what conditions made this thought possible\'. This archaeological perspective helps identify the implicit presuppositions in contemporary thinking — concepts like \'subject\', \'author\', \'human nature\', \'structure\' are all products of a specific episteme. For researchers in AI, cognitive science, linguistics, history, and sociology, it is a tool to break \'commonsense thinking\'; for decision-makers, it reveals how systems of knowledge classification themselves shape power and truth.',
+    core_ideas_zh: [
+        '知识型先于主体：思考的边界不是由思考者划定的，而是由时代的无意识规则（知识型）预先设定的。',
+        '三个历史知识型：相似性（文艺复兴）、表征（古典主义）、有限性/人（现代）——它们不是线性进步，而是断裂的。',
+        '语言与世界无自然对应：「词」与「物」的关联是任意的，由知识型的分类表中介。',
+        '「人」是现代的发明：18 世纪末才出现「人」作为经验超验的双重主体；它也会随知识型变迁而消亡。',
+        '考古学而非谱系学：不寻找起源与连续性，而揭示断裂、门槛与沉默的规则。'
+      ],
+    core_ideas_en: [
+        'The episteme precedes the subject: the boundaries of thought are not set by the thinker but by the epoch\'s unconscious rules (the episteme).',
+        'Three historical epistemes: similitude (Renaissance), representation (Classical), finitude/man (Modern) — they are ruptures, not linear progress.',
+        'No natural correspondence between words and things: the link between \'words\' and \'things\' is arbitrary, mediated by the episteme\'s tables of classification.',
+        '\'Man\' is a modern invention: \'man\' as the dual empirical-transcendental subject appeared only in the late 18th century and will vanish with the next epistemic shift.',
+        'Archaeology not genealogy: it reveals ruptures, thresholds, and silent rules rather than seeking origins and continuities.'
+      ],
+    key_questions_zh: [
+        '什么无声的规则决定了某个时代什么能被说、被知、被思考？',
+        '「人」这个概念是永恒的，还是特定历史时期的暂时产物？',
+        '知识的分类体系如何同时生产真理与权力？'
+      ],
+    key_questions_en: [
+        'What silent rules determine what can be said, known, and thought in a given epoch?',
+        'Is \'man\' an eternal concept or a temporary product of a specific historical period?',
+        'How do systems of knowledge classification simultaneously produce truth and power?'
+      ],
+    who_should_read_zh: '适合哲学、历史学、社会学、语言学、认知科学、AI 研究的读者；也适合想理解「为什么我们这样思考、而不能那样思考」的通识读者。需要一定抽象思维耐受力，建议配合二手导读（如《福柯关键词》《福柯思想导读》）同步阅读。中译本为三联书店《词与物》，商务印书馆也有版本。',
+    who_should_read_en: 'Suited to readers in philosophy, history, sociology, linguistics, cognitive science, and AI research; also to general readers who want to understand \'why we think this way and not that\'. Requires tolerance for abstract reasoning; recommended to read alongside secondary guides (e.g., The Foucault Reader, Key Concepts in Foucault). English edition: The Order of Things (Vintage/Routledge).',
+    reading_note_zh: '全书三部：第 1 部论 16 世纪相似性知识型，第 2 部论 17-18 世纪表征知识型，第 3 部论现代人知识型。建议先读导言与结语（关于「人」的消亡），建立整体框架；再逐章读第 1、2 部的分类学、自然史、财富分析；最后读第 3 部的生命、劳动、语言三个「人文科学」的诞生。重点不在细节而在结构转换的逻辑。可配合《规训与惩罚》看福柯后期如何把知识型转向权力分析，也可配合《知识考古学》理解方法论。',
+    reading_note_en: 'The book has three parts: Part I on the 16th-century episteme of similitude, Part II on the 17th–18th-century episteme of representation, Part III on the modern episteme of man. Read the introduction and conclusion (on the \'death of man\') first to grasp the framework; then work through the analyses of natural history, general grammar, and the analysis of wealth in Parts I–II; finally read the birth of the three \'human sciences\' (life, labour, language) in Part III. The key is the logic of structural transformation, not the details. Read alongside Discipline and Punish for Foucault\'s later turn to power, and The Archaeology of Knowledge for his methodological statement.'
+  },
+  'interpretation-of-cultures': {
+    description_zh: '《作为文化的解释》是美国人类学家克利福德·格尔茨 1973 年出版的论文集，确立了「解释人类学」与「深描述」方法。格尔茨反对把文化看作心灵内部的心理结构或潜意识模式，主张文化是「人编织的意义之网」，是公共的、可观察的符号系统。书中最著名的章节「深描述：朝向一种文化的解释理论」以巴厘岛的斗鸡为例，展示如何从一个看似单纯的赌博仪式中，读出地位竞争、身份确认、社会戏剧等多层意义。其他章节涵盖宗教作为文化系统、意识形态作为文化系统、艺术作为文化系统、民族建构与「原始」思维等。格尔茨提出：人类学不是寻找普遍法则的实验科学，而是一门解释科学——它的任务不是预测，而是理解；不是还原，而是阐释。',
+    description_en: 'The Interpretation of Cultures, published in 1973, is a collection of essays by the American anthropologist Clifford Geertz that established \'interpretive anthropology\' and the method of \'thick description\'. Geertz rejects viewing culture as a psychological structure or unconscious pattern inside the mind, arguing instead that culture is \'the webs of significance man himself has spun\' — a public, observable system of symbols. The most famous chapter, \'Thick Description: Toward an Interpretive Theory of Culture\', uses the Balinese cockfight to demonstrate how a seemingly simple gambling ritual encodes layered meanings of status competition, identity affirmation, and social drama. Other chapters cover religion as a cultural system, ideology as a cultural system, art as a cultural system, and the construction of ethnicity and \'primitive\' thought. Geertz proposes that anthropology is not an experimental science seeking universal laws but an interpretive science: its task is not prediction but understanding; not reduction but explication.',
+    why_read_zh: '它重塑了我们理解「他者」与「差异」的方式：不把文化当作需要破解的密码，而是当作需要阅读的文本。这种「深描述」方法直接迁移到认知科学（理解心智如何构建意义）、AI 对齐（理解人类价值观的语境依赖性）、跨文化管理、历史解释等领域。格尔茨的文笔优雅精准，把抽象方法论落实到具体田野细节中，是人文社科方法论的典范。对于做产品出海、跨文化沟通、政策设计的人，它提供了一套「不简化、不评判、只阐释」的严谨姿态。',
+    why_read_en: 'It reshapes how we understand \'the other\' and \'difference\': culture is not a code to crack but a text to read. This \'thick description\' method transfers directly to cognitive science (how mind constructs meaning), AI alignment (context-dependence of human values), cross-cultural management, and historical interpretation. Geertz\'s prose is elegant and precise, grounding abstract methodology in concrete fieldwork detail — a model for humanities and social science methodology. For those doing product globalization, cross-cultural communication, or policy design, it offers a rigorous stance of \'not simplifying, not judging, only explicating\'.',
+    core_ideas_zh: [
+        '文化是公共的意义之网，而非私人的心理状态：意义在符号系统中公开流通，人类学的任务是阐释而非还原。',
+        '深描述：不只是记录行为（薄描述），而是重构行为在特定语境下承载的多层意义（如眨眼 vs 示意）。',
+        '宗教/意识形态/艺术作为文化系统：它们不是反映现实的镜子，而是构建现实的框架。',
+        '「土著观点」不等于解释：理解土著如何看世界，不是照单全收其说法，而是分析其符号系统的内部逻辑。',
+        '人类学是解释科学而非实验科学：追求的是理解的深度，而非预测的精度；普遍性通过个案的深度获得，而非跨文化的量化比较。'
+      ],
+    core_ideas_en: [
+        'Culture is a public web of meaning, not a private mental state: meaning circulates publicly in symbol systems; anthropology\'s task is explication, not reduction.',
+        'Thick description: not merely recording behaviour (thin description) but reconstructing the layered meanings an action carries in its specific context (e.g., a wink vs a blink).',
+        'Religion, ideology, art as cultural systems: they are not mirrors reflecting reality but frameworks constructing reality.',
+        'The \'native\'s point of view\' is not the interpretation: understanding how natives see the world is not accepting their account wholesale, but analysing the internal logic of their symbol system.',
+        'Anthropology is an interpretive not an experimental science: it seeks depth of understanding, not precision of prediction; universality is reached through the depth of the case, not cross-cultural quantification.'
+      ],
+    key_questions_zh: [
+        '如何在不把文化还原为心理机制或社会功能的前提下，严谨地理解一种陌生文化？',
+        '「深描述」与单纯的田野记录有什么本质区别？',
+        '人类学作为解释科学，其客观性标准是什么？'
+      ],
+    key_questions_en: [
+        'How can we rigorously understand an unfamiliar culture without reducing it to psychological mechanisms or social functions?',
+        'What is the essential difference between \'thick description\' and mere field recording?',
+        'What counts as objectivity for anthropology as an interpretive science?'
+      ],
+    who_should_read_zh: '适合人类学、社会学、认知科学、跨文化管理、AI 伦理/对齐、历史学、文学批评的研究者；也适合任何需要「理解陌生语境下的人」的实践者。文笔优雅可读，无需人类学背景。中译本为上海译文出版社《作为文化的解释》（葛兆光等译），商务印书馆也有《文化的解释》版本。',
+    who_should_read_en: 'Suited to researchers in anthropology, sociology, cognitive science, cross-cultural management, AI ethics/alignment, history, and literary criticism; also to any practitioner who needs to \'understand people in unfamiliar contexts\'. Elegant and accessible prose, no anthropology background required. English edition: The Interpretation of Cultures (Basic Books). Chinese edition: 上海译文出版社《作为文化的解释》.',
+    reading_note_zh: '全书 14 章论文可独立阅读。必读章节：第 1 章「深描述」（方法论宣言）、第 2 章「宗教作为文化系统」（核心案例）、第 5 章「斗鸡」（最著名的深描述范例）、第 10 章「艺术作为文化系统」。建议按「方法论 → 案例 → 理论反思」的顺序读：先读 1、2 章建立框架，再读 5 章看实操，最后读 8、10、14 章看理论延伸。可配合《地方知识》看格尔茨后期如何处理「比较」与「普遍性」问题，也可对照《解释学与人科学》理解解释学传统。',
+    reading_note_en: 'The 14 essays can be read independently. Essential chapters: Ch.1 \'Thick Description\' (methodological manifesto), Ch.2 \'Religion as a Cultural System\' (core case), Ch.5 \'Deep Play: Notes on the Balinese Cockfight\' (most famous thick description), Ch.10 \'Art as a Cultural System\'. Suggested order: methodology (1–2) → case practice (5) → theoretical extensions (8, 10, 14). Read alongside Local Knowledge for Geertz\'s later take on comparison and universality, and against hermeneutic tradition (Gadamer, Ricoeur) for the philosophical lineage.'
+  }
+};

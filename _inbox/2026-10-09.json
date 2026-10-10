@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-09",
+  "books": [
+    {
+      "slug": "the-sleepwalkers",
+      "category": "history",
+      "title_zh": "梦游者：1914年，欧洲如何走向“一战”",
+      "title_en": "The Sleepwalkers: How Europe Went to War in 1914",
+      "author": "christopher-clark",
+      "author_zh": "克里斯托弗·克拉克",
+      "author_en": "Christopher Clark",
+      "nationality_zh": "澳大利亚",
+      "nationality_en": "Australian",
+      "year": 2012,
+      "original_language": "en",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "没有谁真正想要这场战争，欧洲却一步步走了进去——克拉克追问的不是「谁的罪」，而是「如何发生」",
+      "theme_en": "No one truly wanted the war, yet Europe walked into it: Clark asks not who was guilty but how it happened",
+      "tags": ["history", "world-wars", "power", "politics", "modern-world"],
+      "topics": ["history", "power-and-politics", "systems-thinking"],
+      "prose": {
+        "description_zh": "《梦游者》是澳大利亚历史学家克里斯托弗·克拉克 2012 年出版的著作，专门处理第一次世界大战的起源。它不满足于「谁点燃了导火索」这一提问方式，而是把 1914 年夏天之前的十年重新拆开：奥匈帝国与塞尔维亚之间不断升级的敌意、各国决策中心的内部结构、同盟承诺的连锁效应，以及一次次被误读的信号。克拉克把叙述的焦点放在维也纳、柏林、圣彼得堡、巴黎、伦敦与贝尔格莱德这几个决策中心，追踪其中的人物、机构与派系如何在信息不全、彼此猜疑的条件下做出选择。全书分为三部分：通往萨拉热窝的路径、1914 年的危机、以及危机之后。它的结论是反直觉的——这场战争并非某一国的阴谋，而是多方共同作用、谁也无法完全掌控的结果。",
+        "description_en": "The Sleepwalkers is a 2012 book by the Australian historian Christopher Clark devoted to the origins of the First World War. It refuses the usual question of who lit the fuse, and instead takes apart the decade before the summer of 1914: the escalating hostility between Austria-Hungary and Serbia, the internal structures of the various decision-making centres, the chain effects of alliance commitments, and signal after signal that was misread. Clark keeps his focus on the decision-making centres at Vienna, Berlin, St Petersburg, Paris, London, and Belgrade, following how the people, institutions, and factions within them chose under conditions of incomplete information and mutual suspicion. The book falls into three parts: the roads to Sarajevo, the crisis of 1914, and the aftermath. Its conclusion is counter-intuitive — the war was not the plot of any single power but the combined product of many, controlled fully by none.",
+        "why_read_zh": "它是对「简单归因」最有力的一次反驳。我们习惯把重大灾难归给某个恶人或某个国家的野心，克拉克却证明：一个由多方参与、信息割裂、承诺层层嵌套的系统，可以在没有任何一方真心想要战争的情况下，把所有人推向战争。这种「结构性的失败」逻辑，不只属于历史——它同样适用于公司决策、投资判断与技术路线的选择：当每个人都在做局部理性的事，整体却走向灾难。读它的价值不在于记住谁对谁错，而在于学会识别那些「正在滑向失控却无人踩刹车」的时刻，并理解决策碎片化本身如何成为最大的风险源。",
+        "why_read_en": "It is one of the most forceful refutations of simple attribution. We are used to blaming a catastrophe on a villain or a nation's ambition; Clark shows instead that a system with many participants, fragmented information, and layered commitments can push everyone toward war without anyone genuinely wanting it. That logic of structural failure is not confined to history — it applies equally to corporate decisions, investment judgements, and choices of technology: when everyone acts with local rationality, the whole can still slide into disaster. The value of reading it lies not in remembering who was right or wrong, but in learning to recognise the moments when a system is drifting out of control and no one is touching the brake — and in understanding how the fragmentation of decision-making itself becomes the greatest source of risk.",
+        "core_ideas_zh": [
+          "多因共责，而非单一罪责：战争不是某一国的阴谋，而是奥匈、塞尔维亚、俄国、德国、法国、英国等多方互动、彼此激化的结果；追究「谁最该负责」会掩盖真正的机制。",
+          "决策的碎片化：外交与军事决策分散在君主、首相、外长、总参谋长与各派系之间，缺乏统一的意志与协调，同一个国家内部常常发出互相矛盾的信号。",
+          "同盟的连锁效应：看似防御性的同盟承诺，把一场局部冲突自动放大为全面战争；条约一旦签署，就压缩了危机中的回旋空间。",
+          "巴尔干是引信而非全部：塞尔维亚的扩张诉求与奥匈的存亡焦虑构成结构性火药桶，萨拉热窝刺杀是偶然事件，却落在了必然的干柴上。",
+          "「梦游者」的隐喻：决策者并非无意识，而是有意识地冒险，却对后果缺乏预见；他们都在权衡、计算、下注，醒来时却发现已身在战争之中。",
+          "偶然与结构的交织：个体选择、误判与运气同样重要——历史不是必然的剧本，但结构性的紧张让偶然事件的后果被无限放大。"
+        ],
+        "core_ideas_en": [
+          "Shared responsibility rather than single guilt: the war was not the plot of one power but the outcome of interaction and mutual escalation among Austria-Hungary, Serbia, Russia, Germany, France, Britain, and others; asking who was most to blame obscures the real mechanism.",
+          "The fragmentation of decision-making: diplomacy and military policy were dispersed among monarchs, prime ministers, foreign ministers, chiefs of staff, and factions, without a single will or coordination — a state often sent contradictory signals to itself.",
+          "The chain effect of alliances: commitments that looked defensive automatically magnified a local conflict into a general war; once signed, treaties narrowed the room for manoeuvre in a crisis.",
+          "The Balkans were the fuse, not the whole charge: Serbia's expansionist claims and Austria-Hungary's existential anxiety formed a structural powder keg, and the assassination at Sarajevo was the accident that fell on dry kindling.",
+          "The sleepwalker metaphor: the decision-makers were not unconscious but deliberately taking risks, with little foresight of the consequences; all of them weighed, calculated, and bet, and woke to find themselves already at war.",
+          "Contingency interwoven with structure: individual choices, misjudgements, and luck mattered as much — history is not a necessary script, but structural tension magnifies the consequences of accidental events without limit."
+        ],
+        "key_questions_zh": [
+          "一场几乎没有谁真心想要的大战，为什么还是发生了？",
+          "责任应当归于个人、国家，还是归于整个体系？",
+          "决策者是在有意识地冒险，还是被结构推着走？"
+        ],
+        "key_questions_en": [
+          "Why did a great war that almost no one truly wanted nonetheless happen?",
+          "Should responsibility rest with individuals, with states, or with the system as a whole?",
+          "Were the decision-makers taking deliberate risks, or were they being pushed along by structure?"
+        ],
+        "who_should_read_zh": "适合对世界史、国际关系与战略研究感兴趣的读者；尤其适合需要做复杂决策的人——管理者、投资者、政策研究者——因为它讲的是一种可迁移的失败模式，而不只是一段往事。对一战已有基本了解的读者收获最大，无需专业史学训练。",
+        "who_should_read_en": "Suited to readers interested in world history, international relations, and strategy; especially useful to those who must make complex decisions — managers, investors, policy researchers — because it describes a transferable mode of failure rather than a mere episode of the past. Readers who already know the basic outline of the First World War will gain most. No specialist training in history is required.",
+        "reading_note_zh": "篇幅较长，不必强求通读。建议先读第一部分，弄清奥匈与塞尔维亚的长期敌意如何形成；再读第二部分，逐日追踪 1914 年 6 月底到 8 月初的危机升级，这是全书最紧张的部分；最后读第三部分与结论。阅读时留意各国「内部多个声音」这一细节，它比任何单一决策者的动机都更能解释战争的发生。可配合《八月炮火》看战争打响后的军事进程，也可对照《大国的兴衰》理解结构性的国力消长。中译本为中信出版社《梦游者：1914年，欧洲如何走向“一战”》。",
+        "reading_note_en": "The book is long; there is no need to read it straight through. Begin with Part One to see how the long hostility between Austria-Hungary and Serbia took shape; then read Part Two, which follows the escalation day by day from late June to early August 1914 and is the tensest stretch of the book; finish with Part Three and the conclusion. As you read, attend to the detail of multiple voices within each state — it explains the outbreak better than the motives of any single decision-maker. Read it alongside The Guns of August for the military course of the war once it began, and against The Rise and Fall of the Great Powers for the structural shifts of national power. The Chinese edition is The Sleepwalkers, published by CITIC Press."
+      }
+    },
+    {
+      "slug": "artificial-intelligence-a-guide-for-thinking-humans",
+      "category": "ai",
+      "title_zh": "AI 3.0",
+      "title_en": "Artificial Intelligence: A Guide for Thinking Humans",
+      "author": "melanie-mitchell",
+      "author_zh": "梅拉妮·米歇尔",
+      "author_en": "Melanie Mitchell",
+      "nationality_zh": "美国",
+      "nationality_en": "American",
+      "year": 2019,
+      "original_language": "en",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "AI 能做什么、不能做什么——一位认知科学家对人工智能能力边界的清醒盘点",
+      "theme_en": "What AI can and cannot do: a cognitive scientist's sober inventory of the limits of artificial intelligence",
+      "tags": ["ai", "machine-learning", "deep-learning", "cognitive-science", "computing"],
+      "topics": ["ai", "cognitive-science"],
+      "prose": {
+        "description_zh": "《AI 3.0》是美国计算机科学家、圣塔菲研究所教授梅拉妮·米歇尔 2019 年出版的著作。它不预测奇点，也不渲染恐慌，而是把「现在的人工智能究竟能做什么」当作一个可以逐项检查的经验问题。全书分五个部分，从人工智能的历史与基本概念讲起，依次考察机器如何看、如何玩（以围棋等游戏为案例）、如何理解自然语言，最后收束到一个核心难题——「意义的屏障」：机器可以在大量数据上取得惊人的表现，却难以获得对世界的真正理解。米歇尔既肯定深度学习带来的真实突破，也系统指出它的脆弱之处：对数据分布的依赖、常识的缺失、面对细微扰动时的崩塌。她反复区分「演示中的能力」与「真实世界的鲁棒性」，把热闹的叙事拉回到可检验的证据上。",
+        "description_en": "AI 3.0 is a 2019 book by the American computer scientist Melanie Mitchell, a professor at the Santa Fe Institute. It neither forecasts a singularity nor trades in alarm; it treats the question of what artificial intelligence can actually do today as an empirical matter to be checked item by item. The book has five parts: it opens with the history and basic concepts of AI, then examines how machines see, how they play (taking games such as Go as its case study), and how they handle natural language, before converging on a central difficulty — the barrier of meaning: machines can achieve astonishing performance on vast data yet struggle to acquire a genuine understanding of the world. Mitchell affirms the real breakthroughs brought by deep learning while systematically identifying its fragilities: dependence on the data distribution, the absence of common sense, and collapse under slight perturbations. She repeatedly distinguishes capability in a demonstration from robustness in the real world, pulling the excited narrative back to testable evidence.",
+        "why_read_zh": "在一个被「通用智能即将到来」与「AI 只是统计把戏」两种极端说法撕扯的时代，这本书提供了第三种立场：既承认进展是真的，也指出边界是硬的。米歇尔是少数同时具备工程直觉与认知科学视野的作者，她能把深度学习的内部机制讲清楚，也能解释为什么「看起来会说话」不等于「真的理解」。对做技术选型、投资判断或产品规划的人，这种「区分演示与能力、基准分数与真实鲁棒性」的审慎，正是当下最稀缺的判断力。它也把 AI 与认知科学重新接上——理解机器如何失败，往往就是理解人类智能如何特殊的最短路径。",
+        "why_read_en": "In an age torn between the claim that general intelligence is imminent and the claim that AI is mere statistical trickery, this book offers a third position: it grants that the progress is real and insists that the limits are hard. Mitchell is one of the few authors with both engineering intuition and a cognitive-science perspective; she can explain the inner workings of deep learning and also explain why seeming to talk is not the same as actually understanding. For anyone doing technology selection, investment judgement, or product planning, this discipline of distinguishing demonstration from capability, and benchmark scores from real-world robustness, is precisely the scarcest judgement of the moment. It also reconnects AI with cognitive science — understanding how machines fail is often the shortest route to understanding what makes human intelligence distinctive.",
+        "core_ideas_zh": [
+          "智能是拼图而非单一维度：AI 在不同任务上的进展极不均衡，某些领域远超人类，某些领域却仍如幼儿；「通用智能」远未实现。",
+          "深度学习的力量与边界：它靠海量数据与统计相关取得突破，但缺乏因果模型与常识，对训练分布之外的情形容易失效。",
+          "理解不等于模式匹配：流畅的输出可能只是对训练数据的巧妙重排；真正的理解需要概念、指称与因果，而这正是「意义的屏障」。",
+          "类比是智能的核心：人类智能的关键在于从具体中抽象出关系并迁移到新情境，机器在这一步上仍然薄弱。",
+          "警惕演示与炒作：一次惊艳的展示、一个漂亮的基准分数，都不能等同于可靠的能力；必须区分封闭任务与开放世界。",
+          "人机差异是结构性的：在感知、常识推理与语言理解上，当前 AI 与人类智能的差异不是程度问题，而是机制问题。"
+        ],
+        "core_ideas_en": [
+          "Intelligence is a patchwork, not a single dimension: AI's progress is wildly uneven across tasks, surpassing humans in some domains while remaining infantile in others; general intelligence is nowhere near achieved.",
+          "The power and the limits of deep learning: it breaks through by means of vast data and statistical correlation, but it lacks causal models and common sense and tends to fail outside its training distribution.",
+          "Understanding is not pattern matching: fluent output may be a clever rearrangement of training data; genuine understanding requires concepts, reference, and causation — which is exactly the barrier of meaning.",
+          "Analogy is central to intelligence: human intelligence depends on abstracting relations from particulars and transferring them to new situations, and machines remain weak at this step.",
+          "Beware demonstrations and hype: a dazzling demo or a handsome benchmark score is not the same as reliable capability; closed tasks must be distinguished from the open world.",
+          "The human-machine difference is structural: in perception, common-sense reasoning, and language understanding, the gap between current AI and human intelligence is not one of degree but of mechanism."
+        ],
+        "key_questions_zh": [
+          "人工智能与人类智能的根本差异究竟在哪里？",
+          "深度学习在多大程度上是「理解」，在多大程度上只是模式匹配？",
+          "要走向通用智能，当前路径还缺什么？"
+        ],
+        "key_questions_en": [
+          "Where exactly does the fundamental difference between artificial and human intelligence lie?",
+          "To what extent is deep learning understanding, and to what extent is it only pattern matching?",
+          "What is still missing from the current path toward general intelligence?"
+        ],
+        "who_should_read_zh": "适合 AI 从业者、技术管理者与投资人，作为对抗炒作的「校准器」；也适合认知科学、心理学与哲学方向的读者，理解人工智能与人类心智的异同。具备基本的计算机或科学素养即可，不要求数学与编程背景。",
+        "who_should_read_en": "Suited to AI practitioners, technology managers, and investors as a calibrator against hype; also to readers in cognitive science, psychology, and philosophy who want to understand the similarities and differences between artificial and human minds. Basic computer or scientific literacy is enough — no background in mathematics or programming is required.",
+        "reading_note_zh": "五个部分层层递进，建议按顺序读。若时间有限，可直接读关于「看」与「玩」的两部分，建立「AI 表现有多强、多脆」的具体直觉；再重点读关于自然语言与「意义的屏障」的部分，这是全书的思想落点。阅读时把每个案例都当作一次压力测试：作者展示的往往不是能力，而是能力的边界。可配合《哥德尔、艾舍尔、巴赫》理解类比与意义问题，也可配合《人机对齐》看同一技术现实的不同关切。中译本为四川科学技术出版社《AI 3.0》。",
+        "reading_note_en": "The five parts build on one another and are best read in order. If time is short, read the parts on seeing and on playing first to build a concrete intuition for how strong and how brittle AI performance is; then give priority to the part on natural language and the barrier of meaning, where the book's argument comes to rest. Treat each case as a stress test: what the author displays is often not the capability but its boundary. Read it alongside Gödel, Escher, Bach for analogy and meaning, and alongside The Alignment Problem for different concerns about the same technological reality. The Chinese edition is AI 3.0, published by Sichuan Science and Technology Press."
+      }
+    }
+  ]
+}
