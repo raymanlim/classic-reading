@@ -15,6 +15,8 @@
     "covers:ingest": "node src/covers-ingest.mjs",
     "covers:list": "node src/gen-covers-md.mjs",
     "covers:match-test": "node scripts/covers-match-selftest.mjs",
+    "covers:publish": "node scripts/covers-publish.mjs",
+    "verify:covers:live": "node scripts/verify-covers-live.mjs",
     "content:brief": "node src/articles-brief.mjs",
     "articles:brief": "node src/articles-brief.mjs",
     "verify:my-reading": "node scripts/verify-my-reading.mjs",

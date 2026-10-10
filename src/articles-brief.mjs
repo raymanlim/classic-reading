@@ -7,8 +7,17 @@
  * 为「工作日思想长文 + 阅读笔记」自动化任务一次性输出四份上下文：
  *   一、现有文章清单 —— 新文章的选题与角度必须与之明显不同
  *   二、合法 taxonomy 取值 —— category / tags / topics 必须逐字使用，写错会导致构建失败
- *   三、书库概览 —— related_books 只能引用其中的 slug
+ *   三、书库概览 —— 文章的「分析对象」与 related_books 均可取自其中的 slug
  *   四、阅读笔记现状 —— 已写过的书不得重复写；笔记的 topics 只能取自第二部分
+ *
+ * 🔴 选题素材范围（2026-10-11 起，Rayman 指令）：
+ *   「文章」板块的选题素材 = **全部书籍，无例外**。书库由两个来源合并而成 ——
+ *     ① 策展经典（content/books.manifest.js）
+ *     ② 书单导入（content/lists/*.js）：AZM 推荐 / XMS 推荐 / **每日推荐**
+ *   四类来源**全部同等可选**为文章的核心分析对象与 related_books，
+ *   **不存在「只选策展经典」或「书单条目只能做配角」的规则**。
+ *   「阅读笔记」板块**同理**：笔记对象也覆盖全部书籍，唯一限制是「尚未写过笔记」。
+ *   每本书后标注来源，选题时据此识别。
  *
  * 设计意图：让自动化任务在**不猜**的前提下选题。
  * 任务本身不需要记住任何历史状态，每次运行读一遍本简报即可。
@@ -20,6 +29,14 @@ const { books, articles, notes, categories, tags, topics } = data;
 
 const line = (s = '') => console.log(s);
 const nameOf = (x) => x.zh || x.name_zh || x.slug;
+
+/* 来源标签：策展经典 / AZM推荐 / XMS推荐 / 每日推荐（与站点 src/lib/layout.js 的 sourceLabel 一致） */
+const SOURCE_LABEL = {
+  anzhengming: 'AZM推荐',
+  xiaomingshuo: 'XMS推荐',
+  daily: '每日推荐'
+};
+const tierLabel = (b) => (b.tier === 'list' ? SOURCE_LABEL[b.source] || '书单推荐' : '策展经典');
 
 line('# 内容选题简报（自动生成）');
 line();
@@ -61,7 +78,18 @@ line(tags.map((t) => `\`${t.slug}\``).join(' '));
 line();
 
 /* ---------- 三、书库 ---------- */
-line('## 三、书库 —— `related_books` 只能引用下列 slug（选 3–6 本）');
+line('## 三、书库 —— 文章的分析对象与 `related_books` 均可取自下列 slug（选 3–6 本）');
+line();
+const SOURCE_ORDER = ['策展经典', 'AZM推荐', 'XMS推荐', '每日推荐'];
+const sourceSummary = SOURCE_ORDER
+  .map((l) => `${l} ${books.filter((b) => tierLabel(b) === l).length}`)
+  .join(' + ');
+line(`> 🔴 **选题素材 = 全部书籍，无例外**：下列 **${books.length}** 本**全部**可作为文章的核心分析对象`);
+line('> 或 `related_books`，**不论来源、不论层级** ——');
+line(`> ${sourceSummary}。`);
+line('> 可以直接以**任意一本**（含 AZM / XMS / **每日推荐**书目）为中心展开论证，不必先有策展经典；');
+line('> 也不存在「必须先选策展经典」或「书单条目只能做配角」的规则。');
+line('> 每本书后已标注来源，据此识别即可。');
 line();
 const byCat = new Map();
 for (const b of books) {
@@ -75,11 +103,13 @@ for (const c of categories) {
   line();
   for (const b of list) {
     const en = b.title_en ? ` / ${b.title_en}` : '';
-    line(`- \`${b.slug}\` — ${b.title_zh}${en}`);
+    line(`- \`${b.slug}\` — ${b.title_zh}${en} ｜ ${tierLabel(b)}`);
   }
   line();
 }
-line(`书库合计 **${books.length}** 本。`);
+const curatedCount = books.filter((b) => b.tier !== 'list').length;
+const listCount = books.length - curatedCount;
+line(`书库合计 **${books.length}** 本（策展经典 ${curatedCount} + 书单推荐 ${listCount}）。`);
 line();
 
 /* ---------- 四、阅读笔记现状 ---------- */
@@ -87,6 +117,11 @@ const notedBookSlugs = new Set(notes.map((n) => n.book));
 const available = books.filter((b) => !notedBookSlugs.has(b.slug));
 
 line('## 四、阅读笔记现状 —— 新笔记只能写下列「尚未写过」的书');
+line();
+line('> 🔴 **笔记对象同样覆盖全部书籍，无例外**：策展经典 / AZM 推荐 / XMS 推荐 / 每日推荐');
+line('> 四类来源**全部**可写笔记（2026-10-11 起，Rayman 指令）。唯一的限制是「这本书还没写过笔记」，');
+line('> **不限定书目层级**，也不存在「书单条目只能做轻量条目、不配写笔记」的规则。');
+line('> 每本书后已标注来源，据此识别。');
 line();
 if (!notes.length) {
   line('（暂无笔记，书库内任一本书都可作为首篇笔记对象）');
@@ -112,10 +147,10 @@ if (!notes.length) {
     if (!list.length) continue;
     line(`### ${nameOf(c)}（\`${c.slug}\`）— ${list.length} 本`);
     line();
-    for (const b of list) {
-      const en = b.title_en ? ` / ${b.title_en}` : '';
-      line(`- \`${b.slug}\` — ${b.title_zh}${en}`);
-    }
+      for (const b of list) {
+        const en = b.title_en ? ` / ${b.title_en}` : '';
+        line(`- \`${b.slug}\` — ${b.title_zh}${en} ｜ ${tierLabel(b)}`);
+      }
     line();
   }
 }

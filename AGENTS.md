@@ -64,7 +64,8 @@ node src/audit.mjs
 node src/audit.mjs --og            # 顺便重新生成 public/og.png
 ```
 
-等价 npm script：`npm run build` / `serve` / `check` / `covers` / `covers:ingest` / `covers:list`。
+等价 npm script：`npm run build` / `serve` / `check` / `covers` / `covers:ingest` / `covers:list`
+/ `covers:publish` / `verify:covers:live`。
 **Node 20+**。
 
 ---
@@ -159,6 +160,7 @@ GitHub Actions: node src/build.mjs → node src/check.mjs → 部署 dist/
 | **双轨页面** | 「服务端渲染 + 客户端重建」页面，改负载要成对改 | 见 README 第 15 节 |
 | **`_stage/`** | 封面原图与中间产物（约 150MB） | 已在 `.gitignore`，**不要提交** |
 | **`_exist.txt`** | 去重清单产物 | 已在 `.gitignore` |
+| 🔴 **`git reset --hard` 冲掉未提交内容** | 已跟踪文件的改动被静默还原，未跟踪的新文件却还在 —— 造成「一半在、一半没了」的错觉 | 2026-10-11 实证：`content/notes.js` 的 note-011/012、`package.json` 的两个 npm script 被冲掉。**改完立即提交**，不要指望工作区替你留存 |
 
 ---
 
@@ -175,6 +177,21 @@ chore:    构建/配置/杂项
 - 提交前工作区应只有**你这次改动**的文件，不要顺手带上无关变更。
 - 提交信息用中文或英文均可，但要能说清「改了什么、为什么」。
 - **不要** `git add -A` 之后不看 diff 就提交 —— 先 `git status` 确认范围。
+
+### 🔴 改动即同步 GitHub（Rayman 2026-10-11 指令，长期有效）
+
+**只要改动了本仓库的任何文件 —— 代码、脚本、文档（`AGENTS.md` / `README.md` / `COVERS.md`）、
+内容（`content/` 下的书目 / 文章 / 笔记 / overlay）、封面资源 —— 都要在同一轮里提交并推送到
+`raymanlim/classic-reading`，保持本地与 GitHub 随时一致。**
+
+- 不要「先放着，回头一起提交」。历史教训：工作区里攒着的未提交内容，既会因 `git reset --hard`
+  被静默冲掉（见第 6 节），也会被下一次自动化构建顺带发布到线上，造成「线上有、仓库没有」的孤儿内容。
+- 推送前必须 `git status` 确认范围；`_stage/`、`dist.local-backup-*/`、`nul` 已在 `.gitignore`。
+- 本站**没有** CI 自动提交，同步完全靠手动 / Agent 执行。
+- ⚠️ 本机曾出现 `git fetch` / `git push` 被代理拦截
+  （`CONNECT tunnel failed, response 502` / `unpack-objects failed`）。
+  若复现，改用 **GitHub Git Data API**（Create Blob → Create Tree → Create Commit → Update Ref），
+  `api.github.com` 始终可用；也可先 `git ls-remote origin` 探连通性（2026-10-11 实测已恢复正常）。
 
 ---
 

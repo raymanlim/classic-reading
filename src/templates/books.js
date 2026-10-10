@@ -1,5 +1,12 @@
 /**
  * 书籍相关页面：书库总览 / 书籍详情
+ *
+ * 🔴 书库页说明句「以下为「AZM / XMS」频道推荐书目，作为轻量条目收录，暂未撰写深度解读。」
+ *   （即 renderLibrary 中的 `.filters__note` ← `library.list_note`）
+ *   由 Rayman 指定**保留，不得删除**（2026-10-11 明确确认）。
+ *   注意：AZM / XMS 推荐书目自 2026-10-11 起已正式纳入「文章」板块的分析对象，
+ *   但书库页仍按「轻量条目」呈现，二者不冲突。
+ *   若确需改动该句，`locales/zh-CN.json` 与 `en-US.json` 的 key 必须对称修改。
  */
 import {
   t, formatYear, formatReadingTime, nameOf, bookTitle, bookTitleSecondary,

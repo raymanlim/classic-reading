@@ -31,3 +31,9 @@ Thumbs.db
 .vscode/
 .idea/
 *.log
+
+# Windows 误建的空文件名（重定向到 nul 时产生）
+nul
+
+# 本地 dist 快照备份（发布前留档，不属仓库内容）
+dist.local-backup-*/
