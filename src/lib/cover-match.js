@@ -26,6 +26,14 @@
  *
  * 三条修正均不改变 subset 规则（文件名 ⊆ 目标）——它是为
  * `Artificial Intelligence → artificial-intelligence-a-modern-approach` 专门加的。
+ *
+ * ── 2026-10-11 修正（由 selftest 的 A3 用例逼出）──
+ * ④ 非中文文件名只比对 slug 与英文书名，于是「中文书名才是唯一标识」的书完全不可见。
+ *    `AI 3.0`（slug: artificial-intelligence-a-guide-for-thinking-humans）的 title_zh
+ *    是拉丁字母，而它的 slug 与 title_en 里都没有 `ai` 这个词元；结果 `AI 3.0.png`
+ *    仅凭共有的数字词元 `3`/`0` 被 `life-3-0` 以 0.67 抢走（正确的书得分为 null）。
+ *    同源风险：任何「slug/title_en 与显示书名不同源」的书都会静默失配。
+ *    → 非中文分支补上 [b.zhSet, '']，让 title_zh 参与比对。
  */
 import { extname } from 'node:path';
 
@@ -140,7 +148,8 @@ export function bestMatch(fileName, index) {
         ]
       : [
           [b.slugSet, ''],
-          [b.enSet, '']
+          [b.enSet, ''],
+          [b.zhSet, '']
         ];
 
     let book = null;
