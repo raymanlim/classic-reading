@@ -211,6 +211,24 @@ export const notes = [
       'The key move in this book is to redescribe envy from an individual psychological quirk into a social structure: it cannot be abolished and cannot be satisfied, because its trigger is relative — someone else improves, and envy appears. What it genuinely changes is the understanding of fairness: envy is the psychological foundation of distributive justice, without which no norm of fairness has any enforcing power, and at the same time a permanent brake on development, because it systematically punishes every success that rises above the average. The easily missed point is that envy always targets concrete people rather than abstract systems, so it channels resentment toward successful neighbours instead of producing structural change — which explains why pervasive envy so often coexists with political conservatism. The caution worth keeping is that political imaginings of an envy-free society tend to end far worse: suppressing envy requires continuous surveillance and coercion, and those who do the suppressing are not themselves immune to it.',
     topics: ['class-and-inequality', 'modern-society', 'power-and-politics'],
   },
+  {
+    id: 'note-013',
+    slug: 'seneca-time-lost-while-postponing-life',
+    book: 'letters-from-a-stoic',
+    date: '2026-10-11',
+    voice: 'editorial',
+    key_insight_zh:
+      '拖延之所以致命，不在于被拖延的事最终没做成，而在于被搁置的那部分时间已经支付出去、不可追偿——塞涅卡说死亡大半落在身后，指的正是这一点。',
+    key_insight_en:
+      'Postponement is fatal not because the postponed task may never get done but because the portion of time set aside has already been spent and cannot be reclaimed — which is precisely what Seneca means when he says most of death lies behind us.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于把「时间不够」重新描述为一个记账问题，而不是一个寿命问题：时间是人唯一真正拥有的东西，而人对待它的方式恰好与对待金钱相反——金钱上的债务要追讨，时间却随手让人拿走。它真正改变的是对「浪费」的理解：浪费不是事后才看清的结果，而是此刻正在发生的过程，「我们期盼着死亡还在前方，其实它大半已经落在身后」。容易被忽略的一点是，塞涅卡并未把自己算作例外，他坦承自己同样浪费时间，只是清楚浪费在了哪里——这使这封信读起来不像训诫，而像一份公开的账单。值得警惕的是，「抓住当下」后来被简化成一种行动力口号，而原意更接近审计：先算清时间实际流向何处，才谈得上如何使用它。它与本站《等待的建筑学》一文恰好构成两侧：那篇讲期待如何抵押当下，这封信念的正是同一笔债的利息。',
+    thinking_en:
+      'The key move in these letters is to redescribe "not enough time" as an accounting problem rather than a lifespan problem: time is the one thing genuinely our own, yet it is treated as the exact inverse of money — a debt in cash is pursued, while hours are handed to anyone who asks. What it genuinely changes is the meaning of waste: waste is not a verdict visible only in retrospect but a process under way right now, for "we look forward to death as though it lay ahead, when most of it is already behind us." The easily missed point is that Seneca does not exempt himself: he concedes that he too wastes time, but knows exactly where it went — which makes the letter read less as a sermon than as a published account. The caution worth keeping is that "seize the day" later hardened into a slogan of productivity, whereas the original point is closer to an audit: only after establishing where time actually goes does the question of how to spend it become meaningful. It forms two halves with this site\'s "The Architecture of Waiting": that piece examines how expectation mortgages the present, and this letter is the interest on the same debt.',
+    topics: ['philosophy', 'modern-society'],
+  },
 ];
 
 export default notes;
