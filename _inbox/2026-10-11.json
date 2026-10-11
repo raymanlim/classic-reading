@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-11",
+  "books": [
+    {
+      "slug": "the-concept-of-mind",
+      "category": "philosophy",
+      "title_zh": "心的概念",
+      "title_en": "The Concept of Mind",
+      "author": "gilbert-ryle",
+      "author_zh": "吉尔伯特·赖尔",
+      "author_en": "Gilbert Ryle",
+      "nationality_zh": "英国",
+      "nationality_en": "British",
+      "year": 1949,
+      "original_language": "en",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "用日常语言分析拆解笛卡尔心身二元论——所谓「机器中的幽灵」只是一个范畴错误",
+      "theme_en": "Dismantling Cartesian dualism by linguistic analysis: the \"ghost in the machine\" is a category mistake",
+      "tags": ["philosophy", "consciousness", "classics", "human-nature"],
+      "topics": ["philosophy", "cognitive-science"],
+      "prose": {
+        "description_zh": "《心的概念》是英国分析哲学家吉尔伯特·赖尔的代表作，1949 年首次出版，作者自称为「一段持续的分析性劈砍」。全书以日常语言分析为工具，系统拆解笛卡尔以来的心身二元论框架。赖尔把这套传统学说称为「官方学说」：它把心灵描绘成一个私密的、非物质的内在剧场，与物理身体并列存在——他创造性地称之为「机器中的幽灵」。他论证：这类说法的问题不是经验上错了，而是犯了「范畴错误」——把心灵词汇当作与身体词汇同一逻辑类型的实体来使用，如同参观了学院、图书馆、实验室之后追问「大学在哪里」。全书逐章清理意志、情绪、素质、自我认识、感觉、想象与理智，主张心理词汇描述的是行为倾向与能力，而非幽暗内心剧场中的事件。",
+        "description_en": "The Concept of Mind (1949) is the masterpiece of British analytic philosopher Gilbert Ryle, described by its author as \"a sustained piece of analytical hatchet-work\" on Cartesian dualism. Ryle targets what he calls the \"official doctrine\": the picture of the mind as a private, non-material inner theatre existing alongside the physical body — a picture he dubs \"the ghost in the machine\". His charge is not that dualism is empirically false but that it is a category mistake: mental-conduct words are treated as if they named objects and events of the same logical type as bodily ones, like a visitor who has been shown the colleges, the libraries and the laboratories and then asks where the university is. Chapter by chapter he re-describes will, emotion, disposition, self-knowledge, sensation, imagination and intellect as statements about capacities, tendencies and propensities rather than dispatches from an inaccessible inner stage.",
+        "why_read_zh": "这本书提供了一把检验思想清晰度的尺子。我们日常谈论「内心」「意志力」「潜意识」时，很大程度上仍是被赖尔所批评的那套笛卡尔语法支配着。读懂赖尔，会让人对「心灵在哪里」「机器能不能有心灵」这类问题本身产生警惕——而正是这种警惕，构成了后来认知科学与人工智能讨论的隐秘前提。书中「知道怎样」与「知道那个」的区分，至今仍是技能、直觉与专业知识研究的基石。",
+        "why_read_en": "Ryle hands you an instrument for testing the clarity of your own thinking. Much everyday talk about \"the mind\", \"willpower\" and \"the unconscious\" still runs on the very grammar he dissected. Reading him makes questions like \"where is the mind?\" and \"can a machine have a mind?\" begin to look suspect — and that suspicion is the tacit starting point of cognitive science and of the AI debate. His distinction between knowing-how and knowing-that remains foundational for work on skill, intuition and expertise.",
+        "core_ideas_zh": [
+          "「官方学说」是语法上的神话：把心灵当作与身体并列的第二种实体，是犯了范畴错误——这正是「机器中的幽灵」一说的来源。",
+          "范畴错误造出的不是错误的命题，而是无法检验的命题：某个词被用在了它不属于的逻辑类型之外。",
+          "「知道怎样」优先于「知道那个」：会游泳、会下棋是能力与倾向，不是暗中查阅的一堆命题；唯理智主义传奇把次序颠倒了。",
+          "心理词汇指向倾向而非隐秘事件：说一个人愤怒，是说他倾向于如此行动，而不是在报告一个私密剧场里的内在对象。"
+        ],
+        "core_ideas_en": [
+          "The \"official doctrine\" is a grammatical myth: treating the mind as a second substance alongside the body is a category mistake — the origin of Ryle's phrase \"the ghost in the machine\".",
+          "A category mistake yields propositions that are untestable rather than false, because a term is deployed outside its proper logical type.",
+          "Knowing-how precedes knowing-that: swimming or playing chess are abilities and dispositions, not bodies of propositions silently consulted; the intellectualist legend inverts the order.",
+          "Mental words pick out dispositions, not occult events: to call someone angry is to say how they are liable to behave, not to report an object in a private theatre."
+        ],
+        "key_questions_zh": [
+          "为什么心身二元论看似无可置疑却在逻辑上站不住？心灵究竟算哪一种「东西」？",
+          "当我们用心理词汇描述一个人时，究竟是在陈述一个内在事实，还是在提示他的行为倾向？"
+        ],
+        "key_questions_en": [
+          "Why does mind-body dualism seem self-evident yet collapse under logical examination — and what kind of \"thing\" is a mind?",
+          "When we describe someone in mental terms, are we stating an inner fact or signalling behavioural dispositions?"
+        ],
+        "who_should_read_zh": "适合对心灵、意识与人工智能有兴趣的读者，尤其是不满足于「大脑产生意识」这类笼统说法的人。它也是认知科学、心理学与哲学专业绕不开的源头文本。需要一点耐心适应分析哲学的论证节奏，但不需任何先修知识。",
+        "who_should_read_en": "Readers interested in mind, consciousness and AI who are dissatisfied with vague statements like \"the brain produces consciousness\"; students of philosophy, psychology and cognitive science encountering a foundational text; anyone willing to adjust to the pace of analytic argument. No prerequisites beyond patience.",
+        "reading_note_zh": "建议先读第一章「笛卡尔的神话」与第二章「知道怎样做和知道那个事实」，两章已包含全书精华；中间各章可按兴趣选读情绪、自我认识与想象。中文版推荐商务印书馆徐大建译本（汉译世界学术名著丛书）。可配合《第一哲学沉思集》与《笛卡尔的错误》对照阅读，看同一问题在三种进路下的命运。",
+        "reading_note_en": "Read Chapter 1 (\"Descartes' Myth\") and Chapter 2 (\"Knowing How and Knowing That\") first — together they carry the book's core; sample the middle chapters on emotion, self-knowledge and imagination as interest directs. The standard English text is the Routledge edition; the Chinese translation is 徐大建's 商务印书馆 edition. Pairs well with Meditations on First Philosophy and Descartes' Error to watch one problem move across three approaches."
+      }
+    },
+    {
+      "slug": "consciousness-and-the-brain",
+      "category": "psychology",
+      "title_zh": "脑与意识",
+      "title_en": "Consciousness and the Brain: Deciphering How the Brain Codes Our Thoughts",
+      "author": "stanislas-dehaene",
+      "author_zh": "斯坦尼斯拉斯·迪昂",
+      "author_en": "Stanislas Dehaene",
+      "nationality_zh": "法国",
+      "nationality_en": "French",
+      "year": 2014,
+      "original_language": "fr",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "用实验把意识从哲学争论变成可测量的大脑编码——意识是全脑信息的全局共享",
+      "theme_en": "Turning consciousness from a philosophical quarrel into a measurable brain code: consciousness as global information sharing",
+      "tags": ["psychology", "cognitive-science", "consciousness", "neuroscience", "science"],
+      "topics": ["cognitive-science", "science-and-nature", "decision-making"],
+      "prose": {
+        "description_zh": "《脑与意识》是法国认知神经科学家、法兰西学院实验认知心理学教授斯坦尼斯拉斯·迪昂的代表作，法文原版《Le code de la conscience》与英文版均于 2014 年出版。迪昂在书中报告了二十余年意识研究的实验成果，核心是回答一个长期被认为不科学的问题：主观体验在大脑中对应什么？通过掩蔽视觉、注意瞬脱、开颅电极记录与大规模脑成像等实验，他论证意识并非神秘的附加物：当感知信息突破瓶颈、被并行广播给语言、记忆与行动计划等系统时，意识就出现了，并伴随可测量的晚期全脑信号。书的后半部分提出「全脑工作空间」理论，并把同一套判据用于讨论婴儿、动物、昏迷患者与人工智能的边界。",
+        "description_en": "In Consciousness and the Brain, French cognitive neuroscientist Stanislas Dehaene turns the problem of subjective experience into an experimental science. Drawing on more than two decades of work from his own lab and others, he asks what actually changes in the brain when a stimulus crosses the threshold into awareness. Through masking experiments, the attentional blink, intracranial electrode recordings and large-scale brain imaging, he argues that consciousness is no mysterious add-on: it is what happens when perceived information breaks through a bottleneck and is broadcast in parallel to the language, memory and action-planning systems, leaving measurable late global signatures. The second half of the book assembles these findings into the global neuronal workspace theory and applies the same criteria to the boundaries of consciousness in infants, animals, coma patients and machines.",
+        "why_read_zh": "这是少有的把意识讲得既严谨又可读的书。多数谈意识的书停在哲学思辨或科普比喻层面，迪昂给出的是可复现的实验：什么样的刺激进入意识、什么样的被拦截，时间精确到毫秒。对关心人工智能的读者尤其有价值——全脑工作空间理论直接回应「什么样的信息处理会产生主观体验」，也为评估当前大模型是否具备意识提供了少数有据可依的框架。",
+        "why_read_en": "Few books on consciousness are both rigorous and readable. Most stop at thought experiments or metaphors; Dehaene supplies reproducible experiments — which stimuli enter awareness, which are intercepted, resolved to milliseconds. For readers interested in AI this matters directly: the global-workspace account is one of the few evidence-based frameworks for asking what kind of information processing gives rise to subjective experience at all, and it offers a yardstick for the debate over whether present-day language models possess anything like consciousness.",
+        "core_ideas_zh": [
+          "意识有可测量的客观标志：意识内容出现时伴随晚期全脑同步信号（P3 波与额顶网络激活），而无意识加工局限于局部脑区。",
+          "意识是全局信息共享：感知信息在「全脑工作空间」中被并行广播给语言、记忆、运动规划等系统，意识就是这个广播过程本身。",
+          "无意识的能力远超直觉：大量语义加工、计算甚至简单决策可在无意识中完成；意识负责的是长程整合与灵活报告，而非全部思维。",
+          "同一套标志可用于划定边界：评估昏迷与植物状态患者的残存意识、婴儿的心智生活，以及机器离意识还差多远。"
+        ],
+        "core_ideas_en": [
+          "Consciousness has measurable signatures: conscious access is accompanied by a late, global P3 wave and the ignition of a fronto-parietal network, while unconscious processing stays confined to local brain regions.",
+          "Consciousness is global information sharing: once information is broadcast in parallel across the \"global neuronal workspace\" to the language, memory and motor-planning systems, that broadcast is the experience.",
+          "The unconscious does far more than intuition suggests: much semantic processing, arithmetic and even simple decisions occur without awareness; consciousness serves long-range integration and flexible report rather than thought as a whole.",
+          "The same signatures set boundaries: they are used clinically to detect residual awareness in coma and vegetative-state patients, to probe the mental lives of infants, and to ask what machines still lack."
+        ],
+        "key_questions_zh": [
+          "主观体验能否被客观测量？大脑中究竟发生了什么，让一段信息从「被加工」变成「被体验到」？",
+          "意识在进化上有什么用？它是思维的必要条件，还是一种专门负责全局整合的机制？"
+        ],
+        "key_questions_en": [
+          "Can subjective experience be measured objectively — what happens in the brain when information moves from being \"processed\" to being \"experienced\"?",
+          "What is consciousness for in evolution: a prerequisite of thought, or a specific mechanism for global integration?"
+        ],
+        "who_should_read_zh": "适合对意识、大脑或人工智能好奇的读者，尤其适合想超越哲学争论、直接看实验证据的人。书中实验描述生动，不需要神经科学背景即可跟上；对研究者而言，后半部分的全脑工作空间理论仍是有生命力的框架。",
+        "who_should_read_en": "Curious readers of mind, brain and AI who want experimental evidence rather than philosophical argument. The experiments are described vividly enough to follow without a neuroscience background; for researchers, the global-workspace theory in the second half remains a living framework.",
+        "reading_note_zh": "全书十章，前半部分讲故事与方法、后半部分讲理论与边界，按顺序阅读体验最好。重点章节是第 2、4、5 章（无意识、意识的客观标志、理论构建）。中文版为浙江教育出版社《脑与意识》（湛庐文化）。可与《意识的解释》对读：一本给出怀疑论的拆解，一本给出建设性的神经科学答案。",
+        "reading_note_en": "Ten chapters, best read in order: the first half covers stories and methods, the second theory and boundaries. The core lies in Chapters 2, 4 and 5 (the unconscious, the objective signatures of consciousness, theory-building). The Chinese edition is 浙江教育出版社's 《脑与意识》. Reads well against Consciousness Explained: one book dismantles, the other constructs a neuroscientific answer."
+      }
+    }
+  ]
+}
