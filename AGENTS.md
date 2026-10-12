@@ -59,6 +59,9 @@ node src/covers-ingest.mjs
 # 重新生成封面清单 COVERS.md（书目变动后跑）
 node src/gen-covers-md.mjs
 
+# 重新生成「待出图」清单 COVERS-TODO.md（只列还没封面的书，按分类分组）
+node src/gen-covers-todo.mjs
+
 # 多端响应式审计（8 档宽度 × 11 条路由，截图落 _audit/）
 node src/audit.mjs
 node src/audit.mjs --og            # 顺便重新生成 public/og.png
