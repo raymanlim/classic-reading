@@ -3,21 +3,38 @@
  * 用法：node src/gen-covers-md.mjs
  *
  * 书籍清单（content/books.manifest.js）变动后重新跑一次，清单会自动同步。
+ *
+ * 2026-10-13 修订：
+ *   - 表格新增「状态」列（✅ 已有 / ⬜ 待出图），避免拿全量清单去生成时重复出图。
+ *   - 第九节「只导出文件名」改为只导**待出图**的，可直接喂给批量生成。
+ *   - 章节标题里的书目数改为动态，不再写死。
+ *   只列待出图的精简版见 `COVERS-TODO.md`（node src/gen-covers-todo.mjs）。
  */
-import { writeFileSync } from 'node:fs';
+import { writeFileSync, readdirSync } from 'node:fs';
 import { loadData } from './lib/data.js';
 
 const data = await loadData();
 const books = [...data.books].sort((a, b) => b.index - a.index);
 const catName = (b) => (b.categoryEntity ? b.categoryEntity.name_zh : b.category);
 
+const have = new Set(
+  readdirSync('public/covers')
+    .filter((f) => f.toLowerCase().endsWith('.webp'))
+    .map((f) => f.slice(0, -5))
+);
+const hasCover = (b) => have.has(b.slug);
+const missing = books.filter((b) => !hasCover(b));
+
 const rows = books
-  .map((b, i) => `| ${i + 1} | \`${b.slug}.webp\` | ${b.title_zh} | ${b.title_en} | ${b.author?.name_zh || ''} | ${catName(b)} |`)
+  .map((b, i) => `| ${i + 1} | \`${b.slug}.webp\` | ${b.title_zh} | ${b.title_en || ''} | ${b.author?.name_zh || ''} | ${catName(b)} | ${hasCover(b) ? '✅ 已有' : '⬜ 待出图'} |`)
   .join('\n');
 
 const md = `# 封面图生成清单｜Classics Library
 
-本文件是给你生成封面图用的对照表。共 **${books.length}** 本。
+本文件是给你生成封面图用的对照表。共 **${books.length}** 本 —— 已有封面 **${books.length - missing.length}** 张，待出图 **${missing.length}** 张。
+
+> ⚠️ 第八节是全量清单。**生成前请只看「⬜ 待出图」的行**，否则会给已有封面重复出图。
+> 只列待出图的精简版见 \`COVERS-TODO.md\`。
 
 ---
 
@@ -55,7 +72,7 @@ public/covers/the-black-swan.webp
 | **推荐尺寸** | **800 × 1200 px**（详情页大图 + 卡片小图共用这一张，800px 宽足够 2 倍屏） |
 | 最低尺寸 | 600 × 900 px（再低在大图位置会发虚） |
 | 格式 | **WebP 优先**（体积最小）；jpg/png 也支持 |
-| 单张体积 | 建议 < 150 KB（整站 100 张，总量控制在 15 MB 以内） |
+| 单张体积 | 建议 < 150 KB（整站封面总量控制在 30 MB 以内） |
 | 色彩 | 建议与站点色调一致：深普鲁士蓝 \`#0E2A45\` / 米白 \`#F7F5F0\` / 米金 \`#A98A58\` |
 | 安全区 | 重要文字/图形离四边留 **8% 以上**留白，防止裁切时被切掉 |
 
@@ -96,11 +113,13 @@ npm run covers
 
 ## 六、关于已有的 Obsidian 封面（\`Books/_assets/\`）
 
+> 以下为 2026-10 初的历史勘察结论，保留备查。
+
 已勘察 \`D:\\Obsidian\\obsidian_valut\\Books\\_assets\\\`，结论：**不适合直接用于本站**，原因如下。
 
-**（1）覆盖率只有 8%**
+**（1）覆盖率低**
 
-该目录 98 张图按**书名**命名，与本站 100 本经典的交集：
+该目录按**书名**命名的图与本站书目的交集很小：
 
 | Obsidian 文件名 | 对应本站 slug | 可用性 |
 |---|---|---|
@@ -113,57 +132,40 @@ npm run covers
 | \`超级智能.jpg\` | \`superintelligence\` | ⚠️ 618×825，比例 0.749 |
 | \`黑天鹅.jpg\` | \`the-black-swan\` | ❌ **不是书籍封面**，是一张横构图黑白照片 |
 
-其余 90 张属于另一套书单（中文原创 / 中文译本 / 实用类），本站没有对应书目。
+**（2）规格不达标**：宽高比 0.648 – 1.345（目标 0.667），分辨率 270 – 640 px 宽，低于 800 px 目标。
 
-**（2）规格不达标**
+**（3）视觉一致性**：真实出版社封面各有色彩与字体系统，与本站「深普鲁士蓝 + 米白 + 米金」的设计系统冲突。
 
-- 宽高比区间 0.648 – 1.345，目标 0.667；多数是 0.750（3:4），会被左右各裁约 11%
-- \`黑天鹅.jpg\` 为横构图（1.345），裁成 2:3 会切掉约 50% 宽度
-- 分辨率 270 – 640 px 宽，低于 800 px 目标；最小的一张在详情页会明显发虚
+**（4）版权**：真实出版社封面受版权保护。本站刻意采用统一设计以规避该风险。
 
-**（3）视觉一致性**
-
-不同出版社的真实封面有各自的色彩与字体系统，与本站「深普鲁士蓝 + 米白 + 米金」的设计系统冲突。8 张真封面混在 92 张程序化封面里，比 100 张统一封面更难看。
-
-**（4）版权**
-
-真实出版社封面受版权保护。本站原始设计刻意采用纯 CSS 程序化封面以规避该风险，引入真封面会重新引入。
-
-**建议**：本站封面**统一重新生成**（AI 生成或设计），保持同一视觉语言。
+**建议**：本站封面**统一生成**，保持同一视觉语言。
 
 ---
 
-## 七、另一件事：这批封面有更合适的去处
+## 七、另一件事：那批封面有更合适的去处
 
-\`Books/_assets/\` 在**它自己的语境**里表现很好：
-
-| 指标 | 数值 |
-|---|---|
-| 书籍笔记（排除报告类） | 99 篇 |
-| 含 \`cover\` 字段 | 99 篇 |
-| 封面文件实际存在 | **97 篇（98.0%）** |
-| 阅读状态分布 | 想读 87 · 已读 10 · 在读 1 |
-
-也就是说，你的 Obsidian 藏书本身已经是一套**封面覆盖 98% + 阅读状态 + 笔记**的完整数据。它更适合做成一个独立的「我的书架 / My Shelf」页面——在那里，封面来源不统一是**真实**的，不是缺陷。
-
-如果要做，这是独立于本站的另一个任务。
+\`Books/_assets/\` 在**它自己的语境**里表现很好：Obsidian 藏书本身已是一套
+**封面覆盖 ≈98% + 阅读状态 + 笔记**的完整数据，更适合做成独立的「我的书架 / My Shelf」页面。
+那是独立于本站的另一个任务。
 
 ---
 
 ## 八、完整清单（${books.length} 本，按经典指数降序）
 
-| # | 文件名 | 中文书名 | 英文书名 | 作者 | 分类 |
-|---|---|---|---|---|---|
+> ⬜ = 待出图（${missing.length} 本）；✅ = 已有封面（${books.length - missing.length} 本）
+
+| # | 文件名 | 中文书名 | 英文书名 | 作者 | 分类 | 状态 |
+|---|---|---|---|---|---|---|
 ${rows}
 
 ---
 
-## 九、只导出文件名（方便批量生成）
+## 九、只导出「待出图」文件名（${missing.length} 个，可直接批量生成）
 
 \`\`\`text
-${books.map((b) => `${b.slug}.webp`).join('\n')}
+${missing.map((b) => `${b.slug}.webp`).join('\n')}
 \`\`\`
 `;
 
 writeFileSync('COVERS.md', md, 'utf8');
-console.log(`COVERS.md 已生成，共 ${books.length} 本`);
+console.log(`COVERS.md 已生成：共 ${books.length} 本 · 已有 ${books.length - missing.length} · 待出图 ${missing.length}`);
