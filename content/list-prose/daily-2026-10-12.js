@@ -1,0 +1,69 @@
+/** 每日推荐阅读指引 · 2026-10-12 */
+export const batch = {
+  'being-and-time': {
+    description_zh: '《存在与时间》是马丁·海德格尔 1926 年写就、1927 年出版的哲学著作，也是 20 世纪最重要的哲学文本之一。全书从「存在论区分」出发：一切存在者都「在」，但「存在」本身并不是存在者，传统形而上学恰恰研究存在者而遗忘了存在本身。海德格尔选择一个特殊的探入点——「此在」（Dasein），即人这种对自身存在有所发问的存在者，进而分析它的生存结构：在世界之中存在、共在、现身情态（情绪）、领会、沉沦与操心。全书后半把「时间性」论证为理解存在的视野，主张存在的意义必须在时间中展开，由此重写了亚里士多德、康德以来的存在论与主体性哲学。',
+    description_en: 'Being and Time was written in 1926 and published in 1927. It is Martin Heidegger\'s principal work and one of the most influential philosophical texts of the twentieth century. The book begins from the ontological difference: all beings are, yet Being itself is not a being, and traditional metaphysics had studied beings while forgetting Being. Heidegger enters the question from Dasein, the being whose own being is at issue for it, and analyzes its structures of existence: being-in-the-world, being-with-others, attunement (mood), understanding, falling, and care. In its later divisions the book argues that temporality is the horizon of any understanding of Being, recasting ontology and the subject-centered philosophy inherited from Aristotle and Kant.',
+    why_read_zh: '它是 20 世纪大陆哲学的枢纽文本：存在主义、解释学、解构主义、神学乃至文学批评都从这里出发。读它得到的不是一套命题，而是一种提问方式的转换——从「世界由什么构成」转向「存在如何向人显现」。在机器智能的时代，「人是什么」不再只是书斋问题；这本书提供了对这个问题最锋利的追问之一，也解释了为什么「理解」不能简单地被还原为一组可计算的功能。',
+    why_read_en: 'It is the pivotal text of twentieth-century continental philosophy: existentialism, hermeneutics, deconstruction, theology and literary criticism all proceed from it. What the reader gains is less a set of theses than a transformed way of asking — from what the world is made of to how Being shows itself at all. In an age of machine intelligence the question of what a human being is no longer belongs only to the seminar room; this book remains one of its sharpest formulations, and explains why understanding cannot be reduced to a set of computable functions.',
+    core_ideas_zh: [
+        '存在论区分：一切存在者都「存在」，但「存在」本身不是存在者，需要被追问；传统形而上学恰恰遗忘了这一点。',
+        '此在（Dasein）：人之存在的与众不同处在于它的存在对它自身是个问题；它的存在方式是「去存在」，即面向可能性，而非一套现成属性。',
+        '在世界之中存在：世界不是外在于主体的客体集合，而是此在生存的展开场域，操劳与用具织出一张意义之网。',
+        '时间性：此在的生存向死亡展开，过去、现在与未来在时间性中统一；理解存在必须经由时间。'
+      ],
+    core_ideas_en: [
+        'The ontological difference: all beings are, but Being itself is not a being; traditional metaphysics forgot this and studied beings instead.',
+        'Dasein: what distinguishes human existence is that its own being is an issue for it; its being is a matter of possibility rather than a fixed set of properties.',
+        'Being-in-the-world: the world is not a collection of objects confronting a subject but the field in which Dasein\'s existence unfolds, with concern and equipment weaving a web of significance.',
+        'Temporality: Dasein\'s existence stretches toward death, unifying past, present and future; any understanding of Being must be reached through time.'
+      ],
+    key_questions_zh: [
+        '当我们说「存在」时，我们究竟在说什么？这个问题为什么自巴门尼德之后被遗忘？',
+        '人这种存在者与其他存在者的差异是什么，为什么只有人能提出存在之问？',
+        '如果死亡是此在最本己的可能性，「向死而生」如何改变我们对日常生活的理解？'
+      ],
+    key_questions_en: [
+        'When we say Being, what exactly do we mean, and why has this question been forgotten since Parmenides?',
+        'What distinguishes the human way of being from every other being, such that only humans can raise the question of Being?',
+        'If death is Dasein\'s ownmost possibility, how does being-toward-death transform our understanding of everyday life?'
+      ],
+    who_should_read_zh: '适合愿意慢读的人：哲学系学生与研究者，以及想在「人是什么、世界如何显现」这类根本问题上接受一次认真训练的思考者。不需要德语基础，但需要耐心——本书的难度在概念而非语言。',
+    who_should_read_en: 'For patient readers: students and researchers of philosophy, and anyone who wants a rigorous first encounter with the questions of what a human being is and how the world shows itself. No German is required, but patience is; the difficulty lies in the concepts rather than the language.',
+    reading_note_zh: '先读导论（第 1–8 节）建立问题框架，再进第一篇对此在生存结构的分析（第 12–36 节）；第二篇的时间性与死亡论证是全书的枢轴。中译可读陈嘉映、王庆节译本（商务印书馆 2015 年初版）。初次阅读建议配一本《存在与时间》读本，或先读海德格尔《形而上学导论》热身。',
+    reading_note_en: 'Read the Introduction (sections 1-8) first to frame the problem, then move to Division I\'s analysis of Dasein\'s existential structures (sections 12-36); Division II on temporality and death is the hinge of the book. The Chen and Wang translation was first published by The Commercial Press in 2015. For a first pass, a Heidegger reader\'s guide helps considerably.'
+  },
+  'sciences-of-the-artificial': {
+    description_zh: '《人工科学》是赫伯特·A·西蒙（司马贺）1969 年出版的著作，1978 年诺贝尔经济学奖得主对「人工物」世界的系统研究。西蒙用「人工」（artificial）指称一切由人设计与制造的东西——程序、组织、建筑、机器——主张这类对象不是自然的摹本，而是适应环境的功能系统，因此需要一门独立于自然科学的「设计的科学」。全书从一只蚂蚁在海滩上的表观复杂性讲起，依次讨论层级结构、搜索与启发式、经济理性与思维心理学，最后落在著名的「物质符号系统」论证上：物理符号系统具有采取智能行动的充分且必要手段。',
+    description_en: 'The Sciences of the Artificial (1969) is Herbert A. Simon\'s systematic study of the world of artificial things. Simon uses artificial for everything designed and made by humans — programs, organizations, buildings, machines — and argues that such objects are not copies of nature but functioning systems adapted to their environments, requiring a science of design distinct from the natural sciences. Starting from the apparent complexity of an ant\'s path on a beach, the book moves through hierarchical structure, search and heuristics, economic rationality and the psychology of thinking, and ends with the physical symbol system hypothesis: a physical symbol system has the necessary and sufficient means for intelligent action.',
+    why_read_zh: '这本书是人工智能的奠基文本之一，直接塑造了此后几十年 AI、认知科学与设计研究的问题意识。它的两个核心判断至今有效：表观复杂性常常来自环境而非系统内部；理解复杂系统要看它的层级与适应过程。对做大模型、智能体与组织设计的人，它提供的是问题框架而非过时结论。中文世界对「设计科学」的系统引介不多，此书正是源头。',
+    why_read_en: 'One of the founding texts of artificial intelligence, it shaped the research agenda of AI, cognitive science and design studies for decades. Two of its judgments remain directly useful: apparent complexity often comes from the environment rather than the system\'s internals, and complex systems must be understood through their hierarchies and adaptive processes. For those building large models, agents and organizations it offers a problem frame rather than an obsolete conclusion.',
+    core_ideas_zh: [
+        '人工物的世界需要一门「设计的科学」：它关注对象如何适应目标与环境，而不只是如何服从自然律。',
+        '表观复杂性常源于环境：蚂蚁路径的复杂来自地形的复杂，观察到的复杂度未必等于系统内部的复杂度。',
+        '层级是复杂系统的通用架构：几乎所有复杂系统都呈层级组织，且几乎可分解的系统才能被理解。',
+        '问题求解即搜索：下棋、证明定理、决策等智能行为，表现为在巨大可能性空间中的启发式搜索。',
+        '物质符号系统假设：物理符号系统具备采取智能行动的充分且必要手段，这是认知科学与人工智能的逻辑基石。'
+      ],
+    core_ideas_en: [
+        'The world of artifacts calls for a science of design: it asks how objects adapt to goals and environments, not only how they obey natural laws.',
+        'Apparent complexity comes from the environment: the ant\'s winding path reflects the complexity of the terrain, not necessarily a complex interior.',
+        'Hierarchy is the architecture of complexity: nearly all complex systems are hierarchically organized, and nearly decomposable ones are the ones we can understand.',
+        'Problem solving is search: chess, theorem proving and decision making are heuristic search through a vast space of possibilities.',
+        'The physical symbol system hypothesis: a physical symbol system has the necessary and sufficient means for intelligent action.'
+      ],
+    key_questions_zh: [
+        '一门关于设计的科学何以可能？它的研究对象、方法与评价标准是什么？',
+        '我们如何理解复杂系统——复杂性是系统的属性，还是系统与观察者、环境相互作用的产物？',
+        '机器要表现出智能，需要具备什么样的结构与过程？'
+      ],
+    key_questions_en: [
+        'How is a science of the artificial possible — what are its objects, methods and criteria of evaluation?',
+        'How should we understand complex systems: is complexity a property of the system, or of the system\'s interaction with its environment and observer?',
+        'What structure and processes must a machine have in order to exhibit intelligent action?'
+      ],
+    who_should_read_zh: '适合计算机与人工智能从业者、认知科学爱好者、系统设计者与团队管理者。它对复杂性、层级与启发式的论述经得起重读，很适合与《控制论》《AI 3.0》对读。',
+    who_should_read_en: 'Written for computer and AI practitioners, students of cognitive science, systems designers and managers. Its treatment of complexity, hierarchy and heuristics repays rereading, and it pairs well with Cybernetics and Melanie Mitchell\'s Artificial Intelligence.',
+    reading_note_zh: '全书七章加附录，篇幅不长但密度极高。建议从第一章与「复杂性的架构」一章读起，再看论蚂蚁与层级的分析，最后读物质符号系统论证收尾。中译本题为《人工科学》，副题「复杂性面面观」，上海科技教育出版社 2004 年出版。',
+    reading_note_en: 'Seven chapters plus appendices: short but dense. Start with chapter 1 and the \'Architecture of Complexity\' chapter, then move to the analysis of the ant and hierarchy, and finish with the physical symbol system argument. The Chinese edition, titled 人工科学 with the subtitle 复杂性面面观, was published by Shanghai Scientific and Technological Education Publishing House in 2004.'
+  }
+};
