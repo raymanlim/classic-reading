@@ -229,6 +229,24 @@ export const notes = [
       'The key move in these letters is to redescribe "not enough time" as an accounting problem rather than a lifespan problem: time is the one thing genuinely our own, yet it is treated as the exact inverse of money — a debt in cash is pursued, while hours are handed to anyone who asks. What it genuinely changes is the meaning of waste: waste is not a verdict visible only in retrospect but a process under way right now, for "we look forward to death as though it lay ahead, when most of it is already behind us." The easily missed point is that Seneca does not exempt himself: he concedes that he too wastes time, but knows exactly where it went — which makes the letter read less as a sermon than as a published account. The caution worth keeping is that "seize the day" later hardened into a slogan of productivity, whereas the original point is closer to an audit: only after establishing where time actually goes does the question of how to spend it become meaningful. It forms two halves with this site\'s "The Architecture of Waiting": that piece examines how expectation mortgages the present, and this letter is the interest on the same debt.',
     topics: ['philosophy', 'modern-society'],
   },
+  {
+    id: 'note-014',
+    slug: 'cybernetics-feedback-is-the-only-brake',
+    book: 'cybernetics',
+    date: '2026-10-12',
+    voice: 'editorial',
+    key_insight_zh:
+      '维纳把「控制」从工程词汇升格为普遍范畴：只要系统依靠信息反馈维持稳定，机器与生命就能用同一套语言描述——智能不在某个部件里，而在回路里。',
+    key_insight_en:
+      'Wiener promoted "control" from an engineering term to a universal category: any system that maintains stability through informational feedback can be described in one vocabulary, organism and machine alike — intelligence does not sit in any particular part but in the loop.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于把「控制」从一门工程手艺升格为普遍范畴：无论伺服机构、神经系统还是人群组织，只要依靠信息反馈来维持稳定并指向目标，就可以用同一套语言描述，机器与生命在这里没有本质差别。它真正改变的是「智能的位置」这个判断——智能不藏在某个过人部件里，而在回路之中，这也解释了为什么此后的自动化与人工智能研究都把这本 1948 年的书当作概念母体。容易被忽略的一点是，维纳并不把反馈写成一条坦途：误差、噪声、滞后与震荡都是回路的固有成分，控制系统的工作不是消灭波动，而是与波动共处。值得警惕的是他在书末反复强调的另一面：同一套控制机器既可以扩展人的能力，也可以用来支配人，科学家无法把后果推给使用者。它与本站《分工的账本》一文互为表里：那篇讲拆分如何让个体看不见自身工作的结果，这本讲的正是看不见结果的结构为何无法自我纠正。',
+    thinking_en:
+      'The key move of this book is to promote control from an engineering craft to a universal category: whether the system is a servomechanism, a nervous system, or a crowd of people, it can be described in the same language as long as it maintains stability and pursues a goal through informational feedback — organism and machine do not differ in principle here. What it genuinely changes is where intelligence is located: not in some superior component but in the loop, which is why later work on automation and artificial intelligence repeatedly returns to this 1948 book as its conceptual parent. The easily missed point is that Wiener does not present feedback as a smooth road: error, noise, lag, and oscillation are inherent constituents of any loop, and the work of a control system is not to eliminate fluctuation but to live with it. The caution worth keeping is his repeated warning at the end of the book: the same machinery of control can extend human capability or be turned to dominating people, and the scientist cannot hand the consequences off to the user. It forms the inside of this site\'s "The Ledger of Division of Labor": that piece shows how splitting work leaves individuals unable to see the outcome of their own labour, and this book explains why a structure that cannot see its own output cannot correct itself.',
+    topics: ['ai', 'computing', 'systems-thinking'],
+  },
 ];
 
 export default notes;
