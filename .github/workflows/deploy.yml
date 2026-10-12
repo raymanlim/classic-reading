@@ -37,9 +37,27 @@ jobs:
       - name: Verify
         run: node src/check.mjs
 
+      # Cloudflare Pages 部署（备用通道）。
+      #
+      # 🔴 条件执行：仓库尚未配置 CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID 时，
+      #    本步骤被**跳过**而不是失败 —— 否则每次 push 都会让整个作业变红并发出失败邮件。
+      #    一旦在 Settings → Secrets and variables → Actions 里补上这两个 secret，
+      #    本步骤会自动开始执行，无需再改本文件。
+      #
+      # 说明：当前对外唯一入口是 WorkBuddy App Publishing
+      #       （https://0e00525f540948a2b66f58b8a0e4962d.sg2.agentos-app.run），
+      #       与本站点内容无关；本步骤只影响 Cloudflare 这条备用通道。
       - name: Deploy to Cloudflare Pages
+        if: ${{ secrets.CLOUDFLARE_API_TOKEN != '' && secrets.CLOUDFLARE_ACCOUNT_ID != '' }}
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy dist --project-name=classic-reading --branch=main
+
+      # 未配置 secret 时给出显式提示，避免「静默跳过」让人误以为已经部署过
+      - name: Skip notice (Cloudflare secrets not configured)
+        if: ${{ secrets.CLOUDFLARE_API_TOKEN == '' || secrets.CLOUDFLARE_ACCOUNT_ID == '' }}
+        run: |
+          echo "::notice title=Cloudflare Pages 部署已跳过::仓库未配置 CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID。构建与校验已通过；对外站点由 WorkBuddy App Publishing 提供，不受影响。"
+
