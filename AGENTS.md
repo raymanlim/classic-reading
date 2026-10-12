@@ -146,6 +146,13 @@ GitHub Actions: node src/build.mjs → node src/check.mjs → 部署 dist/
 - 站点用目录式路由（`/zh/books/xxx/` → `index.html`），托管方需支持目录索引。Cloudflare Pages 默认支持。
 - `src/site.config.js` 的 `SITE_URL` 必须是**最终对外域名**，否则 canonical / hreflang / sitemap 全错。
 - 工作流文件：`.github/workflows/deploy.yml`（密钥走 GitHub Secrets，勿硬编码）。
+- ⚠️ **Cloudflare 步骤当前是「条件执行」**：未配置 `CLOUDFLARE_API_TOKEN` /
+  `CLOUDFLARE_ACCOUNT_ID` 时，`Deploy to Cloudflare Pages` 会被**跳过**（作业保持绿色），
+  并在日志里发一条 notice。补上这两个 secret 后自动开始部署，**无需再改工作流文件**。
+  这样做的原因见第 6 节「步骤级 `if` 用 secrets」那条坑。
+- ⚠️ **现状提示**：`Build & Deploy` 在 2026-10-13 之前**从未成功过**（可见 20 次运行全 failure）。
+  对外唯一入口是 **WorkBuddy App Publishing** 的固定链接，Cloudflare 只是备用通道。
+  迁移真正完成前，不要把 `classic-reading.pages.dev` 当作对外链接发出去（内容陈旧）。
 
 > ⚠️ **历史遗留**：本站曾托管在 WorkBuddy App Publishing，旧链接形如
 > `https://<sandboxId>.sg2.agentos-app.run`。README 第六节描述的「shareLink 每次换域名」机制
@@ -164,6 +171,7 @@ GitHub Actions: node src/build.mjs → node src/check.mjs → 部署 dist/
 | **`_stage/`** | 封面原图与中间产物（约 150MB） | 已在 `.gitignore`，**不要提交** |
 | **`_exist.txt`** | 去重清单产物 | 已在 `.gitignore` |
 | 🔴 **`git reset --hard` 冲掉未提交内容** | 已跟踪文件的改动被静默还原，未跟踪的新文件却还在 —— 造成「一半在、一半没了」的错觉 | 2026-10-11 实证：`content/notes.js` 的 note-011/012、`package.json` 的两个 npm script 被冲掉。**改完立即提交**，不要指望工作区替你留存 |
+| 🔴 **步骤级 `if` 里用 `secrets` 上下文** | **整个工作流文件被判非法**：运行名变成文件路径、`jobs` 数为 0、`startup_failure`，且**没有任何步骤日志**可查（`/logs` 返回 403、check-run 也不暴露报错） | 2026-10-13 实证。GitHub 的 `jobs.<job_id>.steps[*].if` **只允许** `env` / `steps` / `github` / `needs` / `vars` / `inputs` 等，**不含 `secrets`**。正确写法：先把 secret 映射成 `env`，用 shell 探测后写 `$GITHUB_OUTPUT`，再用 `if: steps.<id>.outputs.x == 'true'` 判断。见 `deploy.yml` 的 `Check Cloudflare secrets` 步骤 |
 
 ---
 
