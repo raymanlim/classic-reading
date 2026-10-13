@@ -247,6 +247,24 @@ export const notes = [
       'The key move of this book is to promote control from an engineering craft to a universal category: whether the system is a servomechanism, a nervous system, or a crowd of people, it can be described in the same language as long as it maintains stability and pursues a goal through informational feedback — organism and machine do not differ in principle here. What it genuinely changes is where intelligence is located: not in some superior component but in the loop, which is why later work on automation and artificial intelligence repeatedly returns to this 1948 book as its conceptual parent. The easily missed point is that Wiener does not present feedback as a smooth road: error, noise, lag, and oscillation are inherent constituents of any loop, and the work of a control system is not to eliminate fluctuation but to live with it. The caution worth keeping is his repeated warning at the end of the book: the same machinery of control can extend human capability or be turned to dominating people, and the scientist cannot hand the consequences off to the user. It forms the inside of this site\'s "The Ledger of Division of Labor": that piece shows how splitting work leaves individuals unable to see the outcome of their own labour, and this book explains why a structure that cannot see its own output cannot correct itself.',
     topics: ['ai', 'computing', 'systems-thinking'],
   },
+  {
+    id: 'note-015',
+    slug: 'bad-beliefs-rationality-in-a-polluted-environment',
+    book: 'bad-beliefs',
+    date: '2026-10-13',
+    voice: 'editorial',
+    key_insight_zh:
+      '坏信念不是愚蠢的产物，而是理性在污染环境中照常运转的副产品——它不挑智商，挑的是环境。',
+    key_insight_en:
+      'Bad beliefs are not a product of stupidity but a by-product of rationality running as normal in a polluted environment — they select for environment, not for intelligence.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于把坏信念从「愚蠢」重新描述为环境的产物：人照常推理，只是推理所依赖的信息与权威结构被系统性地污染了，于是理性的运转方式本身没有出错，产出却是错的。它真正改变的是责任的归属——如果坏信念是环境病，那么纠正的对象就是公共的信息条件，而不是某个人的智商，这也解释了为什么高学历在此并不构成免疫力。容易被忽略的一点是，书中保留了「照常推理」这一层：人并没有放弃理性，恰恰是理性在污染的输入下把他们送到了错误结论，因此「再多想想」本身不是解药。值得警惕的是由此产生的推论：若把一切都归因于环境，个体的判断责任就被彻底豁免，而这正是坏信念赖以蔓延的另一种土壤。它与本站《警告的代价》一文互为表里：那篇讲警告为何在外部被吞没，这本讲的正是清醒的头脑如何在内部被污染。',
+    thinking_en:
+      'The key move in this book is to redescribe bad beliefs as a product of environment rather than of stupidity: people reason exactly as they normally do, but the information and the structures of authority that reasoning depends on have been systematically polluted, so the machinery of rationality is not itself at fault even though its output is wrong. What it genuinely changes is where responsibility sits — if bad beliefs are an environmental disease, then what has to be corrected is the public condition of information rather than someone\'s intelligence, which also explains why higher education confers no immunity here. The easily missed point is that the book preserves the layer of "reasoning as normal": people have not abandoned rationality; it is precisely rationality operating on polluted input that delivers them to the wrong conclusion, so "just think harder" is not the remedy. The caution worth keeping is the inference that follows if one presses this too far: if everything is attributed to environment, individual responsibility for judgement is waived altogether, and that waiver is itself one of the soils in which bad beliefs spread. It forms two halves with this site\'s "The Price of Warning": that piece examines how a warning is swallowed up on the outside, and this book examines how a clear head is corrupted on the inside.',
+    topics: ['cognitive-science', 'philosophy', 'modern-society'],
+  },
 ];
 
 export default notes;
