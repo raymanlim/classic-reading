@@ -265,6 +265,24 @@ export const notes = [
       'The key move in this book is to redescribe bad beliefs as a product of environment rather than of stupidity: people reason exactly as they normally do, but the information and the structures of authority that reasoning depends on have been systematically polluted, so the machinery of rationality is not itself at fault even though its output is wrong. What it genuinely changes is where responsibility sits — if bad beliefs are an environmental disease, then what has to be corrected is the public condition of information rather than someone\'s intelligence, which also explains why higher education confers no immunity here. The easily missed point is that the book preserves the layer of "reasoning as normal": people have not abandoned rationality; it is precisely rationality operating on polluted input that delivers them to the wrong conclusion, so "just think harder" is not the remedy. The caution worth keeping is the inference that follows if one presses this too far: if everything is attributed to environment, individual responsibility for judgement is waived altogether, and that waiver is itself one of the soils in which bad beliefs spread. It forms two halves with this site\'s "The Price of Warning": that piece examines how a warning is swallowed up on the outside, and this book examines how a clear head is corrupted on the inside.',
     topics: ['cognitive-science', 'philosophy', 'modern-society'],
   },
+  {
+    id: 'note-016',
+    slug: 'philosophical-investigations-rule-following-as-practice',
+    book: 'philosophical-investigations',
+    date: '2026-10-14',
+    voice: 'editorial',
+    key_insight_zh:
+      '规则不能决定自己的应用——遵守规则是一种实践、一种制度，而不是一次解释；标准的约束力来自共同执行的实践，而不来自标准自身的正确性。',
+    key_insight_en:
+      'A rule cannot determine its own application: following a rule is a practice, a custom, an institution, not an interpretation. The binding force of a standard comes from a shared practice, never from the standard\'s own correctness.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于把「遵守规则」从一种私人心理活动改写为一种公共实践：任何规则都无法独自决定下一步该怎么做，因为每一个下一步都能被解释成与规则相符，于是规则与「对规则的解释」之间需要一个本身不属于解释的东西来收口，那就是一群人反复做同一件事所形成的惯例。它真正改变的是对「标准」的理解——标准之所以有约束力，不是因为它正确，而是因为有人在照着它做，而且这种做法是被共享的；一个没有安装基数的规则，在这个论证里是空的。容易被忽略的一点是，这一论证同时切断了「心中存在一个正确用法」这条退路：私人语言之所以不可能，是因为没有人能替他确认自己是否用对了。值得警惕的是由此推出的反面：既然规则依赖实践，那么「换一个更好的做法」就不是纯粹的技术判断，而要等到共同实践能够整体迁移。它与本站《锁定的窗口期》一文正好相接：那篇讲转换成本为何沉淀在人与惯例上，这本讲的正是惯例为何是规则唯一的落点。',
+    thinking_en:
+      'The key move in this book is to rewrite "following a rule" from a private mental act into a public practice: no rule can determine its own next application on its own, since every next step can be construed as according with the rule, and so the gap between a rule and an interpretation of it must be closed by something that is not itself an interpretation — namely a convention formed by a group of people doing the same thing repeatedly. What it genuinely changes is the understanding of what a standard is: a standard binds not because it is correct but because people act on it and that way of acting is shared; a rule with no installed base is, on this account, empty. The easily missed point is that the argument also closes off the retreat of a privately held correct usage — a purely private language is impossible because no one else can confirm whether it has been used correctly. The caution worth keeping is the corollary: if rules rest on practice, then switching to a better way of doing things is not a purely technical judgement but has to wait until the shared practice can migrate as a whole. It meets this site\'s "The Window Before Lock-In" head on: that piece examines why switching costs settle in people and conventions, and this book explains why conventions are the only place a rule can land.',
+    topics: ['philosophy', 'cognitive-science'],
+  },
 ];
 
 export default notes;
