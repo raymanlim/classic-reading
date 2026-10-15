@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-15",
+  "books": [
+    {
+      "slug": "phenomenology-of-spirit",
+      "category": "philosophy",
+      "title_zh": "精神现象学",
+      "title_en": "The Phenomenology of Spirit",
+      "author": "g-w-f-hegel",
+      "author_zh": "格奥尔格·威廉·弗里德里希·黑格尔",
+      "author_en": "Georg Wilhelm Friedrich Hegel",
+      "nationality_zh": "德国",
+      "nationality_en": "German",
+      "year": 1807,
+      "original_language": "de",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "意识如何通过自我否定与相互承认，一步步走向绝对知识",
+      "theme_en": "How consciousness advances toward absolute knowledge through self-negation and mutual recognition",
+      "tags": ["philosophy", "consciousness", "ethics", "history", "classics"],
+      "topics": ["philosophy", "cognitive-science", "history", "religion-and-meaning"],
+      "prose": {
+        "description_zh": "《精神现象学》是黑格尔 1807 年出版的第一部独立著作，也是德国观念论的枢纽文本。全书以「意识的经验」为线索，让意识从最朴素的感性确定性出发，经过知觉与知性，进入自我意识；在自我意识中，人第一次意识到自己是被另一个自我意识所承认的存在，由此引出著名的「主奴关系」辩证法。此后意识继续上升为理性、精神、宗教，最终抵达「绝对知识」。黑格尔的方法不是论证某个命题，而是让每一种立场在自己的前提上自我瓦解，再被更高一层的形态所吸收——这就是辩证法。全书被视为对近代认识论的一次整体重写：知识不是主体的现成占有物，而是在历史与社会中逐步生成的东西。",
+        "description_en": "The Phenomenology of Spirit, published in 1807, is Hegel's first independent book and the pivotal text of German idealism. Its guiding thread is the experience of consciousness. Consciousness begins with the simplest form of sense-certainty, passes through perception and understanding, and arrives at self-consciousness, where for the first time a self becomes aware of itself as acknowledged by another self-consciousness. From this follows the celebrated dialectic of master and slave. Consciousness then rises through reason, spirit and religion until it reaches absolute knowing. Hegel's method is not to prove a proposition but to let each position collapse under its own presuppositions, so that a higher shape of consciousness can absorb it. This is the dialectic. The book is read as a wholesale rewriting of modern epistemology: knowledge is not something a subject simply possesses, but something that comes into being historically and socially.",
+        "why_read_zh": "想读懂康德之后的德国哲学，绕不开这本书：马克思的异化、尼采的批判、克尔凯郭尔与海德格尔的存在论，乃至 20 世纪的承认政治，都在与它对话。它真正难的地方不在术语，而在方法——黑格尔要求读者放弃「站在外部评判」的姿态，跟着意识走一遍它自己走过的路。对做思想史、做概念工作的人，这是必须翻过的一座山；对只想抓要点的人，读「序言」「导论」与「主奴关系」几节，也能拿到最有分量的东西。",
+        "why_read_en": "No serious account of post-Kantian German philosophy can avoid this book: Marx's alienation, Nietzsche's critique, Kierkegaard's and Heidegger's existential analyses, and twentieth-century politics of recognition all argue with it. Its real difficulty lies less in the vocabulary than in the method. Hegel asks the reader to give up the posture of judging from outside and to travel the road consciousness has travelled. For anyone working on the history of ideas or on concepts themselves, it is a mountain that must be crossed; readers who want only the core can still take the preface, the introduction and the master-slave section.",
+        "core_ideas_zh": [
+          "辩证法不是外加于内容的方法，而是事物自身的运动：每一个立场都会在自身内部产生矛盾，并因此被更高的形态所取代；真理是「全体」，而不是某个孤立命题。",
+          "自我意识必须通过另一个自我意识才能成立：欲望不只是消耗对象，还要求被他者承认。「主奴关系」揭示承认的不对称，以及劳动如何反过来重塑主人与奴隶。",
+          "精神是历史的：理性、伦理、宗教与知识都不是个体的私人成就，而是在共同体与历史中生成的社会性形态，因此不存在脱离历史的认识主体。",
+          "知识是一个生成过程，而不是现成的占有物：意识不断经验到自己的不真，并在此否定中前进——这正是「现象学」一词在此处的含义。"
+        ],
+        "core_ideas_en": [
+          "The dialectic is not a method applied from outside but the movement of the thing itself: every position generates its own internal contradiction and is displaced by a higher shape, and truth is the whole rather than an isolated proposition.",
+          "Self-consciousness depends on another self-consciousness. Desire does not merely consume its object but seeks recognition from another; the master-slave dialectic exposes the asymmetry of recognition and shows how labour in turn remakes both master and slave.",
+          "Spirit is historical. Reason, ethical life, religion and knowledge are not private achievements of individuals but social shapes that come into being within a community and a history, so there is no knowing subject outside history.",
+          "Knowing is a process of becoming rather than a possession. Consciousness repeatedly experiences its own untruth and advances through that negation, which is precisely what the word phenomenology means here."
+        ],
+        "key_questions_zh": [
+          "意识要经过哪些阶段，才能从直接的感性确定性走到「绝对知识」？这条道路是必然的，还是可以被跳过的？",
+          "自我意识为什么必须依赖他者的承认才能成立？承认的不对称会带来怎样的历史后果？"
+        ],
+        "key_questions_en": [
+          "Through which stages must consciousness pass in order to move from immediate sense-certainty to absolute knowing, and is that path necessary or can it be skipped?",
+          "Why must self-consciousness depend on recognition from another, and what historical consequences follow from the asymmetry of that recognition?"
+        ],
+        "who_should_read_zh": "哲学专业学生与思想史研究者；关心辩证法、承认理论与德国观念论的思想读者；以及想弄清马克思、尼采、海德格尔等人问题来源的人。它不提供轻松阅读的乐趣，需要耐心与做笔记的习惯，但回报是一整套关于「意义如何在历史中生成」的思考框架。适合愿意慢读的人。",
+        "who_should_read_en": "Students of philosophy and historians of ideas; readers concerned with the dialectic, recognition theory and German idealism; and anyone who wants to understand where Marx, Nietzsche and Heidegger got their questions. It offers no easy reading and demands patience and note-taking, but the reward is a whole framework for thinking about how meaning comes into being in history. Suited to those willing to read slowly.",
+        "reading_note_zh": "中文通行本为商务印书馆「汉译世界学术名著丛书」版，贺麟、王玖兴译（上卷 1962 年初版、1979 年修订，下卷 1979 年）；另有先刚译、人民出版社 2013 年新译本，术语更统一，可对照阅读。建议先读「序言」与「导论」把握方法，再读「自我意识」章的主奴关系一节，然后回到开头按顺序推进。可配合书库已有的《纯粹理性批判》理解它的出发点。",
+        "reading_note_en": "The standard Chinese version is the Commercial Press edition in the World Classics of Academic Scholarship series, translated by He Lin and Wang Jiuxing (volume one first published in 1962 and revised in 1979, volume two in 1979); a newer translation by Xian Gang appeared from People's Publishing House in 2013 and is useful for comparison. Read the preface and introduction first to grasp the method, then the master-slave section of the self-consciousness chapter, and only then proceed in order from the beginning. It can be paired with the Critique of Pure Reason, already in this library, to see the starting point it responds to."
+      }
+    },
+    {
+      "slug": "whos-in-charge",
+      "category": "psychology",
+      "title_zh": "谁说了算？自由意志的心理学解读",
+      "title_en": "Who's in Charge?: Free Will and the Science of the Brain",
+      "author": "michael-gazzaniga",
+      "author_zh": "迈克尔·S. 加扎尼加",
+      "author_en": "Michael S. Gazzaniga",
+      "nationality_zh": "美国",
+      "nationality_en": "American",
+      "year": 2011,
+      "original_language": "en",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "如果「我」不是大脑的指挥者，自由意志与责任还能建立在什么之上",
+      "theme_en": "If the I does not command the brain, on what can free will and responsibility rest",
+      "tags": ["psychology", "neuroscience", "consciousness", "cognitive-science", "ethics"],
+      "topics": ["cognitive-science", "philosophy", "decision-making"],
+      "prose": {
+        "description_zh": "加扎尼加是裂脑研究的奠基者之一。在《谁说了算？》中，他把自己半个世纪对左右脑分工以及大脑「解释器」机制的观察，汇成对自由意志问题的系统回答。他的论证分三层：第一，大脑由大量半独立的模块并行工作，意识只接触到其中极小的一部分输出；第二，左脑的「解释器」会事后为已经发生的行为编造看似合理的理由，让人误以为自己先有意图、后行动；第三，自由意志因此不能还原到单个神经元层面，而是在更高层级上「涌现」出来的社会性概念。由此他提出一个反转：责任不是自由意志的前提，而是社会维持秩序的方式——我们之所以要人负责，是因为大脑本身就是社会性的器官。",
+        "description_en": "Gazzaniga is one of the founders of split-brain research. In Who's in Charge? he gathers half a century of observation on the division of labour between the hemispheres and on the brain's interpreter mechanism into a systematic answer to the problem of free will. His argument has three layers. First, the brain is made of many semi-independent modules working in parallel, and consciousness touches only a small part of their output. Second, the left hemisphere's interpreter invents plausible reasons after the fact for behaviour already under way, which makes us believe we formed an intention before we acted. Third, free will therefore cannot be reduced to the level of individual neurons; it is a social concept that emerges at a higher level. This leads to his reversal: responsibility is not grounded in free will, but is a way society keeps order. We hold people responsible because the brain is itself a social organ.",
+        "why_read_zh": "自由意志是少数几个同时被神经科学、法学与伦理学反复追问的问题，而加扎尼加的特殊之处在于：他既是提出问题的科学家，也是承认问题没有干净答案的哲学家。他不打算用「神经元决定论」取消道德责任，而是主张把问题挪到正确的层级上——在神经元层面问「自由吗」是范畴错误，在社会层面问「要不要负责」才有意义。这种「层级涌现」的立场，对做管理、做制度设计，乃至理解法律为什么这样规定的人，都有直接启发。",
+        "why_read_en": "Free will is one of the few problems pressed simultaneously by neuroscience, law and ethics, and Gazzaniga is unusual in being both the scientist who poses it and the philosopher who admits it has no tidy solution. He does not use neuronal determinism to abolish moral responsibility. Instead he argues that the question must be moved to the right level: asking whether a neuron is free is a category error, whereas asking whether a person should be held responsible is meaningful at the social level. This emergentist position speaks directly to managers, institutional designers and anyone wondering why the law is written the way it is.",
+        "core_ideas_zh": [
+          "大脑是「模块化的联合体」：大量半自主的处理单元并行工作，意识只读取其中很小一部分结果，「统一的自我」在很大程度上是一种事后建构。",
+          "左脑的「解释器」会自动为已经发生的行为编造理由：人常常是先行动、后感到自己有意图，因此内省报告并不是行为原因的可靠说明。",
+          "自由意志是一个层级概念，而不是神经元的属性：在单个神经元层面讨论「自由」是范畴错误，只有到了处于社会关系中的整个人这一层，「自由」与「责任」才有意义。",
+          "责任先于自由意志：社会之所以要人负责，是为了维持秩序与协作；道德责任是社会实践的产物，而不是形而上自由意志的逻辑推论。"
+        ],
+        "core_ideas_en": [
+          "The brain is a modular confederation. Many semi-autonomous processing units work in parallel, consciousness reads only a small fraction of their output, and the unified self is to a large extent a construction after the fact.",
+          "The left hemisphere's interpreter automatically invents reasons for behaviour already under way. People often act first and only then feel that they intended to, so introspective reports are not reliable accounts of the causes of behaviour.",
+          "Free will is a level-bound concept rather than a property of neurons. Discussing freedom at the level of a single neuron is a category error; freedom and responsibility become meaningful only at the level of the whole person embedded in social relations.",
+          "Responsibility precedes free will. Society holds people accountable in order to sustain order and cooperation; moral responsibility is a product of social practice rather than a logical corollary of metaphysical free will."
+        ],
+        "key_questions_zh": [
+          "如果意识只接触到大脑活动的一小部分，「我」在多大程度上是自身行为的作者？",
+          "在神经科学不断显示行为受无意识机制驱动之后，法律与道德还能不能要求人为自己的行为负责？"
+        ],
+        "key_questions_en": [
+          "If consciousness has access to only a fraction of brain activity, to what extent is the I the author of its own actions?",
+          "Once neuroscience keeps showing that behaviour is driven by unconscious mechanisms, can law and morality still hold people responsible for what they do?"
+        ],
+        "who_should_read_zh": "对意识、自由意志与决定论感兴趣的认知科学读者；法律、伦理与公共政策领域需要处理「责任」概念的人；以及做管理与制度设计、关心「人为什么会被激励与约束」的实践者。全书叙述清晰、案例密集，不要求神经科学背景，但要接受作者不给出一个干净结论。",
+        "who_should_read_en": "Readers of cognitive science interested in consciousness, free will and determinism; people in law, ethics and public policy who must work with the concept of responsibility; and practitioners of management and institutional design concerned with how people are motivated and constrained. The book is clearly written and full of cases, requires no neuroscience background, but asks the reader to accept that no clean conclusion is on offer.",
+        "reading_note_zh": "中文版《谁说了算？自由意志的心理学解读》由浙江人民出版社 2013 年出版（湛庐文化出品）。建议先读导论与结论，抓住「层级涌现」这一核心主张，再回到中间章节看裂脑实验与「解释器」的证据；讨论法律与责任的后半部分是全书落点，不要跳过。可配合书库已有的《意识的解释》（丹尼特）与《脑与意识》（迪昂）对读，三者对「意识与自我」给出三种不同方案。",
+        "reading_note_en": "The Chinese edition, Who's in Charge? Free Will and the Science of the Brain, was published by Zhejiang People's Publishing House in 2013. Read the introduction and the conclusion first to capture the central claim of emergence across levels, then return to the middle chapters for the split-brain experiments and the evidence for the interpreter. The later chapters on law and responsibility are where the book lands, so do not skip them. It can be read against Consciousness Explained by Dennett and Consciousness and the Brain by Dehaene, already in this library, which offer three different accounts of consciousness and the self."
+      }
+    }
+  ]
+}
