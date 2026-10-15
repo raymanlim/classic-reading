@@ -283,6 +283,24 @@ export const notes = [
       'The key move in this book is to rewrite "following a rule" from a private mental act into a public practice: no rule can determine its own next application on its own, since every next step can be construed as according with the rule, and so the gap between a rule and an interpretation of it must be closed by something that is not itself an interpretation — namely a convention formed by a group of people doing the same thing repeatedly. What it genuinely changes is the understanding of what a standard is: a standard binds not because it is correct but because people act on it and that way of acting is shared; a rule with no installed base is, on this account, empty. The easily missed point is that the argument also closes off the retreat of a privately held correct usage — a purely private language is impossible because no one else can confirm whether it has been used correctly. The caution worth keeping is the corollary: if rules rest on practice, then switching to a better way of doing things is not a purely technical judgement but has to wait until the shared practice can migrate as a whole. It meets this site\'s "The Window Before Lock-In" head on: that piece examines why switching costs settle in people and conventions, and this book explains why conventions are the only place a rule can land.',
     topics: ['philosophy', 'cognitive-science'],
   },
+  {
+    id: 'note-017',
+    slug: 'the-human-condition-action-reveals-the-who',
+    book: 'the-human-condition',
+    date: '2026-10-15',
+    voice: 'editorial',
+    key_insight_zh:
+      '阿伦特把人的活动分成劳动、工作与行动三层：劳动循环而匿名，工作留下持久的物，唯有行动必然揭示「谁」——它无法匿名，因此责任不是制度外加的负担，而是行动本身固有的属性。',
+    key_insight_en:
+      'Arendt sorts human activity into three layers — labour, work, and action. Labour is cyclical and anonymous, work leaves durable objects behind, and only action necessarily discloses the "who": it cannot be anonymous, so responsibility is not a burden added by institutions but a property inherent in acting at all.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于把「人在做什么」拆成三个层次：劳动对应生命的必然循环，产物随即被消耗，做事的人不留痕迹；工作制造出比制造者活得更久的人工物，从工具到建筑都是这一类；行动则发生在人与人的公共空间里，它的产物不是物品，而是被共同见证的一件事。它真正改变的是「身份从哪里来」这个判断——人的独特性不是从劳动或工作中得到的，劳动与工作回答的都是「什么」，只有行动回答「谁」，而回答「谁」意味着行动者无法躲在角色后面。容易被忽略的一点是，阿伦特把现代社会的主要危险描述为人被降格为「劳动动物」：当谋生的循环占据了全部时间，行动的公共空间就萎缩了，而人一旦只以角色身份出现，就失去了被要求回答的条件。值得警惕的是这个论证容易被读成一种怀旧——它其实不是要求退回城邦，而是指出：凡是把参与者彻底还原为职能的组织，都在系统性地生产「无人可被追问」的状态。它与本站《责任的稀释》一文互为表里：那篇讲责任如何在工序的分段中被稀释，这本讲的正是行动为何在根上不能被匿名。',
+    thinking_en:
+      'The key move of this book is to split "what people are doing" into three layers: labour answers the necessary cycle of life, its product is consumed almost at once, and the one who does it leaves no trace; work produces artifacts that outlast their maker, from tools to buildings; action takes place in a public space between people, and what it produces is not an object but an event witnessed in common. What it genuinely changes is the answer to where identity comes from — human distinctness is not obtained through labour or work, since both answer the question "what," and only action answers "who," and to answer "who" is to be unable to hide behind a role. The easily missed point is that Arendt names the main danger of modern society as the reduction of human beings to "labour animals": when the cycle of making a living occupies all the time, the public space of action shrinks, and a person who appears only as a function loses the very condition of being called to account. The caution worth keeping is that the argument is easily misread as nostalgia — it is not a demand to return to the polis but a claim that any organization reducing its participants to pure function is systematically manufacturing a state in which no one can be questioned. It forms two halves with this site\'s "The Dilution of Responsibility": that piece examines how responsibility thins out as work is cut into stages, and this book explains why action cannot be anonymous in the first place.',
+    topics: ['philosophy', 'power-and-politics', 'modern-society'],
+  },
 ];
 
 export default notes;
