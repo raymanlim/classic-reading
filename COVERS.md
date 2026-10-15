@@ -1,6 +1,6 @@
 # 封面图生成清单｜Classics Library
 
-本文件是给你生成封面图用的对照表。共 **274** 本 —— 已有封面 **220** 张，待出图 **54** 张。
+本文件是给你生成封面图用的对照表。共 **280** 本 —— 已有封面 **280** 张，待出图 **0** 张。
 
 > ⚠️ 第八节是全量清单。**生成前请只看「⬜ 待出图」的行**，否则会给已有封面重复出图。
 > 只列待出图的精简版见 `COVERS-TODO.md`。
@@ -119,9 +119,9 @@ npm run covers
 
 ---
 
-## 八、完整清单（274 本，按经典指数降序）
+## 八、完整清单（280 本，按经典指数降序）
 
-> ⬜ = 待出图（54 本）；✅ = 已有封面（220 本）
+> ⬜ = 待出图（0 本）；✅ = 已有封面（280 本）
 
 | # | 文件名 | 中文书名 | 英文书名 | 作者 | 分类 | 状态 |
 |---|---|---|---|---|---|---|
@@ -319,60 +319,60 @@ npm run covers
 | 192 | `zhege-yuzhou-he-wo-you-shenme-guanxi.webp` | 这个宇宙和我有什么关系 |  | 哈拉尔德·莱施 | 科技与科学 | ✅ 已有 |
 | 193 | `until-the-end-of-time.webp` | 直到时间尽头 | Until the End of Time: Mind, Matter, and Our Search for Meaning in an Evolving Universe | 布莱恩·格林 | 科技与科学 | ✅ 已有 |
 | 194 | `suanfa-yu-yuyan.webp` | 算法与预言 |  | 历山德罗·韦斯皮尼亚尼 | 科技与科学 | ✅ 已有 |
-| 195 | `visions-of-technological-transcendence.webp` | 人类未来进化史 | Visions of Technological Transcendence: Human Enhancement and the Rhetoric of the Future | 詹姆斯·赫里克 | 科技与科学 | ⬜ 待出图 |
-| 196 | `extraterrestrial.webp` | 外星人 | Extraterrestrial: The First Sign of Intelligent Life Beyond Earth | 阿维·洛布 | 科技与科学 | ⬜ 待出图 |
-| 197 | `the-passions-and-the-interests.webp` | 欲望与利益 | The Passions and the Interests: Political Arguments for Capitalism before Its Triumph | 艾伯特·赫希曼 | 经济学 | ⬜ 待出图 |
-| 198 | `our-symphony-with-animals.webp` | 伴生：我们与动物的故事 | Our Symphony with Animals: On Health, Empathy, and Our Shared Destinies | 阿伊莎·阿赫塔 | 科技与科学 | ⬜ 待出图 |
-| 199 | `the-selfish-gene.webp` | 自私的基因 | The Selfish Gene | 理查德·道金斯 | 科技与科学 | ⬜ 待出图 |
-| 200 | `the-naked-ape.webp` | 裸猿 | The Naked Ape: A Zoologist's Study of the Human Animal | 德斯蒙德·莫里斯 | 科技与科学 | ⬜ 待出图 |
-| 201 | `the-meaning-of-human-existence.webp` | 人类存在的意义 | The Meaning of Human Existence | 爱德华·威尔逊 | 科技与科学 | ⬜ 待出图 |
-| 202 | `you-bet-your-life.webp` | 赌命 | You Bet Your Life: From Blood Transfusions to Mass Vaccination, the Long and Risky History of Medical Innovation | 保罗·奥菲特 | 科技与科学 | ⬜ 待出图 |
-| 203 | `letter-to-a-child-never-born.webp` | 给一个未能出生的孩子的信 | Letter to a Child Never Born | 奥里亚娜·法拉奇 | 文学与小说 | ⬜ 待出图 |
-| 204 | `shiyu-jixian.webp` | 始于极限 |  | 上野千鹤子 | 社会与文明 | ⬜ 待出图 |
-| 205 | `zai-shuxi-de-jiazhong-xiang-shijie-daobie.webp` | 在熟悉的家中向世界道别 |  | 上野千鹤子 | 社会与文明 | ⬜ 待出图 |
-| 206 | `yannu.webp` | 厌女 |  | 上野千鹤子 | 社会与文明 | ⬜ 待出图 |
-| 207 | `wuyuan-shehui.webp` | 无缘社会 |  | NHK特别追踪报道组 | 社会与文明 | ⬜ 待出图 |
-| 208 | `ta-yannan-ta-shi-wo-nvyou.webp` | 她厌男，她是我女友 |  | 闵智炯 | 社会与文明 | ⬜ 待出图 |
-| 209 | `not-just-for-the-boys.webp` | 一直在场 | Not Just for the Boys: Why We Need More Women in Science | 雅典娜·唐纳德 | 社会与文明 | ⬜ 待出图 |
-| 210 | `the-gender-knot.webp` | 性别打结 | The Gender Knot: Unraveling Our Patriarchal Legacy | 艾伦·约翰逊 | 社会与文明 | ⬜ 待出图 |
-| 211 | `li-yinhe-shuo-aiqing.webp` | 李银河说爱情 |  | 李银河 | 社会与文明 | ⬜ 待出图 |
-| 212 | `heading-home.webp` | 回归家庭 | Heading Home: Motherhood, Work, and the Failed Promise of Equality | 沙尼·奥加德 | 社会与文明 | ⬜ 待出图 |
-| 213 | `a-room-of-ones-own.webp` | 一间自己的屋子 | A Room of One's Own | 弗吉尼亚·伍尔夫 | 社会与文明 | ⬜ 待出图 |
-| 214 | `shaonian-fasheng.webp` | 少年发声 |  | 陈瑜 | 社会与文明 | ⬜ 待出图 |
-| 215 | `the-politics-of-social-solidarity.webp` | 福利大博弈 | The Politics of Social Solidarity: Class Bases of the European Welfare State, 1875–1975 | 彼得·鲍德温 | 经济学 | ⬜ 待出图 |
-| 216 | `coffeeland.webp` | 咖啡帝国 | Coffeeland: One Man's Dark Empire and the Making of Our Favorite Drug | 奥古斯丁·赛奇威克 | 经济学 | ⬜ 待出图 |
-| 217 | `relationships-5-0.webp` | 关系5.0 | Relationships 5.0: How AI, VR, and Robots Will Reshape Our Emotional Lives | 伊里亚金·基斯列夫 | 社会与文明 | ⬜ 待出图 |
-| 218 | `shehui-weishenme-dui-nianqingren-lengku-wuqing.webp` | 社会为什么对年轻人冷酷无情 |  | 山田昌弘 | 经济学 | ⬜ 待出图 |
-| 219 | `complexity-the-evolution-of-earths-biodiversity.webp` | 生命大趋势 | Complexity: The Evolution of Earth's Biodiversity and the Future of Humanity | unknown-complexity | 科技与科学 | ⬜ 待出图 |
-| 220 | `we-have-never-been-middle-class.webp` | 我们从未中产过 | We Have Never Been Middle Class: How Social Mobility Misleads Us | 豪道斯·魏斯 | 经济学 | ⬜ 待出图 |
-| 221 | `the-fuzzy-and-the-techie.webp` | 文艺呆与科技宅 | The Fuzzy and the Techie: Why the Liberal Arts Will Rule the Digital World | 斯科特·哈特里 | 经济学 | ⬜ 待出图 |
-| 222 | `sanshi-buli.webp` | 三十不立 |  | NHK特别追踪报道组 | 经济学 | ⬜ 待出图 |
-| 223 | `00-niandai-de-xiangxiangli.webp` | 00年代的想象力 |  | 宇野常宽 | 社会与文明 | ⬜ 待出图 |
-| 224 | `soulstealers.webp` | 叫魂：1768年中国妖术大恐慌 | Soulstealers | 孔飞力 | 社会与文明 | ⬜ 待出图 |
-| 225 | `the-book-of-lord-shang.webp` | 商君书 | The Book of Lord Shang | 商鞅 | 社会与文明 | ⬜ 待出图 |
-| 226 | `nhk-special-reporting-team-documentary-series.webp` | NHK特别取材组纪实丛书 |  | 日本NHK特别取材组 | 社会与文明 | ⬜ 待出图 |
-| 227 | `the-path-of-least-resistance.webp` | 最小阻力路径相关社会学著作 |  | 艾伦·约翰逊 | 社会与文明 | ⬜ 待出图 |
-| 228 | `the-world-as-will-and-representation.webp` | 作为意志和表象的世界 | The World as Will and Representation | 亚瑟·叔本华 | 哲学 | ⬜ 待出图 |
-| 229 | `critique-of-pure-reason.webp` | 纯粹理性批判 | Critique of Pure Reason | 伊曼努尔·康德 | 哲学 | ⬜ 待出图 |
-| 230 | `symposium.webp` | 会饮篇 | Symposium | 柏拉图 | 哲学 | ⬜ 待出图 |
-| 231 | `a-treatise-of-human-nature.webp` | 人性论 | A Treatise of Human Nature | 大卫·休谟 | 哲学 | ⬜ 待出图 |
-| 232 | `iliad-and-odyssey.webp` | 荷马史诗（伊利亚特奥德赛） | Iliad & Odyssey | 荷马 | 文学与小说 | ⬜ 待出图 |
-| 233 | `aeneid.webp` | 埃涅阿斯纪 | Aeneid | 维吉尔 | 文学与小说 | ⬜ 待出图 |
-| 234 | `ars-amatoria.webp` | 爱经（爱的艺术） | Ars Amatoria | 奥维德 | 文学与小说 | ⬜ 待出图 |
-| 235 | `satyricon.webp` | 萨蒂利孔 | Satyricon | 佩特罗尼乌斯 | 文学与小说 | ⬜ 待出图 |
-| 236 | `the-decameron.webp` | 十日谈 | The Decameron | 乔万尼·薄伽丘 | 文学与小说 | ⬜ 待出图 |
-| 237 | `childe-harolds-pilgrimage.webp` | 恰尔德·哈罗尔德游记 | Childe Harold's Pilgrimage | 拜伦 | 文学与小说 | ⬜ 待出图 |
-| 238 | `the-psychopath-inside.webp` | 天生变态狂 | The Psychopath Inside | 詹姆斯·法隆 | 心理学与认知科学 | ⬜ 待出图 |
-| 239 | `rewire-your-anxious-brain.webp` | 重塑与情绪修复脑科学 |  | 凯特琳·M·特曼 | 心理学与认知科学 | ⬜ 待出图 |
-| 240 | `testosterone.webp` | 睾酮 | Testosterone | 卡罗尔·胡文 | 心理学与认知科学 | ⬜ 待出图 |
-| 241 | `dirty-genes.webp` | 脏基因 | Dirty Genes | 本·林奇 | 心理学与认知科学 | ⬜ 待出图 |
-| 242 | `the-fermi-paradox-seventy-five-solutions.webp` | 费米悖论的75种解释 |  | 史蒂芬·韦伯 | 科技与科学 | ⬜ 待出图 |
-| 243 | `biocentrism.webp` | 生物中心主义三部曲 | Biocentrism | 罗伯特·兰扎 | 科技与科学 | ⬜ 待出图 |
-| 244 | `the-easterlin-paradox.webp` | 幸福经济学相关著作 |  | 理查德·伊斯特林 | 经济学 | ⬜ 待出图 |
-| 245 | `the-cafe-on-the-edge-of-the-world.webp` | 世界尽头的咖啡馆系列 | The Cafe on the Edge of the World | 约翰·史崔勒基 | 经济学 | ⬜ 待出图 |
-| 246 | `a-travel-guide-to-heaven.webp` | 天堂之旅 | A Travel Guide to Heaven | 安东尼·德斯蒂法诺 | 经济学 | ⬜ 待出图 |
-| 247 | `the-philosophy-of-art.webp` | 艺术哲学 | The Philosophy of Art | 伊波利特·丹纳 | 社会与文明 | ⬜ 待出图 |
-| 248 | `tiancai-de-shenghui.webp` | 天才的盛会：文艺复兴艺术300年 |  | 江逐浪 | 社会与文明 | ⬜ 待出图 |
+| 195 | `visions-of-technological-transcendence.webp` | 人类未来进化史 | Visions of Technological Transcendence: Human Enhancement and the Rhetoric of the Future | 詹姆斯·赫里克 | 科技与科学 | ✅ 已有 |
+| 196 | `extraterrestrial.webp` | 外星人 | Extraterrestrial: The First Sign of Intelligent Life Beyond Earth | 阿维·洛布 | 科技与科学 | ✅ 已有 |
+| 197 | `the-passions-and-the-interests.webp` | 欲望与利益 | The Passions and the Interests: Political Arguments for Capitalism before Its Triumph | 艾伯特·赫希曼 | 经济学 | ✅ 已有 |
+| 198 | `our-symphony-with-animals.webp` | 伴生：我们与动物的故事 | Our Symphony with Animals: On Health, Empathy, and Our Shared Destinies | 阿伊莎·阿赫塔 | 科技与科学 | ✅ 已有 |
+| 199 | `the-selfish-gene.webp` | 自私的基因 | The Selfish Gene | 理查德·道金斯 | 科技与科学 | ✅ 已有 |
+| 200 | `the-naked-ape.webp` | 裸猿 | The Naked Ape: A Zoologist's Study of the Human Animal | 德斯蒙德·莫里斯 | 科技与科学 | ✅ 已有 |
+| 201 | `the-meaning-of-human-existence.webp` | 人类存在的意义 | The Meaning of Human Existence | 爱德华·威尔逊 | 科技与科学 | ✅ 已有 |
+| 202 | `you-bet-your-life.webp` | 赌命 | You Bet Your Life: From Blood Transfusions to Mass Vaccination, the Long and Risky History of Medical Innovation | 保罗·奥菲特 | 科技与科学 | ✅ 已有 |
+| 203 | `letter-to-a-child-never-born.webp` | 给一个未能出生的孩子的信 | Letter to a Child Never Born | 奥里亚娜·法拉奇 | 文学与小说 | ✅ 已有 |
+| 204 | `shiyu-jixian.webp` | 始于极限 |  | 上野千鹤子 | 社会与文明 | ✅ 已有 |
+| 205 | `zai-shuxi-de-jiazhong-xiang-shijie-daobie.webp` | 在熟悉的家中向世界道别 |  | 上野千鹤子 | 社会与文明 | ✅ 已有 |
+| 206 | `yannu.webp` | 厌女 |  | 上野千鹤子 | 社会与文明 | ✅ 已有 |
+| 207 | `wuyuan-shehui.webp` | 无缘社会 |  | NHK特别追踪报道组 | 社会与文明 | ✅ 已有 |
+| 208 | `ta-yannan-ta-shi-wo-nvyou.webp` | 她厌男，她是我女友 |  | 闵智炯 | 社会与文明 | ✅ 已有 |
+| 209 | `not-just-for-the-boys.webp` | 一直在场 | Not Just for the Boys: Why We Need More Women in Science | 雅典娜·唐纳德 | 社会与文明 | ✅ 已有 |
+| 210 | `the-gender-knot.webp` | 性别打结 | The Gender Knot: Unraveling Our Patriarchal Legacy | 艾伦·约翰逊 | 社会与文明 | ✅ 已有 |
+| 211 | `li-yinhe-shuo-aiqing.webp` | 李银河说爱情 |  | 李银河 | 社会与文明 | ✅ 已有 |
+| 212 | `heading-home.webp` | 回归家庭 | Heading Home: Motherhood, Work, and the Failed Promise of Equality | 沙尼·奥加德 | 社会与文明 | ✅ 已有 |
+| 213 | `a-room-of-ones-own.webp` | 一间自己的屋子 | A Room of One's Own | 弗吉尼亚·伍尔夫 | 社会与文明 | ✅ 已有 |
+| 214 | `shaonian-fasheng.webp` | 少年发声 |  | 陈瑜 | 社会与文明 | ✅ 已有 |
+| 215 | `the-politics-of-social-solidarity.webp` | 福利大博弈 | The Politics of Social Solidarity: Class Bases of the European Welfare State, 1875–1975 | 彼得·鲍德温 | 经济学 | ✅ 已有 |
+| 216 | `coffeeland.webp` | 咖啡帝国 | Coffeeland: One Man's Dark Empire and the Making of Our Favorite Drug | 奥古斯丁·赛奇威克 | 经济学 | ✅ 已有 |
+| 217 | `relationships-5-0.webp` | 关系5.0 | Relationships 5.0: How AI, VR, and Robots Will Reshape Our Emotional Lives | 伊里亚金·基斯列夫 | 社会与文明 | ✅ 已有 |
+| 218 | `shehui-weishenme-dui-nianqingren-lengku-wuqing.webp` | 社会为什么对年轻人冷酷无情 |  | 山田昌弘 | 经济学 | ✅ 已有 |
+| 219 | `complexity-the-evolution-of-earths-biodiversity.webp` | 生命大趋势 | Complexity: The Evolution of Earth's Biodiversity and the Future of Humanity | unknown-complexity | 科技与科学 | ✅ 已有 |
+| 220 | `we-have-never-been-middle-class.webp` | 我们从未中产过 | We Have Never Been Middle Class: How Social Mobility Misleads Us | 豪道斯·魏斯 | 经济学 | ✅ 已有 |
+| 221 | `the-fuzzy-and-the-techie.webp` | 文艺呆与科技宅 | The Fuzzy and the Techie: Why the Liberal Arts Will Rule the Digital World | 斯科特·哈特里 | 经济学 | ✅ 已有 |
+| 222 | `sanshi-buli.webp` | 三十不立 |  | NHK特别追踪报道组 | 经济学 | ✅ 已有 |
+| 223 | `00-niandai-de-xiangxiangli.webp` | 00年代的想象力 |  | 宇野常宽 | 社会与文明 | ✅ 已有 |
+| 224 | `soulstealers.webp` | 叫魂：1768年中国妖术大恐慌 | Soulstealers | 孔飞力 | 社会与文明 | ✅ 已有 |
+| 225 | `the-book-of-lord-shang.webp` | 商君书 | The Book of Lord Shang | 商鞅 | 社会与文明 | ✅ 已有 |
+| 226 | `nhk-special-reporting-team-documentary-series.webp` | NHK特别取材组纪实丛书 |  | 日本NHK特别取材组 | 社会与文明 | ✅ 已有 |
+| 227 | `the-path-of-least-resistance.webp` | 最小阻力路径相关社会学著作 |  | 艾伦·约翰逊 | 社会与文明 | ✅ 已有 |
+| 228 | `the-world-as-will-and-representation.webp` | 作为意志和表象的世界 | The World as Will and Representation | 亚瑟·叔本华 | 哲学 | ✅ 已有 |
+| 229 | `critique-of-pure-reason.webp` | 纯粹理性批判 | Critique of Pure Reason | 伊曼努尔·康德 | 哲学 | ✅ 已有 |
+| 230 | `symposium.webp` | 会饮篇 | Symposium | 柏拉图 | 哲学 | ✅ 已有 |
+| 231 | `a-treatise-of-human-nature.webp` | 人性论 | A Treatise of Human Nature | 大卫·休谟 | 哲学 | ✅ 已有 |
+| 232 | `iliad-and-odyssey.webp` | 荷马史诗（伊利亚特奥德赛） | Iliad & Odyssey | 荷马 | 文学与小说 | ✅ 已有 |
+| 233 | `aeneid.webp` | 埃涅阿斯纪 | Aeneid | 维吉尔 | 文学与小说 | ✅ 已有 |
+| 234 | `ars-amatoria.webp` | 爱经（爱的艺术） | Ars Amatoria | 奥维德 | 文学与小说 | ✅ 已有 |
+| 235 | `satyricon.webp` | 萨蒂利孔 | Satyricon | 佩特罗尼乌斯 | 文学与小说 | ✅ 已有 |
+| 236 | `the-decameron.webp` | 十日谈 | The Decameron | 乔万尼·薄伽丘 | 文学与小说 | ✅ 已有 |
+| 237 | `childe-harolds-pilgrimage.webp` | 恰尔德·哈罗尔德游记 | Childe Harold's Pilgrimage | 拜伦 | 文学与小说 | ✅ 已有 |
+| 238 | `the-psychopath-inside.webp` | 天生变态狂 | The Psychopath Inside | 詹姆斯·法隆 | 心理学与认知科学 | ✅ 已有 |
+| 239 | `rewire-your-anxious-brain.webp` | 重塑与情绪修复脑科学 |  | 凯特琳·M·特曼 | 心理学与认知科学 | ✅ 已有 |
+| 240 | `testosterone.webp` | 睾酮 | Testosterone | 卡罗尔·胡文 | 心理学与认知科学 | ✅ 已有 |
+| 241 | `dirty-genes.webp` | 脏基因 | Dirty Genes | 本·林奇 | 心理学与认知科学 | ✅ 已有 |
+| 242 | `the-fermi-paradox-seventy-five-solutions.webp` | 费米悖论的75种解释 |  | 史蒂芬·韦伯 | 科技与科学 | ✅ 已有 |
+| 243 | `biocentrism.webp` | 生物中心主义三部曲 | Biocentrism | 罗伯特·兰扎 | 科技与科学 | ✅ 已有 |
+| 244 | `the-easterlin-paradox.webp` | 幸福经济学相关著作 |  | 理查德·伊斯特林 | 经济学 | ✅ 已有 |
+| 245 | `the-cafe-on-the-edge-of-the-world.webp` | 世界尽头的咖啡馆系列 | The Cafe on the Edge of the World | 约翰·史崔勒基 | 经济学 | ✅ 已有 |
+| 246 | `a-travel-guide-to-heaven.webp` | 天堂之旅 | A Travel Guide to Heaven | 安东尼·德斯蒂法诺 | 经济学 | ✅ 已有 |
+| 247 | `the-philosophy-of-art.webp` | 艺术哲学 | The Philosophy of Art | 伊波利特·丹纳 | 社会与文明 | ✅ 已有 |
+| 248 | `tiancai-de-shenghui.webp` | 天才的盛会：文艺复兴艺术300年 |  | 江逐浪 | 社会与文明 | ✅ 已有 |
 | 249 | `crystal-fire.webp` | 晶体之火：晶体管的发明与信息时代的来临 | Crystal Fire: The Invention of the Transistor and the Birth of the Information Age | 迈克尔·赖尔登、莉莉安·霍德森 | 科技与科学 | ✅ 已有 |
 | 250 | `the-man-who-mistook-his-wife-for-a-hat.webp` | 错把妻子当帽子 | The Man Who Mistook His Wife for a Hat and Other Clinical Tales | 奥利弗·萨克斯 | 心理学与认知科学 | ✅ 已有 |
 | 251 | `the-human-condition.webp` | 人的境况 | The Human Condition | 汉娜·阿伦特 | 哲学 | ✅ 已有 |
@@ -399,64 +399,17 @@ npm run covers
 | 272 | `consciousness-and-the-brain.webp` | 脑与意识 | Consciousness and the Brain: Deciphering How the Brain Codes Our Thoughts | 斯坦尼斯拉斯·迪昂 | 心理学与认知科学 | ✅ 已有 |
 | 273 | `being-and-time.webp` | 存在与时间 | Being and Time | 马丁·海德格尔 | 哲学 | ✅ 已有 |
 | 274 | `sciences-of-the-artificial.webp` | 人工科学 | The Sciences of the Artificial | 赫伯特·A·西蒙（司马贺） | 人工智能 | ✅ 已有 |
+| 275 | `a-history-of-western-philosophy.webp` | 西方哲学史 | A History of Western Philosophy | 伯特兰·罗素 | 哲学 | ✅ 已有 |
+| 276 | `moores-law.webp` | 摩尔神话：硅谷数字革命先驱的传奇人生 | Moore's Law: The Life of Gordon Moore, Silicon Valley's Quiet Revolutionary | 阿诺德·萨克雷、戴维·布洛克、雷切尔·琼斯 | 科技与科学 | ✅ 已有 |
+| 277 | `empire-of-cotton.webp` | 棉花帝国：一部资本主义全球史 | Empire of Cotton: A Global History | 斯文·贝克特 | 世界历史 | ✅ 已有 |
+| 278 | `the-book-of-why.webp` | 为什么：关于因果关系的新科学 | The Book of Why: The New Science of Cause and Effect | 朱迪亚·珀尔、达纳·麦肯齐 | 人工智能 | ✅ 已有 |
+| 279 | `phenomenology-of-spirit.webp` | 精神现象学 | The Phenomenology of Spirit | 格奥尔格·威廉·弗里德里希·黑格尔 | 哲学 | ✅ 已有 |
+| 280 | `whos-in-charge.webp` | 谁说了算？自由意志的心理学解读 | Who's in Charge?: Free Will and the Science of the Brain | 迈克尔·S. 加扎尼加 | 心理学与认知科学 | ✅ 已有 |
 
 ---
 
-## 九、只导出「待出图」文件名（54 个，可直接批量生成）
+## 九、只导出「待出图」文件名（0 个，可直接批量生成）
 
 ```text
-visions-of-technological-transcendence.webp
-extraterrestrial.webp
-the-passions-and-the-interests.webp
-our-symphony-with-animals.webp
-the-selfish-gene.webp
-the-naked-ape.webp
-the-meaning-of-human-existence.webp
-you-bet-your-life.webp
-letter-to-a-child-never-born.webp
-shiyu-jixian.webp
-zai-shuxi-de-jiazhong-xiang-shijie-daobie.webp
-yannu.webp
-wuyuan-shehui.webp
-ta-yannan-ta-shi-wo-nvyou.webp
-not-just-for-the-boys.webp
-the-gender-knot.webp
-li-yinhe-shuo-aiqing.webp
-heading-home.webp
-a-room-of-ones-own.webp
-shaonian-fasheng.webp
-the-politics-of-social-solidarity.webp
-coffeeland.webp
-relationships-5-0.webp
-shehui-weishenme-dui-nianqingren-lengku-wuqing.webp
-complexity-the-evolution-of-earths-biodiversity.webp
-we-have-never-been-middle-class.webp
-the-fuzzy-and-the-techie.webp
-sanshi-buli.webp
-00-niandai-de-xiangxiangli.webp
-soulstealers.webp
-the-book-of-lord-shang.webp
-nhk-special-reporting-team-documentary-series.webp
-the-path-of-least-resistance.webp
-the-world-as-will-and-representation.webp
-critique-of-pure-reason.webp
-symposium.webp
-a-treatise-of-human-nature.webp
-iliad-and-odyssey.webp
-aeneid.webp
-ars-amatoria.webp
-satyricon.webp
-the-decameron.webp
-childe-harolds-pilgrimage.webp
-the-psychopath-inside.webp
-rewire-your-anxious-brain.webp
-testosterone.webp
-dirty-genes.webp
-the-fermi-paradox-seventy-five-solutions.webp
-biocentrism.webp
-the-easterlin-paradox.webp
-the-cafe-on-the-edge-of-the-world.webp
-a-travel-guide-to-heaven.webp
-the-philosophy-of-art.webp
-tiancai-de-shenghui.webp
+
 ```
