@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-16",
+  "books": [
+    {
+      "slug": "zhuangzi",
+      "category": "philosophy",
+      "title_zh": "庄子",
+      "title_en": "Zhuangzi",
+      "author": "zhuangzi",
+      "author_zh": "庄子（庄周）",
+      "author_en": "Zhuangzi (Zhuang Zhou)",
+      "nationality_zh": "中国",
+      "nationality_en": "China",
+      "year": null,
+      "original_language": "zh",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "逍遥于无待，齐物于两行——在语言与自我的边界上重估一切分别",
+      "theme_en": "Wandering without dependence, equalizing all things: revaluing every distinction at the limits of language and self",
+      "tags": ["philosophy", "ethics", "classics", "human-nature"],
+      "topics": ["philosophy", "existentialism", "religion-and-meaning"],
+      "prose": {
+        "description_zh": "《庄子》是战国时期宋国人庄周及其后学所著的哲学文集，现存三十三篇，分内篇、外篇、杂篇三部分。全书以寓言、重言、卮言为主要文体，借鲲鹏、庖丁、蝴蝶、骷髅等大量虚构形象，追问人如何在充满成见、争斗与生死无常的世界里获得自由。内篇七篇被普遍认为最接近庄子本人的思想，集中处理逍遥、齐物、养生、人间世、德充符、大宗师、应帝王七个主题。它既不是体系化的伦理学，也不是宗教经典，而是一部以文学方式展开的哲学实验：把语言、知识、自我、是非、生死逐一相对化，最后指向一种不依赖任何外在条件的生存状态。",
+        "description_en": "The Zhuangzi is a collection of philosophical writings attributed to Zhuang Zhou, a thinker of the Warring States period, together with later followers. The received text runs to thirty-three chapters, conventionally divided into Inner, Outer, and Miscellaneous sections. Written largely in fable, invented dialogue, and paradoxical aphorism, it uses figures such as the giant Peng bird, the butcher Cook Ding, the butterfly dream, and talking skulls to ask how a person can become free in a world of fixed opinions, endless contention, and inescapable death. The seven Inner Chapters are generally regarded as closest to Zhuangzi's own thought and treat free wandering, the equalizing of things, nurturing life, the human world, the sign of virtue complete, the great master, and responding to emperors and kings. It is neither a systematic ethics nor a religious scripture, but a philosophical experiment conducted in literary form.",
+        "why_read_zh": "理由有三。其一，它提供了一套与西方哲学截然不同的问题意识：不问「什么是真理」，而问「谁在判断、凭什么判断」，把「是非」本身当作需要拆解的对象。其二，它是中文散文的巅峰，寓言密度极高，读它同时是在读哲学与读文学。其三，它直面现代人最切身的困境——被比较、被定义、被时间追赶；「无待」「两行」「安时处顺」提供的是可操作的心法，而非抽象概念。任何对认知、语言、自我感兴趣的人，都能在这里找到源头性的提问。",
+        "why_read_en": "It offers a set of questions fundamentally different from those of Western philosophy: rather than asking what is true, it asks who is judging and on what authority, treating the very distinction between right and wrong as something to be dissolved rather than defended. It is also a high point of classical Chinese prose, so densely packed with fables that reading it is at once doing philosophy and reading literature. And it speaks directly to a modern predicament — being compared, defined, and chased by time — with workable attitudes such as dependence-free wandering, walking the double path, and settling into the times, rather than abstract concepts.",
+        "core_ideas_zh": [
+          "逍遥无待：真正的自由不来自满足欲望或改变处境，而来自一种不依赖任何外在条件的生存方式。",
+          "齐物两行：是非、大小、美丑都是特定视角的产物；「齐物」不是取消差别，而是让各种视角并行而不互相压制。",
+          "语言的界限：语言既是工具也是牢笼，「得意忘言」提示意义无法被言语完全固定，只能在实践中体会。",
+          "安时处顺：面对生死、变化与不可控之事，不与之为敌，而是顺其自然，使哀乐不能入于心。"
+        ],
+        "core_ideas_en": [
+          "Free and easy wandering without dependence: genuine freedom comes not from satisfying desires or changing circumstances, but from a way of living that depends on nothing external.",
+          "Equalizing things and walking two paths: right and wrong, great and small, beautiful and ugly are products of particular perspectives; equalizing does not erase differences but lets perspectives run side by side without one suppressing another.",
+          "The limits of language: language is both instrument and cage; catching the meaning and forgetting the words suggests that meaning can never be fully fixed in speech and must be grasped in practice.",
+          "Settling into the times: toward death, change, and what cannot be controlled, do not wage war but follow the natural course, so that sorrow and joy no longer enter."
+        ],
+        "key_questions_zh": [
+          "人能否在不改变外部处境的前提下获得自由？如果能，靠什么？",
+          "当我们说某事物「是」或「非」时，究竟在陈述世界，还是在暴露自己的立场与成见？",
+          "语言能否承载「道」？如果不能，哲学还剩下哪些表达方式？"
+        ],
+        "key_questions_en": [
+          "Can a person become free without changing external circumstances — and if so, by what means?",
+          "When we call something right or wrong, are we describing the world or exposing our own position and prejudice?",
+          "Can language carry the Way? If not, what forms of expression remain for philosophy?"
+        ],
+        "who_should_read_zh": "适合三类读者：对中西哲学比较感兴趣、想理解中国思想「非体系化」一面的人；从事认知科学、语言哲学、心灵哲学，想找一套不同的自我与语言观的学者与爱好者；以及在高压、比较与时间焦虑中，希望获得一种非宗教、非励志的安顿方式的人。对文言有畏惧者，可先读白话译注本。",
+        "who_should_read_en": "It suits readers interested in comparative philosophy who want to understand the non-systematic side of Chinese thought; scholars and enthusiasts in cognitive science, philosophy of language, and philosophy of mind looking for a different account of self and language; and anyone under pressure, comparison, and time anxiety who wants a way of settling that is neither religious nor motivational. Readers wary of classical Chinese can begin with an annotated modern translation.",
+        "reading_note_zh": "建议从内篇七篇按顺序读起，这是全书思想密度最高、最可能出自庄周本人的部分；其中《逍遥游》《齐物论》最核心，值得反复。外篇、杂篇可择读，《秋水》《至乐》《达生》《山木》文学性最强。读时不必急着找「论点」，而要注意每个寓言在拆解什么预设。可配陈鼓应《庄子今注今译》入门，再与《道德经》《论语》对读，看清儒道两家对「秩序」的不同回答。",
+        "reading_note_en": "Begin with the seven Inner Chapters in order — the densest and most likely authentic part of the book. Free and Easy Wandering and On the Equality of Things are the core and reward rereading. From the Outer and Miscellaneous chapters, Autumn Floods, Perfect Happiness, Full Understanding of Life, and The Tree on the Mountain are the most literary. Do not hunt for theses; notice instead what presupposition each fable is dismantling. A good entry point is Chen Guying's annotated modern translation; read it alongside the Tao Te Ching and the Analects to see how Confucianism and Daoism answer the question of order differently."
+      }
+    },
+    {
+      "slug": "being-you",
+      "category": "psychology",
+      "title_zh": "意识机器：成为你自己",
+      "title_en": "Being You: A New Science of Consciousness",
+      "author": "anil-seth",
+      "author_zh": "阿尼尔·赛斯",
+      "author_en": "Anil Seth",
+      "nationality_zh": "英国",
+      "nationality_en": "United Kingdom",
+      "year": 2021,
+      "original_language": "en",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "知觉是受控的幻觉，自我是大脑持续构建的过程",
+      "theme_en": "Perception is a controlled hallucination; the self is a process the brain keeps constructing",
+      "tags": ["consciousness", "neuroscience", "cognitive-science", "philosophy"],
+      "topics": ["cognitive-science", "philosophy", "science-and-nature"],
+      "prose": {
+        "description_zh": "《意识机器：成为你自己》是英国认知与计算神经科学家阿尼尔·赛斯 2021 年出版的意识科学著作。全书从一个反直觉的命题出发：我们并非被动地「接收」外部世界，而是在主动地「生成」它——知觉是一场由大脑持续维护、又受感官输入约束的「受控幻觉」。赛斯结合自身研究经历与大量实验案例，讨论颜色、疼痛、自我感、自由意志、动物意识乃至机器意识等议题，并提出「兽性机器」理论：意识与情绪、身体调节同源，是为了维持生命稳态而演化出来的预测机制。副题「成为你自己」指向一个结论：自我不是有待发现的固定实体，而是大脑不断构建出来的过程。",
+        "description_en": "Being You is a 2021 book on the science of consciousness by the British cognitive and computational neuroscientist Anil Seth. It starts from a counterintuitive claim: we do not passively receive the external world but actively generate it — perception is a controlled hallucination that the brain continually maintains while being constrained by sensory input. Drawing on his own research and a wide range of experiments, Seth discusses colour, pain, the sense of self, free will, animal consciousness, and even machine consciousness. He proposes a beast machine theory: consciousness is continuous with emotion and bodily regulation, an evolved prediction mechanism whose purpose is to keep the organism alive. The subtitle points to the conclusion: the self is not a fixed entity waiting to be discovered but a process the brain keeps constructing.",
+        "why_read_zh": "它是当前意识科学最清晰、最好读的综述式著作之一，作者既是活跃研究者，也是这一领域最重要的公共表达者。其价值在于把「意识」从一个玄学问题转化为可做实验、可被检验的科学问题，同时不回避哲学困难。对 AI 从业者尤其有用：书中关于预测加工与受控幻觉的框架，直接关系到如何看待当前大模型的「理解」与「自我」叙事。它不是答案之书，而是提问方式的更新。",
+        "why_read_en": "It is one of the clearest and most readable surveys of the current science of consciousness, written by someone who is both an active researcher and a leading public voice in the field. Its value lies in turning consciousness from a metaphysical puzzle into an experimental, testable scientific question without dodging the philosophical difficulties. It is especially useful for people working in AI: the framework of predictive processing and controlled hallucination bears directly on how we should read the understanding and self narratives attached to today's large models. It is not a book of answers but an update to how the questions are asked.",
+        "core_ideas_zh": [
+          "受控幻觉：知觉不是对世界的直接读取，而是大脑自上而下的预测与感官输入不断校正的结果；「看见」在某种意义上就是「梦见」并受到约束。",
+          "兽性机器：意识与情绪、内感受、身体调节同源，其演化功能是维持生命稳态，而非精确表征外部世界。",
+          "自我的多层构建：身体自我、视角自我、叙事自我分别依赖不同的大脑机制，自我是过程而非实体。",
+          "意识的多样性：意识不是单一现象，而由多个维度构成；「有意识」不是非此即彼的开关，这为动物意识与机器意识提供了更细致的判据。"
+        ],
+        "core_ideas_en": [
+          "Controlled hallucination: perception is not a direct read-out of the world but the result of top-down prediction continually corrected by sensory input; seeing is, in a sense, dreaming under constraints.",
+          "The beast machine: consciousness is continuous with emotion, interoception, and bodily regulation, and its evolutionary function is to keep the organism alive rather than to represent the world accurately.",
+          "The self as multi-layered construction: the bodily self, the perspectival self, and the narrative self depend on different brain mechanisms; the self is a process, not an entity.",
+          "The diversity of consciousness: consciousness is not one thing but a space of dimensions; being conscious is not an on/off switch, which gives finer criteria for animal and machine consciousness."
+        ],
+        "key_questions_zh": [
+          "为什么主观体验会伴随大脑的信息处理而出现，而不是没有？",
+          "如果知觉是「受控幻觉」，我们凭什么相信关于世界的知识？",
+          "自我感是如何被大脑构建的，它在什么条件下会瓦解？"
+        ],
+        "key_questions_en": [
+          "Why does subjective experience accompany the brain's information processing at all, rather than not?",
+          "If perception is a controlled hallucination, on what grounds can we trust our knowledge of the world?",
+          "How is the sense of self constructed by the brain, and under what conditions does it break down?"
+        ],
+        "who_should_read_zh": "适合对意识、自我与心灵问题感兴趣的普通读者；从事 AI 与神经科学交叉研究、关心「机器能否有意识」的工程师与研究者；以及关注预测加工、内感受、身体与情绪关系的心理学与医学读者。不需要神经科学背景，但需要愿意接受「常识直觉可能是错的」这一前提。",
+        "who_should_read_en": "It suits general readers curious about consciousness, self, and mind; engineers and researchers working at the intersection of AI and neuroscience who care whether machines can be conscious; and psychology and medicine readers interested in predictive processing, interoception, and the relation between body and emotion. No neuroscience background is required, but a willingness to accept that common-sense intuition may be wrong is.",
+        "reading_note_zh": "全书结构清晰，可按章顺序读。前几章建立「受控幻觉」这一核心框架，是全书地基，务必读透；中段关于身体自我、自由意志与「自我是幻觉吗」的章节最贴近日常困惑；后段转向动物与机器意识，适合与《脑与意识》（迪昂）、《意识的解释》（丹尼特）对读，看清三者在「意识如何被解释」上的分歧。若时间有限，先读导论与结论两章，再回头补中间案例。",
+        "reading_note_en": "The book is clearly structured and can be read in order. The opening chapters establish controlled hallucination as the core framework and are the foundation, so read them carefully. The middle chapters on the bodily self, free will, and whether the self is an illusion speak most directly to everyday puzzlement. The later chapters turn to animal and machine consciousness and are well read alongside Consciousness and the Brain (Dehaene) and Consciousness Explained (Dennett), to see where the three accounts diverge. Short on time? Read the introduction and conclusion first, then fill in the case studies."
+      }
+    }
+  ]
+}
