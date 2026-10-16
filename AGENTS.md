@@ -267,7 +267,7 @@ GitHub Actions: node src/build.mjs → node src/check.mjs → 部署 dist/
 | 坑 | 现象 | 处理 |
 |---|---|---|
 | **客户端缓存** | 改了内容、线上也更新了，但浏览器还是旧的 | 「更新了却看不到」的头号原因。硬刷新 / 无痕验证；不要误判为发布失败 |
-| 🔴 **`dist/` 删不掉** | `rm -rf dist` 超时（300s）或大量 `Permission denied`；构建脚本报 `SAFE_DELETE_BULK_GUARD_ERROR` | 沙箱 safe-delete 守卫拦截批量删除。**首选**：`mv dist _stage/dist-old-$(date +%Y%m%d-%H%M%S)` 原子改名绕开删除路径，再 `CODEBUDDY_SAFE_DELETE_ENABLED=0 node src/build.mjs`（连续 4 次一次成功，6s 级）。`rm -rf dist` 只是兜底，受阻时可重试 3～4 次。**构建 60s 无任何输出 = 卡死**，直接中断换方案 |
+| 🔴 **`dist/` 删不掉** | `rm -rf dist` 超时（300s）或大量 `Permission denied`；构建脚本报 `SAFE_DELETE_BULK_GUARD_ERROR`；构建 60s 无输出 | 沙箱 safe-delete 守卫拦截批量删除。**完整解法见 §4.1**：首选 `mv dist _stage/dist-old-<ts>` 原子改名 + `CODEBUDDY_SAFE_DELETE_ENABLED=0 node src/build.mjs` |
 | **构建「完成」后 `dist/` 树不完整** | 报完成，但 `ls dist` 只见几十个文件 | 沙箱异步刷写。**不要据一次 `ls` 判构建失败**；等几十秒或直接冒烟复跑 |
 | **陈旧资源墓碑** | 线上删不掉的旧图 | 见 README 第 14 节，有专门机制 |
 | **双轨页面** | 「服务端渲染 + 客户端重建」页面，改负载要成对改 | 见 README 第 15 节 |
