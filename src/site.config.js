@@ -3,7 +3,7 @@
  * SITE_URL 用于 canonical / hreflang / sitemap / robots 的绝对地址。
  * 发布到新域名后，把这里改成新的固定链接并重新构建即可。
  */
-export const SITE_URL = 'https://0e00525f540948a2b66f58b8a0e4962d.sg2.agentos-app.run';
+export const SITE_URL = 'https://classic-reading.pages.dev';
 
 export const SITE = {
   name_zh: '经典书库',
