@@ -1,6 +1,6 @@
 # 封面图生成清单｜Classics Library
 
-本文件是给你生成封面图用的对照表。共 **280** 本 —— 已有封面 **280** 张，待出图 **0** 张。
+本文件是给你生成封面图用的对照表。共 **282** 本 —— 已有封面 **282** 张，待出图 **0** 张。
 
 > ⚠️ 第八节是全量清单。**生成前请只看「⬜ 待出图」的行**，否则会给已有封面重复出图。
 > 只列待出图的精简版见 `COVERS-TODO.md`。
@@ -119,9 +119,9 @@ npm run covers
 
 ---
 
-## 八、完整清单（280 本，按经典指数降序）
+## 八、完整清单（282 本，按经典指数降序）
 
-> ⬜ = 待出图（0 本）；✅ = 已有封面（280 本）
+> ⬜ = 待出图（0 本）；✅ = 已有封面（282 本）
 
 | # | 文件名 | 中文书名 | 英文书名 | 作者 | 分类 | 状态 |
 |---|---|---|---|---|---|---|
@@ -405,6 +405,8 @@ npm run covers
 | 278 | `the-book-of-why.webp` | 为什么：关于因果关系的新科学 | The Book of Why: The New Science of Cause and Effect | 朱迪亚·珀尔、达纳·麦肯齐 | 人工智能 | ✅ 已有 |
 | 279 | `phenomenology-of-spirit.webp` | 精神现象学 | The Phenomenology of Spirit | 格奥尔格·威廉·弗里德里希·黑格尔 | 哲学 | ✅ 已有 |
 | 280 | `whos-in-charge.webp` | 谁说了算？自由意志的心理学解读 | Who's in Charge?: Free Will and the Science of the Brain | 迈克尔·S. 加扎尼加 | 心理学与认知科学 | ✅ 已有 |
+| 281 | `zhuangzi.webp` | 庄子 | Zhuangzi | 庄子（庄周） | 哲学 | ✅ 已有 |
+| 282 | `being-you.webp` | 意识机器：成为你自己 | Being You: A New Science of Consciousness | 阿尼尔·赛斯 | 心理学与认知科学 | ✅ 已有 |
 
 ---
 
