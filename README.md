@@ -629,17 +629,30 @@ npm run verify:my-reading:live   # 线上站点
 
 ## 六、部署方法
 
-**当前线上地址（稳定链接，可直接分享）**：
+站点有**两条并行的发布通道**，内容完全相同，区别只在「怎么更新」：
 
-```
-https://0e00525f540948a2b66f58b8a0e4962d.sg2.agentos-app.run
-```
+| 通道 | 地址 | 更新方式 | 建议用途 |
+|---|---|---|---|
+| ① **Cloudflare Pages** | **`https://classic-reading.pages.dev`** | **push 到 `main` 即自动部署**（1～3 分钟） | ✅ **对外分享用这个** |
+| ② WorkBuddy 沙箱 | `https://0e00525f540948a2b66f58b8a0e4962d.sg2.agentos-app.run` | 需在对话中说「重新发布站点」 | 备用 / 内部预览 |
 
 中文首页 `/zh/`，英文首页 `/en/`。
 
-### 🔴 关于发布域名的关键机制（实测结论）
+### ① Cloudflare Pages（推荐，自维护）
 
-WorkBuddy App Publishing 的域名规则如下，**务必理解，否则会分享到死链**：
+- 由 `.github/workflows/deploy.yml` 驱动：`push` 到 `main` → 构建 → 校验 → `wrangler pages deploy dist`
+- 🔑 **因为每日推荐 / 思想长文 / 封面补图等自动化都会 push `main`**，
+  所以**内容一更新，站点会在 1～3 分钟内自动上线，无需任何手动操作**
+- 域名永久固定（`<project>.pages.dev` 不会变），可以放心长期对外分享
+- 凭据：仓库 Settings → Secrets → Actions 里的
+  `CLOUDFLARE_API_TOKEN`（权限 **Account · Cloudflare Pages · Edit**）+ `CLOUDFLARE_ACCOUNT_ID`
+- 免费版限额 **500 次构建/月**（本仓库约 3～4 次 push/天 ≈ 120 次/月，余量充足）
+- 构建失败时 Cloudflare 会**保留上一版**：站点不会坏，但也不会更新
+- 回滚：Cloudflare 后台 → Workers & Pages → `classic-reading` → Deployments → 选中上一版 → **Rollback**
+
+### ② WorkBuddy 沙箱（备用）
+
+> 🔴 **关于发布域名的关键机制（实测结论）** —— 只适用于这条通道，**务必理解，否则会分享到死链**：
 
 | 字段 | 行为 | 能否对外分享 |
 |---|---|---|
@@ -649,7 +662,7 @@ WorkBuddy App Publishing 的域名规则如下，**务必理解，否则会分�
 因此：**`src/site.config.js` 的 `SITE_URL` 必须填 sandbox 域名，不要填 `shareLink`**。
 填 sandbox 域名后，canonical / hreflang / sitemap 永远正确，且后续重新发布内容不会失效。
 
-沙箱服务**未启用 gzip**，书库页（100 张卡片）约 190KB。若后续追求更极致的首屏，
+沙箱服务**未启用 gzip**，书库页约 420 KB。若后续追求更极致的首屏，
 可考虑书库分页或改为「加载更多」。
 
 ### 其他托管方式
@@ -669,14 +682,19 @@ WorkBuddy App Publishing 的域名规则如下，**务必理解，否则会分�
 ```
 改 content/ 或 locales/
    ↓
-node src/build.mjs        # 重新生成 dist/
+node src/build.mjs        # 重新生成 dist/（本地预览用）
    ↓
 node src/check.mjs        # 校验数据与死链（推荐）
    ↓
-重新发布 dist/            # 对话中说「重新发布站点」即可
+git push                  # → Cloudflare 自动构建并上线（推荐路径）
 ```
 
-sandbox 域名不变，因此**已分享出去的链接继续有效**，无需重新分发。
+> ⚠️ **本地构建请加 `CODEBUDDY_SAFE_DELETE_ENABLED=0`**：
+> `CODEBUDDY_SAFE_DELETE_ENABLED=0 node src/build.mjs`
+> 否则本机 WorkBuddy 沙箱的 safe-delete 守卫会把 `dist/` 的递归删除改写成**逐文件回收站操作**，
+> 导致**静默卡死 20 分钟以上**（无报错、CPU 空转），中断后还会留下半残 `dist/`。
+
+Cloudflare 通道**无需任何手动步骤**；沙箱通道仍需在对话中说「重新发布站点」。
 
 ---
 
