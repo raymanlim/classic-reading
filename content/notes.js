@@ -301,6 +301,24 @@ export const notes = [
       'The key move of this book is to split "what people are doing" into three layers: labour answers the necessary cycle of life, its product is consumed almost at once, and the one who does it leaves no trace; work produces artifacts that outlast their maker, from tools to buildings; action takes place in a public space between people, and what it produces is not an object but an event witnessed in common. What it genuinely changes is the answer to where identity comes from — human distinctness is not obtained through labour or work, since both answer the question "what," and only action answers "who," and to answer "who" is to be unable to hide behind a role. The easily missed point is that Arendt names the main danger of modern society as the reduction of human beings to "labour animals": when the cycle of making a living occupies all the time, the public space of action shrinks, and a person who appears only as a function loses the very condition of being called to account. The caution worth keeping is that the argument is easily misread as nostalgia — it is not a demand to return to the polis but a claim that any organization reducing its participants to pure function is systematically manufacturing a state in which no one can be questioned. It forms two halves with this site\'s "The Dilution of Responsibility": that piece examines how responsibility thins out as work is cut into stages, and this book explains why action cannot be anonymous in the first place.',
     topics: ['philosophy', 'power-and-politics', 'modern-society'],
   },
+  {
+    id: 'note-018',
+    slug: 'the-concept-of-mind-category-mistake',
+    book: 'the-concept-of-mind',
+    date: '2026-10-16',
+    voice: 'editorial',
+    key_insight_zh:
+      '伪问题不是愚蠢的产物，而是「范畴错误」的产物——把属于一种逻辑类型的词用在另一种类型上，问题就永远找不到答案，因为它从一开始就不是一个真问题。',
+    key_insight_en:
+      'Pseudo-problems are not the product of stupidity but of the category mistake: apply a word from one logical type to something of another type, and the question can never be answered, because it was never a genuine question to begin with.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于把一大批关于心灵的争论诊断为一种范畴错误：当一位访客看遍了学院的各座楼、图书馆与实验室之后问「那么大学在哪里」，他并不缺少信息，而是把「大学」当成了与那些楼同一类型的另一个东西。它真正改变的是「找不到答案」这件事的性质——在这类问题里继续寻找答案只会加固错误，因为需要的不是更细的观察，而是重新确认问题本身属于哪一类。容易被忽略的一点是，赖尔针对的并不只是笛卡尔式的实体二元论，而是那种把心智当作一个「内部场所」、把心理词当作对某种内部事件的报告的整个语言习惯；他指出许多心理词描述的是做事的方式与倾向，而不是藏在行为背后的东西。值得警惕的是这套诊断容易被反向滥用：把任何自己不愿回答的问题都宣布为范畴错误，恰恰是对它最糟糕的模仿，因为判据不是「答不上来」，而是能否指出被混用的究竟是哪两种逻辑类型。它与本站《分类先于发现》一文构成一对照面：那篇讲分类一旦被制度固化就取得事实地位，这本讲的正是分类的错位如何在根上生产出永远无解的问题。',
+    thinking_en:
+      'The key move of this book is to diagnose a large family of disputes about the mind as a category mistake: when a visitor has been shown the colleges, the libraries, and the laboratories and then asks "but where is the University?", he is not short of information — he has treated the University as one more item of the same type as the buildings. What it genuinely changes is the nature of "not being able to find an answer": in questions of this kind, looking harder only reinforces the error, because what is needed is not finer observation but a re-check of which type the question itself belongs to. The easily missed point is that Ryle is aiming not only at Cartesian substance dualism but at an entire habit of speech that treats the mind as an inner place and mental words as reports of inner events; many mental words, he argues, describe ways of doing things and dispositions to do them, not something hidden behind the behaviour. The caution worth keeping is that the diagnosis is easily abused in reverse: declaring any inconvenient question a category mistake is the worst imitation of it, since the test is not "I cannot answer" but whether one can say which two logical types have been conflated. It forms a diptych with this site\'s "The Order Before the Thing": that piece examines how a classification acquires the standing of fact once institutions harden it, and this book examines how a mis-placed classification manufactures questions that can never be answered.',
+    topics: ['philosophy', 'cognitive-science'],
+  },
 ];
 
 export default notes;
