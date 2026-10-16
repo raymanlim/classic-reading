@@ -146,17 +146,27 @@ GitHub Actions: node src/build.mjs → node src/check.mjs → 部署 dist/
 - 站点用目录式路由（`/zh/books/xxx/` → `index.html`），托管方需支持目录索引。Cloudflare Pages 默认支持。
 - `src/site.config.js` 的 `SITE_URL` 必须是**最终对外域名**，否则 canonical / hreflang / sitemap 全错。
 - 工作流文件：`.github/workflows/deploy.yml`（密钥走 GitHub Secrets，勿硬编码）。
-- ⚠️ **Cloudflare 步骤当前是「条件执行」**：未配置 `CLOUDFLARE_API_TOKEN` /
-  `CLOUDFLARE_ACCOUNT_ID` 时，`Deploy to Cloudflare Pages` 会被**跳过**（作业保持绿色），
-  并在日志里发一条 notice。补上这两个 secret 后自动开始部署，**无需再改工作流文件**。
-  这样做的原因见第 6 节「步骤级 `if` 用 secrets」那条坑。
-- ⚠️ **现状提示**：`Build & Deploy` 在 2026-10-13 之前**从未成功过**（可见 20 次运行全 failure）。
-  对外唯一入口是 **WorkBuddy App Publishing** 的固定链接，Cloudflare 只是备用通道。
-  迁移真正完成前，不要把 `classic-reading.pages.dev` 当作对外链接发出去（内容陈旧）。
+- ✅ **Cloudflare 部署已启用（2026-10-16 21:45）**：仓库 Secrets 已配置 `CLOUDFLARE_API_TOKEN` /
+  `CLOUDFLARE_ACCOUNT_ID`，`Deploy to Cloudflare Pages` 步骤已正常执行（此前长期被跳过）。
+  该步骤仍是「条件执行」：secret 缺失时会跳过、作业保持绿色并记一条 notice —— 这个防御设计保留。
+  原因见第 6 节「步骤级 `if` 用 secrets」那条坑。
+- 🔴 **对外链接（2026-10-16 起有两条，推荐前者）**：
 
-> ⚠️ **历史遗留**：本站曾托管在 WorkBuddy App Publishing，旧链接形如
-> `https://<sandboxId>.sg2.agentos-app.run`。README 第六节描述的「shareLink 每次换域名」机制
-> 是那套托管的问题，**迁移到 Cloudflare Pages 后不再适用**。迁移完成后应更新 README 该节。
+  | 通道 | 地址 | 更新方式 |
+  |---|---|---|
+  | **Cloudflare Pages（推荐）** | `https://classic-reading.pages.dev` | **push `main` 即自动部署**（1～3 分钟），无需任何手动步骤 |
+  | WorkBuddy 沙箱（备用） | `https://0e00525f…sg2.agentos-app.run` | 需手动「重新发布站点」 |
+
+- 🔴 **`SITE_URL` 与对外域名的关系（⚠️ 尚未对齐）**：`src/site.config.js` 的 `SITE_URL`
+  **目前仍是沙箱域名**，因此 `classic-reading.pages.dev` 页面里的 canonical / hreflang / sitemap
+  **全部指向沙箱地址**。若要把 pages.dev 正式作为对外域名，需把 `SITE_URL` 改为
+  `https://classic-reading.pages.dev` 并重新构建。**改动前需确认沙箱通道是否弃用**
+  （改后沙箱页的 canonical 也会指向 pages.dev）。
+
+> 📌 **历史**：本站原托管在 WorkBuddy App Publishing（旧链接形如 `https://<sandboxId>.sg2.agentos-app.run`），
+> README 第六节描述的「shareLink 每次换域名」机制只适用于那套托管。
+> 2026-10-16 已迁移到 Cloudflare Pages 并同步更新 README 该节；
+> 操作手册见 `docs/Cloudflare-Pages-部署清单.md`。
 
 ---
 
