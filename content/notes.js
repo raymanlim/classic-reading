@@ -319,6 +319,24 @@ export const notes = [
       'The key move of this book is to diagnose a large family of disputes about the mind as a category mistake: when a visitor has been shown the colleges, the libraries, and the laboratories and then asks "but where is the University?", he is not short of information — he has treated the University as one more item of the same type as the buildings. What it genuinely changes is the nature of "not being able to find an answer": in questions of this kind, looking harder only reinforces the error, because what is needed is not finer observation but a re-check of which type the question itself belongs to. The easily missed point is that Ryle is aiming not only at Cartesian substance dualism but at an entire habit of speech that treats the mind as an inner place and mental words as reports of inner events; many mental words, he argues, describe ways of doing things and dispositions to do them, not something hidden behind the behaviour. The caution worth keeping is that the diagnosis is easily abused in reverse: declaring any inconvenient question a category mistake is the worst imitation of it, since the test is not "I cannot answer" but whether one can say which two logical types have been conflated. It forms a diptych with this site\'s "The Order Before the Thing": that piece examines how a classification acquires the standing of fact once institutions harden it, and this book examines how a mis-placed classification manufactures questions that can never be answered.',
     topics: ['philosophy', 'cognitive-science'],
   },
+  {
+    id: 'note-019',
+    slug: 'sciences-of-the-artificial-satisficing-as-the-only-standard',
+    book: 'sciences-of-the-artificial',
+    date: '2026-10-17',
+    voice: 'editorial',
+    key_insight_zh:
+      '在有限理性之下，「最优」不是难以达到，而是根本无法定义；「足够好」因此不是妥协，而是唯一可执行的理性标准——余量是满足标准的产物，不是效率计算剩下的残渣。',
+    key_insight_en:
+      'Under bounded rationality the optimum is not merely hard to reach but impossible to define; "good enough" is therefore not a compromise but the only executable standard of rationality — and margin is what satisficing produces, not the residue left over after an efficiency calculation.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于把「理性」从一种计算能力改写成一种搜索程序：决策者不可能枚举所有选项、算出每个选项的全部后果，他只能在有限时间里搜索，并在达到某个可接受的水平时停下——西蒙把这种停下称为「满足」。它真正改变的是「次优」这个词的地位：如果最优本身不可计算，那么「足够好」就不是失败的标记，而是唯一能被执行的判据。容易被忽略的一点是那只沙滩上的蚂蚁——它走出复杂路线，复杂的其实是沙滩而不是蚂蚁；人的许多行为同样如此，看上去精妙的心智，来源常常是环境的形状。值得警惕的是这套论证常被读成「不必追求更好」的许可证，而西蒙要的恰恰是把停止规则显式化：既然搜索总要停下，那么停在哪里、由谁决定，就应当是一个公开的设计选择，而不是默认的习惯。它与本站《余量的消失》一文互为表里：那篇讲余量为何在账上永远是负号因而被优先削掉，这本讲的正是「最优」这个目标函数在有限理性下并不存在——余量于是不是浪费，而是判据的产物。',
+    thinking_en:
+      'The key move of this book is to rewrite rationality from a capacity for calculation into a procedure of search: a decision-maker cannot enumerate every option or compute all of their consequences, so he searches within a limited time and stops when he reaches an acceptable level — what Simon calls satisficing. What it genuinely changes is the standing of the word "suboptimal": if the optimum cannot be computed, then "good enough" is not the mark of failure but the only standard that can actually be executed. The easily missed point is the ant on the beach — its path looks intricate, but the intricacy belongs to the beach, not to the ant; much of what looks like cleverness in human behaviour likewise comes from the shape of the environment rather than from the mind. The caution worth keeping is that this argument is often read as a licence not to try harder, whereas Simon is asking for the stopping rule to be made explicit: since search must stop somewhere, where it stops and who decides should be a declared design choice rather than an unexamined habit. It forms two halves with this site\'s "The Disappearance of Slack": that piece examines why margin always enters the ledger with a minus sign and is therefore cut first, and this book explains why the objective function called "the optimum" does not exist under bounded rationality — so margin is not waste but a product of the standard itself.',
+    topics: ['systems-thinking', 'decision-making', 'philosophy'],
+  },
 ];
 
 export default notes;
