@@ -561,7 +561,7 @@ export const staleAssets = [
 逐个探测线上 ——
 
 ```bash
-BASE="https://0e00525f540948a2b66f58b8a0e4962d.sg2.agentos-app.run"
+BASE="https://classic-reading.pages.dev"
 while IFS= read -r f; do
   enc=$(printf '%s' "$f" | sed "s/ /%20/g; s/'/%27/g; s/,/%2C/g")
   code=$(curl -s -o /dev/null -w '%{http_code} %{size_download}' "$BASE/assets/covers/$enc")
@@ -634,7 +634,8 @@ npm run verify:my-reading:live   # 线上站点
 | 通道 | 地址 | 更新方式 | 建议用途 |
 |---|---|---|---|
 | ① **Cloudflare Pages** | **`https://classic-reading.pages.dev`** | **push 到 `main` 即自动部署**（1～3 分钟） | ✅ **对外分享用这个** |
-| ② WorkBuddy 沙箱 | `https://0e00525f540948a2b66f58b8a0e4962d.sg2.agentos-app.run` | 需在对话中说「重新发布站点」 | 备用 / 内部预览 |
+| ② WorkBuddy 沙箱 | `https://0e00525f540948a2b66f58b8a0e4962d.sg2.agentos-app.run | ⚠️ 迁移期影子站，不再手动发布 | 内部预览；确认新站稳定后下线 |
+
 
 中文首页 `/zh/`，英文首页 `/en/`。
 
@@ -650,9 +651,13 @@ npm run verify:my-reading:live   # 线上站点
 - 构建失败时 Cloudflare 会**保留上一版**：站点不会坏，但也不会更新
 - 回滚：Cloudflare 后台 → Workers & Pages → `classic-reading` → Deployments → 选中上一版 → **Rollback**
 
-### ② WorkBuddy 沙箱（备用）
+### ② WorkBuddy 沙箱（迁移期影子站，待下线）
 
-> 🔴 **关于发布域名的关键机制（实测结论）** —— 只适用于这条通道，**务必理解，否则会分享到死链**：
+> ⚠️ 2026-10-18 起本站主通道已切到 Cloudflare Pages。沙箱站是迁移期的**影子站**：
+> 自动化不再调用发布工具，沙箱内容**会停留在最后一次手动发布的状态**，之后不再更新。
+> 确认新站稳定运行 N 天后会 unpublish，届时此域名返回 400。**不要对外分享此域名。**
+
+历史上（2026-10-18 之前）本站通过 WorkBuddy 沙箱发布，其域名机制如下，留作记录：
 
 | 字段 | 行为 | 能否对外分享 |
 |---|---|---|
