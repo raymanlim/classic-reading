@@ -24,7 +24,9 @@
     "verify:my-reading:live": "node scripts/verify-my-reading-live.mjs",
     "verify:search:live": "node scripts/verify-search-live.mjs",
     "sync:books": "node scripts/export-to-books.mjs",
-    "sync:books:all": "node scripts/export-to-books.mjs --all"
+    "sync:books:all": "node scripts/export-to-books.mjs --all",
+    "trend:automation": "node scripts/automation-trend.mjs",
+    "trend:automation:strict": "node scripts/automation-trend.mjs --strict"
   },
   "engines": {
     "node": ">=20"
