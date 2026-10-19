@@ -11,6 +11,8 @@
     "check": "node src/check.mjs",
     "ingest": "node src/ingest-books.mjs",
     "books:existing": "node src/ingest-books.mjs --existing",
+    "sources:anzm": "node src/anzm-source.mjs",
+    "sources:anzm:brief": "node src/anzm-source.mjs --brief",
     "covers": "node src/covers-check.mjs",
     "covers:ingest": "node src/covers-ingest.mjs",
     "covers:list": "node src/gen-covers-md.mjs",
