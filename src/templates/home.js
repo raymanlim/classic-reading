@@ -1,13 +1,102 @@
 /**
  * 首页
  */
-import { t, formatDate, nameOf } from '../lib/i18n.js';
+import { t, formatDate, nameOf, bookTitleMain } from '../lib/i18n.js';
 import {
   url, absUrl, page, cover, bookGrid, sectionHead, categoryCard, topicChip
 } from '../lib/layout.js';
-import { escapeHtml as e } from '../lib/markdown.js';
+import { escapeHtml as e, excerpt } from '../lib/markdown.js';
 
-/** 知识地图：以分类为根、以主题为叶的树状结构（纯 HTML + CSS，双语节点） */
+/** 今日深度解读：当天（无则取最新）思想长文 + 文中书目合集 + 全文入口。
+ *  这是全站最核心的内容形态，放在 hero 之后作为首页头条。 */
+function deepDive(lang, data) {
+  const article = data.articles[0];
+  if (!article) return '';
+
+  const isToday = article.publish_date === data.buildDate;
+  const titleKey = isToday ? 'home.deepdive_title' : 'home.deepdive_title_latest';
+  const title = (lang === 'zh' ? article.title_zh : article.title_en) || article.title_zh || article.title_en;
+  const subtitle = lang === 'zh' ? article.subtitle_zh : article.subtitle_en;
+  const content = lang === 'zh' ? article.content_zh : article.content_en;
+  const hasOwn = Boolean(content && content.trim());
+  const cat = article.categoryEntity ? nameOf(lang, article.categoryEntity) : '';
+  const books = article.relatedBooks || [];
+  const articleUrl = url(lang, `articles/${article.slug}/`);
+
+  /* 当前语言无正文时，给另一语言版本的入口（与文章页行为一致） */
+  const altLang = lang === 'zh' ? 'en' : 'zh';
+  const altExists = Boolean((altLang === 'zh' ? article.content_zh : article.content_en)?.trim());
+
+  const booksHtml = books.length
+    ? `<div class="deepdive__books">
+          <p class="deepdive__books-label">
+            <span>${e(t(lang, 'home.deepdive_books'))}</span>
+            <span class="deepdive__books-count">${books.length} ${e(t(lang, 'home.deepdive_books_unit'))}</span>
+          </p>
+          <ul class="deepdive-book-list">
+            ${books
+              .map(
+                (book, i) => {
+                  const bookFull = lang === 'zh' ? book.title_zh : (book.title_en || book.title_zh);
+                  return `<li class="deepdive-book">
+                <a href="${url(lang, `books/${book.slug}/`)}" title="${e(bookFull)}">
+                  ${cover(lang, book, { size: 'xs' })}
+                  <span class="deepdive-book__meta">
+                    <span class="deepdive-book__num">${String(i + 1).padStart(2, '0')}</span>
+                    <span class="deepdive-book__title">${e(bookTitleMain(lang, book))}</span>
+                    <span class="deepdive-book__author">${e((lang === 'zh' ? book.author?.name_zh : book.author?.name_en) || '')}</span>
+                  </span>
+                </a>
+              </li>`;
+                }
+              )
+              .join('\n            ')}
+          </ul>
+        </div>`
+    : '';
+
+  return `
+      <section class="section section--deepdive" aria-labelledby="deepdive-title">
+        <div class="section__head">
+          <div>
+            <h2 class="section__title">${e(t(lang, titleKey))}</h2>
+            <p class="section__sub">${e(t(lang, 'home.deepdive_sub'))}</p>
+          </div>
+          <a class="section__more" href="${url(lang, 'articles/')}">${e(t(lang, 'home.deepdive_more'))}<span aria-hidden="true"> →</span></a>
+        </div>
+        <div class="deepdive${books.length ? '' : ' deepdive--solo'}">
+          <div class="deepdive__main">
+            <p class="deepdive__meta">
+              ${cat ? `<span class="deepdive__cat">${e(cat)}</span>` : ''}
+              <span>${e(formatDate(lang, article.publish_date))}</span>
+              <span class="deepdive__flag">${e(t(lang, 'home.deepdive_eyebrow_en'))}</span>
+            </p>
+            <h3 class="deepdive__title" id="deepdive-title">
+              <a href="${articleUrl}">${e(title)}</a>
+            </h3>
+            ${subtitle ? `<p class="deepdive__sub">${e(subtitle)}</p>` : ''}
+            ${
+              hasOwn
+                ? `<p class="deepdive__excerpt">${e(excerpt(content, 180))}</p>`
+                : `<p class="deepdive__excerpt deepdive__excerpt--note">${e(t(lang, lang === 'zh' ? 'articles.coming_soon_zh' : 'articles.coming_soon'))}</p>
+                   ${
+                     altExists
+                       ? `<p class="deepdive__lang"><a class="link-arrow" href="${url(altLang, `articles/${article.slug}/`)}">${e(t(lang, lang === 'zh' ? 'home.deepdive_read_zh' : 'home.deepdive_read_en'))}<span aria-hidden="true"> →</span></a></p>`
+                       : ''
+                   }`
+            }
+            <p class="deepdive__actions">
+              <a class="btn btn--primary" href="${articleUrl}">${e(t(lang, 'home.deepdive_read'))}</a>
+            </p>
+          </div>
+          ${booksHtml}
+        </div>
+      </section>`;
+}
+
+/** 知识地图：以分类为根、以主题为叶的紧凑行式结构（纯 HTML + CSS，双语节点）。
+ *  2026-10-19 紧凑化：原嵌套树（根 + 双行叶子）改为统一行式布局 + 内联主题 chip，
+ *  12 个分类一屏可见，保留「一眼全貌」的扫描感。 */
 function knowledgeMap(lang, data) {
   const rows = data.categories
     .map((cat) => {
@@ -21,24 +110,26 @@ function knowledgeMap(lang, data) {
         .filter(Boolean);
 
       return `
-        <li class="map-tree__root">
-          <a class="map-node map-node--root" href="${url(lang, `categories/${cat.slug}/`)}">
-            <span class="map-node__main">${e(lang === 'zh' ? cat.name_zh : cat.name_en)}</span>
-            <span class="map-node__alt">${e(lang === 'zh' ? cat.name_en : cat.name_zh)}</span>
-            <span class="map-node__count">${books.length}</span>
+        <li class="map-row">
+          <a class="map-row__root" href="${url(lang, `categories/${cat.slug}/`)}">
+            <span class="map-row__name">${e(lang === 'zh' ? cat.name_zh : cat.name_en)}</span>
+            <span class="map-row__alt">${e(lang === 'zh' ? cat.name_en : cat.name_zh)}</span>
+            <span class="map-row__count">${books.length}</span>
           </a>
-          ${children.length ? `<ul class="map-tree__leaves">
+          ${
+            children.length
+              ? `<div class="map-row__leaves">
             ${children
               .map(
-                (topic) => `<li>
-              <a class="map-node map-node--leaf" href="${url(lang, `topics/${topic.slug}/`)}">
-                <span class="map-node__main">${e(lang === 'zh' ? topic.name_zh : topic.name_en)}</span>
-                <span class="map-node__alt">${e(lang === 'zh' ? topic.name_en : topic.name_zh)}</span>
-              </a>
-            </li>`
+                (topic) => `<a class="map-chip" href="${url(lang, `topics/${topic.slug}/`)}">
+              <span class="map-chip__main">${e(lang === 'zh' ? topic.name_zh : topic.name_en)}</span>
+              <span class="map-chip__alt">${e(lang === 'zh' ? topic.name_en : topic.name_zh)}</span>
+            </a>`
               )
               .join('')}
-          </ul>` : ''}
+          </div>`
+              : ''
+          }
         </li>`;
     })
     .join('');
@@ -46,8 +137,14 @@ function knowledgeMap(lang, data) {
   return `
       <section class="section section--map" aria-labelledby="map-title">
         ${sectionHead(lang, 'home.map_title', 'home.map_sub')}
-        <p class="section__note">${e(t(lang, 'map.note'))}</p>
-        <ul class="map-tree">${rows}</ul>
+        <p class="section__note">${e(
+          t(lang, 'map.overview', {
+            categories: data.categories.length,
+            topics: data.topics.length,
+            books: data.books.length
+          })
+        )}</p>
+        <ul class="map-rows">${rows}</ul>
       </section>`;
 }
 
@@ -168,6 +265,8 @@ export function renderHome(lang, data) {
           </p>
         </div>
       </section>
+
+      ${deepDive(lang, data)}
 
       <section class="section section--featured">
         ${sectionHead(lang, 'home.featured_title', 'home.featured_sub', url(lang, 'library/'), 'home.view_all_books')}

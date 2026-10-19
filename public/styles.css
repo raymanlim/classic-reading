@@ -322,6 +322,10 @@ dl, dd, dt { margin: 0; }
 .cover--sm .cover__title { font-size: 0.72rem; -webkit-line-clamp: 3; }
 .cover--sm .cover__cat, .cover--sm .cover__year { font-size: 0.5rem; }
 .cover--sm .cover__author { font-size: 0.6rem; }
+.cover--xs { width: 52px; padding: 0.4rem; border-left-width: 3px; }
+.cover--xs .cover__title { font-size: 0.52rem; -webkit-line-clamp: 4; }
+.cover--xs .cover__cat, .cover--xs .cover__year { font-size: 0.4rem; }
+.cover--xs .cover__author { display: none; }
 .cover--lg { max-width: 260px; padding: 1.35rem 1.25rem; }
 .cover--xl { max-width: 330px; padding: 1.6rem 1.5rem; }
 .cover--xl .cover__title { font-size: 1.5rem; }
@@ -414,6 +418,69 @@ dl, dd, dt { margin: 0; }
 .botd__idea--why blockquote {
   font-size: clamp(0.95rem, 1.8vw, 1.06rem);
   line-height: 1.78; color: var(--ink-2); border-left-color: var(--line-2);
+}
+
+/* ---------- 9a. 今日深度解读（首页头条） ---------- */
+.deepdive {
+  display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  gap: clamp(1.75rem, 3.5vw, 3rem);
+  background: var(--card); border: 1px solid var(--line); border-top: 3px solid var(--gold);
+  padding: clamp(1.4rem, 3.5vw, 2.4rem);
+}
+/* 文章无关联书目时退化为单列 */
+.deepdive--solo { grid-template-columns: minmax(0, 1fr); }
+.deepdive__meta {
+  display: flex; flex-wrap: wrap; gap: 0.4rem 0.9rem; align-items: baseline;
+  font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--ink-4);
+}
+.deepdive__cat { color: var(--gold); }
+.deepdive__flag { color: var(--line-2); }
+.deepdive__title { font-size: clamp(1.3rem, 2.8vw, 1.85rem); margin-top: 0.7rem; line-height: 1.32; }
+.deepdive__title a:hover { color: var(--prussian-3); }
+.deepdive__sub {
+  font-family: var(--font-serif); font-size: 0.97rem; font-style: italic;
+  color: var(--ink-3); margin-top: 0.55rem; line-height: 1.7;
+}
+.deepdive__excerpt {
+  font-size: 0.91rem; color: var(--ink-2); line-height: 1.8; margin-top: 1rem;
+  max-width: 52ch;
+}
+.deepdive__excerpt--note { font-style: italic; color: var(--ink-3); }
+.deepdive__lang { margin-top: 0.6rem; }
+.deepdive__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; margin-top: 1.4rem; }
+
+/* 右栏：文中书目合集 */
+.deepdive__books { min-width: 0; }
+.deepdive__books-label {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.5rem 0.75rem;
+  font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--ink-3);
+  padding-bottom: 0.7rem; border-bottom: 1px solid var(--line); margin-bottom: 0.9rem;
+}
+.deepdive__books-count { color: var(--gold); }
+.deepdive-book-list {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.6rem;
+}
+.deepdive-book { min-width: 0; }
+.deepdive-book a {
+  display: flex; gap: 0.65rem; height: 100%; padding: 0.5rem;
+  border: 1px solid var(--line); background: var(--paper);
+  transition: border-color 0.18s ease, box-shadow 0.18s ease;
+}
+.deepdive-book a:hover { border-color: var(--prussian-3); box-shadow: var(--shadow-sm); }
+.deepdive-book .cover { flex: 0 0 52px; }
+.deepdive-book__meta { display: grid; gap: 0.12rem; align-content: start; min-width: 0; }
+.deepdive-book__num {
+  font-family: var(--font-mono); font-size: 0.58rem; color: var(--gold); letter-spacing: 0.1em;
+}
+.deepdive-book__title {
+  font-family: var(--font-serif); font-size: 0.84rem; line-height: 1.35; color: var(--ink);
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.deepdive-book__author {
+  font-size: 0.68rem; color: var(--ink-3);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 
 /* ---------- 9b. 近 7 日推荐（每日自动推荐入库的条目） ---------- */
@@ -817,23 +884,47 @@ dl, dd, dt { margin: 0; }
 .result__desc { font-size: 0.9rem; color: var(--ink-2); line-height: 1.7; max-width: 70ch; }
 .result mark { background: var(--gold-soft); color: var(--ink); padding: 0 0.1em; }
 
-/* ---------- 19. Knowledge map ---------- */
-.map-tree { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.75rem 2.5rem; }
-.map-tree__root { display: grid; gap: 0.75rem; align-content: start; }
-.map-node {
-  display: grid; gap: 0.1rem; padding: 0.6rem 0.75rem;
-  border-left: 2px solid var(--line-2); transition: border-color 0.18s ease, background 0.18s ease;
+/* ---------- 19. Knowledge map（紧凑行式：一屏看全部分类） ---------- */
+.map-rows {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 clamp(1.5rem, 4vw, 3rem);
 }
-.map-node:hover { border-color: var(--gold); background: var(--paper-2); }
-.map-node--root { border-left-color: var(--prussian); }
-.map-node__main { font-family: var(--font-serif); font-size: 0.98rem; font-weight: 600; }
-.map-node--root .map-node__main { font-size: 1.08rem; color: var(--prussian); }
-.map-node__alt {
-  font-size: 0.66rem; color: var(--ink-4); font-family: var(--font-mono);
+.map-row {
+  display: grid; gap: 0.5rem; align-content: start;
+  padding: 0.7rem 0 0.75rem; border-top: 1px solid var(--line);
+}
+.map-row__root {
+  display: flex; align-items: baseline; gap: 0.55rem; min-width: 0;
+  padding-left: 0.7rem; border-left: 2px solid var(--prussian);
+  transition: border-color 0.18s ease;
+}
+.map-row__root:hover { border-color: var(--gold); }
+.map-row__root:hover .map-row__name { color: var(--prussian-3); }
+.map-row__name {
+  font-family: var(--font-serif); font-size: 1rem; font-weight: 600; color: var(--prussian);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.map-row__alt {
+  font-size: 0.62rem; color: var(--ink-4); font-family: var(--font-mono);
   letter-spacing: 0.06em; text-transform: uppercase;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
-.map-node__count { font-family: var(--font-mono); font-size: 0.66rem; color: var(--gold); }
-.map-tree__leaves { display: grid; gap: 0.15rem; margin-left: 0.9rem; border-left: 1px dashed var(--line); padding-left: 0.5rem; }
+.map-row__count {
+  margin-left: auto; font-family: var(--font-mono); font-size: 0.66rem; color: var(--gold);
+  flex: 0 0 auto;
+}
+.map-row__leaves { display: flex; flex-wrap: wrap; gap: 0.3rem; padding-left: 0.7rem; }
+.map-chip {
+  display: inline-flex; align-items: baseline; gap: 0.3rem;
+  border: 1px solid var(--line); background: var(--card);
+  padding: 0.1rem 0.5rem; font-size: 0.76rem; color: var(--ink-2);
+  transition: border-color 0.18s ease, color 0.18s ease;
+}
+.map-chip:hover { border-color: var(--gold); color: var(--prussian); }
+.map-chip__alt {
+  font-size: 0.58rem; color: var(--ink-4); font-family: var(--font-mono);
+  letter-spacing: 0.04em; text-transform: uppercase;
+}
 
 /* ---------- 20. About / misc blocks ---------- */
 .flow { display: flex; flex-direction: column; align-items: flex-start; gap: 0.35rem; margin: 1.75rem 0; }
@@ -923,7 +1014,6 @@ dl, dd, dt { margin: 0; }
 @media (max-width: 1100px) {
   .grid--books, .grid--authors { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .grid--articles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .map-tree { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .site-footer__inner { grid-template-columns: 1fr 1fr; gap: 2rem; }
 }
 
@@ -939,6 +1029,7 @@ dl, dd, dt { margin: 0; }
 @media (max-width: 900px) {
   .grid--books, .grid--categories, .grid--topics, .grid--authors { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .grid--paths { grid-template-columns: minmax(0, 1fr); }
+  .deepdive { grid-template-columns: minmax(0, 1fr); }
   .book-hero { grid-template-columns: minmax(0, 1fr); }
   .book-hero__visual { max-width: 260px; }
   .cover--xl { max-width: 100%; }
@@ -955,7 +1046,9 @@ dl, dd, dt { margin: 0; }
   .header-tools { gap: 0.5rem; }
   .recent-strip__meta { width: 124px; }
   .grid--books, .grid--categories, .grid--topics, .grid--authors, .grid--articles { grid-template-columns: minmax(0, 1fr); }
-  .map-tree { grid-template-columns: minmax(0, 1fr); }
+  .map-rows { grid-template-columns: minmax(0, 1fr); }
+  .deepdive-book .cover { flex: 0 0 44px; }
+  .deepdive-book__title { font-size: 0.8rem; }
   .filters__row, .filters__row--end { grid-template-columns: minmax(0, 1fr); }
   .filters__count { justify-self: start; }
   .hero__search { flex-direction: column; }

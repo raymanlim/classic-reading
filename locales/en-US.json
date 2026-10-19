@@ -51,6 +51,16 @@
     "topics_sub": "Coordinates of thought that cut across categories.",
     "articles_title": "Latest Articles",
     "articles_sub": "Longer writing around books and ideas.",
+    "deepdive_title": "Today's Deep Dive",
+    "deepdive_title_latest": "Latest Deep Dive",
+    "deepdive_sub": "One essay a day: several books, a single question.",
+    "deepdive_eyebrow_en": "DEEP DIVE",
+    "deepdive_books": "Books in This Essay",
+    "deepdive_books_unit": "books",
+    "deepdive_read": "Read the Essay",
+    "deepdive_read_zh": "Read in Chinese",
+    "deepdive_read_en": "Read in English",
+    "deepdive_more": "All Essays",
     "map_title": "Knowledge Map",
     "map_sub": "How books connect into a map of understanding.",
     "map_note": "Every node exists in both English and Chinese. A single book can connect to several topics.",
@@ -272,7 +282,8 @@
     "sub": "How books, ideas, and topics connect into a map.",
     "root_label": "Classics Library",
     "hint": "Click any node to open the topic.",
-    "note": "Every node exists in both English and Chinese. A single book can connect to several topics."
+    "note": "Every node exists in both English and Chinese. A single book can connect to several topics.",
+    "overview": "{categories} categories · {topics} topics · {books} books — every node is bilingual; click to explore."
   },
   "footer": {
     "tagline": "Read the classics. Think deeper.",

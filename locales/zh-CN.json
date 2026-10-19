@@ -51,6 +51,16 @@
     "topics_sub": "跨越分类的思想坐标。",
     "articles_title": "最新文章",
     "articles_sub": "围绕书与思想的长文。",
+    "deepdive_title": "今日深度解读",
+    "deepdive_title_latest": "最新深度解读",
+    "deepdive_sub": "每天一篇长文，把几本书读成一个问题。",
+    "deepdive_eyebrow_en": "DEEP DIVE",
+    "deepdive_books": "本文书目",
+    "deepdive_books_unit": "本",
+    "deepdive_read": "阅读全文",
+    "deepdive_read_zh": "阅读中文版",
+    "deepdive_read_en": "Read in English",
+    "deepdive_more": "所有文章",
     "map_title": "知识地图",
     "map_sub": "书籍如何连成一张认知地图。",
     "map_note": "每个节点同时是英文与中文。一本书可以连接多个主题。",
@@ -272,7 +282,8 @@
     "sub": "书籍、思想与主题如何连成一张地图。",
     "root_label": "经典书库",
     "hint": "点击任一节点进入对应主题。",
-    "note": "每个节点同时存在英文名称与中文名称。一本书可以连接多个主题。"
+    "note": "每个节点同时存在英文名称与中文名称。一本书可以连接多个主题。",
+    "overview": "{categories} 个分类 · {topics} 个主题 · {books} 本书 —— 每个节点中英双名，点击进入。"
   },
   "footer": {
     "tagline": "Read the classics. Think deeper.",
