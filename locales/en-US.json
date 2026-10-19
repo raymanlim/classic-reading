@@ -227,7 +227,11 @@
     "my_thinking": "My Thinking",
     "editorial_note": "Editor's Note",
     "related_topics": "Related topics",
-    "read_book": "View book"
+    "read_book": "View book",
+    "questions": "Reflection Questions",
+    "questions_en": "思考问题",
+    "questions_hint": "Click a question to reveal the reference answer.",
+    "answer_label": "Reference answer"
   },
   "search": {
     "title": "Search",
@@ -379,4 +383,4 @@
     "also_in": "Also in",
     "note": "Imported from a third-party reading list or added as a daily pick — bibliographic facts, the source framing, and a full reading guide."
   }
-}
+}

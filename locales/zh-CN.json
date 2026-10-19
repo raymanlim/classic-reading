@@ -227,7 +227,11 @@
     "my_thinking": "我的思考",
     "editorial_note": "编者笔记",
     "related_topics": "相关主题",
-    "read_book": "查看书籍"
+    "read_book": "查看书籍",
+    "questions": "思考问题",
+    "questions_en": "REFLECTION QUESTIONS",
+    "questions_hint": "点击每个问题，展开参考答案。",
+    "answer_label": "参考答案"
   },
   "search": {
     "title": "搜索",
@@ -379,4 +383,4 @@
     "also_in": "另见",
     "note": "本条来自第三方频道推荐书目或每日推荐，收录书目事实信息、来源主题与完整阅读指引。"
   }
-}
+}

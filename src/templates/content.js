@@ -201,7 +201,39 @@ export function renderNotes(lang, data) {
               <div><dt>${e(t(lang, 'notes.key_insight'))}</dt><dd>${e(insight || '')}</dd></div>
               ${quote ? `<div><dt>${e(t(lang, 'notes.quote'))}</dt><dd><blockquote>${e(quote)}</blockquote></dd></div>` : ''}
               <div><dt>${e(thinkingLabel)}</dt><dd>${e(thinking || '')}</dd></div>
-            </dl>
+            ${
+              /* 文末思考题：点击问题展开参考答案（details/summary，零 JS） */
+              (() => {
+                const qs = zh ? note.questions_zh : note.questions_en;
+                const as = zh ? note.answers_zh : note.answers_en;
+                if (!Array.isArray(qs) || !qs.length) return '';
+                return `
+        <div class="note-questions">
+          <p class="note-questions__label">${e(t(lang, 'notes.questions'))}<span class="note-questions__label-alt">${e(t(lang, 'notes.questions_en'))}</span></p>
+          <p class="note-questions__hint">${e(t(lang, 'notes.questions_hint'))}</p>
+          <ol class="note-questions__list">
+            ${qs
+              .map((qtext, i) => {
+                const atext = Array.isArray(as) ? as[i] : '';
+                return `<li class="note-q">
+                <details class="note-q__acc">
+                  <summary class="note-q__q">
+                    <span class="note-q__num">Q${i + 1}</span>
+                    <span class="note-q__text">${e(qtext)}</span>
+                    <span class="note-q__mark" aria-hidden="true"></span>
+                  </summary>
+                  ${atext ? `<div class="note-q__a">
+                    <p class="note-q__a-label">${e(t(lang, 'notes.answer_label'))}</p>
+                    <p>${e(atext)}</p>
+                  </div>` : ''}
+                </details>
+              </li>`;
+              })
+              .join('')}
+          </ol>
+        </div>`;
+              })()
+            }
             <footer class="note__foot">
               ${(note.topics || [])
                 .map((slug) => data.topicBySlug[slug])
