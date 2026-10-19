@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-19",
+  "books": [
+    {
+      "slug": "phenomenology-of-perception",
+      "category": "philosophy",
+      "title_zh": "知觉现象学",
+      "title_en": "Phenomenology of Perception",
+      "author": "maurice-merleau-ponty",
+      "author_zh": "莫里斯·梅洛-庞蒂",
+      "author_en": "Maurice Merleau-Ponty",
+      "nationality_zh": "法国",
+      "nationality_en": "France",
+      "year": 1945,
+      "original_language": "fr",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "身体不是认识的对象，而是认识得以发生的条件",
+      "theme_en": "The body is not an object of knowledge but the condition under which knowledge arises",
+      "tags": ["philosophy", "cognitive-science", "psychology", "consciousness", "existentialism"],
+      "topics": ["philosophy", "cognitive-science", "existentialism"],
+      "prose": {
+        "description_zh": "《知觉现象学》是梅洛-庞蒂 1945 年出版的代表作，也是法国现象学最重要的文本之一。全书从最日常的经验出发追问：我们究竟如何与世界相遇？梅洛-庞蒂拒绝两种通行答案——把知觉看作感官材料被动拼接而成的表象，或把它看作知性主动建构的判断。他指出，在一切反思之前，身体已经以某种方式「理解」了世界：幻肢病人的残肢、熟练打字者的手指，都说明身体不是诸物体中的一个物体，而是我们得以拥有世界的中介。全书分「身体」「被知觉的世界」「为我与在世界之中」三部分，通过对幻肢、施奈德病例、性欲与言语、空间与时间、他人与自由的细致分析，重建了一种以身体主体为核心的知觉理论。",
+        "description_en": "Published in 1945, Phenomenology of Perception is Merleau-Ponty's central work and one of the founding texts of French phenomenology. It begins from the most ordinary experience and asks how we actually encounter the world. Merleau-Ponty rejects both available answers: that perception is a representation passively assembled from sensory atoms, and that it is a judgement actively constructed by the understanding. Before any reflection, he argues, the body has already grasped the world in its own way. The phantom limb, the typist's fingers that find the keys without calculation, the patient Schneider who can perform a movement only when it is concrete — these cases show that the body is not one object among objects but the medium through which we possess a world. The book moves through three parts — the body, the perceived world, being-for-itself and being-in-the-world — with detailed analyses of sexuality and speech, space and time, other people and freedom.",
+        "why_read_zh": "因为它提供了一个今天几乎所有认知科学争论都绕不开的起点：知觉不是内部表征的运算，而是身体与世界的持续交涉。关于具身认知、生成认知、预测加工的讨论，多半要回到这本书。它同时是极好的哲学训练——梅洛-庞蒂不靠定义与推论推进，而是让读者在具体病例与日常经验中看见抽象前提的裂缝。读完之后，「我看见」这句话会变得陌生而沉重。",
+        "why_read_en": "Because it supplies a starting point that contemporary cognitive science still cannot avoid: perception is not the computation of internal representations but a continuous negotiation between body and world. Discussions of embodied cognition, enactivism and predictive processing keep returning here. It is also excellent philosophical training. Merleau-Ponty does not advance by definition and deduction; he makes the reader see the cracks in abstract premises through concrete clinical cases and ordinary experience. After reading it, the sentence 'I see' becomes strange and heavy.",
+        "core_ideas_zh": [
+          "身体主体：身体不是我拥有的一件对象，而是我借以拥有世界的方式；「我能」先于「我思」。",
+          "知觉的原初性：在被反思加工之前，世界已经以有意义的整体呈现，所谓「感觉材料」是被分析出来的抽象物。",
+          "反对客观思维：把世界当作由确定属性构成的客体集合，会同时错失知觉者与被知觉者，幻肢与失语病例正是其反证。",
+          "身体图式与意向弧：身体在处境中即时组织动作与意义，不必经过明确的表征与计算。",
+          "自由在处境之中：选择不是凭空的无条件决定，而是在已被给定的处境里对处境的重新把握。"
+        ],
+        "core_ideas_en": [
+          "The body-subject: the body is not an object I possess but the manner in which I possess a world; 'I can' precedes 'I think'.",
+          "The primacy of perception: before reflection, the world is already given as a meaningful whole; so-called sense-data are abstractions produced by analysis.",
+          "A critique of objective thought: treating the world as a set of objects with determinate properties loses both perceiver and perceived, as the phantom limb and the case of Schneider demonstrate.",
+          "The body schema and the intentional arc: the body organises movement and meaning on the spot, without explicit representation or computation.",
+          "Freedom situated: choice is not an unconditional decision ex nihilo but the reappropriation of a situation that is already given."
+        ],
+        "key_questions_zh": [
+          "知觉究竟是感官材料的被动接受，还是主体的主动判断？如果两者都不是，它是什么？",
+          "身体在认识中扮演什么角色——它是被认识的对象，还是认识得以发生的条件？",
+          "如果意义总是经由身体与处境生成，客观真理与科学知识的位置又在哪里？",
+          "当人始终被身体、语言与历史所规定，自由如何可能？"
+        ],
+        "key_questions_en": [
+          "Is perception a passive reception of sensory data or an active judgement of the subject? If neither, what is it?",
+          "What role does the body play in knowledge — an object to be known, or the condition under which knowing happens?",
+          "If meaning is always generated through body and situation, where do objective truth and scientific knowledge stand?",
+          "How is freedom possible when one is always determined by body, language and history?"
+        ],
+        "who_should_read_zh": "对意识、知觉与身体问题感兴趣的读者；做认知科学、心理学或人工智能、想弄清「具身」一词来源的研究者与工程师；以及愿意慢读一部论证绵密、例证丰富的哲学经典的读者。读过笛卡尔、胡塞尔或海德格尔会更容易进入，但并非必需。",
+        "who_should_read_en": "Readers concerned with consciousness, perception and the body; researchers and engineers in cognitive science, psychology or AI who want to know where the word 'embodied' actually comes from; and anyone willing to read a dense, example-rich philosophical classic slowly. Prior reading of Descartes, Husserl or Heidegger helps but is not required.",
+        "reading_note_zh": "先读「前言」与「导论」，那里交代了现象学方法与全书纲领；再读第一部分论身体（幻肢、身体图式、性欲与言语），这是最具体也最易进入的部分；最后再攻第三部分的时间性与自由。可与《具身心智》对读，也可回看笛卡尔《第一哲学沉思集》，以理解它究竟在反驳什么。",
+        "reading_note_en": "Begin with the preface and introduction, where the phenomenological method and the programme of the book are set out. Then take Part One on the body — phantom limb, body schema, sexuality and speech — which is the most concrete and accessible stretch. Save Part Three, on temporality and freedom, for last. Read it alongside The Embodied Mind, and revisit Descartes' Meditations to see precisely what it is arguing against."
+      }
+    },
+    {
+      "slug": "the-embodied-mind",
+      "category": "psychology",
+      "title_zh": "具身心智：认知科学和人类经验",
+      "title_en": "The Embodied Mind: Cognitive Science and Human Experience",
+      "author": "francisco-varela",
+      "author_zh": "弗朗西斯科·瓦雷拉、埃文·汤普森、埃莉诺·罗施",
+      "author_en": "Francisco J. Varela, Evan Thompson & Eleanor Rosch",
+      "nationality_zh": "智利、加拿大、美国",
+      "nationality_en": "Chile, Canada, United States",
+      "year": 1991,
+      "original_language": "en",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "认知不是对世界的表征，而是生命体与环境共同生成的具身行动",
+      "theme_en": "Cognition is not representation but embodied action, enacted through an organism's history of structural coupling",
+      "tags": ["cognitive-science", "neuroscience", "philosophy", "consciousness", "science"],
+      "topics": ["cognitive-science", "philosophy", "science-and-nature"],
+      "prose": {
+        "description_zh": "《具身心智》由生物学家瓦雷拉、哲学家汤普森与心理学家罗施合著，1991 年由麻省理工学院出版社出版，是「生成认知」研究纲领的奠基之作。三位作者指出，认知主义把心智比作处理符号的计算机，联结主义把心智比作涌现的网络，两者看似对立，却共享同一个前提：心智的核心任务是对世界作出内部表征。本书要拆掉这个前提。作者主张，认知是「具身行动」——生命体在与其环境的结构耦合历史中，共同生成一个有意义的周遭世界。全书以颜色知觉为关键案例，说明颜色既非客体的固有属性，也不是大脑的任意构造；并以「自然漂移」替代适应主义的优化叙事。末章引入龙树的中观与正念传统，讨论「无根基性」与伦理。",
+        "description_en": "Written by the biologist Francisco Varela, the philosopher Evan Thompson and the psychologist Eleanor Rosch, and published by MIT Press in 1991, The Embodied Mind is the founding statement of the enactive approach to cognition. The authors observe that cognitivism, which likens the mind to a symbol-processing computer, and connectionism, which likens it to an emergent network, appear opposed but share one premise: that the mind's central task is to build internal representations of a pregiven world. The book dismantles that premise. Cognition, they argue, is embodied action — living beings bring forth a meaningful world through a history of structural coupling with their environment. Colour perception serves as the key case: colour is neither an intrinsic property of objects nor an arbitrary construction of the brain. Adaptationist optimisation is replaced by 'natural drift'. The final chapter draws on Nagarjuna's Madhyamaka and on mindfulness to discuss groundlessness and ethics.",
+        "why_read_zh": "如果你想弄清「具身」这个被用滥的词究竟指什么，这本书是源头之一。它同时给出三样东西：对认知主义与联结主义的清晰批判、一个可操作的替代方案，以及一种把科学描述与第一人称经验放在同一张桌子上的方法论。它对人工智能的启示也很直接：智能不是先建好世界模型再行动，而是在行动中不断生成世界。",
+        "why_read_en": "If you want to know what the overused word 'embodied' actually means, this book is one of its sources. It delivers three things at once: a clear critique of cognitivism and connectionism, a workable alternative, and a methodology that puts third-person science and first-person experience at the same table. Its implications for artificial intelligence are direct: intelligence does not first build a model of the world and then act; it generates a world in the acting.",
+        "core_ideas_zh": [
+          "生成认知：认知不是对预先给定世界的表征，而是具身行动——有机体通过历史性的结构耦合，共同生成自己的世界。",
+          "颜色的案例：颜色既不在客体里，也不只在头脑里，它在知觉者与环境的互动关系中被生成。",
+          "对表征主义的双重批判：符号计算与联结主义都默认心智的任务是内部表征，因而都未真正解决心与身、心与世界的关系。",
+          "自然漂移：演化不是朝向最优的攀登，而是历史性的「够用即止」与漂移，认知亦然。",
+          "科学与经验的中道：现象学描述与正念训练可作为第一人称方法，与第三人称科学互补；佛教「无我」提供了消解二元对立的资源。"
+        ],
+        "core_ideas_en": [
+          "Enaction: cognition is not the representation of a pregiven world but embodied action — organisms bring forth their own world through a history of structural coupling.",
+          "The colour case: colour is neither in the object nor merely in the head; it is enacted in the interaction between perceiver and environment.",
+          "A double critique of representationalism: symbolic computation and connectionism both assume that the mind's job is internal representation, and so neither resolves the relation of mind to body and world.",
+          "Natural drift: evolution is not a climb toward optimality but a historical process of satisficing and drift — and so is cognition.",
+          "A middle way between science and experience: phenomenological description and mindfulness practice can serve as first-person methods complementing third-person science, while the Buddhist doctrine of no-self supplies resources for dissolving dualisms."
+        ],
+        "key_questions_zh": [
+          "如果心智不表征世界，它如何能够有效地行动？",
+          "第一人称经验能否成为严格的探究对象，而不是被科学排除在外的残余？",
+          "演化与认知是否必须以「最优」为尺度来衡量？",
+          "当「自我」被理解为过程而非实体，伦理与责任还剩下什么？"
+        ],
+        "key_questions_en": [
+          "If the mind does not represent the world, how can it act effectively?",
+          "Can first-person experience be a rigorous object of inquiry rather than a residue excluded from science?",
+          "Must evolution and cognition be measured on a scale of optimality?",
+          "If the self is a process rather than a substance, what remains of ethics and responsibility?"
+        ],
+        "who_should_read_zh": "认知科学、神经科学与人工智能领域的研究者与工程师；对意识、自我与冥想实践之间的关系感兴趣的读者；以及读过一点现象学、想看看它如何进入实证科学的哲学读者。书中涉及佛教术语，但作者都作了通俗解释，不需要佛学背景。",
+        "who_should_read_en": "Researchers and engineers in cognitive science, neuroscience and AI; readers interested in the relation between consciousness, selfhood and contemplative practice; and philosophically inclined readers who have met phenomenology and want to see it enter empirical science. Buddhist terms appear throughout, but the authors explain them plainly and no prior background is assumed.",
+        "reading_note_zh": "先读「导论」，它把全书的问题意识与五个部分的结构交代得很清楚。第 3、5 章是对认知主义与联结主义的批判，可快速通过；第 8 章论生成与第 9 章论自然漂移是全书枢纽，值得慢读；第 10、11 章涉及中观与伦理，若觉吃力可先跳过，回头再读。与《知觉现象学》对读，能看清「具身」从现象学到认知科学的这条线索。",
+        "reading_note_en": "Start with the introduction, which lays out the problem and the structure of the five parts. Chapters 3 and 5, on cognitivism and connectionism, can be read quickly as the critique. Chapter 8 on enaction and chapter 9 on natural drift are the hinge of the book and deserve slow reading. Chapters 10 and 11, on Madhyamaka and ethics, may be skipped on a first pass and returned to later. Read alongside Phenomenology of Perception to see the line running from phenomenology into cognitive science."
+      }
+    }
+  ]
+}
