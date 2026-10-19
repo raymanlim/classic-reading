@@ -337,6 +337,24 @@ export const notes = [
       'The key move of this book is to rewrite rationality from a capacity for calculation into a procedure of search: a decision-maker cannot enumerate every option or compute all of their consequences, so he searches within a limited time and stops when he reaches an acceptable level — what Simon calls satisficing. What it genuinely changes is the standing of the word "suboptimal": if the optimum cannot be computed, then "good enough" is not the mark of failure but the only standard that can actually be executed. The easily missed point is the ant on the beach — its path looks intricate, but the intricacy belongs to the beach, not to the ant; much of what looks like cleverness in human behaviour likewise comes from the shape of the environment rather than from the mind. The caution worth keeping is that this argument is often read as a licence not to try harder, whereas Simon is asking for the stopping rule to be made explicit: since search must stop somewhere, where it stops and who decides should be a declared design choice rather than an unexamined habit. It forms two halves with this site\'s "The Disappearance of Slack": that piece examines why margin always enters the ledger with a minus sign and is therefore cut first, and this book explains why the objective function called "the optimum" does not exist under bounded rationality — so margin is not waste but a product of the standard itself.',
     topics: ['systems-thinking', 'decision-making', 'philosophy'],
   },
+  {
+    id: 'note-020',
+    slug: 'the-book-of-why-counterfactuals-are-missing-data',
+    book: 'the-book-of-why',
+    date: '2026-10-19',
+    voice: 'editorial',
+    key_insight_zh:
+      '数据只能告诉人「什么和什么一起出现过」，不能告诉人「改变什么会导致什么」；因果之梯的第二、三层——干预与反事实——永远无法从观察里自动读出，只能靠一个显式的模型爬上去。',
+    key_insight_en:
+      'Data can tell you only what occurred together, never what would change if something were changed; the second and third rungs of the ladder — intervention and counterfactual — can never be read off observation, only climbed with an explicit model.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于把因果问题拆成三层阶梯：底层是观察，即看见两件事同时出现；中层是干预，即主动改变一件事之后另一件会怎样；顶层是反事实，即如果当初没有那样做，结果会是什么。它真正改变的是「让数据说话」这句话的地位——珀尔反复指出，统计学习再强也只停在山脚，因为相关性本身不携带「改变之后会怎样」的信息，无论样本多大都不会自动长出这一层。容易被忽略的一点是，登上中层和顶层并不需要更多数据，而需要一个别的东西：一个关于世界如何运作的假设模型；同一批观察配上不同的因果图，会给出不同的干预结论，辛普森悖论让人不安的地方正在这里。值得警惕的是，这套框架常被读成「只要画了箭头就有了因果」，而珀尔自己的条件恰恰相反——模型必须可以被检验、被反驳，否则它只是把偏见翻译成了图。它与本站《沉默的证据》一文互为表里：那篇讲样本被结果悄悄筛掉了一部分，这本讲的是即便样本完整，观察本身也只停在第一层。',
+    thinking_en:
+      'The key move of this book is to split causal questions into a ladder of three rungs: at the bottom, association — seeing two things occur together; in the middle, intervention — what happens to one thing when another is deliberately changed; at the top, counterfactual — what would have happened had something not been done. What it genuinely changes is the standing of the phrase "let the data speak": Pearl argues repeatedly that statistical learning, however powerful, stays at the bottom rung, because correlation carries no information about what would happen under a change, and no sample size will grow that layer on its own. The easily missed point is that climbing to the middle and top rungs requires not more data but something else entirely — an explicit model of how the world works; the same observations paired with different causal graphs yield different conclusions about intervention, which is exactly what makes Simpson\'s paradox unsettling. The caution worth keeping is that the framework is often read as "draw the arrows and you have causation," whereas Pearl\'s own condition is the reverse: the model must be testable and refutable, or it is merely prejudice translated into a diagram. It forms two halves with this site\'s "The Evidence That Isn\'t There": that piece examines how the sample is quietly filtered by the outcome, and this book explains that even a complete sample leaves observation itself at the foot of the ladder.',
+    topics: ['decision-making', 'science-and-nature', 'cognitive-science'],
+  },
 ];
 
 export default notes;
