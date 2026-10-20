@@ -755,6 +755,44 @@ export const notes = [
     ],
     topics: ['decision-making', 'science-and-nature', 'cognitive-science'],
   },
+  {
+    id: 'note-021',
+    slug: 'on-liberty-truth-needs-collision-not-protection',
+    book: 'on-liberty',
+    date: '2026-10-20',
+    voice: 'editorial',
+    key_insight_zh:
+      '密尔为言论自由辩护的落点不是「真理终将获胜」的乐观，而是一个更冷的判断：一个不被反驳的意见，即使它是真的，也会退化为教条——所以知识需要的不是保护，而是持续的碰撞。',
+    key_insight_en:
+      "Mill's case for free expression does not rest on the optimism that truth wins; it rests on a colder claim: an opinion that is never contradicted degenerates into dogma even when it is true — so knowledge needs collision, not protection.",
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于把「言论自由」从一种权利主张改写成一种认识论条件：不是「我有权说」，而是「你不听，你的知识就会腐坏」。它真正改变的是反驳的位置——反驳不再被看作需要被容忍的麻烦，而被看作真理得以保持为真理的机制。密尔给出的四重论证层层收紧：被压制的意见可能是真的；即使它是错的，它也常握有通行意见所缺的那一部分；即使通行意见完全为真，未经争辩而被持有的真理只剩公式，人不再知道它为何成立；而教条化的真理一旦遭遇真正的质疑，往往整块崩塌，因为它从未被训练过防御。容易被忽略的一点是，这套论证对「谁在压制」并不敏感：它同样适用于多数对少数、国家对个人，也适用于一个共同体内部那种礼貌的、无人明说的共识沉默。值得警惕的是，它常被读成「所有意见等价」，而密尔的前提恰恰相反——碰撞的价值不在于让错误与正确平起平坐，而在于迫使正确的那一方把理由重新说一遍。它与本站《知识的价格》互为表里：那篇讨论知识作为商品的供给，结论是生产需要某种围墙；这本讨论知识作为可检验的命题，结论是检验需要一片没有围墙的广场。两者并不矛盾——被围起来的是生产，被打开的是检验，把两者搞混，才是知识制度最常见的失败。',
+    thinking_en:
+      "The key move of this book is to rewrite free expression from a claim of right into an epistemic condition: not \"I am entitled to speak\" but \"if you refuse to listen, your knowledge will rot.\" What it genuinely changes is the standing of contradiction — no longer a nuisance to be tolerated, but the mechanism by which a truth stays true. Mill's argument tightens in four stages: the suppressed opinion may be true; even if false, it often holds the portion of truth the prevailing view lacks; even if the prevailing view is wholly true, a truth held without dispute is reduced to a formula, and its holder no longer knows why it holds; and a truth turned dogma tends to collapse wholesale on first real challenge, having never been trained to defend itself. The easily missed point is that this argument is indifferent to who does the suppressing: it applies to majority against minority, state against individual, and equally to the polite, unnamed consensus silence inside a community. The caution worth keeping is that it is often read as \"all opinions are equivalent,\" when Mill's premise is the reverse — the value of collision is not that error and truth sit as equals, but that the correct side is forced to state its reasons again. It forms two halves with this site's \"The Price of Knowledge\": that essay treats knowledge as a commodity and concludes that production needs some kind of wall; this book treats knowledge as a testable proposition and concludes that testing needs a square with no walls at all. They do not conflict — what is walled is production, what is opened is testing, and confusing the two is the most common failure of knowledge institutions.",
+    questions_zh: [
+      '为什么「真理不怕辩论」是一个比密尔实际论证更弱的说法？',
+      '一个从未被反驳过的正确意见，损失了什么？',
+      '这套论证为什么对「谁在压制」不敏感，这会带来什么后果？',
+    ],
+    questions_en: [
+      'Why is "truth fears no debate" a weaker claim than the one Mill actually makes?',
+      'What is lost when a correct opinion has never been contradicted?',
+      'Why is the argument indifferent to who does the suppressing, and what follows from that?',
+    ],
+    answers_zh: [
+      '因为「不怕辩论」把胜负当作重点，而密尔的重点是辩论过程中的认知收益：即便结论不变，参与争辩的一方也重新获得了理由。胜负不变而理由丧失，正是他担心的情形。',
+      '损失的是持有者对「为何成立」的把握。它从一条有依据的判断退化为一句可复述的结论，遇到真正的质疑时无法为自己辩护，往往整块崩塌而不是逐条修正。',
+      '因为压制的机制与主体无关：多数、国家、共同体内部的默契沉默，都产生同一种认知后果。后果是这套论证既保护异端，也要求异端接受被反驳——它不站在任何一方，只站在碰撞本身。',
+    ],
+    answers_en: [
+      'Because "fears no debate" makes victory the point, whereas Mill\'s point is the epistemic yield of the process: even when the conclusion stands, the party that argued regains its reasons. An unchanged verdict with lost reasons is precisely the condition he fears.',
+      'What is lost is the holder\'s grasp of why it holds. It degrades from a grounded judgment into a repeatable conclusion, unable to defend itself under real challenge, and tends to collapse wholesale rather than be corrected point by point.',
+      'Because the mechanism of suppression is independent of the agent: a majority, a state, or the unspoken silence inside a community all produce the same epistemic result. The consequence is that the argument protects the heretic and also obliges the heretic to be contradicted — it takes no side but collision itself.',
+    ],
+    topics: ['philosophy', 'democracy-and-liberty', 'power-and-politics'],
+  },
 ];
 
 export default notes;
