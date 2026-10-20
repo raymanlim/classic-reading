@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-20",
+  "books": [
+    {
+      "slug": "critique-of-practical-reason",
+      "category": "philosophy",
+      "title_zh": "实践理性批判",
+      "title_en": "Critique of Practical Reason",
+      "author": "immanuel-kant",
+      "author_zh": "伊曼努尔·康德",
+      "author_en": "Immanuel Kant",
+      "nationality_zh": "德国",
+      "nationality_en": "Germany",
+      "year": 1788,
+      "original_language": "de",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "道德法则不来自经验，而是理性自己给自己立的法",
+      "theme_en": "The moral law is not derived from experience but legislated by reason for itself",
+      "tags": ["philosophy", "ethics", "religion", "human-nature"],
+      "topics": ["philosophy", "religion-and-meaning"],
+      "prose": {
+        "description_zh": "《实践理性批判》是康德继《纯粹理性批判》之后的第二部批判，1788 年出版。前一部追问「我能认识什么」，这一部追问「我应当做什么」，并把问题收紧为一个技术性命题：纯粹理性能否仅凭自身就是实践的，即不借助任何经验动机而直接决定意志。全书分要素论与方法论，要素论又分分析论与辩证论。分析论从「实践理性原理」出发，逐条排除以自爱、幸福、榜样为根据的实践规则，导出唯一的道德法则；随后讨论善恶对象的次序，最后把「敬畏」确立为唯一由理性产生的道德情感。辩证论处理最高善的二律背反，并引出灵魂不朽与上帝存在这两个实践公设。全书篇幅不长，论证密度却极高。",
+        "description_en": "Published in 1788, the Critique of Practical Reason is the second of Kant's three critiques. Where the first asked what I can know, this one asks what I ought to do, and narrows the question into a technical claim: can pure reason be practical by itself, determining the will without the aid of any empirical motive? The work falls into a doctrine of elements and a doctrine of method; the former divides into an analytic and a dialectic. The analytic begins from the principles of practical reason, eliminates one by one every practical rule grounded in self-love, happiness or example, and arrives at the single moral law. It then treats the order of the concepts of good and evil, and closes by establishing respect (Achtung) as the only moral feeling that reason itself produces. The dialectic confronts the antinomy of the highest good and introduces the practical postulates of immortality and the existence of God. The book is short; its argument is extremely dense.",
+        "why_read_zh": "因为现代道德话语的大部分前提都在这里被重新奠基或彻底改写。义务论、人格尊严、自律、不可把人仅仅当作手段——这些今天仍在使用却常被含混使用的词，在本书中有严格的定义与推导。它也是极好的思维训练：康德不诉诸直觉与情感，而是要求每一步都可被检验，读者会被迫检查自己「理所当然」的道德信念究竟建立在什么之上。读它还有一个副产品：理解为什么「只要结果是好的，手段可以商量」这类推理在康德看来从一开始就错了。",
+        "why_read_en": "Because most of the premises of modern moral discourse are either grounded or rewritten here. Deontology, human dignity, autonomy, the prohibition on treating persons merely as means — terms still in use today and still used loosely — receive strict definition and derivation in this book. It is also superb mental training: Kant appeals neither to intuition nor to sentiment but demands that every step be checkable, and the reader is forced to examine what his or her own unquestioned moral convictions actually rest on. There is a further by-product: understanding why the inference that good outcomes justify available means is, on Kant's view, mistaken from the outset.",
+        "core_ideas_zh": [
+          "道德法则必须对一切理性存在者无条件有效，因此它的根据不能来自任何经验性的东西——不能来自幸福、同情、教育或习俗。",
+          "「理性事实」：我们直接意识到「应当」，这一意识本身无法再从别处推导，它是全部道德论证的起点而非结论。",
+          "自由与道德法则互相支撑：自由是道德法则的存在根据，道德法则则是我们认识自由的唯一根据。",
+          "自律：意志所服从的法则是它自己立的，而非外在权威、神意或功利计算；一切他律的伦理都把道德降格为达成别的东西的手段。",
+          "敬畏是唯一由理性产生的道德情感：它一边压低自爱，一边让人意识到自己作为立法者的尊严。",
+          "最高善（德性与相称的幸福的统一）在此世无法完全实现，实践理性因此被推向灵魂不朽与上帝存在这两个公设。"
+        ],
+        "core_ideas_en": [
+          "The moral law must hold unconditionally for every rational being, so its ground cannot be drawn from anything empirical — not from happiness, sympathy, upbringing or custom.",
+          "The fact of reason: we are directly conscious of an ought, and this consciousness cannot itself be derived from anything else. It is the starting point of the argument, not its conclusion.",
+          "Freedom and the moral law support one another: freedom is the ratio essendi of the moral law, while the moral law is the sole ratio cognoscendi of freedom.",
+          "Autonomy: the law the will obeys is one it gives itself, not an external authority, divine command or utilitarian calculation. Every heteronomous ethics degrades morality into a means to something else.",
+          "Respect is the only moral feeling produced by reason: it humbles self-love while disclosing one's dignity as a legislator.",
+          "The highest good — virtue united with proportionate happiness — cannot be fully realised in this life, which drives practical reason to the postulates of immortality and the existence of God."
+        ],
+        "key_questions_zh": [
+          "纯粹理性能否仅凭自身就是实践的，即不依赖任何经验动机而决定意志？",
+          "当道德要求与自身幸福发生冲突时，人凭什么仍然应当服从道德法则？",
+          "自由无法被理论理性认识，实践理性凭什么断言它是实在的？",
+          "如果德性与幸福在此世无法相称，是否必须预设灵魂不朽与上帝存在？"
+        ],
+        "key_questions_en": [
+          "Can pure reason be practical by itself, determining the will without any empirical motive?",
+          "When duty conflicts with one's own happiness, on what ground ought one still to obey the moral law?",
+          "Freedom cannot be known theoretically; on what basis does practical reason assert its reality?",
+          "If virtue and happiness cannot be proportionate in this life, must immortality and the existence of God be postulated?"
+        ],
+        "who_should_read_zh": "关心伦理学、法哲学与政治哲学的读者；需要在职业中处理「应不应该」而非仅仅「能不能」的人，如法律、医疗、公共管理与工程安全领域；以及读过《纯粹理性批判》、想弄清康德体系另一半的人。哲学入门者建议先读一部二手导读再进原文。",
+        "who_should_read_en": "Readers concerned with ethics, philosophy of law and political philosophy; professionals who must decide what ought to be done rather than merely what can be done — in law, medicine, public administration and engineering safety; and anyone who has read the Critique of Pure Reason and wants the other half of Kant's system. Beginners should read a secondary guide before the text itself.",
+        "reading_note_zh": "先读序言与导论，那里交代了「理性事实」这一起点，不理解它后面全篇会失焦。接着读分析论第一章「实践理性原理」，三大定理的排除法必须逐条跟住。第三章论动机（敬畏）最见康德本色，可先跳过第二章的对象概念。辩证论放到最后。中译本可用邓晓芒译（人民出版社 2003）或韩水法译（商务印书馆 1999），术语按邓译较统一。可与本书同日推荐的《对权威的服从》对读：一个问人应当凭什么立法，一个记录人在权威面前如何交出立法权。",
+        "reading_note_en": "Start with the preface and introduction, where the fact of reason is introduced; without it the rest of the book loses its focus. Then take the first chapter of the analytic on the principles of practical reason, following the elimination argument of the three theorems step by step. Chapter three, on the incentives of pure practical reason, is where Kant is most himself, and the chapter on the concepts of good and evil can be deferred. Save the dialectic for last. Among English translations, Gregor's is standard; Pluhar's is more literal. Read it alongside Obedience to Authority, recommended the same day: one asks on what ground a person should legislate for himself, the other records how readily people hand that legislative authority to someone else."
+      }
+    },
+    {
+      "slug": "obedience-to-authority",
+      "category": "psychology",
+      "title_zh": "对权威的服从：一次逼近人性真相的心理学实验",
+      "title_en": "Obedience to Authority: An Experimental View",
+      "author": "stanley-milgram",
+      "author_zh": "斯坦利·米尔格拉姆",
+      "author_en": "Stanley Milgram",
+      "nationality_zh": "美国",
+      "nationality_en": "United States",
+      "year": 1974,
+      "original_language": "en",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "普通人不需要是恶人，也能在权威体系里持续伤害无辜者",
+      "theme_en": "Ordinary people need not be wicked to keep harming an innocent person inside an authority system",
+      "tags": ["psychology", "human-nature", "society", "power", "authoritarianism"],
+      "topics": ["power-and-politics", "authoritarianism", "decision-making"],
+      "prose": {
+        "description_zh": "1961 年，米尔格拉姆在耶鲁大学开始一系列后来震动学界的实验：被试被告知这是一项关于「惩罚与学习」的研究，需对隔壁房间的「学生」逐级施加电击，从 15 伏起，每答错一次升高一档，最高 450 伏。学生由演员扮演，逐渐抱怨、呼喊、直至沉默。实验者身着白大褂，用四句固定的台词要求继续。结果超出所有人预料：在基线条件下，40 名被试中有 26 人一直按到最高档。本书 1974 年出版，先完整交代实验设计与基线结果，再逐一报告改变情境变量的变体——受害者距离、实验者是否在场、是否有反抗的同伴、权威是否互相冲突——最后提出理论解释：代理状态与权威体系。",
+        "description_en": "In 1961 Stanley Milgram began a series of experiments at Yale that would unsettle his discipline. Subjects were told they were taking part in a study of punishment and learning, and were instructed to administer escalating electric shocks to a learner in the next room, beginning at 15 volts and rising one step with each error, up to 450 volts. The learner was an actor, who protested, cried out and finally fell silent. The experimenter, in a grey lab coat, pressed the subject on with four fixed prods. The results surprised everyone: in the baseline condition, 26 of 40 subjects went all the way to the highest switch. Published in 1974, the book first sets out the design and baseline result in full, then reports the variants that changed one situational variable at a time — the distance of the victim, the presence of the experimenter, the presence of a rebellious peer, conflicting authorities — and closes with a theory: the agentic state and the authority system.",
+        "why_read_zh": "因为它把「恶」从品格问题改写成了处境问题，而这一改写对制度设计有直接后果。书中真正有价值的部分不是那条被反复引用的 65%，而是变体实验：只要改动一个情境变量，服从率就大幅移动，说明行为对结构高度敏感。对管理者、工程安全负责人、审计与合规从业者而言，这是一本关于「为什么聪明正直的人会在体系里做出错事」的实证手册。同时也值得作为方法论案例读：一个设计得极其干净的实验，如何在伦理上留下长期争议。",
+        "why_read_en": "Because it recasts evil from a question of character into a question of situation, and that recasting has direct consequences for institutional design. The valuable part is not the much-quoted 65 per cent but the variants: shift a single situational variable and the rate of obedience moves sharply, which shows how sensitive conduct is to structure. For managers, safety engineers, auditors and compliance officers it is an empirical handbook on why intelligent and decent people do wrong things inside a system. It also deserves reading as a methodological case: an experiment of extraordinary cleanliness that left a long-running ethical controversy.",
+        "core_ideas_zh": [
+          "服从主要不是性格缺陷，而是处境产物：人一旦把自己定义为执行他人意愿的工具，就进入「代理状态」，不再以个人道德评价自己的行为。",
+          "权威的力量来自被感知的合法性与其对情境的定义权，而不是强制力——实验中的权威只是一位穿白大褂的陌生人。",
+          "紧张（strain）几乎人人都有，但多数人靠转移责任、贬低受害者、把操作仪式化来消解它，而不是停下来反抗。",
+          "反抗往往需要同伴：一旦出现公开不服从的同伴，服从率急剧下降；孤立是维持服从的关键条件。",
+          "距离决定残酷程度：受害者越不可见、越不可闻，人越容易继续；身体接触与面对面会显著削弱服从。",
+          "责任是可以被分散的：把行为拆成科层中的一环，每个人只做一小步，就没人觉得自己在造成后果。"
+        ],
+        "core_ideas_en": [
+          "Obedience is less a defect of character than a product of situation: once people define themselves as instruments executing another's wishes, they enter an agentic state and stop evaluating their conduct by their own moral standards.",
+          "The power of authority comes from perceived legitimacy and the right to define the situation, not from coercion — the authority in the experiment was a stranger in a lab coat.",
+          "Strain is nearly universal, but most people dissolve it by displacing responsibility, devaluing the victim or ritualising the procedure rather than stopping.",
+          "Disobedience usually needs company: once a peer openly refuses, obedience falls sharply. Isolation is a key condition for maintaining it.",
+          "Distance governs cruelty: the less visible and audible the victim, the easier it is to continue; physical contact and face-to-face presence weaken obedience markedly.",
+          "Responsibility can be divided: break an act into one small step within a hierarchy and no single person feels responsible for the outcome."
+        ],
+        "key_questions_zh": [
+          "为什么普通人在没有直接强制的情况下，会持续伤害一个明显无辜的人？",
+          "个人责任在科层组织中被如何分散、转移，直至消失？",
+          "实验室情境能否外推到历史暴行？外推的边界在哪里，又有哪些条件不可比？",
+          "什么样的条件能让人重新夺回对自己行为的判断权？"
+        ],
+        "key_questions_en": [
+          "Why do ordinary people keep harming a plainly innocent person when no direct coercion is applied?",
+          "How is individual responsibility divided, displaced and finally dissolved inside a bureaucracy?",
+          "Can a laboratory situation be extrapolated to historical atrocities? Where are the limits of that extrapolation, and which conditions fail to match?",
+          "Under what conditions can a person recover the right to judge his or her own conduct?"
+        ],
+        "who_should_read_zh": "管理者与组织设计者；工程安全、医疗质量、审计合规等依赖「有人敢喊停」的岗位；对伦理、责任与社会心理学感兴趣的读者。想理解二十世纪暴行如何由普通职员完成的人，也会在这里找到比道德谴责更有解释力的材料。",
+        "who_should_read_en": "Managers and organisational designers; anyone in engineering safety, clinical quality, audit or compliance — roles that depend on somebody being willing to call a halt; and readers interested in ethics, responsibility and social psychology. Those trying to understand how twentieth-century atrocities were carried out by ordinary clerks will find more explanatory power here than in moral condemnation.",
+        "reading_note_zh": "第 1 至 4 章交代实验设计与基线结果，务必先读，否则后面的变体失去参照。第 5 至 11 章逐一改动情境变量，是全书信息密度最高的部分，值得做笔记对照。第 12 至 15 章转入理论（代理状态、权威体系、紧张及其化解），可最后读。可与阿伦特《艾希曼在耶路撒冷》对读，注意两者结论并不一致：米尔格拉姆强调处境，阿伦特强调判断力的缺席。也建议配合阅读后来的档案研究（如 Gina Perry 的 Behind the Shock Machine），了解原始数据的争议。",
+        "reading_note_en": "Read chapters 1 to 4 first for the design and the baseline result; without them the variants have no reference point. Chapters 5 to 11 change one situational variable at a time and carry the highest information density in the book — worth tabulating as you go. Chapters 12 to 15 turn to theory (the agentic state, the authority system, strain and its adjustments) and can be left for last. Read it against Arendt's Eichmann in Jerusalem, noting that the two conclusions do not agree: Milgram stresses situation, Arendt stresses the absence of judgement. Pair it too with later archival work, such as Gina Perry's Behind the Shock Machine, on the disputed status of the original data."
+      }
+    }
+  ]
+}
