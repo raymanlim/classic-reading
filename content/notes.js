@@ -793,6 +793,44 @@ export const notes = [
     ],
     topics: ['philosophy', 'democracy-and-liberty', 'power-and-politics'],
   },
+  {
+    id: 'note-022',
+    slug: 'the-man-who-mistook-his-wife-for-a-hat-the-loss-that-does-not-report-itself',
+    book: 'the-man-who-mistook-his-wife-for-a-hat',
+    date: '2026-10-21',
+    voice: 'editorial',
+    key_insight_zh:
+      '失去一种能力，最深的后果不是能力的消失，而是对消失的无知——心智会立刻用一套自洽的说法把缺口填上，所以「我感觉正常」从来不是「我功能完好」的证据。',
+    key_insight_en:
+      'The deepest consequence of losing a capacity is not the loss but the unawareness of it: the mind immediately fills the gap with a coherent account, so "I feel fine" is never evidence that I am intact.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于把「缺损」从医学范畴挪到了认识论范畴：萨克斯记录的病人几乎从不报告「我失去了什么」，他们报告的是一套仍然连贯、只是变得奇怪的世界。那位音乐教师 P 先生无法辨认面孔与日常物件，却能凭声音认出人、在房间里走动、照常上课，直到他把妻子的头当成一顶帽子去抓；当萨克斯把一只手套放在他面前，他把它描述成「一个连续的表面，带着五个突起」，然后猜它可能是个钱包——他没有说谎，也没有敷衍，他是在如实描述他看到的那个东西。容易被忽略的一点是，这种填补不是故障的副产品，而是心智维持可运作的常态机制：它真正改变的是我们对「自我报告」的信任等级——一个人说自己没事，只说明他的解释系统还在运转，不说明他的能力还在。书里另一个病例把这一点推到极端：失去本体感觉的克里斯蒂娜必须靠眼睛看着自己的身体才能动作，坐下时必须完全静止，否则会瘫倒；她失去的是身体「不出声的那部分知识」，而那部分恰恰从不发出声音，所以它的消失也从不被报告。值得警惕的是，这套机制在失去外部校验时最有效，因为没有人会去纠正一个听起来完整的故事。它与本站《被取消的练习》互为里外：那篇讲自动化让人失去练习、连告警都会在关键时刻静音；这本讲即便告警还在响，接收告警的那套装置也会先替你把它解释掉。',
+    thinking_en:
+      "The key move of this book is to relocate deficit from the medical category to the epistemic one: Sacks' patients almost never report \"I have lost something.\" They report a world that remains coherent and has merely become strange. The music teacher, Dr. P, cannot recognise faces or everyday objects, yet greets people by their voices, moves through rooms, and keeps teaching — until he reaches for his wife's head as though it were a hat. When Sacks places a glove in front of him, he describes it as \"a continuous surface\" with \"five outpouchings\" and then guesses it might be a purse. He is not lying and not being evasive; he is accurately describing the thing he sees. The easily missed point is that this filling-in is not a by-product of damage but the ordinary mechanism by which a mind stays operational. What it genuinely changes is the trust we place in self-report: a person saying he is fine proves only that his explanatory system is still running, not that his capacities are intact. Another case in the book pushes this to its limit: Christina, who lost proprioception, must watch her own body with her eyes in order to move, and must sit perfectly still or she will collapse — she has lost the body's silent knowledge, and because that knowledge never makes a sound, its disappearance is never announced. The caution worth keeping is that this mechanism works best when external verification is absent, since no one corrects a story that sounds complete. It forms an inside and an outside with this site's \"The Practice That Automation Cancels\": that essay describes automation removing the practice until even the alarm falls silent at the decisive moment; this book describes what happens when the alarm is still sounding and the apparatus receiving it explains it away first.",
+    questions_zh: [
+      '为什么萨克斯的病人几乎从不报告「我失去了什么」？',
+      '「我感觉正常」能证明什么，又不能证明什么？',
+      '这套自我解释的机制在什么条件下最危险？',
+    ],
+    questions_en: [
+      "Why do Sacks' patients almost never report \"I have lost something\"?",
+      'What does "I feel fine" prove, and what does it fail to prove?',
+      'Under what conditions is this self-explaining mechanism most dangerous?',
+    ],
+    answers_zh: [
+      '因为缺损首先破坏的不是功能，而是检测功能的那套装置：人只能报告自己察觉到的差异，而察觉本身已经依赖被损坏的系统。于是剩下的只有「世界变奇怪了」，没有「我坏掉了」。',
+      '它证明解释系统仍在运转——人还能把当下经验组织成一个说得通的故事；它不能证明能力完好，因为最完整的解释往往正是围绕最大的缺口建起来的。',
+      '在缺少外部校验的时候：没有可比对的基线、没有第三方纠正、没有必须交付的结果。一个听起来完整的故事无人质疑，就会被当成事实沿用下去。',
+    ],
+    answers_en: [
+      'Because what the deficit damages first is not the function but the apparatus that detects the function: a person can only report differences he notices, and noticing already depends on the damaged system. What remains is "the world has become strange," never "I have broken."',
+      'It proves the explanatory system is still running — the person can still organise present experience into a tellable story. It does not prove the capacities are intact, because the most complete explanations are often built precisely around the largest gaps.',
+      'When external verification is missing: no baseline to compare against, no third party to correct, no deliverable that must come out right. A story that sounds complete and is never challenged gets carried forward as fact.',
+    ],
+    topics: ['cognitive-science', 'philosophy'],
+  },
 ];
 
 export default notes;
