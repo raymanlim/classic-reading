@@ -831,6 +831,44 @@ export const notes = [
     ],
     topics: ['cognitive-science', 'philosophy'],
   },
+  {
+    id: 'note-023',
+    slug: 'slaughterhouse-five-the-war-that-cannot-be-summarized',
+    book: 'slaughterhouse-five',
+    date: '2026-10-22',
+    voice: 'editorial',
+    key_insight_zh:
+      '有些经验无法被概括——一旦压缩成「战争很残酷」这样一句可传递的结论，它真正承载的东西就消失了；这本书因此保留全部事实，只拒绝给出解释。',
+    key_insight_en:
+      'Some experience cannot be summarised: the moment it is compressed into a transmissible conclusion such as "war is cruel," what it actually carried is gone. The book therefore keeps every fact and refuses only the explanation.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于它拒绝提供总结。冯内古特本人经历过德累斯顿的燃烧弹轰炸——1945 年 2 月 13 日，他作为战俘被关在城里的第五号屠宰场地下冷藏库，活着走出来之后被派去清理尸体——而这部小说从战后动笔到 1969 年出版，中间隔了二十多年；最后交出的不是一部编年史，而是一个被外星人绑架、在时间中来回跳跃的人。它真正改变的是对「战争经验」的表达方式：比利·皮尔格林不再按因果顺序经历事件，因为幸存者的记忆本来就不按因果排列，而顺序一旦被强行接上，接出来的就是一部说得通的、因而也是假的叙事。容易被忽略的一点是那句反复出现的 So it goes——它出现在每一次死亡之后，既不表示接受也不表示麻木，它标记的是叙述在这里无法再往前走；概括需要一条因果线，而创伤恰好把这条线打断了。值得警惕的是，这种写法容易被误读成对历史的回避：把一切交给时间跳跃，似乎等于取消了责任。但冯内古特保留了最硬的东西——日期、城市、人数、气味、尸体所在的房间——他删掉的只是解释，不是事实。这与本站《遗忘的用处》构成一处必要的反向张力：那篇论证抽象需要丢弃细节，这本则提示，当模式尚未被理解时强行给出模式，得到的不是抽象，而是掩饰。',
+    thinking_en:
+      'The key to this book is that it refuses to summarise. Vonnegut had been through the firebombing of Dresden himself — on 13 February 1945 he was a prisoner of war held in the meat locker beneath Schlachthof Five, and after surviving he was assigned to clear the bodies — and the novel took more than twenty years between first attempt and 1969 publication. What he finally delivered is not a chronicle but a man abducted by aliens who comes loose in time. What it genuinely changes is the way war experience can be expressed: Billy Pilgrim no longer encounters events in causal order, because survivors\' memory is not arranged in causal order either, and forcing the order back on produces a narrative that makes sense and is therefore false. The easily missed point is the refrain "So it goes," which arrives after every death and signals neither acceptance nor numbness; it marks the place where the narration can go no further. Summary requires a causal line, and trauma is precisely what breaks that line. The caution worth keeping is that this method is easily misread as an evasion of history: handing everything to time-travel seems to cancel responsibility. But Vonnegut keeps the hardest material — dates, the city, the count, the smells, the room where the bodies were — and deletes only the explanation, not the facts. It forms a necessary counter-tension with this site\'s "The Use of Forgetting": that essay argues that abstraction requires discarding detail; this book suggests that when a pattern has not yet been understood, imposing one yields not abstraction but concealment.',
+    questions_zh: [
+      '为什么这部小说拒绝按时间顺序讲述，而顺序与真相之间是什么关系？',
+      '「So it goes」这句话到底在做什么，它为什么不是认命？',
+      '保留全部事实却拒绝解释，与回避历史之间的界线在哪里？',
+    ],
+    questions_en: [
+      'Why does the novel refuse chronological order, and what does order have to do with truth?',
+      'What is "So it goes" actually doing, and why is it not resignation?',
+      'Where is the line between keeping every fact and refusing to explain, and evading history?',
+    ],
+    answers_zh: [
+      '因为因果顺序本身是一种解释：它把事件排成「因为—所以」，读者就自动获得了责任归属与意义。幸存者的记忆是碎片化、反复回返的，强行接成顺序等于用叙事的需要替换经验的结构。冯内古特选择让形式与经验一致，代价是读者得不到安慰。',
+      '它在每一次死亡之后出现，语气平等到近乎冷淡，正因如此才没有被消化成「牺牲」或「意义」。它既不表示接受，也不表示麻木，而是标记叙述在这里停住——再往前就必须给出解释，而解释是他拒绝提供的。',
+      '界线在于事实是否被保留。回避历史会模糊日期、地点、人数，把具体换成感慨；这本书恰恰相反，它把最具体的东西钉死，只把解释撤走。撤走解释不是否认，而是承认当时的解释并不存在。',
+    ],
+    answers_en: [
+      'Because causal order is itself an interpretation: arrange events as because-therefore and the reader automatically receives an assignment of responsibility and a meaning. Survivors\' memory is fragmentary and returns repeatedly; forcing it into sequence substitutes the needs of narrative for the structure of experience. Vonnegut makes the form match the experience, and the price is that the reader gets no consolation.',
+      'It arrives after every death in a tone so level as to seem cold, and precisely for that reason it never gets digested into "sacrifice" or "meaning." It signals neither acceptance nor numbness; it marks where the narration stops. To go further would require an explanation, and the explanation is what he refuses to supply.',
+      'The line is whether the facts survive. Evading history blurs dates, places and numbers, swapping the concrete for sentiment; this book does the opposite, pinning down the most concrete material and withdrawing only the explanation. Withdrawing the explanation is not denial — it is an admission that no explanation was available at the time.',
+    ],
+    topics: ['literature', 'history', 'existentialism'],
+  },
 ];
 
 export default notes;
