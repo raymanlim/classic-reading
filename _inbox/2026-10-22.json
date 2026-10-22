@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-22",
+  "books": [
+    {
+      "slug": "the-gates-of-europe",
+      "category": "history",
+      "title_zh": "欧洲之门：乌克兰2000年史",
+      "title_en": "The Gates of Europe: A History of Ukraine",
+      "author": "serhii-plokhy",
+      "author_zh": "谢尔希·浦洛基",
+      "author_en": "Serhii Plokhy",
+      "nationality_zh": "乌克兰裔美国",
+      "nationality_en": "Ukrainian-American",
+      "year": 2015,
+      "original_language": "en",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "乌克兰不是某个帝国的附属章节，而是欧亚大陆上一道反复被争夺的门",
+      "theme_en": "Ukraine is not a chapter in someone else's empire but a gate on the Eurasian plain, fought over again and again",
+      "tags": ["history", "empires", "russia", "politics", "civilization"],
+      "topics": ["history", "power-and-politics", "civilization"],
+      "prose": {
+        "description_zh": "《欧洲之门》2015 年由 Basic Books 出版，是浦洛基在哈佛讲授乌克兰史时写成的通史，从希罗多德笔下的斯基泰人一直写到 2014 年的独立广场与克里米亚。它不把乌克兰当作俄国史的附注，而把它当作一条走廊：第聂伯河、黑海草原与喀尔巴阡山之间的通道，谁控制它，谁就握住欧洲的东门。全书沿基辅罗斯、哥萨克盖特曼、1654 年与莫斯科的结盟、左右岸的分裂、哈布斯堡治下的加利西亚与俄国治下的东乌克兰、1917 至 1921 年的短暂独立、1932 至 1933 年的大饥荒、二战、切尔诺贝利、1991 年独立一路推进，最后停在 2014 年。浦洛基的核心判断是：「乌克兰」从来不是一个连续的国家叙事，而是若干个彼此竞争、反复被外力打断的方案。",
+        "description_en": "Published by Basic Books in 2015, The Gates of Europe grew out of Plokhy's Harvard lectures on Ukrainian history and runs from Herodotus's Scythians to the Maidan and Crimea in 2014. It refuses to treat Ukraine as a footnote to Russian history and instead treats it as a corridor: the passage between the Dnipro, the Black Sea steppe and the Carpathians, whose control has meant control of Europe's eastern gate. The narrative moves through Kyivan Rus, the Cossack Hetmanate, the 1654 agreement with Moscow, the split between left and right bank, Habsburg Galicia against Russian-ruled eastern Ukraine, the short-lived independence of 1917 to 1921, the famine of 1932 to 1933, the Second World War, Chernobyl and the independence of 1991, closing with 2014. Plokhy's central claim is that Ukraine has never been a single continuous state narrative but a series of competing projects, repeatedly interrupted from outside.",
+        "why_read_zh": "因为它拆掉了一个默认框架：我们习惯把「民族国家」当作历史的自然单位，而乌克兰恰好是反例——边界被反复重划，教会与语言被帝国分别塑造，记忆被饥荒与战争反复切断。读完之后，「历史权利」这类论据为什么在東欧站不住脚，会变得非常具体。它同时也是一本极好的方法论示范：浦洛基不写英雄史，他写的是多个方案在同一片土地上的叠加与覆盖。对需要判断地缘与供应链风险的人，这本书提供的是背景结构，而不是新闻结论。",
+        "why_read_en": "Because it dismantles a default frame. We are used to treating the nation-state as the natural unit of history, and Ukraine is the counterexample: borders redrawn repeatedly, churches and languages shaped separately by rival empires, memory cut apart by famine and war. After reading it, the reason arguments from historic right collapse in Eastern Europe becomes concrete rather than abstract. It is also an excellent methodological demonstration: Plokhy writes no history of heroes but a history of several projects layered on the same land, each overwriting the last. For anyone who has to judge geopolitical and supply-chain risk, this book supplies structure rather than headlines.",
+        "core_ideas_zh": [
+          "乌克兰的历史不是一个国家的历史，而是多个国家方案相互竞争、彼此覆盖的历史。",
+          "「乌克兰」这个词最初指的不是一个民族，而是一片方位意义上的边地；它先成为地理，再成为政治主体。",
+          "基辅罗斯是乌克兰、俄罗斯、白俄罗斯共同的起源神话，谁继承它，是一场持续数百年的争夺。",
+          "哥萨克不是雕像式的民族英雄，而是一种自治的军事共同体；它在 1654 年做的选择，决定了此后三百年的分岔。",
+          "帝国的现代化同时生产民族主义：俄国的学校、军队与官僚体系培养了乌克兰的民族意识，而不是消灭它。",
+          "二十世纪的饥荒、战争与切尔诺贝利，把灾难记忆变成了民族认同最坚硬的材料。",
+          "1991 年的独立不是终点，而是把此前所有被压住的断裂一次性交还给政治。"
+        ],
+        "core_ideas_en": [
+          "Ukrainian history is not the history of one state but of several state projects competing for and overwriting the same territory.",
+          "The word Ukraine first named a borderland in a geographical sense rather than a people; it became a political subject only later.",
+          "Kyivan Rus is the shared origin myth of Ukraine, Russia and Belarus, and who inherits it has been contested for centuries.",
+          "The Cossacks were not statuesque national heroes but a self-governing military community, and the choice they made in 1654 set the fork for the next three hundred years.",
+          "Imperial modernisation produced nationalism as a by-product: Russian schools, armies and bureaucracy cultivated Ukrainian national consciousness rather than extinguishing it.",
+          "Famine, war and Chernobyl in the twentieth century turned the memory of catastrophe into the hardest material of national identity.",
+          "Independence in 1991 was not an ending but the moment when every fracture previously held down was returned to politics at once."
+        ],
+        "key_questions_zh": [
+          "一个没有连续国家传统的共同体，凭什么成为一个民族？",
+          "当同一个起源被三个国家同时继承，「历史权利」还能作为边界的依据吗？",
+          "外部帝国一次又一次的划分，如何在内部制造出持久的认同分裂？",
+          "灾难记忆究竟是凝聚认同的资源，还是不断重新撕开的伤口？"
+        ],
+        "key_questions_en": [
+          "By what right does a community without a continuous state tradition become a nation?",
+          "When one origin is inherited by three states at once, can historic right still serve as a basis for borders?",
+          "How did repeated partition by outside empires manufacture durable divisions of identity inside?",
+          "Is the memory of catastrophe a resource that binds a nation, or a wound that keeps reopening?"
+        ],
+        "who_should_read_zh": "关心东欧与俄乌问题的读者；做地缘政治与供应链风险判断的人；以及想理解「民族如何被造出来」的历史学、社会学读者。不需要预备知识，但需要接受一个前提：这本书没有单一主角，也没有一条干净的主线。想找简单答案的人会失望，想找结构的人会满意。",
+        "who_should_read_en": "Readers following Eastern Europe and the Russia-Ukraine question; anyone assessing geopolitical and supply-chain risk; and students of history or sociology who want to see how a nation is manufactured. No background is required, but one premise must be accepted: there is no single protagonist here and no clean storyline. Readers looking for simple answers will be disappointed; readers looking for structure will not.",
+        "reading_note_zh": "按时间线读，不要跳。第 5 至 10 章（哥萨克、帝国分割、十九世纪民族觉醒）是全书枢纽；第 1 至 4 章（斯基泰、基辅罗斯）可以读快些，它们是背景而非重点。中译本用曾毅译（中信出版集团 2019，ISBN 978-7-5086-7118-5）。建议与同日推荐的《光刻巨人》对读：一本讲地理位置如何变成卡点，一本讲技术纵深如何变成卡点——前者是继承来的位置，后者是造出来的位置。",
+        "reading_note_en": "Read it chronologically and do not skip. Chapters 5 to 10, on the Cossacks, imperial partition and the nineteenth-century national awakening, are the hinge of the book; chapters 1 to 4 on the Scythians and Kyivan Rus can be read quickly, since they are background rather than argument. Read it against ASML's Architects, recommended the same day: one book shows how a geographical position becomes a chokepoint, the other how technical depth becomes one. The first position is inherited; the second is built."
+      }
+    },
+    {
+      "slug": "asmls-architects",
+      "category": "technology",
+      "title_zh": "光刻巨人：ASML崛起之路",
+      "title_en": "ASML's Architects: The Story of the Engineers Who Shaped the World's Most Powerful Chip Machines",
+      "author": "rene-raaijmakers",
+      "author_zh": "瑞尼·雷吉梅克",
+      "author_en": "René Raaijmakers",
+      "nationality_zh": "荷兰",
+      "nationality_en": "Netherlands",
+      "year": 2018,
+      "original_language": "en",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "唯一供应者的位置不是被发明的，是被一连串几乎失败的决定堆出来的",
+      "theme_en": "The position of sole supplier was not invented; it was piled up out of a series of decisions that nearly failed",
+      "tags": ["semiconductor", "technology", "innovation", "strategy", "computing"],
+      "topics": ["semiconductor", "innovation", "technology", "strategy"],
+      "prose": {
+        "description_zh": "《光刻巨人》原名 ASML's Architects，2018 年由荷兰 Techwatch Books 出版。作者雷吉梅克是科技记者出身，为这本书采访了八十多位当事人，累积了三百小时录音，写了七年。它讲的不是成功学，而是一场产业转移：二十世纪八十年代，美国的光刻机巨头 Perkin-Elmer 与 GCA 在佳能与尼康的攻势下丢掉了二十年的垄断；与此同时，飞利浦实验室里那台没人看好的晶圆步进机被剥离出来，与荷兰的 ASM 国际合资，成了 1984 年成立的 ASML。全书按年份推进：技术文档、五十对五十的股权协议、注资与交付期限、被日本对手压着打的十年、扫描光刻机的转向。作者坚持把它写成历史而不是管理学案例，因此保留了大量公司政治、误判与运气。",
+        "description_en": "Published by Techwatch Books in 2018, ASML's Architects took René Raaijmakers seven years, more than eighty interviews and some three hundred hours of recordings. It is not a success manual but the record of an industrial transfer: in the 1980s the American lithography giants Perkin-Elmer and GCA lost a twenty-year monopoly under assault from Canon and Nikon, while an unloved wafer stepper in a Philips laboratory was carved out into a joint venture with ASM International and became ASML in 1984. The book moves year by year through technical documents, a fifty-fifty shareholding, capital injections and delivery deadlines, a decade of being outgunned by Japanese competitors, and the turn toward step-and-scan. Raaijmakers insisted on writing history rather than a management case, which is why the corporate politics, the misjudgements and the luck all survive on the page.",
+        "why_read_zh": "因为它把「卡点是怎么长出来的」写清楚了。ASML 的位置不是靠一次天才发明拿到的，而是靠一连串当时看不出回报的决定：押注步进机而不是缩版机，接受一份苛刻到近乎屈辱的合资条款，把对准精度做到对手做不到的水平，在客户的厂房里把机器一台一台调出来。对做半导体材料与设备的人来说，这是一手的产业史；对做战略的人来说，这是一个「第二名如何变成唯一」的完整样本。它还给出一条反直觉的结论：技术领先常常来自组织选择，而不是技术路线本身。",
+        "why_read_en": "Because it explains how a chokepoint actually grows. ASML's position did not come from one stroke of genius but from a chain of decisions whose returns were invisible at the time: betting on the stepper rather than the mask aligner, accepting a joint-venture term sheet that was close to humiliating, pushing alignment precision past what rivals could reach, and tuning machines one at a time inside customers' fabs. For people in semiconductor materials and equipment this is primary industrial history; for strategists it is a complete case of how a second-tier player becomes the only player. It also yields a counterintuitive conclusion: technical leadership often follows organisational choices rather than technology roadmaps.",
+        "core_ideas_zh": [
+          "产业转移不是被技术击败的，而是被组织节奏与资本耐心击败的：Perkin-Elmer 与 GCA 的衰落首先是公司问题。",
+          "卡点是积累出来的：相位光栅对准、同轴对准、线性电机这些底层能力，当年都没有明确的商业回报。",
+          "合资是被迫的选择：飞利浦不愿独担风险，ASM 想进入设备业，五十对五十的结构把长期的公司政治埋进了基因。",
+          "「只争金牌」不是口号，而是在连续亏损中被逼出来的生存策略——不做到第一就没有存在的理由。",
+          "客户不是市场，是共同开发者：早期机器是在客户的厂房里、由客户的工程师一起调出来的。",
+          "成为唯一供应者之后，公司就不再只是公司，它自动获得了一个政治身份。"
+        ],
+        "core_ideas_en": [
+          "Industrial leadership was lost not to better technology but to organisational tempo and investor patience: the decline of Perkin-Elmer and GCA was first of all a corporate failure.",
+          "A chokepoint is accumulated. Phase-grating alignment, through-the-lens alignment and the linear motor all began as capabilities with no clear commercial return.",
+          "The joint venture was a forced move. Philips would not carry the risk alone, ASM wanted into equipment, and the fifty-fifty structure wrote decades of corporate politics into the company's DNA.",
+          "The go-for-the-gold culture was not a slogan but a survival strategy produced by consecutive losses: without first place there was no reason to exist.",
+          "The customer was not a market but a co-developer. Early machines were debugged inside customers' fabs, by customers' engineers.",
+          "Once a company becomes the sole supplier, it stops being only a company and acquires a political identity by default."
+        ],
+        "key_questions_zh": [
+          "一项技术在什么条件下会从「没人看好」变成「不可替代」？",
+          "后发者凭什么在成熟产业里赢：成本、速度，还是愿意承担别人不愿承担的风险？",
+          "当一家公司成为全球供应链的单点，它还能保持纯粹商业的身份吗？",
+          "组织的记忆——访谈、文档、人事斗争——在多大程度上决定技术路线的选择？"
+        ],
+        "key_questions_en": [
+          "Under what conditions does a technology move from disregarded to irreplaceable?",
+          "How does a latecomer win in a mature industry: on cost, on speed, or on a willingness to carry risks others refuse?",
+          "Once a company becomes the single point in a global supply chain, can it remain a purely commercial entity?",
+          "To what extent do an organisation's memories, its documents and its internal fights determine which technical path it takes?"
+        ],
+        "who_should_read_zh": "半导体与电子材料从业者，尤其是设备、工艺与供应链岗位；做产业研究与地缘判断的人；科技公司的管理者与创业者。不需要光学或机械背景——作者刻意把术语压到最低，重点放在人与决策上。但需要一点耐心：前几章的人物密度很高，名字会反复出现。",
+        "who_should_read_en": "People working in semiconductors and electronic materials, especially in equipment, process and supply chain; analysts doing industrial and geopolitical research; managers and founders in technology companies. No optics or mechanical engineering background is needed, since the author deliberately keeps terminology minimal and puts people and decisions in the foreground. Some patience is required: the early chapters are dense with names that recur throughout.",
+        "reading_note_zh": "前 5 章读技术前史（飞利浦 Natlab、David Mann、GCA 的崛起），第 6 至 8 章读交付与现金流危机，第 9 至 10 章读扫描光刻机与亚洲客户。中译本 508 页，金捷幡译（人民邮电出版社 2020，ISBN 978-7-115-54518-3）。可与库内《芯片战争》《摩尔神话》《晶体之火》串成一条「设备—材料—产业政策」的线，也可与同日推荐的《欧洲之门》对读：一本讲被给定的位置，一本讲被造出来的位置。",
+        "reading_note_en": "Chapters 1 to 5 cover the technical prehistory, from the Philips Natlab through David Mann to the rise of GCA; chapters 6 to 8 cover delivery and the cash-flow crisis; chapters 9 and 10 cover step-and-scan and the Asian customers. Read it alongside Chip War, Moore's Law and Crystal Fire already in this library to form a single line running from equipment to materials to industrial policy, or alongside The Gates of Europe, recommended the same day: one book is about a position that was given, the other about a position that was built."
+      }
+    }
+  ]
+}
