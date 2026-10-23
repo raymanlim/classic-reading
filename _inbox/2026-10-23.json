@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-23",
+  "books": [
+    {
+      "slug": "the-birth-of-tragedy",
+      "category": "philosophy",
+      "title_zh": "悲剧的诞生",
+      "title_en": "The Birth of Tragedy",
+      "author": "friedrich-nietzsche",
+      "author_zh": "弗里德里希·尼采",
+      "author_en": "Friedrich Nietzsche",
+      "nationality_zh": "德国",
+      "nationality_en": "German",
+      "year": 1872,
+      "original_language": "de",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "存在没有目的，艺术让人能够承受这个事实",
+      "theme_en": "Existence has no purpose, and art is what makes that fact bearable",
+      "tags": ["philosophy", "art", "classics", "existentialism"],
+      "topics": ["philosophy", "art-and-culture", "existentialism"],
+      "prose": {
+        "description_zh": "《悲剧的诞生》是尼采 1872 年出版的第一部著作，原题《从音乐精神中诞生的悲剧》，题献给瓦格纳。它用日神阿波罗与酒神狄奥尼索斯两种艺术冲动解释古希腊悲剧的起源：日神代表梦、造型与个体化原理，酒神代表醉、音乐与个体界限的瓦解；悲剧是两者在合唱队与舞台之间的短暂联合。尼采随后追问悲剧为何衰落，矛头指向欧里庇得斯把观众搬上舞台，以及苏格拉底式「理论人」的乐观——相信知识可以穷尽并修正存在。全书最终落在一个美学判断上：只有作为审美现象，存在与世界才永远有理由。1886 年再版时尼采补写《一种自我批评的尝试》，自陈此书受叔本华与瓦格纳影响过深，却仍坚持其中的酒神精神。",
+        "description_en": "Published in 1872, The Birth of Tragedy was Nietzsche's first book, originally titled The Birth of Tragedy out of the Spirit of Music and dedicated to Richard Wagner. It explains the origin of Greek tragedy through two artistic drives: the Apollonian, which belongs to dream, image and the principium individuationis, and the Dionysian, which belongs to intoxication, music and the dissolution of individual boundaries. Tragedy, on this account, is their brief union between chorus and stage. Nietzsche then asks why tragedy declined, and points to Euripides bringing the spectator onto the stage and to the optimism of the Socratic theoretical man, who believes knowledge can fathom and correct existence. The book ends on an aesthetic verdict: only as an aesthetic phenomenon are existence and the world eternally justified. For the 1886 reissue Nietzsche added an Attempt at a Self-Criticism, conceding that the book owed too much to Schopenhauer and Wagner while still defending its Dionysian core.",
+        "why_read_zh": "因为它把「艺术有什么用」这个看似软弱的问题，变成一条硬的论证路线：如果存在本身没有目的，人靠什么活下去？尼采给出的不是安慰，而是承认恐怖之后仍然肯定。这本书也是进入二十世纪美学的入口——从弗洛伊德到海德格尔，从现代主义艺术到流行文化里的「酒神」修辞，都在复用它的词汇。读它还有一个副作用：你会开始怀疑「理性乐观」是一种文化选择，而不是文明的默认终点。",
+        "why_read_en": "Because it turns a question that sounds soft, what use is art, into a hard line of argument: if existence has no purpose of its own, what keeps a person going? Nietzsche offers no consolation, only affirmation after the horror has been admitted. The book is also the gateway to twentieth-century aesthetics: from Freud to Heidegger, from modernist art to the casual Dionysian rhetoric of popular culture, the vocabulary is still his. There is a side effect. You begin to suspect that rational optimism is a cultural choice rather than the default destination of civilisation.",
+        "core_ideas_zh": [
+          "艺术不是对世界的模仿，而是两种自然冲动——梦与醉——的产物；日神与酒神不是风格，而是人类经验的两个基本模式。",
+          "日神的力量在于个体化：它画出边界、给出形象、让人相信自己是一个完整的个体；酒神的力量在于拆掉这道边界，让人重新回到混沌的整体。",
+          "希腊悲剧的伟大不在于它乐观，而在于它敢于把最恐怖的东西搬上舞台，却仍然让人愿意活下去。",
+          "悲剧死于苏格拉底主义：当「知识可以解释并治愈一切」成为公理，无法被解释的痛苦就失去了位置，戏剧也就退化成了情节与辩论。",
+          "只有作为审美现象，存在与世界才永远有理由——这是全书的核心命题，也是尼采此后一生未放弃的立场。",
+          "理论人的乐观是一种遮蔽：它把「暂时有效」当成「最终可知」，把方法的成功误当成对存在的胜利。"
+        ],
+        "core_ideas_en": [
+          "Art does not imitate the world; it is the product of two natural drives, dream and intoxication. The Apollonian and the Dionysian are not styles but two basic modes of human experience.",
+          "Apollo works through individuation: it draws boundaries, gives form, and lets a person believe they are a whole. Dionysus works by tearing that boundary down and returning the person to an undifferentiated whole.",
+          "The greatness of Greek tragedy is not optimism but the willingness to put the most terrible things on stage and still make life worth living.",
+          "Tragedy dies of Socratism: once knowledge is assumed to explain and cure everything, suffering that cannot be explained loses its place, and drama degrades into plot and debate.",
+          "Only as an aesthetic phenomenon are existence and the world eternally justified. This is the book's central proposition and a position Nietzsche never abandoned.",
+          "The optimism of the theoretical man is a form of concealment: it mistakes provisional effectiveness for final intelligibility, and the success of a method for a victory over existence."
+        ],
+        "key_questions_zh": [
+          "如果世界本身没有目的和意义，人凭什么继续肯定它？",
+          "一种文化在什么条件下会失去承受悲剧的能力，转而相信一切问题都可以被解决？",
+          "理性与狂醉，究竟哪一个更接近人的真相？",
+          "艺术是对现实的逃避，还是唯一让现实变得可居住的技术？"
+        ],
+        "key_questions_en": [
+          "If the world has no purpose or meaning of its own, on what grounds can a person still affirm it?",
+          "Under what conditions does a culture lose the capacity to endure tragedy and begin to believe every problem can be solved?",
+          "Reason or ecstasy, which is closer to the truth about being human?",
+          "Is art an escape from reality, or the only technique that makes reality habitable?"
+        ],
+        "who_should_read_zh": "适合对美学、古典学与现代哲学起源感兴趣的读者；也适合写作者与创作者——它讨论的正是形式与狂醉如何互为条件。若只读过《查拉图斯特拉如是说》，这本书能补上格言体之前的尼采。",
+        "who_should_read_en": "For readers interested in aesthetics, classical scholarship and the origins of modern philosophy, and for writers and makers, since its subject is how form and ecstasy depend on each other. If you know Nietzsche only through Thus Spoke Zarathustra, this is the book that comes before the aphorisms.",
+        "reading_note_zh": "先读 1886 年的《一种自我批评的尝试》，它是最好的导览，也提醒你别把此书当体系。然后按 1—4 节建立日神与酒神的概念，第 5 节抓住「审美辩护」那一句，7—15 节处理苏格拉底问题，16—25 节进入音乐与悲剧的生成。可配合亚里士多德《诗学》，以及尼采 1873 年写、身后才发表的《论非道德意义上的真理与谎言》对读。",
+        "reading_note_en": "Start with the 1886 Attempt at a Self-Criticism: it is the best guide and a warning against reading the book as a system. Then build the two concepts in sections 1 to 4, hold on to the line about aesthetic justification in section 5, follow the Socratic problem through 7 to 15, and enter the genesis of music and tragedy in 16 to 25. Read it alongside Aristotle's Poetics, and alongside On Truth and Lie in an Extra-Moral Sense, written in 1873 and published only after Nietzsche's death."
+      }
+    },
+    {
+      "slug": "metaphors-we-live-by",
+      "category": "psychology",
+      "title_zh": "我们赖以生存的隐喻",
+      "title_en": "Metaphors We Live By",
+      "author": "george-lakoff",
+      "author_zh": "乔治·莱考夫、马克·约翰逊",
+      "author_en": "George Lakoff & Mark Johnson",
+      "nationality_zh": "美国",
+      "nationality_en": "American",
+      "year": 1980,
+      "original_language": "en",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "隐喻不是语言的装饰，而是思维本身的构造方式",
+      "theme_en": "Metaphor is not decoration on language but the architecture of thought itself",
+      "tags": ["cognitive-science", "psychology", "philosophy", "cultural-history"],
+      "topics": ["cognitive-science", "philosophy"],
+      "prose": {
+        "description_zh": "《我们赖以生存的隐喻》1980 年由芝加哥大学出版社出版，是认知语言学的奠基之作。莱考夫与约翰逊提出一个当时颇为冒犯的论断：隐喻不是修辞装饰，而是思维本身的结构——我们用来思考与行动的日常概念系统，本质上是隐喻性的。他们用大量日常英语表达论证「争论是战争」「时间是金钱」「多是上」「好是上」这类概念隐喻，如何系统地把一个经验域映射到另一个经验域，并区分结构隐喻、方位隐喻与本体隐喻三类。书的后半部转向哲学：他们同时批评客观主义与主观主义两种神话，主张一种基于身体经验的「经验主义」，认为真理总是相对于某种理解方式而成立。2003 年第二版增加后记，回应二十余年的争论。",
+        "description_en": "Published by the University of Chicago Press in 1980, Metaphors We Live By is a founding text of cognitive linguistics. Lakoff and Johnson made a claim that was then close to offensive: metaphor is not ornament but the structure of thought itself, and the ordinary conceptual system by which we think and act is metaphorical in nature. Drawing on a large body of everyday English, they show how conceptual metaphors such as argument is war, time is money, more is up and good is up systematically map one domain of experience onto another, and they distinguish structural, orientational and ontological metaphors. The second half turns philosophical: they attack both the myth of objectivism and the myth of subjectivism and propose an experientialism grounded in the body, in which truth is always relative to a system of understanding. A second edition in 2003 added an afterword responding to two decades of argument.",
+        "why_read_zh": "因为它给了一把可以天天用的工具：面对任何一段说服性话语，你都能追问——它在用哪个源域映射哪个目标域，又刻意遮住了什么。这套分析对写文案、做销售、读政策文件同样有效。更重要的是它的哲学后果：如果概念依赖身体与经验，那么「中立描述」就不存在，只有被某套隐喻照亮的局部真相。",
+        "why_read_en": "Because it hands you a tool you can use daily. Faced with any piece of persuasive language you can ask which source domain is being mapped onto which target, and what that mapping is designed to hide. The same analysis works on advertising copy, on a sales pitch, on a policy document. More important is the philosophical consequence: if concepts depend on bodies and experience, then neutral description does not exist, only partial truths lit by one metaphor or another.",
+        "core_ideas_zh": [
+          "隐喻的本质是用一个经验域去理解和体验另一个经验域，它是概念层面的操作，语言层面的隐喻只是它的表面症状。",
+          "概念隐喻是系统性的：一个隐喻成立，就会连带生成一整套表达、推理与行动方式，而不只是几个说法。",
+          "方位隐喻直接来自身体：直立、躺下、增多、减少这些身体经验，被用来组织情绪、地位与数量这类抽象概念。",
+          "每一个隐喻都在凸显的同时遮蔽：把争论框定为战争，就看见了攻防与胜负，看不见协商与共同建构。",
+          "客观主义与主观主义都是神话；他们主张的第三条路是「经验主义」——意义来自身体与环境的互动，真理相对于理解方式。",
+          "因此隐喻不是可以随意替换的措辞，改变一个社会的主导隐喻，等于改变它能够推理出什么。"
+        ],
+        "core_ideas_en": [
+          "The essence of metaphor is understanding and experiencing one kind of thing in terms of another. It operates at the level of concept, and metaphor in language is only its surface symptom.",
+          "Conceptual metaphors are systematic: once one holds, it generates a whole family of expressions, inferences and actions, not merely a few turns of phrase.",
+          "Orientational metaphors come straight from the body. Standing, lying down, increasing and decreasing are used to organise abstractions such as mood, status and quantity.",
+          "Every metaphor highlights and hides at once. Framing argument as war makes attack and defence visible and makes negotiation and joint construction invisible.",
+          "Objectivism and subjectivism are both myths. Their third path is experientialism: meaning arises from the interaction of body and environment, and truth is relative to a way of understanding.",
+          "Metaphor is therefore not interchangeable wording. Changing the dominant metaphors of a society changes what that society is able to reason its way to."
+        ],
+        "key_questions_zh": [
+          "如果概念系统本身是隐喻性的，那么「客观真理」还剩下什么含义？",
+          "为什么某些隐喻会被一个文化反复使用，另一些则始终说不通？",
+          "当公共讨论被某一套隐喻垄断，哪些问题会变得无法提出？",
+          "隐喻的遮蔽是可以通过换一个隐喻来消除的，还是任何框架都必然付这笔代价？"
+        ],
+        "key_questions_en": [
+          "If the conceptual system is metaphorical through and through, what is left of the meaning of objective truth?",
+          "Why do some metaphors get reused endlessly within a culture while others never take hold?",
+          "When one family of metaphors monopolises public debate, which questions become impossible to ask?",
+          "Can the hiding be undone by swapping in another metaphor, or does every frame exact that price?"
+        ],
+        "who_should_read_zh": "适合写作者、市场与销售、产品与设计、政策与传播研究者；也适合对语言与思维关系感兴趣的普通读者。不需要语言学背景，书中例子几乎全部取自日常英语。",
+        "who_should_read_en": "For writers, marketers and salespeople, product and design people, and anyone working on policy or communication, as well as general readers curious about how language and thought relate. No linguistics background is needed; almost every example comes from ordinary English.",
+        "reading_note_zh": "第 1—3 章先建立定义，第 4—6 章讲方位隐喻（身体经验最直接），第 7—9 章讲本体隐喻与拟人，第 10—13 章讲结构隐喻以及凸显与遮蔽。第 25—30 章是全书的哲学账，值得慢读。可配合尼采《悲剧的诞生》对读：一个把隐喻当成艺术幻象，一个把它当成认知机制，正好构成两种相反的判断。",
+        "reading_note_en": "Chapters 1 to 3 establish the definitions, 4 to 6 cover orientational metaphors where bodily experience is most direct, 7 to 9 take up ontological metaphor and personification, and 10 to 13 handle structural metaphor together with highlighting and hiding. Chapters 25 to 30 settle the philosophical account and deserve slow reading. Read it against Nietzsche's The Birth of Tragedy: one treats metaphor as artistic illusion, the other as cognitive machinery, and the two verdicts sit in direct opposition."
+      }
+    }
+  ]
+}
