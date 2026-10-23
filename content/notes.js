@@ -869,6 +869,44 @@ export const notes = [
     ],
     topics: ['literature', 'history', 'existentialism'],
   },
+  {
+    id: 'note-024',
+    slug: 'tao-te-ching-the-original-is-already-an-edition',
+    book: 'tao-te-ching',
+    date: '2026-10-23',
+    voice: 'editorial',
+    key_insight_zh:
+      '手里这本《道德经》不是「原文」，而是若干次编辑之后最成功的一版；所谓「回到原本」，本身又是一次新的编辑。',
+    key_insight_en:
+      'The Tao Te Ching we hold is not the original text but the most successful of several editions; the wish to return to the original is itself one more act of editing.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于，「作者」与「成书」之间隔了不止一层。1973 年长沙马王堆三号汉墓出土的帛书《老子》甲、乙两本，抄写年代分别约在公元前 200 年以前与汉文帝时期，两本都是《德经》在前、《道经》在后；今天通行的王弼注本则把《道经》提到前面。篇序颠倒不只是装订习惯，它改变了全书从哪里开始说话。1993 年湖北荆门郭店一号楚墓出土的竹简《老子》，抄写不晚于公元前 300 年，是现存最早的本子，但只有甲、乙、丙三组、七十一枚简、约两千字，约为传世本的五分之二，且不分上下篇，章序与今本也不对应。它真正改变的是对「原典」的想象：差异不是抄手失手，而是有人做过取舍——传世本那句「绝圣弃智」，在简本里写作「绝智弃辩」，一字之差，批评的对手就换了一个。容易被忽略的一点是，每一次出土都在增加版本而不是减少版本：帛书之后有简本，简本之后还有更早的期待，校勘学越精密，「唯一的原文」就越远。值得警惕的是把「最早」直接等同于「最真」——郭店简本更像分章摘抄的选本，而非全帙，篇幅短不等于未被编辑。这与本站《继承的背叛》恰成一处互补：那篇论证一切活的传承都先是一次改写，这本则提示，连被改写的那个「起点」本身，也早已是某人的编辑结果。',
+    thinking_en:
+      'The key to this book is that more than one layer separates the "author" from the finished text. The silk manuscripts of the Laozi recovered in 1973 from Tomb No. 3 at Mawangdui in Changsha, labelled A and B, were copied around or before 200 BC and during the reign of Emperor Wen respectively, and both place the De section before the Dao section; the received Wang Bi edition, the basis of modern printings, puts the Dao first. Reversing the two halves is not a binding convention — it changes where the book begins to speak. The bamboo-slip Laozi excavated in 1993 from Tomb No. 1 at Guodian in Hubei, copied no later than 300 BC, is the oldest surviving witness, but it consists of three groups, A, B and C, on seventy-one slips, roughly two thousand characters, about two-fifths of the received text, with no division into two parts and a chapter order that does not match. What this genuinely changes is the image of the "original": the differences are not scribal slips but somebody\'s choices — the received line "discard sageliness, throw away wisdom" appears in the slips as "discard cleverness, throw away disputation," and with one character changed, the target of the criticism is a different opponent. The easily missed point is that every excavation multiplies editions rather than reducing them: after the silk manuscripts came the slips, and after the slips comes the hope of something earlier still; the more exact philology becomes, the further away the single original recedes. The caution worth keeping is against equating "earliest" with "truest" — the Guodian slips read more like a selection of chapters than a complete work, and brevity is not proof of untouched transmission. It complements this site\'s "The Treason of Inheritance": that essay argues that every living tradition begins as a rewrite; this book suggests that even the starting point being rewritten was already somebody\'s edit.',
+    questions_zh: [
+      '如果现存最早的《老子》只有今本的五分之二，我们凭什么把它当作「原典」？',
+      '篇序颠倒（德经在前还是道经在前）会改变什么，它为什么不是无关紧要的细节？',
+      '「回到原本」这个目标在方法上是否可能，它与「制造新版本」的界线在哪里？',
+    ],
+    questions_en: [
+      'If the oldest surviving Laozi holds only two-fifths of the received text, on what grounds do we treat it as the original?',
+      'What does the order of the two halves change, and why is it not a trivial detail?',
+      'Is "returning to the original" methodologically possible, and where is the line between that and producing yet another edition?',
+    ],
+    answers_zh: [
+      '不能凭年代。年代只证明它更早，不证明它更完整或更接近某个假设的祖本。更稳妥的说法是：它是目前可见的最早一个「版本」，而版本之间的关系需要靠异文比对推断，不能靠时间先后直接排序。',
+      '它决定了读者从哪里进入这本书。以《德经》开篇，全书先讲「德」如何运作，再回溯「道」；以《道经》开篇，则先立宇宙论，再落到伦理与政治。同一批文字，两种阅读顺序，得到的是两种论证结构。',
+      '方法上不可能，因为每次校勘都必须在一组异文中作出选择，而选择就是编辑。可以做到的只是把选择公开：注明依据哪一本、为何取此舍彼，让后来的人能够反驳。',
+    ],
+    answers_en: [
+      'Not on grounds of age. Age proves only that it is earlier, not that it is more complete or closer to some hypothetical ancestor. The safer claim is that it is the earliest edition now visible, and that relations among editions must be inferred from variant readings rather than ranked by date.',
+      'It decides where the reader enters the book. Opening with the De section, the argument first shows how virtue operates and then reaches back to the Dao; opening with the Dao, it establishes a cosmology first and descends to ethics and politics. The same body of text, read in two orders, yields two argumentative structures.',
+      'Not methodologically, because every collation must choose among variant readings, and choosing is editing. All that can be done is to make the choice public: state which witness is being followed and why the others were set aside, so that later readers can object.',
+    ],
+    topics: ['philosophy', 'history'],
+  },
 ];
 
 export default notes;
