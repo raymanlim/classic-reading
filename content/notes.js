@@ -907,6 +907,44 @@ export const notes = [
     ],
     topics: ['philosophy', 'history'],
   },
+  {
+    id: 'note-025',
+    slug: 'flow-the-scale-inside-the-activity',
+    book: 'flow',
+    date: '2026-10-24',
+    voice: 'editorial',
+    key_insight_zh:
+      '心流不是「更投入」，而是活动的目标与反馈自成一个闭环——当刻度由活动本身给出，人就不必再拿自己与别人对齐。',
+    key_insight_en:
+      'Flow is not a matter of trying harder. It is what happens when an activity supplies its own goals and its own feedback, so that the scale against which you are measured is generated inside the activity rather than borrowed from other people.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于，它把「最优体验」从一种感受重新描述成一种结构。契克森米哈赖给出的条件很朴素：目标清晰、反馈即时、挑战与技能大致相称。三者同时在场时，注意力被任务本身收走，自我意识退到后面，时间感失真——他称这种状态为心流，并把它区别于快乐（pleasure）与享乐（enjoyment），前者是需求的满足，后者才包含注意力的伸展。它真正改变的是对「动机」的理解：所谓「自成目的」（autotelic），指的不是活动没有目的，而是目的不指向活动之外的报酬，因此不必等到结果出来才能确认自己在做什么。容易被忽略的一点是，他让人随身携带呼叫器、在随机时刻记录当下活动与专注程度之后发现，人们在工作中报告心流的比例高于闲暇，而被问到「更想做什么」时几乎所有人都选闲暇——人对什么让自己投入的判断，与实际投入的程度系统性错位。值得警惕的是，这个框架容易被读成一种绩效建议：把心流当成提高产出的手段，等于把本来在活动内部的刻度重新搬到活动外面，恰好取消了它成立的条件。它与本站《参照系的暴政》恰成一处互补：那篇论证感受由参照系决定、而参照系多半由外部供给，这本则提示还存在另一种坐标——不是拒绝比较，而是让刻度长在事情本身里。',
+    thinking_en:
+      'The key move in this book is to redescribe optimal experience from a feeling into a structure. Csikszentmihalyi\'s conditions are plain: clear goals, immediate feedback, and a rough match between challenge and skill. When all three are present, attention is absorbed by the task, self-consciousness recedes, and the sense of time distorts — he calls this flow, and distinguishes it from pleasure, which is the satisfaction of a need, and from enjoyment, which involves the stretching of attention. What it genuinely changes is the understanding of motivation: "autotelic" does not mean an activity without a goal but one whose goal is not a reward located outside it, so that you do not have to wait for the outcome to know what you are doing. The easily missed point is what his experience-sampling work turned up, with participants carrying pagers and recording at random moments what they were doing and how absorbed they were: people reported flow more often at work than in leisure, while almost everyone, asked what they would rather be doing, chose leisure — our judgment about what absorbs us is systematically out of step with how absorbed we actually are. The caution worth keeping is that this framework is easily read as a performance tip: treating flow as a means to higher output moves the scale back outside the activity and cancels the very condition that produced it. It complements this site\'s "The Tyranny of the Reference Point": that essay argues that feeling is set by a reference frame largely supplied from outside, while this book points to another coordinate — not a refusal to compare, but a scale that grows inside the work itself.',
+    questions_zh: [
+      '为什么「目标清晰、反馈即时、挑战与技能相称」这三条能让人忘记自我，而不是让人更紧张？',
+      '人们在工作中比在闲暇中更容易进入心流，为什么他们自己却判断反了？',
+      '把心流当成提高产出的工具，为什么反而会让它不再出现？',
+    ],
+    questions_en: [
+      'Why do clear goals, immediate feedback, and a match between challenge and skill make the self disappear rather than making a person more anxious?',
+      'People enter flow more often at work than at leisure — why do they judge the opposite about themselves?',
+      'Why does treating flow as a tool for higher output make it stop occurring?',
+    ],
+    answers_zh: [
+      '因为注意力被任务的全部通道占满了。焦虑来自注意力无处安放、只能反复回落到自我评价上；当目标与反馈把每一步该做什么都填满，评价自我这件事就没有余量发生。紧张并不消失，它被转化成了任务本身需要的警觉。',
+      '因为判断依据错了。「更想做什么」问的是偏好与舒适，而心流问的是投入程度；闲暇通常提供低挑战的放松，工作反而提供相称的挑战与即时反馈。人对自身状态的回忆依赖的是「应该喜欢什么」，不是「实际在什么状态下最专注」。',
+      '因为那会把目的重新搬到活动之外：一旦产出成为真正的目标，活动中的反馈就变成考核，注意力分出一部分去监控结果，闭环被打破。心流要求的是当下这一步本身值得做，而不是这一步能换来什么。',
+    ],
+    answers_en: [
+      'Because attention is fully occupied by the task. Anxiety arises when attention has nowhere to go and keeps falling back on self-evaluation; when goals and feedback fill every step with something to do, there is no spare capacity left for appraising yourself. Tension does not vanish — it is converted into the alertness the task itself requires.',
+      'Because the question is the wrong instrument. "What would you rather be doing" measures preference and comfort; flow measures absorption. Leisure usually offers low-challenge relaxation, while work offers matched challenge and immediate feedback. Memory about our own states relies on what we think we should enjoy, not on when we were actually most focused.',
+      'Because it relocates the purpose outside the activity: once output becomes the real goal, in-activity feedback turns into appraisal, part of attention is diverted to monitoring results, and the loop breaks. Flow requires that the present step be worth doing for itself rather than for what it will buy.',
+    ],
+    topics: ['cognitive-science', 'modern-society'],
+  },
 ];
 
 export default notes;
