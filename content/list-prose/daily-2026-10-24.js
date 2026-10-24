@@ -1,0 +1,67 @@
+/** 每日推荐阅读指引 · 2026-10-24 */
+export const batch = {
+  'the-holy-roman-empire': {
+    description_zh: '公元 800 年圣诞节，教宗利奥三世把皇冠戴在正在圣彼得大教堂做弥撒的查理曼头上，一个延续一千零六年的政治体由此开场。它自称罗马帝国的正统继承者，却既无固定首都，也无共同语言，没有唯一的主保圣人，甚至没有一条清晰的边界。伏尔泰那句「既不神圣，也不罗马，更非帝国」被后人当作定论沿用了两个世纪。牛津大学历史学家彼得·威尔逊用一部千页通史推翻这个定论：他放弃编年史写法，改从理念、归属、治理、社会四个主题切入，考察皇帝、教宗、诸侯、帝国议会、帝国法院与城市联盟如何共享主权，如何靠寻求共识与协商调解而非霸权维持运转。书末附七十余页大事年表，补足专题结构带来的时间断裂。',
+    description_en: 'On Christmas Day in the year 800, Pope Leo III placed a crown on the head of Charlemagne while he was saying mass in St Peter\'s, and a political body that would last 1,006 years began. It claimed to inherit Rome, yet it had no fixed capital, no common language, no single patron saint and not even a clear frontier. Voltaire\'s jibe that it was neither holy, nor Roman, nor an empire was repeated as settled verdict for two centuries. Peter Wilson, a historian at Oxford, overturns that verdict across a thousand pages. He abandons chronological narrative and organises the book around four themes — idea, belonging, governance and society — asking how emperor, pope, princes, imperial diet, imperial courts and city leagues shared sovereignty, and how the whole thing ran on consensus-seeking and negotiation rather than on command. A chronology of more than seventy pages at the back repairs the temporal discontinuities that a thematic structure creates.',
+    why_read_zh: '大多数人对神圣罗马帝国的印象停留在伏尔泰的嘲讽里，而这本书的价值恰恰在于把嘲讽还原为偏见。它示范了一种罕见的史学写法：不以王朝更替为主线，而以「一个政体靠什么维持」为问题。读完之后，你会得到一个可迁移的分析框架——当一个系统没有中心、没有统一语言、没有强制力，它凭什么不散架。这个问题对理解欧盟、联邦制、联盟组织乃至任何松耦合结构都直接有效。',
+    why_read_en: 'Most readers inherit their image of the Holy Roman Empire from Voltaire\'s joke, and the value of this book lies precisely in turning that joke back into a prejudice. It demonstrates an unusual way of writing history: not dynasties in sequence, but a single question — what holds a polity together. What remains afterwards is a transferable analytical frame: when a system has no centre, no shared language and no monopoly on force, why does it not fall apart? That question bears directly on the European Union, on federalism, on alliance structures and on any loosely coupled organisation.',
+    core_ideas_zh: [
+        '帝国不是失败的国家，而是一种不同的政治体：主权由皇帝、教宗、诸侯、议会、法院与城市共同持有，其运作逻辑是协商与妥协，而非自上而下的命令。',
+        '伏尔泰式判断是启蒙运动与民族国家叙事的产物，它用「统一主权国家」这把尺子去量一个不以此为目标的政治体，因而必然量出「畸形」。',
+        '帝国靠理念与仪式维系：继承罗马的宣称、普世基督教的使命、选举与加冕的程序，共同构成一种无需常备官僚机器也能生效的合法性。',
+        '帝国的多元性不是缺陷而是资源——普鲁士、荷兰、瑞士、奥地利与意大利城邦都从这一母体中生长出来，欧洲的多样性有相当部分可以追溯到它。'
+      ],
+    core_ideas_en: [
+        'The Empire was not a failed state but a different kind of polity: sovereignty was held jointly by emperor, pope, princes, diet, courts and cities, and it ran on negotiation and compromise rather than top-down command.',
+        'The Voltairean verdict is a product of Enlightenment and nation-state assumptions; it measures a polity that never aimed at unitary sovereignty with a ruler built for something else, and so necessarily finds deformity.',
+        'The Empire was held together by ideas and ritual: the claim to Rome, a universal Christian mission, and the procedures of election and coronation produced legitimacy that worked without a standing bureaucratic machine.',
+        'Imperial plurality was a resource rather than a defect — Prussia, the Dutch Republic, Switzerland, Austria and the Italian city-states all grew out of this parent body, and a good part of Europe\'s diversity traces back to it.'
+      ],
+    key_questions_zh: [
+        '一个没有首都、没有共同语言、没有单一主权者的政治体，靠什么维持一千年而不解体？',
+        '「帝国」是否必须以统一主权与中央集权为定义？如果不是，我们该如何重新描述它？',
+        '后世对同一个历史实体的解读为何会随现实政治需要反复变形——德意志民族国家、欧盟模板、外来压迫者？'
+      ],
+    key_questions_en: [
+        'What holds a polity together for a thousand years when it has no capital, no common language and no single sovereign?',
+        'Must an empire be defined by unitary sovereignty and centralisation? If not, how should it be described instead?',
+        'Why does the interpretation of a single historical entity keep reshaping itself according to present political needs — German nation-state, template for the EU, foreign oppressor?'
+      ],
+    who_should_read_zh: '对欧洲史有基础兴趣、又不满足于王朝故事线的读者；研究制度、联邦制与多中心治理的人；以及任何需要思考「松耦合系统如何长期存续」的管理者与组织研究者。',
+    who_should_read_en: 'Readers with a basic interest in European history who want more than a sequence of dynasties; anyone studying institutions, federalism or polycentric governance; and managers or organisational researchers who need to think about how loosely coupled systems survive over time.',
+    reading_note_zh: '先读引言与第一部分「理念」，弄清帝国自我叙述的三块基石——神圣、罗马、帝国，这是全书其余部分的前提。之后不必按顺序读，可按当下关心的问题跳到「治理」或「社会」。七百页正文容易疲，建议每次只攻一个主题，配合书末大事年表定位年代。若想先建立时间感，可先读附录年表再回头读正文。',
+    reading_note_en: 'Start with the introduction and Part One, \'Idea\', which sets out the three pillars of the Empire\'s self-description — holy, Roman, empire — and is the premise for everything else. After that, read out of order: jump to \'Governance\' or \'Society\' depending on the question you currently care about. Seven hundred pages of body text is tiring, so take one theme at a time and use the chronology at the back to fix the dates. If you want a sense of chronology first, read the appendix before the main text.'
+  },
+  'the-perfectionists': {
+    description_zh: '这本书讲的不是发明，而是「准」。十八世纪，约翰·威尔金森为了给蒸汽机造出足够圆的汽缸，发明了精密镗床；十九世纪，约瑟夫·惠特沃斯把螺纹标准化，让零件第一次可以互换；二十世纪，同一套追求被推到极限——喷气发动机的叶片间隙、原子钟的振荡、引力波探测器数公里长的干涉臂，以及把电路刻进硅片的纳米级对准。西蒙·温切斯特以公差这条主线串起两百五十年工业史：从零点一英寸到十的负三十五次方米，误差每缩小一个数量级，就有一批新事物成为可能。他同时追问另一面：精确是否有边界，无限逼近的代价是什么，日本美学中的「侘寂」为何构成对完美主义的反驳。',
+    description_en: 'This is a book not about invention but about accuracy. In the eighteenth century John Wilkinson built a boring machine precise enough to give steam engines a truly round cylinder; in the nineteenth Joseph Whitworth standardised the screw thread and made interchangeable parts possible for the first time; in the twentieth the same pursuit was pushed to its limits — blade clearances in jet engines, the oscillation of atomic clocks, interferometer arms kilometres long listening for gravitational waves, and nanometre alignment in the lithography that writes circuits onto silicon. Simon Winchester uses tolerance as a single thread through 250 years of industrial history: from a tenth of an inch down to 10⁻³⁵ metres, and each order of magnitude opens a new class of things that become possible. He also asks the opposite question — whether precision has a limit, what endless approximation costs, and why the Japanese aesthetic of wabi-sabi amounts to a rebuttal of perfectionism.',
+    why_read_zh: '多数技术史写「谁发明了什么」，这本书写「谁能做得更准」，而后者才是现代工业真正的分水岭。对制造业读者尤其有用：公差不是一个质检指标，而是产品定义、工艺路线与成本结构的源头。读完之后再看一张图纸上的 ±0.01，看到的将不再是一个数字，而是一整套能力、设备与供应链的门槛。',
+    why_read_en: 'Most histories of technology record who invented what; this one records who could make it more accurately, and that is where the real watershed of modern industry lies. It is especially useful for anyone in manufacturing: tolerance is not a quality-control figure but the origin of product definition, process routing and cost structure. After reading it, a ±0.01 on a drawing stops being a number and becomes a threshold of capability, equipment and supply chain.',
+    core_ideas_zh: [
+        '现代性的关键变量是公差，而非发明：误差每缩小一个数量级，就解锁一整类此前不可能的产品与科学。',
+        '可互换性是精密的第一份社会红利——标准化螺纹与量规让零件脱离工匠个体，使大规模生产与维修体系成为可能。',
+        '精密是系统能力，不是单点技艺：机床、量具、材料、温度控制与测量溯源必须同步推进，任何一环拖后腿都会锁死上限。',
+        '精确存在收益递减与哲学边界：无限逼近不仅昂贵，而且未必有意义，侘寂式的「恰到好处」构成对完美主义的正当反驳。'
+      ],
+    core_ideas_en: [
+        'The decisive variable of modernity is tolerance, not invention: each order of magnitude of accuracy unlocks an entire class of products and science that was previously impossible.',
+        'Interchangeability was precision\'s first social dividend — standard threads and gauges detached parts from individual craftsmen and made mass production and repair systems possible.',
+        'Precision is a system capability rather than a single-point skill: machine tools, metrology, materials, temperature control and traceability must advance together, and the weakest link sets the ceiling.',
+        'Accuracy has diminishing returns and a philosophical boundary: endless approximation is expensive and not always meaningful, and a wabi-sabi sense of \'just enough\' is a legitimate rebuttal of perfectionism.'
+      ],
+    key_questions_zh: [
+        '为什么「做得更准」比「发明新东西」更能解释现代世界的形成？',
+        '精确是否有终点？当成本随精度指数上升，工程判断应该在何处停下？',
+        '标准化在提升效率的同时，是否也消灭了某些不可替代的手工知识？'
+      ],
+    key_questions_en: [
+        'Why does \'making it more accurately\' explain the making of the modern world better than \'inventing something new\'?',
+        'Does precision have an endpoint? When cost rises exponentially with accuracy, where should engineering judgement stop?',
+        'Does standardisation, while raising efficiency, also destroy kinds of craft knowledge that cannot be replaced?'
+      ],
+    who_should_read_zh: '制造业与硬件工程师，尤其是精密加工、陶瓷结构件、封装与设备方向；做技术型销售、需要向客户解释「为什么这个零件贵」的人；以及关心技术史与工艺哲学的一般读者。',
+    who_should_read_en: 'Manufacturing and hardware engineers, especially in precision machining, ceramic structural parts, packaging and equipment; technical salespeople who need to explain to customers why a given part costs what it costs; and general readers interested in the history and philosophy of craft.',
+    reading_note_zh: '按公差量级推进的顺序读最省力——每一章基本对应一个数量级的突破，读到喷气发动机与引力波探测器时精度已进入微观尺度，节奏会明显加快。重点看惠特沃斯标准化那一章，它解释了整个现代供应链的前提。若只关心半导体，可直接跳到硅片与光刻相关章节，再回头补前文。',
+    reading_note_en: 'Read it in the order of magnitude it follows — each chapter broadly corresponds to one order-of-magnitude breakthrough, and the pace picks up once jet engines and gravitational-wave detectors push accuracy into the microscopic. Pay particular attention to the Whitworth chapter on standardisation, which explains the premise of the entire modern supply chain. If silicon is your interest, jump to the wafer and lithography material first, then go back for the earlier groundwork.'
+  }
+};
