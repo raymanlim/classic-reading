@@ -945,6 +945,44 @@ export const notes = [
     ],
     topics: ['cognitive-science', 'modern-society'],
   },
+  {
+    id: 'note-026',
+    slug: 'how-emotions-are-made-constructed-categories-are-real',
+    book: 'how-emotions-are-made',
+    date: '2026-10-25',
+    voice: 'editorial',
+    key_insight_zh:
+      '情绪不是被识别出来的自然类别，而是大脑用概念对身体信号所做的归类；但被建构不等于虚假——社会现实一旦被共同接受，就会产生真实的因果效力。',
+    key_insight_en:
+      'Emotions are not natural kinds waiting to be recognised but categorisations the brain performs on bodily signals using concepts. And constructed does not mean fake: once a social reality is shared, it acquires real causal force.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于，它把情绪从「被触发的东西」重新描述成「被做出来的东西」。巴瑞特的论证起点是：大脑的首要任务不是思考，而是预测性地调节身体的能量收支（她称为身体预算）；内感受送来的是关于身体状态的模糊信号，而这些信号本身并不携带情绪标签。只有当大脑调用过去经验形成的概念去归类这些信号、并结合当下情境，情绪才作为一次建构出现——同样一阵心跳加速，可以被归为恐惧、愤怒、兴奋，或者只是咖啡喝多了。它真正动摇的是「基本情绪」这一常识：如果情绪是被建构的，面部表情就不可能是跨文化普遍的情绪指纹，而这正是她与艾克曼一派长期争论的焦点，且这场争论至今没有结案，读者不宜把它当作已经生效的判决。容易被忽略的一点是，她从未主张情绪是虚构的。她区分物理现实与社会现实：钱只是一张纸，但共同接受使它具备真实的因果效力，破产会真的让人挨饿；情绪类别同理，被社会共同接受的分类会反过来塑造体验、责任与制度。值得警惕的是，这套理论极易被读成「情绪都是自己想出来的，所以可以随意改写」，而它的本意要窄得多：能被改变的是概念库的精细度与预测的准确度，不是意志对感受的直接命令。它与本站《平均人的发明》恰成一组对照：那篇追问被制造出来的「正常」为何可疑，这本则提示，被制造与被虚构并不是同一件事——决定一个类别是否可信的，是它的建构机制是否被理解，以及它的效力最终由谁承担。',
+    thinking_en:
+      'The key move in this book is to redescribe emotion from something triggered into something made. Barrett starts from a claim about what brains are for: their primary job is not thinking but the predictive regulation of the body\'s energy budget, which she calls body budgeting. Interoception delivers only ambiguous signals about the body\'s state, and those signals carry no emotional label in themselves. An emotion appears as a construction only when the brain draws on concepts formed from past experience to categorise those signals in light of the present situation — the same quickened heartbeat can be filed as fear, anger, excitement, or simply too much coffee. What it genuinely unsettles is the common sense of "basic emotions": if emotions are constructed, facial expressions cannot be the cross-cultural fingerprints of discrete affects, which is precisely the long-running dispute between Barrett and the Ekman tradition — a dispute that remains unresolved, and should not be read as a settled verdict. The easily missed point is that she never claims emotions are fictitious. She distinguishes physical from social reality: money is only paper, yet shared acceptance gives it real causal force, and bankruptcy really does leave people hungry. Emotional categories work the same way, shaping experience, accountability and institutions in turn. The caution worth keeping is that the theory is easily read as "emotions are all in your head, so you can rewrite them at will", when its actual claim is narrower: what can change is the granularity of the conceptual repertoire and the accuracy of prediction, not the direct command of will over feeling. It forms a pair with this site\'s "The Invention of the Average": that essay asks why a manufactured "normal" is suspect, while this book suggests that manufactured and fictitious are not the same thing — what decides whether a category can be trusted is whether its construction is understood, and who ultimately bears its effects.',
+    questions_zh: [
+      '如果情绪是大脑用概念建构出来的，为什么不同文化里的人会对同一情境报告出相似的情绪？',
+      '「被建构」为什么不等同于「不真实」？社会现实与物理现实的差别在哪里，又在什么地方没有差别？',
+      '如果情绪粒度的精细程度可以被改变，这种改变为什么不能靠意志直接命令感受来完成？',
+    ],
+    questions_en: [
+      'If emotions are constructed by the brain using concepts, why do people across cultures report similar emotions in similar situations?',
+      'Why is "constructed" not the same as "unreal"? Where do social and physical reality differ, and where do they not?',
+      'If emotional granularity can be changed, why can that change not be achieved by willing a feeling away?',
+    ],
+    answers_zh: [
+      '因为概念库在很大程度上是被文化共同维护的。相似的情境会调用相似的范畴，而身体信号本身又足够模糊，足以容纳这些范畴。跨文化的相似性因此不构成对建构论的否证，它更像是共同概念在相似条件下的收敛结果；真正有判别力的是那些范畴不对应的场合，比如某些语言里根本没有与「愤怒」一一对应的词。',
+      '因为真实与否取决于有没有因果效力，而不取决于有没有物理实体。社会现实依赖共同接受才存在，这一点与物理现实不同；但一旦成立，它就和物理事实一样能约束行为、分配资源、造成伤害，这一点又没有差别。把「建构」当成「随便」的人，通常忽略了后半句。',
+      '因为感受不是意志的对象。能改变的是预测所依据的概念与情境线索：词汇更细、情境识别更准、身体状态更稳定，都会改变归类的结果。但直接下令「不要害怕」，只是给大脑增加了一条与内感受相冲突的输入，通常不改变归类本身。',
+    ],
+    answers_en: [
+      'Because the conceptual repertoire is largely maintained by a culture. Similar situations invoke similar categories, and bodily signals are ambiguous enough to accommodate them. Cross-cultural similarity is therefore not a refutation of constructionism but a convergence of shared concepts under shared conditions; the discriminating cases are the ones where the categories do not line up — languages, for instance, with no word that maps one-to-one onto "anger".',
+      'Because reality turns on causal force, not on physical substance. Social reality exists only by shared acceptance, and in that respect it differs from physical reality; but once in place it constrains behaviour, allocates resources and causes harm exactly as physical facts do, and in that respect it does not differ at all. Those who read "constructed" as "arbitrary" usually drop the second half.',
+      'Because feeling is not an object of will. What can change are the concepts and situational cues that prediction draws on: finer vocabulary, better reading of context, a steadier bodily state all alter the categorisation. But issuing the order "do not be afraid" merely adds an input that conflicts with interoception, and usually leaves the categorisation intact.',
+    ],
+    topics: ['cognitive-science', 'philosophy', 'science-and-nature'],
+  },
 ];
 
 export default notes;
