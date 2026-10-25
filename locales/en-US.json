@@ -5,7 +5,7 @@
     "tagline": "Read the classics. Think deeper.",
     "sub_tagline": "Build your model of the world through the classics.",
     "curated_by": "Curated by Rayman",
-    "description": "A personal library of classic books for understanding the world: AI, finance, investing, economics, history, business, philosophy, and technology."
+    "description": "A personal library of classic books for understanding the world: AI, technology, history, philosophy, literature, essays, and education."
   },
   "nav": {
     "home": "Home",
@@ -44,7 +44,7 @@
     "botd_read": "Read this book",
     "botd_all": "See all books",
     "categories_title": "Categories",
-    "categories_sub": "Twelve doorways into the world.",
+    "categories_sub": "Fourteen doorways into the world.",
     "paths_title": "Reading Paths",
     "paths_sub": "Sequence matters more than the list.",
     "topics_title": "Topics",
@@ -153,7 +153,7 @@
   },
   "categories": {
     "title": "Categories",
-    "sub": "Twelve doorways into the world.",
+    "sub": "Fourteen doorways into the world.",
     "intro": "A category is not a shelf. It is an entrance — and behind each entrance is a set of questions, not a pile of books.",
     "books_in": "books",
     "explore": "Enter category"
@@ -330,15 +330,15 @@
   "meta": {
     "home": {
       "title": "Classics Library · Build your model of the world through the classics",
-      "description": "A bilingual personal library of 248 books: 100 curated classics plus 148 titles imported from reading lists, 12 categories, and 5 reading paths for understanding AI, finance, investing, economics, history, business, and philosophy."
+      "description": "A bilingual personal library of classic books: curated classics and imported reading lists side by side, organized by category, topic, and reading path, for understanding AI, technology, history, philosophy, literature, essays, and education."
     },
     "library": {
       "title": "Library · All 248 books",
-      "description": "Browse all 248 books by category, source, topic, and difficulty. The 100 curated classics each carry a bilingual summary, core ideas, and why they still matter; the 148 imported titles carry bibliographic facts and the source channel’s framing."
+      "description": "Browse all books by category, source, topic, and difficulty. Curated classics each carry a bilingual summary, core ideas, and why they still matter; imported titles carry bibliographic facts and the source channel’s framing."
     },
     "categories": {
       "title": "Categories · Classics Library",
-      "description": "From AI, technology, finance, and investing to history, philosophy, psychology, and literature — twelve doorways into the world."
+      "description": "From AI and technology to history, philosophy, literature, essays, and education — fourteen doorways into the world."
     },
     "topics": {
       "title": "Topics · Classics Library",
