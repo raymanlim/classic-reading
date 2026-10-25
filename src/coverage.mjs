@@ -254,6 +254,14 @@ async function main() {
   for (const r of recent.slice(0, 7)) {
     console.log(`  ${r.date}  [${r.theme || r.category}]  ${r.slug || '(slug 未解析)'}`);
   }
+  console.log('');
+  console.log('────────────────────────────────────────');
+  console.log('⚠️ 运维提示（每次运行都要看）：');
+  console.log('  若 node src/build.mjs 启动后 >3 分钟零输出且 dist 不更新 → 判定卡死。');
+  console.log('  处置：停止等待、不要重试第三次 → 直接同步推送 content/，交由 CI 完成构建与校验');
+  console.log('        （check.mjs 不通过则不会部署，线上安全）；摘要标注「本地构建卡死，已交 CI 构建」。');
+  console.log('  入库新书后必须检查作者档案是否存在，否则作者页会 404。');
+  console.log('  完整 SOP：docs/每日推荐任务-运维SOP.md');
 }
 
 main().catch((e) => {
