@@ -1,0 +1,369 @@
+{
+  "date": "2026-10-25",
+  "books": [
+    {
+      "slug": "montaigne-essays",
+      "category": "essays",
+      "source": "batch",
+      "title_zh": "蒙田随笔",
+      "title_en": "Essays (Essais)",
+      "author": "michel-de-montaigne",
+      "author_zh": "米歇尔·德·蒙田",
+      "author_en": "Michel de Montaigne",
+      "nationality_zh": "法国",
+      "nationality_en": "French",
+      "year": 1580,
+      "original_language": "fr",
+      "list_category_zh": "经典文库补遗",
+      "list_category_en": "Library Backfill",
+      "theme_zh": "把自己当作研究对象，是一种可以练习的能力",
+      "theme_en": "Taking oneself as an object of study is a trainable capacity",
+      "tags": ["essay", "philosophy", "ethics", "human-nature", "classics", "reading"],
+      "topics": ["essays-and-reflection", "philosophy", "existentialism"],
+      "prose": {
+        "description_zh": "蒙田三十八岁退隐，开始写一种此前不存在的东西：不谈神、不谈宏大真理，只谈自己——自己的恐惧、习惯、疾病、判断如何变化。他写自己怕死，写自己记性差，写自己如何在不同的心境下对同一件事得出相反结论。这种写法后来被称为随笔（essai，本义是「尝试」）。全书一百多篇，长短不一，没有体系，却构成了一个人持续二十年的自我观测记录。",
+        "description_en": "At thirty-eight Montaigne retired and began writing something that had not existed before: not about God or grand truths, but about himself — his fears, habits, illnesses, and how his judgments changed. He writes that he fears death, that his memory is poor, that in different moods he reaches opposite conclusions about the same matter. The form came to be called the essay (essai, literally 'an attempt'). The book's hundred-odd pieces, of varying length and no system, form one man's twenty-year record of self-observation.",
+        "why_read_zh": "它示范了一种极难得的态度：对自己的判断保持怀疑，但不因此陷入瘫痪。蒙田既不宣布真理，也不放弃判断，他只是不断试探「我这样想，是否只是因为我是我」。在今天这个观点过剩、确定性过剩的环境里，这种温和而彻底的自我怀疑，是最有效的解毒剂。",
+        "why_read_en": "It demonstrates a rare attitude: doubting one's own judgment without being paralyzed by the doubt. Montaigne neither proclaims truth nor abandons judgment; he keeps testing whether he thinks something merely because he is who he is. In an environment of surplus opinion and surplus certainty, this gentle but thorough self-doubt is the most effective antidote.",
+        "core_ideas_zh": [
+          "「我知道什么」比「我相信什么」更值得反复追问。",
+          "人的判断随身体状态、年龄与处境变化，因此需要持续复核。",
+          "承认自己的普通，是获得清醒的前提。",
+          "写作可以是自我观察的工具，而不只是表达观点的容器。"
+        ],
+        "core_ideas_en": [
+          "'What do I know' is worth asking more often than 'what do I believe'.",
+          "Human judgment shifts with bodily state, age, and circumstance, and therefore needs continual rechecking.",
+          "Accepting one's ordinariness is the precondition of clarity.",
+          "Writing can be an instrument of self-observation, not merely a vessel for opinion."
+        ],
+        "key_questions_zh": [
+          "一个人如何在不放弃判断的前提下，怀疑自己的判断？",
+          "我们的观点有多少来自推理，多少来自性情与习惯？",
+          "面对无法解决的根本问题，人应当如何与之共处？"
+        ],
+        "key_questions_en": [
+          "How can one doubt one's own judgment without abandoning judgment altogether?",
+          "How much of our opinion comes from reasoning, and how much from temperament and habit?",
+          "How should one live alongside fundamental questions that cannot be resolved?"
+        ],
+        "who_should_read_zh": "适合观点鲜明、容易在争论中变得强硬的人。也适合任何想开始写点东西、但不知从何写起的人——蒙田证明了「写自己」足以成为一生的题目。",
+        "who_should_read_en": "For readers with strong opinions who tend to harden in argument. Also for anyone who wants to start writing but does not know where to begin: Montaigne proves that writing about oneself can sustain a lifetime.",
+        "reading_note_zh": "不要从头读到尾，那会失败。挑短篇入手，如「论闲逸」「论恐惧」「论书籍」；每次读两三篇即可。读到与自己当下处境相关的题目时停下来，写一段自己的回应，这本书的用法就是被反驳和续写。",
+        "reading_note_en": "Do not read cover to cover; that attempt usually fails. Start with short pieces such as 'Of Idleness', 'Of Fear', and 'Of Books', two or three at a time. When a topic touches your present situation, stop and write a paragraph in reply — this book is meant to be contradicted and continued."
+      }
+    },
+    {
+      "slug": "bacon-essays",
+      "category": "essays",
+      "source": "batch",
+      "title_zh": "培根随笔",
+      "title_en": "The Essays",
+      "author": "francis-bacon",
+      "author_zh": "弗朗西斯·培根",
+      "author_en": "Francis Bacon",
+      "nationality_zh": "英国",
+      "nationality_en": "British",
+      "year": 1597,
+      "original_language": "en",
+      "list_category_zh": "经典文库补遗",
+      "list_category_en": "Library Backfill",
+      "theme_zh": "把处世经验压缩成可以随身携带的判断句",
+      "theme_en": "Compressing worldly experience into portable maxims of judgment",
+      "tags": ["essay", "philosophy", "power", "ethics", "classics", "strategy"],
+      "topics": ["essays-and-reflection", "power-and-politics", "philosophy"],
+      "prose": {
+        "description_zh": "培根是政治家、律师、法官，也是近代科学方法的奠基人之一。他的随笔不谈玄思，只处理具体问题：读书该怎么读、谈判如何开局、嫉妒从哪里来、权力如何腐蚀人、如何识别伪装的智慧。每条论断都短、硬、可执行，带着法庭与宫廷里磨出来的锋利。它是英语散文的奠基之作，也是一种「把经验提炼成规则」的写作范式。",
+        "description_en": "Bacon was a statesman, lawyer, judge, and one of the founders of the modern scientific method. His essays avoid speculation and address concrete matters: how to read, how to open a negotiation, where envy comes from, how power corrupts, how to detect counterfeit wisdom. Each judgment is short, hard, and actionable, sharpened in courtrooms and at court. It is a founding work of English prose and a model for distilling experience into rules.",
+        "why_read_zh": "它提供了一种与蒙田相反的自我训练：不是怀疑自己，而是把判断磨得更准、更省字。读培根能显著提高对「话术」的免疫力——他自己就是话术高手，因此也最擅长指出别人在哪里下套。对做销售、谈判、管理的人尤其有用。",
+        "why_read_en": "It offers the opposite training to Montaigne: not doubting oneself but sharpening judgment into fewer, harder words. Reading Bacon markedly improves immunity to rhetoric — he was a master of it, and therefore the best at showing where others set traps. Especially useful for those in sales, negotiation, and management.",
+        "core_ideas_zh": [
+          "读书的目的不是记住内容，而是塑造判断力；不同书应当用不同方式读。",
+          "权力会放大一个人原有的性格，而不是改变它。",
+          "许多看似道德的问题，实质是信息与利益结构的问题。",
+          "简洁是判断清晰的外在标志。"
+        ],
+        "core_ideas_en": [
+          "The purpose of reading is not to retain content but to shape judgment; different books require different methods.",
+          "Power amplifies a person's existing character rather than changing it.",
+          "Many seemingly moral problems are really problems of information and interest structures.",
+          "Concision is the outward sign of clear judgment."
+        ],
+        "key_questions_zh": [
+          "经验能否被提炼成可传授的规则，还是只能靠亲历获得？",
+          "在权力关系中，一个人如何保持判断力而不被位置改变？",
+          "读书应当为了什么，才算没有浪费时间？"
+        ],
+        "key_questions_en": [
+          "Can experience be distilled into transferable rules, or is it only obtainable firsthand?",
+          "Within relations of power, how does one preserve judgment without being altered by position?",
+          "What should reading be for, if it is not to waste time?"
+        ],
+        "who_should_read_zh": "适合做商业、谈判、组织管理的读者，以及任何需要快速判断他人意图的人。文学趣味强的读者可能觉得它过于功利，这本身也值得思考。",
+        "who_should_read_en": "For readers in business, negotiation, and organizational management, and anyone who must quickly judge others' intentions. Readers with a strong literary bent may find it utilitarian — which is itself worth thinking about.",
+        "reading_note_zh": "重点读「论读书」「论权力」「论谈判」「论嫉妒」「论伪智」五篇，其余可跳读。读时准备反驳：培根的建议以「如何在体制内取胜」为前提，把它放进今天的环境需要重新检验。",
+        "reading_note_en": "Focus on 'Of Studies', 'Of Great Place', 'Of Negotiating', 'Of Envy', and 'Of Seeming Wise'; the rest can be skimmed. Read prepared to object: Bacon's advice assumes the goal of winning within a system, and transplanting it to today requires re-examination."
+      }
+    },
+    {
+      "slug": "emerson-essays-first-series",
+      "category": "essays",
+      "source": "batch",
+      "title_zh": "爱默生随笔：第一辑",
+      "title_en": "Essays: First Series",
+      "author": "ralph-waldo-emerson",
+      "author_zh": "拉尔夫·沃尔多·爱默生",
+      "author_en": "Ralph Waldo Emerson",
+      "nationality_zh": "美国",
+      "nationality_en": "American",
+      "year": 1841,
+      "original_language": "en",
+      "list_category_zh": "经典文库补遗",
+      "list_category_en": "Library Backfill",
+      "theme_zh": "一个人凭什么可以不依赖他人的判断而活",
+      "theme_en": "On what grounds can a person live without depending on others' judgment",
+      "tags": ["essay", "philosophy", "human-nature", "religion", "classics", "united-states"],
+      "topics": ["essays-and-reflection", "philosophy", "religion-and-meaning"],
+      "prose": {
+        "description_zh": "爱默生辞去牧师职务后，以演讲和写作提出一种属于新大陆的思想姿态：人不应当通过模仿他人、依赖传统或服从机构来获得意义，而应当信任自己的直接经验。「自立」「补偿」「精神法则」等篇，把这种主张推演到伦理、行动与信仰各个层面。文字是演讲式的，句子短促有力，常以格言收束，适合朗读。",
+        "description_en": "After resigning his ministry, Emerson used lectures and essays to articulate a distinctly new-world intellectual stance: a person should not derive meaning by imitating others, relying on tradition, or obeying institutions, but by trusting direct experience. Pieces such as 'Self-Reliance', 'Compensation', and 'Spiritual Laws' extend this claim into ethics, action, and faith. The prose is oratorical — short, forceful sentences often closing in aphorism — and reads well aloud.",
+        "why_read_zh": "它处理的是一个至今没有过时的问题：在一个充满他人意见的环境里，如何分辨「这是我真正相信的」与「这是我被教导要相信的」。爱默生的答案偏激进，未必全对，但正是这种激进能逼你表态。对创业者、独立创作者、任何需要长期独自做判断的人，这本书是精神燃料。",
+        "why_read_en": "It addresses a question that has not aged: amid a flood of others' opinions, how do you separate what you actually believe from what you were taught to believe? Emerson's answer is radical and not always right, but its radicalism forces you to take a position. For founders, independent creators, and anyone who must judge alone over long stretches, it is fuel.",
+        "core_ideas_zh": [
+          "模仿他人等于放弃自己；原创性来自对自身经验的诚实。",
+          "世界存在某种补偿结构：每一次获得都伴随相应的代价。",
+          "机构与习俗的价值应当被重新检验，而非默认继承。",
+          "独处与自省不是逃避社会，而是形成独立判断的必要条件。"
+        ],
+        "core_ideas_en": [
+          "Imitating others amounts to giving up oneself; originality comes from honesty about one's own experience.",
+          "The world has a compensatory structure: every gain carries a corresponding cost.",
+          "The value of institutions and customs should be re-examined rather than inherited by default.",
+          "Solitude and reflection are not escapes from society but conditions for forming independent judgment."
+        ],
+        "key_questions_zh": [
+          "一个人如何在尊重传统的同时，不把传统当作免于思考的借口？",
+          "「做自己」是否可能沦为另一种表演？",
+          "当个人判断与社会共识冲突时，凭什么相信自己是正确的？"
+        ],
+        "key_questions_en": [
+          "How can one respect tradition without using it as an excuse to stop thinking?",
+          "Can 'being yourself' degenerate into another kind of performance?",
+          "When personal judgment conflicts with consensus, on what grounds does one trust oneself?"
+        ],
+        "who_should_read_zh": "适合处在人生转折、需要重新确立自我判断标准的读者。也适合感到被组织或行业规范过度塑造的人。文字密度高，建议慢读。",
+        "who_should_read_en": "For readers at a turning point who need to re-establish their own standard of judgment, and for those who feel over-shaped by organizational or professional norms. The prose is dense; read slowly.",
+        "reading_note_zh": "先读「自立」，那是全书纲领；再读「补偿」，它会修正你对「自立」可能产生的浪漫误解。爱默生的句子适合抄写，抄一遍比读三遍更有效。",
+        "reading_note_en": "Start with 'Self-Reliance', the book's program, then read 'Compensation', which corrects the romantic misreading 'Self-Reliance' invites. Emerson's sentences reward copying: transcribing one pass beats reading three."
+      }
+    },
+    {
+      "slug": "the-common-reader",
+      "category": "essays",
+      "source": "batch",
+      "title_zh": "普通读者",
+      "title_en": "The Common Reader",
+      "author": "virginia-woolf",
+      "author_zh": "弗吉尼亚·伍尔夫",
+      "author_en": "Virginia Woolf",
+      "nationality_zh": "英国",
+      "nationality_en": "British",
+      "year": 1925,
+      "original_language": "en",
+      "list_category_zh": "经典文库补遗",
+      "list_category_en": "Library Backfill",
+      "theme_zh": "不为考试、不为立场，只为一个普通读者的好奇心而读",
+      "theme_en": "Reading neither for exams nor for positions, but out of an ordinary reader's curiosity",
+      "tags": ["essay", "modernism", "reading", "art", "cultural-history", "classics", "critical-thinking"],
+      "topics": ["essays-and-reflection", "literature", "art-and-culture"],
+      "prose": {
+        "description_zh": "伍尔夫以「普通读者」自居——不是学者，不为考证，只凭兴趣与直觉进入一本书。这些文章谈蒙田、谈笛福、谈简·奥斯汀、谈俄国小说，也谈「如何读书」本身。她的批评方式不是给出定论，而是还原阅读时的真实心理过程：哪一句让你停下，为什么它有效，又为什么另一句失效。这是一种把阅读经验本身当作观察对象的写法。",
+        "description_en": "Woolf casts herself as 'the common reader' — not a scholar, not serving textual criticism, entering a book by interest and instinct. These essays discuss Montaigne, Defoe, Jane Austen, and the Russian novel, and also address 'how should one read a book'. Her method is not to deliver verdicts but to reconstruct the actual psychology of reading: which sentence stops you, why it works, and why another fails. It treats the experience of reading as the object of observation.",
+        "why_read_zh": "它示范了一种极健康的阅读姿态：不为证明观点而读，不为积累谈资而读，而是让书真正作用于自己的感受与判断。在书评被立场绑架、阅读被清单化的今天，伍尔夫提醒你：读书的价值发生在你与句子的私人接触中，而不发生在评价体系里。",
+        "why_read_en": "It models a healthy posture toward reading: not reading to prove a point or to collect talking points, but letting books genuinely act on one's feeling and judgment. In an age when reviews are captured by positions and reading is reduced to lists, Woolf reminds you that the value of reading happens in your private contact with sentences, not inside a rating system.",
+        "core_ideas_zh": [
+          "阅读的第一手经验优先于任何权威评价。",
+          "好的批评不是判定优劣，而是描述阅读时实际发生了什么。",
+          "文学的价值在于扩展感受力，而非提供结论。",
+          "读者应当保有对经典说「不」的权利。"
+        ],
+        "core_ideas_en": [
+          "Firsthand experience of reading takes precedence over any authoritative verdict.",
+          "Good criticism does not rank works but describes what actually happens while reading.",
+          "The value of literature lies in expanding sensibility, not in supplying conclusions.",
+          "A reader must retain the right to say no to the classics."
+        ],
+        "key_questions_zh": [
+          "如果不为考试、不为立场，我们究竟为什么读书？",
+          "一个人的阅读趣味，能否成为可靠的判断依据？",
+          "批评家与普通读者之间，谁更接近文学的真实价值？"
+        ],
+        "key_questions_en": [
+          "If not for exams and not for positions, why do we read at all?",
+          "Can a person's taste serve as a reliable basis for judgment?",
+          "Between critics and common readers, who is closer to the real value of literature?"
+        ],
+        "who_should_read_zh": "适合已经有一定阅读量、但开始怀疑「读得多是否等于读得对」的读者。也是写书评、做内容推荐的人应当读的方法论样本。",
+        "who_should_read_en": "For readers with substantial reading behind them who have begun to doubt whether reading more means reading well. It is also a methodological model for anyone who writes reviews or recommends books.",
+        "reading_note_zh": "先读最后一篇「如何读书」，那是全书的方法总纲；再回头读她谈具体作家的篇目，看方法如何被使用。不必同意她的判断，重要的是模仿她描述阅读过程的方式。",
+        "reading_note_en": "Read the final piece, 'How Should One Read a Book?', first — it is the methodological key — then return to the essays on particular writers to see the method applied. Agreement is unnecessary; what matters is imitating how she describes the process of reading."
+      }
+    },
+    {
+      "slug": "notes-of-a-native-son",
+      "category": "essays",
+      "source": "batch",
+      "title_zh": "土生子札记",
+      "title_en": "Notes of a Native Son",
+      "author": "james-baldwin",
+      "author_zh": "詹姆斯·鲍德温",
+      "author_en": "James Baldwin",
+      "nationality_zh": "美国",
+      "nationality_en": "American",
+      "year": 1955,
+      "original_language": "en",
+      "list_category_zh": "经典文库补遗",
+      "list_category_en": "Library Backfill",
+      "theme_zh": "愤怒是真实的，但愤怒本身不是答案",
+      "theme_en": "Rage is real, but rage is not itself an answer",
+      "tags": ["essay", "memoir", "society", "inequality", "power", "united-states", "classics"],
+      "topics": ["essays-and-reflection", "class-and-inequality", "power-and-politics"],
+      "prose": {
+        "description_zh": "鲍德温以自身经历为轴，写美国种族问题如何同时塑造黑人与白人的人格。书名一篇写父亲之死与底特律种族骚乱同时发生的那几天，他在其中辨认出自己继承的愤怒，以及愤怒可能带来的自我毁灭。其余各篇谈在瑞士村庄作为「唯一的黑人」的经历、谈《汤姆叔叔的小屋》、谈侨居巴黎的美国黑人如何发现自己的身份无法摆脱。",
+        "description_en": "Baldwin writes from his own experience about how America's racial order shapes the character of Black and white people alike. The title essay recounts the days when his father's death and a Detroit race riot coincided, and in them he identifies the rage he inherited and the self-destruction that rage can produce. Other pieces describe being 'the only Black man' in a Swiss village, examine Uncle Tom's Cabin, and trace how Black Americans in Paris discover that their identity cannot be left behind.",
+        "why_read_zh": "它是「如何在愤怒中保持清醒」的范本。鲍德温从不否认愤怒的正当性，但他坚持愤怒不能代替理解，否则受害者会先毁掉自己。对任何身处结构性不公、或需要理解他人愤怒的人，这本书提供的是分寸感而非口号。",
+        "why_read_en": "It is a model of staying lucid inside rage. Baldwin never denies that rage is justified, but he insists it cannot substitute for understanding, or the injured will destroy themselves first. For anyone inside structural injustice, or anyone who needs to understand another's anger, this book offers proportion rather than slogans.",
+        "core_ideas_zh": [
+          "压迫同时扭曲压迫者与被压迫者的人格结构。",
+          "愤怒如果不转化为理解，最终会转向自身。",
+          "身份不是可以选择的装饰，而是必须在具体处境中承担的事实。",
+          "真正的和解需要双方都放弃对彼此的简化想象。"
+        ],
+        "core_ideas_en": [
+          "Oppression distorts the character of the oppressor as well as the oppressed.",
+          "Anger that is not converted into understanding eventually turns inward.",
+          "Identity is not a chosen ornament but a fact that must be borne within a particular situation.",
+          "Genuine reconciliation requires both sides to abandon their simplified images of each other."
+        ],
+        "key_questions_zh": [
+          "一个人如何在愤怒中保持判断力，而不被愤怒吞没？",
+          "受害者是否有义务理解加害者，这种要求本身是否公正？",
+          "在一个结构不公的社会里，个人还能如何保持自尊？"
+        ],
+        "key_questions_en": [
+          "How does one keep judgment alive inside anger without being swallowed by it?",
+          "Are the injured obliged to understand those who injure them, and is that demand itself just?",
+          "Within a structurally unjust society, how can an individual preserve self-respect?"
+        ],
+        "who_should_read_zh": "适合关心社会公正议题的读者，也适合任何正在处理自己愤怒的人。文字是散文体的思辨，不煽情，需要静读。",
+        "who_should_read_en": "For readers concerned with social justice, and for anyone currently working through their own anger. The prose is essayistic reflection rather than appeal; it does not manipulate and requires quiet reading.",
+        "reading_note_zh": "从同名篇「土生子札记」开始，那是全书情感与思想的起点；再读关于巴黎与瑞士的两篇，理解「外部视角」如何帮助他看清美国。可与《下一次将是烈火》对读，看同一作者十年后语气的变化。",
+        "reading_note_en": "Begin with the title essay, the emotional and intellectual origin of the book; then read the Paris and Swiss pieces to see how an outside vantage helped him see America. Pair it with The Fire Next Time to observe how the same author's tone changed a decade later."
+      }
+    },
+    {
+      "slug": "slouching-towards-bethlehem",
+      "category": "essays",
+      "source": "batch",
+      "title_zh": "向伯利恒跋涉",
+      "title_en": "Slouching Towards Bethlehem",
+      "author": "joan-didion",
+      "author_zh": "琼·狄迪恩",
+      "author_en": "Joan Didion",
+      "nationality_zh": "美国",
+      "nationality_en": "American",
+      "year": 1968,
+      "original_language": "en",
+      "list_category_zh": "经典文库补遗",
+      "list_category_en": "Library Backfill",
+      "theme_zh": "当共识瓦解时，一个观察者如何保持诚实",
+      "theme_en": "How an observer stays honest when consensus dissolves",
+      "tags": ["essay", "society", "cultural-history", "modernism", "united-states", "classics"],
+      "topics": ["essays-and-reflection", "modern-society", "art-and-culture"],
+      "prose": {
+        "description_zh": "六十年代末的加州，旧秩序正在松动。狄迪恩不写评论，只写她看见的：在旧金山公园里失落的年轻人、靠写讣告为生的记者、把婚礼当作表演的新人、一场没有中心的嬉皮士聚会。她的方法是不动声色地记录细节，让细节自己暴露荒谬。同名篇写黑帮头目女儿婚礼上那个五岁孩子当众吸毒的瞬间，被认为是新新闻主义最锋利的样本。",
+        "description_en": "California in the late 1960s, where the old order was coming loose. Didion writes no commentary; she writes what she saw: lost young people in a San Francisco park, a reporter who earns his living writing obituaries, newlyweds treating a wedding as performance, a hippie gathering with no center. Her method is to record detail without inflection and let the detail expose the absurdity. The title piece, with a five-year-old publicly high at a mobster's daughter's wedding, is considered the sharpest specimen of New Journalism.",
+        "why_read_zh": "它训练一种能力：先看见，再解释。狄迪恩几乎不评价，但她的选材本身就是最强的判断。这种写法对今天的意义是——在人人急于表态的环境里，先把事实看清楚，比立场正确更稀缺。也是极好的写作范本，句子短、节奏冷、没有多余形容词。",
+        "why_read_en": "It trains a capacity: see first, explain later. Didion almost never evaluates, yet her selection of material is itself the strongest judgment. Its relevance now is this — in an environment where everyone rushes to take positions, seeing clearly is scarcer than being right. It is also an excellent model of writing: short sentences, cool rhythm, no surplus adjectives.",
+        "core_ideas_zh": [
+          "精确的细节比明确的评论更有说服力。",
+          "社会共识的瓦解往往先表现为语言的失效。",
+          "观察者的诚实，体现在拒绝替读者下结论。",
+          "个人叙事与时代结构之间，存在可以互相照亮的缝隙。"
+        ],
+        "core_ideas_en": [
+          "Precise detail persuades more than explicit commentary.",
+          "The collapse of social consensus often shows first as the failure of language.",
+          "An observer's honesty appears in refusing to conclude on the reader's behalf.",
+          "Between personal narrative and historical structure there is a gap that can illuminate both."
+        ],
+        "key_questions_zh": [
+          "当所有人都声称知道发生了什么时，如何保持诚实的观察？",
+          "一个时代的失序，最先从哪些细节里显露出来？",
+          "不评价的写作，是否可能比评价更接近真相？"
+        ],
+        "key_questions_en": [
+          "When everyone claims to know what happened, how does one keep observing honestly?",
+          "Through which details does a period's disorder first become visible?",
+          "Can writing without evaluation come closer to truth than writing with it?"
+        ],
+        "who_should_read_zh": "适合写作者、记者、内容创作者，以及所有想学会「如何描述而不评判」的人。对六十年代美国无了解也能读，细节本身足够。",
+        "who_should_read_en": "For writers, journalists, and content creators, and for anyone who wants to learn how to describe without judging. No knowledge of 1960s America is required; the details carry themselves.",
+        "reading_note_zh": "先读同名篇与「论自尊」，前者是方法示范，后者是思想自述，两篇合起来能看到她的写作如何运作。读时留意她从不使用的词：几乎没有形容词堆叠，也几乎没有感叹句。",
+        "reading_note_en": "Read the title essay and 'On Self-Respect' together: the first demonstrates the method, the second states the outlook. While reading, notice the words she never uses — almost no stacked adjectives, almost no exclamations."
+      }
+    },
+    {
+      "slug": "zhao-hua-xi-shi",
+      "category": "essays",
+      "source": "batch",
+      "title_zh": "朝花夕拾",
+      "title_en": "Dawn Blossoms Plucked at Dusk",
+      "author": "lu-xun",
+      "author_zh": "鲁迅",
+      "author_en": "Lu Xun",
+      "nationality_zh": "中国",
+      "nationality_en": "Chinese",
+      "year": 1928,
+      "original_language": "zh",
+      "list_category_zh": "经典文库补遗",
+      "list_category_en": "Library Backfill",
+      "theme_zh": "回忆不只是怀旧，也是看清自己如何被塑造",
+      "theme_en": "Memory is not only nostalgia but a way of seeing how one was formed",
+      "tags": ["essay", "memoir", "classics", "china", "cultural-history", "critical-thinking"],
+      "topics": ["essays-and-reflection", "china-and-the-world", "modern-society"],
+      "prose": {
+        "description_zh": "鲁迅中年时回望童年与青年，写下十篇回忆散文：百草园里的虫鸣、三味书屋的戒尺、保姆阿长买来的《山海经》、去日本学医时看到的幻灯片、以及那位为父亲开错药方的中医。文章语气温和，几乎不直接批判，但每一篇都在追问同一件事——一个人是怎样在旧教育、旧礼俗与旧人情的层层包裹中，长出自己判断力的。",
+        "description_en": "In middle age Lu Xun looked back at his childhood and youth in ten reminiscences: insects singing in the garden behind the house, the ferule at the old-style school, the maid who bought him a long-desired illustrated classic, the lantern slides he saw while studying medicine in Japan, and the traditional doctor who prescribed wrongly for his father. The tone is gentle, almost never directly polemical, yet each piece asks the same thing: how does a person grow a capacity for judgment while wrapped in layers of old schooling, old custom, and old obligation?",
+        "why_read_zh": "它示范了一种极难的回忆方式：既不美化童年，也不控诉过去，而是把记忆当作分析材料，从中辨认塑造自己的那些力量。对任何想认真写自己经历的人，这是最好的中文范本——如何让温情与批判在同一段文字里共存，而不互相削弱。",
+        "why_read_en": "It models a difficult kind of remembering: neither beautifying childhood nor indicting the past, but treating memory as material for analysis, from which one identifies the forces that shaped oneself. For anyone who wants to write seriously about their own experience, it is the finest Chinese model of how warmth and criticism can coexist in one paragraph without weakening each other.",
+        "core_ideas_zh": [
+          "童年的温情与制度的压抑可以同时为真，不必二选一。",
+          "教育的真正作用往往在多年后才显形，当时难以察觉。",
+          "对过去的批判若不包含对自己的审视，就是不彻底的。",
+          "记忆是有选择的，选择本身暴露了一个人真正在意什么。"
+        ],
+        "core_ideas_en": [
+          "The warmth of childhood and the oppression of institutions can both be true; no choice between them is required.",
+          "The real effect of an education often becomes visible only years later, imperceptible at the time.",
+          "Criticism of the past that excludes self-examination is incomplete.",
+          "Memory is selective, and the selection itself reveals what a person truly cares about."
+        ],
+        "key_questions_zh": [
+          "一个人如何在回望童年时，既保留感情又不放弃判断？",
+          "旧式教育究竟教给了人什么，又拿走了什么？",
+          "我们记住的过去，有多少是被后来需要所改写过的？"
+        ],
+        "key_questions_en": [
+          "How can one look back at childhood while keeping both feeling and judgment?",
+          "What did the old-style education actually give a person, and what did it take away?",
+          "How much of the past we remember has been rewritten by later needs?"
+        ],
+        "who_should_read_zh": "适合所有受过中式教育、想弄清那段经历究竟留下了什么的读者。文字浅白，但含义不浅，适合反复读。也是学写散文的最佳中文入门。",
+        "who_should_read_en": "For readers educated in the Chinese system who want to understand what that experience actually left behind. The language is plain but the meaning is not; it rewards rereading. It is also the best Chinese entry point for learning to write essays.",
+        "reading_note_zh": "重点读「从百草园到三味书屋」「阿长与山海经」「藤野先生」「父亲的病」四篇，正好覆盖童年、人情、求学与死亡四个维度。读时注意他写温情时的克制——从不把感情写满，留白处才是判断。",
+        "reading_note_en": "Focus on four pieces: 'From the Hundred-Plant Garden to Three-Flavor Study', 'A Chang and the Classic of Mountains and Seas', 'Mr. Fujino', and 'Father's Illness' — together they cover childhood, human warmth, study, and death. Notice his restraint in writing tenderness: he never fills emotion to the brim, and the blank space is where the judgment lives."
+      }
+    }
+  ]
+}

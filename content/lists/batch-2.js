@@ -87,7 +87,7 @@ export const batch = [
     theme_zh: "压抑的教育制度与被驯化的灵魂",
     theme_en: "A repressive school system and the souls it tames.",
     tags: ["fiction","novel","nobel-laureate","classics"],
-    topics: ["literature","modern-society"]
+    topics: ["literature","modern-society","education"]
   },
   {
     slug: "demian",

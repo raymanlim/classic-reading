@@ -114,6 +114,24 @@ export const categories = [
     description_zh: '小说、戏剧与诗歌——用叙事理解人的处境。',
     description_en: 'Novels, drama, and poetry — understanding the human condition through narrative.',
     icon: '<path d="M4 5.5A2 2 0 0 1 6 3.5h5.5v17H6a2 2 0 0 1-2-2Z"/><path d="M20 5.5a2 2 0 0 0-2-2h-5.5v17H18a2 2 0 0 0 2-2Z"/><path d="M11.5 3.5v17"/>'
+  },
+  {
+    slug: 'essays',
+    order: '13',
+    name_zh: '经典散文',
+    name_en: 'Classic Essays',
+    description_zh: '蒙田以来的随笔传统：用一段文字把一个念头想到底。',
+    description_en: 'The essay tradition since Montaigne: thinking a single thought through to its end.',
+    icon: '<path d="M4.5 19.5s.8-3.6 2.8-5.6l8.6-8.6a2.6 2.6 0 0 1 3.7 3.7l-8.6 8.6c-2 2-6.5 1.9-6.5 1.9Z"/><path d="M13.8 6.9l3.7 3.7"/>'
+  },
+  {
+    slug: 'education',
+    order: '14',
+    name_zh: '教育与反思',
+    name_en: 'Education & Reflection',
+    description_zh: '在 AI 时代重新追问：教育究竟为了什么。',
+    description_en: 'Re-asking in the age of AI: what is education actually for?',
+    icon: '<path d="M3 9.2 12 5l9 4.2-9 4.2L3 9.2Z"/><path d="M7 11.2v5.1c0 1.4 2.2 2.5 5 2.5s5-1.1 5-2.5v-5.1"/><path d="M21 9.2v5.4"/>'
   }
 ];
 
@@ -230,6 +248,18 @@ export const tags = [
   { slug: 'korea', zh: '韩国', en: 'Korea' },
   { slug: 'russia', zh: '俄罗斯', en: 'Russia' },
   { slug: 'germany', zh: '德国', en: 'Germany' },
+  /* --- 以下为「文学 / 散文 / 教育」批次补充（2026-10-25） --- */
+  { slug: 'essay', zh: '散文', en: 'Essay' },
+  { slug: 'education', zh: '教育', en: 'Education' },
+  { slug: 'pedagogy', zh: '教育学', en: 'Pedagogy' },
+  { slug: 'learning', zh: '学习', en: 'Learning' },
+  { slug: 'schooling', zh: '学校教育', en: 'Schooling' },
+  { slug: 'attention', zh: '注意力', en: 'Attention' },
+  { slug: 'reading', zh: '阅读', en: 'Reading' },
+  { slug: 'critical-thinking', zh: '批判性思维', en: 'Critical Thinking' },
+  { slug: 'novel-of-ideas', zh: '观念小说', en: 'Novel of Ideas' },
+  { slug: 'bildungsroman', zh: '成长小说', en: 'Bildungsroman' },
+  { slug: 'ai-and-education', zh: 'AI 与教育', en: 'AI and Education' },
   { slug: 'classics', zh: '经典', en: 'Classics' }
 ];
 
@@ -524,6 +554,28 @@ export const topics = [
     name_en: 'Predicaments of Modern Society',
     description_zh: '老龄化、孤独、内卷与代际困境。',
     description_en: 'Ageing, loneliness, involution, and generational strain.'
+  },
+  /* --- 以下为「跨分类思想坐标」补充（2026-10-25） --- */
+  {
+    slug: 'education',
+    name_zh: '教育的目的',
+    name_en: 'The Purpose of Education',
+    description_zh: '教育是为了传授技能、塑造公民，还是让人学会自由地思考。',
+    description_en: 'Is education for skills, for citizenship, or for learning to think freely?'
+  },
+  {
+    slug: 'essays-and-reflection',
+    name_zh: '散文与自省',
+    name_en: 'The Essay & Self-Examination',
+    description_zh: '把自己当作研究对象：随笔传统如何把模糊的感受逼成清晰的判断。',
+    description_en: 'Taking oneself as the object of study: how the essay turns vague feeling into clear judgment.'
+  },
+  {
+    slug: 'attention-and-depth',
+    name_zh: '注意力与深度',
+    name_en: 'Attention & Depth',
+    description_zh: '当注意力成为最稀缺的资源，深度思考还如何可能。',
+    description_en: 'When attention becomes the scarcest resource, how is deep thinking still possible?'
   }
 ];
 

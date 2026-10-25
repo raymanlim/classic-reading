@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * coverage.mjs — 八大主题覆盖度统计与今日选题建议
+ * coverage.mjs — 七大主题覆盖度统计与今日选题建议
  * ------------------------------------------------------------------
  * 用途：为「经典书籍推荐」定时任务提供确定性的题材轮转依据。
  *
@@ -24,33 +24,40 @@ const ROOT = path.resolve(__dirname, '..');
 const LISTS_DIR = path.join(ROOT, 'content', 'lists');
 const MANIFEST = path.join(ROOT, 'content', 'books.manifest.js');
 
-/** 八大主题池：显示名 → 归属 category（us-stocks 并入 investment） */
+/**
+ * 主题池（2026-10-25 Rayman 调整后）
+ * ------------------------------------------------------------------
+ * 现役 7 类：AI / 科技 / 历史 / 哲学 / 文学 / 散文 / 教育与反思
+ * 退役 5 类：finance / investment / us-stocks / economics / business
+ *   —— 存量书保留在库（分类页可访问），但不再作为每日推荐目标主题。
+ */
 const THEMES = [
   { key: 'ai', label: 'AI 人工智能', cats: ['ai'] },
-  { key: 'finance', label: '金融', cats: ['finance'] },
-  { key: 'investment', label: '投资', cats: ['investment', 'us-stocks'] },
-  { key: 'history', label: '历史', cats: ['history'] },
-  { key: 'economics', label: '经济', cats: ['economics'] },
-  { key: 'business', label: '商业', cats: ['business'] },
-  { key: 'philosophy', label: '哲学', cats: ['philosophy'] },
   { key: 'technology', label: '科技', cats: ['technology'] },
+  { key: 'history', label: '历史', cats: ['history'] },
+  { key: 'philosophy', label: '哲学', cats: ['philosophy'] },
+  { key: 'literature', label: '文学', cats: ['literature'] },
+  { key: 'essays', label: '经典散文', cats: ['essays'] },
+  { key: 'education', label: '教育与反思', cats: ['education'] },
 ];
+
+/** 已退役分类：存量保留，不再轮转（仅用于统计提示） */
+const RETIRED = ['finance', 'investment', 'us-stocks', 'economics', 'business'];
 
 const COOLDOWN_DAYS = 2; // 同一主题在最近 N 天内出现过则本轮降权
 
 /**
  * 相邻大类互斥组：同一天的两本书不应落在同一组内。
- * 依据 Rayman 的要求——两本要「均匀覆盖」而非题材扎堆。
- *   资本市场：金融 / 投资
- *   企业与宏观：经济 / 商业
  *   技术：AI / 科技
  *   人文：历史 / 哲学
+ *   文章：文学 / 散文
+ *   教育：独立成组（可与任意组配对）
  */
 const GROUPS = {
-  capital: ['finance', 'investment'],
-  enterprise: ['economics', 'business'],
   tech: ['ai', 'technology'],
   humanities: ['history', 'philosophy'],
+  letters: ['literature', 'essays'],
+  education: ['education'],
 };
 
 function groupOf(key) {
@@ -76,29 +83,36 @@ async function readManifest() {
 
 /**
  * 读取 content/lists/*.js 中的条目（含 category 与所属日期）
- * 区分两类来源：
- *   daily-YYYY-MM-DD.js → 每日推荐任务产出（均衡覆盖的真正考核对象）
- *   其余（batch-*.js 等）→ 历史批量入库（只影响全库总量，不代表每日轮转）
+ * source 判定以「书级别 source 字段」为准（ingest 会写入）：
+ *   source='daily'    → 每日推荐任务的真实产出（均衡覆盖的考核对象）
+ *   source='backfill' → 人工补遗批次（进库但不计入每日推荐频次）
+ *   source='anzhengming' / 'xiaomingshuo' → 外部书单导入
+ * 仅当书级别字段缺失时，才回退到文件名（daily-YYYY-MM-DD.js）判断。
  */
 function readLists() {
   if (!fs.existsSync(LISTS_DIR)) return [];
   const out = [];
   const catRe = /category:\s*['"]([^'"]+)['"]/g;
   const slugRe = /slug:\s*['"]([^'"]+)['"]/g;
+  const srcRe = /source:\s*['"]([^'"]+)['"]/g;
   for (const f of fs.readdirSync(LISTS_DIR).filter((x) => x.endsWith('.js'))) {
     const txt = fs.readFileSync(path.join(LISTS_DIR, f), 'utf8');
     const dm = f.match(/(\d{4}-\d{2}-\d{2})/);
     const date = dm ? dm[1] : null;
-    const isDaily = f.startsWith('daily-');
-    const source = isDaily ? 'daily' : 'batch';
+    const fallbackSource = f.startsWith('daily-') ? 'daily' : 'batch';
     const cats = [...txt.matchAll(catRe)].map((m) => m[1]);
     const slugs = [...txt.matchAll(slugRe)].map((m) => m[1]);
-    // category 与 slug 按出现顺序一一对应（每本书对象内各出现一次）
-    if (cats.length === slugs.length) {
-      cats.forEach((c, i) => out.push({ slug: slugs[i], category: c, date, source }));
-    } else {
-      cats.forEach((c) => out.push({ slug: null, category: c, date, source }));
-    }
+    const srcs = [...txt.matchAll(srcRe)].map((m) => m[1]);
+    // category / slug / source 按出现顺序一一对应（每本书对象内各出现一次）
+    const aligned = cats.length === slugs.length && srcs.length === cats.length;
+    cats.forEach((c, i) => {
+      out.push({
+        slug: aligned ? slugs[i] : null,
+        category: c,
+        date,
+        source: aligned ? srcs[i] : fallbackSource,
+      });
+    });
   }
   return out;
 }
@@ -132,7 +146,7 @@ async function main() {
       if (b.date && (!stat[k].dailyLastSeen || b.date > stat[k].dailyLastSeen)) {
         stat[k].dailyLastSeen = b.date;
       }
-    } else if (b.source === 'batch') {
+    } else {
       stat[k].batchCount++;
     }
   }
@@ -206,7 +220,7 @@ async function main() {
     return;
   }
 
-  console.log(`# 八大主题覆盖度 · ${today}`);
+  console.log(`# 七大主题覆盖度 · ${today}`);
   console.log(
     `# 全库 ${all.length} 本（manifest ${manifest.length} + lists ${lists.length}）｜每日推荐条目 ${totalDaily} 条，均分理想值 ${dailyIdeal.toFixed(1)}`
   );

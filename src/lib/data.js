@@ -9,7 +9,7 @@ import { dirname, join } from 'node:path';
 import { books as manifest } from '../../content/books.manifest.js';
 import { categories, tags, topics } from '../../content/taxonomy.js';
 import { readingPaths } from '../../content/paths.js';
-import { featured, readingStatus, statusOrder } from '../../content/collections.js';
+import { featured, readingStatus, statusOrder, featuredCoordinates } from '../../content/collections.js';
 import { searchAliases } from '../../content/search-aliases.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -364,6 +364,16 @@ export async function loadData() {
     notes: notesWithBook,
     bookNotes,
     featured: featured.map((s) => bookBySlug[s]).filter(Boolean),
+    /* 跨越分类的思想坐标（精选）：每个坐标解析出 topic 元信息 + 代表书实体 */
+    coordinates: featuredCoordinates
+      .map((c) => ({
+        slug: c.slug,
+        note_zh: c.note_zh,
+        note_en: c.note_en,
+        topic: topicBySlug[c.slug],
+        bookEntities: c.books.map((s) => bookBySlug[s]).filter(Boolean),
+      }))
+      .filter((c) => c.topic && c.bookEntities.length > 0),
     bookOfTheDay,
     dailyBooks,
     readingList,

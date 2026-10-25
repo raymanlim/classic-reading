@@ -179,6 +179,42 @@ function pathPreview(lang, path, data) {
         </article>`;
 }
 
+/** 跨越分类的思想坐标：同一个问题，不同分类的书如何回答。
+ *  复用 path-card 样式，把每本书所属分类显示出来，让「跨分类」这件事可见。 */
+function coordinateCard(lang, coord, data) {
+  const zh = lang === 'zh';
+  const topic = coord.topic;
+  const items = coord.bookEntities
+    .map((book, i) => {
+      const cat = data.categoryBySlug[book.category];
+      const catName = cat ? (zh ? cat.name_zh : cat.name_en) : book.category;
+      const title = zh ? `《${book.title_zh}》` : book.title_en;
+      return `
+          <li class="path-preview__item">
+            <span class="path-preview__num">${String(i + 1).padStart(2, '0')}</span>
+            <span class="path-preview__label">${e(catName)}</span>
+            <span class="path-preview__book">${e(title)}</span>
+          </li>`;
+    })
+    .join('');
+
+  return `
+        <article class="path-card">
+          <header class="path-card__head">
+            <h3 class="path-card__title">
+              <a href="${url(lang, `topics/${coord.slug}/`)}">${e(zh ? topic.name_zh : topic.name_en)}</a>
+            </h3>
+            <p class="path-card__alt">${e(zh ? topic.name_en : topic.name_zh)}</p>
+            <p class="path-card__tagline">${e(zh ? coord.note_zh : coord.note_en)}</p>
+          </header>
+          <ol class="path-preview">${items}</ol>
+          <footer class="path-card__foot">
+            <span>${coord.bookEntities.length} ${e(t(lang, 'home.coordinates_unit'))}</span>
+            <a class="link-arrow" href="${url(lang, `topics/${coord.slug}/`)}">${e(t(lang, 'home.coordinates_enter'))}<span aria-hidden="true"> →</span></a>
+          </footer>
+        </article>`;
+}
+
 function articleCard(lang, article) {
   const title = lang === 'zh' ? article.title_zh : article.title_en;
   const subtitle = lang === 'zh' ? article.subtitle_zh : article.subtitle_en;
@@ -240,6 +276,7 @@ export function renderHome(lang, data) {
   const topics = [...data.topics]
     .sort((a, b) => (data.topicBooks[b.slug]?.length || 0) - (data.topicBooks[a.slug]?.length || 0))
     .slice(0, 18);
+  const coordinates = Array.isArray(data.coordinates) ? data.coordinates : [];
 
   const body = `
       <section class="hero">
@@ -315,6 +352,14 @@ export function renderHome(lang, data) {
           ${data.paths.map((path) => pathPreview(lang, path, data)).join('\n')}
         </div>
       </section>
+
+      ${coordinates.length ? `
+      <section class="section section--coordinates">
+        ${sectionHead(lang, 'home.coordinates_title', 'home.coordinates_sub', url(lang, 'topics/'))}
+        <div class="grid grid--paths">
+          ${coordinates.map((coord) => coordinateCard(lang, coord, data)).join('\n')}
+        </div>
+      </section>` : ''}
 
       <section class="section section--topics">
         ${sectionHead(lang, 'home.topics_title', 'home.topics_sub', url(lang, 'topics/'))}

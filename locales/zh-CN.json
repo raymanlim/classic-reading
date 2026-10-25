@@ -49,6 +49,10 @@
     "paths_sub": "顺序比书单更重要。",
     "topics_title": "主题",
     "topics_sub": "跨越分类的思想坐标。",
+    "coordinates_title": "精选思想坐标",
+    "coordinates_sub": "同一个问题，不同分类的书如何回答。",
+    "coordinates_unit": "本",
+    "coordinates_enter": "进入坐标",
     "articles_title": "最新文章",
     "articles_sub": "围绕书与思想的长文。",
     "deepdive_title": "今日深度解读",
@@ -383,4 +387,4 @@
     "also_in": "另见",
     "note": "本条来自第三方频道推荐书目或每日推荐，收录书目事实信息、来源主题与完整阅读指引。"
   }
-}
+}

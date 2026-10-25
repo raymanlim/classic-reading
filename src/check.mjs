@@ -50,7 +50,7 @@ async function checkData() {
       /* 轻量条目：只校验事实字段与词表合法性，不要求长文内容 */
       if (!book.title_zh) errors.push(`[书单] ${book.slug} 缺少中文书名`);
       if (!book.author) errors.push(`[书单] ${book.slug} 缺少作者`);
-      if (!['anzhengming', 'xiaomingshuo', 'daily'].includes(book.source)) {
+      if (!['anzhengming', 'xiaomingshuo', 'daily', 'backfill'].includes(book.source)) {
         errors.push(`[书单] ${book.slug} 来源非法：${book.source}`);
       }
       if (!book.theme_zh || !book.theme_en) errors.push(`[书单] ${book.slug} 缺少来源主题`);

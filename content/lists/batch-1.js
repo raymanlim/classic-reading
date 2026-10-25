@@ -193,7 +193,7 @@ export const batch = [
     theme_zh: "屈服于制度强制与无力改革的妥协社会",
     theme_en: "A society that yields to institutional coercion and cannot reform itself.",
     tags: ["philosophy","society","modern-world"],
-    topics: ["modern-society","philosophy"]
+    topics: ["modern-society","philosophy","attention-and-depth"]
   },
   {
     slug: "21-lessons-for-the-21st-century",

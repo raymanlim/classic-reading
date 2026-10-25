@@ -487,7 +487,7 @@ export const batch = [
     theme_zh: "女性创作的物质基础与独立空间",
     theme_en: "The money and private space a woman needs in order to write.",
     tags: ["feminism","gender","society","classics"],
-    topics: ["gender-and-family","literature"]
+    topics: ["gender-and-family","literature","education","essays-and-reflection"]
   },
   {
     slug: "shaonian-fasheng",

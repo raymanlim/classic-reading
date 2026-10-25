@@ -180,7 +180,7 @@ function renderListFile(date, books) {
     year: ${b.year === null || b.year === undefined ? 'null' : b.year},
     original_language: ${q(b.original_language)},
     tier: 'list',
-    source: 'daily',
+    source: ${q(b.source || 'daily')},
     list_category_zh: ${q(b.list_category_zh || '每日推荐')},
     list_category_en: ${q(b.list_category_en || 'Daily Pick')},
     theme_zh: ${q(b.theme_zh)},

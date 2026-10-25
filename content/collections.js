@@ -57,4 +57,56 @@ export const readingStatus = [
 /** 阅读状态枚举（顺序即展示顺序） */
 export const statusOrder = ['reading', 'rereading', 'finished', 'want', 'favorite'];
 
-export default { featured, readingStatus, statusOrder };
+/**
+ * 跨越分类的思想坐标（精选 · 首页策展入口）
+ * ------------------------------------------------------------------
+ * 「主题」栏目本就是跨分类的思想坐标，但仅以标签形式呈现时，
+ * 读者看不到「同一个问题可以由不同学科的书来回答」这件事。
+ * 这里人工挑出若干坐标，每个坐标配 4 本**来自不同分类**的代表书，
+ * 在首页以卡片形式展示，让跨分类关系可见。
+ *
+ * 约束：
+ *   - slug 必须存在于 content/taxonomy.js 的 topics 中；
+ *   - books 里的 slug 必须是已入库书籍，缺失时构建会跳过该本（不报错）；
+ *   - 同一坐标内尽量让 category 分散，避免四本同属一类。
+ */
+export const featuredCoordinates = [
+  {
+    slug: 'attention-and-depth',
+    note_zh: '当注意力成为最稀缺的资源，深度思考还如何可能。',
+    note_en: 'When attention becomes the scarcest resource, how is deep thinking still possible?',
+    books: ['the-shallows', 'the-palliative-society', 'reclaiming-conversation', 'the-end-of-education']
+  },
+  {
+    slug: 'education',
+    note_zh: '教育是为了传授技能、塑造公民，还是让人学会自由地思考。',
+    note_en: 'Is education for skills, for citizenship, or for learning to think freely?',
+    books: ['democracy-and-education', 'beneath-the-wheel', 'pedagogy-of-the-oppressed', 'a-room-of-ones-own']
+  },
+  {
+    slug: 'essays-and-reflection',
+    note_zh: '把自己当作研究对象：随笔如何把模糊的感受逼成清晰的判断。',
+    note_en: 'Taking oneself as the object of study: how the essay turns vague feeling into clear judgment.',
+    books: ['montaigne-essays', 'philosophical-letters', 'the-common-reader', 'a-room-of-ones-own']
+  },
+  {
+    slug: 'ai',
+    note_zh: '机器能否思考，以及这个问题为何重要。',
+    note_en: 'Whether machines can think — and why the question matters.',
+    books: ['superintelligence', 'nexus', 'the-alignment-problem', 'philosophical-investigations']
+  },
+  {
+    slug: 'power-and-politics',
+    note_zh: '权力如何运作，以及人为何会服从。',
+    note_en: 'How power operates, and why people obey.',
+    books: ['animal-farm', 'the-dictators-handbook', 'the-human-condition', 'obedience-to-authority']
+  },
+  {
+    slug: 'modern-society',
+    note_zh: '孤独、内卷与代际困境：现代生活为何让人疲惫。',
+    note_en: 'Loneliness, involution, and generational strain: why modern life exhausts people.',
+    books: ['the-palliative-society', 'a-luminous-republic', 'zhao-hua-xi-shi', 'slouching-towards-bethlehem']
+  }
+];
+
+export default { featured, readingStatus, statusOrder, featuredCoordinates };

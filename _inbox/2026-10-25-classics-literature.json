@@ -1,0 +1,317 @@
+{
+  "date": "2026-10-25",
+  "books": [
+    {
+      "slug": "crime-and-punishment",
+      "category": "literature",
+      "source": "batch",
+      "title_zh": "罪与罚",
+      "title_en": "Crime and Punishment",
+      "author": "fyodor-dostoevsky",
+      "author_zh": "费奥多尔·陀思妥耶夫斯基",
+      "author_en": "Fyodor Dostoevsky",
+      "nationality_zh": "俄国",
+      "nationality_en": "Russian",
+      "year": 1866,
+      "original_language": "ru",
+      "list_category_zh": "经典文库补遗",
+      "list_category_en": "Library Backfill",
+      "theme_zh": "一个自认超越道德的人，如何被自己的推论击穿",
+      "theme_en": "How a man who believes he is above morality is destroyed by his own reasoning",
+      "tags": ["novel", "novel-of-ideas", "philosophy", "ethics", "human-nature", "classics", "russia"],
+      "topics": ["literature", "existentialism", "religion-and-meaning"],
+      "prose": {
+        "description_zh": "彼得堡的穷大学生拉斯柯尼科夫提出一套自洽的推论：如果某个人的目标足够伟大，他就有权越过道德与法律。为了验证这套推论，他实施了一桩谋杀。小说余下的六百页，写的不是侦查与追捕，而是这套推论如何在实施者自己的意识里一步步崩塌——他逃过了警察，却没能逃过自己的逻辑。陀思妥耶夫斯基把哲学命题放进一个人的神经里做实验，让抽象论证产生生理性的疼痛。",
+        "description_en": "A impoverished student in St. Petersburg, Raskolnikov, constructs a coherent argument: if a person's aim is great enough, he has the right to step over morality and law. To test the argument, he commits a murder. The remaining six hundred pages are not a manhunt but an account of how that argument collapses inside the mind of the man who acted on it. He escapes the police but not his own logic. Dostoevsky runs a philosophical experiment inside a nervous system, making abstract argument produce physical pain.",
+        "why_read_zh": "这是对「我比别人看得更清楚，所以规则不适用于我」这一念头的完整解剖。陀思妥耶夫斯基不给答案，而是让你跟着主角走完全程，亲手体会聪明如何为残忍提供论证。读完你会获得一种免疫力：当任何宏大理由要求你牺牲具体的人时，你能认出那个声音的形状。",
+        "why_read_en": "It is a complete dissection of the thought 'I see more clearly than others, so the rules do not apply to me.' Dostoevsky offers no answer; he makes you walk the whole road with the protagonist and feel for yourself how intelligence furnishes arguments for cruelty. What remains is a kind of immunity: when any grand justification asks you to sacrifice a particular person, you recognize the shape of that voice.",
+        "core_ideas_zh": [
+          "把人不当人，往往不是出于恶意，而是从一套自洽的理论开始的。",
+          "理论可以指导行动，但无法承担行动的后果；后果会反过来审判理论。",
+          "惩罚最沉重的形式不是外部制裁，而是自我论证体系的瓦解。",
+          "良心不是道德教条，而是一个人无法与自己讲和的事实。"
+        ],
+        "core_ideas_en": [
+          "Treating people as means usually begins not with malice but with a coherent theory.",
+          "A theory can guide an action but cannot bear its consequences; the consequences judge the theory in return.",
+          "The heaviest punishment is not external sanction but the collapse of one's own justifying system.",
+          "Conscience is not a moral doctrine but the fact that a person cannot make peace with himself."
+        ],
+        "key_questions_zh": [
+          "一个人能否用目的的伟大，为手段的残忍提供正当性？",
+          "如果一套推论在逻辑上成立，它在生活中是否就应当被执行？",
+          "当自我辩护的体系崩塌之后，人还能靠什么重新站起来？"
+        ],
+        "key_questions_en": [
+          "Can the greatness of an end justify the cruelty of the means?",
+          "If an argument is logically valid, does it follow that it should be carried out in life?",
+          "After the system of self-justification collapses, what is left for a person to stand on?"
+        ],
+        "who_should_read_zh": "适合所有习惯用逻辑为自己开脱的读者，尤其是受过良好教育、容易高估理性的人。不需要俄国史背景，但需要能忍受长段心理独白。",
+        "who_should_read_en": "For readers who habitually use logic to excuse themselves, especially the well-educated who overrate their own rationality. No background in Russian history is needed, but tolerance for long passages of psychological monologue is.",
+        "reading_note_zh": "先读第一部，看清那套推论是如何被完整构造出来的，这是全书的关键；随后不必急于追情节，重点读主角每次自我辩解的语气变化。可与《卡拉马佐夫兄弟》的「宗教大法官」一章对读，看同一作者如何处理「人是否有权替他人决定幸福」。",
+        "reading_note_en": "Read Part One first and watch how the argument is fully constructed; that is the hinge of the book. Afterward do not rush the plot — track instead how the tone of the protagonist's self-justification shifts each time. Pair it with the 'Grand Inquisitor' chapter of The Brothers Karamazov to see the same author ask whether anyone has the right to decide happiness for others."
+      }
+    },
+    {
+      "slug": "the-brothers-karamazov",
+      "category": "literature",
+      "source": "batch",
+      "title_zh": "卡拉马佐夫兄弟",
+      "title_en": "The Brothers Karamazov",
+      "author": "fyodor-dostoevsky",
+      "author_zh": "费奥多尔·陀思妥耶夫斯基",
+      "author_en": "Fyodor Dostoevsky",
+      "nationality_zh": "俄国",
+      "nationality_en": "Russian",
+      "year": 1880,
+      "original_language": "ru",
+      "list_category_zh": "经典文库补遗",
+      "list_category_en": "Library Backfill",
+      "theme_zh": "如果没有上帝，是否一切都可被允许",
+      "theme_en": "If God does not exist, is everything permitted?",
+      "tags": ["novel", "novel-of-ideas", "philosophy", "religion", "ethics", "human-nature", "classics"],
+      "topics": ["literature", "existentialism", "religion-and-meaning"],
+      "prose": {
+        "description_zh": "一个父亲被谋杀，三个儿子各自承载一种关于世界的基本立场：感官主义者、理性怀疑者、信仰者。小说的侦探外壳只是容器，真正的战场是三个人对同一问题的不同回答——人应当依据什么而活。其中「宗教大法官」一章，是文学史上对自由与幸福之冲突最锋利的表述之一：如果自由会让人痛苦，人是否愿意交出自由换取安稳。",
+        "description_en": "A father is murdered, and his three sons each carry a fundamental position about the world: the sensualist, the rational skeptic, the believer. The detective frame is only a container; the real battlefield is three different answers to one question — on what basis should a person live. The chapter 'The Grand Inquisitor' is among the sharpest statements in literature of the conflict between freedom and happiness: if freedom makes people suffer, will they trade it away for security?",
+        "why_read_zh": "这本书的价值在于它不站在任何一方。它让最强硬的论证和最柔软的反驳都获得完整的发言权，然后把判断权交给你。如果你只读一本能同时锻炼怀疑能力与同情能力的书，就是这本。它也是理解二十世纪极权思想根源的必经之路。",
+        "why_read_en": "Its value is that it takes no side. The hardest argument and the tenderest rebuttal are both given full voice, and the judgment is handed to you. If you read one book that trains skepticism and compassion at the same time, this is it. It is also a necessary road into understanding the roots of twentieth-century totalitarian thought.",
+        "core_ideas_zh": [
+          "自由不是舒适的状态，而是一种需要持续承担的痛苦能力。",
+          "以「为你好」为名义接管他人选择权，是最难被识破的暴政。",
+          "怀疑与信仰并非对立，真正的对立是冷漠与在乎。",
+          "人对意义的饥渴，无法用物质满足来填平。"
+        ],
+        "core_ideas_en": [
+          "Freedom is not a comfortable condition but a painful capacity that must be continually borne.",
+          "Taking over another's choices in the name of 'for your own good' is the hardest tyranny to recognize.",
+          "Doubt and faith are not opposites; the real opposition is indifference versus caring.",
+          "The human hunger for meaning cannot be filled by material satisfaction."
+        ],
+        "key_questions_zh": [
+          "如果自由带来痛苦，人是否有权替别人放弃自由？",
+          "在没有终极裁决者的世界里，道德约束从哪里获得力量？",
+          "一个人可以为自己的信念走多远，才不会变成他所反对的东西？"
+        ],
+        "key_questions_en": [
+          "If freedom brings suffering, does anyone have the right to give it up on another's behalf?",
+          "In a world without a final judge, where does moral constraint draw its force?",
+          "How far may a person go for a conviction before becoming the very thing he opposes?"
+        ],
+        "who_should_read_zh": "适合愿意花一个月读一本书、并且不怕被冒犯的读者。对宗教无兴趣的人同样值得读——它讨论的是权力与自由的结构，不是教义。",
+        "who_should_read_en": "For readers willing to spend a month on one book and unafraid of being offended. It rewards those indifferent to religion as well: what it examines is the structure of power and freedom, not doctrine.",
+        "reading_note_zh": "先读「宗教大法官」独立成篇的一章，它是全书的思想心脏；再回头读主线，看三个兄弟如何分别演示三种回答。伊万与魔鬼对话的章节容易读不下去，可先跳过，第二遍再读。",
+        "reading_note_en": "Start with the standalone chapter 'The Grand Inquisitor' — it is the intellectual heart of the book — then return to the main line and watch the three brothers enact three answers. The chapter of Ivan's conversation with the devil is easy to abandon; skip it on the first pass and return on the second."
+      }
+    },
+    {
+      "slug": "the-trial",
+      "category": "literature",
+      "source": "batch",
+      "title_zh": "审判",
+      "title_en": "The Trial",
+      "author": "franz-kafka",
+      "author_zh": "弗兰茨·卡夫卡",
+      "author_en": "Franz Kafka",
+      "nationality_zh": "奥地利",
+      "nationality_en": "Austrian",
+      "year": 1925,
+      "original_language": "de",
+      "list_category_zh": "经典文库补遗",
+      "list_category_en": "Library Backfill",
+      "theme_zh": "一个从未被告知罪名的被告，如何逐渐承认自己有罪",
+      "theme_en": "How a defendant never told his crime gradually admits his guilt",
+      "tags": ["novel", "novel-of-ideas", "modernism", "power", "authoritarianism", "classics"],
+      "topics": ["literature", "power-and-politics", "existentialism"],
+      "prose": {
+        "description_zh": "银行襄理约瑟夫·K 在某天早晨被宣布被捕，但没有罪名、没有拘捕令、没有审讯日期。他一开始愤怒地要求程序正义，随后开始主动研究这个看不见的法庭，托关系、找律师、写申辩书，最终在不知不觉中接受了「自己有罪」这个前提。小说最可怕的地方不是暴力，而是主角自己一步步走进制度的逻辑里，并开始为它工作。",
+        "description_en": "A bank clerk, Josef K., is informed one morning that he is under arrest — with no charge, no warrant, no hearing date. He begins by angrily demanding due process, then starts studying this invisible court, seeking connections, hiring a lawyer, drafting petitions, and eventually accepting the premise that he must be guilty. What is most frightening is not violence but the way the protagonist walks into the logic of the institution and begins to work for it.",
+        "why_read_zh": "这是对官僚系统与自我归罪机制最精确的模型。它解释了现代人一种普遍的处境：你无法指出哪里错了，但你知道自己在被审判。读完你会对「程序」「流程」「按规定」这类词保持警觉，也会更早察觉自己何时开始替不合理的规定找理由。",
+        "why_read_en": "It is the most precise model we have of bureaucracy and self-incrimination. It explains a common modern condition: you cannot say what is wrong, but you know you are being judged. After reading, you stay alert to words like 'procedure', 'process', and 'by the rules', and you notice sooner when you begin supplying reasons for unreasonable rules.",
+        "core_ideas_zh": [
+          "权力最有效的运作方式，是让被支配者主动参与对自己的管理。",
+          "当程序本身不可质疑时，程序就成了实质的暴力。",
+          "人对模糊处境的忍耐力，远低于对明确惩罚的忍耐力。",
+          "承认一个自己并不理解的罪名，是服从的最后一步。"
+        ],
+        "core_ideas_en": [
+          "The most effective operation of power is to make the ruled participate actively in managing themselves.",
+          "When procedure itself cannot be questioned, procedure becomes substantive violence.",
+          "Human tolerance for ambiguity is far lower than tolerance for definite punishment.",
+          "Admitting a charge one does not understand is the final step of obedience."
+        ],
+        "key_questions_zh": [
+          "当规则不可被审视时，个体还能如何为自己辩护？",
+          "一个人是在哪一刻开始相信自己有罪的？",
+          "如果申诉渠道本身由被申诉者设计，正义还有可能吗？"
+        ],
+        "key_questions_en": [
+          "When the rules cannot be examined, how can an individual still defend himself?",
+          "At what moment does a person begin to believe he is guilty?",
+          "If the channel of appeal is designed by the accused, is justice still possible?"
+        ],
+        "who_should_read_zh": "适合在大型组织、体制或平台规则中感到过无力的读者。篇幅不长，但阅读体验压抑，建议分段读完。",
+        "who_should_read_en": "For anyone who has felt powerless inside a large organization, institution, or platform's rules. It is short, but the experience is oppressive; read it in installments.",
+        "reading_note_zh": "注意三个转折：他第一次愤怒、第一次主动寻求帮助、第一次不再申辩。这三步就是自我归罪的全过程。可与《审判》同期的《城堡》对读，也可配合汉娜·阿伦特的官僚制分析理解其现实对应。",
+        "reading_note_en": "Watch three turns: his first anger, his first active search for help, and his first decision to stop arguing. Those three steps are the whole process of self-incrimination. Pair it with The Castle from the same period, and with Hannah Arendt's analysis of bureaucracy to see its real-world counterpart."
+      }
+    },
+    {
+      "slug": "the-magic-mountain",
+      "category": "literature",
+      "source": "batch",
+      "title_zh": "魔山",
+      "title_en": "The Magic Mountain",
+      "author": "thomas-mann",
+      "author_zh": "托马斯·曼",
+      "author_en": "Thomas Mann",
+      "nationality_zh": "德国",
+      "nationality_en": "German",
+      "year": 1924,
+      "original_language": "de",
+      "list_category_zh": "经典文库补遗",
+      "list_category_en": "Library Backfill",
+      "theme_zh": "在时间停止的地方，欧洲的每一种观念都获得了发言权",
+      "theme_en": "Where time stops, every idea in Europe is given a hearing",
+      "tags": ["novel", "novel-of-ideas", "modernism", "philosophy", "nobel-laureate", "classics", "germany"],
+      "topics": ["literature", "philosophy", "civilization"],
+      "prose": {
+        "description_zh": "一个年轻的工程师去阿尔卑斯山疗养院探望表兄，原计划停留三周，结果一住七年。疗养院是个时间失效的地方：没有工作、没有季节、没有必须完成的事。在这片真空里，他遇到代表欧洲各种思想立场的人物——启蒙理性、浪漫保守、宗教苦行、生命崇拜——每个人都在向他推销一整套世界观。小说因此成为一部用人物演出的观念史。",
+        "description_en": "A young engineer visits his cousin at an Alpine sanatorium, intending to stay three weeks; he stays seven years. The sanatorium is a place where time has stopped: no work, no seasons, nothing that must be done. In that vacuum he meets characters embodying Europe's competing positions — Enlightenment reason, romantic conservatism, religious asceticism, vitalist worship of life — each selling him an entire worldview. The novel thus becomes a history of ideas performed by characters.",
+        "why_read_zh": "它训练的是「同时持有多个立场」的能力。托马斯·曼让每一种观点都说得极其漂亮，然后让你发现它们彼此无法共存。这正是今天信息环境里最稀缺的能力：不被任何一个说得最好的声音俘获。此外，它对「时间感如何被环境改变」的描写，在注意力经济时代读来格外有现实感。",
+        "why_read_en": "It trains the capacity to hold several positions at once. Mann lets each view be stated beautifully, then lets you discover they cannot coexist. That is exactly the scarcest skill in today's information environment: not being captured by whichever voice argues best. Its account of how environment reshapes the sense of time also reads with unexpected relevance in an attention economy.",
+        "core_ideas_zh": [
+          "观念的说服力往往来自表达形式，而非其正确性。",
+          "当外部约束消失，时间感与判断力会一同松弛。",
+          "疾病与死亡不是生命的对立面，而是理解生命的入口。",
+          "一个人必须在多种同样自洽的世界观之间做出选择，而这个选择没有逻辑上的唯一解。"
+        ],
+        "core_ideas_en": [
+          "The persuasive force of an idea often comes from its form of expression rather than its correctness.",
+          "When external constraints vanish, the sense of time and the capacity for judgment relax together.",
+          "Illness and death are not the opposite of life but an entry point into understanding it.",
+          "One must choose among several equally coherent worldviews, and the choice has no logically unique answer."
+        ],
+        "key_questions_zh": [
+          "当一个人可以无限期推迟决定时，他还能做出真正的判断吗？",
+          "在众多同样自洽的世界观之间，凭什么选择其中一个？",
+          "时间感是如何塑造一个人的道德判断的？"
+        ],
+        "key_questions_en": [
+          "When a person can postpone decision indefinitely, is genuine judgment still possible?",
+          "Among equally coherent worldviews, on what basis does one choose?",
+          "How does the sense of time shape a person's moral judgment?"
+        ],
+        "who_should_read_zh": "适合对思想史有兴趣、且愿意读长篇的读者。若你正处在「知道很多观点却不知该信什么」的状态，这本书尤其对症。",
+        "who_should_read_en": "For readers interested in intellectual history who are willing to take on a long book. It is especially apt if you know many positions but cannot decide which to hold.",
+        "reading_note_zh": "全书分七章，可把塞塔姆布里尼与纳夫塔的争论当作核心，那几章是欧洲思想冲突的浓缩。若时间有限，至少读完这两位辩论的章节；时间充裕再补汉斯对雪的冥想一段，那是全书关于时间的核心隐喻。",
+        "reading_note_en": "The book has seven chapters; treat the debates between Settembrini and Naphta as the core, since those chapters compress Europe's intellectual conflict. If time is short, read at least those; if time allows, add Hans's meditation in the snow, the book's central metaphor about time."
+      }
+    },
+    {
+      "slug": "blindness",
+      "category": "literature",
+      "source": "batch",
+      "title_zh": "失明症漫记",
+      "title_en": "Blindness",
+      "author": "jose-saramago",
+      "author_zh": "若泽·萨拉马戈",
+      "author_en": "José Saramago",
+      "nationality_zh": "葡萄牙",
+      "nationality_en": "Portuguese",
+      "year": 1995,
+      "original_language": "pt",
+      "list_category_zh": "经典文库补遗",
+      "list_category_en": "Library Backfill",
+      "theme_zh": "当所有人突然看不见，文明还剩几天",
+      "theme_en": "When everyone suddenly goes blind, how many days does civilization have left?",
+      "tags": ["novel", "novel-of-ideas", "dystopia", "society", "human-nature", "nobel-laureate", "civilization"],
+      "topics": ["literature", "civilization", "modern-society"],
+      "prose": {
+        "description_zh": "一场传染性的「白盲症」在城市里蔓延，患者眼前只有一片乳白色。政府把感染者关进废弃的精神病院，随后放弃管理。食物短缺、秩序崩溃，人们迅速退回到最原始的交换与暴力。全书只有一个人没有失明——她假装看不见，以便照顾丈夫，也因此成为唯一的见证者。萨拉马戈用几乎不带情绪的句子，记录文明剥落的全过程。",
+        "description_en": "A contagious 'white blindness' spreads through a city; the afflicted see only a milky white. The government quarantines them in an abandoned asylum and then abandons them. Food runs short, order collapses, and people rapidly fall back to the most primitive forms of exchange and violence. Only one person does not go blind — she pretends to, to care for her husband, and so becomes the sole witness. Saramago records the peeling away of civilization in sentences almost devoid of emotion.",
+        "why_read_zh": "它回答了一个很少有人敢认真想的问题：我们所谓的文明，有多少是建立在「看得见彼此」这个脆弱前提上的？读完你会对秩序多一分敬畏，对「反正大家都这样」少一分信任。它也是对「灾难中谁最先被牺牲」的冷静记录。",
+        "why_read_en": "It answers a question few dare to think through: how much of what we call civilization rests on the fragile premise of being able to see one another? You come away with more respect for order and less trust in 'everyone is doing it anyway.' It is also a calm record of who gets sacrificed first in a disaster.",
+        "core_ideas_zh": [
+          "文明的维持依赖极薄的共识层，一旦剥离，退化速度远超想象。",
+          "恐惧会让人主动交出自由，并为此感到解脱。",
+          "在集体失序中，仍有个体选择保持注视与照料。",
+          "看不见他人的人，也失去了被称为人的部分能力。"
+        ],
+        "core_ideas_en": [
+          "Civilization rests on a very thin layer of consensus; once stripped, regression is far faster than imagined.",
+          "Fear makes people hand over their freedom willingly and feel relief in doing so.",
+          "Even in collective disorder, individuals still choose to keep watching and caring.",
+          "Those who cannot see others lose part of the capacity to be called human."
+        ],
+        "key_questions_zh": [
+          "文明的秩序究竟依赖制度，还是依赖人与人之间的相互可见？",
+          "在生存压力下，道德是最先被放弃的，还是最后被放弃的？",
+          "当所有人都在失去某种能力时，那个保留能力的人承担什么责任？"
+        ],
+        "key_questions_en": [
+          "Does civilized order depend on institutions, or on mutual visibility between people?",
+          "Under survival pressure, is morality abandoned first or last?",
+          "When everyone loses a capacity, what responsibility falls on the one who keeps it?"
+        ],
+        "who_should_read_zh": "适合关心社会秩序与人性底线的读者。文字风格特殊（长句、少标点、无引号），需要一点适应期；对暴力场景敏感者请谨慎。",
+        "who_should_read_en": "For readers concerned with social order and the limits of human decency. The style is distinctive — long sentences, sparse punctuation, no quotation marks — and requires adjustment; those sensitive to scenes of violence should proceed with care.",
+        "reading_note_zh": "前三分之一是秩序崩解的过程，节奏较慢但必要；进入精神病院后的章节是全书的道德实验室，重点读人物如何重新分配食物与权力。可与《蝇王》对读，一个是儿童版，一个是成人版。",
+        "reading_note_en": "The first third depicts the unraveling of order — slow but necessary; the chapters inside the asylum are the book's moral laboratory, where the redistribution of food and power deserves close reading. Pair it with Lord of the Flies: one is the children's version, this is the adult one."
+      }
+    },
+    {
+      "slug": "middlemarch",
+      "category": "literature",
+      "source": "batch",
+      "title_zh": "米德尔马契",
+      "title_en": "Middlemarch",
+      "author": "george-eliot",
+      "author_zh": "乔治·艾略特",
+      "author_en": "George Eliot",
+      "nationality_zh": "英国",
+      "nationality_en": "British",
+      "year": 1871,
+      "original_language": "en",
+      "list_category_zh": "经典文库补遗",
+      "list_category_en": "Library Backfill",
+      "theme_zh": "理想主义者在具体生活中如何被消磨，又如何被拯救",
+      "theme_en": "How idealism is worn down by ordinary life, and how it is saved",
+      "tags": ["novel", "society", "human-nature", "ethics", "classics", "bildungsroman"],
+      "topics": ["literature", "modern-society", "class-and-inequality"],
+      "prose": {
+        "description_zh": "英格兰外省小镇米德尔马契，一群普通人的婚姻、债务、野心与妥协。多萝西娅渴望把一生献给伟大的事业，却嫁给了一个只会做注释的老学究；利德盖特医生带着改革医疗的理想来到小镇，被社交与债务一点点拖垮。艾略特不写英雄，她写的是理想如何在具体的人情、账单与误会中被磨损，以及在这种磨损中人还能保留什么。",
+        "description_en": "In the provincial English town of Middlemarch, ordinary people marry, borrow, aspire, and compromise. Dorothea longs to give her life to something great and marries a pedantic scholar who only annotates; Dr. Lydgate arrives with ideals of reforming medicine and is slowly worn down by social obligation and debt. Eliot writes no heroes: she writes how ideals are eroded by particular relationships, bills, and misunderstandings — and what a person can still keep amid that erosion.",
+        "why_read_zh": "这是对「理想如何被日常消耗」最细致的观察。它让你提前看到自己可能的失败方式：不是被恶人打败，而是被琐事、误会和体面慢慢拖住。艾略特对他人动机的宽容与精准，本身就是一种认知训练——她让你习惯在不评判的前提下理解一个人为什么这样做。",
+        "why_read_en": "It is the most meticulous observation we have of how ideals are consumed by daily life. It lets you see in advance the way you might fail: not defeated by villains but slowly held back by small matters, misunderstandings, and propriety. Eliot's precise yet generous reading of motive is itself cognitive training — she accustoms you to understanding why a person acts as they do without first judging them.",
+        "core_ideas_zh": [
+          "理想很少被正面击败，多数时候是被琐事和体面慢慢耗尽。",
+          "理解一个人的动机，需要知道他所处的具体处境，而非仅凭行为判断。",
+          "婚姻与职业都是长期制度，进入时的想象与维持时的现实往往不同。",
+          "微小的、未被记录的选择，构成了一个人真正的品格。"
+        ],
+        "core_ideas_en": [
+          "Ideals are rarely defeated head-on; usually they are drained by small matters and propriety.",
+          "Understanding a person's motive requires knowing their particular situation, not judging by behavior alone.",
+          "Marriage and profession are long-term institutions; the imagination at entry rarely matches the reality of maintenance.",
+          "Small, unrecorded choices constitute a person's actual character."
+        ],
+        "key_questions_zh": [
+          "一个人的理想在多大程度上必须向现实妥协，才不算背叛自己？",
+          "我们凭什么判断他人的选择是软弱还是清醒？",
+          "在缺乏戏剧性事件的普通生活里，什么构成了真正的道德考验？"
+        ],
+        "key_questions_en": [
+          "How far must an ideal compromise with reality before it counts as self-betrayal?",
+          "On what grounds do we judge another's choice as weakness rather than clarity?",
+          "In an ordinary life without dramatic events, what constitutes a genuine moral test?"
+        ],
+        "who_should_read_zh": "适合已经工作几年、体会过理想与现实摩擦的读者。二十岁读可能觉得琐碎，三十岁后读会不断认出自己。篇幅长，需要耐心。",
+        "who_should_read_en": "For readers who have worked for some years and felt the friction between ideals and reality. At twenty it may seem petty; after thirty you will keep recognizing yourself. It is long and demands patience.",
+        "reading_note_zh": "不必强求记住所有支线，抓住多萝西娅与利德盖特两条主线即可。全书最值得反复读的是结尾「序言」与「尾声」对「未被历史记录的善」的讨论，那是艾略特全部创作的核心命题。",
+        "reading_note_en": "Do not force yourself to track every subplot; hold the two main lines of Dorothea and Lydgate. The passages most worth rereading are the Prelude and Finale on goodness that history never records — the central proposition of all Eliot's work."
+      }
+    }
+  ]
+}

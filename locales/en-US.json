@@ -49,6 +49,10 @@
     "paths_sub": "Sequence matters more than the list.",
     "topics_title": "Topics",
     "topics_sub": "Coordinates of thought that cut across categories.",
+    "coordinates_title": "Featured Coordinates",
+    "coordinates_sub": "How books from different fields answer the same question.",
+    "coordinates_unit": "books",
+    "coordinates_enter": "Enter coordinate",
     "articles_title": "Latest Articles",
     "articles_sub": "Longer writing around books and ideas.",
     "deepdive_title": "Today's Deep Dive",
@@ -383,4 +387,4 @@
     "also_in": "Also in",
     "note": "Imported from a third-party reading list or added as a daily pick — bibliographic facts, the source framing, and a full reading guide."
   }
-}
+}

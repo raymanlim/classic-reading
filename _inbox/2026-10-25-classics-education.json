@@ -1,0 +1,369 @@
+{
+  "date": "2026-10-25",
+  "books": [
+    {
+      "slug": "democracy-and-education",
+      "category": "education",
+      "source": "batch",
+      "title_zh": "民主主义与教育",
+      "title_en": "Democracy and Education",
+      "author": "john-dewey",
+      "author_zh": "约翰·杜威",
+      "author_en": "John Dewey",
+      "nationality_zh": "美国",
+      "nationality_en": "American",
+      "year": 1916,
+      "original_language": "en",
+      "list_category_zh": "经典文库补遗",
+      "list_category_en": "Library Backfill",
+      "theme_zh": "教育不是为生活做准备，教育本身就是生活的方式",
+      "theme_en": "Education is not preparation for life; it is a form of life itself",
+      "tags": ["education", "pedagogy", "learning", "philosophy", "society", "progress", "classics"],
+      "topics": ["education", "philosophy", "democracy-and-liberty"],
+      "prose": {
+        "description_zh": "杜威把教育重新定义为「经验的持续改造」：人不是先学完再生活，而是在解决真实问题的过程中不断重组自己的经验。他反对把知识当作可以传递的现成结论，也反对把学校当作与社会隔离的训练营。全书从「什么是教育」一路推到教材、方法、职业训练与民主社会的关系，构成二十世纪最有影响力的教育哲学体系。",
+        "description_en": "Dewey redefines education as 'the continuous reconstruction of experience': people do not learn first and live later, but reorganize their experience while solving real problems. He rejects the idea of knowledge as ready-made conclusions to be transmitted, and rejects the school as a training camp isolated from society. The book moves from 'what is education' through subject matter, method, and vocational training to the relation between schooling and democratic society, forming the most influential educational philosophy of the twentieth century.",
+        "why_read_zh": "在 AI 能即时给出答案的时代，杜威的论点变得空前重要：如果知识可以随时检索，学校还剩下什么不可替代的功能？他的回答是——训练人处理经验、形成判断、参与共同生活的能力，这些无法被检索替代。这本书给了你一个判断教育产品与教育政策的坐标。",
+        "why_read_en": "In an age when AI supplies answers instantly, Dewey's argument becomes newly urgent: if knowledge is always retrievable, what irreplaceable function remains for schooling? His answer is the formation of the capacity to work through experience, form judgment, and participate in shared life — none of which can be retrieved. The book gives you a coordinate system for judging educational products and policies.",
+        "core_ideas_zh": [
+          "教育是经验的持续重组，而非信息的单向传递。",
+          "只有在真实问题中获得的 knowledge 才能转化为判断力。",
+          "学校若与社会隔绝，就会生产出无法参与公共生活的人。",
+          "民主不仅是一种制度，更是一种需要被教育持续维持的生活方式。"
+        ],
+        "core_ideas_en": [
+          "Education is the continuous reconstruction of experience, not one-way transmission of information.",
+          "Only knowledge acquired in solving real problems converts into judgment.",
+          "A school isolated from society produces people unable to participate in public life.",
+          "Democracy is not only an institution but a way of living that education must continually sustain."
+        ],
+        "key_questions_zh": [
+          "如果知识可以被即时检索，教育还应当教什么？",
+          "经验如何被组织，才能既保留个人的主动性又不流于随意？",
+          "学校教育应当服务于社会现状，还是服务于改造社会？"
+        ],
+        "key_questions_en": [
+          "If knowledge can be retrieved instantly, what should education still teach?",
+          "How should experience be organized so that individual agency is preserved without falling into arbitrariness?",
+          "Should schooling serve the existing society, or the transformation of it?"
+        ],
+        "who_should_read_zh": "适合教育工作者、家长、教育产品设计者，以及任何关心「AI 时代人该学什么」的人。写于 1916 年，部分例子过时，但论证结构不过时。",
+        "who_should_read_en": "For educators, parents, designers of educational products, and anyone concerned with what people should learn in the age of AI. Written in 1916, some examples are dated, but the structure of the argument is not.",
+        "reading_note_zh": "前七章是理论核心，务必读透；中间谈教材与方法的章节可依兴趣选读；最后关于民主与教育的几章是全书落点，不要跳过。若时间有限，先读第一章与最后一章，再补中间。",
+        "reading_note_en": "The first seven chapters are the theoretical core and should be read closely; the middle chapters on subject matter and method can be selected by interest; the closing chapters on democracy and education are the book's destination and should not be skipped. If time is short, read chapter one and the final chapter first, then fill in."
+      }
+    },
+    {
+      "slug": "pedagogy-of-the-oppressed",
+      "category": "education",
+      "source": "batch",
+      "title_zh": "被压迫者教育学",
+      "title_en": "Pedagogy of the Oppressed",
+      "author": "paulo-freire",
+      "author_zh": "保罗·弗莱雷",
+      "author_en": "Paulo Freire",
+      "nationality_zh": "巴西",
+      "nationality_en": "Brazilian",
+      "year": 1968,
+      "original_language": "pt",
+      "list_category_zh": "经典文库补遗",
+      "list_category_en": "Library Backfill",
+      "theme_zh": "把学生当作容器填充，是最隐蔽的压迫形式",
+      "theme_en": "Treating students as containers to be filled is the most concealed form of oppression",
+      "tags": ["education", "pedagogy", "power", "inequality", "society", "critical-thinking", "classics"],
+      "topics": ["education", "power-and-politics", "class-and-inequality"],
+      "prose": {
+        "description_zh": "弗莱雷在巴西为文盲农民做扫盲教育时，提出一个尖锐判断：传统教育是「银行式」的——教师存款，学生保管，学生被当作空的容器。这种模式不只低效，它在生产顺从。他主张把教育变成「提问式」的：师生共同面对真实处境，把处境问题化，从而让人从被描述的对象变成描述自己处境的主体。全书带有马克思主义与存在主义的双重底色，语言密集。",
+        "description_en": "While running literacy programs for illiterate peasants in Brazil, Freire made a sharp judgment: traditional education is 'banking' education — the teacher deposits, the student stores, and the student is treated as an empty container. This model is not merely inefficient; it manufactures compliance. He argues instead for 'problem-posing' education: teachers and students face a real situation together and make it a problem, so that people move from being described to describing their own condition. The book carries both Marxist and existentialist undertones, and its language is dense.",
+        "why_read_zh": "它提供了一个诊断工具：判断一种教育（或一种 AI 助手的使用方式）究竟在培养判断力，还是在培养依赖。当 AI 越来越像「全知的教师」时，弗莱雷的警告变得具体——最危险的不是机器替你想，而是你习惯了不必想。这本书让你能识别那种习惯是如何被养成的。",
+        "why_read_en": "It supplies a diagnostic tool for deciding whether a form of education (or a way of using an AI assistant) develops judgment or develops dependence. As AI increasingly resembles an omniscient teacher, Freire's warning becomes concrete: the danger is not that the machine thinks for you, but that you grow accustomed to not thinking. This book lets you recognize how that habit is cultivated.",
+        "core_ideas_zh": [
+          "把学生当作被动容器，本质上是在训练服从而非思考。",
+          "真正的教育从「提问」开始，而不是从「答案」开始。",
+          "被压迫者解放的前提，是先把自己看作能够描述自身处境的主体。",
+          "压迫者无法替被压迫者完成解放，否则只是更换了压迫者。"
+        ],
+        "core_ideas_en": [
+          "Treating students as passive containers trains obedience rather than thought.",
+          "Real education begins with a question, not with an answer.",
+          "Liberation of the oppressed begins with seeing oneself as a subject capable of describing one's own condition.",
+          "The oppressor cannot liberate the oppressed on their behalf; that only replaces the oppressor."
+        ],
+        "key_questions_zh": [
+          "一种教育如何在不被察觉的情况下培养顺从？",
+          "提问式教育是否可能被制度化为另一种形式主义？",
+          "教育者与被教育者之间，权力差异能否被真正消除？"
+        ],
+        "key_questions_en": [
+          "How does a form of education cultivate compliance without being noticed?",
+          "Can problem-posing education itself be institutionalized into another formalism?",
+          "Can the power difference between educator and educated ever be genuinely eliminated?"
+        ],
+        "who_should_read_zh": "适合教育从业者、做培训与知识付费的人，以及所有使用 AI 工具的人——它帮你检查自己是在使用工具还是在交出思考。理论密度高，需要耐心。",
+        "who_should_read_en": "For educators, trainers, creators of paid knowledge products, and anyone who uses AI tools — it helps you check whether you are using a tool or surrendering your thinking. Theoretically dense and demanding.",
+        "reading_note_zh": "重点读第二章（银行式教育 vs 提问式教育），那是全书最锋利的部分；第一章与第三章理论背景较重，可先略读。读时把「教师—学生」替换成「AI—用户」再读一遍，会有新的发现。",
+        "reading_note_en": "Focus on chapter two (banking versus problem-posing education), the sharpest part of the book; chapters one and three are heavier in theory and can be skimmed first. Then reread substituting 'AI—user' for 'teacher—student', which yields something new."
+      }
+    },
+    {
+      "slug": "deschooling-society",
+      "category": "education",
+      "source": "batch",
+      "title_zh": "去学校化社会",
+      "title_en": "Deschooling Society",
+      "author": "ivan-illich",
+      "author_zh": "伊万·伊里奇",
+      "author_en": "Ivan Illich",
+      "nationality_zh": "奥地利",
+      "nationality_en": "Austrian",
+      "year": 1971,
+      "original_language": "en",
+      "list_category_zh": "经典文库补遗",
+      "list_category_en": "Library Backfill",
+      "theme_zh": "学校垄断了「学习」的定义权，这本身就是问题",
+      "theme_en": "That schools monopolize the definition of learning is itself the problem",
+      "tags": ["education", "schooling", "society", "institutions", "philosophy", "critical-thinking", "classics"],
+      "topics": ["education", "modern-society", "civilization"],
+      "prose": {
+        "description_zh": "伊里奇的论点在当时被视为极端：学校不只是教育机构，它是一个把「学习」与「文凭」「年龄」「围墙」绑定的制度，从而让没有文凭的人相信自己没有资格学习。他主张拆掉这种垄断，用「学习交换网络」替代学校——想学某件事的人与愿意教的人直接连接。半个世纪后，在线学习、社区自学与 AI 导师的兴起，让这本书从乌托邦变成了可讨论的方案。",
+        "description_en": "Illich's argument seemed extreme at the time: the school is not merely an educational institution but a system that binds 'learning' to credentials, age, and walls, thereby convincing those without credentials that they are not entitled to learn. He proposes dismantling that monopoly and replacing schools with 'learning exchanges' — direct connections between those who want to learn something and those willing to teach it. Half a century later, online learning, community self-study, and AI tutors have turned this book from utopia into a discussable proposal.",
+        "why_read_zh": "它逼你区分两件常被混为一谈的事：学习和上学。在 AI 让「知识获取」几乎零成本的今天，这个区分变得至关重要——如果学习可以发生在任何地方，那么学校存在的理由必须被重新论证，而不是默认成立。这本书提供的是最强的一组质疑。",
+        "why_read_en": "It forces you to separate two things usually conflated: learning and schooling. In an age when AI makes access to knowledge nearly free, the distinction becomes crucial — if learning can happen anywhere, the reason for schools to exist must be argued afresh rather than assumed. This book supplies the strongest set of challenges.",
+        "core_ideas_zh": [
+          "制度会逐渐把自己的存续置于其所宣称的目标之上。",
+          "文凭的本质是一种准入许可，而非能力的证明。",
+          "学习的发生不依赖特定场所与特定年龄。",
+          "把「教」与「学」解绑，需要重建人与人的直接连接，而非仅仅取消学校。"
+        ],
+        "core_ideas_en": [
+          "Institutions gradually place their own survival above the goals they claim to serve.",
+          "A credential is essentially a permission to enter, not a proof of ability.",
+          "Learning does not depend on a particular place or a particular age.",
+          "Unbinding teaching from schooling requires rebuilding direct human connections, not merely abolishing schools."
+        ],
+        "key_questions_zh": [
+          "如果学习不需要学校，学校还应当承担什么不可替代的功能？",
+          "文凭衡量的是能力，还是服从制度的能力？",
+          "取消一种垄断之后，新的不平等会以什么形式出现？"
+        ],
+        "key_questions_en": [
+          "If learning does not require schools, what irreplaceable function should schools still perform?",
+          "Does a credential measure competence, or the ability to comply with an institution?",
+          "After a monopoly is abolished, in what form does new inequality appear?"
+        ],
+        "who_should_read_zh": "适合对教育制度有根本性质疑的读者，以及做在线教育、社区学习、AI 学习产品的人。论点激进，需要边读边反驳，不必全盘接受。",
+        "who_should_read_en": "For readers with fundamental doubts about educational institutions, and for those building online education, community learning, or AI learning products. The argument is radical; read it arguing back rather than accepting wholesale.",
+        "reading_note_zh": "重点读前三章与关于「学习交换」的章节；中间对制度异化的分析可与韦伯的官僚制理论对读。读完后问自己一个问题：如果没有文凭，我会用什么证明自己学过？",
+        "reading_note_en": "Focus on the first three chapters and the chapters on learning exchanges; the middle analysis of institutional alienation pairs well with Weber on bureaucracy. Afterward ask yourself: without credentials, how would I demonstrate that I have learned something?"
+      }
+    },
+    {
+      "slug": "the-end-of-education",
+      "category": "education",
+      "source": "batch",
+      "title_zh": "教育的终结",
+      "title_en": "The End of Education",
+      "author": "neil-postman",
+      "author_zh": "尼尔·波兹曼",
+      "author_en": "Neil Postman",
+      "nationality_zh": "美国",
+      "nationality_en": "American",
+      "year": 1995,
+      "original_language": "en",
+      "list_category_zh": "经典文库补遗",
+      "list_category_en": "Library Backfill",
+      "theme_zh": "教育失败不是因为方法不对，而是因为没有值得教的故事",
+      "theme_en": "Education fails not for lack of method but for lack of a story worth teaching",
+      "tags": ["education", "schooling", "technology", "cultural-history", "critical-thinking", "society", "classics"],
+      "topics": ["education", "attention-and-depth", "modern-society"],
+      "prose": {
+        "description_zh": "波兹曼认为，教育真正的问题不是课程表或教学法，而是「为什么学」这个问题失去了答案。人需要叙事来赋予学习以意义——过去是民主、是工作、是宗教，如今这些叙事都在失效，取而代之的是「娱乐」和「经济竞争」。他逐一拆解这些替代叙事的空洞，并提出几种可以重新赋予教育意义的「元叙事」，最后专门讨论技术如何被误当作教育的答案。",
+        "description_en": "Postman argues that the real problem in education is not curriculum or pedagogy but that the question 'why learn' has lost its answer. People need narratives to give learning meaning — once democracy, work, or religion; now these have weakened, replaced by entertainment and economic competition. He dismantles the emptiness of these substitutes one by one, proposes several 'godterms' that could restore meaning, and closes with a dedicated discussion of how technology gets mistaken for an educational answer.",
+        "why_read_zh": "当 AI 让「教什么」变得容易，「为什么教」反而更难回答。波兹曼的分析框架正好用在这里：任何教育方案，如果只说提升效率、增强竞争力，而不回答「培养什么样的人」，就仍然是空的。这本书也是对你现有 AI 教育类书籍阅读的一个校准器。",
+        "why_read_en": "When AI makes 'what to teach' easy, 'why teach it' becomes harder to answer. Postman's framework applies directly: any educational proposal that speaks only of efficiency and competitiveness, without answering 'what kind of person are we forming', remains empty. The book also calibrates your reading of the current AI-and-education literature.",
+        "core_ideas_zh": [
+          "没有叙事支撑的学习，最终会退化为应付考核的技术动作。",
+          "「提升竞争力」是一个空洞的教育目标，因为它不指向任何具体的人。",
+          "技术进入课堂时，往往被当作解决问题的手段，而它本身会重新定义问题。",
+          "教育需要提供能够回答「我们为何共同生活」的公共叙事。"
+        ],
+        "core_ideas_en": [
+          "Learning without narrative support eventually degrades into technical maneuvers for passing assessments.",
+          "'Raising competitiveness' is an empty educational goal because it points to no particular person.",
+          "When technology enters the classroom it is treated as a means to solve problems, while it actually redefines the problems.",
+          "Education must supply a public narrative capable of answering 'why do we live together'."
+        ],
+        "key_questions_zh": [
+          "如果效率不再是问题，教育应当为了什么？",
+          "一种只谈竞争力的教育，会培养出什么样的人？",
+          "技术进入教育时，改变的是手段还是目的？"
+        ],
+        "key_questions_en": [
+          "If efficiency is no longer the problem, what should education be for?",
+          "What kind of person does an education that speaks only of competitiveness produce?",
+          "When technology enters education, does it change the means or the ends?"
+        ],
+        "who_should_read_zh": "适合家长、教师、教育政策制定者与教育科技从业者。若你只读过《娱乐至死》，这本是同一作者在教育领域更直接的推演。",
+        "who_should_read_en": "For parents, teachers, policymakers, and those working in education technology. If you have read Amusing Ourselves to Death, this is the same author's more direct application to education.",
+        "reading_note_zh": "先读论述「叙事」的前半部分，那是全书基础；最后关于技术的那一章务必读，它与今天 AI 进课堂的讨论高度对应。可与《娱乐至死》对读，看同一套媒介生态学方法如何应用于不同对象。",
+        "reading_note_en": "Read the first half on narratives, which establishes the groundwork; the final chapter on technology is essential and maps closely onto today's debate about AI in classrooms. Pair it with Amusing Ourselves to Death to see the same media-ecology method applied to different objects."
+      }
+    },
+    {
+      "slug": "the-shallows",
+      "category": "education",
+      "source": "batch",
+      "title_zh": "浅薄：互联网如何毒化了我们的大脑",
+      "title_en": "The Shallows: What the Internet Is Doing to Our Brains",
+      "author": "nicholas-carr",
+      "author_zh": "尼古拉斯·卡尔",
+      "author_en": "Nicholas Carr",
+      "nationality_zh": "美国",
+      "nationality_en": "American",
+      "year": 2010,
+      "original_language": "en",
+      "list_category_zh": "经典文库补遗",
+      "list_category_en": "Library Backfill",
+      "theme_zh": "媒介不只是载体，它重塑大脑处理信息的方式",
+      "theme_en": "Media is not merely a container; it reshapes how the brain processes information",
+      "tags": ["technology", "attention", "cognitive-science", "neuroscience", "reading", "computing", "classics"],
+      "topics": ["attention-and-depth", "technology", "cognitive-science"],
+      "prose": {
+        "description_zh": "卡尔从自己的经验出发：他发现自己再也无法读完一本长书，注意力总是被拉回屏幕。由此展开的考察横跨神经科学（大脑的可塑性）、媒介史（从口头传统到印刷术再到电报）与文化批评，论证一个核心命题——工具不只是被我们使用，它同时改造使用者的神经回路。书中对「超链接如何打断理解」「搜索引擎如何改变记忆方式」的分析，在 AI 时代显得更加尖锐。",
+        "description_en": "Carr begins with his own experience: he can no longer finish a long book; his attention keeps being pulled back to the screen. The investigation that follows spans neuroscience (brain plasticity), media history (from oral tradition to print to telegraph), and cultural criticism, arguing a central proposition — tools are not merely used by us; they rewire the user. Its analyses of how hyperlinks interrupt comprehension and how search engines change the shape of memory read even more sharply in the age of AI.",
+        "why_read_zh": "这是理解「AI 时代人会被怎样改变」的基础读物。卡尔给出的不是道德批判，而是机制分析：媒介形态如何塑造注意力的持续时间、记忆的组织方式与思考的深度。读完你会对「效率工具」保持一种清醒的距离，也会更自觉地保护自己的深度阅读能力。",
+        "why_read_en": "It is foundational for understanding how people are changed by the AI era. Carr offers not moral criticism but mechanism: how the form of a medium shapes attention span, the organization of memory, and the depth of thought. You come away with a clear-eyed distance from 'productivity tools' and a more deliberate defense of your own capacity for deep reading.",
+        "core_ideas_zh": [
+          "大脑具有可塑性，长期使用某种媒介会重塑神经通路。",
+          "超链接与多任务并非无害的效率提升，而是改变了理解的方式。",
+          "每一种媒介都偏向某类思维，同时削弱另一类。",
+          "深度阅读是一种需要被主动保护的能力，不会自动维持。"
+        ],
+        "core_ideas_en": [
+          "The brain is plastic; sustained use of a medium rewires neural pathways.",
+          "Hyperlinks and multitasking are not harmless efficiency gains; they alter the mode of comprehension.",
+          "Every medium favors one kind of thinking while weakening another.",
+          "Deep reading is a capacity that must be actively protected; it does not maintain itself."
+        ],
+        "key_questions_zh": [
+          "使用工具的自由，是否包含选择不被工具改造的自由？",
+          "当信息获取变得毫不费力，理解的深度会发生什么变化？",
+          "一种媒介在提升效率的同时，拿走了什么？"
+        ],
+        "key_questions_en": [
+          "Does the freedom to use a tool include the freedom not to be reshaped by it?",
+          "When access to information becomes effortless, what happens to depth of understanding?",
+          "What does a medium take away while it raises efficiency?"
+        ],
+        "who_should_read_zh": "适合每天长时间使用手机与 AI 工具、并隐约感到注意力变差的人。也适合教育工作者——它解释了为什么学生的长文本阅读能力在下降。",
+        "who_should_read_en": "For anyone who spends long hours with phones and AI tools and senses a decline in attention. Also for educators: it explains why students' capacity for long-form reading is falling.",
+        "reading_note_zh": "重点读关于大脑可塑性与超链接的两章，那是论证的支点；媒介史部分可快速浏览。读完后做一个实验：连续三天不做多任务，观察自己的阅读速度与理解力变化，这比任何论证都更有说服力。",
+        "reading_note_en": "Focus on the chapters on brain plasticity and hyperlinks — the fulcrum of the argument; the media-history sections can be skimmed. Afterward run an experiment: three days without multitasking, observing changes in reading speed and comprehension. That will persuade you more than any argument."
+      }
+    },
+    {
+      "slug": "reclaiming-conversation",
+      "category": "education",
+      "source": "batch",
+      "title_zh": "重拾交谈",
+      "title_en": "Reclaiming Conversation: The Power of Talk in a Digital Age",
+      "author": "sherry-turkle",
+      "author_zh": "雪莉·特克尔",
+      "author_en": "Sherry Turkle",
+      "nationality_zh": "美国",
+      "nationality_en": "American",
+      "year": 2015,
+      "original_language": "en",
+      "list_category_zh": "经典文库补遗",
+      "list_category_en": "Library Backfill",
+      "theme_zh": "我们正在用效率换掉那些低效但不可替代的对话",
+      "theme_en": "We are trading away inefficient but irreplaceable conversations for efficiency",
+      "tags": ["technology", "psychology", "attention", "education", "human-nature", "society", "classics"],
+      "topics": ["attention-and-depth", "education", "modern-society"],
+      "prose": {
+        "description_zh": "特克尔在 MIT 做了三十年人与技术关系的研究，这本书基于数百次访谈。她发现一种普遍的退让：人们更愿意发消息而不愿打电话，更愿意在屏幕上编辑好一句话再发送，而不愿承担面对面即时回应的风险。代价是共情能力、独处能力与深度关系的削弱。她特别讨论了家庭餐桌、教室与职场三个场景，指出这些场所正在失去「无设备对话」的空间。",
+        "description_en": "Turkle spent thirty years at MIT studying the human relationship with technology; this book draws on hundreds of interviews. She finds a pervasive retreat: people prefer texting to calling, prefer composing a message on screen to risking an immediate face-to-face reply. The cost is a weakening of empathy, of the capacity to be alone, and of deep relationships. She examines three settings in particular — the family dinner table, the classroom, and the workplace — arguing that these are losing the space for device-free conversation.",
+        "why_read_zh": "在 AI 聊天越来越自然的时代，这本书的问题变得关键：如果对话可以被模拟，真实对话的不可替代性在哪里？特克尔的回答是——在停顿、尴尬、修正和无法撤回的即时回应里，这些正是共情与自我认识发生的地方。对教育者尤其重要：学生的对话能力正在被悄悄替换。",
+        "why_read_en": "As AI conversation grows more natural, the book's question becomes central: if dialogue can be simulated, where does the irreplaceability of real conversation lie? Turkle's answer is in the pauses, the awkwardness, the corrections, and the unretractable immediate response — exactly where empathy and self-knowledge occur. Especially important for educators: students' conversational capacity is being quietly replaced.",
+        "core_ideas_zh": [
+          "对话中的停顿与尴尬不是缺陷，而是共情发生的必要条件。",
+          "独处的能力是与人建立真实关系的前提，而非其对立面。",
+          "用文字编辑过的表达更安全，但也更少暴露真实的自己。",
+          "家庭、教室与职场需要被刻意保护的「无设备对话」空间。"
+        ],
+        "core_ideas_en": [
+          "Pauses and awkwardness in conversation are not defects but conditions for empathy.",
+          "The capacity to be alone is a precondition for real relationship, not its opposite.",
+          "Text that has been edited is safer but reveals less of the actual self.",
+          "The family table, the classroom, and the workplace need deliberately protected space for device-free conversation."
+        ],
+        "key_questions_zh": [
+          "如果 AI 能提供足够好的对话，人与人之间的交谈还剩下什么独特价值？",
+          "效率更高的沟通方式，为何反而削弱了理解？",
+          "教育应当如何保护那些无法被数字化的能力？"
+        ],
+        "key_questions_en": [
+          "If AI can offer sufficiently good conversation, what unique value remains in talk between people?",
+          "Why does more efficient communication weaken understanding?",
+          "How should education protect capacities that cannot be digitized?"
+        ],
+        "who_should_read_zh": "适合家长、教师、管理者，以及所有感觉自己「社交很多但交谈很少」的人。文字以访谈案例为主，可读性强，但结论需要自己判断。",
+        "who_should_read_en": "For parents, teachers, managers, and anyone who feels they socialize a great deal but converse very little. The book is built from interview cases and reads easily, though its conclusions deserve your own scrutiny.",
+        "reading_note_zh": "重点读关于家庭与教室的两部分，那是最具体的场景分析；关于职场的部分可与《深度工作》对读。读时留意作者对技术的态度并不敌对，她关心的是「我们主动放弃了什么」。",
+        "reading_note_en": "Focus on the sections on family and classroom, the most concrete scene analyses; the workplace section pairs well with Deep Work. Notice that the author is not hostile to technology — her concern is what we have voluntarily given up."
+      }
+    },
+    {
+      "slug": "teaching-machines",
+      "category": "education",
+      "source": "batch",
+      "title_zh": "教学机器：个性化学习的历史",
+      "title_en": "Teaching Machines: The History of Personalized Learning",
+      "author": "audrey-watters",
+      "author_zh": "奥黛丽·沃特斯",
+      "author_en": "Audrey Watters",
+      "nationality_zh": "美国",
+      "nationality_en": "American",
+      "year": 2021,
+      "original_language": "en",
+      "list_category_zh": "经典文库补遗",
+      "list_category_en": "Library Backfill",
+      "theme_zh": "AI 个性化学习的承诺，一百年前就有人许下过",
+      "theme_en": "The promise of personalized learning by machine was made a century ago",
+      "tags": ["education", "technology", "ai-and-education", "learning", "schooling", "history", "critical-thinking"],
+      "topics": ["education", "technology", "attention-and-depth"],
+      "prose": {
+        "description_zh": "沃特斯是教育技术领域最尖锐的批评者之一。她挖出被遗忘的档案：1920 年代心理学家普莱西发明的教学机器、斯金纳的行为主义程序教学、六十年代的程序化教材，以及每一次「技术将革新教育」的宣告如何兴起、如何失败、又如何以新名字重新出现。这本书不是反对技术，而是让人看清「个性化学习」这个口号的历史包袱与反复落空的承诺。",
+        "description_en": "Watters is among the sharpest critics of education technology. She excavates forgotten archives: the teaching machines built by psychologist Sidney Pressey in the 1920s, Skinner's behaviorist programmed instruction, the programmed textbooks of the 1960s, and how each declaration that 'technology will transform education' rose, failed, and reappeared under a new name. The book is not opposed to technology; it lets you see the historical baggage and repeatedly unmet promises carried by the slogan 'personalized learning'.",
+        "why_read_zh": "当 AI 教育产品再次许诺「个性化学习」时，你需要一本能识别模式的书。沃特斯证明，几乎每一个当下的说法都有一个 1920 年代的祖先，而它们的失败原因高度相似：低估教学的复杂性，高估自动化的边界。这是最实用的一本「防骗指南」。",
+        "why_read_en": "When AI education products once again promise 'personalized learning', you need a book that recognizes the pattern. Watters shows that nearly every current claim has a 1920s ancestor, and that the reasons for failure are strikingly similar: underestimating the complexity of teaching, overestimating the reach of automation. This is the most practical inoculation available.",
+        "core_ideas_zh": [
+          "教育技术的历史是一再重复的循环，而非持续进步。",
+          "「个性化学习」常常意味着把教学简化为可测量的行为训练。",
+          "技术承诺的失败通常不是因为技术不够好，而是因为教育目标被简化。",
+          "理解失败史，比理解成功案例更能提高判断力。"
+        ],
+        "core_ideas_en": [
+          "The history of education technology is a repeating cycle rather than steady progress.",
+          "'Personalized learning' often means reducing teaching to measurable behavioral training.",
+          "Technological promises usually fail not because the technology is inadequate but because educational aims were simplified.",
+          "Understanding the history of failure improves judgment more than studying success stories."
+        ],
+        "key_questions_zh": [
+          "为什么每一代教育技术都会重复上一代的承诺？",
+          "「个性化」究竟指适应学习者，还是指把学习者拆成数据点？",
+          "在评估一个 AI 教育产品时，应当追问哪些历史问题？"
+        ],
+        "key_questions_en": [
+          "Why does each generation of education technology repeat the previous generation's promises?",
+          "Does 'personalized' mean adapting to the learner, or breaking the learner into data points?",
+          "What historical questions should one ask when evaluating an AI education product?"
+        ],
+        "who_should_read_zh": "适合教育科技从业者、投资教育赛道的读者、学校管理者与家长。立场鲜明，需要与支持方的论述对读，才不失平衡。",
+        "who_should_read_en": "For education-technology practitioners, investors in the sector, school administrators, and parents. The stance is pointed; balance it by reading the advocates as well.",
+        "reading_note_zh": "重点读关于普莱西与斯金纳的两章，那是循环的起点；再读结尾关于当代「个性化学习」的章节，看同一套话术如何被复用。读时列出每个时代承诺的关键词，你会发现它们几乎可以互换。",
+        "reading_note_en": "Focus on the chapters on Pressey and Skinner, the origin of the cycle, then the closing chapters on contemporary 'personalized learning' to see the same rhetoric reused. List the keywords of each era's promise as you read; you will find they are nearly interchangeable."
+      }
+    }
+  ]
+}
