@@ -983,6 +983,44 @@ export const notes = [
     ],
     topics: ['cognitive-science', 'philosophy', 'science-and-nature'],
   },
+  {
+    id: 'note-027',
+    slug: 'a-treatise-of-human-nature-habit-is-the-great-guide',
+    book: 'a-treatise-of-human-nature',
+    date: '2026-10-26',
+    voice: 'editorial',
+    key_insight_zh:
+      '休谟把因果推理的基础从理性换成了习惯：我们相信明天会与昨天相似，不是因为证明了这一点，而是因为过去一直如此——而这个期待本身无法被理性辩护，也无法被理性取消。',
+    key_insight_en:
+      'Hume relocates the foundation of causal inference from reason to custom: we expect tomorrow to resemble yesterday not because we have proved it will, but because it always has — and that expectation can be neither justified nor dispelled by reason.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于，它把「我们如何知道」这个问题从对象一侧转到了主体一侧。休谟的起点是一个不起眼的事实：我们从未直接观察到「因果」，只观察到两件事的恒常会合——一个球撞上另一个球，第二个球动了，如此反复。理性无法从「过去如此」推出「必然如此」，因为任何这样的推论都要预设「未来会像过去」，而这个预设本身正是需要被证明的东西。他给出的答案不是证明，而是描述：反复的经验产生了一种心理倾向，使我们不由自主地从一个印象过渡到对另一个的印象的期待，他把这个机制称为习惯。它真正动摇的是理性主义对人心的画像——人不是先有理由再行动，而是先被习惯带着走，理由多半是事后补上的说明。容易被忽略的一点是，休谟并未因此主张怀疑一切：他明确承认，一旦离开书斋、坐下吃饭、与人下棋，怀疑就自动退场，因为自然比论证更强。值得警惕的是，这本书常被简化为「休谟否定因果」，而它真正的论点是更窄也更难对付的一个：因果推理在实践上不可放弃，在理性上无法奠基，两者同时成立。它与本站《信用的分层》恰成一组：那篇追问制度能否替代人对人的信任，这本则提示，人对世界的全部预期本身就是一种未经担保的信赖——制度化的信任不过是把这份信赖换了个托管人，而没有、也不可能把它换成证明。',
+    thinking_en:
+      'The key move in this book is to shift the question of how we know from the object to the subject. Hume begins with an unremarkable fact: we never observe causation itself, only the constant conjunction of two events — one ball strikes another, the second moves, and again. Reason cannot derive "must" from "always has been", because any such inference presupposes that the future will resemble the past, and that presupposition is precisely what stands in need of proof. His answer is not a proof but a description: repeated experience produces a psychological propensity to pass from one impression to the expectation of another, and he calls this mechanism custom. What it genuinely unsettles is the rationalist picture of the mind — we do not first have reasons and then act, but are carried by habit first and supply the reasons afterwards. The easily missed point is that Hume does not therefore counsel universal doubt: he explicitly grants that once you leave the study, sit down to dinner, or play a game of chess, the doubt quietly withdraws, because nature is stronger than argument. The caution worth keeping is that the book is often reduced to "Hume denied causation", when its actual claim is narrower and harder to answer: causal inference is indispensable in practice and unfounded in reason, and both are true at once. It forms a pair with this site\'s "The Layering of Credit": that essay asks whether institutions can substitute for trust between persons, while this book suggests that our entire expectation of the world is itself an unguaranteed reliance — institutionalised trust merely changes the custodian of that reliance, and neither can nor should convert it into proof.',
+    questions_zh: [
+      '如果因果推理无法被理性证明，为什么它在实践中几乎从不失效，而怀疑也从不真正影响我们的行动？',
+      '「过去一直如此」这个前提，与制度化的信用所依赖的「记录一直准确」有什么结构上的相似？',
+      '习惯可以被训练，也可以被欺骗；那么当习惯被系统性地误导时，个人有没有可能在内部发现这一点？',
+    ],
+    questions_en: [
+      'If causal inference cannot be rationally justified, why does it almost never fail in practice, and why does doubt never genuinely alter how we act?',
+      'What structural resemblance is there between the premise "it has always been so" and the premise "the record has always been accurate" on which institutional credit depends?',
+      'Habit can be trained and it can be deceived; when habit is systematically misled, is there any way for a person to detect this from the inside?',
+    ],
+    answers_zh: [
+      '因为习惯的作用方式是排除犹豫，而不是提供理由。它不需要被证明为真就能驱动行动，只需要足够多次的重复。怀疑之所以在书斋之外退场，不是因为被驳倒，而是因为行动要求一个确定的起点，而自然用感受的强度替代了论证。这一点既是休谟的解决办法，也是他留下的问题：一个无法被辩护的机制，却是唯一在运作的机制。',
+      '两者都是把「未来会像过去」当成默认前提。制度化的信用假设记录是准确的、且未来仍会准确；因果推理假设自然进程是齐一的。差别在于，前者可以被外部核查与追责，后者不能——这正是制度相对于个人习惯的唯一优势，也是它唯一的可靠性来源。',
+      '很难，但不是不可能。习惯在内部是透明的：它表现为「事情显然就是这样」，而不是「我假设事情是这样」。要发现它，通常需要外部冲击——一次预测失败、一个来自不同习惯环境的人、或者一套要求你把默认前提写下来的程序。这也解释了为什么跨文化的接触与制度化的复核，往往比自我反省更能暴露被习惯掩盖的东西。',
+    ],
+    answers_en: [
+      'Because habit works by removing hesitation rather than by supplying reasons. It need not be proved true in order to drive action; it needs only enough repetition. Doubt withdraws outside the study not because it has been refuted but because action requires a determinate starting point, and nature substitutes the intensity of feeling for argument. This is both Hume\'s solution and his residual problem: a mechanism that cannot be justified is the only one that operates.',
+      'Both treat "the future will resemble the past" as a default premise. Institutional credit assumes the record is accurate and will remain so; causal inference assumes the course of nature is uniform. The difference is that the former can be externally checked and answered for, while the latter cannot — and that is precisely the only advantage institutions hold over personal habit, and the only source of their reliability.',
+      'With difficulty, but not impossibly. Habit is transparent from the inside: it presents itself as "this is obviously how things are" rather than as "I am assuming this is how things are". Detecting it usually requires an external shock — a failed prediction, a person formed by a different habit, or a procedure that forces you to write your default premises down. This is also why cross-cultural contact and institutional review expose what habit conceals better than self-examination does.',
+    ],
+    topics: ['philosophy', 'cognitive-science'],
+  },
 ];
 
 export default notes;
