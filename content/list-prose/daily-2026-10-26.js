@@ -1,0 +1,67 @@
+/** 每日推荐阅读指引 · 2026-10-26 */
+export const batch = {
+  'lord-of-the-flies': {
+    description_zh: '一架疏散中的飞机把一群六岁到十二岁的英国男孩丢在一座无人岛上，没有成人，也没有留下任何机构。他们清点人数、选出一个领头的，用一只海螺召集会议，用眼镜片聚光取火，轮流守着信号火堆等船。规则起初是管用的：谁拿着海螺谁发言，火不能灭，果子要吐在指定的地方。但岛上开始流传一种说法——夜里有个「野兽」。找不到它，恐惧并不消失，只是不断改换归属：它先被指认为海上的东西，再被指认为林子里的东西，最后被指认为他们中间的人。狩猎、涂脸、守夜与集体的歌声，把一群孩子组织成了另一种东西。戈尔丁写的是一个思想实验：撤走所有外部装置之后，剩下的是什么。',
+    description_en: 'A plane evacuating children from a war drops a group of English boys, aged six to twelve, on an uninhabited island. No adults, no institutions, nothing left behind. They count themselves, elect a leader, call meetings with a conch shell, light a fire with a pair of spectacles, and keep the signal burning in the hope of a ship. At first the rules hold: whoever holds the conch speaks, the fire must not go out, fruit must be eaten away from the shelters. Then a rumour begins to circulate — there is a beast on the island. It is never found, and the fear does not fade; it only changes address, moving from the sea, to the trees, to the people standing in the circle. Hunting, face paint, night watches and collective chanting reorganise the boys into something else. Golding\'s novel is an experiment: remove every external support of civilisation and see what remains.',
+    why_read_zh: '因为它把「教育能否使人变好」这个问题做成了一场可观察的实验，而不是一场辩论。戈尔丁 1983 年获诺贝尔文学奖，瑞典学院的授奖说明正是从这本书讲起，称它「迅速成为世界性的成功并保持至今」。它同时反着两条流行叙事：一条是《珊瑚岛》式的帝国少年冒险——英国男孩凭品格在荒岛上战胜野蛮；一条是卢梭式的性善论——天性本好，坏的是社会。戈尔丁把这两个前提一起放进岛上，然后看它们如何逐一失效。',
+    why_read_en: 'Because it turns the question of whether education can make people good into something observable rather than something argued. When Golding received the Nobel Prize in Literature in 1983, the Swedish Academy\'s citation began with this book, noting that it had rapidly become a worldwide success and had remained one. It works against two familiar stories at once: the imperial boys\' adventure of The Coral Island, in which English schoolboys defeat savagery through character, and the Rousseauian premise that human nature is good and only society corrupts it. Golding places both premises on the same island and watches them fail, one after the other.',
+    core_ideas_zh: [
+        '秩序不靠人性，靠被共同承认的规则：海螺本身没有权力，它的效力完全来自所有人同意「拿着它的人可以说话」。所以秩序瓦解不需要恶人，只需要不再承认。',
+        '恐惧会自我组织：一个无法被证伪的「野兽」，会让寻找它的行为本身生产出它。先有恐惧，后有献祭；献祭一旦开始，就需要不断有新的祭品。',
+        '暴力不需要恶魔，只需要角色分工：狩猎队、涂脸、守夜、合唱，每一步都只比上一步多一点点，等回头时，位置已经换不回来了。',
+        '最先看清真相的人最先被消灭：西蒙看见的「野兽」就在人自己身上，猪崽子坚持的规则是唯一还能约束集体的东西——两人的下场说明，共同体有时必须杀掉说真话的人来维持自己的叙事。'
+      ],
+    core_ideas_en: [
+        'Order rests not on human nature but on rules that are collectively acknowledged: the conch has no power of its own, only the power everyone agrees to grant whoever holds it. Order therefore does not need villains to collapse — it needs only the withdrawal of that agreement.',
+        'Fear organises itself: an unfalsifiable beast means that the search for it produces it. Fear comes first and sacrifice follows, and once sacrifice begins it requires a steady supply of victims.',
+        'Violence needs no monsters, only the division of roles: a hunting party, face paint, a night watch, a chant. Each step is only slightly beyond the last, and by the time anyone looks back the position cannot be recovered.',
+        'Whoever sees clearly is eliminated first: Simon recognises that the beast is inside the boys themselves, and Piggy insists on the one rule that still constrains the group. What happens to both suggests that a community may need to kill its truth-tellers in order to keep its own story intact.'
+      ],
+    key_questions_zh: [
+        '一群没有成人的孩子会重建秩序还是退回猎群？决定结果的是「人性」，还是制度与恐惧的分布？',
+        '当一个共同体无法证伪自己最害怕的东西时，它如何避免用献祭换取安全感？',
+        '「文明」究竟是内在于人的品质，还是外在于人的装置——海螺、眼镜、火、以及愿意守规矩的习惯？装置被拿走之后，还剩下什么？'
+      ],
+    key_questions_en: [
+        'Will a group of children without adults rebuild order or revert to a hunting pack? And is the outcome decided by human nature, or by institutions and the distribution of fear?',
+        'When a community cannot falsify the thing it most fears, how does it avoid buying security with sacrifice?',
+        'Is civilisation a quality inside people, or a set of external devices — a shell, a pair of spectacles, a fire, a habit of obeying rules? And what is left when the devices are taken away?'
+      ],
+    who_should_read_zh: '对「人性本善还是本恶」这类大判断不满足于口号、想要一个可检验案例的读者；做组织、制度、危机处置工作，需要理解秩序如何在压力下失效的人；以及读小说是为了练判断力而不是找慰藉的人。',
+    who_should_read_en: 'Readers who are unsatisfied with slogans about whether human beings are naturally good or evil and want a testable case instead; anyone who works with organisations, institutions or crisis response and needs to understand how order fails under pressure; and readers who go to fiction for judgement rather than consolation.',
+    reading_note_zh: '第一遍不要先看导读，直接读，注意「火」和「眼镜」两件东西的功能变化——它们如何从工具变成权力，又如何在权力转移时易主。第二遍只追西蒙那条线：他每次开口都被打断，这是全书最安静也最狠的一条线索。可配合本期另一本《爱弥儿》对读：卢梭认为撤走社会影响、让天性自然发展就会长出好人，戈尔丁把这个假设真的做了一遍。',
+    reading_note_en: 'Read it once without the introduction, watching two objects in particular — the fire and the spectacles — as they shift from tools into instruments of power and change hands when power does. Then read it a second time following only Simon: he is interrupted every time he speaks, and that is the quietest and cruellest thread in the book. It pairs naturally with Rousseau\'s Emile, also recommended today: Rousseau held that removing society\'s influence and letting nature unfold would produce a good person, and Golding actually runs that experiment.'
+  },
+  'emile-or-on-education': {
+    description_zh: '《爱弥儿，或论教育》1762 年出版，全书五卷，按一个假想学生从出生到成家的年龄顺序展开：婴儿期的身体养护、两岁到十二岁的「消极教育」、十二到十五岁的智育、十五岁以后的道德与情感教育，最后是「萨伏依神甫的信仰告白」以及爱弥儿未来妻子苏菲的教育。它一半是小说，一半是论说：卢梭不写体系，写场景——孩子打破窗户就睡冷房间，夜里被带到旷野看日出才理解天文，跟园丁争一块地才理解什么叫财产。贯穿全书的是开篇那句判断：「出自造物主之手的东西，都是好的，一到了人的手里，就全变坏了。」所以教育要做的第一件事不是教，而是不要教：先把社会的意见、比较与虚荣移开。此书出版后即遭查禁，卢梭被迫流亡。',
+    description_en: 'Published in 1762 in five books, Emile follows an imagined pupil from infancy to marriage: physical care in the first years, the \'negative education\' of ages two to twelve, intellectual training from twelve to fifteen, moral and emotional education after fifteen, and finally the \'Profession of Faith of the Savoyard Vicar\' together with the education of Emile\'s future wife, Sophie. It is half novel and half treatise. Rousseau builds no system; he builds scenes. A child who breaks a window sleeps in the cold room. A boy taken into the open country before dawn comes to understand astronomy. A boy who quarrels with a gardener over a plot of ground comes to understand property. Running through all of it is the opening judgement: everything is good as it comes from the hands of the Author of things, and everything degenerates in the hands of man. Education therefore begins not with teaching but with not teaching — clearing away society\'s opinions, comparisons and vanity first. The book was banned on publication and Rousseau fled.',
+    why_read_zh: '因为今天关于教育的大部分常识，都能在这里找到第一次系统表述：儿童不是缩小版的成人、不要提前灌输、让孩子承担自然后果、先训练身体与感官再谈书本。这些说法现在听来平淡，在 1762 年是彻底的倒转——它把教育的重心从「教师做什么」移到「儿童按什么次序发展」。它同时是一本有明显缺陷的书：第五卷关于女性教育的部分，以及「导师全程安排」与「自然」之间的自相矛盾，都是真问题。正因如此它适合用来练批判，而不是当教条引用。',
+    why_read_en: 'Because most of what now passes for common sense in education was first stated systematically here: that a child is not a miniature adult, that instruction should not be forced ahead of readiness, that natural consequences teach better than punishment, that body and senses must be trained before books are opened. These claims sound unremarkable now; in 1762 they inverted the whole arrangement, moving the centre of gravity from what the teacher does to the order in which a child develops. It is also a book with real defects — the fifth book on women\'s education, and the contradiction between a tutor who arranges everything and a nature that is supposed to unfold on its own. That is precisely why it is worth reading critically rather than quoting as doctrine.',
+    core_ideas_zh: [
+        '教育是减法而不是加法：如果天性本善、社会才使人变坏，那么成人的首要任务是移除坏影响，而不是增加内容。卢梭称之为「消极教育」——不教道德、不教书本，只保护孩子不被意见与虚荣提前塑造。',
+        '让事物的必然代替人的命令：孩子撞破窗户，就让他睡冷房间；不让他读地理，就带他走到迷路再找回家。权威从人身上转移到因果上，孩子学到的是限度本身，而不是「因为我说了」。',
+        '童年有自身的价值：儿童不是尚未完成的大人。用成人的标准加速他，等于抽掉他成长所需的时间——这是对「不要输在起跑线」最早的、也最彻底的否定。',
+        '自由与安排之间的裂缝：爱弥儿的每一步都由导师设计，他却始终以为自己是在自由选择。卢梭要造一个自由的人，用的却是全程操控的方法——这个矛盾不是疏漏，而是整本书最值得追问的地方。'
+      ],
+    core_ideas_en: [
+        'Education is subtraction rather than addition: if nature is good and society is what corrupts, the adult\'s first task is to remove bad influence rather than add content. Rousseau calls this negative education — no moral lessons, no books, only protection from having opinion and vanity stamped on the child too early.',
+        'Let the necessity of things replace the commands of people: a child who breaks a window sleeps in the cold room; a child who should learn geography is taken out, allowed to get lost, and helped to find the way home. Authority migrates from persons to consequences, so what the child learns is a limit rather than a command.',
+        'Childhood has value in itself: a child is not an unfinished adult. To accelerate him by adult standards is to remove the very time he needs in order to grow — the earliest and most thorough rejection of the idea that a child must not fall behind at the starting line.',
+        'The fissure between freedom and arrangement: every step Emile takes is designed by his tutor, yet Emile believes throughout that he is choosing freely. Rousseau wants to produce a free man by means of total control, and that contradiction is not an oversight but the most productive question the book raises.'
+      ],
+    key_questions_zh: [
+        '如果人天性本善、是社会把人变坏，那么教育能做的究竟是「培养善」，还是仅仅「不去破坏它」？这两者的实践差别在哪里？',
+        '一个由导师全程设计、与社会隔绝的教育，还能被称为「自然」吗？卢梭的方案是否违背了他自己的前提？',
+        '教育的目标是造出一个自由的人，还是一个能进入社会契约的公民？《爱弥儿》与同年出版的《社会契约论》能否同时成立？'
+      ],
+    key_questions_en: [
+        'If human nature is good and society is what corrupts it, does education cultivate goodness or merely refrain from damaging it? And what does that difference look like in practice?',
+        'Can an education designed at every step by a tutor, and shielded from society, still be called natural? Does Rousseau\'s own plan violate his premise?',
+        'Is the aim of education a free individual or a citizen capable of entering the social contract? Can Emile and the Social Contract, published in the same year, both be true at once?'
+      ],
+    who_should_read_zh: '父母与教育从业者，尤其是正在被「提前学」「不能输」这类说法推着走的人；对「人如何成为人」有哲学兴趣的读者；以及想看清现代教育观念来源、不愿只接受结论的人。',
+    who_should_read_en: 'Parents and teachers, especially those currently being pushed along by talk of learning earlier and never falling behind; readers with a philosophical interest in how a person becomes a person; and anyone who wants to see where modern educational assumptions come from rather than simply inherit them.',
+    reading_note_zh: '不必从头读到尾。先读第一卷开头几页——全书的命题都在那里；再读第二卷，消极教育在这一卷最具体，也最有可操作性；然后跳到第四卷「萨伏依神甫的信仰告白」，那是卢梭自己的宗教与自然观。第五卷请带着批判读：它既是教育方案，也是十八世纪性别观念的标本。商务印书馆李平沤译本（汉译世界学术名著丛书）通顺可靠，豆瓣 8.7 分、5103 人评价。',
+    reading_note_en: 'There is no need to read straight through. Begin with the opening pages of Book One, where the whole argument is stated; then Book Two, where negative education becomes concrete and most practicable; then skip to the Profession of Faith of the Savoyard Vicar in Book Four, which contains Rousseau\'s own religion and his view of nature. Read Book Five critically: it is an educational programme and also a specimen of eighteenth-century ideas about gender. The standard Chinese translation is Li Ping\'ou\'s for the Commercial Press, in the World Academic Classics series.'
+  }
+};
