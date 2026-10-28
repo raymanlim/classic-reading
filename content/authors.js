@@ -1320,6 +1320,20 @@ export const authors = {
     ideas_en: ['The LTCM case study', 'Leverage and risk management', 'Narrative financial writing']
   },
 
+  'roger-penrose': {
+    name_en: 'Roger Penrose',
+    name_zh: '罗杰·彭罗斯',
+    life: '1931–',
+    nationality_zh: '英国',
+    nationality_en: 'British',
+    role_zh: '数学物理学家',
+    role_en: 'Mathematical physicist',
+    bio_zh: '英国数学物理学家，1973 至 1998 年任牛津大学罗斯·波勒数学教授。他在广义相对论与宇宙学中的工作——尤其是与霍金合作的奇点定理——为黑洞研究奠定基础，并因此获得 2020 年诺贝尔物理学奖。1989 年的《皇帝新脑》以哥德尔定理论证人类心智非算法，是强人工智能最重要的反面论证之一；此后与哈默罗夫合作提出 Orchestrated Objective Reduction 假说。',
+    bio_en: 'British mathematical physicist who held the Rouse Ball Chair of Mathematics at Oxford from 1973 to 1998. His work in general relativity and cosmology — above all the singularity theorems written with Stephen Hawking — laid the groundwork for the study of black holes and led to the 2020 Nobel Prize in Physics. The Emperor\'s New Mind (1989) used Godel\'s theorem to argue that human mind is non-algorithmic, making it one of the most important counter-arguments to strong AI; he later developed the Orchestrated Objective Reduction hypothesis with Stuart Hameroff.',
+    ideas_zh: ['奇点定理与黑洞物理', '彭罗斯图与扭量理论', '心智非算法论证', 'Orch-OR 意识假说'],
+    ideas_en: ['Singularity theorems and black hole physics', 'Penrose diagrams and twistor theory', 'The non-algorithmic mind argument', 'The Orch-OR hypothesis of consciousness']
+  },
+
   'rose-friedman': {
     name_en: 'Rose Friedman',
     name_zh: '罗斯·弗里德曼',
@@ -1388,6 +1402,20 @@ export const authors = {
     bio_en: 'British computer scientist and UC Berkeley professor who advocates research on AI safety. Artificial Intelligence: A Modern Approach is the standard textbook in the field, while Human Compatible argues for provably beneficial, controllable AI.',
     ideas_zh: ['AI 教科书合著者', 'AI 价值对齐与可控性', 'AI 安全研究的倡导者'],
     ideas_en: ['Co-author of the leading AI textbook', 'Value alignment and controllability', 'Advocacy of AI safety research']
+  },
+
+  'susan-sontag': {
+    name_en: 'Susan Sontag',
+    name_zh: '苏珊·桑塔格',
+    life: '1933–2004',
+    nationality_zh: '美国',
+    nationality_en: 'American',
+    role_zh: '作家、评论家',
+    role_en: 'Writer and critic',
+    bio_zh: '美国作家与评论家，二十世纪后半期最重要的公共知识分子之一。她的随笔与批评覆盖先锋文学、戏剧、电影与摄影，《论摄影》（1977）获美国国家书评人协会奖批评类奖，《在美国》获 2000 年美国国家图书奖小说奖。她还获得耶路撒冷奖（2001）与德国书业和平奖（2003）。',
+    bio_en: 'American writer and critic, one of the most influential public intellectuals of the second half of the twentieth century. Her essays and criticism ranged across avant-garde literature, theatre, film and photography; On Photography (1977) won the National Book Critics Circle Award for Criticism, and In America won the 2000 National Book Award for Fiction. She also received the Jerusalem Prize (2001) and the Peace Prize of the German Book Trade (2003).',
+    ideas_zh: ['反对阐释：以形式与感受力取代内容索隐', '影像如何取代经验', '疾病作为隐喻的批判', '「坎普」趣味的界定'],
+    ideas_en: ['Against interpretation: form and sensibility over content-hunting', 'How images replace experience', 'Illness as metaphor and its punitive uses', 'Defining the sensibility of camp']
   },
 
   'thomas-hobbes': {
