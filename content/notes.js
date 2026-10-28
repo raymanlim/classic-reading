@@ -1021,6 +1021,44 @@ export const notes = [
     ],
     topics: ['philosophy', 'cognitive-science'],
   },
+  {
+    id: 'note-028',
+    slug: 'nicomachean-ethics-habit-before-instruction',
+    book: 'nicomachean-ethics',
+    date: '2026-10-28',
+    voice: 'editorial',
+    key_insight_zh:
+      '亚里士多德把德性分成两类：思想的德性主要来自教导，性格的德性来自习惯。这个划分的依据不是习惯比教导更可靠，而是有些品质在种类上就不接受告知——人无法因为被告知而变得公正，正如无法因为被告知而学会游泳。',
+    key_insight_en:
+      'Aristotle divides virtue into two kinds: virtue of thought, which arises mostly from teaching, and virtue of character, which arises from habit. The ground for the division is not that habit is more reliable than instruction, but that certain qualities do not accept being told at all — no one becomes just by being informed that justice is good, any more than one learns to swim by being informed about water.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于一个现代读者很容易滑过去的划分：德性有两种，一种靠教，一种靠练，而两者不能互换。亚里士多德在第二卷开头说，思想的德性大多由教导生成，因此需要经验与时间；性格的德性则由习惯生成——希腊语里「性格」与「习惯」本是同一个词，这不是文字游戏，而是他在指明这类品质的存身之处：它们不在命题里，只在反复做出的行为里。它真正改变的是对「学」的理解：学习不是把外部的物件搬进内部，而是通过反复做同一类事，把一种行为方式变成第二本性，以至于做对了不再需要先做决定。值得警惕的是，这段话极易被读成道德训诫——多做好事就会变成好人。它的严格含义要窄得多：练习必须属于同类活动，且必须由行为者本人完成；旁观、听讲、甚至彻底理解其中的道理，都不构成练习。容易被忽略的一点是，亚里士多德并没有把实践智慧交给天赋。它不可教，但也不是天生的；它只能在具体处境中一次次判断里长出来，而判断的对象永远是此刻这个不可复制的情形。这与本站《不可教的部分》恰好构成一组：那篇追问「教」这个动作的边界画在哪里，这本则给出古典的答案——界线不画在难度上，画在种类上。',
+    thinking_en:
+      'The key move in this book is a division that a modern reader slides past too easily: virtue comes in two kinds, one taught and one practised, and the two are not interchangeable. At the start of Book II Aristotle says that virtue of thought owes its origin and growth mostly to teaching, and therefore requires experience and time, while virtue of character comes about through habit — and in Greek the words for character and for habit are the same word. That is not wordplay; it is his way of saying where such qualities live. They are not stored in propositions but in actions repeated until the actions no longer require a decision. What this genuinely changes is the meaning of learning: not the transfer of an object from outside to inside, but the conversion of a way of acting into second nature through repetition of the same kind of act. The caution worth keeping is that the passage is easily reduced to moral exhortation — do good deeds and you will become good. Its strict sense is far narrower: the practice must be of the same kind of activity, and it must be performed by the agent. Watching, listening, and even fully understanding the reasons do not count as practice. The easily missed point is that Aristotle does not hand practical wisdom over to natural talent. It cannot be taught, but neither is it innate; it grows only out of judgement exercised again and again in concrete situations, and the object of judgement is always this unrepeatable case. It forms a pair with this site\'s "The Unteachable Part": that essay asks where the boundary of the act of teaching is drawn, and this book gives the classical answer — the line is not drawn at difficulty but at kind.',
+    questions_zh: [
+      '如果德性只能靠习惯养成，那么一个从未获得练习机会的人，是否在道德上就被预先判定了？',
+      '「知道如何」与「知道那个」的区分在什么情况下会失效——是否存在必须先懂道理才能开始练的活动？',
+      '亚里士多德说德性是中道，而中道由实践智慧确定；如果实践智慧本身不可教，它是如何被传递下去的？',
+    ],
+    questions_en: [
+      'If character can only be formed by habit, is a person who never had the chance to practise morally predetermined?',
+      'When does the distinction between knowing how and knowing that break down — are there activities one cannot begin to practise without first understanding the reasons?',
+      'Aristotle says virtue is a mean, and that the mean is fixed by practical wisdom. If practical wisdom cannot be taught, how is it transmitted at all?',
+    ],
+    answers_zh: [
+      '这正是这本书最容易被回避的困难。亚里士多德的答案在《政治学》里：习惯的养成依赖城邦、法律与教育制度，也就是说，练习的机会是被制度分配的，不是个人挣来的。因此他的伦理学并不支持「品行全凭自己」这种读法；它反而要求一个能提供练习场所的共同体。这一点对现代读者仍然有效：讨论「某人为何缺乏判断力」时，先问他在哪里获得过练习的机会，往往比追问他的意志更接近答案。',
+      '会失效，而且失效的场合很具体：当错误的代价不可逆时。学游泳可以呛水，学外科手术不能拿真人试手。这类活动必须先建立一套替代性的练习场——模型、模拟、有监督的渐进授权——让「知道那个」先到位，再由练习接管。所以两个范畴的关系不是互斥，而是有先后：在不可逆的领域，讲授是练习的前置条件；在可逆的领域，讲授往往只是练习的替代品。',
+      '通过示范与共同做事，而不是通过讲授。实践智慧的对象是「此刻该怎么办」，而此刻永远比任何规则都具体，因此它无法被写成可传授的条文。它传递的方式是：新手在有经验的人身边做具体的事，看着对方在具体情形里如何取舍，然后自己动手，被纠正，再做。这也解释了为什么它在制度上极其脆弱——一旦这种共同做事的关系被拆散，剩下的就只有规则，而规则能保证一致性，保证不了判断力。',
+    ],
+    answers_en: [
+      'This is the difficulty the book most easily sidesteps. Aristotle\'s answer lies in the Politics: the formation of habit depends on the city, its laws and its system of education — which is to say that opportunities to practise are distributed by institutions, not earned by individuals. His ethics therefore does not support the reading that character is entirely one\'s own doing; it requires a community capable of providing the ground for practice. The point still holds: when asking why someone lacks judgement, it is usually closer to the answer to ask where they were ever given the chance to practise than to ask about their will.',
+      'It breaks down, and in a very specific place: wherever the cost of error is irreversible. One may swallow water learning to swim; one may not rehearse surgery on a living patient. Such activities require a substitute practice ground first — models, simulation, supervised graduated authority — so that knowing that arrives before practice takes over. The relation between the two categories is therefore not exclusion but sequence: where error is irreversible, instruction is the precondition of practice; where it is reversible, instruction is often merely a substitute for it.',
+      'Through demonstration and shared work, not through lecturing. The object of practical wisdom is what to do here and now, and the here and now is always more specific than any rule, so it cannot be written down as transmissible text. It is passed on by the novice doing concrete work beside someone experienced, watching how that person weighs things in a particular case, then acting, being corrected, and acting again. This also explains why it is institutionally fragile: once that shared work is broken apart, only rules remain, and rules can secure consistency but never judgement.',
+    ],
+    topics: ['philosophy', 'education', 'cognitive-science'],
+  },
 ];
 
 export default notes;
