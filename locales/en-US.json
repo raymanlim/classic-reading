@@ -11,9 +11,9 @@
     "home": "Home",
     "library": "Library",
     "topics": "Topics",
-    "paths": "Reading Paths",
-    "articles": "Articles",
-    "notes": "Reading Notes",
+    "paths": "Paths",
+    "articles": "Deep Reads",
+    "notes": "Notes",
     "myReading": "My Reading",
     "about": "About",
     "menu": "Menu",
@@ -53,8 +53,8 @@
     "coordinates_sub": "How books from different fields answer the same question.",
     "coordinates_unit": "books",
     "coordinates_enter": "Enter coordinate",
-    "articles_title": "Latest Articles",
-    "articles_sub": "Longer writing around books and ideas.",
+    "articles_title": "Deep Reads",
+    "articles_sub": "Ideas Collide · Sparks Fly",
     "deepdive_title": "Today's Deep Dive",
     "deepdive_title_latest": "Latest Deep Dive",
     "deepdive_sub": "One essay a day: several books, a single question.",
@@ -188,16 +188,17 @@
     "steps": "levels"
   },
   "articles": {
-    "title": "Articles",
+    "title": "Ideas Collide · Sparks Fly",
+    "crumb": "Deep Reads",
     "sub": "Longer writing around books and ideas.",
-    "intro": "Articles are the connective tissue between books: putting several of them side by side to answer a larger question.",
+    "intro": "Essays are the connective tissue between books: putting several of them side by side to answer a larger question.",
     "read_more": "Read more",
     "coming_soon": "English version coming soon.",
     "coming_soon_zh": "Chinese version coming soon.",
     "related_books": "Related books",
     "related_topics": "Related topics",
     "published": "Published",
-    "back": "Back to articles",
+    "back": "Back to Deep Reads",
     "lang_note_zh": "This article is only available in Chinese",
     "lang_note_en": "This article is available in English only",
     "other_lang": "Other language version"
@@ -353,7 +354,7 @@
       "description": "Five reading paths ordered by how understanding accumulates: AI, investing from first principles, world history, economics, and thinking better."
     },
     "articles": {
-      "title": "Articles · Classics Library",
+      "title": "Deep Reads · Classics Library",
       "description": "Longer writing around books and ideas: a reading list for the AI era, a semiconductor reading path, mental models, and what history is for."
     },
     "reading": {

@@ -12,7 +12,7 @@
     "library": "经典书库",
     "topics": "主题",
     "paths": "阅读路线",
-    "articles": "文章",
+    "articles": "深读",
     "notes": "阅读笔记",
     "myReading": "我的阅读",
     "about": "关于",
@@ -53,8 +53,8 @@
     "coordinates_sub": "同一个问题，不同分类的书如何回答。",
     "coordinates_unit": "本",
     "coordinates_enter": "进入坐标",
-    "articles_title": "最新文章",
-    "articles_sub": "围绕书与思想的长文。",
+    "articles_title": "深读",
+    "articles_sub": "思想碰撞 · 智慧火花",
     "deepdive_title": "今日深度解读",
     "deepdive_title_latest": "最新深度解读",
     "deepdive_sub": "每天一篇长文，把几本书读成一个问题。",
@@ -188,16 +188,17 @@
     "steps": "级"
   },
   "articles": {
-    "title": "文章",
+    "title": "思想碰撞 · 智慧火花",
+    "crumb": "深读",
     "sub": "围绕书与思想的长文。",
-    "intro": "文章是书籍之间的连接组织：把几本书放在一起，回答一个更大的问题。",
+    "intro": "长文是书籍之间的连接组织：把几本书放在一起，回答一个更大的问题。",
     "read_more": "阅读全文",
     "coming_soon": "英文版即将推出。",
     "coming_soon_zh": "中文版即将推出。",
     "related_books": "相关书籍",
     "related_topics": "相关主题",
     "published": "发布于",
-    "back": "返回文章列表",
+    "back": "返回深读列表",
     "lang_note_zh": "本文仅有中文版",
     "lang_note_en": "This article is available in English only",
     "other_lang": "其他语言版本"
@@ -353,7 +354,7 @@
       "description": "五条按认知顺序排列的阅读路线：AI 入门、投资第一性原理、世界历史、经济学、认知升级。"
     },
     "articles": {
-      "title": "文章 · 经典书库",
+      "title": "深读 · 经典书库",
       "description": "围绕书籍与思想的长文：AI 阅读清单、半导体的阅读路径、心智模型与历史的意义。"
     },
     "reading": {

@@ -15,7 +15,7 @@ export function renderArticles(lang, data) {
         title: t(lang, 'articles.title'),
         sub: t(lang, 'articles.sub'),
         intro: t(lang, 'articles.intro'),
-        crumbs: [{ label: t(lang, 'articles.title') }]
+        crumbs: [{ label: t(lang, 'articles.crumb') }]
       })}
       <section class="section">
         <div class="grid grid--articles">
@@ -52,7 +52,7 @@ export function renderArticles(lang, data) {
       jsonLd: {
         '@context': 'https://schema.org',
         '@type': 'Blog',
-        name: t(lang, 'articles.title'),
+        name: t(lang, 'articles.crumb'),
         inLanguage: lang === 'zh' ? 'zh-CN' : 'en',
         blogPost: data.articles.map((article) => ({
           '@type': 'BlogPosting',
@@ -82,7 +82,7 @@ export function renderArticle(lang, data, article) {
       ${pageHead(lang, {
         title,
         crumbs: [
-          { label: t(lang, 'articles.title'), href: url(lang, 'articles/') },
+          { label: t(lang, 'articles.crumb'), href: url(lang, 'articles/') },
           { label: title }
         ]
       })}
@@ -157,7 +157,7 @@ export function renderArticle(lang, data, article) {
           '@type': 'BreadcrumbList',
           itemListElement: [
             { '@type': 'ListItem', position: 1, name: t(lang, 'common.home'), item: absUrl(lang, '') },
-            { '@type': 'ListItem', position: 2, name: t(lang, 'articles.title'), item: absUrl(lang, 'articles/') },
+            { '@type': 'ListItem', position: 2, name: t(lang, 'articles.crumb'), item: absUrl(lang, 'articles/') },
             { '@type': 'ListItem', position: 3, name: title, item: absUrl(lang, `articles/${article.slug}/`) }
           ]
         }
@@ -389,7 +389,7 @@ export function renderAbout(lang, data) {
           <span class="flow__arrow" aria-hidden="true">↓</span>
           <span class="flow__node">${e(t(lang, 'topics.title'))}</span>
           <span class="flow__arrow" aria-hidden="true">↓</span>
-          <span class="flow__node">${e(t(lang, 'articles.title'))}</span>
+          <span class="flow__node">${e(t(lang, 'articles.crumb'))}</span>
           <span class="flow__arrow" aria-hidden="true">↓</span>
           <span class="flow__node">${e(t(lang, 'map.title'))}</span>
           <span class="flow__arrow" aria-hidden="true">↓</span>
