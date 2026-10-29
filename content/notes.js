@@ -1059,6 +1059,45 @@ export const notes = [
     ],
     topics: ['philosophy', 'education', 'cognitive-science'],
   },
+  {
+    id: 'note-029',
+    slug: 'zhuangzi-the-use-of-the-useless',
+    book: 'zhuangzi',
+    date: '2026-10-29',
+    voice: 'editorial',
+    key_insight_zh:
+      '《庄子》讲「无用之用」，不是在劝人避世，而是在指出一件更硬的事：物的价值由打算使用它的人定价，因此「没用」是把定价权收回自己手里的唯一办法。但它同时承认这条路有尽头——「材与不材之间」不是答案，而是承认无解。',
+    key_insight_en:
+      'The case for uselessness in the Zhuangzi is not an invitation to withdraw from the world. It is the harder observation that a thing is priced by whoever intends to use it, so being useless is the only way to take that pricing power back. The text also admits the limit: between being useful and being useless is not a solution but an acknowledgement that there is none.',
+    quote_zh: '人皆知有用之用，而莫知无用之用也。',
+    quote_en:
+      'Everyone knows the use of the useful, but no one knows the use of the useless.',
+    thinking_zh:
+      '这本书的关键在于两则被并置的故事。《人间世》里，匠石看不上那棵被奉为社神的栎树，说它是「不材之木」，正因无所可用才得以长寿；《山木》里，庄子在山中见到伐木者放过不成材的大树，却在主人家因为一只雁「不能鸣」而被杀。弟子的追问很尖锐：昨天以不材活，今天以不材死，究竟该站在哪一边。庄子的回答是「周将处乎材与不材之间」。容易被读成滑头，严格读法却相反：他先证明了「有用」是一条通往被消耗的路，再承认「无用」也不是安全位置——两个位置都在别人的评价体系里。它真正改变的是提问方式：不问「这东西有什么用」，而问「谁在定价、按什么标准定价、定价的后果由谁承担」。值得警惕的是，把「无用」当策略的人往往仍在为同一套评价体系工作，只是换了个姿势；只有当一个人不再关心别人如何评估他的用途，姿态才与策略分开。这一点与本站《维护的不可见性》正好构成对照：那篇讲有用的东西因不可见而被低估，这本讲可见的有用性本身就是一种危险。',
+    thinking_en:
+      'What matters in this book is a pair of stories placed side by side. In the Inner Chapters, the carpenter Shi dismisses the great oak that the village worships as a shrine: it is a worthless tree, and precisely because it is good for nothing it has lived so long. Elsewhere, Zhuangzi sees woodcutters pass over an unshapely tree in the mountains, and then watches his host kill a goose because it cannot honk. The disciple asks the obvious, uncomfortable question: yesterday survival came from being useless, today death came from being useless — which side is one supposed to take? Zhuangzi answers that he would place himself between usefulness and uselessness. It reads like evasion; read strictly, it is the opposite. He has first shown that usefulness is a road to being consumed, then conceded that uselessness is no safe position either — both are coordinates inside someone else\'s evaluation. What this genuinely changes is the question: not what is this thing good for, but who is doing the pricing, by what standard, and who bears the consequence. The caution worth keeping is that people who adopt uselessness as a strategy are usually still working for the same evaluative system, merely in a different posture; the posture separates from the strategy only when a person stops caring how others assess his use. It forms a deliberate counterweight to the essay on this site about the invisibility of maintenance: that piece argues that useful things are undervalued because they are invisible, while this book argues that visible usefulness is itself a danger.',
+    questions_zh: [
+      '如果「无用」真能保身，为什么《山木》里的雁因为不能鸣而死？两则故事的冲突是否说明庄子的论证失败了？',
+      '如果「有用」意味着被消耗，那么一切被使用的关系是否都内含毁灭？照护与使用可以分开吗？',
+      '「材与不材之间」是一种策略，还是承认无解之后的姿态？两者在实践中如何区分？',
+    ],
+    questions_en: [
+      'If uselessness really preserves life, why is the goose killed for being unable to honk? Does the clash between the two stories mean the argument fails?',
+      'If being useful means being consumed, does every relation of use contain its own destruction? Can care and use be separated?',
+      'Is "between usefulness and uselessness" a strategy, or a posture adopted after admitting there is no solution? How are the two distinguished in practice?',
+    ],
+    answers_zh: [
+      '不是失败，而是刻意保留的裂缝。两则故事并列，恰恰说明「有用」与「无用」都不是安全的属性，而是同一套评价体系里的两个位置，选择哪一个都要接受别人的裁定。「周将处乎材与不材之间」不是第三条路，而是承认没有一个位置能免于被定价；这与《逍遥游》里「无待」的方向一致——不是选对位置，而是不再把位置当作依靠。',
+      '可以分开，但需要条件。使用是单向的提取，照护是双向的维持；同一个人对同一棵树可以砍也可以养，区别不在关系本身，而在是否承认对方有独立于用途的存在。庄子把这一点推到极端：只有当你不打算用它时，你才可能真正看见它。这也是「无用」在伦理上唯一站得住的地方，而它在现实中极其昂贵。',
+      '策略仍在计算，姿态已经放弃计算。区分标准很实际：如果「表现无用」需要持续经营、需要被人看见，那还是策略，只是更精致的求用；如果一个人不再关心别人如何评估他的用途，那才是姿态。前者换取安全，后者换取自由，两者常常被混为一谈，而混谈的代价是既没得到安全，也没得到自由。',
+    ],
+    answers_en: [
+      'Not a failure but a crack left deliberately open. Placing the two stories together shows that neither usefulness nor uselessness is a safe property; both are positions inside the same evaluative system, and choosing either submits you to someone else\'s verdict. "Between usefulness and uselessness" is not a third road but an admission that no position escapes being priced — which points in the same direction as the idea of dependence-free wandering: do not pick the right position, stop treating any position as support.',
+      'They can be separated, but only under conditions. Use is one-way extraction; care is two-way maintenance. The same person may fell a tree or tend it, and the difference lies not in the relation but in whether the other is granted an existence independent of its purpose. Zhuangzi pushes this to its limit: only when you do not intend to use a thing can you actually see it. That is the one ethically defensible ground for uselessness, and in practice it is extremely expensive.',
+      'A strategy still calculates; a posture has stopped. The test is practical: if performing uselessness requires continuous management and needs to be seen, it is still a strategy, only a more refined pursuit of use. If a person no longer cares how others assess his usefulness, that is a posture. The first trades for safety, the second for freedom, and the two are constantly conflated — at the cost of obtaining neither.',
+    ],
+    topics: ['philosophy', 'power-and-politics', 'religion-and-meaning'],
+  },
 ];
 
 export default notes;
