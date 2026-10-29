@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-29",
+  "books": [
+    {
+      "slug": "beloved",
+      "category": "literature",
+      "title_zh": "宠儿",
+      "title_en": "Beloved",
+      "author": "toni-morrison",
+      "author_zh": "托妮·莫里森",
+      "author_en": "Toni Morrison",
+      "nationality_zh": "美国",
+      "nationality_en": "American",
+      "year": 1987,
+      "original_language": "en",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "记忆不肯过去：一个母亲以杀婴换来的自由，与它索取的代价",
+      "theme_en": "The past that will not pass: a mother's freedom bought with her child's life, and what it costs",
+      "tags": ["novel", "fiction", "nobel-laureate", "family", "cultural-history"],
+      "topics": ["literature", "united-states", "gender-and-family"],
+      "prose": {
+        "description_zh": "小说始于 1873 年的辛辛那提，蓝石路 124 号。塞丝十八年前从肯塔基的「甜蜜之家」庄园逃出，如今与女儿丹芙同住，而屋子闹鬼——两个儿子早已离家，婆婆贝比·萨格斯也已去世，只剩下一个愤怒的婴孩幽灵在门廊上摔东西。逃亡那夜，奴隶捕手追到俄亥俄河边，塞丝为了不让孩子被带回奴役，亲手杀死了自己两岁的女儿。十八年后，一个自称「宠儿」的年轻女子出现在台阶上，名字正是塞丝刻在墓碑上的那一个词。保罗·D 的到来撬开了被封存的往事，宠儿的出现则让过去不再只是记忆——它开始索取代价、要求被爱、要求被承认。小说取材于 1856 年逃奴玛格丽特·加纳杀死亲生女儿的真实案件，分三部分，以多声部第一人称交替叙述，把「记忆」写成一种会附身、会索取、无法驱散的实体。题词献给大西洋奴隶贸易的死难者：「六千万乃至更多」。",
+        "description_en": "The novel opens in 1873 at 124 Bluestone Road, Cincinnati. Eighteen years earlier Sethe escaped the Sweet Home plantation in Kentucky; now she lives with her daughter Denver in a house that is haunted. Her two sons have run away, her mother-in-law Baby Suggs is dead, and an angry infant ghost makes the porch shake. On the night of her escape, with slave catchers closing in on the Ohio River, Sethe killed her two-year-old daughter rather than let her be taken back into slavery. Eighteen years later a young woman calling herself Beloved arrives at the steps — the single word Sethe had carved on the child's tombstone. Paul D's arrival forces open the sealed past, and Beloved's arrival makes that past more than memory: it begins to demand payment, to demand love, to demand acknowledgment. The book is based on the real case of Margaret Garner, an escaped slave who killed her own child in 1856. It is told in three parts through alternating first-person voices, and it treats memory as something that can take up residence in a body and refuse to be dismissed. The dedication reads 'Sixty Million and more.'",
+        "why_read_zh": "因为它把美国文学里最难处理的一段历史，写成了一道必须由读者自己作出的道德判断：塞丝的行为是爱的极端，还是占有的极端？莫里森拒绝替读者裁决，也拒绝提供安慰——她让「过去」以一个人的形体回到屋子里，逼你面对一个问题：被剥夺过一切的人，是否有权以任何代价保住「属于自己」的东西。这本书提供的是一套关于记忆的框架：rememory，那些没有被讲述、却始终在场的事。它也有真正的对手——多年来关于「母亲是否有权处置孩子生命」的争论从未平息，这正是它仍然有效的原因。\n经典性证据：① 维基百科有独立条目；② 1988 年获普利策小说奖（Pulitzer Prize for Fiction），1993 年作者获诺贝尔文学奖；③ 2006 年《纽约时报书评》组织的「过去 25 年最佳美国小说」评选中位列第一；④ 中译本《宠儿》（潘岳、雷格译，南海出版公司 2013 年版）豆瓣 8.5 分、2,187 人评价。",
+        "why_read_en": "Because it takes the hardest material in American literature and turns it into a moral judgement the reader has to make alone: is Sethe's act the extreme of love or the extreme of possession? Morrison refuses to adjudicate and refuses to console. She brings the past back into the house in bodily form and forces the question of whether people who have been stripped of everything may keep what is 'theirs' at any price. What the book offers is a framework for thinking about memory — rememory, the things that were never told and are nonetheless present. It also has genuine opponents: the argument over whether a mother may dispose of her child's life has never been settled, which is precisely why the book still works.\nEvidence of standing: (1) a standalone Wikipedia entry; (2) the 1988 Pulitzer Prize for Fiction, and the Nobel Prize in Literature for the author in 1993; (3) first place in the 2006 New York Times Book Review poll of the best American fiction of the previous twenty-five years; (4) the Chinese translation by Pan Yue and Lei Ge (Nanhai Publishing, 2013) holds 8.5 on Douban from 2,187 ratings.",
+        "core_ideas_zh": [
+          "「过去」不是被回忆的对象，而是占据空间的实体：莫里森用 rememory 这个词指称那些没有被讲述、却始终在场的事。它不服从遗忘的命令，会以人的形态回来，要求被承认。",
+          "自由与占有共用同一套语法：塞丝杀死女儿，是为了不让她「属于」别人；这个动作同时是最高程度的爱与最高程度的占有。小说拒绝把两者分开，这正是它不适的地方。",
+          "「重新记忆」是有代价的政治行为：白人教师用「动物性」的科学话语记录黑人，奴隶主用「甜蜜之家」的命名掩盖暴力。谁有权叙述过去，决定了谁有权定义现在。",
+          "共同体既是救赎也是判决：贝比·萨格斯的「狂欢」把社区聚起来，而社区对塞丝的选择保持沉默甚至排斥。莫里森让解放的完成依赖他人的接纳，而非个人的意志。"
+        ],
+        "core_ideas_en": [
+          "The past is not an object of recollection but an occupant of space. Morrison's word rememory names the things that were never told and are nonetheless present. It does not obey the instruction to forget; it returns in bodily form and demands acknowledgment.",
+          "Freedom and possession share a grammar. Sethe kills her daughter so that the child will not belong to someone else, and the act is at once the extreme of love and the extreme of ownership. The novel refuses to separate them, and that refusal is what makes it uncomfortable.",
+          "Rememory is political work with a cost. The white schoolteacher records Black people in the language of animal science; the slaveholder names the plantation Sweet Home to conceal violence. Who is allowed to narrate the past decides who is allowed to define the present.",
+          "Community is both rescue and verdict. Baby Suggs's Clearing gathering holds the community together, yet that same community goes silent about Sethe's choice and finally turns against her. Morrison makes liberation depend on being received by others, not on individual will alone."
+        ],
+        "key_questions_zh": [
+          "一个曾被彻底剥夺的人，是否有权以任何代价保住「属于自己的」东西？这个权利的边界由谁来划？",
+          "如果过去从未真正过去，那么「向前看」在什么条件下是疗愈，在什么条件下只是遗忘的另一种说法？",
+          "当一个人被剥夺了叙述自己的语言，他还能用什么方式讲述自己？小说本身是不是在提供这种语言？"
+        ],
+        "key_questions_en": [
+          "Do people who have been stripped of everything have the right to keep what is 'theirs' at any price, and who draws the boundary of that right?",
+          "If the past never really passes, when is moving on a form of healing and when is it only another name for forgetting?",
+          "When a person has been denied the language to narrate themselves, in what medium can they still speak? Is the novel itself offering that medium?"
+        ],
+        "who_should_read_zh": "写小说、做叙事类内容、关心「如何讲述创伤」的创作者；研究美国史、种族问题与非裔文学的学生与读者；以及任何愿意在道德判断上被为难一次的成年人。不适合寻求情节安慰的读者——这本书从头到尾都不打算让人好受。",
+        "who_should_read_en": "Novelists and writers of narrative non-fiction who care about how trauma is told; students and readers of American history, race and African American literature; and any adult willing to be made uncomfortable by a moral judgement. Not for readers looking for consolation — the book never intends to provide it.",
+        "reading_note_zh": "三部分结构，第一部分信息最密、叙述最碎，建议慢读，不要急着拼时间线——碎片本身就是主题。第二部分的三个独白（塞丝、丹芙、宠儿）是全书枢纽，注意同一件事在三个声部里被讲成了三件不同的事。第三部分收束到社区。可与福克纳《押沙龙，押沙龙！》对读，两者都用多声部重建一段被否认的过去；也可与莫里森自己的《所罗门之歌》对读。中译本为潘岳、雷格译，南海出版公司版。",
+        "reading_note_en": "The book has three parts. The first is the densest and most fragmented; read it slowly and resist the urge to reconstruct the timeline, because the fragmentation is the subject. The three monologues in the second part — Sethe, Denver, Beloved — are the hinge of the book, and it is worth noticing how one event becomes three different events in three voices. The third part returns to the community. It can be read against Faulkner's Absalom, Absalom!, which likewise rebuilds a denied past through multiple voices, or against Morrison's own Song of Solomon. The Chinese edition is Pan Yue and Lei Ge's translation from Nanhai Publishing."
+      }
+    },
+    {
+      "slug": "the-closing-of-the-american-mind",
+      "category": "education",
+      "title_zh": "美国精神的封闭",
+      "title_en": "The Closing of the American Mind",
+      "author": "allan-bloom",
+      "author_zh": "艾伦·布卢姆",
+      "author_en": "Allan Bloom",
+      "nationality_zh": "美国",
+      "nationality_en": "American",
+      "year": 1987,
+      "original_language": "en",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "开放如何变成封闭：相对主义怎样掏空了通识教育的根基",
+      "theme_en": "How openness becomes closure: relativism and the hollowing of liberal education",
+      "tags": ["education", "critical-thinking", "philosophy", "cultural-history", "democracy"],
+      "topics": ["education", "philosophy", "modern-society"],
+      "prose": {
+        "description_zh": "1987 年由西蒙与舒斯特出版，副标题直指主题：高等教育如何使民主失败、如何使今日学生的心灵枯竭。全书分三卷。第一卷《大学生》写他三十年教学生涯里看到的变化：学生自称思想开放，实则对「什么是好的生活」这类问题失去兴趣，把一切价值视为文化建构、彼此等价。第二卷《虚无主义》追溯这种心态的思想来源——从德国哲学到美国社会科学的价值中立，指出「开放」已经退化为一种教条：唯一不能容忍的，是认为某个答案更正确。第三卷《大学》讨论通识教育的解体：大学放弃了对「人是什么」的追问，转向研究专业化与政治相关性，人文经典被降格为众多选项之一。布卢姆的论证建立在对柏拉图《理想国》、卢梭《爱弥儿》与尼采的细读之上，是一份以教师视角写成的诊断书，而非改革方案。",
+        "description_en": "Published by Simon & Schuster in 1987, with a subtitle that states the thesis outright: how higher education has failed democracy and impoverished the souls of today's students. The book has three parts. The first, Students, records what Bloom saw change over thirty years of teaching: students who describe themselves as open-minded but have lost interest in the question of the good life, treating every value as a cultural construction and therefore equivalent to every other. The second, Nihilism, traces where that outlook came from — from German philosophy to the value-neutrality of American social science — and argues that openness has hardened into a dogma whose only intolerance is the claim that one answer might be truer than another. The third, The University, describes the collapse of liberal education: the university abandons the question of what a human being is, turns to research specialization and political relevance, and demotes the classics to one option among many. The argument is built on close reading of Plato's Republic, Rousseau's Emile and Nietzsche. It is a diagnosis written from a teacher's desk, not a reform programme.",
+        "why_read_zh": "因为它提出了一个今天依然刺人的悖论：当教育把「一切观点都同样有效」当作最高美德，它就悄悄取消了教育本身——因为教育的前提是有些东西更值得知道。这个论点的价值不在结论，而在它逼你重新界定「开放」与「相对主义」的差别：前者是一种追问的姿态，后者是一种免于追问的托词。它同时是一本被认真反驳过的书：努斯鲍姆质疑他是否配称哲学家，巴伯在《Harper's》斥其精英主义，里夫在《泰晤士报文学增刊》称之为反动。无论你站哪一边，读完都会改变你提问的方式——从「该教什么」转向「我们还敢不敢说某个答案更好」。\n经典性证据：① 维基百科有独立条目；② 权威书评媒体长评：London Review of Books（Alexander Nehamas）、Times Literary Supplement（David Rieff）、The New York Times（Christopher Lehmann-Haupt，1987）、The New Yorker（Matt Feeney，2012）；③ 在《纽约时报》非虚构类畅销榜连续四个月位居第一，精装销量近 50 万册；④ 中译本《美国精神的封闭》（战旭英译、冯克利校，译林出版社）豆瓣 8.7 分（评价人数未获取）。",
+        "why_read_en": "Because it states a paradox that still cuts: when education treats 'all opinions are equally valid' as the highest virtue, it quietly abolishes education, since education presupposes that some things are more worth knowing. The value of the argument lies less in its conclusion than in the distinction it forces you to draw between openness as a posture of inquiry and relativism as an excuse for not inquiring. It is also a book that has been seriously answered: Martha Nussbaum questioned whether Bloom deserved the name of philosopher, Benjamin Barber attacked it in Harper's as an elitist agenda, and David Rieff called it reactionary in the Times Literary Supplement. Whichever side you take, it changes the question you ask — from what should be taught to whether we still dare to say that one answer is better.\nEvidence of standing: (1) a standalone Wikipedia entry; (2) long reviews in the London Review of Books (Alexander Nehamas), the Times Literary Supplement (David Rieff), The New York Times (Christopher Lehmann-Haupt, 1987) and The New Yorker (Matt Feeney, 2012); (3) four consecutive months at number one on the New York Times non-fiction bestseller list, with close to half a million hardcover copies sold; (4) the Chinese translation by Zhan Xuying, revised by Feng Keli (Yilin Press), holds 8.7 on Douban (rating count not retrieved).",
+        "core_ideas_zh": [
+          "「开放」的悖论：一种宣称所有价值同等有效的教育，实际上关闭了学生对真理的追问能力。真正被禁止的问题不是「你凭什么这样说」，而是「有没有可能某个答案更对」。",
+          "相对主义不是中立，而是一种实质立场：它把「价值是文化建构」当作不言自明的前提，而这个前提本身无法被证明，只能被相信。教育若默认它，就等于在传授一种未经检验的形而上学。",
+          "大学的失职是放弃了「人是什么」：当研究取代了教化、相关性取代了判断力，通识教育就退化为课程清单。经典不是装饰，而是用来检验当代偏见的参照系。",
+          "学生的困境不是无知，而是「有知识而无渴望」：他们掌握大量信息，却不再相信有值得为之投入一生的东西。布卢姆认为这是教育最深的失败，也是民主最深的危机。"
+        ],
+        "core_ideas_en": [
+          "The paradox of openness: an education that declares all values equally valid actually disables the student's capacity to pursue truth. The question that gets forbidden is not 'how do you justify that' but 'could one answer be more correct than another'.",
+          "Relativism is not neutral but a substantive position. It treats 'values are cultural constructions' as self-evident, yet that premise cannot be proved, only believed. An education that assumes it is transmitting an untested metaphysics.",
+          "The university's failure is abandoning the question of what a human being is. When research replaces formation and relevance replaces judgement, liberal education degrades into a course list. The classics are not ornament; they are the frame against which contemporary prejudice can be tested.",
+          "The students' problem is not ignorance but knowledge without longing. They possess enormous information and no longer believe there is anything worth giving a life to. Bloom takes this to be education's deepest failure and democracy's deepest crisis."
+        ],
+        "key_questions_zh": [
+          "如果教育不能主张某些答案比另一些更接近真理，它还剩下什么理由要求学生认真对待任何东西？",
+          "「尊重一切文化」与「具备判断力」之间，是同一件事的两个说法，还是彼此冲突的两种要求？",
+          "通识教育的目的究竟是培养有判断力的公民，还是培养能适应市场的专业人？两者能否兼得？"
+        ],
+        "key_questions_en": [
+          "If education cannot claim that some answers are closer to the truth than others, what reason does it have left for asking students to take anything seriously?",
+          "Are 'respect for all cultures' and 'the capacity to judge' two descriptions of one thing, or two requirements that conflict?",
+          "Is liberal education meant to produce citizens with judgement or professionals who fit a market, and can it do both?"
+        ],
+        "who_should_read_zh": "教育工作者与课程设计者；关心通识教育、博雅教育与人文学科处境的读者；以及做知识产品、需要判断「什么值得教」的人。它也适合作为反方读本：不同意布卢姆的读者，会因此更清楚自己的立场究竟建立在什么之上。",
+        "who_should_read_en": "Teachers and curriculum designers; readers concerned with liberal education, general education and the standing of the humanities; and anyone building knowledge products who must judge what is worth teaching. It also works well as an opposing text: readers who disagree with Bloom will end up clearer about what their own position rests on.",
+        "reading_note_zh": "三卷可按顺序读，但若时间有限，先读导言《我们的美德》与卷一《大学生》——诊断在那里，最具体也最刺人。卷二涉及德国哲学谱系，需要一些背景，可快读。卷三关于大学的论述可与纽曼《大学的理念》、雅斯贝尔斯《大学之理念》对读，看同一问题在不同时代被怎样回答。务必同时读批评：努斯鲍姆、巴伯与里夫的回应，能防止你把布卢姆的修辞当成论证。中译本为战旭英译、冯克利校，译林出版社「人文与社会译丛」版。",
+        "reading_note_en": "The three parts can be read in order, but if time is short start with the introduction, Our Virtue, and the first part, Students — the diagnosis is there, at its most concrete and most provoking. The second part works through a German philosophical genealogy and needs some background; it can be read quickly. The third part on the university is worth setting against Newman's The Idea of a University and Jaspers's The Idea of the University, to see how one question gets answered in different centuries. Read the criticism alongside it: the responses by Nussbaum, Barber and Rieff are a guard against mistaking Bloom's rhetoric for argument. The Chinese edition is Zhan Xuying's translation, revised by Feng Keli, in Yilin Press's Humanities and Society series."
+      }
+    }
+  ]
+}
