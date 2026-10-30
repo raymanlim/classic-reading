@@ -1791,6 +1791,32 @@ export const authors = {
     ideas_zh: ['「个性化学习」话语的历史考古', '教育技术的循环失败史', '技术承诺与教育目标的简化'],
     ideas_en: ['An archaeology of "personalized learning"', 'The repeating cycle of ed-tech failure', 'Technological promises and the simplification of educational aims']
   },
+  'e-p-thompson': {
+    name_en: 'E. P. Thompson',
+    name_zh: 'E. P. 汤普森',
+    life: '1924–1993',
+    nationality_zh: '英国',
+    nationality_en: 'British',
+    role_zh: '历史学家、社会史学者',
+    role_en: 'Historian and social historian',
+    bio_zh: '英国历史学家，马克思主义人道主义与英国新左派的核心人物，曾在利兹大学与华威大学任教（1971 年因抗议该校商业化而辞职）。1963 年出版《英国工人阶级的形成》，以「自下而上的历史」重写工业革命时期的社会史，被视为社会史的奠基之作。1966 年提出「history from below」一语，1952 年参与创办《过去与现在》期刊；1978 年以《理论的贫困》反击阿尔都塞式结构马克思主义。2011 年《今日历史》杂志评选「过去六十年最重要历史学家」，他位列第二，仅次于布罗代尔。',
+    bio_en: 'British historian, a central figure of Marxist humanism and the British New Left, who taught at the University of Leeds and the University of Warwick, resigning from Warwick in 1971 in protest at its commercialisation. His 1963 book The Making of the English Working Class rewrote the social history of industrialisation as history from below and is regarded as a founding work of the field. He coined the phrase history from below in 1966, helped found the journal Past and Present in 1952, and answered Althusserian structural Marxism in The Poverty of Theory (1978). In 2011 History Today ranked him the second most important historian of the previous sixty years, after Fernand Braudel.',
+    ideas_zh: ['阶级是关系与过程，不是结构实体', '「经验」中介社会存在与意识', '「自下而上的历史」视角'],
+    ideas_en: ['Class as relationship and process rather than structural entity', 'Experience as the mediator between social being and consciousness', 'History from below']
+  },
+  'tracy-kidder': {
+    name_en: 'Tracy Kidder',
+    name_zh: '特雷西·基德尔',
+    life: '1945–2026',
+    nationality_zh: '美国',
+    nationality_en: 'American',
+    role_zh: '非虚构作家、文学新闻代表',
+    role_en: 'Nonfiction writer and literary journalist',
+    bio_zh: '美国非虚构作家，哈佛大学 1967 年毕业，爱荷华大学作家工作坊 MFA。1981 年出版《新机器的灵魂》，记录数据通用公司一支工程团队赶制 Eagle 小型机的全过程，1982 年同时获得普利策通用非虚构奖与美国国家图书奖非虚构类奖。此后以《House》《Among Schoolchildren》《Mountains Beyond Mountains》《Rough Sleepers》持续以长时段蹲点方式书写普通职业与制度。2026 年 3 月 24 日病逝于波士顿。',
+    bio_en: 'American nonfiction writer, a Harvard graduate of 1967 and an MFA from the Iowa Writers\' Workshop. The Soul of a New Machine (1981), an account of the Data General team racing to build the Eagle minicomputer, won both the 1982 Pulitzer Prize for General Nonfiction and the National Book Award for Nonfiction. He went on to write House, Among Schoolchildren, Mountains Beyond Mountains and Rough Sleepers, all built on long immersion in ordinary professions and institutions. He died in Boston on 24 March 2026.',
+    ideas_zh: ['长时段蹲点的文学新闻方法', '工程激励的「再玩一局」机制', '把专业劳动写成可读的人类样本'],
+    ideas_en: ['Literary journalism built on long immersion', 'The "another round" mechanism of engineering motivation', 'Turning specialised labour into readable human evidence']
+  },
 };
 
 export default authors;
