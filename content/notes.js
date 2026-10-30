@@ -1098,6 +1098,44 @@ export const notes = [
     ],
     topics: ['philosophy', 'power-and-politics', 'religion-and-meaning'],
   },
+  {
+    id: 'note-030',
+    slug: 'against-the-gods-risk-as-the-first-control',
+    book: 'against-the-gods',
+    date: '2026-10-30',
+    voice: 'editorial',
+    key_insight_zh:
+      '《与天为敌》写的不是「人战胜了风险」，而是「人终于承认风险不可战胜，转而发明一整套工具去和它共处」——概率、保险、市场，都是把不可控的不确定，换成可定价、可分散、可对赌的东西。',
+    key_insight_en:
+      'Bernstein\'s book is not a tale of man conquering risk but of man admitting risk cannot be conquered, and instead inventing tools — probability, insurance, markets — to live with it: converting the uncontrollable into something priceable, divisible, and insurable.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于它把「风险」的发明讲成一段思想史：从希腊神话里用神谕把未来锁死，到帕斯卡尔与费马用一封往来书信写出概率论，人类第一次拥有了一种不靠占卜也能谈论「未知」的语言。它真正改变的是对「掌控」的理解：掌控不确定性的方式，不是消除它，而是把它的后果拆开、定价、转移——保险把个人的灾祸变成可计算的总池，市场把判断变成可对赌的头寸，期权把「怕跌」变成可买的合约。容易被忽略的一点是，这套工具的全部力量都建立在「承认无知」之上：概率只对重复的事件成立，而对真正独一无二的事件几乎无能为力；一旦把模型当成现实，工具就从护盾变成新的盲区。值得警惕的是，它与本站《控制的错觉》恰成一对：那篇文章说「想掌控」常常会退化成错觉，而这本提示，错觉的反面不是放弃掌控，而是把掌控换成可检验、可分散、可承受的工具——两者的分界，正在「是否尊重不可知的边界」。',
+    thinking_en:
+      'The key move of this book is to tell the invention of "risk" as intellectual history: from the Greek myth that pinned the future down with oracles, to Pascal and Fermat writing probability theory in an exchange of letters, humanity first acquired a language for talking about the unknown without divination. What it genuinely changes is the understanding of mastery: the way to master uncertainty is not to eliminate it but to break its consequences apart, price them, and transfer them — insurance turns a personal catastrophe into a calculable pool, markets turn a judgement into a stake one can bet against, options turn "fear of a fall" into a contract one can buy. The easily missed point is that the whole power of these tools rests on admitting ignorance: probability holds only for repeatable events and is nearly helpless before the truly singular event; once the model is mistaken for reality, the tool turns from shield into a new blind spot. The caution worth keeping is that this book forms a pair with the site\'s "The Illusion of Control": that essay argues the urge to master readily decays into illusion, while this one suggests the opposite of illusion is not abandoning mastery but converting it into tools that are testable, divisible, and bearable — and the line between them lies precisely in respecting the boundary of the unknowable.',
+    questions_zh: [
+      '如果概率只对「可重复的事件」有效，那么我们在面对真正一次性的重大决定（创业、结婚、开战）时，概率思维的用处边界在哪里？',
+      '保险、市场、期权都是把风险「转移」给别人，那么被转移的那一方，是否只是在承担原本属于别人的不确定性？这算不算一种变相的集中？',
+      '伯恩斯坦把风险管理的成熟归功于「承认无知」，但承认无知之后，我们究竟是用工具假装控制，还是真的与之共处？两者如何分辨？',
+    ],
+    questions_en: [
+      'If probability is valid only for repeatable events, where is the boundary of probabilistic thinking when we face a genuinely one-off decision — starting a company, marrying, going to war?',
+      'Insurance, markets, and options all transfer risk to someone else. Does the receiving side merely absorb uncertainty that originally belonged to another, and is that not a disguised form of concentration?',
+      'Bernstein credits the maturity of risk management to "admitting ignorance." But after admitting ignorance, do we use tools to pretend control, or to genuinely live with uncertainty? How are the two told apart?',
+    ],
+    answers_zh: [
+      '边界在「你能不能从结果里学习」。可重复的事件允许你用频率校准预期、用赔率下注、用小代价试错；一次性事件没有这个回路，于是概率思维只能用于「准备」而非「预测」——你为多种结果留出余地，而不是声称知道哪一个会发生。这也解释了为什么在一次性重大决策上，分散与冗余比精确算计更有用。',
+      '是转移，但不是无代价地消失。保险把许多人的小概率大损失聚成一个可承受的总池，转移的是「谁先倒霉」的不确定性，留下的是经过精算的可预期成本；市场把判断对赌，转移的是「谁更可能错」。危险在于，当转移被多层包装（衍生品、再保险），责任与后果都被推远，系统反而会积累没人看得见的连锁风险——2008 年就是一例。所以分散是好事，但包装过度会重新变成集中。',
+      '假装的标志是：工具给出的数字被用来「证明」某事不会发生，或用来取消对未知的敬畏。真共处则相反——工具用来界定「我能承受多少」，而不是「我能避免多少」。伯恩斯坦真正推崇的，是那种把不可控留在账面上、只管理后果的态度；一旦模型开始宣称自己看见了未来，它就从护盾变成了新的错觉，恰好回到那篇文章说的陷阱。',
+    ],
+    answers_en: [
+      'The boundary lies in whether you can learn from the outcome. Repeatable events let you calibrate expectation by frequency, bet by odds, and err cheaply; a one-off event has no such loop, so probabilistic thinking can only serve preparation, not prediction — you leave room for several outcomes rather than claim to know which will occur. This is also why, in one-off high-stakes decisions, diversification and redundancy beat precise calculation.',
+      'It is transfer, but not cost-free disappearance. Insurance pools many small-probability large losses into a bearable total and transfers the uncertainty of who gets hit first, leaving behind an actuarially expected cost; markets let judgements be bet against, transferring the uncertainty of who is wrong. The danger is that, once transfer is wrapped in layers — derivatives, reinsurance — responsibility and consequence are both pushed away, and the system quietly accumulates invisible chained risk, as in 2008. Diversification is good; over-wrapping turns it back into concentration.',
+      'The mark of pretending is when the number a tool produces is used to "prove" something will not happen, or to cancel awe before the unknown. Genuine coexistence is the opposite: the tool defines how much one can bear, not how much one can avoid. What Bernstein truly admires is the attitude that keeps the uncontrollable on the books and manages only its consequences; the moment a model claims to see the future, it becomes a new illusion, landing squarely in the trap that essay describes.',
+    ],
+    topics: ['risk', 'uncertainty', 'history'],
+  },
 ];
 
 export default notes;
