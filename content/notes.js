@@ -1136,6 +1136,44 @@ export const notes = [
     ],
     topics: ['risk', 'uncertainty', 'history'],
   },
+  {
+    id: 'note-031',
+    slug: 'the-silk-roads-the-center-that-moved',
+    book: 'the-silk-roads',
+    date: '2026-10-31',
+    voice: 'editorial',
+    key_insight_zh:
+      '《丝绸之路》最有挑衅的一点，不是它讲了一条商路，而是它把"世界的中心一直是欧洲"这个被讲成必然的故事，重新讲成了一个偶然的、可移动的叙事——谁掌握连接，谁就暂时成为中心。',
+    key_insight_en:
+      'The provocation of The Silk Roads is not the trade route itself but its reopening of the story "the centre of the world was always Europe" as a contingent, movable narrative — whoever controls connection temporarily becomes the centre.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于它把视角的重心从大西洋移回了欧亚大陆的内陆，指出在大部分有文字记载的历史里，财富与权力真正汇集的地方是连接东西方的中间地带，而非近代才崛起的西欧边缘。它真正改变的是对"欧洲中心论"的判断：那套叙事把近代几百年的暂时领先，误当成几千年的结构必然，而弗兰科潘用贸易、瘟疫、宗教和资源的流动证明，中心从来是随连接而转移的。容易被忽略的一点是，这本书与其说在翻案，不如说在提醒——任何"中心"都是暂时的，因为它建立在别人也需要走同一条路的前提上，一旦新的连接出现，中心就会再次移动。值得警惕的是，把"谁曾中心"当作民族叙事的勋章，恰恰落回了它所批评的那种单一线性史观；真正的洞见是谦卑：今天的中心，也只是下一程移动的起点。',
+    thinking_en:
+      'What matters in this book is its shift of gravity from the Atlantic back to the inland of Eurasia, showing that through most of recorded history the places where wealth and power actually gathered were the middle zones connecting East and West, not the western European edge that rose only recently. What it genuinely changes is the verdict on Eurocentrism: that narrative mistakes a few centuries of temporary lead for thousands of years of structural inevitability, whereas Frankopan uses the flows of trade, plague, religion, and resources to show the centre always moved with connection. The easily missed point is that the book is less a rebuttal than a reminder — any "centre" is temporary because it rests on others also needing the same route, and the moment a new connection appears the centre moves again. The caution worth keeping is that turning "who was central" into a national trophy falls straight back into the single linear history the book criticises; the real insight is humility — today\'s centre is only the starting point of the next move.',
+    questions_zh: [
+      '如果"中心随连接而移动"，那么今天以海运与芯片为主轴的连接，会不会也只是一个暂时的中心？什么迹象会预示下一次移动？',
+      '把"欧洲中心"还原成"暂时的领先"，对我们理解当代中国与西方的实力对比，提供了哪种更清醒的框架？',
+      '弗兰科潘强调中间的枢纽地带，那么被连接的两端——生产者与消费者——是否反而在叙事里被边缘化了？',
+    ],
+    questions_en: [
+      'If the centre moves with connection, then today\'s centre built on seaborne trade and semiconductors — is it not also temporary? What signs would precede the next move?',
+      'Reducing "European centrality" to "temporary lead" offers what clearer framework for understanding the contemporary balance between China and the West?',
+      'Frankopan emphasises the middle hinge; does that risk marginalising the two ends — producers and consumers — within the narrative?',
+    ],
+    answers_zh: [
+      '是的，连接的主轴每一次换代都会重画中心：从陆上丝路到海上航道，再到今天的半导体与数据链，谁定义并控制新的连接，谁就暂时成为中心。预示移动的迹象通常是：旧主轴的成本或风险骤升、替代连接成熟、以及关键节点开始被多方争夺——这三件事同时出现时，中心往往已经在动。',
+      '它把"领先"从本质论里解放出来：中西实力对比不是"谁注定强大"，而是"谁此刻握有更高效的连接与组织方式"。这既反对盲目自卑，也反对把当下优势当成永恒；真正的变量是连接效率与制度能否持续承载它。',
+      '确实有这个风险。枢纽叙事容易把两端简化成"原料产地"与"消费市场"，而真正的价值常常在两端的生产与消费创新里产生。更完整的框架应当同时看三条线：谁生产、谁连接、谁消费——只讲连接，会漏掉谁在定义需求、谁在积累技术。',
+    ],
+    answers_en: [
+      'Yes. Each change of the connecting axis redraws the centre: from the overland Silk Roads to the sea lanes, to today\'s semiconductors and data links — whoever defines and controls the new connection temporarily becomes the centre. Signs of an impending move are usually a sudden spike in the cost or risk of the old axis, the maturation of an alternative connection, and key nodes becoming contested by several powers; when all three appear together, the centre is usually already moving.',
+      'It frees "leadership" from essentialism: the China–West balance is not "who is destined to be strong" but "who currently holds the more efficient connection and organisation." That argues against both reflexive inferiority and treating present advantage as permanent; the real variable is connection efficiency and whether institutions can keep bearing it.',
+      'There is real risk of that. A hinge narrative easily reduces the two ends to "source of raw materials" and "consumer market," while real value is often created in the production and consumption innovation at the ends. A fuller framework watches three lines at once — who produces, who connects, who consumes — and a focus on connection alone misses who defines demand and who accumulates technology.',
+    ],
+    topics: ['history', 'civilization', 'china-and-the-world'],
+  },
 ];
 
 export default notes;
