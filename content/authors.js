@@ -1817,6 +1817,32 @@ export const authors = {
     ideas_zh: ['长时段蹲点的文学新闻方法', '工程激励的「再玩一局」机制', '把专业劳动写成可读的人类样本'],
     ideas_en: ['Literary journalism built on long immersion', 'The "another round" mechanism of engineering motivation', 'Turning specialised labour into readable human evidence']
   },
+  'henry-david-thoreau': {
+    name_en: 'Henry David Thoreau',
+    name_zh: '亨利·戴维·梭罗',
+    life: '1817–1862',
+    nationality_zh: '美国',
+    nationality_en: 'American',
+    role_zh: '散文家、哲学家、自然主义者',
+    role_en: 'Essayist, philosopher and naturalist',
+    bio_zh: '美国散文家、哲学家、超验主义代表人物，1817 年生于马萨诸塞州康科德，1837 年毕业于哈佛大学。1845 至 1847 年在瓦尔登湖畔自建木屋独居两年两个月，据此写成《瓦尔登湖》（1854）。1849 年发表《论公民的不服从》，因拒缴支持美墨战争的人头税曾入狱一夜。他一生以日记写作，观察自然与政治，作品多在其身后整理出版；二十世纪以后被公认为具有世界影响力的美国作家。',
+    bio_en: 'American essayist, philosopher and leading transcendentalist, born in Concord, Massachusetts in 1817 and a Harvard graduate of 1837. Between 1845 and 1847 he lived alone in a cabin he built on the shore of Walden Pond, the experience behind Walden (1854). His essay Civil Disobedience appeared in 1849; he spent a night in jail for refusing to pay a poll tax supporting the Mexican-American War. He wrote continuously in his journal on nature and politics, much of it published after his death, and since the twentieth century has been recognised as an American writer of world influence.',
+    ideas_zh: ['简朴作为生活成本的核算', '《论公民的不服从》', '以日记与测量为基础的博物观察'],
+    ideas_en: ['Simplicity as the accounting of life\'s cost', 'Civil Disobedience', 'Natural observation grounded in journals and measurement']
+  },
+  'jeff-hawkins': {
+    name_en: 'Jeff Hawkins',
+    name_zh: '杰夫·霍金斯',
+    life: '1957–',
+    nationality_zh: '美国',
+    nationality_en: 'American',
+    role_zh: '发明家、计算机科学家、企业家',
+    role_en: 'Inventor, computer scientist and entrepreneur',
+    bio_zh: '美国发明家与计算机科学家，1957 年生于纽约州亨廷顿，1979 年获康奈尔大学电气工程学士。1992 年创立 Palm Computing，主导 PalmPilot 等手持设备；1998 年参与创立 Handspring；2002 年创立红木神经科学研究所（后并入加州大学伯克利分校）；2005 年创立 Numenta，推进基于大脑理论的机器智能。2003 年当选美国国家工程院院士。2004 年与桑德拉·布拉克斯莉合著《On Intelligence》，提出「记忆—预测框架」；2021 年出版《A Thousand Brains》，进一步提出「千脑」理论。',
+    bio_en: 'American inventor and computer scientist, born in Huntington, New York in 1957 and a 1979 graduate in electrical engineering from Cornell. He founded Palm Computing in 1992, where he led the PalmPilot and other handheld devices; co-founded Handspring in 1998; founded the Redwood Neuroscience Institute in 2002, later associated with UC Berkeley; and founded Numenta in 2005 to advance brain-based machine intelligence. He was elected to the National Academy of Engineering in 2003. With Sandra Blakeslee he wrote On Intelligence (2004), which set out the memory-prediction framework, and in 2021 published A Thousand Brains, extending it into the thousand-brains theory.',
+    ideas_zh: ['记忆—预测框架', '「千脑」理论', '以大脑理论指导机器智能'],
+    ideas_en: ['The memory-prediction framework', 'The thousand-brains theory', 'Machine intelligence guided by brain theory']
+  },
 };
 
 export default authors;
