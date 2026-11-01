@@ -1174,6 +1174,44 @@ export const notes = [
     ],
     topics: ['history', 'civilization', 'china-and-the-world'],
   },
+  {
+    id: 'note-032',
+    slug: 'the-soul-of-a-new-machine-what-signing-up-costs',
+    book: 'the-soul-of-a-new-machine',
+    date: '2026-11-01',
+    voice: 'editorial',
+    key_insight_zh:
+      '《新机器的灵魂》的价值不在技术史，而在它诚实地记录了一种组织形式的代价：短周期、高强度的「项目」确实能造出东西，但它消耗的是一小群人不可再生的几年，而不是一套可以被放大的制度。',
+    key_insight_en:
+      'The value of The Soul of a New Machine lies not in technical history but in its honest record of what one organisational form costs: a short-cycle, high-intensity project does produce a working machine, but it burns a small group\'s irreplaceable years rather than scaling as a system.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于它把「造一台机器」还原成一群具体的人在具体时间里做的事，而不是一份商业计划：基德跟着 Data General 的一支小组，记录他们如何在不到一年里拼出一台 32 位小型机，对手是规模大得多的竞争者。它真正改变的是对「项目制」的判断——这种高强度、短周期、目标明确的组织方式确实能出东西，但它的燃料是一小群人有限几年的精力，不是可复制的制度。容易被忽略的一点是，工程师们是「签了字」（sign up）的：他们在不知道成败的情况下承诺投入，而这份承诺本身就是意义的来源，不是被管理出来的激励。值得警惕的是把这种强度当成可推广的模板——它成立的前提是人数少、周期短，并且有人替他们挡掉了不确定性；一旦放大，代价就会从「几个人的几年」变成「一代人的职业耗损」。',
+    thinking_en:
+      'What matters in this book is that it reduces "building a machine" to what a specific group of people did in a specific stretch of time, rather than to a business plan: Kidder follows a Data General team as it assembles a 32-bit minicomputer in under a year against a far larger competitor. What it genuinely changes is the verdict on the project form — a high-intensity, short-cycle, sharply defined effort does produce a working machine, but its fuel is a small group\'s finite years, not a replicable system. The easily missed point is that the engineers "sign up": they commit without knowing whether it will work, and that commitment is itself the source of meaning rather than an incentive engineered from above. The caution worth keeping is against treating this intensity as a template — it presupposes a small headcount, a short horizon, and someone else absorbing the uncertainty; scaled up, the cost shifts from "a few people\'s few years" to "a generation\'s career attrition."',
+    questions_zh: [
+      '「签字」这种自愿承诺，与现代管理里的激励设计有什么本质区别？为什么前者很难被制度化？',
+      '如果项目制的产出依赖少数人的超额投入，那么把它当作可复制的管理模式，会在什么规模上失效？',
+      '基德始终没有回答「这是自我实现还是被利用」，这个悬置本身是否比任何结论都更接近真相？',
+    ],
+    questions_en: [
+      'How does "signing up" as a voluntary commitment differ in kind from the incentive design of modern management, and why is the former so hard to institutionalise?',
+      'If the output of the project form depends on a few people\'s excess effort, at what scale does it break down when treated as a replicable management model?',
+      'Kidder never answers whether this was self-realisation or exploitation. Is that suspension closer to the truth than any conclusion would be?',
+    ],
+    answers_zh: [
+      '激励设计假设人是被外部条件推动的，于是它优化的是「给多少、换多少」；签字假设人是自己选择投入的，它优化的是「我愿意为这件事押上什么」。区别在于可退出性：激励可以随时重新定价，承诺一旦给出就带上了身份的重量。这也正是它难以制度化的原因——制度能分配资源，却无法替人做出「我愿意」这个动作。',
+      '大概在「无法再靠个别人的超额投入覆盖缺口」的那个规模上失效。项目制成立的前提是人数少到彼此知根知底、周期短到透支可以恢复、并且有人在上层吸收不确定性。一旦这三条同时被打破，强度就会从短期的冲刺变成长期的常态，产出不会线性增加，反而会先出现质量下滑与人员流失。',
+      '很可能是。把这段经历判定为「被利用」，会抹掉工程师自己的选择；判定为「自我实现」，又会抹掉组织对时间的占用。基德保留这个含混，等于承认一件事：同一段经历可以同时是两者，而衡量它的标准不在事后归类，而在于当事人是否清楚地知道自己押上了什么。',
+    ],
+    answers_en: [
+      'Incentive design assumes people are moved by external conditions, so it optimises "how much is given for how much returned"; signing assumes people choose to commit, so it optimises "what I am willing to stake on this." The difference is exitability: incentives can be repriced at any time, whereas a commitment, once made, carries the weight of identity. That is precisely why it resists institutionalisation — an institution can allocate resources but cannot perform the act of "I am willing" on anyone\'s behalf.',
+      'Roughly at the scale where individual excess effort can no longer cover the gap. The project form presupposes a headcount small enough for everyone to know everyone, a horizon short enough for exhaustion to be recoverable, and someone above absorbing the uncertainty. Break all three at once and intensity turns from a sprint into a permanent condition; output does not rise linearly but first shows falling quality and rising attrition.',
+      'Very likely. Calling the experience "exploitation" erases the engineers\' own choice; calling it "self-realisation" erases the organisation\'s claim on their time. By keeping the ambiguity, Kidder concedes one thing: the same experience can be both at once, and the measure is not retrospective labelling but whether the person knew clearly what they were staking.',
+    ],
+    topics: ['management', 'technology', 'innovation'],
+  },
 ];
 
 export default notes;
