@@ -1843,6 +1843,32 @@ export const authors = {
     ideas_zh: ['记忆—预测框架', '「千脑」理论', '以大脑理论指导机器智能'],
     ideas_en: ['The memory-prediction framework', 'The thousand-brains theory', 'Machine intelligence guided by brain theory']
   },
+  'ursula-k-le-guin': {
+    name_en: 'Ursula K. Le Guin',
+    name_zh: '厄休拉·K·勒古恩',
+    life: '1929–2018',
+    nationality_zh: '美国',
+    nationality_en: 'American',
+    role_zh: '小说家、科幻与奇幻作家',
+    role_en: 'Novelist and writer of science fiction and fantasy',
+    bio_zh: '美国作家，1929 年生于加州伯克利，父亲是人类学家阿尔弗雷德·克罗伯，母亲是作家西奥多拉·克罗伯。1951 年毕业于拉德克利夫学院，1952 年获哥伦比亚大学硕士学位。1966 年以《劳卡农的世界》进入科幻领域，此后以「海尼什宇宙」与《地海》两个系列确立地位。她共获 8 次雨果奖、6 次星云奖、25 次轨迹奖；2000 年被美国国会图书馆列为「活传奇」，2003 年获美国科幻奇幻作家协会大师称号，2014 年获美国国家图书基金会杰出贡献奖章。2018 年逝于俄勒冈州波特兰。',
+    bio_en: 'American writer born in Berkeley, California in 1929, daughter of the anthropologist Alfred Kroeber and the writer Theodora Kroeber. She graduated from Radcliffe College in 1951 and took an MA at Columbia in 1952. She entered science fiction with Rocannon\'s World (1966) and established herself through the Hainish cycle and the Earthsea series. She won eight Hugo Awards, six Nebulas and twenty-five Locus Awards; the Library of Congress named her a Living Legend in 2000, SFWA made her a Grand Master in 2003, and she received the National Book Foundation Medal for Distinguished Contribution to American Letters in 2014. She died in Portland, Oregon in 2018.',
+    ideas_zh: ['以人类学式虚构做思想实验', '「海尼什宇宙」与《地海》两个系列', '性别、权力与无政府主义的持续追问'],
+    ideas_en: ['Thought experiments in anthropological fiction', 'The Hainish cycle and the Earthsea series', 'Sustained inquiry into gender, power and anarchism']
+  },
+  'seymour-papert': {
+    name_en: 'Seymour Papert',
+    name_zh: '西摩·佩珀特',
+    life: '1928–2016',
+    nationality_zh: '南非裔美国',
+    nationality_en: 'South African-born American',
+    role_zh: '数学家、计算机科学家、教育理论家',
+    role_en: 'Mathematician, computer scientist and educational theorist',
+    bio_zh: '南非出生的美国数学家与计算机科学家，1928 年生于比勒陀利亚，1952 年获金山大学数学博士，1960 年获剑桥大学第二个数学博士。1958 至 1963 年在日内瓦与皮亚杰共事，其后进入麻省理工学院，1967 年起任 MIT 人工智能实验室联合主任至 1981 年，并创立「认识论与学习研究组」，该组后来发展为 MIT 媒体实验室。他与 Wally Feurzeig、Cynthia Solomon 共同发明 Logo 编程语言；1969 年与明斯基合著《Perceptrons》。1980 年出版《Mindstorms》，提出建构主义学习观。2016 年逝于缅因州。',
+    bio_en: 'South African-born American mathematician and computer scientist, born in Pretoria in 1928. He took a doctorate in mathematics at the University of the Witwatersrand in 1952 and a second at Cambridge in 1960. He worked with Jean Piaget in Geneva from 1958 to 1963, then moved to MIT, where he served as co-director of the Artificial Intelligence Laboratory from 1967 to 1981 and founded the Epistemology and Learning Research Group, which grew into the MIT Media Lab. With Wally Feurzeig and Cynthia Solomon he co-invented the Logo programming language, and with Marvin Minsky he wrote Perceptrons (1969). Mindstorms (1980) set out his theory of constructionism. He died in Maine in 2016.',
+    ideas_zh: ['建构主义学习理论', 'Logo 与海龟绘图', '「对象思考」与微型世界'],
+    ideas_en: ['The theory of constructionism', 'Logo and Turtle graphics', '"Objects-to-think-with" and microworlds']
+  },
 };
 
 export default authors;
