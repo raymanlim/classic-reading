@@ -10,6 +10,8 @@
  *   node scripts/export-to-books.mjs --out "D:/somewhere"# 换输出目录
  *
  * 设计要点：
+ * - 输出分层（2026-11-02 起，Rayman 指令）：`<OUT>/深读/YYYY-MM/` 与 `<OUT>/阅读笔记/YYYY-MM/`，
+ *   文章与笔记分目录、各自按月份归集，单目录规模恒定在 ~50 个文件，不随年份膨胀。
  * - 直接从 content/ 的 JS 模块读取，**不重写正文**，保证与站点内容逐字一致。
  * - 输出中英双语全文（中文在前、英文在后），带 YAML frontmatter，便于 Obsidian 检索。
  * - 阅读笔记的「思考」块标签跟随该条笔记真实的 `voice` 字段
@@ -195,6 +197,8 @@ try {
 
 mkdirSync(OUT_DIR, { recursive: true });
 
+const monthOf = (d) => String(d || '').slice(0, 7) || 'unknown';
+
 const written = [];
 
 for (const a of books) {
@@ -202,16 +206,22 @@ for (const a of books) {
     if (a.slug !== onlySlug) continue;
   } else if (!exportAll && a.publish_date !== date) continue;
   const { file, body } = renderArticle(a);
-  writeFileSync(join(OUT_DIR, file), body, 'utf8');
-  written.push(file);
+  const sub = join('深读', monthOf(a.publish_date));
+  const dir = join(OUT_DIR, sub);
+  mkdirSync(dir, { recursive: true });
+  writeFileSync(join(dir, file), body, 'utf8');
+  written.push(join(sub, file).replace(/\\/g, '/'));
 }
 
 for (const n of notes) {
   if (onlySlug) continue;
   if (!exportAll && n.date !== date) continue;
   const { file, body } = renderNote(n, titleOf[n.book] || n.book);
-  writeFileSync(join(OUT_DIR, file), body, 'utf8');
-  written.push(file);
+  const sub = join('阅读笔记', monthOf(n.date));
+  const dir = join(OUT_DIR, sub);
+  mkdirSync(dir, { recursive: true });
+  writeFileSync(join(dir, file), body, 'utf8');
+  written.push(join(sub, file).replace(/\\/g, '/'));
 }
 
 written.sort();
