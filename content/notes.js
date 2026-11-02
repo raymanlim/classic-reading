@@ -1212,6 +1212,24 @@ export const notes = [
     ],
     topics: ['management', 'technology', 'innovation'],
   },
+  {
+    id: 'note-033',
+    slug: 'obedience-to-authority-what-deference-costs',
+    book: 'obedience-to-authority',
+    date: '2026-11-02',
+    voice: 'editorial',
+    key_insight_zh:
+      '我们对第二手说辞的服从，往往不取决于信息是否可靠，而取决于权威是否在场——而这正是第二手知识既能运转、也能失控的同一个开关。',
+    key_insight_en:
+      'Deference to secondhand testimony often depends less on whether the claim is reliable than on whether authority is present — the very switch that lets secondhand knowledge work, and lets it fail.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于，它把「服从」还原成一个情境变量，而不是人格缺陷。米尔格拉姆的实验显示，普通人在权威的指令下会施加远超自认底线的伤害，说明第二手的指令一旦披上合法外衣，就能压过亲见的事实。它真正改变的是我们对「我只是在执行命令」这句话的理解——那不是一句开脱，而是一套真实运转的认知开关。容易被忽略的一点是，这种服从机制恰恰是第二手知识得以运转的社会底座：我们默认相信权威已经替我们验证过。值得警惕的是，当权威本身出错或被俘获，这条最省力的信任通道就会批量生产错误。',
+    thinking_en:
+      'What matters in this book is that it treats obedience as a situational variable rather than a defect of character. Milgram\'s experiments show that ordinary people will inflict harm far beyond their own stated limits when an authority directs them, which suggests that a secondhand instruction, once wrapped in legitimacy, can override what a person sees with their own eyes. What it genuinely changes is the reading of "I was only following orders" — not an excuse, but a genuinely operating cognitive switch. The easily missed point is that this obedience mechanism is precisely the social substrate that lets secondhand knowledge function: we default to trusting that authority has already verified on our behalf. The caution worth keeping is that when the authority is itself wrong or captured, this most economical channel of trust mass-produces error.',
+    topics: ['cognitive-science', 'decision-making', 'power-and-politics'],
+  },
 ];
 
 export default notes;
