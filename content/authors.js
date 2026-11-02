@@ -1869,6 +1869,32 @@ export const authors = {
     ideas_zh: ['建构主义学习理论', 'Logo 与海龟绘图', '「对象思考」与微型世界'],
     ideas_en: ['The theory of constructionism', 'Logo and Turtle graphics', '"Objects-to-think-with" and microworlds']
   },
+  'rene-grousset': {
+    name_en: 'René Grousset',
+    name_zh: '勒内·格鲁塞',
+    life: '1885–1952',
+    nationality_zh: '法国',
+    nationality_en: 'French',
+    role_zh: '历史学家、东方学家',
+    role_en: 'Historian and orientalist',
+    bio_zh: '法国历史学家与东方学家，1885 年生于加尔省，1952 年逝于巴黎。他长期主持吉美博物馆（Musée Guimet），是 20 世纪上半叶法国最重要的亚洲史研究者之一，著述涵盖中亚、蒙古、中国与远东。代表作《草原帝国》（L\'Empire des steppes，1939）首次把欧亚草原上的游牧政权作为一个连续整体来叙述，至今仍是突厥—蒙古史研究的参考点。',
+    bio_en: 'French historian and orientalist, born in the Gard in 1885 and died in Paris in 1952. He long directed the Musée Guimet and was one of the leading French scholars of Asian history in the first half of the twentieth century, writing on Central Asia, the Mongols, China and the Far East. His major work, L\'Empire des steppes (The Empire of the Steppes, 1939), was the first to narrate the nomadic polities of the Eurasian steppe as one continuous whole, and remains a reference point in Turco-Mongol studies.',
+    ideas_zh: ['以「草原帝国」框架整合欧亚游牧史', '吉美博物馆馆长', '中亚与蒙古史研究'],
+    ideas_en: ['The "steppe empire" frame for Eurasian nomadic history', 'Director of the Musée Guimet', 'Scholarship on Central Asia and the Mongols']
+  },
+  'steven-levy': {
+    name_en: 'Steven Levy',
+    name_zh: '史蒂文·利维',
+    life: '1951–',
+    nationality_zh: '美国',
+    nationality_en: 'American',
+    role_zh: '科技记者、作家',
+    role_en: 'Technology journalist and author',
+    bio_zh: '美国科技记者与作家，1951 年生。他长期报道计算机与互联网文化，曾任《新闻周刊》《滚石》记者，后为《连线》（Wired）资深作者。1984 年出版的《黑客：计算机革命的英雄》首次系统记录黑客亚文化并提出「黑客伦理」，被视为该领域的奠基文本。另著有《Crypto》《In the Plex》（关于谷歌）与《Facebook: The Inside Story》。',
+    bio_en: 'American technology journalist and author, born in 1951. A longtime reporter on computing and internet culture, he wrote for Newsweek and Rolling Stone before becoming a senior writer at Wired. His 1984 book Hackers: Heroes of the Computer Revolution was the first systematic account of hacker subculture and named the "hacker ethic"; it is regarded as a founding text of the field. His other books include Crypto, In the Plex (on Google) and Facebook: The Inside Story.',
+    ideas_zh: ['记录并命名「黑客伦理」', '计算机与互联网文化史写作', '《连线》资深作者'],
+    ideas_en: ['Documenting and naming the "hacker ethic"', 'Histories of computing and internet culture', 'Senior writer at Wired']
+  },
 };
 
 export default authors;
