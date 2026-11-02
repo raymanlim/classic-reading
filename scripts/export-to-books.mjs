@@ -28,7 +28,7 @@ const ARTICLES_DIR = join(ROOT, 'content', 'articles');
 const NOTES_FILE = join(ROOT, 'content', 'notes.js');
 
 const DEFAULT_OUT = 'D:/Obsidian/obsidian_valut/Books/经典书库';
-const SITE_URL = 'https://0e00525f540948a2b66f58b8a0e4962d.sg2.agentos-app.run';
+const SITE_URL = 'https://classic-reading.pages.dev';
 
 // ---------- 参数 ----------
 const argv = process.argv.slice(2);
