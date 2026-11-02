@@ -140,6 +140,44 @@ node src/anzm-source.mjs --check  # 只做去重体检，列出排除清单与�
 3. 来源标题可能有错字/截断，入库前以出版社 / 维基 / 豆瓣为准；脚本已修正的错字见 `TITLE_FIX`。
 4. 候选池条目只有中文简介与视频出处，**英文书名、年份、原语言仍需检索核实**。
 
+#### 参考源：Hacker Books（Hacker News 评论提及书目，2026-11-02 起）
+
+数据源：<https://hackerbooks.org/> —— 抓取 HN 全站评论（2007–2026），把评论里提到的书聚合，
+按「多少个**不同的人**提到过」（字段 `u`）排序。2026-11-02 抓取口径：15,766 本书 /
+281,363 条提及 / 57,773 位独立评论者。站点提供稳定 JSON 接口，脚本从首页 `window.__ASSETS`
+解析带哈希的资源路径，因此站点改版只需重跑脚本。
+
+```bash
+node src/hn-books-source.mjs            # 联网刷新候选池 + 报告
+node src/hn-books-source.mjs --offline  # 用 _stage 缓存刷新
+node src/hn-books-source.mjs --brief    # 打印候选清单（按分类分组）
+node src/hn-books-source.mjs --check    # 只做过滤/去重体检，不写文件
+```
+
+产物（**不要手改**）：
+
+| 文件 | 作用 |
+|---|---|
+| `content/sources/hackernews-books.js` | 候选池（机器可读，**不会被站点构建加载**） |
+| `docs/HackerNews书源-候选池.md` | 人工审阅报告（数据口径 / 过滤统计 / 各分类 Top15） |
+
+处理规则：只保留能映射到七大在用主题的书（`ai-ml`→ai；programming/computer-science/systems/
+web/security/hardware/math/physics/biology/popular-science→technology；history/philosophy 直通；
+fiction/science-fiction/fantasy→literature）；退役主题（金融/投资/美股/经济/商业）与超配主题
+（psychology/politics-society）一律不收；出版年 > 当前年-5 的不收；年份缺失的不收；
+与全库按「完全一致 / 互相包含 / 主标题互相包含」去重；每类最多 40 本。
+
+🔴 三条硬约束（违反会直接污染内容质量）：
+
+1. **HN 提及人数不是经典性证据。** 它不在任务规定的权威认可清单内，只能当选题线索与热度参考，
+   不得用来凑「经典性门槛②」的两项证据。
+2. **池内技术类大量是操作手册与教科书**（Clean Code、Code Complete、Cracking the Coding Interview、
+   Introduction to Algorithms 等），命中「排除清单④」者一律不得选用；优先挑思想型/历史型/机制型条目。
+3. **`year` / `author` 取自 OpenLibrary，已知有错**（实测 Future Shock 标 1801、Beyond Good and Evil
+   标 2009）。入库前必须重新核验，不得直接采信池字段。
+
+覆盖缺口：`essays`（经典散文）与 `education`（教育与反思）在本源无对应类目，这两个主题仍走独立检索。
+
 ### 写作规范要点
 
 - 事实字段必须**真实可核验**（书名、作者、年份、原语言）。不确定就查，不要编。
