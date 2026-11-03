@@ -1895,6 +1895,32 @@ export const authors = {
     ideas_zh: ['记录并命名「黑客伦理」', '计算机与互联网文化史写作', '《连线》资深作者'],
     ideas_en: ['Documenting and naming the "hacker ethic"', 'Histories of computing and internet culture', 'Senior writer at Wired']
   },
+  'ray-kurzweil': {
+    name_en: 'Ray Kurzweil',
+    name_zh: '雷·库兹韦尔',
+    life: '1948–',
+    nationality_zh: '美国',
+    nationality_en: 'American',
+    role_zh: '发明家、未来学家',
+    role_en: 'Inventor and futurist',
+    bio_zh: '美国发明家与未来学家，1948 年生于纽约，毕业于麻省理工学院。他早年开发出第一台 CCD 平板扫描仪与第一套商用语音识别系统，1999 年获美国国家技术奖章，并入选美国发明家名人堂。此后转向技术趋势预测，提出「加速回报定律」，主张信息技术按指数而非线性演进；2005 年出版的《奇点临近》把这一推演延伸到 2045 年前后「技术奇点」的假设。现为谷歌工程总监，参与自然语言处理相关研究。',
+    bio_en: 'American inventor and futurist, born in New York in 1948 and educated at MIT. He developed one of the first CCD flatbed scanners and the first commercial speech-recognition system, received the National Medal of Technology in 1999 and was inducted into the National Inventors Hall of Fame. He later turned to forecasting, formulating the "law of accelerating returns" — the claim that information technology advances exponentially rather than linearly — and in The Singularity Is Near (2005) extended that argument to a hypothetical "technological singularity" around 2045. He is currently a director of engineering at Google, working on natural language processing.',
+    ideas_zh: ['加速回报定律：信息技术按指数演进', '技术奇点：2045 年前后人机融合的假设', 'GNR：基因、纳米、机器人三大技术的汇合'],
+    ideas_en: ['The law of accelerating returns: IT advances exponentially', 'The singularity: a hypothesis of human-machine merger around 2045', 'GNR: the convergence of genetics, nanotechnology and robotics']
+  },
+  'wang-xiaobo': {
+    name_en: 'Wang Xiaobo',
+    name_zh: '王小波',
+    life: '1952–1997',
+    nationality_zh: '中国',
+    nationality_en: 'Chinese',
+    role_zh: '作家',
+    role_en: 'Writer',
+    bio_zh: '中国作家，1952 年生于北京。早年赴云南插队，做过民办教师与工人；1978 年考入中国人民大学贸易经济系，毕业后赴美国匹兹堡大学取得硕士学位，回国后曾在北京大学、中国人民大学任教，随后辞职专事写作。1991 年《黄金时代》获第 13 届《联合报》文学奖中篇小说大奖。1997 年因心脏病猝然去世，此后其杂文与小说在大陆读书界持续引发「王小波现象」。杂文集《沉默的大多数》是他的随笔代表作。',
+    bio_en: 'Chinese writer, born in Beijing in 1952. Sent to the countryside in Yunnan as a rusticated youth, he worked as a village teacher and a factory hand before entering the Renmin University of China in 1978 to study trade economics; he took a master\'s degree at the University of Pittsburgh, taught briefly at Peking and Renmin universities, then resigned to write full time. In 1991 his novella The Golden Age won the 13th United Daily News fiction prize. He died suddenly of a heart attack in 1997, and his essays and fiction have since sustained a lasting "Wang Xiaobo phenomenon" among mainland readers. The Silent Majority is his best-known essay collection.',
+    ideas_zh: ['「沉默的大多数」：沉默本身是一种话语位置', '思维的乐趣：把独立思考当作生活必需品', '以常识与幽默对抗装腔作势的权威'],
+    ideas_en: ['The "silent majority": silence itself as a discursive position', 'The pleasure of thinking: independent thought as a necessity of life', 'Common sense and humour against pompous authority']
+  },
 };
 
 export default authors;
