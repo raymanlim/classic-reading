@@ -1230,6 +1230,24 @@ export const notes = [
       'What matters in this book is that it treats obedience as a situational variable rather than a defect of character. Milgram\'s experiments show that ordinary people will inflict harm far beyond their own stated limits when an authority directs them, which suggests that a secondhand instruction, once wrapped in legitimacy, can override what a person sees with their own eyes. What it genuinely changes is the reading of "I was only following orders" — not an excuse, but a genuinely operating cognitive switch. The easily missed point is that this obedience mechanism is precisely the social substrate that lets secondhand knowledge function: we default to trusting that authority has already verified on our behalf. The caution worth keeping is that when the authority is itself wrong or captured, this most economical channel of trust mass-produces error.',
     topics: ['cognitive-science', 'decision-making', 'power-and-politics'],
   },
+  {
+    id: 'note-034',
+    slug: 'descartes-error-emotion-is-part-of-reason',
+    book: 'descartes-error',
+    date: '2026-11-03',
+    voice: 'editorial',
+    key_insight_zh:
+      '情绪不是理性的干扰项，而是理性得以运作的前提——当情绪信号被切断，人不是变得更冷静，而是无法做出任何决定。',
+    key_insight_en:
+      'Emotion is not an interference with reason but a precondition for it — when emotional signals are cut off, people do not become cooler; they become unable to decide at all.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于它把「理性」从一台纯逻辑机器的形象里拉了出来。达马西奥记录的额叶损伤病人，智力测验正常、能清楚复述每个选项的利弊，却在日常生活中无法做出任何决定——不是因为他们算错了，而是因为他们不再「在意」任何一个选项。它真正改变的是对「冷静判断」的理解：情绪不是判断的噪声，而是给选项标上权重的机制；没有权重，所有选项在数学上等价，选择就失去了依据。容易被忽略的一点是，这并不意味着情绪总是可靠的——它同样会系统性地扭曲判断，把人推向短视与偏见。值得警惕的是，把「去情绪化」当成提高判断质量的办法，可能只是把噪声换成另一种形式的瘫痪。',
+    thinking_en:
+      'What matters in this book is that it pulls reason away from the image of a purely logical machine. Damasio\'s patients with frontal-lobe damage score normally on intelligence tests and can recite the pros and cons of every option, yet cannot decide anything in ordinary life — not because they calculate wrongly, but because they no longer care about any option. What it genuinely changes is the understanding of "cool judgment": emotion is not the noise in judgment but the mechanism that assigns weight to options; without weight, all options are mathematically equivalent and choice loses its basis. The easily missed point is that this does not make emotion reliable — it also distorts judgment systematically, pushing people toward short-termism and prejudice. The caution worth keeping is that treating "de-emotionalisation" as a way to improve judgment may merely swap noise for a different kind of paralysis.',
+    topics: ['cognitive-science', 'decision-making', 'philosophy'],
+  },
 ];
 
 export default notes;
