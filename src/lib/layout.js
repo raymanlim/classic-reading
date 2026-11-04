@@ -201,7 +201,7 @@ export function footer(lang, data) {
 /* ------------------------------------------------------------------
  * 完整 HTML 文档
  * ------------------------------------------------------------------ */
-export function page({ lang, meta, body, currentPath = '', bodyClass = '' }) {
+export function page({ lang, meta, body, currentPath = '', bodyClass = '', canonicalPath = null }) {
   const htmlLang = LANG_META[lang].htmlLang;
   const ui = {
     results: t(lang, 'library.results'),
@@ -229,7 +229,7 @@ export function page({ lang, meta, body, currentPath = '', bodyClass = '' }) {
   };
   return `<!DOCTYPE html>
 <html lang="${htmlLang}">
-<head>${head({ lang, ...meta, path: currentPath })}
+<head>${head({ lang, ...meta, path: canonicalPath || currentPath })}
   <script>window.__CL_UI=${JSON.stringify(ui)};window.__CL_BUILD="${BUILD_ID}";</script>
 </head>
 <body class="${bodyClass}" data-lang="${lang}">

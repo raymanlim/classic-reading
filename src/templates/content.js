@@ -184,8 +184,33 @@ export function renderArticle(lang, data, article) {
 /* ------------------------------------------------------------------
  * 阅读笔记
  * ------------------------------------------------------------------ */
-export function renderNotes(lang, data) {
+/* 笔记列表每页条数：补齐期 334 本书全部有笔记后，单页若不分页会到 1MB 以上 */
+export const NOTES_PAGE_SIZE = 20;
+
+export function renderNotes(lang, data, pageNo = 1) {
   const zh = lang === 'zh';
+  const totalNotes = data.notes.length;
+  const totalPages = Math.max(1, Math.ceil(totalNotes / NOTES_PAGE_SIZE));
+  const current = Math.min(Math.max(1, pageNo), totalPages);
+  const startAt = (current - 1) * NOTES_PAGE_SIZE;
+  const pageNotes = data.notes.slice(startAt, startAt + NOTES_PAGE_SIZE);
+  const notesHref = (n) => (n === 1 ? url(lang, 'notes/') : url(lang, `notes/page/${n}/`));
+  const pager =
+    totalPages <= 1
+      ? ''
+      : `<nav class="notes-pager" aria-label="${e(t(lang, 'notes.pager_label'))}">
+          ${
+            current > 1
+              ? `<a class="notes-pager__link" href="${notesHref(current - 1)}" rel="prev">← ${e(t(lang, 'notes.pager_prev'))}</a>`
+              : `<span class="notes-pager__link notes-pager__link--off">← ${e(t(lang, 'notes.pager_prev'))}</span>`
+          }
+          <span class="notes-pager__status">${e(t(lang, 'notes.pager_status', { current, total: totalPages }))}</span>
+          ${
+            current < totalPages
+              ? `<a class="notes-pager__link" href="${notesHref(current + 1)}" rel="next">${e(t(lang, 'notes.pager_next'))} →</a>`
+              : `<span class="notes-pager__link notes-pager__link--off">${e(t(lang, 'notes.pager_next'))} →</span>`
+          }
+        </nav>`;
   const body = `
       ${pageHead(lang, {
         title: t(lang, 'notes.title'),
@@ -195,7 +220,7 @@ export function renderNotes(lang, data) {
       })}
       <section class="section">
         <div class="notes">
-          ${data.notes
+          ${pageNotes
             .map((note) => {
               const book = note.bookEntity;
               const insight = zh ? note.key_insight_zh : note.key_insight_en;
@@ -272,11 +297,13 @@ export function renderNotes(lang, data) {
             })
             .join('\n          ')}
         </div>
+        ${pager}
       </section>`;
 
   return page({
     lang,
     currentPath: 'notes/',
+    canonicalPath: current === 1 ? 'notes/' : `notes/page/${current}/`,
     meta: {
       title: t(lang, 'meta.notes.title'),
       description: t(lang, 'meta.notes.description'),

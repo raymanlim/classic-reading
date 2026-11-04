@@ -23,7 +23,8 @@ import {
   renderAuthors, renderAuthor, renderPaths, renderPath
 } from './templates/collections.js';
 import {
-  renderArticles, renderArticle, renderNotes, renderMyReading, renderAbout, renderSearch, renderNotFound
+  renderArticles, renderArticle, renderNotes, renderMyReading, renderAbout, renderSearch, renderNotFound,
+  NOTES_PAGE_SIZE
 } from './templates/content.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -388,7 +389,12 @@ async function build() {
     writePage(`${lang}/authors`, renderAuthors(lang, data)); pageCount += 1;
     writePage(`${lang}/paths`, renderPaths(lang, data)); pageCount += 1;
     writePage(`${lang}/articles`, renderArticles(lang, data)); pageCount += 1;
-    writePage(`${lang}/notes`, renderNotes(lang, data)); pageCount += 1;
+    /* 笔记列表分页：第 1 页沿用 /notes/，其后为 /notes/page/N/ */
+    const notesPageTotal = Math.max(1, Math.ceil(data.notes.length / NOTES_PAGE_SIZE));
+    for (let p = 1; p <= notesPageTotal; p += 1) {
+      writePage(p === 1 ? `${lang}/notes` : `${lang}/notes/page/${p}`, renderNotes(lang, data, p));
+      pageCount += 1;
+    }
     writePage(`${lang}/my-reading`, renderMyReading(lang, data)); pageCount += 1;
     writePage(`${lang}/about`, renderAbout(lang, data)); pageCount += 1;
     writePage(`${lang}/search`, renderSearch(lang, data)); pageCount += 1;

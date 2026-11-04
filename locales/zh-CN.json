@@ -246,7 +246,11 @@
     "questions_hint": "点击每个问题，展开参考答案。",
     "answer_label": "参考答案",
     "video_cta": "视频解读",
-    "video_badge": "视频解读"
+    "video_badge": "视频解读",
+    "pager_prev": "上一页",
+    "pager_next": "下一页",
+    "pager_status": "第 {current} / {total} 页",
+    "pager_label": "笔记分页"
   },
   "search": {
     "title": "搜索",

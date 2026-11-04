@@ -964,6 +964,21 @@ dl, dd, dt { margin: 0; }
   border-left: 7px solid currentColor;
 }
 
+/* 笔记列表分页：补齐期单页若全量渲染会到 1MB 以上 */
+.notes-pager {
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  margin-top: 2.2rem; padding-top: 1.5rem; border-top: 1px solid var(--line);
+  font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.06em;
+}
+.notes-pager__link {
+  display: inline-flex; align-items: center; min-height: 32px; padding: 0.35rem 0.2rem;
+  color: var(--prussian); border-bottom: 1px solid transparent;
+  transition: border-color 0.18s ease, color 0.18s ease;
+}
+.notes-pager__link:hover { border-color: var(--gold); }
+.notes-pager__link--off { color: var(--ink-4); border-bottom: 0; }
+.notes-pager__status { color: var(--ink-4); white-space: nowrap; }
+
 /* ---------- 16b. 文末思考题（阅读笔记） ---------- */
 .note-questions { margin-top: 1.6rem; border-top: 1px dashed var(--line-2); padding-top: 1.2rem; }
 .note-questions__label {

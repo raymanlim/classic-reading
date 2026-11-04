@@ -246,7 +246,11 @@
     "questions_hint": "Click a question to reveal the reference answer.",
     "answer_label": "Reference answer",
     "video_cta": "Video essay (in Chinese)",
-    "video_badge": "Video"
+    "video_badge": "Video",
+    "pager_prev": "Previous",
+    "pager_next": "Next",
+    "pager_status": "Page {current} of {total}",
+    "pager_label": "Notes pagination"
   },
   "search": {
     "title": "Search",
