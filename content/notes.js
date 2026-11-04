@@ -1286,6 +1286,386 @@ export const notes = [
     ],
     topics: ['technology', 'modern-society', 'attention-and-depth'],
   },
+  {
+    id: 'note-036',
+    slug: 'the-wealth-of-nations-the-division-of-labour-has-a-ceiling',
+    book: 'the-wealth-of-nations',
+    date: '2026-11-04',
+    voice: 'editorial',
+    key_insight_zh:
+      '斯密的核心命题不是「市场万能」，而是「分工的深度受市场范围限制」——因此他的分析起点是交换能力与制度条件，不是价格机制本身。',
+    key_insight_en:
+      "Smith's central claim is not that markets work, but that the depth of the division of labour is bounded by the extent of the market — which is why his argument begins with exchange and institutional conditions rather than with price mechanics.",
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书最常被跳过的是它的结构。前三章讲分工与价值，中段长篇处理价格、资本、工资与利润，最后才谈国家的三项职能。这个顺序本身就是论证：分工提高生产率，生产率需要资本积累，资本积累需要可预期的产权和足够大的市场，所以那只「看不见的手」不是自然状态，而是一组制度条件成立之后的结果。第二个易被忽略的点是斯密对商人的态度：他反对的是重商主义的特许垄断，同时明确警告商人合谋限制竞争，而这一半常被引用者删去。第三个需要修正的印象是「自利」——斯密说的是自利可以经由交换被引导，不是说自利本身值得赞美；他在《道德情操论》里对同情心的处理与这里并不矛盾，而是分工社会的两面。把这本书读成自由贸易的辩护词，会漏掉它对权力与垄断的警惕，而那恰恰是它今天仍然锋利的地方。',
+    thinking_en:
+      'What gets skipped most often is the book\u2019s architecture. The opening chapters treat the division of labour and value; the long middle handles price, capital, wages and profit; only at the end does Smith turn to the three functions of the state. That order is itself the argument: division of labour raises productivity, productivity requires capital accumulation, accumulation requires predictable property rights and a market large enough to absorb output — so the invisible hand is not a natural condition but a result that appears once a set of institutional conditions holds. A second neglected point is Smith\u2019s attitude toward merchants: what he attacks is mercantilist monopoly, and he explicitly warns against collusion to restrain competition, a half of the argument that admirers tend to delete. A third impression worth correcting is self-interest — Smith claims that self-interest can be channelled through exchange, not that it deserves praise; his treatment of sympathy in The Theory of Moral Sentiments is not inconsistent with this book but the other face of a commercial society. Reading it as a brief for free trade misses its suspicion of power and monopoly, which is precisely what still cuts today.',
+    questions_zh: [
+      '「分工受市场范围限制」在数字产品上还成立吗？边际成本趋近于零，是否等于市场范围无限，从而分工可以无限深化？',
+      '斯密反对商人合谋，但他主张的有限政府又不足以约束这种合谋。这个张力他自己是否意识到了？',
+      '如果分工深化依赖市场规模，一个内需不足的经济体应该优先扩大市场，还是优先提升分工水平？',
+    ],
+    questions_en: [
+      'Does the division of labour remain bounded by the extent of the market for digital goods? If marginal cost approaches zero, is the market effectively unlimited, and can the division of labour deepen without limit?',
+      'Smith warns against collusion among merchants, yet the limited government he defends has few instruments to restrain it. Did he recognise this tension himself?',
+      'If deepening the division of labour depends on market size, should an economy with weak domestic demand widen the market first, or raise the level of specialisation first?',
+    ],
+    answers_zh: [
+      '部分失效。数字产品的复制成本趋零，但「市场范围」不只看人数，还看支付能力、语言、监管与信任半径。分工仍受限于愿意付费且能被服务的人群，只是这个边界从地理变成了制度与语言。',
+      '他部分意识到了。斯密对同业组合（guild）与合谋的批评相当具体，但他信任的是竞争本身能约束合谋，而不是监管机构。这个判断在市场规模足够大、进入壁垒足够低时成立，在集中度高的行业里则未必。',
+      '两者不是二选一。斯密的逻辑里，市场范围包括运输、治安、货币与教育——他明确把道路、港口与基础教育列为国家职能，正是因为它们决定市场能延伸多远。所以优先项是降低交易成本，而不是单纯刺激需求。',
+    ],
+    answers_en: [
+      'Partly. Digital goods cost almost nothing to copy, but the extent of the market is not only a headcount: it includes willingness to pay, language, regulation and the radius of trust. Specialisation is still bounded by how many people can actually be served and can pay — the boundary has moved from geography to institutions and language.',
+      'He saw it in part. Smith\u2019s critique of guilds and combinations is concrete, but his confidence rests on competition restraining collusion rather than on a regulator. That holds when markets are large and entry barriers low; it is far weaker in concentrated industries.',
+      'It is not either-or. In Smith\u2019s account the extent of the market includes roads, policing, money and education — he lists public works and basic schooling among the duties of the state precisely because they determine how far the market can reach. The priority is lowering transaction costs, not simply stimulating demand.',
+    ],
+    topics: ['markets', 'macroeconomics', 'civilization'],
+  },
+  {
+    id: 'note-037',
+    slug: 'the-republic-the-city-is-an-analogy-not-a-programme',
+    book: 'the-republic',
+    date: '2026-11-04',
+    voice: 'editorial',
+    key_insight_zh:
+      '《理想国》的城邦不是政治方案，而是一台放大的心理模型：它被造出来，是为了让「正义是否值得」这个问题在可见的尺度上被看清。',
+    key_insight_en:
+      'The city in the Republic is not a political programme but a magnified psychological model: it is built so that the question of whether justice is worth having can be inspected at a visible scale.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于它的方法，而不是它的结论。苏格拉底面对色拉叙马霍斯的挑战——正义只是强者的利益——没有直接反驳，而是提议先在大字上读一遍：把城邦当作灵魂的放大版，看正义在城邦里是什么样子，再回到个人。整个中段的制度设计（卫士、护卫者、哲学王、对诗人的审查）都服务于这个类比，而不是在描述一个可实施的政体。它真正改变的是对「正义」的提问方式：从「守规则有没有好处」变成「灵魂的秩序是什么」。容易被忽略的是这个类比的代价——一旦把灵魂比作城邦，政治判断就会被心理学的语言接管，个体差异被抹平，这也是波普尔后来批评它是极权主义源头的着力点。值得警惕的是把洞穴寓言读成「启蒙 vs 蒙昧」的简单对立：柏拉图真正说的是，走出洞穴的人回到洞里会不被相信，而且他自己也需要重新适应黑暗——这是关于知识分子的处境，不是关于大众的愚昧。',
+    thinking_en:
+      'What matters here is the method, not the conclusions. Faced with Thrasymachus\u2019s challenge — that justice is simply the advantage of the stronger — Socrates does not refute it directly; he proposes reading it first in larger letters, treating the city as an enlargement of the soul so that justice can be seen at a scale the eye can follow, then returning to the individual. The institutional machinery of the middle books — guardians, auxiliaries, philosopher-kings, censorship of poets — serves that analogy rather than describing a workable constitution. What the book genuinely changes is the form of the question: from whether obeying the rules pays, to what order a soul is in. The cost of the analogy is easily missed: once the soul is modelled on a city, political judgement is taken over by psychological vocabulary and individual difference is flattened — which is exactly where Popper later located its totalitarian seed. The caution worth keeping is against reading the cave as a simple opposition of enlightenment and ignorance. Plato\u2019s real point is that whoever leaves the cave is disbelieved on return and must himself readjust to the dark; that is a claim about the position of the knower, not about the stupidity of the many.',
+    questions_zh: [
+      '如果城邦只是灵魂的放大版，那么《理想国》里的制度细节还有独立的政治意义吗？还是说它们只是类比的道具？',
+      '柏拉图要把诗人逐出城邦，理由是诗会腐蚀理性。这个论证与今天对叙事和宣传的担忧是同构的吗？',
+      '洞穴寓言里，返回洞穴的人必须重新适应黑暗。这是否意味着柏拉图认为启蒙者应当迁就多数人的认知水平？',
+    ],
+    questions_en: [
+      'If the city is only an enlargement of the soul, do the institutional details of the Republic carry independent political weight, or are they merely props for an analogy?',
+      'Plato expels the poets on the grounds that poetry corrupts reason. Is that argument structurally the same as modern worries about narrative and propaganda?',
+      'In the cave allegory the returning prisoner must readjust to the dark. Does that mean Plato thinks the enlightened should accommodate the cognitive level of the many?',
+    ],
+    answers_zh: [
+      '两者都有，但重心在类比。制度细节是必要的，因为一个不成立的城邦无法承担放大功能；但它们是否可欲，柏拉图留了余地——他两次承认这样的城邦只存在于言词中（en logois）。把它当作蓝图来批评，容易打空。',
+      '同构但不完全相同。柏拉图的理由是形而上学层面的：诗模仿的是影像，离真理三层远。现代担忧更多是经验层面的：叙事选择性地组织事实。前者要求审查，后者要求辨识，处置方式不一样。',
+      '不完全是。柏拉图的要求是返回者承担政治义务，而不是降低标准。他同时坚持教育可以逐级提升认知——洞穴寓言本身就是一条上升路径。真正悲观的地方在于：他并不相信多数人能自己走完这条路。',
+    ],
+    answers_en: [
+      'Both, but the weight is on the analogy. The institutions must be coherent, because an incoherent city cannot magnify anything; yet Plato twice concedes that such a city exists only in speech. Criticising it as a blueprint therefore tends to miss.',
+      'Structurally similar, not identical. Plato\u2019s reason is metaphysical: poetry imitates images and stands three removes from truth. Modern worries are empirical: narrative organises facts selectively. The first calls for censorship, the second for discernment — different remedies.',
+      'Not quite. Plato requires the returner to accept political obligation rather than to lower the standard. He also insists that education can raise cognition step by step — the cave is itself an ascent. The pessimism lies elsewhere: he does not believe most people can complete that ascent unaided.',
+    ],
+    topics: ['philosophy', 'power-and-politics', 'democracy-and-liberty'],
+  },
+  {
+    id: 'note-038',
+    slug: 'the-analects-the-ritual-is-the-argument',
+    book: 'the-analects',
+    date: '2026-11-04',
+    voice: 'editorial',
+    key_insight_zh:
+      '《论语》不是一套伦理学说，而是一份关于「如何成为一个可被信任的人」的训练记录；礼不是外在仪式，是把抽象德性变成可重复动作的技术。',
+    key_insight_en:
+      'The Analects is not a system of ethics but a record of training in how to become a person others can rely on; ritual is not outward ceremony but the technique that turns abstract virtue into repeatable action.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '读这本书最常见的错误，是把它当成格言集去摘句。它的形式——短章、无系统、大量弟子提问——本身就是内容：孔子拒绝给出统一定义，因为德性是在具体处境里被辨认的。同一个「仁」，对颜渊答「克己复礼」，对仲弓答「己所不欲勿施于人」，对司马牛答「其言也讱」——答案随提问者的毛病而变，这不是前后不一致，而是因材施教的证据。第二个要点是礼的位置：礼在《论语》里不是繁文缛节，而是把内在状态外化为可练习的形式，使「敬」这类无法直接检验的东西有了可观察的载体。它真正改变的是对「修身」的理解：不是向内反省，而是通过重复正确的外部动作反过来塑造内部。值得警惕的是把这本书读成服从训练——孔子对「乡愿」的厌恶、对「道不同不相为谋」的坚持，都说明他要的是有判断力的顺从，而不是无条件的顺从。',
+    thinking_en:
+      'The commonest mistake is to read this as a collection of aphorisms to be excerpted. Its form — short chapters, no system, disciples asking questions — is itself the content: Confucius declines to give a single definition because virtue is identified in concrete situations. Asked about ren, he answers Yan Yuan with self-restraint and ritual, Zhonggong with not imposing on others what one does not want, and Sima Niu with caution in speech — the answer changes with the questioner\u2019s failing, which is not inconsistency but evidence of teaching to the person. A second point is the place of ritual: li here is not ceremonial clutter but the form that externalises an inner state into something practicable, giving the untestable quality of reverence an observable carrier. What the book changes is the idea of self-cultivation: not introspection, but repeated correct outward action reshaping the inside. The caution is against reading it as training in obedience — the disdain for the village worthy who pleases everyone, and the insistence that those on different paths cannot plan together, both show that what is wanted is obedience with judgement, not obedience without it.',
+    questions_zh: [
+      '孔子对同一问题给出不同答案，这是因材施教，还是说明他其实没有统一标准？如何区分这两者？',
+      '如果礼的功能是把内在德性外化为可练习的动作，那么当礼的形式脱离其内在含义、只剩下动作时，它还有价值吗？',
+      '《论语》强调「君子」的自我要求，但全书很少讨论制度。这种以个人修养替代制度设计的思路，在大型社会里是否可行？',
+    ],
+    questions_en: [
+      'Confucius gives different answers to the same question. Is that teaching to the person, or evidence that he has no consistent standard? How would one tell the two apart?',
+      'If ritual works by turning inner virtue into practicable action, does it retain value once the form is detached from its meaning and only the motions remain?',
+      'The Analects stresses the self-discipline of the noble person but says little about institutions. Can a ethics of personal cultivation substitute for institutional design in a large society?',
+    ],
+    answers_zh: [
+      '判据是答案之间是否互相矛盾。孔子对仁的多种回答在逻辑上相容，只是侧重不同；而他对「言」的态度（慎言、讷言）在全书保持一致。若同一情境下答案相反，才是无标准。',
+      '有，但会退化。孔子自己承认「礼云礼云，玉帛云乎哉」——礼不在器物。形式脱离含义后仍能维持行为的可预期性，但不再产生敬意，只剩下社会协调功能。这是礼的下限，不是它的本义。',
+      '不能完全替代，但也不冲突。孔子的思路是：制度依赖人来执行，执行者的判断力决定制度的实际效果。这个判断在官僚体系膨胀后仍然有效，但他确实低估了制度可以反过来塑造人的那一面。',
+    ],
+    answers_en: [
+      'The test is whether the answers contradict one another. Confucius\u2019s various replies about ren are logically compatible and differ in emphasis; his attitude to speech — speak cautiously, speak slowly — is consistent throughout. Only opposite answers to the same situation would show a missing standard.',
+      'It retains value but degrades. Confucius himself asks whether ritual is a matter of jade and silk — the point is not the objects. A form detached from meaning still makes behaviour predictable, but it no longer produces reverence, only coordination. That is the floor of ritual, not its purpose.',
+      'Not a substitute, but not a contradiction either. Confucius assumes institutions are run by people and that the judgement of those people determines how institutions actually behave. That holds even in large bureaucracies — though he does understate how far institutions shape the people inside them.',
+    ],
+    topics: ['philosophy', 'education', 'essays-and-reflection'],
+  },
+  {
+    id: 'note-039',
+    slug: 'meditations-the-only-thing-that-is-yours',
+    book: 'meditations',
+    date: '2026-11-04',
+    voice: 'editorial',
+    key_insight_zh:
+      '《沉思录》不是一本劝人淡泊的书，而是一套应对外部失控的操作程序：把「发生了什么」和「我对它的判断」拆成两件事，因为只有后者在自己手里。',
+    key_insight_en:
+      'The Meditations is not a book urging detachment but an operating procedure for losing control of circumstances: it separates what happened from one\u2019s judgement about it, because only the second is one\u2019s own.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的性质常被误认。它不是写给读者的哲学论著，而是一个罗马皇帝写给自己的备忘——同一句话反复出现，正因为作者需要反复提醒自己，而不是因为他想清楚了。这个文体特征很重要：它示范的是「练习」而非「结论」。核心操作只有一条：把事件与对事件的判断分开。被冒犯是事件，感到受辱是判断；损失是事件，认为这是灾难是判断。斯多亚派不主张压抑情绪，而主张在判断生成之前介入。第二层是「宇宙视角」——把当下放到时间与整体的尺度上看，不是自我安慰，而是校正比例感。容易被误读的是「控制二分法」被简化成消极认命：马可·奥勒留本人一生在处理瘟疫、战争与叛乱，这本书不是退出的理由，而是继续做事的理由。值得警惕的是把斯多亚主义当成情绪管理工具包——它背后有一套宇宙论（万物相连、理性贯穿），抽掉这一层，剩下的技术会在真正的重击面前失效。',
+    thinking_en:
+      'The nature of this book is often misread. It is not a treatise written for readers but a private memorandum by a Roman emperor to himself — the same sentence recurs because the author needed reminding, not because he had settled the matter. That formal feature matters: what it demonstrates is practice, not conclusion. The core operation is single: separate the event from the judgement about it. Being insulted is the event; feeling humiliated is the judgement. A loss is the event; calling it a catastrophe is the judgement. The Stoics do not counsel suppressing emotion but intervening before the judgement forms. The second layer is the cosmic view — placing the present against the scale of time and the whole — which is not consolation but a correction of proportion. What is easily misread is the dichotomy of control collapsing into passive resignation: Marcus spent his reign handling plague, war and revolt, and this book is a reason to keep acting, not to withdraw. The caution is against treating Stoicism as an emotion-management toolkit; behind it stands a cosmology of interconnection and universal reason, and stripped of that layer the techniques fail precisely when the blow is heaviest.',
+    questions_zh: [
+      '把事件与判断分开，在多大程度上是自欺？如果一件事客观上确实很糟，坚持「这只是我的判断」是否变成了逃避？',
+      '马可·奥勒留是拥有巨大权力的皇帝，他的「只在意自己能控制的事」是否带有特权色彩？一个无权者能用同一套方法吗？',
+      '斯多亚主义依赖一套宇宙论。如果一个人不接受「万物依理性相连」，他还能使用这套练习吗？',
+    ],
+    questions_en: [
+      'To what extent is separating event from judgement self-deception? If something is objectively very bad, does insisting that it is only a judgement become evasion?',
+      'Marcus Aurelius held enormous power. Does his advice to care only about what one controls carry a privilege he did not notice? Can someone without power use the same method?',
+      'Stoicism rests on a cosmology. If a person does not accept that all things are connected by reason, can the exercises still work?',
+    ],
+    answers_zh: [
+      '界线在于是否影响行动。如果拆解判断之后仍然采取同样的应对措施，它是清醒；如果拆解之后什么都不做了，它是逃避。马可·奥勒留的标准始终是「做完该做的」，而不是「感觉好一点」。',
+      '特权确实存在，但方向相反：权力越大，可控范围越大，失控时的落差也越大。无权者面对的多数处境本就不在自己手里，这套方法的适用性反而更强——它训练的是在有限行动空间里不浪费力气。',
+      '可以，但要降级使用。抽掉宇宙论之后，剩下的是认知行为层面的技术：识别自动判断、检验其证据、延迟反应。这仍然有效，只是失去了「为什么值得这样做」的答案，长期难以维持。',
+    ],
+    answers_en: [
+      'The line is whether action changes. If the same response follows the analysis, it is clarity; if nothing follows, it is evasion. Marcus\u2019s standard is always to do what the situation requires, not to feel better about it.',
+      'The privilege is real but runs the other way: the more power, the wider the controllable range, and the greater the fall when control fails. Most situations facing the powerless were never theirs to control, so the method applies more strongly — it trains one not to waste effort inside a narrow room for action.',
+      'Yes, but at reduced strength. Without the cosmology what remains is a cognitive technique: notice the automatic judgement, test its evidence, delay the response. That still works; what is lost is the answer to why it is worth doing, which makes it hard to sustain over years.',
+    ],
+    topics: ['stoicism', 'philosophy', 'attention-and-depth'],
+  },
+  {
+    id: 'note-040',
+    slug: 'history-of-the-peloponnesian-war-the-strong-do-what-they-can',
+    book: 'history-of-the-peloponnesian-war',
+    date: '2026-11-04',
+    voice: 'editorial',
+    key_insight_zh:
+      '修昔底德写的不是战争史，而是一份关于「人在压力下如何计算」的病例记录；米洛斯对话之所以被反复引用，是因为它把权力逻辑说得毫无修饰，而不是因为它罕见。',
+    key_insight_en:
+      'Thucydides wrote not a history of a war but a casebook on how people calculate under pressure; the Melian Dialogue is quoted so often because it states the logic of power without ornament, not because that logic is rare.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的方法比它的结论更值得注意。修昔底德是雅典将军，因战败被放逐，这个位置让他能同时接触双方的消息——他在开篇就说明自己既不采信第一个听来的说法，也不凭记忆写作。第二个方法是虚构演说：他知道自己无法复原原话，于是明确声明这些演说词是「最适合该情境的说法」。这不是造假，而是一种自觉的建构，目的是让决策者的推理过程可见。第三点是「修昔底德陷阱」这个流行概念的错位：书中真正强调的是恐惧与荣誉如何驱动预防性行动，而不是「新兴强权必然挑战守成强权」这条规律；把复杂的动机结构压缩成一句必然性命题，恰好丢掉了修昔底德最想留下的东西。值得警惕的是把这本书读成现实主义教科书：他同样花了大量篇幅写瘟疫、内战中的道德崩坏、西西里远征的决策失误——这些都不是权力政治的胜利，而是判断力的失败。',
+    thinking_en:
+      'The method deserves more attention than the conclusions. Thucydides was an Athenian general exiled after a defeat, a position that gave him access to both sides; he states at the outset that he neither accepts the first account he hears nor writes from memory. The second device is the invented speech: knowing he could not recover the actual words, he says plainly that the speeches are what the situation most required. That is not fabrication but deliberate construction, and its purpose is to make the reasoning of decision-makers visible. The third point is the misfire of the popular phrase "Thucydides Trap": what the book stresses is how fear and honour drive pre-emptive action, not a law that a rising power must challenge an established one. Compressing a complex structure of motives into a single inevitability discards exactly what Thucydides wanted to preserve. The caution is against reading him as a textbook of realism: he devotes just as much space to the plague, to the collapse of morals in civil war, and to the decision failures of the Sicilian expedition — none of which are triumphs of power politics but failures of judgement.',
+    questions_zh: [
+      '修昔底德明确承认演说词是他重构的，这会不会损害他作为史家的可信度？还是说这种坦诚反而增强了可信度？',
+      '如果「修昔底德陷阱」是对原书的误读，为什么这个概念传播得如此成功？它满足了什么需求？',
+      '修昔底德把雅典的失败归因于判断失误而非实力不足。这个诊断对一个当代大国是否同样适用？',
+    ],
+    questions_en: [
+      'Thucydides admits the speeches are his reconstruction. Does that damage his credibility as a historian, or does the candour strengthen it?',
+      'If the "Thucydides Trap" misreads the book, why has the phrase spread so successfully? What need does it meet?',
+      'Thucydides attributes Athens\u2019s defeat to failures of judgement rather than lack of power. Does that diagnosis apply to a contemporary great power?',
+    ],
+    answers_zh: [
+      '增强可信度。他区分了「事实」与「推理」，并标明哪部分是后者。真正损害可信度的是把重构伪装成实录。后世史家沿用这个方法，说明它被专业共同体接受。',
+      '因为它把复杂的结构问题转成一个可预测的时间点，而决策者需要的是可操作的风险提示。它满足的是预警需求，代价是把「可能」读成「必然」，从而低估了政策选择的空间。',
+      '部分适用。他指出的具体失误——目标膨胀、远距离投送的后勤误判、把希望当作计划——在大国身上同样常见。但当代的纠错机制比雅典的公民大会更有回旋余地，这是他那个时代没有的变量。',
+    ],
+    answers_en: [
+      'It strengthens it. He separates fact from inference and marks which is which; what actually damages credibility is dressing reconstruction as transcript. Later historians kept the device, which suggests the profession accepted it.',
+      'Because it converts a structural problem into a predictable moment, and decision-makers want an actionable warning. It meets a demand for early warning, at the cost of turning possibility into inevitability and therefore underestimating the room for policy choice.',
+      'Partly. The specific errors he identifies — goal inflation, logistical miscalculation in distant campaigns, treating hope as plan — recur in great powers. But contemporary correction mechanisms have more slack than the Athenian assembly did, and that variable did not exist in his time.',
+    ],
+    topics: ['history', 'power-and-politics', 'strategy'],
+  },
+  {
+    id: 'note-041',
+    slug: 'the-general-theory-the-economy-is-not-a-household',
+    book: 'the-general-theory',
+    date: '2026-11-04',
+    voice: 'editorial',
+    key_insight_zh:
+      '凯恩斯真正推翻的不是某个模型，而是一个类比：国家不是家庭，整体储蓄不等于整体节俭；当所有人同时想少花钱时，减少的是收入本身。',
+    key_insight_en:
+      'What Keynes overturned was not a model but an analogy: a nation is not a household, and saving in aggregate is not thrift — when everyone spends less at once, what falls is income itself.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书难读是出了名的，连凯恩斯自己都承认结构混乱。但它的核心论证只有几步：需求决定产出，而不是产出自动创造需求；因为价格与工资不能瞬时调整，闲置资源可以持续存在；于是储蓄意愿上升不一定转化为投资，反而可能压低收入，使储蓄总量不升反降。这就是节俭悖论的宏观版本。第二点常被忽略：凯恩斯不是社会主义者，他要救的是资本主义——他反对的是把充分就业当作自动趋势的假设，而不是市场本身。第三点是他对不确定性的处理：他把未来分成「概率可算的风险」和「根本不可算的不确定性」，后者才是投资决策的真实处境，也是「动物精神」这个概念的位置。值得警惕的是把这本书简化为「政府花钱」：凯恩斯同样强调，如果支出投向不产生生产能力的地方，乘数效应会衰减；他对政策质量的关切，在通俗版本里几乎全被删掉了。',
+    thinking_en:
+      'The book is famously hard, and Keynes himself conceded its structure was disorderly. Its core argument takes only a few steps: demand determines output rather than output automatically creating demand; because prices and wages do not adjust instantly, idle resources can persist; therefore a higher willingness to save need not become investment and may instead depress income, so that total saving falls rather than rises. That is the macroeconomic version of the paradox of thrift. A second neglected point is that Keynes was not a socialist but a defender of capitalism — what he attacked was the assumption that full employment is the automatic tendency, not the market itself. A third is his treatment of uncertainty: he separates the future that can be reduced to calculable risk from the future that cannot be calculated at all, and the second is the actual condition of investment decisions, which is where animal spirits belong. The caution is against reducing the book to "the government should spend": Keynes also insisted that spending which creates no productive capacity weakens the multiplier, and his concern with the quality of policy is almost entirely deleted from the popular version.',
+    questions_zh: [
+      '节俭悖论在什么条件下不成立？如果一个经济体已经充分就业，增加储蓄是否就恢复为美德？',
+      '凯恩斯把「可计算的风险」与「不可计算的不确定性」分开。这个区分在量化金融高度发达的今天还站得住吗？',
+      '如果政府支出必须投向能产生生产能力的地方，那么由谁来判断投向是否正确？这个判断问题凯恩斯是否回避了？',
+    ],
+    questions_en: [
+      'Under what conditions does the paradox of thrift fail? If an economy is already at full employment, does higher saving become a virtue again?',
+      'Keynes separates calculable risk from incalculable uncertainty. Does that distinction still hold in an age of highly developed quantitative finance?',
+      'If government spending must go where it creates productive capacity, who judges whether it does? Did Keynes avoid that question?',
+    ],
+    answers_zh: [
+      '在资源已充分利用时不成立，此时储蓄增加确实可以转化为投资而不压低收入。此外在开放经济里，储蓄可以流向国外投资，悖论被贸易与资本流动部分化解。所以它是一个关于闲置资源条件的命题，不是普适规律。',
+      '区分仍然成立，但边界移动了。衍生品市场把越来越多的不确定性转成可定价的风险，但模型本身依赖历史分布，在结构断裂时会同时失效。2008 年就是一个例子：风险被计算得很精细，不确定性并没有减少。',
+      '他没有回避，但给的答案偏弱。他主张由具备判断力的机构来决策，同时承认政治过程可能扭曲配置。这是他理论里最脆弱的一环，也是后来公共选择学派攻击的入口。',
+    ],
+    answers_en: [
+      'It fails at full employment, where extra saving can indeed become investment without depressing income. In an open economy saving can also flow abroad, which partly dissolves the paradox through trade and capital flows. It is a proposition about idle resources, not a universal law.',
+      'The distinction holds, but its boundary has moved. Derivatives markets convert more and more uncertainty into priced risk, yet the models rely on historical distributions and fail together when structure breaks. 2008 is the case: risk was measured finely and uncertainty was not reduced.',
+      'He did not avoid it, but his answer is weak. He wanted decisions made by bodies with judgement, while conceding that politics can distort allocation. That is the softest joint in the theory, and where public choice theory later attacked.',
+    ],
+    topics: ['macroeconomics', 'monetary-system', 'markets'],
+  },
+  {
+    id: 'note-042',
+    slug: 'the-decline-and-fall-of-the-roman-empire-decay-is-not-an-event',
+    book: 'the-decline-and-fall-of-the-roman-empire',
+    date: '2026-11-04',
+    voice: 'editorial',
+    key_insight_zh:
+      '吉本的核心贡献不是「罗马亡于什么」，而是把「衰亡」从一个事件改写成一段可以被逐年追踪的过程——而过程没有单一原因。',
+    key_insight_en:
+      'Gibbon\u2019s contribution is not an answer to why Rome fell but the conversion of "decline" from an event into a process that can be traced year by year — and a process has no single cause.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的规模本身就是论点。六卷本从公元二世纪的罗马盛世写到 1453 年君士坦丁堡陷落，跨度一千三百年。吉本没有给出一个总原因，他给的是并行发生的多条线：军备的蛮族化、税基的萎缩、货币的贬值、元老院功能的空心化、基督教的兴起与教会的独立。这种写法的力量在于它拒绝简化，代价是读者很难从中提取一条可迁移的教训。第二点值得注意的是他对基督教的处理：第十五、十六章用冷静的、几乎解剖式的语言分析基督教得以传播的五条原因（教义的排他性、来世的承诺、神迹 claims、严密的组织、纯洁的品行），在当时引起巨大争议。这不是敌意，而是把宗教当作社会现象处理——这个方法本身比结论影响更深远。容易被忽略的是他的语文学功底：大量结论来自对钱币、铭文与法律文本的比对，而不是叙事传统。值得警惕的是把这本书读成「衰亡教科书」：吉本写的是特定条件下的特定过程，任何把其中某一条抽出来当通则的用法，都违背了他的方法。',
+    thinking_en:
+      'The scale is itself the argument. Six volumes run from the prosperity of the second century to the fall of Constantinople in 1453 — thirteen hundred years. Gibbon offers no single cause; he offers several lines running in parallel: the barbarisation of the army, the shrinking tax base, the debasement of the coinage, the hollowing out of the senate, the rise of Christianity and the independence of the church. The strength of that method is its refusal to simplify; the cost is that the reader can extract no portable lesson. A second point worth noticing is his treatment of Christianity: chapters fifteen and sixteen analyse, in cool and almost anatomical prose, five reasons the faith spread — the exclusivity of its doctrine, its promise of a future life, its claims to miracles, its tight organisation, and the purity of its adherents\u2019 conduct. That was enormously controversial at the time, but it is not hostility; it is religion handled as a social phenomenon, and the method outlasted the conclusions. What is easily missed is his philology: many findings rest on coins, inscriptions and legal texts rather than on narrative tradition. The caution is against reading the book as a manual of decline — Gibbon described a particular process under particular conditions, and extracting one strand as a general rule violates his method.',
+    questions_zh: [
+      '吉本拒绝给出单一原因，这是严谨还是回避？历史解释是否必须收敛到一个主因？',
+      '他分析基督教传播的五条原因，与今天分析一个观念或产品如何扩散的框架有何异同？',
+      '把罗马的衰亡与当代大国类比，最大的方法论风险是什么？',
+    ],
+    questions_en: [
+      'Gibbon refuses a single cause. Is that rigour or evasion? Must historical explanation converge on one dominant cause?',
+      'His five reasons for the spread of Christianity — how do they compare with modern frameworks for how an idea or a product diffuses?',
+      'What is the greatest methodological risk in drawing analogies between Rome\u2019s decline and contemporary great powers?',
+    ],
+    answers_zh: [
+      '是严谨。多因并行、相互强化，正是复杂系统的常态；强行收敛到一个主因，往往只是把研究者的事前偏好投射进去。但他也不是完全中立——「蛮族与宗教」这条线的权重，明显带着十八世纪启蒙学者的立场。',
+      '结构相似，词汇不同。他看的是排他性、激励（来世）、可信度（神迹）、组织密度与成员品行，这几乎就是今天讨论网络效应、留存与信任的要素，只是没有量化。差别在于他不区分必要与充分条件。',
+      '选择性取证。罗马有一个明确的终点（西罗马政权终结），当代大国没有；把仍在进行的过程当作已完成的过程来分析，必然高估某些因素、低估自我修正能力。',
+    ],
+    answers_en: [
+      'Rigour. Multiple causes reinforcing one another is the normal condition of complex systems, and forcing convergence on one usually projects the researcher\u2019s prior. He was not neutral either — the weight given to barbarians and religion clearly carries an eighteenth-century Enlightenment position.',
+      'Similar structure, different vocabulary. Exclusivity, incentive (an afterlife), credibility (miracles), organisational density and the conduct of members are close to what is now discussed as network effects, retention and trust, only without quantification. The difference is that he does not separate necessary from sufficient conditions.',
+      'Selective evidence. Rome had a definite endpoint in the end of Western imperial rule; contemporary powers do not. Treating an ongoing process as a completed one necessarily overweights some factors and underweights the capacity for self-correction.',
+    ],
+    topics: ['history', 'civilization', 'power-and-politics'],
+  },
+  {
+    id: 'note-043',
+    slug: 'thus-spoke-zarathustra-the-book-that-refuses-to-teach',
+    book: 'thus-spoke-zarathustra',
+    date: '2026-11-04',
+    voice: 'editorial',
+    key_insight_zh:
+      '《查拉图斯特拉如是说》拒绝被当作学说来读：它用诗、寓言和反讽写成，正因为尼采认为「被直接教导的价值」一定会退化成新的教条。',
+    key_insight_en:
+      'Thus Spoke Zarathustra refuses to be read as a doctrine. It is written in poetry, parable and irony precisely because Nietzsche held that any value taught directly will harden into a new dogma.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的困难不在于晦涩，而在于它的形式与主张之间存在张力。尼采要批判一切外在权威，却写了一本充满先知口吻的书；他反对信徒，却不断制造门徒。这个矛盾不是失误，而是全书的结构性赌注：如果连「反教条」本身都被写成教条，它就失败了；所以只能用寓言，让读者自己去走一遍，而不是接过结论。第二点是「超人」被严重误读。尼采说的不是更强壮的人种，而是一种能够自己创造价值、不依赖外部担保的存在方式；与它相对的「末人」也不是弱者，而是那个只追求舒适与安全、不再想要任何超越的人——这一层批评针对的是现代性，而不是某个阶层。第三点是永恒轮回：它常被读成宇宙论主张，但更可能是一个测试——如果你必须无限次重复这一生，你是否仍然肯定它。值得警惕的是把这本书当作自我膨胀的许可证：尼采对「权力意志」的用法更接近自我克服，而不是支配他人，这两者在流行解读里被混为一谈。',
+    thinking_en:
+      'The difficulty is not obscurity but the tension between form and claim. Nietzsche attacks every external authority while writing a book in the voice of a prophet; he denounces followers while producing disciples. That contradiction is not a slip but the book\u2019s structural wager: if even anti-dogmatism is written as dogma it has failed, so it can only work through parable, making the reader walk the path rather than receive the conclusion. A second point is the gross misreading of the overman. Nietzsche does not mean a stronger breed of human but a mode of existence that creates its own values without external guarantee; its opposite, the last man, is not the weak but the one who wants only comfort and safety and no longer wants anything beyond — a criticism aimed at modernity, not at a class. A third is the eternal recurrence, often read as a cosmological claim when it is more plausibly a test: if you had to repeat this life endlessly, could you still affirm it? The caution is against taking the book as licence for self-aggrandisement: Nietzsche\u2019s will to power is closer to self-overcoming than to domination, and the two are conflated in almost every popular reading.',
+    questions_zh: [
+      '一本反对教条的书用了先知的腔调，这是修辞策略还是自我拆台？读者该如何判断？',
+      '如果「超人」不是更强的人，而是一种存在方式，那么它可以通过训练获得吗？还是只能自发形成？',
+      '永恒轮回作为测试，与「活在当下」这类流行建议有什么区别？',
+    ],
+    questions_en: [
+      'A book against dogma adopts a prophetic voice. Is that rhetorical strategy or self-undermining? How should a reader decide?',
+      'If the overman is not a stronger human but a mode of existence, can it be trained, or does it only arise spontaneously?',
+      'As a test, how does the eternal recurrence differ from popular advice to live in the present?',
+    ],
+    answers_zh: [
+      '判据是它是否给出可执行的规则。全书几乎不提供行为准则，只提供姿态与处境，这说明腔调是反讽装置，而不是新的律法。真正的自我拆台会以「你应该」结尾，这本书很少这样收束。',
+      '两者都有。尼采描述的是自我克服的持续过程，而非一次达成的状态；它需要条件（闲暇、健康、不被怨恨占据），但无法通过遵循步骤获得。这也是他拒绝写成手册的原因。',
+      '方向相反。活在当下是缩小时间视野、降低期待；永恒轮回是把时间视野放到无限，然后要求你对当下负责。前者缓解焦虑，后者提高标准。',
+    ],
+    answers_en: [
+      'The test is whether it issues executable rules. The book gives almost no maxims of conduct, only postures and situations, which suggests the prophetic voice is an ironic device rather than new law. Genuine self-undermining would end in "thou shalt", and it rarely does.',
+      'Both. Nietzsche describes a continuous process of self-overcoming rather than a state achieved once; it requires conditions — leisure, health, not being occupied by resentment — but cannot be reached by following steps. That is why he refused to write a manual.',
+      'In the opposite direction. Living in the present narrows the time horizon and lowers expectation; the eternal recurrence widens it to infinity and then holds you responsible for the present. The first relieves anxiety, the second raises the bar.',
+    ],
+    topics: ['philosophy', 'existentialism', 'religion-and-meaning'],
+  },
+  {
+    id: 'note-044',
+    slug: 'leviathan-fear-is-the-beginning-of-politics',
+    book: 'leviathan',
+    date: '2026-11-04',
+    voice: 'editorial',
+    key_insight_zh:
+      '霍布斯的起点不是「人本恶」，而是「在没有共同权力的地方，连最弱的人也能杀死最强的人」——正因如此，恐惧才成为政治的第一块砖。',
+    key_insight_en:
+      'Hobbes does not begin from human wickedness but from the fact that where no common power exists, even the weakest can kill the strongest — which is why fear becomes the first brick of politics.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的论证结构常被简化成「自然状态很可怕，所以需要主权者」。真正的链条更长：人在能力上大致平等，平等产生同等希望，同等希望产生竞争，竞争在缺乏共同权力时升级为所有人对所有人的战争；在这种状态下，产业、科学、艺术都无法存在，因为它们的成果随时可能被夺走。所以霍布斯要解决的不是道德问题，而是预期问题——如何让人敢于做长期打算。第二点常被忽略：他其实给了两条出路，一条是主权（恐惧一个共同权威），另一条是自然法（理性发现的和平条款）。他之所以选前者，是因为自然法没有强制力就无法执行。第三点是他对主权者的约束：霍布斯并非无条件拥护专制，他明确说主权者的权力来自保护，一旦不能保护，服从的义务就失效——这条被后世引用得远少于「利维坦」这个意象。值得警惕的是把「所有人对所有人的战争」当成历史描述：它是一个反事实的思想实验，用来显示没有政治的状态是什么样，而不是说人类真的那样生活过。',
+    thinking_en:
+      'The argument is usually flattened into "the state of nature is terrible, so we need a sovereign". The actual chain is longer: people are roughly equal in capacity, equality produces equal hope, equal hope produces competition, and competition without a common power escalates into a war of all against all; in that condition industry, science and art cannot exist because their fruits can be taken at any moment. So the problem Hobbes solves is not moral but one of expectation — how anyone can dare to plan ahead. A second neglected point is that he offers two exits: sovereignty, which means fearing a common authority, and the laws of nature, the articles of peace discovered by reason. He chooses the first because laws of nature without enforcement cannot bind. A third is his constraint on the sovereign: Hobbes is not an unconditional defender of absolutism, and he states plainly that sovereign power derives from protection — once protection fails, the duty of obedience lapses. That clause is cited far less often than the image of Leviathan. The caution is against treating the war of all against all as historical description: it is a counterfactual thought experiment showing what the absence of politics looks like, not a claim that people ever lived that way.',
+    questions_zh: [
+      '霍布斯的自然状态是反事实推演，但它被用来支撑现实制度。这种从假想前提推出规范结论的路径，在方法论上成立吗？',
+      '如果主权者的权力来自保护，那么「保护失败」由谁认定？这个判断权一旦交给主权者自己，约束是否就形同虚设？',
+      '霍布斯把恐惧当作政治的基础。以恐惧为基础建立的秩序，其稳定性上限在哪里？',
+    ],
+    questions_en: [
+      'Hobbes\u2019s state of nature is a counterfactual, yet it is used to justify real institutions. Is that route from an imagined premise to a normative conclusion methodologically sound?',
+      'If sovereign power derives from protection, who determines when protection has failed? Once that judgement belongs to the sovereign, is the constraint not void?',
+      'Hobbes makes fear the foundation of politics. What is the upper limit of stability for an order built on fear?',
+    ],
+    answers_zh: [
+      '成立，但有条件。反事实推演的价值在于隔离变量，而不是描述事实；只要结论被限定在「缺乏共同权力会导致什么」这一层，它就是有效的。越界把它当历史，就会失效。',
+      '这正是最薄弱的一环。霍布斯在理论上留了抵抗权，但在制度上没有指定裁判者，实际等于把判断权交回主权者。后来的宪政设计（分权、司法审查）本质上就是在补这个洞。',
+      '上限是效率而非忠诚。恐惧能迅速建立服从，但无法产生主动配合；一旦恐惧的来源减弱或出现竞争性的保护者，服从就会转移。霍布斯自己晚年目睹的英国政局，某种程度上印证了这一点。',
+    ],
+    answers_en: [
+      'Sound, with conditions. The value of a counterfactual is to isolate variables, not to describe events; as long as the conclusion stays at the level of what the absence of common power produces, it holds. It fails the moment it is treated as history.',
+      'This is precisely the weakest joint. Hobbes leaves a right of resistance in theory but names no judge in practice, which hands the judgement back to the sovereign. Later constitutional design — separation of powers, judicial review — is essentially a patch for that hole.',
+      'The limit is efficiency, not loyalty. Fear secures compliance quickly but cannot generate willing cooperation; once the source of fear weakens, or a competing protector appears, compliance transfers. The English politics Hobbes lived through rather confirms it.',
+    ],
+    topics: ['power-and-politics', 'philosophy', 'democracy-and-liberty'],
+  },
+  {
+    id: 'note-045',
+    slug: 'the-protestant-ethic-and-the-spirit-of-capitalism-the-cage-without-a-key',
+    book: 'the-protestant-ethic-and-the-spirit-of-capitalism',
+    date: '2026-11-04',
+    voice: 'editorial',
+    key_insight_zh:
+      '韦伯的论点不是「新教导致资本主义」，而是「一种神学上的困境意外地生产出了一种经济气质，而这种气质在神学消失之后继续自行运转」。',
+    key_insight_en:
+      'Weber does not argue that Protestantism caused capitalism but that a theological predicament accidentally produced an economic temperament which kept running after the theology disappeared.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的逻辑起点是一个很具体的心理问题：加尔文宗的预定论让人无法确知自己是否得救，而牧师给出的安慰是「在世俗职业中勤勉劳作可以作为蒙拣选的迹象」。于是劳作从谋生手段变成了确证信仰的行为，消费却被禁欲伦理压制——积累由此产生。关键在最后一步：当宗教动力消退，这套行为模式并没有随之消失，而是变成了「为赚钱而赚钱」的自我维持机制。韦伯用「铁笼」形容它，这个词的通行英译（iron cage）其实弱化了原文 stahlhartes Gehäuse 的「钢一样的外壳」之意，中文读者往往因此低估了它的重量。第二点常被误读：韦伯不是在证明经济由观念决定，他明确反对单因论，这本书是他「观念如何影响经济」这一系列研究的一环，而不是全部。值得警惕的是把它当作「儒家伦理能否产生资本主义」这类比较研究的现成模板：韦伯自己承认这个论证只针对特定历史条件，把结论平移到他未研究的文明，会犯他自己警告过的错误。',
+    thinking_en:
+      'The argument starts from a very specific psychological problem: Calvinist predestination left believers unable to know whether they were saved, and the pastoral answer was that diligent labour in one\u2019s worldly calling could serve as a sign of election. Work thus shifted from a means of living to an act confirming faith, while ascetic ethics restrained consumption — and accumulation followed. The crucial step is the last one: when the religious motive faded, the pattern of behaviour did not fade with it but became a self-sustaining mechanism of earning for earning\u2019s sake. Weber calls it an iron cage, though the standard English rendering weakens the original stahlhartes Gehäuse — a shell as hard as steel — and readers in translation tend to underestimate its weight. A second common misreading: Weber is not arguing that ideas determine the economy, and he explicitly rejects single-cause explanation; this book is one part of a wider programme on how ideas bear on economic life, not the whole of it. The caution is against using it as a ready template for comparisons such as whether Confucian ethics could produce capitalism: Weber himself limited the argument to particular historical conditions, and transplanting the conclusion to civilisations he never studied repeats the very error he warned against.',
+    questions_zh: [
+      '如果禁欲伦理是资本主义兴起的条件之一，那么在一个消费主义高度发达的社会里，这套动力还剩下什么？',
+      '韦伯明确反对单因论，但读者仍普遍把这本书读成「观念决定经济」。这个误读是读者的问题，还是论证本身的结构导致的？',
+      '把韦伯的框架用于分析东亚经济增长，最大的方法论障碍是什么？',
+    ],
+    questions_en: [
+      'If ascetic ethics was one condition for the rise of capitalism, what remains of that motive in a thoroughly consumerist society?',
+      'Weber explicitly rejects single-cause explanation, yet readers routinely take the book as saying ideas determine the economy. Is that the reader\u2019s fault, or does the argument\u2019s structure invite it?',
+      'What is the greatest methodological obstacle to applying Weber\u2019s framework to East Asian growth?',
+    ],
+    answers_zh: [
+      '剩下的是外壳，失去了内核。韦伯自己预判了这一点：当「天职」变成「职业」，行为被保留而意义被抽空，剩下的就是没有理由的持续运转。消费主义不是它的反面，而是它的后续形态。',
+      '两者都有，但结构因素更大。全书用大量篇幅建立因果链条，只在前言和后记里声明反对单因论，比例失衡导致读者只记住链条。这是他自己也承认的表达问题。',
+      '变量不可分离。韦伯的比较方法依赖「找到只有宗教不同的两个社会」，而东亚的经验里，国家角色、土地制度、宗族结构与宗教同时变化，无法把宗教单独抽出来检验。强行套用，结论无法证伪。',
+    ],
+    answers_en: [
+      'The shell remains without the core. Weber anticipated this himself: once the calling becomes a career, the behaviour is preserved and the meaning is emptied, leaving motion without reason. Consumerism is not its opposite but its later form.',
+      'Both, but structure dominates. The book spends most of its length building a causal chain and only declares its rejection of single causation in the introduction and the closing pages; the imbalance means readers remember the chain. Weber conceded the problem of exposition himself.',
+      'Variables cannot be separated. Weber\u2019s comparative method needs two societies differing only in religion, whereas in East Asia the role of the state, land tenure, clan structure and religion changed together, so religion cannot be isolated for testing. Forcing the framework yields conclusions that cannot be falsified.',
+    ],
+    topics: ['religion-and-meaning', 'civilization', 'markets'],
+  },
 ];
 
 export default notes;
