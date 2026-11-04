@@ -241,7 +241,8 @@
     "questions_en": "思考问题",
     "questions_hint": "Click a question to reveal the reference answer.",
     "answer_label": "Reference answer",
-    "video_cta": "Video essay (in Chinese)"
+    "video_cta": "Video essay (in Chinese)",
+    "video_badge": "Video"
   },
   "search": {
     "title": "Search",

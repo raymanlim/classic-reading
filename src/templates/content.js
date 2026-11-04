@@ -203,17 +203,31 @@ export function renderNotes(lang, data) {
               const quote = zh ? note.quote_zh : note.quote_en;
               /* 视角标签：personal = 站点所有者的个人笔记；editorial = 站点解读（自动化生成） */
               const thinkingLabel = t(lang, note.voice === 'editorial' ? 'notes.editorial_note' : 'notes.my_thinking');
-              return `<article class="note">
+              const videoBadge = note.video_url
+                ? `<span class="note__badge"><span class="note__badge-play" aria-hidden="true"></span>${e(t(lang, 'notes.video_badge'))}</span>`
+                : '';
+              return `<article class="note" id="${e(note.id)}">
             <header class="note__head">
               <p class="note__book">
                 <a href="${url(lang, `books/${book.slug}/`)}">${e(zh ? `《${book.title_zh}》` : book.title_en)}</a>
               </p>
-              <p class="note__date">${e(formatDate(lang, note.date))}</p>
+              <p class="note__meta">${videoBadge}<span class="note__date">${e(formatDate(lang, note.date))}</span></p>
             </header>
             <dl class="note__fields">
               <div><dt>${e(t(lang, 'notes.key_insight'))}</dt><dd>${e(insight || '')}</dd></div>
               ${quote ? `<div><dt>${e(t(lang, 'notes.quote'))}</dt><dd><blockquote>${e(quote)}</blockquote></dd></div>` : ''}
               <div><dt>${e(thinkingLabel)}</dt><dd>${e(thinking || '')}</dd></div>
+            </dl>
+            ${
+              /* 视频解读入口：紧跟正文、位于思考题之前，避免被折叠区压到卡片最底部 */
+              note.video_url
+                ? `<p class="note__video">
+              <a href="${e(note.video_url)}" target="_blank" rel="noopener noreferrer">
+                <span class="note__video-play" aria-hidden="true"></span>${e(t(lang, 'notes.video_cta'))}<span aria-hidden="true"> →</span>
+              </a>
+            </p>`
+                : ''
+            }
             ${
               /* 文末思考题：点击问题展开参考答案（details/summary，零 JS） */
               (() => {
@@ -247,11 +261,6 @@ export function renderNotes(lang, data) {
         </div>`;
               })()
             }
-            ${note.video_url ? `<p class="note__video">
-              <a href="${e(note.video_url)}" target="_blank" rel="noopener noreferrer">
-                <span class="note__video-play" aria-hidden="true"></span>${e(t(lang, 'notes.video_cta'))}<span aria-hidden="true"> →</span>
-              </a>
-            </p>` : ''}
             <footer class="note__foot">
               ${(note.topics || [])
                 .map((slug) => data.topicBySlug[slug])

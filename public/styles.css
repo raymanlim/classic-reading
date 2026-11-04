@@ -884,13 +884,22 @@ dl, dd, dt { margin: 0; }
 
 /* ---------- 16. Notes ---------- */
 .notes { display: grid; gap: 0; max-width: 860px; }
-.note { padding: 2rem 0; border-top: 1px solid var(--line); }
+.note { padding: 2rem 0; border-top: 1px solid var(--line); scroll-margin-top: calc(var(--header-h) + 1.2rem); }
 .note:last-child { border-bottom: 1px solid var(--line); }
 .note__head { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
 .note__book { font-family: var(--font-serif); font-size: 1.25rem; }
 .note__book a { border-bottom: 1px solid transparent; }
 .note__book a:hover { border-color: var(--gold); }
+.note__meta { display: flex; align-items: baseline; gap: 0.7rem; flex-wrap: wrap; }
 .note__date { font-family: var(--font-mono); font-size: 0.7rem; color: var(--ink-4); letter-spacing: 0.08em; }
+/* 有视频解读的笔记在卡片头部就给出信号，滚动时无需进入卡片即可辨识 */
+.note__badge {
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--gold);
+  border: 1px solid var(--gold); padding: 0.1rem 0.4rem; white-space: nowrap;
+}
+.note__badge-play { width: 0; height: 0; border-top: 3px solid transparent; border-bottom: 3px solid transparent; border-left: 5px solid currentColor; }
 .note__fields { display: grid; gap: 1.1rem; margin-top: 1.25rem; }
 .note__fields dt {
   font-family: var(--font-mono); font-size: 0.66rem; letter-spacing: 0.12em;
@@ -908,14 +917,16 @@ dl, dd, dt { margin: 0; }
 .note__video a {
   display: inline-flex;
   align-items: center;
-  gap: 0.45rem;
-  font-size: 0.82rem;
+  gap: 0.5rem;
+  font-size: 0.84rem;
   color: var(--prussian);
-  border-bottom: 1px solid var(--line-2);
-  padding-bottom: 0.1rem;
-  transition: color 0.18s ease, border-color 0.18s ease;
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--gold);
+  padding: 0.5rem 0.85rem;
+  transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
 }
-.note__video a:hover { color: var(--gold); border-color: var(--gold); }
+.note__video a:hover { color: var(--prussian); background: var(--paper); border-color: var(--line-2); border-left-color: var(--gold); }
 .note__video-play {
   width: 0;
   height: 0;
