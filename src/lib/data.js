@@ -11,6 +11,7 @@ import { categories, tags, topics } from '../../content/taxonomy.js';
 import { readingPaths } from '../../content/paths.js';
 import { featured, readingStatus, statusOrder, featuredCoordinates } from '../../content/collections.js';
 import { searchAliases } from '../../content/search-aliases.js';
+import { articleVideos } from '../../content/article-videos.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 export const ROOT = join(__dirname, '..', '..');
@@ -118,6 +119,16 @@ export async function loadData() {
     }
   }
   articles.sort((a, b) => String(b.publish_date).localeCompare(String(a.publish_date)));
+
+  /* 视频解读映射校验：key 必须是真实文章 slug，value 必须是 YouTube 观看链接。
+     没有视频的文章不进入此表，模板因此不渲染区块（不编造、不占位）。 */
+  const articleSlugSet = new Set(articles.map((a) => a.slug));
+  for (const [slug, url] of Object.entries(articleVideos)) {
+    if (!articleSlugSet.has(slug)) warnings.push(`视频映射指向不存在的文章：${slug}`);
+    if (!/^https:\/\/www\.youtube\.com\/watch\?v=[A-Za-z0-9_-]{6,}$/.test(String(url))) {
+      warnings.push(`视频链接格式可疑：${slug} → ${url}`);
+    }
+  }
 
   /* ---------- 4. 笔记 ---------- */
   const notesMod = await importOptional(join(ROOT, 'content', 'notes.js'));
@@ -297,6 +308,7 @@ export async function loadData() {
   /* 文章 → 关联实体 */
   const articlesResolved = articles.map((article) => ({
     ...article,
+    video_url: articleVideos[article.slug] || '',
     relatedBooks: cleanList(article.related_books).map((s) => bookBySlug[s]).filter(Boolean),
     relatedTopics: cleanList(article.related_topics).map((s) => topicBySlug[s]).filter(Boolean),
     categoryEntity: categoryBySlug[article.category] || null,

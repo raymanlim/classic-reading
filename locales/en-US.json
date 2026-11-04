@@ -201,7 +201,10 @@
     "back": "Back to Deep Reads",
     "lang_note_zh": "This article is only available in Chinese",
     "lang_note_en": "This article is available in English only",
-    "other_lang": "Other language version"
+    "other_lang": "Other language version",
+    "video_label": "Video Essay",
+    "video_text": "This essay is also available as a video essay in Chinese, about six minutes long.",
+    "video_cta": "Watch on YouTube"
   },
   "reading": {
     "title": "My Reading",

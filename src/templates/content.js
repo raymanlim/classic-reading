@@ -78,6 +78,17 @@ export function renderArticle(lang, data, article) {
   const altExists = Boolean((altLang === 'zh' ? article.content_zh : article.content_en)?.trim());
   const cat = article.categoryEntity ? nameOf(lang, article.categoryEntity) : '';
 
+  /* 视频解读：仅当映射表提供有效链接时渲染；无视频的文章不出现任何占位。 */
+  const video = article.video_url
+    ? `<aside class="article__video">
+          <p class="article__video-label">${e(t(lang, 'articles.video_label'))}</p>
+          <p class="article__video-text">${e(t(lang, 'articles.video_text'))}</p>
+          <a class="article__video-link" href="${e(article.video_url)}" target="_blank" rel="noopener noreferrer">
+            <span class="article__video-play" aria-hidden="true"></span>${e(t(lang, 'articles.video_cta'))}<span class="article__video-arrow" aria-hidden="true">→</span>
+          </a>
+        </aside>`
+    : '';
+
   const body = `
       ${pageHead(lang, {
         title,
@@ -103,6 +114,8 @@ export function renderArticle(lang, data, article) {
               <p>${e(zh ? t(lang, 'articles.coming_soon_zh') : t(lang, 'articles.coming_soon'))}</p>
               ${altExists ? `<p><a class="link-arrow" href="${url(altLang, `articles/${article.slug}/`)}">${e(altLang === 'zh' ? '阅读中文版' : 'Read the English version')}<span aria-hidden="true"> →</span></a></p>` : ''}
             </div>`}
+
+        ${video}
 
         <footer class="article__foot">
           ${article.relatedTopics?.length ? `

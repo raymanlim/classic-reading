@@ -201,7 +201,10 @@
     "back": "返回深读列表",
     "lang_note_zh": "本文仅有中文版",
     "lang_note_en": "This article is available in English only",
-    "other_lang": "其他语言版本"
+    "other_lang": "其他语言版本",
+    "video_label": "视频解读",
+    "video_text": "这篇文章有对应的视频版，约六分钟。",
+    "video_cta": "在 YouTube 观看"
   },
   "reading": {
     "title": "我的阅读",

@@ -663,6 +663,53 @@ dl, dd, dt { margin: 0; }
 .article__title-alt { font-family: var(--font-serif); font-style: italic; color: var(--ink-3); font-size: 1.05rem; margin-top: 0.5rem; }
 .article__sub { font-size: 1.05rem; color: var(--ink-2); margin-top: 0.85rem; font-family: var(--font-serif); }
 .article__foot { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--line); display: grid; gap: 1.25rem; }
+
+/* 视频解读：文章正文之后的单一行动区块，无视频时整块不渲染 */
+.article__video {
+  margin-top: 2.5rem;
+  padding: 1.35rem 1.5rem;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--gold);
+  background: var(--paper-2);
+  display: grid;
+  gap: 0.55rem;
+  justify-items: start;
+}
+.article__video-label {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.article__video-text {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--ink-2);
+  line-height: 1.6;
+}
+.article__video-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.3rem;
+  padding: 0.55rem 0.95rem;
+  background: var(--prussian);
+  color: var(--paper);
+  border-bottom: 0;
+  font-size: 0.9rem;
+  transition: background 0.18s ease;
+}
+.article__video-link:hover { background: var(--prussian-2); color: var(--paper); border-bottom: 0; }
+.article__video-play {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid currentColor;
+}
+.article__video-arrow { margin-left: 0.15rem; }
 .article__block-title {
   font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.12em;
   text-transform: uppercase; color: var(--ink-4); margin-bottom: 0.6rem; font-weight: 400;
