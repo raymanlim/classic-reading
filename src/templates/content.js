@@ -211,6 +211,19 @@ export function renderNotes(lang, data, pageNo = 1) {
               : `<span class="notes-pager__link notes-pager__link--off">${e(t(lang, 'notes.pager_next'))} →</span>`
           }
         </nav>`;
+  /* 锚点跨页纠正：分页后 #note-XXX 未必在当前页，注入「笔记 id → 页码」映射并在前端跳转 */
+  const notePageMap = {};
+  data.notes.forEach((note, i) => {
+    notePageMap[note.id] = Math.floor(i / NOTES_PAGE_SIZE) + 1;
+  });
+  const anchorFix = `<script>window.__CL_NOTE_PAGES=${JSON.stringify(notePageMap)};
+(function(){var h=location.hash;if(!h||h.indexOf('#note-')!==0)return;
+if(document.getElementById(h.slice(1)))return;
+var m=window.__CL_NOTE_PAGES||{},p=m[h.slice(1)];
+if(!p||p===${current})return;
+var pth=location.pathname,i=pth.indexOf('/page/');
+var base=i>-1?pth.slice(0,i)+'/':pth;
+location.replace(base+(p>1?'page/'+p+'/':'')+h);})();</script>`;
   const body = `
       ${pageHead(lang, {
         title: t(lang, 'notes.title'),
@@ -298,7 +311,8 @@ export function renderNotes(lang, data, pageNo = 1) {
             .join('\n          ')}
         </div>
         ${pager}
-      </section>`;
+      </section>
+      ${anchorFix}`;
 
   return page({
     lang,
