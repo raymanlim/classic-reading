@@ -1248,6 +1248,44 @@ export const notes = [
       'What matters in this book is that it pulls reason away from the image of a purely logical machine. Damasio\'s patients with frontal-lobe damage score normally on intelligence tests and can recite the pros and cons of every option, yet cannot decide anything in ordinary life — not because they calculate wrongly, but because they no longer care about any option. What it genuinely changes is the understanding of "cool judgment": emotion is not the noise in judgment but the mechanism that assigns weight to options; without weight, all options are mathematically equivalent and choice loses its basis. The easily missed point is that this does not make emotion reliable — it also distorts judgment systematically, pushing people toward short-termism and prejudice. The caution worth keeping is that treating "de-emotionalisation" as a way to improve judgment may merely swap noise for a different kind of paralysis.',
     topics: ['cognitive-science', 'decision-making', 'philosophy'],
   },
+  {
+    id: 'note-035',
+    slug: 'amusing-ourselves-to-death-when-the-form-becomes-the-argument',
+    book: 'amusing-ourselves-to-death',
+    date: '2026-11-04',
+    voice: 'editorial',
+    key_insight_zh:
+      '波兹曼的论点不是「电视让人变笨」，而是「媒介形式在内容到达之前，就已经替一个时代决定了什么算作严肃的陈述」——当一切话语都以娱乐的形式出现，论证不是被驳倒的，而是被取消的。',
+    key_insight_en:
+      'Postman\'s argument is not that television makes people stupid, but that a medium\'s form decides, before any content arrives, what counts as a serious statement in an era — when all discourse arrives as entertainment, argument is not refuted but cancelled.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的关键在于，它把「娱乐化」从一个品味问题改写成认识论问题。波兹曼比较印刷与电视两种媒介，指出印刷文化要求连续、可反驳的推理，而电视把一切公共话语——新闻、政治、宗教、教育——都重新包装成节目；形式一旦改变，判断「什么值得认真对待」的标准也随之改变。它真正改变的是对「信息过载」的理解：问题不是我们接收得太多，而是接收的形式不再要求我们完成一条论证。容易被忽略的一点是，波兹曼并不认为观众愚蠢，他认为媒介在观众做出判断之前就已经完成了筛选——这正是它比「内容审查」更难对抗的地方。值得警惕的是，把这本书读成「关掉电视」的道德劝诫，会错过它真正的锋芒：它问的是，当一个社会只剩下娱乐这种严肃形式时，它还能不能处理那些不有趣但重要的事。',
+    thinking_en:
+      'What matters in this book is that it converts "entertainmentisation" from a question of taste into a question of epistemology. Comparing print with television, Postman argues that print culture demands continuous, refutable reasoning, while television repackages every form of public discourse — news, politics, religion, education — as a programme; once the form changes, the standard for what deserves to be taken seriously changes with it. What it genuinely changes is the understanding of "information overload": the problem is not that we receive too much, but that the form of reception no longer requires us to complete an argument. The easily missed point is that Postman does not think viewers are stupid; he thinks the medium has already done the filtering before the viewer judges — which is exactly why it is harder to resist than content censorship. The caution worth keeping is that reading this book as a moral exhortation to "turn off the television" misses its real edge: it asks whether a society left with entertainment as its only serious form can still handle what is important but not interesting.',
+    questions_zh: [
+      '波兹曼把「媒介形式」和「媒介内容」分开，这个区分在算法推荐的时代还成立吗？推荐系统同时决定了形式和内容，会不会让他的分析失效？',
+      '如果娱乐化不是观众的选择，而是媒介结构的必然，那么个体的「少看」还有意义吗？',
+      '波兹曼用一本书批判电视，这本书本身不也是一种被包装过的形式吗？这是否构成自相矛盾？',
+    ],
+    questions_en: [
+      'Postman separates "medium form" from "medium content." Does that distinction still hold in the age of algorithmic recommendation, where the system decides both form and content at once?',
+      'If entertainmentisation is not a viewer\'s choice but a structural consequence of the medium, does individual "watching less" still mean anything?',
+      'Postman attacks television in a book. Is a book not also a packaged form — and does that make his critique self-contradictory?',
+    ],
+    answers_zh: [
+      '仍然成立，但需要修正。波兹曼的区分假定形式（电视）与内容（节目）可以分开；推荐系统把两者合并了——它既决定你看到什么，也决定它以什么节奏、什么长度、什么情绪出现。这没有让他的分析失效，反而让它更彻底：当形式由算法实时生成，媒介就不再是一个固定的容器，而是一个持续调整你注意力的过程。抵抗因此更难，因为不再有一个「关掉它」的明确对象。',
+      '有意义，但意义有限。个体少看能保护自己的注意力，却改变不了公共话语的形式；波兹曼自己也没有把希望寄托在个人戒断上，而是寄托在教育——教人识别媒介的形式如何塑造内容。这是一种媒介素养式的抵抗，慢，但可积累；它不解决结构问题，只是让人在结构里保留一点判断的余地。',
+      '适用，而且不必视为矛盾。任何媒介都有它的偏向：印刷偏向线性与作者权威，书偏向完成与封闭。用一本书批判电视，本身就落在他所批判的框架里——这不是自相矛盾，而是所有媒介批判的共同处境：你只能用一种形式去质疑另一种形式。承认这一点，比假装自己站在媒介之外更诚实。',
+    ],
+    answers_en: [
+      'It still holds, but needs revision. Postman\'s distinction assumes that form (television) and content (programmes) can be separated; recommendation systems merge them — the system decides both what you see and at what pace, length, and emotional register it appears. This does not invalidate his analysis; it makes it more thorough. When form is generated in real time by an algorithm, the medium is no longer a fixed container but a continuous process of adjusting your attention. Resistance becomes harder because there is no longer a clear object to "switch off."',
+      'It means something, but limited. Watching less protects one\'s own attention without changing the form of public discourse; Postman himself did not place his hopes in individual abstinence but in education — teaching people to see how a medium\'s form shapes its content. That is a media-literacy resistance: slow, but cumulative. It does not solve the structural problem; it preserves a little room for judgment inside the structure.',
+      'It applies, and it need not be a contradiction. Every medium has a bias: print toward linearity and authorial authority, the book toward completion and closure. To attack television in a book is to stand inside the very frame one is criticising — not a self-contradiction but the common condition of all media criticism: you can only question one form with another. Admitting this is more honest than pretending to stand outside media altogether.',
+    ],
+    topics: ['technology', 'modern-society', 'attention-and-depth'],
+  },
 ];
 
 export default notes;
