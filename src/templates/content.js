@@ -247,6 +247,11 @@ export function renderNotes(lang, data) {
         </div>`;
               })()
             }
+            ${note.video_url ? `<p class="note__video">
+              <a href="${e(note.video_url)}" target="_blank" rel="noopener noreferrer">
+                <span class="note__video-play" aria-hidden="true"></span>${e(t(lang, 'notes.video_cta'))}<span aria-hidden="true"> →</span>
+              </a>
+            </p>` : ''}
             <footer class="note__foot">
               ${(note.topics || [])
                 .map((slug) => data.topicBySlug[slug])

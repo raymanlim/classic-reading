@@ -903,6 +903,27 @@ dl, dd, dt { margin: 0; }
 }
 .note__foot { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 1.25rem; }
 
+/* 笔记页的视频解读入口：仅「素材已用」的笔记渲染 */
+.note__video { margin-top: 1.15rem; }
+.note__video a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.82rem;
+  color: var(--prussian);
+  border-bottom: 1px solid var(--line-2);
+  padding-bottom: 0.1rem;
+  transition: color 0.18s ease, border-color 0.18s ease;
+}
+.note__video a:hover { color: var(--gold); border-color: var(--gold); }
+.note__video-play {
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 7px solid currentColor;
+}
+
 /* ---------- 16b. 文末思考题（阅读笔记） ---------- */
 .note-questions { margin-top: 1.6rem; border-top: 1px dashed var(--line-2); padding-top: 1.2rem; }
 .note-questions__label {

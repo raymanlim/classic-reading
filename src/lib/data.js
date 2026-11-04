@@ -12,6 +12,7 @@ import { readingPaths } from '../../content/paths.js';
 import { featured, readingStatus, statusOrder, featuredCoordinates } from '../../content/collections.js';
 import { searchAliases } from '../../content/search-aliases.js';
 import { articleVideos, videoExcluded, videoPending } from '../../content/article-videos.js';
+import { noteVideos, noteVideoSkipped } from '../../content/note-videos.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 export const ROOT = join(__dirname, '..', '..');
@@ -141,6 +142,23 @@ export async function loadData() {
   /* ---------- 4. 笔记 ---------- */
   const notesMod = await importOptional(join(ROOT, 'content', 'notes.js'));
   const notes = Array.isArray(notesMod?.notes) ? notesMod.notes : [];
+
+  /* 笔记视频映射校验：note id 必须存在，链接必须为 youtu.be；
+     跳过清单不得与已渲染映射冲突。待用笔记不进入任何表，模板不渲染。 */
+  const noteIdSet = new Set(notes.map((n) => n.id));
+  for (const [id, url] of Object.entries(noteVideos)) {
+    if (!noteIdSet.has(id)) warnings.push(`笔记视频映射指向不存在的笔记：${id}`);
+    if (!/^https:\/\/youtu\.be\/[A-Za-z0-9_-]{6,}$/.test(String(url))) {
+      warnings.push(`笔记视频链接格式可疑：${id} → ${url}`);
+    }
+  }
+  for (const [id, url] of Object.entries(noteVideoSkipped)) {
+    if (!noteIdSet.has(id)) warnings.push(`笔记跳过清单指向不存在的笔记：${id}`);
+    if (noteVideos[id]) warnings.push(`笔记视频状态冲突（既渲染又跳过）：${id}`);
+    if (!/^https:\/\/youtu\.be\/[A-Za-z0-9_-]{6,}$/.test(String(url))) {
+      warnings.push(`笔记跳过清单链接格式可疑：${id} → ${url}`);
+    }
+  }
 
   /* ---------- 5. 合并书籍 ---------- */
   const categoryBySlug = Object.fromEntries(categories.map((c) => [c.slug, c]));
@@ -297,7 +315,7 @@ export async function loadData() {
      - 排序：按日期倒序，**最新在最上面**；同日以 id 倒序做稳定次级排序，
        使新增笔记始终插在当天最前，不依赖文件书写顺序。 */
   const notesWithBook = notes
-    .map((note) => ({ ...note, voice: note.voice === 'editorial' ? 'editorial' : 'personal', bookEntity: bookBySlug[note.book] || null }))
+    .map((note) => ({ ...note, voice: note.voice === 'editorial' ? 'editorial' : 'personal', bookEntity: bookBySlug[note.book] || null, video_url: noteVideos[note.id] || '' }))
     .filter((note) => {
       if (!note.bookEntity) warnings.push(`笔记引用了不存在的书：${note.book}`);
       return Boolean(note.bookEntity);

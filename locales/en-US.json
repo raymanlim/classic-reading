@@ -240,7 +240,8 @@
     "questions": "Reflection Questions",
     "questions_en": "思考问题",
     "questions_hint": "Click a question to reveal the reference answer.",
-    "answer_label": "Reference answer"
+    "answer_label": "Reference answer",
+    "video_cta": "Video essay (in Chinese)"
   },
   "search": {
     "title": "Search",
