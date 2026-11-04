@@ -131,6 +131,10 @@
     "next": "下一本",
     "from_list": "本条为书单导入的轻量条目",
     "no_prose": "该书尚未撰写深度解读，以下为来源频道给出的核心主题。",
+    "video_badge": "视频解读",
+    "video_title": "视频解读",
+    "video_text": "这本书有对应的视频解读，约六分钟。",
+    "video_cta": "在 YouTube 观看",
     "year_unknown": "年份待考",
     "theme": "来源主题",
     "see_source": "查看来源"

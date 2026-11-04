@@ -853,6 +853,35 @@ dl, dd, dt { margin: 0; }
 }
 .aside-list a:hover { color: var(--prussian); border-color: var(--line-2); }
 
+/* 书籍页视频解读：头部信号徽标 + 侧栏常驻入口（侧栏 sticky，滚动全程可见） */
+.book-hero__video-badge {
+  color: var(--gold); border: 1px solid var(--gold); border-radius: 999px;
+  padding: 0.15rem 0.6rem; letter-spacing: 0.06em;
+  display: inline-flex; align-items: center; gap: 0.3rem;
+}
+.book-hero__video-play {
+  width: 0; height: 0;
+  border-top: 3px solid transparent; border-bottom: 3px solid transparent;
+  border-left: 5px solid currentColor;
+}
+.book-aside-block--video {
+  border: 1px solid var(--line); border-left: 3px solid var(--gold);
+  background: var(--paper-2); padding: 1rem 1.1rem;
+}
+.book-aside-video__text { font-size: 0.85rem; color: var(--ink-2); line-height: 1.6; margin-bottom: 0.85rem; }
+.book-aside-video__link {
+  display: inline-flex; align-items: center; gap: 0.45rem;
+  padding: 0.5rem 0.8rem; background: var(--prussian); color: var(--paper);
+  border-bottom: 0; font-size: 0.84rem;
+  transition: background 0.18s ease, color 0.18s ease;
+}
+.book-aside-video__link:hover { background: var(--prussian-2); color: var(--paper); border-bottom: 0; }
+.book-aside-video__play {
+  width: 0; height: 0;
+  border-top: 4px solid transparent; border-bottom: 4px solid transparent;
+  border-left: 7px solid currentColor;
+}
+
 .book-pager {
   display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem;
   border-top: 1px solid var(--line); padding-top: 2rem;

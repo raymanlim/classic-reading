@@ -13,6 +13,7 @@ import { featured, readingStatus, statusOrder, featuredCoordinates } from '../..
 import { searchAliases } from '../../content/search-aliases.js';
 import { articleVideos, videoExcluded, videoPending } from '../../content/article-videos.js';
 import { noteVideos, noteVideoSkipped } from '../../content/note-videos.js';
+import { bookVideos } from '../../content/book-videos.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 export const ROOT = join(__dirname, '..', '..');
@@ -245,6 +246,20 @@ export async function loadData() {
       .filter(Boolean);
     book.tagEntities = book.tagSlugs.map((s) => tagBySlug[s]);
     book.topicEntities = book.topicSlugs.map((s) => topicBySlug[s]);
+  }
+
+  /* ---------- 5b. 书籍视频解读（「经典书籍推荐」系列） ---------- */
+  for (const [slug, videoUrl] of Object.entries(bookVideos)) {
+    if (!bookBySlug[slug]) {
+      warnings.push(`书籍视频映射指向不存在的书：${slug}`);
+      continue;
+    }
+    if (!/^https:\/\/youtu\.be\/[A-Za-z0-9_-]{6,}$/.test(String(videoUrl))) {
+      warnings.push(`书籍视频链接格式可疑：${slug} → ${videoUrl}`);
+    }
+  }
+  for (const book of books) {
+    book.video_url = bookVideos[book.slug] || '';
   }
 
   /* ---------- 6. 派生索引 ---------- */

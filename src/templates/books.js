@@ -224,6 +224,8 @@ export function renderBook(lang, data, book) {
               <span>${e(yearText)}</span>
               ${isList ? `<span class="dot" aria-hidden="true">·</span>
               <span class="book-hero__source-badge">${e(sourceLabel(lang, book))}</span>` : ''}
+              ${book.video_url ? `<span class="dot" aria-hidden="true">·</span>
+              <span class="book-hero__video-badge"><span class="book-hero__video-play" aria-hidden="true"></span>${e(t(lang, 'book.video_badge'))}</span>` : ''}
             </p>
             <h1 class="book-hero__title">${e(main)}</h1>
             ${alt ? `<p class="book-hero__title-alt">${e(alt)}</p>` : ''}
@@ -301,6 +303,13 @@ export function renderBook(lang, data, book) {
           </div>
 
           <aside class="book-body__aside">
+            ${book.video_url ? `<section class="book-aside-block book-aside-block--video">
+              <h2 class="book-aside-block__title">${e(t(lang, 'book.video_title'))}</h2>
+              <p class="book-aside-video__text">${e(t(lang, 'book.video_text'))}</p>
+              <a class="book-aside-video__link" href="${e(book.video_url)}" target="_blank" rel="noopener noreferrer">
+                <span class="book-aside-video__play" aria-hidden="true"></span>${e(t(lang, 'book.video_cta'))}<span aria-hidden="true">→</span>
+              </a>
+            </section>` : ''}
             <section class="book-aside-block">
               <h2 class="book-aside-block__title">${e(t(lang, 'book.topics'))}</h2>
               <div class="chips chips--small">

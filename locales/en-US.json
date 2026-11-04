@@ -131,6 +131,10 @@
     "next": "Next",
     "from_list": "This is a lightweight entry imported from a reading list",
     "no_prose": "No long-form commentary has been written for this title. Below is the core theme as framed by the source channel.",
+    "video_badge": "Video",
+    "video_title": "Video essay",
+    "video_text": "This book has a companion video essay in Chinese, about six minutes long.",
+    "video_cta": "Watch on YouTube",
     "year_unknown": "Year unverified",
     "theme": "Source theme",
     "see_source": "View source"
