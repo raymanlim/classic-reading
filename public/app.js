@@ -9,6 +9,7 @@
   var LANG = document.body.getAttribute('data-lang') || 'zh';
   var LS_LANG = 'cl-lang';
   var LS_READING = 'cl-reading';
+  var LS_THEME = 'cl-theme';
 
   var UI = window.__CL_UI || {};
 
@@ -42,6 +43,90 @@
         store(LS_LANG, a.getAttribute('data-lang'));
       });
     });
+  }
+
+  /* ---------------------------------------------------------------
+   * 1b. 外观调节（跟随系统 / 浅色 / 深色）
+   *     首屏 data-theme 已由 <head> 引导脚本在渲染前设置，此处只负责
+   *     同步控件状态、绑定交互、并跟随系统偏好变化。
+   *     偏好写入 cl-theme；显式选择后不再被系统切换覆盖。
+   * --------------------------------------------------------------- */
+  var THEME_VALUES = ['system', 'light', 'dark'];
+
+  function initTheme() {
+    var root = $('[data-theme-switch]');
+    var toggle = $('[data-theme-toggle]');
+    var menu = $('#theme-menu');
+    if (!root || !toggle || !menu) return;
+
+    var options = $$('[data-theme-value]', menu);
+
+    function systemPrefersDark() {
+      return !!(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    }
+
+    function currentPref() {
+      var p = store(LS_THEME);
+      return THEME_VALUES.indexOf(p) >= 0 ? p : 'system';
+    }
+
+    function apply(pref, persist) {
+      if (THEME_VALUES.indexOf(pref) < 0) pref = 'system';
+      var dark = pref === 'dark' || (pref === 'system' && systemPrefersDark());
+      var theme = dark ? 'dark' : 'light';
+      var html = document.documentElement;
+      html.setAttribute('data-theme', theme);
+      html.style.colorScheme = theme;
+      var meta = $('meta[name="theme-color"]');
+      if (meta) meta.setAttribute('content', dark ? '#141a21' : '#0e2a45');
+
+      if (persist) store(LS_THEME, pref === 'system' ? null : pref);
+      options.forEach(function (btn) {
+        btn.setAttribute('aria-checked', String(btn.getAttribute('data-theme-value') === pref));
+      });
+    }
+
+    function setOpen(open) {
+      toggle.setAttribute('aria-expanded', String(open));
+      if (open) menu.removeAttribute('hidden');
+      else menu.setAttribute('hidden', '');
+    }
+
+    /* 按钮初始带 hidden：禁用 JS 时控件不出现，站点退化为纯浅色 */
+    toggle.removeAttribute('hidden');
+    apply(currentPref(), false);
+
+    toggle.addEventListener('click', function (ev) {
+      ev.stopPropagation();
+      setOpen(toggle.getAttribute('aria-expanded') !== 'true');
+    });
+
+    options.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        apply(btn.getAttribute('data-theme-value'), true);
+        setOpen(false);
+        toggle.focus();
+      });
+    });
+
+    document.addEventListener('click', function (ev) {
+      if (!root.contains(ev.target)) setOpen(false);
+    });
+    document.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') {
+        setOpen(false);
+        toggle.focus();
+      }
+    });
+
+    if (window.matchMedia) {
+      var mq = window.matchMedia('(prefers-color-scheme: dark)');
+      var onChange = function () {
+        if (currentPref() === 'system') apply('system', false);
+      };
+      if (mq.addEventListener) mq.addEventListener('change', onChange);
+      else if (mq.addListener) mq.addListener(onChange);
+    }
   }
 
   /* ---------------------------------------------------------------
@@ -476,6 +561,7 @@
   /* --------------------------------------------------------------- */
   function init() {
     initLangMemory();
+    initTheme();
     initMobileNav();
     initLibrary();
     initBookReadingToggle();

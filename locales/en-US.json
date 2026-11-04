@@ -26,6 +26,13 @@
     "switchTo": "Switch to Chinese",
     "current": "Current language"
   },
+  "theme": {
+    "label": "Appearance",
+    "open": "Appearance settings",
+    "system": "System",
+    "light": "Light",
+    "dark": "Dark"
+  },
   "home": {
     "hero_title": "Build your model of the world through the classics.",
     "hero_sub": "AI · Finance · Investment · History · Economics · Business · Philosophy · Technology",

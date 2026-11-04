@@ -31,6 +31,16 @@
 
   --accent: var(--prussian-3);
 
+  /* 语义色：随主题反转，供「品牌蓝底 + 亮字」类组件复用。
+     新增组件一律用这些变量，不要再写死 #fff / rgba(白). */
+  --on-accent: #fff;
+  --on-accent-soft: rgba(255, 255, 255, 0.7);
+  --header-bg: rgba(247, 245, 240, 0.94);
+  --cover-bg: linear-gradient(160deg, #fffdf8, var(--paper-2));
+  --cover-sheen: rgba(14, 42, 69, 0.08);
+  --hero-glow: rgba(14, 42, 69, 0.07);
+  --gold-hover: #9a7c4c;
+
   --font-serif: "Source Han Serif SC", "Noto Serif SC", "Songti SC", "SimSun",
     "Source Serif 4", "Source Serif Pro", "Iowan Old Style", Georgia, "Times New Roman", serif;
   --font-sans: Inter, "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -61,6 +71,63 @@
 [data-cat="philosophy"] { --accent: #6b5a4a; }
 [data-cat="psychology"] { --accent: #3f5d6b; }
 [data-cat="society"] { --accent: #5a5f6b; }
+
+/* ---------- 1b. 深色外观 ----------
+   触发条件：<html data-theme="dark">（由 head 内联脚本在首屏渲染前设置）。
+   原则：保留「纸感 + 普鲁士蓝」的编辑调性，只做明度反转，不引入高饱和色。
+   品牌蓝在深底上提亮为强调色；所有以品牌蓝为底的组件由 --on-accent 控制前景，
+   否则会出现「亮蓝底 + 白字」的不可读组合。
+   ------------------------------------------------------------------ */
+html[data-theme="dark"] {
+  --paper: #141a21;
+  --paper-2: #1a222b;
+  --paper-3: #242e39;
+  --card: #1b232c;
+
+  --ink: #e8e6df;
+  --ink-2: #c1c7cd;
+  --ink-3: #939da7;
+  --ink-4: #6d7883;
+
+  --prussian: #96bad9;
+  --prussian-2: #b1cee6;
+  --prussian-3: #7fa9cf;
+  --prussian-soft: #1e2c3a;
+
+  --gold: #d5b681;
+  --gold-2: #e2c99f;
+  --gold-soft: #332c20;
+
+  --line: #2f3a45;
+  --line-2: #3f4c59;
+
+  --accent: var(--prussian-3);
+  --on-accent: #111922;
+  --on-accent-soft: rgba(17, 25, 34, 0.72);
+  --header-bg: rgba(20, 26, 33, 0.92);
+  --cover-bg: linear-gradient(160deg, #222c36, var(--paper-2));
+  --cover-sheen: rgba(255, 255, 255, 0.05);
+  --hero-glow: rgba(126, 170, 210, 0.10);
+  --gold-hover: #c3a46f;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.28);
+  --shadow: 0 6px 24px -12px rgba(0, 0, 0, 0.65);
+  --shadow-lg: 0 24px 60px -30px rgba(0, 0, 0, 0.8);
+
+  color-scheme: dark;
+}
+
+html[data-theme="dark"] [data-cat="ai"] { --accent: #7fa9cf; }
+html[data-theme="dark"] [data-cat="technology"] { --accent: #7fb3a9; }
+html[data-theme="dark"] [data-cat="finance"] { --accent: #c9a878; }
+html[data-theme="dark"] [data-cat="investment"] { --accent: #9aacc4; }
+html[data-theme="dark"] [data-cat="us-stocks"] { --accent: #a3b692; }
+html[data-theme="dark"] [data-cat="economics"] { --accent: #c89380; }
+html[data-theme="dark"] [data-cat="history"] { --accent: #b39a80; }
+html[data-theme="dark"] [data-cat="business"] { --accent: #8fabc4; }
+html[data-theme="dark"] [data-cat="philosophy"] { --accent: #bfa78c; }
+html[data-theme="dark"] [data-cat="psychology"] { --accent: #87b0c4; }
+html[data-theme="dark"] [data-cat="society"] { --accent: #a4aab6; }
 
 /* ---------- 2. Reset ---------- */
 *, *::before, *::after { box-sizing: border-box; }
@@ -96,7 +163,7 @@ dl, dd, dt { margin: 0; }
 }
 .skip-link {
   position: absolute; left: -9999px; top: 0; z-index: 100;
-  background: var(--prussian); color: #fff; padding: 0.6rem 1rem;
+  background: var(--prussian); color: var(--on-accent); padding: 0.6rem 1rem;
 }
 .skip-link:focus { left: 0; }
 .main { display: block; min-height: 60vh; }
@@ -123,13 +190,13 @@ dl, dd, dt { margin: 0; }
   font-size: 0.9rem; letter-spacing: 0.02em; cursor: pointer;
   background: transparent; transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
 }
-.btn--primary { background: var(--prussian); color: #fff; }
-.btn--primary:hover { background: var(--prussian-2); color: #fff; }
+.btn--primary { background: var(--prussian); color: var(--on-accent); }
+.btn--primary:hover { background: var(--prussian-2); color: var(--on-accent); }
 .btn--ghost { border-color: var(--line-2); color: var(--ink-2); }
 .btn--ghost:hover { border-color: var(--prussian); color: var(--prussian); }
 .btn--small { padding: 0.45rem 0.9rem; font-size: 0.8rem; }
-.btn.is-on { background: var(--gold); border-color: var(--gold); color: #fff; }
-.btn.is-on:hover { background: #9a7c4c; border-color: #9a7c4c; color: #fff; }
+.btn.is-on { background: var(--gold); border-color: var(--gold); color: var(--on-accent); }
+.btn.is-on:hover { background: var(--gold-hover); border-color: var(--gold-hover); color: var(--on-accent); }
 
 .stars { color: var(--gold); letter-spacing: 0.12em; font-size: 0.85rem; }
 
@@ -174,7 +241,7 @@ dl, dd, dt { margin: 0; }
 /* ---------- 5. Header ---------- */
 .site-header {
   position: sticky; top: 0; z-index: 50;
-  background: rgba(247, 245, 240, 0.94);
+  background: var(--header-bg);
   backdrop-filter: saturate(140%) blur(10px);
   border-bottom: 1px solid var(--line);
 }
@@ -238,11 +305,48 @@ dl, dd, dt { margin: 0; }
 .mobile-nav__link { padding: 0.6rem 0; font-size: 1rem; border-bottom: 1px solid var(--paper-3); }
 .mobile-nav__link.is-active { color: var(--prussian); font-weight: 600; }
 
+/* ---------- 5b. 外观调节（右上角） ---------- */
+.theme-switch { position: relative; flex-shrink: 0; }
+/* 无 JS 时按钮不出现（渐进增强），hidden 必须压过 display:flex */
+.theme-switch__btn[hidden], .theme-switch__menu[hidden] { display: none !important; }
+.theme-switch__btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 34px; height: 34px; padding: 0;
+  border: 1px solid var(--line-2); border-radius: 50%;
+  background: transparent; color: var(--ink-2); cursor: pointer;
+  transition: color 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+}
+.theme-switch__btn:hover, .theme-switch__btn[aria-expanded="true"] {
+  color: var(--prussian); border-color: var(--prussian); background: var(--paper-2);
+}
+.theme-switch__icon { width: 17px; height: 17px; }
+html[data-theme="light"] .theme-switch__icon--moon,
+html[data-theme="dark"] .theme-switch__icon--sun { display: none; }
+
+.theme-switch__menu {
+  position: absolute; right: 0; top: calc(100% + 0.6rem); z-index: 60;
+  min-width: 170px; padding: 0.35rem;
+  background: var(--card); border: 1px solid var(--line-2);
+  box-shadow: var(--shadow-lg);
+}
+.theme-switch__option {
+  display: flex; align-items: center; gap: 0.6rem; width: 100%;
+  padding: 0.5rem 0.6rem; border: 0; background: transparent;
+  color: var(--ink-2); font-size: 0.82rem; text-align: left;
+  cursor: pointer; white-space: nowrap;
+}
+.theme-switch__option:hover { background: var(--paper-2); color: var(--ink); }
+.theme-switch__option[aria-checked="true"] { color: var(--prussian); font-weight: 600; }
+.theme-switch__option svg { width: 15px; height: 15px; flex-shrink: 0; }
+.theme-switch__check { margin-left: auto; opacity: 0; font-size: 0.78rem; }
+.theme-switch__option[aria-checked="true"] .theme-switch__check { opacity: 1; }
+.theme-switch :focus-visible { outline: 2px solid var(--prussian-3); outline-offset: 2px; }
+
 /* ---------- 6. Hero ---------- */
 .hero {
   border-bottom: 1px solid var(--line);
   background:
-    radial-gradient(1200px 380px at 15% -10%, rgba(14, 42, 69, 0.07), transparent 70%),
+    radial-gradient(1200px 380px at 15% -10%, var(--hero-glow), transparent 70%),
     linear-gradient(180deg, var(--paper-2), var(--paper));
 }
 .hero__inner {
@@ -271,7 +375,7 @@ dl, dd, dt { margin: 0; }
   outline: none; font-size: 0.98rem; min-width: 0;
 }
 .hero__search button {
-  border: 0; background: var(--prussian); color: #fff; cursor: pointer;
+  border: 0; background: var(--prussian); color: var(--on-accent); cursor: pointer;
   padding: 0 1.6rem; font-size: 0.9rem; letter-spacing: 0.04em; white-space: nowrap;
 }
 .hero__search button:hover { background: var(--prussian-2); }
@@ -289,7 +393,7 @@ dl, dd, dt { margin: 0; }
 .cover {
   position: relative; display: flex; flex-direction: column; justify-content: space-between;
   aspect-ratio: 2 / 3; width: 100%; overflow: hidden;
-  background: linear-gradient(160deg, #fffdf8, var(--paper-2));
+  background: var(--cover-bg);
   border: 1px solid var(--line);
   border-left: 6px solid var(--accent);
   padding: 1rem 0.95rem 1rem 1rem;
@@ -298,7 +402,7 @@ dl, dd, dt { margin: 0; }
 }
 .cover::after {
   content: ""; position: absolute; inset: 6px 6px 6px 0;
-  border: 1px solid rgba(14, 42, 69, 0.08); pointer-events: none;
+  border: 1px solid var(--cover-sheen); pointer-events: none;
 }
 .cover__top { display: flex; justify-content: space-between; align-items: baseline; gap: 0.5rem; }
 .cover__cat {
@@ -343,6 +447,13 @@ dl, dd, dt { margin: 0; }
   flex: 1 1 auto; min-height: 0;
   object-fit: cover; object-position: center;
 }
+/* 深色下真实书封多为白底，全亮显示会形成眩光块。
+   温和压暗，hover / 键盘聚焦时还原，不影响封面辨识。 */
+html[data-theme="dark"] .cover__img {
+  filter: brightness(0.9); transition: filter 0.2s ease;
+}
+html[data-theme="dark"] .cover:hover .cover__img,
+html[data-theme="dark"] a:focus-visible .cover__img { filter: none; }
 
 /* ---------- 8. Book card & grid ---------- */
 .grid { display: grid; gap: clamp(1.25rem, 2.5vw, 2rem); }
@@ -560,8 +671,8 @@ dl, dd, dt { margin: 0; }
   font-size: 0.68rem; color: var(--ink-4); font-family: var(--font-mono);
   letter-spacing: 0.05em; text-transform: uppercase;
 }
-.chip.is-active { background: var(--prussian); border-color: var(--prussian); color: #fff; }
-.chip.is-active .chip__alt { color: rgba(255, 255, 255, 0.7); }
+.chip.is-active { background: var(--prussian); border-color: var(--prussian); color: var(--on-accent); }
+.chip.is-active .chip__alt { color: var(--on-accent-soft); }
 .chip--tag { cursor: default; }
 .chip--tag:hover { border-color: var(--line); color: var(--ink-2); }
 
@@ -1258,5 +1369,17 @@ dl, dd, dt { margin: 0; }
 }
 @media print {
   .site-header, .site-footer, .hero__search, .filters, .book-hero__actions { display: none; }
-  body { background: #fff; }
+  /* 深色外观下打印必须还原浅色 tokens，否则白底浅字完全不可读 */
+  html[data-theme="dark"] {
+    --paper: #fff; --paper-2: #f7f5f0; --paper-3: #e8e4da; --card: #fff;
+    --ink: #1a1e23; --ink-2: #414852; --ink-3: #6f7681; --ink-4: #9aa0a8;
+    --prussian: #0e2a45; --prussian-2: #16405f; --prussian-3: #2b5b80;
+    --prussian-soft: #e9eff5; --gold: #a98a58; --gold-soft: #f2e9d8;
+    --line: #ddd7ca; --line-2: #c9c2b2;
+    --on-accent: #fff; --on-accent-soft: rgba(255, 255, 255, 0.7);
+    --header-bg: #fff; --cover-bg: #fff; --cover-sheen: transparent;
+    --hero-glow: transparent; --gold-hover: #9a7c4c;
+    color-scheme: light;
+  }
+  body { background: #fff; color: #000; }
 }

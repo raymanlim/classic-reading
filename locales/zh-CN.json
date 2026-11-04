@@ -26,6 +26,13 @@
     "switchTo": "切换到英文",
     "current": "当前语言"
   },
+  "theme": {
+    "label": "外观",
+    "open": "外观设置",
+    "system": "跟随系统",
+    "light": "浅色",
+    "dark": "深色"
+  },
   "home": {
     "hero_title": "用经典书籍，建立自己的世界模型。",
     "hero_sub": "AI · 金融 · 投资 · 历史 · 经济 · 商业 · 哲学 · 科技",

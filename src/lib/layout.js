@@ -12,6 +12,12 @@ import { coverImage } from './covers.js';
 
 const e = escapeHtml;
 
+/* 首屏主题引导：必须在样式渲染前把 data-theme 落到 <html>，
+   否则深色偏好用户会看到一帧白屏（FOUC）。
+   偏好键与取值须与 public/app.js 的 initTheme 保持一致：
+   cl-theme = system | light | dark（缺失或非法值一律视为 system）。 */
+const THEME_BOOTSTRAP = `(function(){try{var p=localStorage.getItem('cl-theme');if(p!=='light'&&p!=='dark')p='system';var d=p==='dark'||(p==='system'&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches);var t=d?'dark':'light';var h=document.documentElement;h.setAttribute('data-theme',t);h.style.colorScheme=t;var m=document.querySelector('meta[name="theme-color"]');if(m)m.setAttribute('content',d?'#141a21':'#0e2a45');}catch(e){}})();`;
+
 /* ------------------------------------------------------------------
  * URL 工具
  * path 约定：语言无关的相对路径，目录型页面以 / 结尾
@@ -137,6 +143,43 @@ export function header(lang, currentPath = '', options = {}) {
              data-lang="en"${lang === 'en' ? ' aria-current="true"' : ''}>${e(t(lang, 'lang.en'))}</a>
         </div>
 
+        <div class="theme-switch" data-theme-switch>
+          <button class="theme-switch__btn" type="button" data-theme-toggle
+                  aria-haspopup="menu" aria-expanded="false" aria-controls="theme-menu"
+                  aria-label="${e(t(lang, 'theme.open'))}" title="${e(t(lang, 'theme.label'))}" hidden>
+            <svg class="theme-switch__icon theme-switch__icon--sun" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"/>
+              <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+            </svg>
+            <svg class="theme-switch__icon theme-switch__icon--moon" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z"/>
+            </svg>
+          </button>
+          <div class="theme-switch__menu" id="theme-menu" role="menu"
+               aria-label="${e(t(lang, 'theme.label'))}" hidden>
+            <button class="theme-switch__option" type="button" role="menuitemradio" aria-checked="false" data-theme-value="system">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="13" rx="1.5"/><path d="M8 21h8M12 17v4"/>
+              </svg>
+              <span>${e(t(lang, 'theme.system'))}</span><span class="theme-switch__check" aria-hidden="true">✓</span>
+            </button>
+            <button class="theme-switch__option" type="button" role="menuitemradio" aria-checked="false" data-theme-value="light">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+              </svg>
+              <span>${e(t(lang, 'theme.light'))}</span><span class="theme-switch__check" aria-hidden="true">✓</span>
+            </button>
+            <button class="theme-switch__option" type="button" role="menuitemradio" aria-checked="false" data-theme-value="dark">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z"/>
+              </svg>
+              <span>${e(t(lang, 'theme.dark'))}</span><span class="theme-switch__check" aria-hidden="true">✓</span>
+            </button>
+          </div>
+        </div>
+
         <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav"
                 data-menu-toggle aria-label="${e(t(lang, 'nav.menu'))}">
           <span class="menu-toggle__bar" aria-hidden="true"></span>
@@ -230,7 +273,7 @@ export function page({ lang, meta, body, currentPath = '', bodyClass = '', canon
   return `<!DOCTYPE html>
 <html lang="${htmlLang}">
 <head>${head({ lang, ...meta, path: canonicalPath || currentPath })}
-  <script>window.__CL_UI=${JSON.stringify(ui)};window.__CL_BUILD="${BUILD_ID}";</script>
+  <script>window.__CL_UI=${JSON.stringify(ui)};window.__CL_BUILD="${BUILD_ID}";${THEME_BOOTSTRAP}</script>
 </head>
 <body class="${bodyClass}" data-lang="${lang}">
 ${header(lang, currentPath)}
