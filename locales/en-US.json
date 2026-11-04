@@ -203,6 +203,7 @@
     "lang_note_en": "This article is available in English only",
     "other_lang": "Other language version",
     "video_label": "Video Essay",
+    "video_episode": "Video Essay · Ep. {n}",
     "video_text": "This essay is also available as a video essay in Chinese, about six minutes long.",
     "video_cta": "Watch on YouTube"
   },
