@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-04",
+  "books": [
+    {
+      "slug": "brave-new-world",
+      "category": "literature",
+      "title_zh": "美丽新世界",
+      "title_en": "Brave New World",
+      "author": "aldous-huxley",
+      "author_zh": "奥尔德斯·赫胥黎",
+      "author_en": "Aldous Huxley",
+      "nationality_zh": "英国",
+      "nationality_en": "British",
+      "year": 1932,
+      "original_language": "en",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "当幸福可以被设计，自由就成了需要被消灭的麻烦",
+      "theme_en": "When happiness can be engineered, freedom becomes a nuisance to be eliminated",
+      "tags": ["fiction", "novel", "dystopia", "novel-of-ideas", "classics", "power", "human-nature"],
+      "topics": ["literature", "power-and-politics", "existentialism"],
+      "prose": {
+        "description_zh": "《美丽新世界》是赫胥黎 1932 年出版的反乌托邦小说，故事设定在「世界国」的公元 632 年（以福特纪年）。这个社会用生物工程把人预先分成阿尔法到厄普西隆五个等级，用「睡眠教育」在婴儿期反复灌输各等级应有的偏好，用名为「索麻」的药物抚平一切不安，并用「人人属于人人」的性伦理取代家庭与爱情。书中的伯纳德与列宁娜去「野蛮保留区」旅行，带回一个在旧世界价值中长大的青年约翰。约翰面对总统穆斯塔法·蒙德的解释——为了稳定，必须取消艺术、宗教、深爱与痛苦——拒绝接受，却找不到第三条路。小说的力量不在于预言技术，而在于它设想了一个没有人受苦、因而也没有人反抗的社会。",
+        "description_en": "Brave New World is Huxley's 1932 dystopia, set in the World State in the year 632 AF (After Ford). Society is stratified from conception into five castes, Alpha through Epsilon; infants are conditioned by hypnopaedia to prefer their station; a drug called soma smooths away every unease; and a sexual ethic of everyone belonging to everyone replaces family and romantic love. Bernard Marx and Lenina Crowne travel to a Savage Reservation and bring back John, a young man raised on the values of the old world. Confronted by the Controller Mustapha Mond's case — that stability requires the abolition of art, religion, deep love and pain — John refuses, yet finds no third path. The novel's force lies less in predicting technology than in imagining a society in which no one suffers, and therefore no one rebels.",
+        "why_read_zh": "它是最令人不安的一部反乌托邦，因为书里没有人被折磨：所有人都被安排得舒适、健康、满足。真正的问题因此变得尖锐——如果剥夺你的自由能让所有人更快乐，你凭什么反对？赫胥黎把「舒适如何成为控制手段」推到极致：不需要秘密警察，只需要让人从小就爱上自己的位置。这正是今天算法推荐、注意力经济与「为你好」式治理的镜像。读它不是为了看一个坏未来，而是为了校准你此刻的默认假设：你以为你在自由选择，还是在选择被预先设计好的选项？",
+        "why_read_en": "It is the most unsettling of the dystopias because no one in it is tortured: everyone is kept comfortable, healthy and content. That sharpens the real question — if stripping your freedom made everyone happier, on what grounds would you object? Huxley pushes the idea that comfort itself can be a means of control to its limit: no secret police are needed, only people conditioned from infancy to love their place. This is the mirror of today's recommendation algorithms, attention economy and paternalistic governance. Read it not for a bad future but to calibrate your present default assumption: are you choosing freely, or choosing among options designed in advance for you?",
+        "core_ideas_zh": [
+          "稳定是最高价值，代价是取消一切可能引发不安的东西：艺术、宗教、深爱、独处与不满，都被重新定义为危险。",
+          "控制不必靠暴力，靠「让人爱上自己的处境」更彻底：睡眠教育与等级预设让被统治者成为自己服从的同谋。",
+          "快感是统治工具而非解放：索麻与无差别的性消解了痛苦，也消解了产生意义所需的张力。",
+          "野蛮人约翰的困境是全书的核心：他既无法接受被设计的幸福，也无法回到已经失去的旧世界，自由在此表现为一种无处安放的痛苦。"
+        ],
+        "core_ideas_en": [
+          "Stability is the highest value, purchased by abolishing everything that might disturb it: art, religion, deep love, solitude and discontent are all redefined as dangers.",
+          "Control need not rely on violence; making people love their condition is more thorough, since hypnopaedia and caste design turn the ruled into accomplices of their own obedience.",
+          "Pleasure is an instrument of rule, not liberation: soma and undifferentiated sex dissolve pain, and with it the tension that meaning requires.",
+          "The Savage's dilemma is the book's core: he can accept neither engineered happiness nor the old world already lost, so freedom appears as a pain that has nowhere to go."
+        ],
+        "key_questions_zh": [
+          "一个没有痛苦、却也没有自由的社会，值得向往吗？我们凭什么判断「幸福」是真的，而不是被条件化出来的满足？",
+          "当不适、艺术与超越性都被工程化地移除之后，人还剩下什么？「做人」是否必然包含承受痛苦的能力？",
+          "如果控制以「为你好」的面目出现，我们如何在不诉诸暴力反抗的前提下，识别并守住自己的判断力？"
+        ],
+        "key_questions_en": [
+          "Is a society without pain but also without freedom worth wanting? On what grounds can we tell real happiness from conditioned contentment?",
+          "When discomfort, art and transcendence are engineered away, what is left of a person? Does being human necessarily include the capacity to bear pain?",
+          "If control arrives in the guise of doing you good, how do we recognise and keep our own judgement without resorting to violent refusal?"
+        ],
+        "who_should_read_zh": "适合关心政治哲学、技术伦理与反乌托邦传统的读者；也适合正在思考算法推荐、注意力经济与「温和的家长式治理」的人。想找纯情节冒险的读者会失望——本书更像一场观念实验。对「自由至上」深信不疑的人尤其该读：它逼你回答，自由到底值多少痛苦。",
+        "who_should_read_en": "For readers of political philosophy, technology ethics and the dystopian tradition; and for anyone thinking about recommendation algorithms, the attention economy and soft paternalism. Those wanting pure plot-driven adventure will be disappointed — the book is closer to an experiment in ideas. Readers certain that liberty trumps all should read it most: it forces the question of how much pain freedom is worth.",
+        "reading_note_zh": "篇幅不长，可一次读完。建议与奥威尔的《一九八四》对读：那本书里的控制靠恐惧与惩罚，这本靠快感与舒适，两种统治逻辑正好互补。读时留意赫胥黎刻意不设反派——总统蒙德讲道理、有魅力，这让批判变得困难，也正是本书的高明处。若想看他本人二十年后的自我检讨，可再读《重访美丽新世界》（1958），那里他承认人口过剩与宣传技术让预言更接近现实。",
+        "reading_note_en": "It is short enough to read in one sitting. Read it against Orwell's Nineteen Eighty-Four: control there runs on fear and punishment, here on pleasure and comfort, and the two logics complement each other. Notice that Huxley deliberately gives the book no villain — Mond is reasonable and charming, which makes criticism hard and is precisely the book's sophistication. For the author's own reassessment two decades on, follow with Brave New World Revisited (1958), where he concedes that overpopulation and propaganda techniques have brought the prophecy closer to fact."
+      }
+    },
+    {
+      "slug": "summerhill",
+      "category": "education",
+      "title_zh": "夏山学校",
+      "title_en": "Summerhill: A Radical Approach to Child Rearing",
+      "author": "a-s-neill",
+      "author_zh": "A.S. 尼尔",
+      "author_en": "A. S. Neill",
+      "nationality_zh": "英国",
+      "nationality_en": "British",
+      "year": 1960,
+      "original_language": "en",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "如果撤掉强制与恐惧，孩子会自己长成什么样子",
+      "theme_en": "What a child becomes when coercion and fear are removed",
+      "tags": ["education", "pedagogy", "schooling", "learning", "critical-thinking", "human-nature", "classics"],
+      "topics": ["education", "modern-society"],
+      "prose": {
+        "description_zh": "《夏山学校》是英国教育家 A.S. 尼尔 1960 年出版的著作，记述他 1921 年创办、后迁至英格兰萨福克郡的夏山学校。这所学校的做法在当时近乎离经叛道：孩子可以上课，也可以整年不上课；校规由全校大会民主制定，师生一人一票；不体罚、不训斥、不排名。尼尔的核心信念是，儿童天性并不坏，所谓的问题行为多半是成人强制与恐惧的产物；因此教育的首要任务不是灌输知识，而是先让孩子在情感上健康起来。书中用大量个案描述孩子如何从畏缩、对抗或麻木中恢复，也坦率记录失败与争议。它不是一本方法论手册，而是一份关于自由与权威的教育实验报告。",
+        "description_en": "Summerhill is the British educator A. S. Neill's 1960 account of the school he founded in 1921 and later moved to Leiston, Suffolk. Its practice was close to heresy at the time: children could attend lessons or skip them for a whole year; rules were made democratically at a whole-school meeting where staff and pupils each had one vote; there was no corporal punishment, no scolding, no ranking. Neill's core belief was that children are not naturally bad, and that so-called problem behaviour is mostly the product of adult coercion and fear; the first task of education, therefore, is not to fill heads with knowledge but to help a child become emotionally healthy. The book uses many individual cases to show children recovering from timidity, defiance or numbness, and it records failures and controversies candidly. It is less a methods manual than a report on an experiment in freedom and authority.",
+        "why_read_zh": "它把「如果不用强制，教育还能不能成立」这个问题推到了极端，逼你检验自己对权威、纪律与「为孩子好」的默认信念。尼尔最反直觉的主张是：恐惧才是坏行为的根源，而不是纵容。对今天尤其相关——当学习越来越依赖自主驱动、AI 又能提供近乎无限的自学资源时，「学校究竟在教什么、权威凭什么存在」重新成为真问题。读它不必全盘认同，恰恰要带着反驳去读：一本被 600 多所大学列为教育学科必读书的实验报告，值得你认真对待它最强的那一面，而不是用「太理想化」一句带过。",
+        "why_read_en": "It pushes the question of whether education can survive without coercion to an extreme, forcing you to examine your default beliefs about authority, discipline and doing what is good for the child. Neill's most counter-intuitive claim is that fear, not permissiveness, is the root of bad behaviour. This is especially relevant now, when learning depends more on self-direction and AI can supply almost limitless material for self-study: what school is actually for, and on what authority it rests, becomes a real question again. Read it without needing to agree — read it to argue. A report on an experiment listed as required reading in more than six hundred university education courses deserves its strongest case to be taken seriously, not waved away as too idealistic.",
+        "core_ideas_zh": [
+          "儿童天性本不坏，问题行为多半是成人强制与恐惧的产物；先修复情感，再谈知识，顺序不能颠倒。",
+          "自由不等于放纵：夏山的自由是在民主共同体内部的自由，校规由师生一人一票共同制定，自由的边界由共同体自己划定。",
+          "自治比外部纪律更能教出责任感：让孩子参与制定并执行规则，比让他被动服从更能内化秩序。",
+          "教育的目的是让孩子活出自己的人生，而不是活成成人期待的样子；这句话既是本书的宣言，也是它最受质疑之处。"
+        ],
+        "core_ideas_en": [
+          "Children are not naturally bad; problem behaviour is mostly the product of adult coercion and fear. Repair the emotional life first, then speak of knowledge — the order cannot be reversed.",
+          "Freedom is not license: freedom at Summerhill is freedom inside a democratic community, where rules are made by staff and pupils voting as equals, so the boundary of freedom is drawn by the community itself.",
+          "Self-government teaches responsibility better than external discipline: having children make and enforce rules internalises order more deeply than making them obey.",
+          "The aim of education is for a child to live his own life, not the life adults expect — a declaration that is also the book's most contested claim."
+        ],
+        "key_questions_zh": [
+          "孩子能在没有强制的情况下学会那些他们本来不想学、却必须掌握的东西吗？自由的代价会不会由最缺乏自律的孩子承担？",
+          "一所学校除了课程，还在用它的权威结构教什么？当孩子被要求无条件服从时，他学到的究竟是知识，还是服从本身？",
+          "把「让孩子活出自己的人生」推到极致，会不会变成对儿童未来选择的不负责任？自由与保护之间的界线在哪里？"
+        ],
+        "key_questions_en": [
+          "Can children learn, without coercion, the things they would rather not learn but must? Will the cost of freedom fall on the children least able to discipline themselves?",
+          "Beyond its curriculum, what does a school teach through its structure of authority? When a child is made to obey unconditionally, does he learn knowledge, or obedience itself?",
+          "Pushed to its limit, does letting a child live his own life become an abdication of responsibility for his future? Where is the line between freedom and protection?"
+        ],
+        "who_should_read_zh": "适合教育工作者、家长，以及任何认真思考权威与自由关系的人。对进步教育持怀疑态度的人尤其该读——这是该立场最完整、最诚实的表述之一，比二手转述有力得多。想要一套可直接照搬的教学法的读者会失望：尼尔给的是原则与个案，不是操作手册；他也从不掩饰实验的代价。",
+        "who_should_read_en": "For educators, parents and anyone seriously thinking about the relation between authority and freedom. Sceptics of progressive education should read it most — this is one of the fullest and most honest statements of that position, far stronger than second-hand summaries. Readers wanting a ready-to-copy teaching method will be disappointed: Neill offers principles and cases, not a manual, and he never hides the experiment's costs.",
+        "reading_note_zh": "全书由若干主题章节与个案组成，可按兴趣跳读，但建议先读开篇对夏山日常的描述，再读论「自由」与「自治」的章节，最后读他谈性教育与问题儿童的段落——争议最集中的地方也在这里。读时保持两重警觉：其一，尼尔的证据多为个案与观察，缺少对照与长期追踪，结论不宜当作定论；其二，夏山是小规模、自选生源的实验，向大规模公立体系移植时会遇到完全不同的约束。可与杜威、伊利奇对读，看「自由教育」这条线内部的差异。",
+        "reading_note_en": "The book is organised into thematic chapters and cases, so it can be read selectively, but a workable order is: first the opening description of daily life at Summerhill, then the chapters on freedom and self-government, and finally his passages on sex education and troubled children, where the controversy concentrates. Keep two cautions while reading: first, Neill's evidence is mostly anecdote and observation, without controls or long-term tracking, so his conclusions should not be taken as settled; second, Summerhill was a small experiment with self-selecting families, and transplanting it to a large public system meets entirely different constraints. Read it alongside Dewey and Illich to see the differences within the tradition of free education."
+      }
+    }
+  ]
+}

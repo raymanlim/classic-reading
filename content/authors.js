@@ -1921,6 +1921,32 @@ export const authors = {
     ideas_zh: ['「沉默的大多数」：沉默本身是一种话语位置', '思维的乐趣：把独立思考当作生活必需品', '以常识与幽默对抗装腔作势的权威'],
     ideas_en: ['The "silent majority": silence itself as a discursive position', 'The pleasure of thinking: independent thought as a necessity of life', 'Common sense and humour against pompous authority']
   },
+  'a-s-neill': {
+    name_en: 'A. S. Neill',
+    name_zh: 'A.S. 尼尔',
+    life: '1883–1973',
+    nationality_zh: '英国',
+    nationality_en: 'British',
+    role_zh: '教育家、夏山学校创办者',
+    role_en: 'Educator and founder of Summerhill School',
+    bio_zh: '苏格兰教育家，1883 年生于苏格兰福法尔。做过教师与记者，后受弗洛伊德与精神分析影响，转向以情感健康为核心的教育观。1921 年在德国德累斯顿附近创办夏山学校，1927 年迁至英格兰萨福克郡莱斯顿，坚持学生自治、自由选课、不体罚。1960 年出版《夏山学校》，使其教育实验广为人知，成为进步教育与「自由学校」运动的重要文本。',
+    bio_en: 'Scottish educator, born in Forfar, Scotland, in 1883. He worked as a teacher and journalist before turning, under the influence of Freud and psychoanalysis, to an educational view centred on emotional health. In 1921 he founded Summerhill School near Dresden, Germany, and moved it in 1927 to Leiston, Suffolk, where he insisted on pupil self-government, free attendance at lessons and no corporal punishment. Summerhill (1960) made the experiment widely known and became a key text of progressive and free-school education.',
+    ideas_zh: ['儿童天性本不坏，问题行为源于成人强制与恐惧', '自由不等于放纵：在民主共同体内部的自由', '学生自治优于外部纪律', '教育应让孩子活出自己的人生'],
+    ideas_en: ['Children are not naturally bad; problem behaviour stems from adult coercion and fear', 'Freedom is not license: freedom within a democratic community', 'Pupil self-government over external discipline', 'Education should let a child live his own life']
+  },
+  'aldous-huxley': {
+    name_en: 'Aldous Huxley',
+    name_zh: '奥尔德斯·赫胥黎',
+    life: '1894–1963',
+    nationality_zh: '英国',
+    nationality_en: 'British',
+    role_zh: '小说家、散文家',
+    role_en: 'Novelist and essayist',
+    bio_zh: '英国小说家与散文家，1894 年生于萨里郡，出身学术世家（祖父为生物学家托马斯·赫胥黎）。早年因眼疾放弃医学，转攻文学，1920 年代以讽刺小说成名。1932 年出版《美丽新世界》，成为反乌托邦文学的经典；1958 年又以《重访美丽新世界》反思其预言。他后期转向神秘主义与意识研究，著有《知觉之门》（1954）等。1940 年代移居美国加州，1963 年去世。',
+    bio_en: 'British novelist and essayist, born in Surrey in 1894 into an intellectual family (his grandfather was the biologist Thomas Henry Huxley). Eye trouble ended his plans for medicine and he turned to literature, making his name in the 1920s with satirical novels. Brave New World (1932) became a classic of dystopian fiction, and in Brave New World Revisited (1958) he reassessed its prophecy. He later turned to mysticism and the study of consciousness, writing The Doors of Perception (1954), among others. He moved to California in the 1940s and died in 1963.',
+    ideas_zh: ['稳定与自由不可兼得：被设计的幸福以取消自由为代价', '舒适与快感可以成为比暴力更彻底的控制手段', '对技术进步保持警惕的自由主义批判'],
+    ideas_en: ['Stability and freedom cannot both be maximised: engineered happiness costs freedom', 'Comfort and pleasure can be more thorough instruments of control than violence', 'A liberal critique wary of technological progress']
+  },
 };
 
 export default authors;
