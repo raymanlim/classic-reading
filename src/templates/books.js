@@ -305,6 +305,7 @@ export function renderBook(lang, data, book) {
           <aside class="book-body__aside">
             ${book.video_url ? `<section class="book-aside-block book-aside-block--video">
               <h2 class="book-aside-block__title">${e(t(lang, 'book.video_title'))}</h2>
+              ${book.video_episode ? `<p class="book-aside-video__episode">${e(book.video_episode)}</p>` : ''}
               <p class="book-aside-video__text">${e(t(lang, 'book.video_text'))}</p>
               <a class="book-aside-video__link" href="${e(book.video_url)}" target="_blank" rel="noopener noreferrer">
                 <span class="book-aside-video__play" aria-hidden="true"></span>${e(t(lang, 'book.video_cta'))}<span aria-hidden="true">→</span>

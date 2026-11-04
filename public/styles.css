@@ -868,6 +868,10 @@ dl, dd, dt { margin: 0; }
   border: 1px solid var(--line); border-left: 3px solid var(--gold);
   background: var(--paper-2); padding: 1rem 1.1rem;
 }
+.book-aside-video__episode {
+  font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.1em;
+  color: var(--gold); margin: -0.45rem 0 0.6rem;
+}
 .book-aside-video__text { font-size: 0.85rem; color: var(--ink-2); line-height: 1.6; margin-bottom: 0.85rem; }
 .book-aside-video__link {
   display: inline-flex; align-items: center; gap: 0.45rem;

@@ -249,17 +249,19 @@ export async function loadData() {
   }
 
   /* ---------- 5b. 书籍视频解读（「经典书籍推荐」系列） ---------- */
-  for (const [slug, videoUrl] of Object.entries(bookVideos)) {
+  for (const [slug, video] of Object.entries(bookVideos)) {
     if (!bookBySlug[slug]) {
       warnings.push(`书籍视频映射指向不存在的书：${slug}`);
       continue;
     }
-    if (!/^https:\/\/youtu\.be\/[A-Za-z0-9_-]{6,}$/.test(String(videoUrl))) {
-      warnings.push(`书籍视频链接格式可疑：${slug} → ${videoUrl}`);
+    if (!/^https:\/\/youtu\.be\/[A-Za-z0-9_-]{6,}$/.test(String(video?.url))) {
+      warnings.push(`书籍视频链接格式可疑：${slug} → ${video?.url}`);
     }
   }
   for (const book of books) {
-    book.video_url = bookVideos[book.slug] || '';
+    const video = bookVideos[book.slug];
+    book.video_url = video?.url || '';
+    book.video_episode = video?.episode || '';
   }
 
   /* ---------- 6. 派生索引 ---------- */
