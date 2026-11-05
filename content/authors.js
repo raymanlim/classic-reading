@@ -1947,6 +1947,32 @@ export const authors = {
     ideas_zh: ['稳定与自由不可兼得：被设计的幸福以取消自由为代价', '舒适与快感可以成为比暴力更彻底的控制手段', '对技术进步保持警惕的自由主义批判'],
     ideas_en: ['Stability and freedom cannot both be maximised: engineered happiness costs freedom', 'Comfort and pleasure can be more thorough instruments of control than violence', 'A liberal critique wary of technological progress']
   },
+  'richard-rhodes': {
+    name_en: 'Richard Rhodes',
+    name_zh: '理查德·罗兹',
+    life: '1937–',
+    nationality_zh: '美国',
+    nationality_en: 'American',
+    role_zh: '作家、历史学家',
+    role_en: 'Writer and historian',
+    bio_zh: '美国作家与历史学家，1937 年生于堪萨斯州堪萨斯城，曾任斯坦福大学国际安全与合作中心客座教授。1986 年出版《原子弹秘史》（The Making of the Atomic Bomb），获 1988 年普利策非虚构奖、1987 年美国国家图书奖与国家书评人协会奖，被视为核武器史与二十世纪物理学史的权威叙述。此后陆续写成《黑太阳：氢弹秘史》《愚蠢的兵工厂》《核弹之暮光》，合为核武器史四部曲。他并非科学家出身，其叙述以口述史与人物材料见长，也因弱于制度与工业组织分析而受到史学界批评。',
+    bio_en: 'American writer and historian, born in Kansas City, Kansas, in 1937, and formerly a visiting professor at Stanford University Center for International Security and Cooperation. The Making of the Atomic Bomb (1986) won the 1988 Pulitzer Prize for General Nonfiction, the 1987 National Book Award for Nonfiction and the National Book Critics Circle Award, and is regarded as an authoritative account of nuclear weapons history and twentieth-century physics. He went on to write Dark Sun, Arsenals of Folly and The Twilight of the Bombs, forming a four-volume history of nuclear weapons. Not trained as a scientist, he works chiefly from oral histories and biographical material, and historians have criticised his relative neglect of institutional and industrial analysis.',
+    ideas_zh: ['科学发现与工程实现是两个不同的问题，技术可行不等于历史必然', '大科学把知识共同体改造成国家机器内部的角色', '双重用途技术的责任归属是结构性问题，而非个人追悔'],
+    ideas_en: ['Discovery and implementation are different problems; technical feasibility is not historical inevitability', 'Big science turned a community of knowledge into an actor inside the state', 'Accountability for dual-use technology is structural, not a matter of personal regret']
+  },
+  'frederick-p-brooks': {
+    name_en: 'Frederick P. Brooks Jr.',
+    name_zh: '弗雷德里克·布鲁克斯',
+    life: '1931–2022',
+    nationality_zh: '美国',
+    nationality_en: 'American',
+    role_zh: '计算机科学家、软件工程奠基者',
+    role_en: 'Computer scientist and founding figure of software engineering',
+    bio_zh: '美国计算机科学家，1931 年生，2022 年去世。在 IBM 主持 System/360 系列与 OS/360 操作系统开发，被称为「IBM 360 系统之父」；后任北卡罗来纳大学教堂山分校计算机科学系创始系主任。1999 年获图灵奖。1975 年出版《人月神话》，提出布鲁克斯定律、概念完整性、第二系统效应，并在 1995 年增补的《没有银弹》中区分本质复杂性与偶然复杂性。该书被戏称为「软件工程的圣经」，是软件项目管理领域被引最多、也最常被反驳的经典。',
+    bio_en: 'American computer scientist, born in 1931 and died in 2022. He led the development of IBM System/360 and its OS/360 operating system and is known as the father of the IBM 360; he later founded the computer science department at the University of North Carolina at Chapel Hill. He received the ACM Turing Award in 1999. The Mythical Man-Month (1975) introduced Brooks law, conceptual integrity and the second-system effect, and its 1995 addition No Silver Bullet distinguished essential from accidental complexity. Jokingly called the bible of software engineering, it remains among the most cited and most contested classics of software project management.',
+    ideas_zh: ['人月是神话：人数与时间不可线性互换', '向延期项目加人只会使它更晚（布鲁克斯定律）', '概念完整性优先于功能数量', '本质复杂性不可消除，不存在银弹'],
+    ideas_en: ['The man-month is a myth: people and time are not linearly interchangeable', 'Adding manpower to a late project makes it later (Brooks law)', 'Conceptual integrity outranks feature count', 'Essential complexity cannot be removed; there is no silver bullet']
+  },
 };
 
 export default authors;

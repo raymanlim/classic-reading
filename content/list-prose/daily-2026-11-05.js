@@ -1,0 +1,69 @@
+/** 每日推荐阅读指引 · 2026-11-05 */
+export const batch = {
+  'the-making-of-the-atomic-bomb': {
+    description_zh: '《原子弹秘史》是美国作家理查德·罗兹 1986 年出版的核武器史，获 1988 年普利策非虚构奖、1987 年美国国家图书奖与国家书评人协会奖。全书分三篇：第一篇「深刻而必然的真理」从卢瑟福、玻尔、费米一路写到 1938 年哈恩与斯特拉斯曼发现核裂变，梳理四十年间原子物理如何一步步把原子核变成可操作的对象；第二篇「一种特殊的主权」转向曼哈顿计划，写洛斯阿拉莫斯如何在三年内把实验室里的物理结论变成可投掷的武器；第三篇「生与死」以广岛、长崎的第一手证词收束。它不是武器构造手册，而是一部关于知识、工业组织与国家权力如何相互改写的编年史。中文版《原子弹秘史》由金城出版社 2018 年出版，江向东、廖湘彧译。',
+    description_en: 'Published in 1986, Richard Rhodes\'s history of the atomic bomb won the 1988 Pulitzer Prize for General Nonfiction, the 1987 National Book Award for Nonfiction and the National Book Critics Circle Award. It moves in three parts: \'A Profound and Necessary Truth\', tracing four decades of nuclear physics from Rutherford and Bohr to Hahn and Strassmann\'s discovery of fission in 1938; \'A Special Sovereignty\', on how Los Alamos turned a laboratory result into a deliverable weapon in three years; and \'Life and Death\', closing with first-hand testimony from Hiroshima and Nagasaki. The book is not a manual of weapon design but a chronicle of how knowledge, industrial organisation and state power rewrote one another. Its Chinese edition, Yu Zi Dan Mi Shi, appeared in 2018 from Jincheng Press.',
+    why_read_zh: '它把「谁发明了原子弹」这个问法拆掉了。罗兹的反直觉判断是：到 1939 年，裂变的发现几乎已是一条「深刻而必然的真理」——物理学自身的内在逻辑迟早会走到那里；真正偶然、也真正决定后果的，是把这条结论变成武器的那串决策：流亡物理学家的恐惧、英国 MAUD 报告、罗斯福的一纸行政命令、以及把整座工业体系压到单一时间点上的动员。于是「技术可行」与「历史必然」被清晰地分开，这个区分可以迁移到今天任何一项双重用途技术。值得留意的是本书最有力的反对意见：史学家巴顿·伯恩斯坦与巴顿·哈克批评它重人物与戏剧、轻制度与工业组织的塑造作用。这个缺口恰好由本期另一本《人月神话》补上。',
+    why_read_en: 'It dismantles the question \'who invented the atomic bomb\'. Rhodes\'s counter-intuitive claim is that by 1939 fission was almost a \'profound and necessary truth\' — the internal logic of physics would have arrived there anyway. What was contingent, and what actually decided the outcome, was the chain of decisions that turned a result into a weapon: the fears of émigré physicists, the British MAUD report, a presidential order, and the mobilisation that compressed an entire industrial system into a single deadline. Technical feasibility and historical inevitability come apart, and that distinction travels to any dual-use technology today. The strongest objection is worth keeping in view: historians Barton Bernstein and Barton Hacker argue that the book favours character and drama over the institutional and industrial shaping of events. That gap is precisely what the second book in this pairing, The Mythical Man-Month, supplies.',
+    core_ideas_zh: [
+        '科学发现与工程实现是两个不同的问题：前者遵循知识自身的内在逻辑，后者受制于资源、组织与期限；把两者混为一谈，就会把历史结果误读为技术宿命。',
+        '「深刻而必然的真理」这一说法本身是限定的：必然的是裂变被发现的物理可能性，不必然的是它被造成武器、被用于城市——后者由一串可被撤回的行政判断构成。',
+        '大科学的诞生改变了知识的主体：从玻尔、费米的国际性无政府学术共同体，转到一个由保密、分级与国家级预算定义的研究体制，科学家由此第一次成为国家机器内部的角色。',
+        '物理学家在广岛之后面对的伦理困境，不是「该不该做」的事后追悔，而是「当知识的后果超出发现者的控制范围时，责任归属于谁」这一没有现成答案的结构性问题。'
+      ],
+    core_ideas_en: [
+        'Discovery and implementation are different problems: the first follows the internal logic of knowledge, the second is constrained by resources, organisation and deadlines. Conflating them turns a historical outcome into technological destiny.',
+        'The phrase \'a profound and necessary truth\' is deliberately narrow: what was necessary was the physical possibility of fission, not its becoming a weapon used on cities — the latter was a chain of revocable administrative decisions.',
+        'Big science changed who does the knowing: an international, almost anarchic community of Bohr and Fermi gave way to a research system defined by secrecy, classification and national budgets, making scientists actors inside the state apparatus for the first time.',
+        'The ethical problem after Hiroshima is not retrospective regret over having built it, but a structural question with no ready answer: when the consequences of knowledge escape the discoverer\'s control, where does responsibility reside?'
+      ],
+    key_questions_zh: [
+        '当一项发现具备双重用途时，决定它最终走向的是知识本身，还是把知识变成现实的那套组织与预算？我们该在哪一个环节追问责任？',
+        '「科学是中立的，被滥用是政治的事」这条常见辩护，在研究者本人参与目标选择、进度压缩与投掷决策之后，还站得住吗？',
+        '把大工程的成败归因于少数关键人物的天才或失误，会让我们漏掉什么？制度与组织维度究竟解释了多少？'
+      ],
+    key_questions_en: [
+        'When a discovery is dual-use, is its eventual direction set by the knowledge itself or by the organisation and budget that make it real? At which link in that chain should accountability be demanded?',
+        'After researchers themselves joined target selection, schedule compression and the decision to drop the bomb, does the familiar defence — science is neutral, misuse is politics — still hold?',
+        'What do we miss by attributing the success or failure of vast projects to the genius or error of a few individuals? How much of the outcome do institutions and organisation actually explain?'
+      ],
+    who_should_read_zh: '适合关心技术史、科学伦理与决策机制的读者，尤其适合在 AI、生物技术等双重用途领域工作、需要判断「我们做的东西会走到哪里」的人。也适合想理解大型工程如何被组织起来的管理者。想要纯军事战役史或武器技术细节的读者会失望：本书的主角是知识共同体与国家机器的关系。对「技术中立」深信不疑的人尤其该读。',
+    who_should_read_en: 'For readers of the history of technology, scientific ethics and decision-making — especially those working in dual-use fields such as AI or biotechnology who must judge where their work is heading. It also suits managers trying to understand how very large projects get organised. Readers wanting operational military history or weapon specifications will be disappointed: the protagonist here is the relation between a community of knowledge and the state. Those certain that technology is neutral should read it most.',
+    reading_note_zh: '全书篇幅较大（中译本 724 页），不必按顺序硬啃。建议先读第二篇「一种特殊的主权」，看组织、期限与人物如何纠缠；再回读第一篇补物理线索，理解「必然」究竟指什么；最后读第三篇广岛、长崎的证词，把抽象结论落回具体的人。读时保持一重警觉：罗兹的材料以口述史与人物叙述见长，史学界的严肃批评正是他弱于制度与工业组织分析。把它与弗雷德里克·布鲁克斯的《人月神话》对读效果最好——一本写巨型工程如何在历史中被造出来，一本写巨型工程为什么不能靠堆人来推进。中文版另有 2023 年中信出版社《横空出世：核物理与原子弹的诞生》。',
+    reading_note_en: 'This is a long book (the Chinese edition runs to 724 pages) and need not be read straight through. Start with Part Two, \'A Special Sovereignty\', to see organisation, deadlines and personalities entangle; go back to Part One for the physics and for what \'necessary\' actually means; finish with the Hiroshima and Nagasaki testimony in Part Three, which returns the abstraction to particular people. Keep one caution in view: Rhodes works chiefly from oral histories and character-driven narrative, and the serious scholarly criticism is precisely that institutional and industrial analysis is thin. It pairs unusually well with Frederick Brooks\'s The Mythical Man-Month — one book on how a vast project was historically brought into being, the other on why such projects cannot be accelerated by adding people. A newer Chinese edition appeared in 2023 from CITIC Press.'
+  },
+  'the-mythical-man-month': {
+    description_zh: '《人月神话》是弗雷德里克·布鲁克斯 1975 年出版的软件工程随笔集，源自他在 IBM 主持 System/360 与 OS/360 项目的经验，1995 年 20 周年纪念版增补四章。全书围绕一个被误用的单位展开：「人月」假定工作量等于人数乘以时间，因而任务可以任意拆分、彼此不需沟通。布鲁克斯指出这个假定不成立——沟通渠道按 n(n−1)/2 增长，且新人需要培训，于是「向已经延期的软件项目增加人力，只会使它更晚完成」。他进一步提出概念完整性、外科手术式团队、第二系统效应，并在增补的《没有银弹》中区分本质复杂性与偶然复杂性：前者来自问题域本身，任何工具都消不掉。中文版有清华大学出版社 2002 年汪颖译本与 2015 年 40 周年中文纪念版。',
+    description_en: 'First published in 1975 and expanded by four chapters in a 1995 anniversary edition, The Mythical Man-Month is Frederick P. Brooks Jr.\'s collection of essays on software engineering, drawn from his years leading IBM\'s System/360 and OS/360. It turns on a misused unit: the man-month assumes work equals people times time, so tasks can be split freely and need no communication between them. Brooks shows the assumption fails — communication channels grow as n(n−1)/2 and newcomers must be trained — hence \'adding manpower to a late software project makes it later\'. He goes on to develop conceptual integrity, the surgical team and the second-system effect, and in the added essay \'No Silver Bullet\' distinguishes essential from accidental complexity: the former belongs to the problem itself and no tool removes it. Chinese editions include Tsinghua University Press\'s 2002 translation and its 40th-anniversary edition of 2015.',
+    why_read_zh: '它把「进度落后就加人」这个几乎不需要论证的管理直觉，变成了一个可以被推导、也可以被反驳的命题。可迁移的不只是布鲁克斯定律，而是背后的提问方式：面对任何复杂系统，先问哪些成本来自任务间的相互依赖、因而不随规模摊薄，再问哪些才是工具能消掉的偶然部分。这个框架不依赖具体语言或时代，五十年后依然适用于今天的工程团队与 AI 辅助开发。经典性证据也扎实：维基百科有独立条目，Goodreads 4.01 分、15,338 人评分。要留意立场可被反驳——敏捷方法、开源协作与自动化工具都在挑战「没有银弹」的边界，而布鲁克斯自己在纪念版里收录了《人月有多神秘？伯姆的模型和数据》等反思章节，没有把结论说死。',
+    why_read_en: 'It turns an almost unexamined managerial reflex — a late project needs more people — into a proposition that can be derived and contested. What travels is not just Brooks\'s law but the underlying way of asking: in any complex system, first identify which costs come from interdependence between tasks and therefore do not amortise with scale, then ask which are merely accidental and removable by tools. The framework depends on no particular language or era and still applies to today\'s engineering teams and AI-assisted development. The standing is well evidenced: a standalone Wikipedia article and a Goodreads average of 4.01 from 15,338 ratings. Its position is genuinely contestable — agile methods, open-source collaboration and automation all press against the \'no silver bullet\' claim — and Brooks himself included reflective chapters such as \'How Mythical Is the Man-Month? Boehm\'s Model and Data\' in the anniversary edition rather than closing the question.',
+    core_ideas_zh: [
+        '人月是神话：只有当任务可完全拆分、彼此无需沟通时，人数与时间才可互换；软件任务天然相互依赖，因此这个单位系统性地高估了产能。',
+        '布鲁克斯定律：向延期项目加人，会因培训成本与沟通渠道的平方级增长而进一步延期——最直觉的解法正是最坏的解法。',
+        '概念完整性优先于功能数量：好用的系统来自少数架构师对「什么不该进来」的一致判断，因此架构必须与实现分离，宁可少一些特性。',
+        '本质复杂性不可消除：工具能削掉的是语言、环境、流程带来的偶然复杂性，而不是问题域自带的结构；《没有银弹》断言不存在单一技术能在十年内带来一个数量级的提升。',
+        '第二系统效应：设计者做第二个系统时，会把第一版被迫放弃的所有想法都塞进去，这是他设计过的最危险的系统。'
+      ],
+    core_ideas_en: [
+        'The man-month is a myth: people and time are interchangeable only when tasks can be split completely and need no communication. Software tasks are inherently interdependent, so the unit systematically overstates capacity.',
+        'Brooks\'s law: adding people to a late project delays it further, because training costs and communication channels grow quadratically — the most instinctive remedy is the worst one.',
+        'Conceptual integrity outranks feature count: a usable system comes from a small number of architects agreeing on what must be left out, so architecture must be separated from implementation and fewer features may be better.',
+        'Essential complexity cannot be removed: tools erase the accidental complexity of languages, environments and process, not the structure inherent in the problem. \'No Silver Bullet\' denies that any single development will deliver an order-of-magnitude gain within a decade.',
+        'The second-system effect: designing a second system, an architect tends to include everything the first had to postpone, making it the most dangerous system he will ever design.'
+      ],
+    key_questions_zh: [
+        '一个系统的成本里，有多少来自任务本身，又有多少来自任务之间的相互依赖？当规模扩大十倍，哪一部分会不成比例地膨胀？',
+        '如果加人不能救进度，那么真正可调的变量是什么——范围、架构，还是对「完成」的定义本身？',
+        '哪些复杂性是工具能削掉的偶然部分，哪些是问题域自带的本质部分？把这两者混淆，会导致怎样的技术投资误判？'
+      ],
+    key_questions_en: [
+        'How much of a system\'s cost comes from the tasks themselves, and how much from the dependencies between them? When scale grows tenfold, which part expands out of proportion?',
+        'If adding people cannot rescue a schedule, what is actually adjustable — scope, architecture, or the very definition of \'done\'?',
+        'Which complexity is accidental and removable by tools, and which is essential to the domain? What misjudgements about technical investment follow from confusing the two?'
+      ],
+    who_should_read_zh: '适合带项目的人、架构师，以及任何需要解释「为什么加人没用」的工程管理者；也适合研究组织与复杂系统、想找一个不随技术迭代失效的框架的读者。想找具体编程技巧或工具教程的人会失望——这是论点密集的随笔集，不是操作手册。相信「换个工具就能快十倍」的人尤其该读，因为布鲁克斯给出的正是判断这类承诺的标准。',
+    who_should_read_en: 'For people leading projects, architects, and engineering managers who have to explain why more hands will not help; also for readers of organisations and complex systems wanting a framework that survives technology churn. Those looking for coding techniques or tool tutorials will be disappointed — this is a dense book of arguments, not a manual. Readers convinced that switching tools will deliver a tenfold speed-up should read it most, since Brooks supplies the standard by which to judge such claims.',
+    reading_note_zh: '篇幅不大，可按章跳读。建议先读论「人月神话」与「贵族专制设计」的章节，抓住两个核心论点；再读 1995 年增补的《没有银弹》与后续反思，那里把论证从项目管理推进到复杂性的性质；最后回看纪念版中对全书十九条命题逐条重审的章节——布鲁克斯自己承认哪些判断被后来的数据修正，这种自我反驳正是本书值得读五十年的原因。读时可用一条检验：把书中每个例子换成你正在做的项目，看定律是否仍成立。与本期《原子弹秘史》对读尤其有意思：史学界批评罗兹弱于组织与制度分析，而这本书正好是组织维度最锋利的表述。中译本以清华大学出版社 2015 年 40 周年中文纪念版最完整。',
+    reading_note_en: 'It is short and can be read selectively. Begin with the chapters on the mythical man-month and on aristocratic design to secure the two central arguments; then read the 1995 additions, \'No Silver Bullet\' and the reflections that follow, where the argument moves from project management to the nature of complexity; finish with the anniversary edition\'s chapter-by-chapter reassessment of the book\'s propositions, where Brooks concedes which judgements later data revised. That willingness to argue against himself is why the book is still worth reading fifty years on. A useful test while reading: substitute your own current project for each of his examples and see whether the law still holds. It pairs well with the other book in this selection, The Making of the Atomic Bomb: historians fault Rhodes for thin institutional analysis, and this is the sharpest account of the organisational dimension. The most complete Chinese edition is Tsinghua University Press\'s 40th-anniversary volume of 2015.'
+  }
+};
