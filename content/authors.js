@@ -1973,6 +1973,32 @@ export const authors = {
     ideas_zh: ['人月是神话：人数与时间不可线性互换', '向延期项目加人只会使它更晚（布鲁克斯定律）', '概念完整性优先于功能数量', '本质复杂性不可消除，不存在银弹'],
     ideas_en: ['The man-month is a myth: people and time are not linearly interchangeable', 'Adding manpower to a late project makes it later (Brooks law)', 'Conceptual integrity outranks feature count', 'Essential complexity cannot be removed; there is no silver bullet']
   },
+  'annie-dillard': {
+    name_en: 'Annie Dillard',
+    name_zh: '安妮·迪拉德',
+    life: '1945–',
+    nationality_zh: '美国',
+    nationality_en: 'American',
+    role_zh: '作家、诗人、散文家',
+    role_en: 'Writer, poet and essayist',
+    bio_zh: '美国作家，1945 年生于宾夕法尼亚州匹兹堡。1968 年以关于梭罗《瓦尔登湖》的论文毕业于弗吉尼亚霍林斯大学。1971 年一场几乎致命的肺炎之后，她在蓝山听客溪畔独居一年，写成《听客溪的朝圣》（Pilgrim at Tinker Creek，1974），29 岁凭此书获 1975 年普利策通用非虚构奖。她长期拒绝「自然文学作家」的标签，强调作品关心的是观看、意识与神义论，而非风物记录；另有诗集《兽皮上的记号》、散文集《教顽石开口》、回忆录《美国童年》与小说《梅特里一家》。曾任《哈泼市场》《大西洋》专栏作者，长期任教于卫斯理大学。',
+    bio_en: 'American writer, born in Pittsburgh, Pennsylvania, in 1945. She graduated from Hollins University in Virginia in 1968 with a thesis on Thoreau\'s Walden. After a near-fatal bout of pneumonia in 1971 she spent a year alone beside Tinker Creek in the Blue Ridge Mountains, which produced Pilgrim at Tinker Creek (1974); at twenty-nine she won the 1975 Pulitzer Prize for General Nonfiction for it. She has consistently refused the label of nature writer, insisting that her subject is seeing, consciousness and theodicy rather than scenery. Other works include the poetry collection Tickets for a Prayer Wheel, the essay collection Teaching a Stone to Talk, the memoir An American Childhood and the novel The Maytrees. She wrote for Harper\'s Bazaar and The Atlantic and taught for many years at Wesleyan University.',
+    ideas_zh: ['观看是需要训练的选择，不是被动接收；分心才是认知的主要障碍', '自然的丰饶与残酷出自同一套机制，美不是对残酷的补偿', '拒绝把自然拟人化或道德化，也拒绝把观察者放在世界之外', '苦难无法被解释，只能让问题保持在场，而不是换算成可以放下的结论'],
+    ideas_en: ['Seeing is a choice that must be trained, not passive reception; distraction, not scarcity of information, is the main obstacle to knowing', 'Abundance and cruelty arise from the same machinery; beauty is not a compensation for cruelty', 'Refuse to personify or moralise nature, and refuse to place the observer outside the world', 'Suffering cannot be explained; the question should be kept present rather than converted into a conclusion one can set aside']
+  },
+  'cathy-oneil': {
+    name_en: 'Cathy O\'Neil',
+    name_zh: '凯西·奥尼尔',
+    life: '',
+    nationality_zh: '美国',
+    nationality_en: 'American',
+    role_zh: '数学家、数据科学家、算法审计者',
+    role_en: 'Mathematician, data scientist and algorithmic auditor',
+    bio_zh: '美国数学家与数据科学家，哈佛大学数学博士，曾在巴纳德学院任教，后任 D. E. Shaw 对冲基金量化分析师、哥伦比亚大学新闻学院数据实践项目（Lede Program）主任。2008 年金融危机后对金融模型失望，参与「占领华尔街」运动，转向算法审计，创办 ORCAA。2016 年出版《算法霸权》（Weapons of Math Destruction），提出「数学杀伤性武器」三判据——不透明、规模化、毁灭性，列 2016 年美国国家图书奖非虚构长名单，2019 年获美国数学协会 Euler Book Prize。长期为 Bloomberg View 撰稿，运营博客 mathbabe.org。',
+    bio_en: 'American mathematician and data scientist with a PhD in mathematics from Harvard. She taught at Barnard College, worked as a quant at the hedge fund D. E. Shaw, and directed the Lede Program in Data Practices at Columbia University Graduate School of Journalism. Disillusioned with financial models after the 2008 crisis, she joined Occupy Wall Street and moved into algorithmic auditing, later founding the audit firm ORCAA. Her 2016 book Weapons of Math Destruction introduced the three tests of a weapon of math destruction — opacity, scale and damage — was longlisted for the 2016 National Book Award for Nonfiction and won the 2019 Euler Book Prize of the Mathematical Association of America. She has written regularly for Bloomberg View and blogs at mathbabe.org.',
+    ideas_zh: ['判断模型是否危险，看不透明、规模化、毁灭性三判据，而非算法复杂度', '模型不描述现实而是分配机会，预测通过反馈回路把自己变成结果', '公平难以量化，因此在以效率为目标的函数中被系统性排除', '问责与可申诉性是制度问题，不能靠模型自身的精度解决'],
+    ideas_en: ['Judge a model by opacity, scale and damage, not by algorithmic sophistication', 'Models allocate opportunity rather than describe reality, and predictions turn themselves into outcomes through feedback loops', 'Fairness resists quantification and is therefore systematically excluded from objective functions built around efficiency', 'Accountability and appeal are institutional questions that accuracy alone cannot settle']
+  },
 };
 
 export default authors;

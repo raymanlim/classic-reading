@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-06",
+  "books": [
+    {
+      "slug": "pilgrim-at-tinker-creek",
+      "category": "essays",
+      "title_zh": "听客溪的朝圣",
+      "title_en": "Pilgrim at Tinker Creek",
+      "author": "annie-dillard",
+      "author_zh": "安妮·迪拉德",
+      "author_en": "Annie Dillard",
+      "nationality_zh": "美国",
+      "nationality_en": "American",
+      "year": 1974,
+      "original_language": "en",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "观看是一种需要训练的注意力：在被计量之前，先学会看见",
+      "theme_en": "Seeing is a trained attention: before being counted, learn to notice",
+      "tags": ["essay", "attention", "reading", "critical-thinking", "science"],
+      "topics": ["essays-and-reflection", "attention-and-depth", "science-and-nature"],
+      "prose": {
+        "description_zh": "1974 年由 Harper's Magazine Press 出版，是安妮·迪拉德在弗吉尼亚蓝山听客溪畔独居一年后写成的十五章散文。全书大体按四季推进，从「天地游戏」到「分隔之水」，记录螳螂卵鞘、铜斑蛇捕食、洪水、帝王蝶与星光的细节。但它不是温和的自然随笔：前半部写自然的丰饶，到第十章「丰沃」笔锋直转，正面对上造物的浪费与生命低贱——一只水黾被吞食、一群幼蛛注定饿死，美与残酷出自同一套机制。迪拉德在书中反复追问一个更硬的问题：如果世界如此铺张又如此无情，那么「看」究竟是接收，还是一种需要训练、需要承担代价的选择。她把博物学观察、神义论与诗性语言压在同一条线上，拒绝把自然拟人化或道德化。",
+        "description_en": "Published by Harper's Magazine Press in 1974, this is a fifteen-chapter prose work written after Annie Dillard spent a year alone beside Tinker Creek in the Blue Ridge Mountains of Virginia. It moves roughly through the seasons, from the opening chapter to the closing 'Waters of Separation', attending to mantis egg cases, a copperhead hunting, floods, monarch butterflies and starlight. It is not a gentle nature essay. The first half celebrates abundance; by the tenth chapter, 'Fecundity', the tone turns dark and confronts the waste and cheapness of life outright. Beauty and cruelty, she insists, come from the same machinery. The harder question running beneath the observations is about seeing itself: whether to look is to receive, or to make a choice that must be trained and paid for. Natural history, theodicy and poetic language are held on a single line, and she refuses to personify nature or turn it into a moral lesson.",
+        "why_read_zh": "因为它把「看见」从一种被动能力，改写成一套可以训练、也会失败的注意力技术。迪拉德的反直觉之处在于：她不认为看得更多就更懂世界，反而反复写自己如何因分心而错过眼前的东西——真正的障碍不是信息不足，是注意力已被别的东西预先占用。这套框架可以直接迁移到今天：在推荐系统与指标替我们决定该看什么之前，先问「我漏掉了什么、是谁替我排的序」。它也不是人畜无害的美文：《纽约时报》的尤多拉·韦尔蒂批评全书几乎只有叙述者一个人，虽频频谈论宇宙却始终「自我环绕」；神义论式的沉思也被质疑为把残酷审美化。这些是严肃的反对意见，而不是无伤大雅的赞美分歧。读它改变的不是知识点，而是提问方式——从「我看到了什么」变成「什么样的注意力结构，决定了什么能进入我的视野」。 经典性证据：① 1975 年普利策通用非虚构奖（Pulitzer Prize for General Nonfiction，获奖，时年 29 岁）；② 维基百科有独立书籍条目；③ 权威书评媒体长评：The New York Times（Eudora Welty）、Time（Melvin Maddocks）、Saturday Evening Post；④ 入选 Modern Library 二十世纪百佳非虚构（1998 年编委榜与读者榜双榜），并被选入美国高中与大学精读教材、平装本广泛用于大学高等语文课程。中文版《听客溪的朝圣》余幼珊译，广西师范大学出版社 2015 年出版，ISBN 978-7-5495-6383-8；该中文版豆瓣评分 8.2、587 人评价，未达 8.5/1000 门槛，故未计入证据。",
+        "why_read_en": "Because it turns seeing from a passive capacity into a technique of attention that can be trained and can fail. Dillard's counter-intuitive claim is that looking at more does not yield more understanding: she returns again and again to what she missed while distracted, so the obstacle is not a shortage of information but attention already occupied by something else. That framework transfers directly to the present: before recommender systems and metrics decide what deserves a glance, ask what has been left out and who did the ordering. Nor is it an innocuous piece of fine writing. Eudora Welty, reviewing it in The New York Times, objected that the narrator is substantially the only person in the book, speaking constantly of the universe yet self-surrounded; others have argued that its theodicy aestheticises cruelty. These are serious objections, not polite differences of emphasis. What the book changes is not what you know but how you ask: from 'what did I see' to 'what structure of attention decided what could enter my field of view'. Evidence of standing: (1) the 1975 Pulitzer Prize for General Nonfiction, won at the age of twenty-nine; (2) a standalone Wikipedia article on the book; (3) substantial reviews in The New York Times (Eudora Welty), Time (Melvin Maddocks) and the Saturday Evening Post; (4) inclusion in the Modern Library 100 Best Nonfiction lists of the twentieth century, in both the board's and the readers' list in 1998, plus selection in American high-school and university close-reading anthologies, with the paperback widely used in advanced college writing courses. The Chinese translation, Ting Ke Xi De Chao Sheng by Yu Youshan (Guangxi Normal University Press, 2015, ISBN 978-7-5495-6383-8), holds 8.2 on Douban from 587 ratings; as that falls short of the 8.5 / 1,000 threshold, it is not counted here.",
+        "core_ideas_zh": [
+          "观看是主动的选择，不是自动的接收：迪拉德区分「用眼睛扫过」与「真正看见」，后者要求把既有的分类与目的暂时悬置，代价是时间与不适。她把「看」写成一种需要练习的手艺。",
+          "自然的丰饶与残酷出自同一套机制：造物以极度的浪费换取极少数存活，美不是对残酷的补偿，而是残酷的副产品。拒绝把自然拟人化、道德化，是全书方法上的底线。",
+          "注意力决定了什么能成为事实：被看见的细节构成一个人的世界，被略过的细节不构成任何东西。因此「我漏掉了什么」比「我看到了什么」更接近认识论问题。",
+          "消解人类中心的观察者位置：叙述者不站在自然之外做记录，而承认自己也在被观察、被吞没、被季节支配。主体不是测量世界的固定原点，而是世界内部的一个变量。",
+          "神义论无法被解决，只能被承受：全书不给出「为何有苦难」的答案，而是把问题保持在场——不解释、不安抚、不把它换算成一个可以放下的结论。"
+        ],
+        "core_ideas_en": [
+          "Seeing is an active choice, not automatic reception: Dillard separates scanning with the eyes from actually noticing, which requires suspending ready-made categories and purposes at the cost of time and discomfort. Looking is a craft that has to be practised.",
+          "Abundance and cruelty come from the same machinery: creation buys a handful of survivors with extravagant waste, and beauty is not a compensation for cruelty but its by-product. Refusing to personify or moralise nature is the book's methodological baseline.",
+          "Attention determines what can count as a fact: the details that are seen make up a person's world, while those skipped over amount to nothing. 'What did I miss' is therefore closer to an epistemological question than 'what did I see'.",
+          "Dissolving the human-centred observer: the narrator does not stand outside nature taking notes but admits to being watched, swallowed and governed by the seasons in turn. The subject is not a fixed origin from which the world is measured but a variable inside it.",
+          "Theodicy cannot be solved, only borne: the book offers no answer to why suffering exists. It keeps the question present instead — refusing to explain, to console, or to convert it into a conclusion one can set aside."
+        ],
+        "key_questions_zh": [
+          "当注意力可以被系统分配，一个没有被计入的细节，是否就等于不存在？",
+          "如果自然的丰饶必须以巨量浪费为代价，「美」还能不能作为理解世界的可靠线索？",
+          "把观察者的位置放回世界内部之后，客观性还剩下什么可辩护的含义？",
+          "面对无法解释的苦难，保持问题在场是否比给出一个答案更诚实？"
+        ],
+        "key_questions_en": [
+          "When attention can be allocated by a system, is a detail that was never counted effectively non-existent?",
+          "If abundance must be purchased with enormous waste, can beauty still serve as a reliable clue to understanding the world?",
+          "Once the observer is placed back inside the world, what defensible meaning is left for objectivity?",
+          "In the face of suffering that cannot be explained, is keeping the question open more honest than supplying an answer?"
+        ],
+        "who_should_read_zh": "做内容、研究与产品、每天替别人决定「该看什么」的人；被指标与推送牵着走、想重新拿回注意力分配权的读者；写作者与自然文学爱好者。不适合想找一份自然观察清单或抒情美文的读者——它给的是一套关于注意力的判断框架，而不是风景描写。",
+        "who_should_read_en": "People in content, research and product who decide on behalf of others what deserves attention; readers whose attention is allocated by metrics and feeds and who want it back; writers and admirers of literary nonfiction. It is not for anyone looking for a field checklist or lyrical scenery: what it offers is a framework for judging attention, not description.",
+        "reading_note_zh": "建议先读第 2 章「观看」，那里立起全书关于注意力的命题；再读第 8 章「错综复杂」与第 10 章「丰沃」，前者是丰饶的顶点，后者是残酷的转折，两章连读才能看清她拒绝把自然道德化的立场。第 1 章「天地游戏」与末章「分隔之水」可留到最后回头重读。不必按四季顺序读。可与梭罗《瓦尔登湖》对读——迪拉德 1968 年正是以关于《瓦尔登湖》的论文毕业，但两书对「观察者在世界中位置」的处理并不相同。中文版为余幼珊译、广西师范大学出版社 2015 年版（2024 年新版增收理查德森所撰作者小传）。",
+        "reading_note_en": "Begin with chapter two, 'Seeing', where the book's claim about attention is stated; then read chapter eight, 'Intricacy', and chapter ten, 'Fecundity' together — the first is the high point of abundance, the second the turn toward cruelty, and only in combination do they show why she refuses to moralise nature. Save the opening chapter and the closing 'Waters of Separation' for a second pass. The seasonal order need not be followed. It pairs well with Thoreau's Walden: Dillard graduated in 1968 with a thesis on that book, yet the two works place the observer very differently within the world. The Chinese edition is Yu Youshan's translation for Guangxi Normal University Press (2015); a 2024 reissue adds a biographical sketch by Richard Richardson."
+      }
+    },
+    {
+      "slug": "weapons-of-math-destruction",
+      "category": "ai",
+      "title_zh": "算法霸权",
+      "title_en": "Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy",
+      "author": "cathy-oneil",
+      "author_zh": "凯西·奥尼尔",
+      "author_en": "Cathy O'Neil",
+      "nationality_zh": "美国",
+      "nationality_en": "American",
+      "year": 2016,
+      "original_language": "en",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "模型不是描述现实，而是在分配机会：不可申诉的效率如何固化不平等",
+      "theme_en": "Models do not describe reality but allocate opportunity: how unappealable efficiency hardens inequality",
+      "tags": ["ai", "machine-learning", "society", "inequality", "decision-making", "risk"],
+      "topics": ["ai", "decision-making", "class-and-inequality", "modern-society"],
+      "prose": {
+        "description_zh": "2016 年由 Crown 出版，作者凯西·奥尼尔是哈佛数学博士、前华尔街量化分析师，后来参与「占领华尔街」并转向算法审计。全书沿一个人一生的路径，逐个拆解大学排名、教师增值评估、简历筛选、信贷审核、掠夺式广告、人力调度、预测性警务与再犯风险模型。她提出「数学杀伤性武器」（WMD）这一概念，给出三个判据：不透明（模型如黑箱，不受公众审查）、规模化（低成本套用到海量人群）、毁灭性（对弱势群体造成系统性伤害）。核心论断是：这些模型并不只是描述现实，而是改变现实——它们通过扩大或限制一个人能获得的机会，把历史上的偏见写成自我实现的反馈回路。书中还给出一个尖锐的对照：法律体系愿意为公平牺牲效率，而模型天然偏向效率，因为「公平」难以量化、无法写进目标函数。",
+        "description_en": "Published by Crown in 2016, the book is by Cathy O'Neil, a Harvard PhD in mathematics and former Wall Street quant who later joined Occupy Wall Street and moved into algorithmic auditing. It follows a single life from college to retirement, taking apart college rankings, value-added teacher assessment, résumé screening, credit decisions, predatory advertising, workforce scheduling, predictive policing and recidivism risk models. Her central concept is the weapon of math destruction, defined by three tests: opacity, as the model is a black box beyond public scrutiny; scale, as it can be applied to enormous populations at low cost; and damage, as it inflicts systematic harm on vulnerable groups. The core claim is that such models do not merely describe reality but change it, by expanding or restricting the opportunities available to a person and turning historical bias into a self-fulfilling feedback loop. One sharp contrast runs through the book: a legal system will sacrifice efficiency for fairness, whereas a model leans toward efficiency by default, because fairness is hard to quantify and cannot be written into an objective function.",
+        "why_read_zh": "因为它把「算法是否公平」这个抽象争论，换成三个可以逐条检查的判据——不透明、规模化、毁灭性，以及一个可以迁移到任何决策系统的追问：谁被判定、能不能申诉、出错由谁承担。它的核心论点是反直觉的：用同一套规则衡量所有人，本应比人更公平，结果却系统性地放大了既有偏见；原因不在模型算错，而在优化目标里根本没有「公平」这个不可量化的量。另一条同样反直觉的是反馈回路：预测性警务按历史逮捕数据增派巡逻，巡逻带来更多逮捕记录，记录又反过来证明模型正确——模型不是发现偏见，而是生产证据支持自己的偏见。它也有明确的对手与限度：克莱·舍基在《纽约时报书评》肯定它对问题机理的拆解，同时指出「解决方案部分明显弱于问题的呈现」，算法治理的可行性、审计能否真正独立，至今仍是争论。读完改变的是提问方式——从「这个模型准不准」变成「它把什么样的机会分配给了谁，以及谁有权质疑」。 经典性证据：① 维基百科有独立书籍条目；② 2016 年美国国家图书奖非虚构类长名单（National Book Award for Nonfiction longlist，长名单提名，非获奖）；③ 2019 年获美国数学协会 Euler Book Prize（获奖）；④ 权威书评媒体长评：The New York Times Book Review（Clay Shirky，2016 年 10 月 3 日），另有 Science、Scientific American、Notices of the AMS 等专业刊物书评。中文版《算法霸权》马青玲译，中信出版社 2018 年 9 月出版，ISBN 9787508692067；Goodreads 与豆瓣的评分人数本次未获取，故不列为证据。",
+        "why_read_en": "Because it replaces the abstract debate over whether algorithms are fair with three checks that can be applied one by one — opacity, scale and damage — and with a question that transfers to any decision system: who is being judged, can the judgement be appealed, and who bears the cost when it is wrong. Its central claim is counter-intuitive. Measuring everyone by the same rules ought to be fairer than human discretion, yet it systematically amplifies existing bias; the reason is not that the model miscalculates but that an unquantifiable quantity such as fairness was never in the objective function. The feedback loop is equally counter-intuitive: predictive policing sends more patrols to neighbourhoods with more historical arrests, the patrols generate more arrest records, and those records then confirm the model. The model does not discover bias; it manufactures the evidence that supports its own bias. The book also has clear opponents and limits. Clay Shirky, in The New York Times Book Review, praised its account of the mechanism while observing that the section on solutions is weaker than the illustration of the problem, and the feasibility of algorithmic governance and the independence of audits remain contested. What changes is how you ask: from 'is this model accurate' to 'what opportunities does it allocate to whom, and who has the right to challenge it'. Evidence of standing: (1) a standalone Wikipedia article on the book; (2) longlisted for the 2016 National Book Award for Nonfiction, a longlist nomination rather than a win; (3) winner of the 2019 Euler Book Prize of the Mathematical Association of America; (4) substantial reviews in The New York Times Book Review (Clay Shirky, 3 October 2016), Science, Scientific American and Notices of the AMS. The Chinese translation, Suan Fa Ba Quan by Ma Qingling (CITIC Press, September 2018, ISBN 9787508692067), is officially published; Goodreads and Douban rating counts were not obtained in this check and are therefore not listed as evidence.",
+        "core_ideas_zh": [
+          "WMD 三判据：不透明、规模化、毁灭性。一个模型是否危险，不看它用了多复杂的算法，而看它能否被质疑、覆盖多少人、错了由谁承担。",
+          "模型不描述现实，而是分配现实：评分通过扩大或限制教育、信贷、就业机会，把预测变成结果。「预测准确」与「后果正当」是两件不同的事。",
+          "恶意反馈回路：以历史数据训练的模型，会把自己的输出变成下一轮输入。被多巡逻的社区产生更多逮捕记录，记录又证明模型当初的判断——偏见由此获得自我证成的证据。",
+          "效率与公平不对称：法律体系以无罪推定为约束、愿意牺牲效率换公平；模型建立在可测量数据上，公平因难以量化而被排除在目标函数之外。这不是技术缺陷，是目标设定的必然结果。",
+          "目标可被博弈，代理变量会腐化：一旦某个指标成为考核目标，人们就优化指标而非优化它原本代表的东西；用邮编、购物记录等代理变量替代真实属性，则把历史歧视悄悄带进模型。"
+        ],
+        "core_ideas_en": [
+          "The three tests of a WMD: opacity, scale and damage. How dangerous a model is depends not on the sophistication of its algorithm but on whether it can be challenged, how many people it covers, and who absorbs its errors.",
+          "Models do not describe reality but allocate it: a score expands or restricts access to education, credit and employment, turning a prediction into an outcome. Being predictively accurate and being justified in consequence are different things.",
+          "Pernicious feedback loops: a model trained on historical data turns its own output into its next input. Over-policed neighbourhoods generate more arrest records, and those records then confirm the model's original judgement, so bias acquires self-validating evidence.",
+          "An asymmetry between efficiency and fairness: a legal system accepts the presumption of innocence as a constraint and trades efficiency for fairness, while a model rests on measurable data and excludes fairness because it resists quantification. This is not a technical defect but a consequence of how the objective was set.",
+          "Targets can be gamed and proxies decay: once a metric becomes the target, people optimise the metric rather than what it stood for; substituting proxies such as postcodes or purchase histories for the real attribute quietly carries historical discrimination into the model."
+        ],
+        "key_questions_zh": [
+          "如果一个模型在统计上准确，但系统性地关闭了某些人的上升通道，该用什么标准判定它是「好」模型？",
+          "当模型的输出又成为下一轮训练数据，还有什么办法区分「发现了偏见」与「制造了支持偏见的证据」？",
+          "公平难以量化，是否意味着它注定无法进入优化目标？如果不能，应当用制度约束还是用技术约束来补？",
+          "一个被模型拒绝的人，需要什么样的知情权与申诉路径，才谈得上「被公正对待」？"
+        ],
+        "key_questions_en": [
+          "If a model is statistically accurate yet systematically closes off routes of advancement for some people, by what standard should it be called a good model?",
+          "When a model's output becomes its next round of training data, what remains available to distinguish discovering bias from manufacturing evidence that supports it?",
+          "If fairness resists quantification, is it necessarily excluded from an objective function? If so, should institutional constraints or technical ones supply the correction?",
+          "What rights to explanation and appeal would a person refused by a model need before the treatment could be called fair?"
+        ],
+        "who_should_read_zh": "做算法、数据产品与风控、需要决定「哪些判断可以交给模型」的人；负责招聘、授信、评估等制度设计的管理者；以及所有被评分却看不到分数来源的普通读者。不必会写模型，但需要愿意跟着案例把「效率」这个默认前提拆开。只想要一份技术选型清单的读者会失望——这本书讨论的是权力，不是工具。",
+        "who_should_read_en": "People building algorithms, data products and risk systems who must decide which judgements may be delegated to a model; managers designing institutions for hiring, lending and evaluation; and ordinary readers who are scored without ever seeing the source of the score. No ability to write a model is required, only a willingness to follow the cases and take apart the default premise of efficiency. Readers after a technical selection checklist will be disappointed: this is a book about power, not about tools.",
+        "reading_note_zh": "第 1 章「盲点炸弹」给出三判据，务必先读；第 3 章「恶意循环」关于大学排名、第 5 章「效率权衡与逻辑漏洞」关于公平与效率的不对称、第 8 章「间接损害」关于信用数据，是三条主线，可按兴趣跳读。读时建议始终带着一个对照：作者是量化从业者出身，她批评的是目标设定与问责缺位，不是数学本身；第 10 章「正面的力量」给出的解法较弱，正是《纽约时报书评》指出的短板，宜与后来的算法审计、公平性研究对照读。中文版为马青玲译、中信出版社 2018 年版。",
+        "reading_note_en": "Start with chapter one, 'Bomb Parts', which sets out the three tests. Chapter three on pernicious feedback loops and college rankings, chapter five on the trade-off between efficiency and fairness, and chapter eight on collateral damage and credit data form the three main threads and can be read out of order. Keep one contrast in view throughout: the author came from quantitative finance, and what she criticises is the setting of objectives and the absence of accountability, not mathematics itself. The remedies in chapter ten are the weakest part of the book, precisely the shortcoming noted in The New York Times Book Review, so read them alongside later work on algorithmic auditing and fairness. The Chinese edition is Ma Qingling's translation for CITIC Press, 2018."
+      }
+    }
+  ]
+}
