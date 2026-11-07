@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-07",
+  "books": [
+    {
+      "slug": "fahrenheit-451",
+      "category": "literature",
+      "title_zh": "华氏451",
+      "title_en": "Fahrenheit 451",
+      "author": "ray-bradbury",
+      "author_zh": "雷·布拉德伯里",
+      "author_en": "Ray Bradbury",
+      "nationality_zh": "美国",
+      "nationality_en": "American",
+      "year": 1953,
+      "original_language": "en",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "焚书不必从禁令开始：当阅读变得不必要，书自己会消失",
+      "theme_en": "Book burning need not begin with a ban: once reading becomes unnecessary, books disappear on their own",
+      "tags": ["fiction", "novel", "dystopia", "propaganda", "attention", "reading"],
+      "topics": ["literature", "authoritarianism", "attention-and-depth"],
+      "prose": {
+        "description_zh": "1953 年 10 月由 Ballantine Books 出版，是雷·布拉德伯里把 1951 年中篇《消防员》扩写成的反乌托邦小说。故事设在一个书被禁止的未来：消防员的职责不是灭火而是焚书，主人公蒙泰戈已经干了十年，直到一次偶遇让他开始怀疑自己每天烧掉的究竟是什么。全书分「炉灶与火蜥蜴」「筛子与沙子」「烈焰炽亮」三部分，写一个执行者如何逐步变成携带者。他周围的信息环境由整面墙的互动电视、塞在耳中的「海贝」收音机、被压成摘要的读物构成；小说花最多笔墨描写的不是查禁的法令，而是一个人人都不再需要书的社会如何日常运转——书被删短、被娱乐替代、被各个群体要求改写，连焚烧本身都成了供人观看的节目。书中还有一群人把读过的文本背下来，用记忆替代纸张。",
+        "description_en": "Published by Ballantine Books in October 1953, this is the dystopian novel Ray Bradbury expanded from his 1951 novella The Fireman. It is set in a future where books are outlawed and firemen are employed not to put out fires but to start them. Guy Montag has spent ten years at the work before a chance encounter leads him to question what he has been destroying. The book falls into three sections, The Hearth and the Salamander, The Sieve and the Sand and Burning Bright, and follows an enforcer becoming a carrier of what he was meant to erase. His information environment consists of wall-sized interactive television, Seashell ear-thimbles and reading matter abridged into summaries. What the novel describes in most detail is not the machinery of prohibition but the ordinary functioning of a society that no longer needs books: texts shortened, replaced by entertainment, revised under pressure from one group after another, until burning them becomes a public spectacle. A scattered group of people commit what they have read to memory, substituting recollection for paper.",
+        "why_read_zh": "因为它把「审查」从一个政治事件改写成一套可以逐条检查的条件，而且给出一个反直觉的结论：焚书不是暴政的起点，是结果。布拉德伯里后来反复强调，元凶是公众而非国家——小说借队长比提之口说得很直白：不是政府下令，是技术、大规模娱乐和群体压力办成了这件事；费伯则说，美国人只是自己停止了阅读。可迁移的框架有三条：内容被压缩以适应更短的注意力、阅读被更省力的娱乐替代、群体压力让出版方先自我删改。三条都不需要禁令，却能让人主动放弃一本书。这在内容供给近乎无限、答案随手可得的今天更值得拿来对照：不让人读，远不如让人不必读。它也不是人畜无害的经典。1953 年 The New York Times 的书评就不买账，指责作者对广播、电视、电影、体育乃至汽车怀有近乎病态的憎恶；Anthony Boucher 与 J. Francis McComas 批评它铺陈过度、辞藻压过结构；后期把主题从政治审查改述为媒介批评，也被认为稀释了制度责任。读完改变的不是知识点，而是提问方式——从「谁在禁书」变成「什么样的注意力结构，让一本书变得不值得读」。 经典性证据：① 维基百科有独立书籍条目 Fahrenheit 451（1953-10-19，Ballantine Books，作者 Ray Bradbury）；② 权威奖项：1954 年 American Academy of Arts and Letters Award in Literature、1954 年 Commonwealth Club of California Gold Medal、1984 年 Prometheus Hall of Fame Award、2004 年 Retro Hugo Award（均由该书维基条目明列）；③ 同期权威媒体长评：The New York Times（1953，负面）、Galaxy Science Fiction（Groff Conklin，1954）、Chicago Sunday Tribune（August Derleth，1954）；④ 纽约公共图书馆列为 Top Check Outs of All Time 第 7 名（榜单类，不计入门槛项）。中文版《华氏451》于而彦译、上海译文出版社 2017 年出版，ISBN 9787532775491，属正式引进；重庆出版社 2005 年版豆瓣 8.1 分、2184 人评价，低于 8.5/1000 门槛，故不计入。Goodreads 评分与评价人数本次未获取，不列为证据。",
+        "why_read_en": "Because it turns censorship from a political event into a set of conditions that can be checked one by one, and because its conclusion runs against intuition: the burning is not where tyranny begins but where it ends up. Bradbury later insisted repeatedly that the culprit is the people, not the state. Captain Beatty says as much in the novel — no decree came down from the government; technology, mass exploitation and minority pressure did the work — while Faber says the American population simply stopped reading on its own. The transferable framework has three parts: content compressed to fit a shorter attention span, reading displaced by less demanding entertainment, and group pressure that leads publishers to censor themselves first. None of the three requires a ban, yet together they make a book unnecessary. That is worth holding against a present in which content is effectively unlimited and answers are instantaneous: preventing people from reading is far less effective than making reading unnecessary. Nor is the book harmlessly canonical. The New York Times reviewed it unfavourably in 1953, accusing Bradbury of a virulent hatred of radio, television, film, sport and the automobile; Anthony Boucher and J. Francis McComas faulted it as padded and too often mere verbal brilliance; and his later reframing of the theme from political censorship to mass media has itself been read as diluting institutional responsibility. What changes is how you ask: from who is banning books to what structure of attention makes a book not worth reading. Evidence of standing: (1) a standalone Wikipedia article for the novel, giving 19 October 1953 and Ballantine Books; (2) the 1954 American Academy of Arts and Letters Award in Literature, the 1954 Commonwealth Club of California Gold Medal, the 1984 Prometheus Hall of Fame Award and the 2004 Retro Hugo Award, all listed on that article; (3) substantial contemporary reviews in The New York Times (1953, unfavourable), Galaxy Science Fiction (Groff Conklin, 1954) and the Chicago Sunday Tribune (August Derleth, 1954); (4) number seven on the New York Public Library list of top check-outs of all time, offered here as context rather than counted. The Chinese translation, Hua Shi 451 by Yu Eryan (Shanghai Translation Publishing House, 2017, ISBN 9787532775491), is an officially published edition; the 2005 Chongqing Press edition holds 8.1 on Douban from 2,184 ratings, below the 8.5 / 1,000 threshold, so it is not counted. Goodreads rating counts were not obtained and are not cited.",
+        "core_ideas_zh": [
+          "审查的最小充分条件不是禁令，而是需求消失：当内容被删短以适应更短的注意力、阅读被更省力的娱乐替代、群体压力促使出版方先自我删改，焚书只需补上最后一步。判断一个信息环境，看这三条即可，不必等法令出现。",
+          "责任在公众而非国家：小说借比提与费伯把因果倒置——不是政府先禁书，而是人们先放弃阅读，制度才把既成事实写成规则。布拉德伯里后期多次说明，他写的是电视等大众媒介如何把文学阅读挤到边缘。",
+          "娱乐不只是消遣，而是一种治理形式：焚烧被组织成可供观看的节目，墙屏提供不间断的陪伴，耳塞筑起情感隔离层。服从不需要强制，只要让不服从显得麻烦、孤独且无趣。",
+          "记忆是最后一种载体，但不是解决方案：把书背下来的人保存了文本，却也把文本从可查阅、可争辩的公共对象，变成各自封存的私人内容。可读性与可核对性一旦分离，知识就失去了被反驳的机会。",
+          "删改有多个作者：1979 年的后记里，布拉德伯里写「烧书不止一种方式」，每个群体都觉得自己有权撕掉一页。审查因此可以分散到无数善意的手上，没有任何一方需要承认自己在审查。"
+        ],
+        "core_ideas_en": [
+          "The minimal sufficient condition for censorship is not a ban but the disappearance of demand: once content is abridged for shorter attention, reading is displaced by easier entertainment, and group pressure makes publishers censor themselves first, burning a book is only the last step. Those three tests are enough to judge an information environment; no decree need appear.",
+          "The responsibility lies with the public, not the state. Through Beatty and Faber the novel reverses the causal order: people stopped reading first, and institutions then wrote the accomplished fact into rules. Bradbury later said repeatedly that what he had written was about mass media such as television marginalising the reading of literature.",
+          "Entertainment is not merely diversion but a form of governance: burnings are staged as spectacles, wall screens supply unbroken companionship, and ear-thimbles build an emotional barrier. Compliance needs no coercion if non-compliance can be made troublesome, lonely and dull.",
+          "Memory is the last carrier, but not a solution. Those who learn books by heart preserve the text while turning it from a public object that can be consulted and disputed into private content sealed inside individuals. Once readability and checkability come apart, knowledge loses the chance to be refuted.",
+          "Revision has many authors. In his 1979 coda Bradbury wrote that there is more than one way to burn a book and that every minority feels entitled to tear out a page. Censorship can therefore be distributed across countless well-meaning hands, with no one required to admit to censoring."
+        ],
+        "key_questions_zh": [
+          "如果没有任何一本书被禁，但也没有人再愿意读完一本，这算不算言论自由已经失效？",
+          "当内容可以无限生成，稀缺的到底是书、注意力，还是愿意被文本反驳的耐心？",
+          "把责任放在公众趣味上，会不会正好替制度性的审查卸责？",
+          "靠记忆保存的文本无法被查阅和核对时，它保护的是知识，还是知识的一个副本？"
+        ],
+        "key_questions_en": [
+          "If no book is banned but nobody is willing to finish one, has freedom of expression already failed?",
+          "When content can be generated without limit, what is actually scarce: books, attention, or the patience to be contradicted by a text?",
+          "Does placing responsibility on public taste conveniently absolve institutional censorship?",
+          "When a text survives only in memory and cannot be consulted or checked, what is being preserved: knowledge, or a copy of knowledge?"
+        ],
+        "who_should_read_zh": "做内容、产品与推荐系统、每天替别人决定「该看什么」的人；关心信息环境而不只是关心禁令的读者；也会被「为什么我们不再读长文」这个问题困住的教师与家长。不适合想找一段紧张追逃情节的读者——它给的是一套关于注意力的判断框架，情节只是把这套框架推到极端的装置。",
+        "who_should_read_en": "People in content, product and recommender systems who decide daily what others will see; readers concerned with the information environment rather than with prohibition alone; teachers and parents puzzled by why long texts no longer get finished. It is not for anyone after a straightforward chase narrative: the book supplies a framework for judging attention, and the plot is the device that pushes that framework to its limit.",
+        "reading_note_zh": "建议先读第一部分，把「谁先放弃阅读」这条因果线立起来；再重点读第二部分比提那段自述——「不是政府下令」，全书最反直觉的论断就在这里，配合费伯关于「人们只是自己不读了」的说法一起看；第三部分节奏快，可一气读完。读时始终带着一个对照：1953 年作者担心的是书被下架，2007 年他却说读者误解了这本书，它写的是大众媒介如何把文学阅读挤到边缘，两种自述之间的张力本身就是可讨论的材料。中文版可用来而彦译、上海译文出版社 2017 年精装版；若与《美丽新世界》对读，注意两书对「快乐」的处理并不相同。",
+        "reading_note_en": "Read the first section to establish the causal line about who abandoned reading first. Then dwell on Beatty's account in the second section — no decree came from the government — which is the book's most counter-intuitive claim, and set it beside Faber's remark that people simply stopped reading on their own. The third section moves quickly and can be taken in one sitting. Keep one tension in view: in 1953 Bradbury worried about books being removed from shelves, while in a 2007 interview he said readers had mistaken his subject and that the book was about mass media marginalising literature. That shift is itself material for argument. The Chinese edition by Yu Eryan (Shanghai Translation Publishing House, 2017) is the one to use. If reading it alongside Brave New World, note that the two books treat pleasure very differently."
+      }
+    },
+    {
+      "slug": "experience-and-education",
+      "category": "education",
+      "title_zh": "经验与教育",
+      "title_en": "Experience and Education",
+      "author": "john-dewey",
+      "author_zh": "约翰·杜威",
+      "author_en": "John Dewey",
+      "nationality_zh": "美国",
+      "nationality_en": "American",
+      "year": 1938,
+      "original_language": "en",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "不是所有经验都有教育价值：判断一次学习，要看它把人带向哪里",
+      "theme_en": "Not every experience is educative: judge a lesson by where it leads the learner next",
+      "tags": ["education", "pedagogy", "learning", "critical-thinking", "philosophy", "classics"],
+      "topics": ["education", "philosophy"],
+      "prose": {
+        "description_zh": "1938 年由 Kappa Delta Pi 出版，是杜威晚年的一部不足百页的小书，源自一组讲演，也是他对四十余年教育思想与改革实践的自我修正。写作背景是进步教育与旧式灌输教育的对峙：杜威拒绝站队，指出两边都缺少一套关于「经验」的可靠理论。全书的核心判断只有一句却很硬——并非一切经验都有教育价值，有些经验是反教育的，它会让后续经验变得更窄、更钝。由此他提出两条判据：经验的连续性（这次经历是否打开后续更丰富、更有方向的经验）与交互作用（学习者既有的习惯、前见与当下情境如何共同生成结果）。后面的章节依次处理社会控制、自由的性质与目的的含义，把真正的自由界定为「理智的自由」——能够观察、判断、预见后果，而不是被别人的目的或一时冲动推着走。",
+        "description_en": "Published by Kappa Delta Pi in 1938, this is a short book of under a hundred pages from Dewey's later years, developed from a set of lectures and written as a revision of more than four decades of educational thought and reform. Its context was the stand-off between progressive schooling and traditional instruction, and Dewey declines to take a side: both camps, he argues, lack a defensible theory of experience. The central claim is compact and hard — not all experiences are educative, and some are mis-educative, narrowing and blunting the experiences that follow. From it he derives two criteria: continuity, whether an experience opens onto richer and more directed experience later, and interaction, how a learner's existing habits and preconceptions combine with the present situation to produce the outcome. Later chapters take up social control, the nature of freedom and the meaning of purpose, defining genuine freedom as freedom of intelligence: the capacity to observe, judge and anticipate consequences rather than being pushed along by another person's ends or by momentary impulse.",
+        "why_read_zh": "因为它在 AI 时代给出了一个比「学到了什么」更硬的判据：经历过，不等于被教育过。杜威的反直觉之处在于，他是进步教育最重要的理论来源，却回头批评进步教育把「有活动」当成「有学习」；同样，传统教育的满堂灌也不是答案。可迁移的是两条判据——连续性与交互作用：一次学习是否让人以后能提出更好的问题、是否能迁移到新情境，而不是当场表现得多投入。当内容、摘要与答案都可以由模型即时生成，「接触过材料」几乎免费，判断教育是否发生就只能看它改变了什么后续路径。它也有明确的对手：传统派会问，若经验的质量由教师判断，知识结构与学科 rigor 由谁保证；进步派会问，教师凭什么有权判定某些经验「反教育」——两边都是严肃的反对，而不是礼貌的分歧。读完改变的是提问方式：从「这堂课覆盖了什么」变成「这次经验把学习者带向了哪里，以及他以后会怎样提问」。 经典性证据：① 维基百科有独立书籍条目 Experience and Education (book)（1938，Kappa Delta Pi，91 页），条目含章节结构与核心论点，非仅作者页提及；② 学术引用：OpenAlex 对该书 1938 年版记录被引 6,918 次、1986 年版记录 13,571 次（版本合并口径不同，取较保守的 6,918 次）——本次 Google Scholar 因验证码拦截未能访问，故此条按替代学术索引口径列出并明确标注，非 Google Scholar 数字；③ 课程采用旁证：George Mason University 教育学院研究生课程大纲（EDUC 612 等）把 Dewey (1938) 第 3、6 章列为指定阅读，Routledge《Foundations of Education》教材收录该书第 7 章作为经典文本——此项不作为「≥2 所顶尖大学课程必读」门槛项计入；④ 中文版正式出版：盛群力译《经验与教育：汉英双语版》，中国轻工业出版社「万千教育」，微信读书已上架。豆瓣、Goodreads 评分与评价人数、微信读书推荐值本次均未获取，故不列为证据。",
+        "why_read_en": "Because it offers a test harder than what did you learn: having had an experience is not the same as having been educated. The counter-intuitive move is that Dewey, the leading theoretical source for progressive education, turns back to criticise it for treating activity as evidence of learning, while refusing the traditional lecture as an answer either. What transfers are two criteria — continuity and interaction. Ask whether a piece of learning enables better questions later and whether it travels to a new situation, not how engaged the room looked at the time. When content, summaries and answers can be generated instantly, exposure to material is almost free, and the only way to tell whether education occurred is to see which subsequent paths it changed. The position has clear opponents. Traditionalists ask who guarantees structure and disciplinary rigour if teachers judge the quality of experience; progressives ask by what authority a teacher declares some experiences mis-educative. Both are serious objections rather than polite differences of emphasis. What changes is how you ask: from what did the lesson cover to where did the experience take the learner, and how will they frame questions afterwards. Evidence of standing: (1) a standalone Wikipedia article, Experience and Education (book), giving 1938, Kappa Delta Pi and 91 pages, with chapter structure and argument rather than a passing mention on an author page; (2) scholarly citation: OpenAlex records 6,918 citations for the 1938 record and 13,571 for a 1986 record, with different edition-merging rules, so the more conservative 6,918 is used here — Google Scholar was inaccessible behind a CAPTCHA on this run, so this item is explicitly labelled as an alternative academic index and is not presented as a Google Scholar figure; (3) corroborating course adoption: graduate syllabi in the College of Education at George Mason University, including EDUC 612, assign chapters 3 and 6 of Dewey (1938), and Routledge's Foundations of Education anthology reprints chapter 7 as a classic text, offered as context and not counted under the two-top-university requirement; (4) an officially published Chinese edition, Jing Yan Yu Jiao Yu, bilingual, translated by Sheng Qunli (China Light Industry Press, Wanqian Jiaoyu), available on WeRead. Douban and Goodreads ratings and WeRead recommendation values were not obtained and are not cited.",
+        "core_ideas_zh": [
+          "并非一切经验都有教育价值：有些经验是 mis-educative（反教育的），它让人后续的判断更窄、更懒、更难再生长。把「经历过」当「学到了」，是教育里最便宜的偷换。",
+          "两条判据替代口号：连续性看这次经验是否打开更丰富、更有方向的后续经验；交互作用看学习者已有的习惯、前见与当下情境如何共同生成结果。判断一节好课，两问即可，不必依赖学生当场是否投入。",
+          "拒绝新旧二元：传统教育忽略冲动与欲望作为动力，进步教育又容易把一时的冲动直接当成目的。杜威要的不是折中，而是先补上一套关于经验的理论，再谈方法。",
+          "自由是理智的自由，不是免除约束：真正要争取的是能观察、能判断、能预见后果的能力；被别人的目的安排，或被自己未经审视的欲望推着走，同样不自由。",
+          "目的必须被学习者自己预见：教育中的目的若只是教师写在教案里的外部目标，学生就只是在执行；只有当学生能看见行为后果并据此调整，目的才成为他自己的。"
+        ],
+        "core_ideas_en": [
+          "Not every experience is educative. Some are mis-educative, leaving later judgement narrower, lazier and less able to grow. Treating having had an experience as having learned something is the cheapest substitution in education.",
+          "Two criteria replace slogans. Continuity asks whether an experience opens onto richer, more directed experience afterwards; interaction asks how the learner's existing habits and preconceptions combine with the present situation to produce the outcome. Two questions suffice to judge a lesson, without relying on how engaged the room appeared.",
+          "Refusing the old-versus-new binary: traditional education ignores impulse and desire as sources of movement, while progressive education too easily treats a momentary impulse as a purpose. Dewey wants not a compromise but a theory of experience before a method.",
+          "Freedom is freedom of intelligence, not absence of constraint. What has to be won is the capacity to observe, judge and anticipate consequences; being directed by another person's ends and being pushed by unexamined impulse are equally unfree.",
+          "Purpose has to be anticipated by the learner. If the purpose of a lesson exists only as an external target in the teacher's plan, the student is merely executing; only when the learner can see the consequences of an action and adjust accordingly does the purpose become their own."
+        ],
+        "key_questions_zh": [
+          "当答案可以即时生成，「接触过一份材料」还算不算一次有教育价值的经验？",
+          "如果一次很投入的课堂让学习者以后更不愿追问，它究竟是教育还是反教育？",
+          "教师凭什么判断哪些经验有教育价值，这个判断权应如何被约束？",
+          "把自由理解为理智的自由之后，纪律与自由还是对立关系吗？"
+        ],
+        "key_questions_en": [
+          "When answers can be generated instantly, does exposure to a text still count as an educative experience?",
+          "If an absorbing lesson leaves a learner less willing to ask questions afterwards, was it education or mis-education?",
+          "By what authority does a teacher decide which experiences are educative, and how should that authority be constrained?",
+          "Once freedom is understood as freedom of intelligence, are discipline and freedom still opposites?"
+        ],
+        "who_should_read_zh": "设计课程、培训与学习产品、需要判断「这次活动到底有没有让人变强」的人；对 AI 助教、自动摘要与个性化推送抱有期待又疑虑的教师；以及任何被「用户体验很好」这类指标说服过的管理者。篇幅很短，但每一章都在收紧定义，不适合想找课堂活动清单或速成教学法的读者。",
+        "who_should_read_en": "People designing curricula, training and learning products who must judge whether an activity actually made anyone stronger; teachers both hopeful and uneasy about AI tutors, automatic summaries and personalised feeds; and managers who have ever been persuaded by a metric such as excellent user experience. The book is very short, but each chapter tightens a definition. It is not for readers after a checklist of classroom activities or a quick teaching method.",
+        "reading_note_zh": "篇幅不到百页，建议一次读完再回头查。先读提出「并非一切经验都有教育价值」的开篇几章，把连续性（continuity）与交互作用（interaction）两条判据写下来；再读关于社会控制、自由的性质与目的的含义三章，看杜威如何把「自由」重新定义为理智的自由，而不是不加约束。读时始终带着一个对照：作者是进步教育的理论源头，却在批评进步教育，这个反身姿态是全书最容易被略过的部分。可与本站已收录的《民主主义与教育》《爱弥儿》《去学校化社会》对读，但注意这本处理的是「经验的质量」，不是制度设计。中文版可读盛群力译汉英双语版。",
+        "reading_note_en": "At under a hundred pages it is best read in one sitting and then revisited. Begin with the opening chapters that state not all experiences are educative, and write down the two criteria, continuity and interaction. Then take the chapters on social control, the nature of freedom and the meaning of purpose, where freedom is redefined as freedom of intelligence rather than the absence of constraint. Keep one contrast in view throughout: the author is the theoretical source of progressive education and is here criticising it, and that reflexive turn is the part most easily missed. It pairs with Democracy and Education, Emile and Deschooling Society already in this library, though those address institutional design while this one addresses the quality of experience. The bilingual Chinese edition by Sheng Qunli is the one to use."
+      }
+    }
+  ]
+}
