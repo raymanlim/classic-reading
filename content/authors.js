@@ -1999,6 +1999,19 @@ export const authors = {
     ideas_zh: ['判断模型是否危险，看不透明、规模化、毁灭性三判据，而非算法复杂度', '模型不描述现实而是分配机会，预测通过反馈回路把自己变成结果', '公平难以量化，因此在以效率为目标的函数中被系统性排除', '问责与可申诉性是制度问题，不能靠模型自身的精度解决'],
     ideas_en: ['Judge a model by opacity, scale and damage, not by algorithmic sophistication', 'Models allocate opportunity rather than describe reality, and predictions turn themselves into outcomes through feedback loops', 'Fairness resists quantification and is therefore systematically excluded from objective functions built around efficiency', 'Accountability and appeal are institutional questions that accuracy alone cannot settle']
   },
+  'ray-bradbury': {
+    name_en: 'Ray Bradbury',
+    name_zh: '雷·布拉德伯里',
+    life: '1920–2012',
+    nationality_zh: '美国',
+    nationality_en: 'American',
+    role_zh: '小说家、诗人、编剧',
+    role_en: 'Novelist, poet and screenwriter',
+    bio_zh: '美国作家，1920 年生于伊利诺伊州沃基根，1943 年起成为职业写作者，2012 年卒于洛杉矶。代表作《火星编年史》（1950）与《华氏451》（1953），后者由 1951 年中篇《消防员》扩写而来，1953 年由 Ballantine Books 出版，先后获 1954 年美国艺术与文学学会文学奖、1954 年加州联邦俱乐部金奖、1984 年普罗米修斯名人堂奖与 2004 年回溯雨果奖。他晚年反复说明，《华氏451》写的不是政府审查，而是大众媒介与娱乐如何让文学阅读被边缘化——焚书的元凶是公众而非国家。另获 2000 年美国国家图书基金会卓越成就奖、2004 年美国国家艺术奖章与 2007 年普利策特别褒扬奖。',
+    bio_en: 'American writer, born in Waukegan, Illinois, in 1920, a professional author from 1943 and died in Los Angeles in 2012. His best-known works are The Martian Chronicles (1950) and Fahrenheit 451 (1953), the latter expanded from the 1951 novella The Fireman and published by Ballantine Books in 1953; it received the 1954 American Academy of Arts and Letters Award in Literature, the 1954 Commonwealth Club of California Gold Medal, the 1984 Prometheus Hall of Fame Award and a 2004 Retro Hugo Award. In later years he insisted repeatedly that the novel was not about state censorship but about mass media and entertainment marginalising the reading of literature, and that the culprit was the public rather than the government. He also received the 2000 National Book Foundation Medal for Distinguished Contribution to American Letters, the 2004 National Medal of Arts and a 2007 Pulitzer Prize Special Citation.',
+    ideas_zh: ['焚书不必从禁令开始：当阅读变得不必要，书会自己消失', '技术、大规模娱乐与群体压力足以完成审查，无需一纸法令', '删改有多个作者，每个群体都觉得自己有权撕掉一页', '被压缩以适应短注意力的文本，等于被提前烧过一次'],
+    ideas_en: ['Book burning need not begin with a ban: once reading becomes unnecessary, books vanish on their own', 'Technology, mass entertainment and group pressure can accomplish censorship without any decree', 'Revision has many authors, and every group feels entitled to tear out a page', 'A text abridged for a shorter attention span has already been burned once']
+  },
 };
 
 export default authors;
