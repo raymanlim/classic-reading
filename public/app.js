@@ -119,7 +119,8 @@
       }
     });
 
-    if (window.matchMedia) {
+    if (window.matchMedia && !initTheme._mqBound) {
+      initTheme._mqBound = true;
       var mq = window.matchMedia('(prefers-color-scheme: dark)');
       var onChange = function () {
         if (currentPref() === 'system') apply('system', false);
@@ -564,8 +565,14 @@
    *      尊重访客选择，不做任何 autoplay 尝试）。
    *    - 面板开合、音量、播放位置写入 localStorage；页面切换后恢复进度，
    *      但仍不自动播放，避免静态站翻页时突然出声。
+   *    - 幂等：软导航（PJax）后页面其它模块会重新初始化，但播放器 DOM
+   *      常驻 body 末尾不替换，audio 实例不变——initBgm 绝不可重跑，
+   *      否则事件监听叠加会导致进度重复保存等问题。
    * --------------------------------------------------------------- */
+  var bgmInited = false;
   function initBgm() {
+    if (bgmInited) return;
+    bgmInited = true;
     var root = $('[data-bgm]');
     if (!root) return;
     var audio = $('#bgm-audio', root);
@@ -708,6 +715,120 @@
     }
   }
 
+  /* ---------------------------------------------------------------
+   * 9. 软导航（PJax）：站内翻页不整页刷新，背景音乐持续播放
+   *    - 拦截同源 HTML 链接 → fetch 目标页 → 替换 header/main/footer/
+   *      title/语言标记 → 重跑除播放器外的模块初始化 → pushState
+   *    - 播放器 DOM 常驻 body 末尾（不在替换区），audio 实例不变，
+   *      播放中的音乐跨页面继续；进度照常写入 localStorage
+   *    - 渐进增强 + 失败回退：任何异常（fetch/解析/目标页缺标记）
+   *      立即降级为 location.href 整页跳转，功能零风险
+   * --------------------------------------------------------------- */
+  function initSoftNav() {
+    /* 软导航替换后需要重跑的模块（播放器除外，见 initBgm 幂等保护） */
+    function reinit() {
+      initLangMemory();
+      initTheme();
+      initMobileNav();
+      initLibrary();
+      initBookReadingToggle();
+      initMyReading();
+      initSearch();
+    }
+
+    function swapPage(html, url, push) {
+      var doc = new DOMParser().parseFromString(html, 'text/html');
+      var newMain = doc.querySelector('#main');
+      var newHeader = doc.querySelector('.site-header');
+      var newFooter = doc.querySelector('.site-footer');
+      var title = doc.querySelector('title');
+      var newBody = doc.body;
+      /* 目标页必须是同构页面：缺内容区或没有播放器标记则整页跳转 */
+      if (!newMain || !newHeader || !newFooter ||
+          !newBody.querySelector('[data-bgm]') || !newBody.querySelector('#bgm-audio')) {
+        location.href = url;
+        return;
+      }
+      document.querySelector('.site-header').innerHTML = newHeader.innerHTML;
+      document.querySelector('#main').innerHTML = newMain.innerHTML;
+      document.querySelector('.site-footer').innerHTML = newFooter.innerHTML;
+      if (title) document.title = title.textContent;
+      /* 语言标记同步（跨语言软导航时 body/根节点属性跟随目标页） */
+      if (newBody.getAttribute('data-lang')) {
+        document.body.setAttribute('data-lang', newBody.getAttribute('data-lang'));
+      }
+      if (newBody.className) {
+        document.body.className = newBody.className;
+      }
+      reinit();
+      window.scrollTo(0, 0);
+      if (push) history.pushState({ soft: true }, '', url);
+      /* 播放器在 footer 之后、不在替换区：audio 实例存活，音乐不断 */
+    }
+
+    function isValidTarget(a) {
+      if (a.getAttribute('target') === '_blank') return false;
+      if (a.hasAttribute('download')) return false;
+      var href = a.getAttribute('href') || '';
+      if (!href || href.charAt(0) === '#') return false;
+      if (href.indexOf('mailto:') === 0 || href.indexOf('tel:') === 0) return false;
+      try {
+        var u = new URL(href, location.href);
+        if (u.origin !== location.origin) return false;
+        /* sitemap / 静态资源不软导航 */
+        if (u.pathname === '/sitemap.xml' || /\.(xml|pdf|epub|mobi|azw3|txt|mp3|jpg|png|svg|ico)$/i.test(u.pathname)) return false;
+        return true;
+      } catch (e) {
+        return false;
+      }
+    }
+
+    document.addEventListener('click', function (ev) {
+      var a = ev.target.closest ? ev.target.closest('a[href]') : null;
+      if (!a || !isValidTarget(a)) return;
+      if (ev.defaultPrevented) return;
+      /* 修饰键 / 中键 / 右键交给浏览器原生行为（新标签等） */
+      if (ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey || ev.button === 1 || ev.button === 2) return;
+      var url = a.getAttribute('href');
+      try {
+        var abs = new URL(url, location.href);
+        if (abs.pathname === location.pathname && abs.search === location.search) {
+          /* 同页（如语言切换落到当前页）仍走软导航以保持一致性 */
+        }
+        url = abs.pathname + abs.search + abs.hash;
+      } catch (e) { return; }
+      ev.preventDefault();
+      /* 同页仅 hash 变化：不 fetch，原生滚动即可（锚点跳转） */
+      try {
+        var cur = new URL(location.href);
+        var nxt = new URL(url, location.href);
+        if (nxt.pathname === cur.pathname && nxt.search === cur.search) {
+          if (nxt.hash) {
+            history.pushState({ soft: true }, '', url);
+            var t = document.querySelector(nxt.hash);
+            if (t) t.scrollIntoView();
+          }
+          return;
+        }
+      } catch (e2) { /* 解析失败则继续走 fetch */ }
+      fetch(url, { credentials: 'same-origin', headers: { 'X-CL-SoftNav': '1' } })
+        .then(function (r) {
+          if (!r.ok) throw new Error('softnav http ' + r.status);
+          return r.text();
+        })
+        .then(function (html) { swapPage(html, url, true); })
+        .catch(function () { location.href = url; });
+    });
+
+    /* 浏览器前进 / 后退同样走软导航，保持音乐不断 */
+    window.addEventListener('popstate', function () {
+      fetch(location.pathname + location.search, { credentials: 'same-origin', headers: { 'X-CL-SoftNav': '1' } })
+        .then(function (r) { return r.ok ? r.text() : Promise.reject(new Error('softnav http ' + r.status)); })
+        .then(function (html) { swapPage(html, location.pathname + location.search, false); })
+        .catch(function () { location.reload(); });
+    });
+  }
+
   /* --------------------------------------------------------------- */
   function init() {
     initLangMemory();
@@ -718,6 +839,7 @@
     initMyReading();
     initSearch();
     initBgm();
+    initSoftNav();
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
