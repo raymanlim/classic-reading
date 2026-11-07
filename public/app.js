@@ -625,13 +625,16 @@
     function openPanel(shouldPlay) {
       panel.hidden = false;
       toggle.setAttribute('aria-expanded', 'true');
-      if (shouldPlay) play();
+      /* shouldPlay 时仅在音频从未开始播放时续播/起播：
+         若用户主动暂停过，展开面板不强行续播，由用户按播放键决定 */
+      if (shouldPlay && audio.paused && audio.currentTime === 0) play();
       save();
     }
     function closePanel() {
+      /* 收起控制台 ≠ 暂停：关闭面板只隐藏 UI，播放继续；
+         只有面板内暂停键（或再次点击播放键）才停止 */
       panel.hidden = true;
       toggle.setAttribute('aria-expanded', 'false');
-      pause();
       save();
     }
     /* 悬停 / 聚焦时只取元数据，提前恢复进度，不播放、不下载整曲 */
