@@ -68,6 +68,16 @@ export const articleVideos = {
   'the-secondhand-mind': { url: 'https://youtu.be/F-SxQu3IdrM', episode: 24 },
   // 第 25 期
   'when-interest-became-a-passion': { url: 'https://youtu.be/OHZ9CxLl_IM', episode: 25 },
+  // 第 26 期
+  'the-evidence-of-sight': { url: 'https://youtu.be/KkL3j-RVXQ4', episode: 26 },
+  // 第 27 期
+  'the-illusion-of-control': { url: 'https://youtu.be/Il5ls8yb7Tw', episode: 27 },
+  // 第 28 期
+  'the-noise-in-judgment': { url: 'https://youtu.be/0eGPwpEeN1w', episode: 28 },
+  // 第 29 期
+  'the-invention-of-inevitability': { url: 'https://youtu.be/T5QTZiN2b6E', episode: 29 },
+  // 第 30 期
+  'the-answer-already-filled-in': { url: 'https://youtu.be/aCICkckolmc', episode: 30 },
 };
 
 /** 「不做-清单指南类」：明确不会制作视频，永久留空 */
@@ -82,8 +92,6 @@ export const videoExcluded = [
 
 /** 待制作：视频上线后移入 articleVideos（含 CSV 未覆盖的新增文章） */
 export const videoPending = [
-  'the-evidence-of-sight',
-  'the-illusion-of-control',
-  'the-invention-of-inevitability',
-  'the-noise-in-judgment',
+  'the-cost-of-exemption',
+  'understanding-by-making',
 ];

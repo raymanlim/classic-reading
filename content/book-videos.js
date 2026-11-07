@@ -46,5 +46,8 @@ export const bookVideos = {
   'thinking-fast-and-slow': { url: 'https://youtu.be/k-i115ey4U8', episode: '' },
   'the-innovators-dilemma': { url: 'https://youtu.be/0xmu-99IFos', episode: '' },
   // 现行 v1.1（旧版已删，勿回填旧链接）
-  'thinking-in-systems': { url: 'https://youtu.be/wRb-dsFClV4', episode: '' }
+  'thinking-in-systems': { url: 'https://youtu.be/wRb-dsFClV4', episode: '' },
+  'the-design-of-everyday-things': { url: 'https://youtu.be/_ZEvsXLODtI', episode: '' },
+  'letters-from-a-stoic': { url: 'https://youtu.be/KStTNfV83ok', episode: '' },
+  'on-liberty': { url: 'https://youtu.be/UVpNAs513-k', episode: '' }
 };
