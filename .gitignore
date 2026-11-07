@@ -37,3 +37,6 @@ nul
 
 # 本地 dist 快照备份（发布前留档，不属仓库内容）
 dist.local-backup-*/
+
+# playwright-cli 会话快照（本地验证产物）
+.playwright-cli/

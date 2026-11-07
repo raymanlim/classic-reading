@@ -399,6 +399,24 @@
       "description": "The page you are looking for could not be found."
     }
   },
+  "bgm": {
+    "label": "Background music",
+    "toggle_text": "A Quiet Place",
+    "title": "A Quiet Place",
+    "title_alt": "一处安静的地方",
+    "credit": "RAYMAN PERSONAL THEME · ORIGINAL INSTRUMENTAL",
+    "motto": "Quiet light, measured thought",
+    "motto_sub": "A pause for thinking between words and images.",
+    "open": "Open background music · A Quiet Place",
+    "close": "Collapse player",
+    "play": "Play",
+    "pause": "Pause",
+    "volume": "Volume",
+    "mute": "Mute",
+    "unmute": "Unmute",
+    "progress": "Playback position",
+    "hint": "Plays only after you click — never automatically."
+  },
   "source": {
     "anzhengming": "AZM's list",
     "xiaomingshuo": "XMS's list",

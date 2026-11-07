@@ -1363,6 +1363,195 @@ html[data-theme="dark"] a:focus-visible .cover__img { filter: none; }
   .grid--books .book-card__link .cover { width: 76px; flex: 0 0 76px; }
 }
 
+/* ---------- 22b. 背景音乐播放器（右下角 · 默认收起 / 不自动播放） ----------
+   视觉锚点沿用「安静的地方」深色胶囊 + 米金声波；深浅色主题下保持一致，
+   因此组件自带一套固定的暗色变量，不随站点主题 token 反转。
+   ------------------------------------------------------------------ */
+.bgm {
+  --bgm-surface: #26241f;
+  --bgm-surface-2: #1e1d19;
+  --bgm-fg: #f5f0e5;
+  --bgm-dim: rgba(245, 240, 229, 0.58);
+  --bgm-accent: #cbb183;
+  --bgm-line: rgba(203, 177, 131, 0.26);
+  position: fixed;
+  right: clamp(12px, 2.2vw, 28px);
+  bottom: clamp(12px, 2.2vw, 24px);
+  z-index: 90;
+  font-family: var(--font-sans);
+  color: var(--bgm-fg);
+  -webkit-font-smoothing: antialiased;
+}
+.bgm[hidden], .bgm__panel[hidden] { display: none !important; }
+
+/* 收起态：深色胶囊 */
+.bgm__toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  height: 34px;
+  padding: 0 1.1rem 0 0.95rem;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  border-radius: 999px;
+  background: var(--bgm-surface);
+  color: var(--bgm-fg);
+  font-family: var(--font-serif);
+  font-size: 0.84rem;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  box-shadow: 0 10px 24px -10px rgba(0, 0, 0, 0.65), 0 1px 3px rgba(0, 0, 0, 0.3);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.bgm__toggle:hover { transform: translateY(-2px); box-shadow: 0 14px 28px -10px rgba(0, 0, 0, 0.7); }
+.bgm__toggle:focus-visible, .bgm button:focus-visible, .bgm input:focus-visible {
+  outline: 2px solid var(--bgm-accent);
+  outline-offset: 3px;
+}
+
+/* 声波：暂停时静止，播放时才律动 */
+.bgm__eq { display: inline-flex; align-items: center; gap: 2px; height: 14px; flex: 0 0 auto; }
+.bgm__eq i {
+  display: block;
+  width: 2px;
+  border-radius: 2px;
+  background: var(--bgm-accent);
+  transform-origin: center;
+  animation: bgm-eq 0.85s ease-in-out infinite alternate;
+  animation-play-state: paused;
+}
+.bgm__eq i:nth-child(1) { height: 6px;  animation-delay: -0.15s; }
+.bgm__eq i:nth-child(2) { height: 13px; animation-delay: -0.55s; }
+.bgm__eq i:nth-child(3) { height: 9px;  animation-delay: -0.30s; }
+.bgm__eq i:nth-child(4) { height: 4px;  animation-delay: -0.75s; }
+.bgm.is-playing .bgm__eq i { animation-play-state: running; }
+@keyframes bgm-eq { from { transform: scaleY(0.45); } to { transform: scaleY(1.12); } }
+
+/* 展开态：封面卡片 */
+.bgm__panel {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 12px);
+  width: min(300px, calc(100vw - 24px));
+  border: 1px solid var(--bgm-line);
+  border-radius: 9px;
+  background: var(--bgm-surface-2);
+  box-shadow: 0 28px 64px -24px rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  animation: bgm-in 0.2s ease-out;
+}
+@keyframes bgm-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.bgm__art { position: relative; aspect-ratio: 760 / 362; background: #2a2b33; }
+.bgm__art img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.bgm__art::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(to bottom, transparent 55%, rgba(30, 29, 25, 0.5));
+}
+.bgm__close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  border: 1px solid var(--bgm-line);
+  border-radius: 50%;
+  background: rgba(30, 29, 25, 0.65);
+  color: var(--bgm-fg);
+  cursor: pointer;
+}
+.bgm__close:hover { background: var(--bgm-accent); color: #1e1d19; }
+.bgm__body { padding: 0.9rem 1rem 1rem; text-align: center; }
+.bgm__title { margin: 0; font-family: var(--font-serif); font-size: 1.12rem; font-style: italic; letter-spacing: 0.04em; }
+.bgm__title-alt { margin: 0.15rem 0 0; font-size: 0.8rem; letter-spacing: 0.2em; color: var(--bgm-dim); }
+.bgm__credit { margin: 0.55rem 0 0; font-family: var(--font-mono); font-size: 0.56rem; letter-spacing: 0.08em; color: var(--bgm-dim); }
+.bgm__motto { margin: 0.85rem 0 0; font-family: var(--font-serif); font-size: 0.84rem; letter-spacing: 0.12em; }
+.bgm__motto-sub { margin: 0.2rem 0 0; font-size: 0.66rem; letter-spacing: 0.04em; color: var(--bgm-dim); }
+
+/* 控件 */
+.bgm__controls { display: flex; align-items: center; gap: 0.6rem; margin-top: 0.9rem; }
+.bgm__play, .bgm__mute {
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 1px solid var(--bgm-line);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--bgm-fg);
+  cursor: pointer;
+}
+.bgm__play { background: var(--bgm-accent); border-color: transparent; color: #1e1d19; }
+.bgm__play:hover { filter: brightness(1.08); }
+.bgm__icon-pause, .bgm__icon-muted { display: none; }
+.bgm.is-playing .bgm__icon-play, .bgm.is-muted .bgm__icon-vol { display: none; }
+.bgm.is-playing .bgm__icon-pause, .bgm.is-muted .bgm__icon-muted { display: block; }
+.bgm__timeline { flex: 1 1 auto; min-width: 0; }
+.bgm__seek, .bgm__volume {
+  -webkit-appearance: none;
+  appearance: none;
+  display: block;
+  width: 100%;
+  height: 3px;
+  margin: 0;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  background: rgba(245, 240, 229, 0.22);
+}
+.bgm__seek {
+  background: linear-gradient(to right,
+    var(--bgm-accent) 0%, var(--bgm-accent) var(--bgm-progress, 0%),
+    rgba(245, 240, 229, 0.22) var(--bgm-progress, 0%));
+}
+.bgm__volume {
+  margin-top: 0.8rem;
+  background: linear-gradient(to right,
+    var(--bgm-accent) 0%, var(--bgm-accent) var(--bgm-vol, 35%),
+    rgba(245, 240, 229, 0.22) var(--bgm-vol, 35%));
+}
+.bgm__seek::-webkit-slider-thumb, .bgm__volume::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--bgm-accent);
+  box-shadow: 0 0 0 2px var(--bgm-surface-2);
+}
+.bgm__seek::-moz-range-thumb, .bgm__volume::-moz-range-thumb {
+  width: 10px;
+  height: 10px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--bgm-accent);
+}
+.bgm__time {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.3rem;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: var(--bgm-dim);
+}
+.bgm__hint { margin: 0.6rem 0 0; font-size: 0.6rem; letter-spacing: 0.03em; color: var(--bgm-dim); }
+
+@media (max-width: 420px) {
+  .bgm__toggle { height: 32px; font-size: 0.78rem; padding: 0 0.9rem 0 0.8rem; }
+  .bgm__panel { bottom: calc(100% + 10px); }
+}
+@media print { .bgm { display: none !important; } }
+
 /* ---------- 23. Motion & print ---------- */
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }

@@ -558,6 +558,153 @@
     });
   }
 
+  /* ---------------------------------------------------------------
+   * 8. 右下角背景音乐播放器
+   *    - 默认收起、默认不播放；只有用户点击才播放（浏览器自动播放策略 +
+   *      尊重访客选择，不做任何 autoplay 尝试）。
+   *    - 面板开合、音量、播放位置写入 localStorage；页面切换后恢复进度，
+   *      但仍不自动播放，避免静态站翻页时突然出声。
+   * --------------------------------------------------------------- */
+  function initBgm() {
+    var root = $('[data-bgm]');
+    if (!root) return;
+    var audio = $('#bgm-audio', root);
+    var toggle = $('[data-bgm-toggle]', root);
+    var panel = $('#bgm-panel', root);
+    var closeBtn = $('[data-bgm-close]', root);
+    var playBtn = $('[data-bgm-play]', root);
+    var muteBtn = $('[data-bgm-mute]', root);
+    var seek = $('[data-bgm-seek]', root);
+    var volume = $('[data-bgm-volume]', root);
+    var curEl = $('[data-bgm-current]', root);
+    var totalEl = $('[data-bgm-total]', root);
+    if (!audio || !toggle || !panel || !playBtn || !muteBtn || !seek || !volume) return;
+
+    var LS = 'cl-bgm';
+    var state = readJSON(LS, {});
+    if (!state || typeof state !== 'object') state = {};
+    var vol = typeof state.volume === 'number' && state.volume >= 0 && state.volume <= 1 ? state.volume : 0.35;
+    var savedTime = typeof state.time === 'number' && state.time > 0 ? state.time : 0;
+    var restored = false;
+    var lastSave = 0;
+
+    function save() {
+      state.volume = audio.volume;
+      state.time = audio.currentTime || 0;
+      state.open = !panel.hidden;
+      state.muted = audio.muted;
+      store(LS, JSON.stringify(state));
+    }
+    function fmt(sec) {
+      if (!isFinite(sec) || sec < 0) sec = 0;
+      var m = Math.floor(sec / 60);
+      var s = Math.floor(sec % 60);
+      return m + ':' + (s < 10 ? '0' : '') + s;
+    }
+    function syncPlay() {
+      var playing = !audio.paused && !audio.ended;
+      root.classList.toggle('is-playing', playing);
+      playBtn.setAttribute('aria-label', playing
+        ? playBtn.getAttribute('data-label-pause')
+        : playBtn.getAttribute('data-label-play'));
+      playBtn.setAttribute('aria-pressed', playing ? 'true' : 'false');
+    }
+    function syncMute() {
+      var muted = audio.muted || audio.volume === 0;
+      root.classList.toggle('is-muted', muted);
+      muteBtn.setAttribute('aria-label', muted
+        ? muteBtn.getAttribute('data-label-unmute')
+        : muteBtn.getAttribute('data-label-mute'));
+      muteBtn.setAttribute('aria-pressed', muted ? 'true' : 'false');
+    }
+    function play() {
+      var p = audio.play();
+      if (p && p.catch) p.catch(function () { syncPlay(); });
+    }
+    function pause() { audio.pause(); }
+    function openPanel(shouldPlay) {
+      panel.hidden = false;
+      toggle.setAttribute('aria-expanded', 'true');
+      if (shouldPlay) play();
+      save();
+    }
+    function closePanel() {
+      panel.hidden = true;
+      toggle.setAttribute('aria-expanded', 'false');
+      pause();
+      save();
+    }
+    /* 悬停 / 聚焦时只取元数据，提前恢复进度，不播放、不下载整曲 */
+    function prefetch() {
+      if (audio.preload === 'none') {
+        audio.preload = 'metadata';
+        audio.load();
+      }
+    }
+
+    audio.volume = vol;
+    audio.muted = !!state.muted;
+    volume.value = String(vol);
+    volume.style.setProperty('--bgm-vol', (vol * 100) + '%');
+    syncPlay();
+    syncMute();
+
+    audio.addEventListener('loadedmetadata', function () {
+      totalEl.textContent = fmt(audio.duration);
+      if (!restored && savedTime > 0 && savedTime < audio.duration - 1) {
+        try { audio.currentTime = savedTime; } catch (err) { /* 忽略不可寻址的流 */ }
+      }
+      restored = true;
+    });
+    audio.addEventListener('timeupdate', function () {
+      var dur = audio.duration || 0;
+      var pct = dur ? (audio.currentTime / dur) * 100 : 0;
+      seek.value = String(pct);
+      seek.style.setProperty('--bgm-progress', pct + '%');
+      curEl.textContent = fmt(audio.currentTime);
+      if (Date.now() - lastSave > 5000) { lastSave = Date.now(); save(); }
+    });
+    audio.addEventListener('play', syncPlay);
+    audio.addEventListener('pause', function () { syncPlay(); save(); });
+    audio.addEventListener('volumechange', function () {
+      volume.style.setProperty('--bgm-vol', (audio.volume * 100) + '%');
+      syncMute();
+    });
+
+    toggle.addEventListener('click', function () {
+      if (panel.hidden) openPanel(true);
+      else closePanel();
+    });
+    if (closeBtn) closeBtn.addEventListener('click', closePanel);
+    playBtn.addEventListener('click', function () { if (audio.paused) play(); else pause(); });
+    muteBtn.addEventListener('click', function () { audio.muted = !audio.muted; save(); });
+    seek.addEventListener('input', function () {
+      if (!audio.duration) return;
+      var pct = Number(seek.value);
+      audio.currentTime = (pct / 100) * audio.duration;
+      seek.style.setProperty('--bgm-progress', pct + '%');
+      curEl.textContent = fmt(audio.currentTime);
+    });
+    volume.addEventListener('input', function () {
+      audio.volume = Number(volume.value);
+      if (audio.volume > 0) audio.muted = false;
+      save();
+    });
+    toggle.addEventListener('mouseenter', prefetch, { once: true });
+    toggle.addEventListener('focus', prefetch, { once: true });
+    document.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Escape' && !panel.hidden) { closePanel(); toggle.focus(); }
+    });
+    window.addEventListener('pagehide', save);
+
+    /* 渐进增强：JS 可用时才显露组件；记住面板开合，但绝不自动播放 */
+    root.hidden = false;
+    if (state.open) {
+      panel.hidden = false;
+      toggle.setAttribute('aria-expanded', 'true');
+    }
+  }
+
   /* --------------------------------------------------------------- */
   function init() {
     initLangMemory();
@@ -567,6 +714,7 @@
     initBookReadingToggle();
     initMyReading();
     initSearch();
+    initBgm();
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);

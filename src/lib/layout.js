@@ -242,6 +242,69 @@ export function footer(lang, data) {
 }
 
 /* ------------------------------------------------------------------
+ * 右下角背景音乐播放器
+ * 默认收起、默认不自动播放：只有用户点击才播放。
+ * 容器带 hidden，JS 初始化后才显露 —— 禁用 JS 时不会留下无效按钮。
+ * ------------------------------------------------------------------ */
+export function bgmPlayer(lang) {
+  const audioSrc = `${ASSETS.audio}?v=${BUILD_ID}`;
+  const coverSrc = `${ASSETS.audioCover}?v=${BUILD_ID}`;
+  return `
+  <div class="bgm" data-bgm hidden>
+    <audio id="bgm-audio" preload="none" loop src="${audioSrc}"></audio>
+
+    <button class="bgm__toggle" type="button" data-bgm-toggle
+            aria-expanded="false" aria-controls="bgm-panel"
+            aria-label="${e(t(lang, 'bgm.open'))}" title="${e(t(lang, 'bgm.label'))}">
+      <span class="bgm__eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      <span class="bgm__toggle-text">${e(t(lang, 'bgm.toggle_text'))}</span>
+    </button>
+
+    <section class="bgm__panel" id="bgm-panel" aria-label="${e(t(lang, 'bgm.label'))}" hidden>
+      <div class="bgm__art">
+        <img src="${coverSrc}" alt="" width="760" height="362" loading="lazy" decoding="async">
+        <button class="bgm__close" type="button" data-bgm-close aria-label="${e(t(lang, 'bgm.close'))}">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor"
+               stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+      <div class="bgm__body">
+        <p class="bgm__title">${e(t(lang, 'bgm.title'))}</p>
+        <p class="bgm__title-alt">${e(t(lang, 'bgm.title_alt'))}</p>
+        <p class="bgm__credit">${e(t(lang, 'bgm.credit'))}</p>
+        <p class="bgm__motto">${e(t(lang, 'bgm.motto'))}</p>
+        <p class="bgm__motto-sub">${e(t(lang, 'bgm.motto_sub'))}</p>
+
+        <div class="bgm__controls">
+          <button class="bgm__play" type="button" data-bgm-play
+                  aria-label="${e(t(lang, 'bgm.play'))}"
+                  data-label-play="${e(t(lang, 'bgm.play'))}"
+                  data-label-pause="${e(t(lang, 'bgm.pause'))}">
+            <svg class="bgm__icon-play" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+            <svg class="bgm__icon-pause" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M7 5h3.4v14H7zM13.6 5H17v14h-3.4z"/></svg>
+          </button>
+          <div class="bgm__timeline">
+            <input class="bgm__seek" type="range" min="0" max="100" step="0.1" value="0"
+                   data-bgm-seek aria-label="${e(t(lang, 'bgm.progress'))}">
+            <div class="bgm__time"><span data-bgm-current>0:00</span><span data-bgm-total>--:--</span></div>
+          </div>
+          <button class="bgm__mute" type="button" data-bgm-mute
+                  aria-label="${e(t(lang, 'bgm.mute'))}"
+                  data-label-mute="${e(t(lang, 'bgm.mute'))}"
+                  data-label-unmute="${e(t(lang, 'bgm.unmute'))}">
+            <svg class="bgm__icon-vol" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M16 9a4 4 0 0 1 0 6"/></svg>
+            <svg class="bgm__icon-muted" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M17 9l4 6M21 9l-4 6"/></svg>
+          </button>
+        </div>
+        <input class="bgm__volume" type="range" min="0" max="1" step="0.01" value="0.35"
+               data-bgm-volume aria-label="${e(t(lang, 'bgm.volume'))}">
+        <p class="bgm__hint">${e(t(lang, 'bgm.hint'))}</p>
+      </div>
+    </section>
+  </div>`;
+}
+
+/* ------------------------------------------------------------------
  * 完整 HTML 文档
  * ------------------------------------------------------------------ */
 export function page({ lang, meta, body, currentPath = '', bodyClass = '', canonicalPath = null }) {
@@ -281,6 +344,7 @@ ${header(lang, currentPath)}
 ${body}
 </main>
 ${footer(lang, { buildDate: meta.buildDate || '' })}
+${bgmPlayer(lang)}
 <script src="${ASSETS.js}?v=${BUILD_ID}" defer></script>
 </body>
 </html>

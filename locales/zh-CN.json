@@ -399,6 +399,24 @@
       "description": "找不到你要访问的页面。"
     }
   },
+  "bgm": {
+    "label": "背景音乐",
+    "toggle_text": "安静的地方",
+    "title": "A Quiet Place",
+    "title_alt": "一处安静的地方",
+    "credit": "RAYMAN PERSONAL THEME · ORIGINAL INSTRUMENTAL",
+    "motto": "静而有光 · 思而有度",
+    "motto_sub": "在文字与光影之间，留住思考的时间。",
+    "open": "打开背景音乐 · 一处安静的地方",
+    "close": "收起播放器",
+    "play": "播放",
+    "pause": "暂停",
+    "volume": "音量",
+    "mute": "静音",
+    "unmute": "取消静音",
+    "progress": "播放进度",
+    "hint": "仅在你点击后播放，不会自动开始。"
+  },
   "source": {
     "anzhengming": "AZM推荐",
     "xiaomingshuo": "XMS推荐",

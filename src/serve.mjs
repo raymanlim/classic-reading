@@ -1,6 +1,9 @@
 /**
  * 本地预览服务器
  * 用法：node src/serve.mjs [port]
+ *
+ * 支持 HTTP Range（206）：音频资源需要字节范围请求才能拖动进度条。
+ * 线上 Cloudflare Pages 原生支持，本地预览必须等价，否则播放器行为不一致。
  */
 import { createServer } from 'node:http';
 import { existsSync, readFileSync, statSync } from 'node:fs';
@@ -24,7 +27,10 @@ const MIME = {
   '.xml': 'application/xml; charset=utf-8',
   '.txt': 'text/plain; charset=utf-8',
   '.ico': 'image/x-icon',
-  '.woff2': 'font/woff2'
+  '.woff2': 'font/woff2',
+  '.mp3': 'audio/mpeg',
+  '.ogg': 'audio/ogg',
+  '.m4a': 'audio/mp4'
 };
 
 function resolveFile(urlPath) {
@@ -45,7 +51,38 @@ const server = createServer((req, res) => {
     res.end(existsSync(fallback) ? readFileSync(fallback) : 'Not found');
     return;
   }
-  res.writeHead(200, { 'content-type': MIME[extname(file)] || 'application/octet-stream' });
+
+  const type = MIME[extname(file)] || 'application/octet-stream';
+  const size = statSync(file).size;
+  const range = req.headers.range;
+
+  if (range) {
+    const m = /^bytes=(\d*)-(\d*)$/.exec(range);
+    if (m) {
+      const start = m[1] ? Number(m[1]) : 0;
+      const end = m[2] ? Math.min(Number(m[2]), size - 1) : size - 1;
+      if (start <= end && start < size) {
+        const buf = readFileSync(file);
+        res.writeHead(206, {
+          'content-type': type,
+          'content-range': `bytes ${start}-${end}/${size}`,
+          'accept-ranges': 'bytes',
+          'content-length': end - start + 1
+        });
+        res.end(buf.subarray(start, end + 1));
+        return;
+      }
+      res.writeHead(416, { 'content-range': `bytes */${size}` });
+      res.end();
+      return;
+    }
+  }
+
+  res.writeHead(200, {
+    'content-type': type,
+    'accept-ranges': 'bytes',
+    'content-length': size
+  });
   res.end(readFileSync(file));
 });
 

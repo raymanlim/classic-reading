@@ -29,7 +29,9 @@ export const ASSETS = {
   css: '/assets/styles.css',
   js: '/assets/app.js',
   favicon: '/assets/favicon.svg',
-  og: '/assets/og.png'
+  og: '/assets/og.png',
+  audio: '/assets/a-quiet-place.mp3',
+  audioCover: '/assets/a-quiet-place-cover.jpg'
 };
 
 export default { SITE_URL, SITE, ASSETS, BUILD_ID };
