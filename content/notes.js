@@ -3434,6 +3434,756 @@ The judgement: take it as a reminder of what not understanding looks like, not a
     ],
     topics: ['science-and-nature', 'education', 'cognitive-science'],
   },
+  {
+    id: 'note-091',
+    slug: 'reminiscences-of-a-stock-operator-when-the-story-outruns-the-method',
+    book: 'reminiscences-of-a-stock-operator',
+    date: '2026-11-07',
+    voice: 'editorial',
+    key_insight_zh: `这本书真正记录的不是一套可复制的交易方法，而是叙事如何把一次幸存改写成一条规律；故事越好看，方法赖以成立的那些前提就越容易被当成多余细节删掉。`,
+    key_insight_en: `What the book actually records is not a reproducible trading method but the way a narrative turns one survival into a rule; the better the story reads, the more quietly the conditions that made it work are dropped.`,
+    thinking_zh: `这本书的关键在于它从不给方法，只给场景：一个交易者在特定市场结构里反复下注，靠的不是公式，而是对节奏与仓位的临场感受。读者容易把它归入经验之谈，其实文本更接近一份经过文学加工的个案记录。
+
+它真正改变的是「可复制」这个词的含义。书中那些判断依赖二十世纪初的市场：信息不对称、报价延迟、保证金规则与后来完全不同。抽掉这些条件，剩下的不是方法，而是一种气质——愿意等、敢认错、不与仓位谈感情。气质可以欣赏，却无法写成步骤。
+
+容易被忽略的一点是叙述者本身。勒菲弗以小说笔法整理利弗莫尔的口述，机警的对白、精准的转折都是叙事效果；一个被编辑过的主角不会在书里展示那些同样看对方向、却被等待成本拖垮的尝试。
+
+反方也要说清楚：把这本书整体归为幸存者偏差并不公平。它对「看对方向却拿不住」的描述，确实抓住了仓位与情绪之间的耦合，这一点不随交易制度更替而失效，至今仍是实盘里最贵的一课。
+
+判断因此应当收窄：把它当成一份关于「判断如何在压力下变形」的样本，而不是一套关于「怎样判断」的教程。值得带走的不是买卖时点，而是那条没被写进书里的前提——所有方法都只在产生它的市场结构里成立。`,
+    thinking_en: `What matters here is that the book offers scenes rather than a method. A trader places repeated bets inside a particular market structure, guided less by any formula than by a feel for timing and position size. Readers tend to file it under practical wisdom, when the text is closer to a literary case record.
+
+What it quietly changes is the meaning of the word reproducible. Those judgements depended on an early twentieth-century market: asymmetric information, delayed quotes, margin rules unlike anything operating later. Remove those conditions and what remains is not a procedure but a temperament — patience, a willingness to admit error, no emotional attachment to a position. A temperament can be admired; it cannot be written down as steps.
+
+The narrator is the detail most often missed. Edwin Lefèvre shaped Livermore's recollections with a novelist's hand, and the crisp exchanges and timely reversals are effects of storytelling. An edited protagonist does not display the equally correct attempts that were ground down by the cost of waiting.
+
+The counter-case deserves its weight. Reducing the book to survivorship bias is too easy. Its account of being right about direction yet unable to hold the position captures a real coupling between sizing and emotion, one that does not expire with a change in trading rules and remains among the most expensive lessons in live markets.
+
+The judgement should therefore narrow. Take it as a specimen of how judgement deforms under pressure, not as a manual for how to judge. What travels is not an entry point but the premise the book never states: every method holds only inside the market structure that produced it.`,
+    quote_zh: '',
+    quote_en: '',
+    questions_zh: [
+      `为什么把场景写成方法，会让适用条件最先消失？`,
+      `抽掉二十世纪初的市场结构之后，书里还剩什么？`,
+      `把这本书整体归为幸存者偏差，会漏掉什么？`,
+    ],
+    questions_en: [
+      `Why does turning scenes into a method make the conditions of applicability disappear first?`,
+      `What remains of the book once the early twentieth-century market structure is removed?`,
+      `What is lost if the book is dismissed entirely as survivorship bias?`,
+    ],
+    answers_zh: [
+      `因为方法要求可重复，就必须把每次判断所在的具体情境当作干扰项删掉；正是这些情境规定了判断为何有效。删得越干净，方法看起来越普适，也越说不清自己何时会失效。`,
+      `剩下的是一种气质：愿意等、敢认错、不与仓位谈感情。气质能被欣赏，却无法拆成步骤传给别人；离开原来的报价方式、保证金与信息落差之后，它不再指向任何具体操作。`,
+      `会漏掉它对仓位与情绪耦合的准确描述——看对方向却拿不住，这个现象不随交易制度更替而消失。叙事有偏不等于观察全错；该剔除的是普适性的宣称，不是观察本身。`,
+    ],
+    answers_en: [
+      `Because a method must be repeatable, it has to discard the concrete situation of each decision as noise — yet those situations are exactly what made the decision work. The cleaner the pruning, the more universal the method looks and the less it can say about when it would fail.`,
+      `A temperament: patience, a readiness to admit error, no attachment to a position. It can be admired but not broken into steps and handed on. Once the original quotes, margin rules and information gaps are gone, it points to no particular action.`,
+      `The accurate description of how sizing couples with emotion — being right about direction and still unable to hold on. That does not expire when trading rules change. A biased narrative is not a wholly false observation; what should be discarded is the claim of universality, not the observation.`,
+    ],
+    topics: ['investing', 'decision-making', 'risk'],
+  },
+  {
+    id: 'note-092',
+    slug: 'the-end-of-history-when-an-endpoint-is-not-a-forecast',
+    book: 'the-end-of-history',
+    date: '2026-11-07',
+    voice: 'editorial',
+    key_insight_zh: `这本书最容易被误读的地方，是把一个关于「承认如何被满足」的哲学论断读成了关于事件进程的预测；一旦换成后者，随后三十年的历史就足以把它推翻。`,
+    key_insight_en: `The most common misreading takes a philosophical claim about how the demand for recognition might be satisfied and treats it as a forecast about events; on that second reading, the following three decades are enough to refute it.`,
+    thinking_zh: `这本书的关键在于论证的层级。福山从黑格尔式的「承认的斗争」出发，问的是：有没有一种制度能够同时满足人对尊严与对平等承认的要求。自由民主被给出的答案，是一个在观念层面难以被超越的组合，而不是一张写着日期的日程表。
+
+它真正改变的是「终结」一词的用法。终结指的是没有更高形态可被调用，不等于冲突停止、制度不再倒退，更不等于所有社会都会收敛到同一套安排。把逻辑上的不可超越读成时间上的不再变化，是全书被批评得最猛烈、也最不必要的一处滑移。
+
+容易被忽略的一点是书里那个并不乐观的后半：「最后的人」在没有宏大斗争可打之后，会陷入琐碎的舒适与意义贫乏。作者自己给出的不是凯旋叙事，而是一种带着忧虑的诊断——制度的稳固可能以精神的扁平为代价。
+
+反方必须给足分量。冷战后数十年的制度回潮、大国竞争与民主质量的退化，确实让「收敛」这类预期落空；而把观念当作历史的主变量，也系统性低估了物质条件、地缘位置与组织能力。作者后来对政治衰败与国家能力的强调，等于承认了初版框架的这一缺口。
+
+判断因此是把两个问题分开：作为「何种制度在正当性上难以被替代」的提问，它仍值得认真对待；作为「世界将走向何处」的预判，它已经被事件检验过并且不成立。混淆这两者，称赞与嘲笑都会落错地方。`,
+    thinking_en: `The key to this book is the level at which the argument runs. Fukuyama starts from a Hegelian struggle for recognition and asks whether any institutional arrangement can satisfy both the demand for dignity and the demand for equal recognition. Liberal democracy is offered as a combination hard to surpass at the level of ideas, not as a timetable with dates attached.
+
+What it changes is the use of the word end. An end means no higher form remains available to be invoked; it does not mean conflict stops, that institutions never regress, or that every society converges on one arrangement. Reading logical unsurpassability as temporal immutability is the slide for which the book was criticised most fiercely and least necessarily.
+
+The detail easily missed is the far from triumphant second half. The last man, left with no great struggle to fight, sinks into trivial comfort and a poverty of meaning. What the author supplies is not a victory narrative but an uneasy diagnosis: institutional stability may be purchased at the cost of a flattened inner life.
+
+The counter-case needs full weight. The institutional reversals, renewed great-power rivalry and declining democratic quality of the following decades did disappoint any expectation of convergence. Treating ideas as the master variable also systematically understated material conditions, geography and organisational capacity. The author's later emphasis on political decay and state capacity effectively concedes that gap.
+
+The judgement is to keep two questions apart. As a question about which arrangement is hard to displace in terms of legitimacy, it still deserves serious attention. As a prediction about where the world was heading, it has been tested by events and has not held. Confusing the two sends both praise and ridicule to the wrong address.`,
+    quote_zh: '',
+    quote_en: '',
+    questions_zh: [
+      `「终结」在这本书里到底指什么，不指什么？`,
+      `为什么「最后的人」这一层让全书不能算凯旋叙事？`,
+      `把观念当作历史主变量，会系统性低估哪些东西？`,
+    ],
+    questions_en: [
+      `What does the end in this book actually mean, and what does it not mean?`,
+      `Why does the last man make the book something other than a victory narrative?`,
+      `Which factors are systematically understated when ideas are treated as the master variable of history?`,
+    ],
+    answers_zh: [
+      `指的是在正当性层面没有更高形态可被调用，不指冲突停止、制度不倒退，也不指所有社会收敛到同一安排。逻辑上的不可超越与时间上的不再变化是两件事。`,
+      `因为作者把制度的稳固与精神的扁平写成了同一笔交易：宏大斗争消失之后，剩下的是舒适而贫乏的生活。这是带着忧虑的诊断，不是对胜利的记录。`,
+      `物质条件、地缘位置与组织能力。制度能否运转，很大程度取决于这些不随观念转移的约束；作者后来转向国家能力与政治衰败，正是对这一缺口的补写。`,
+    ],
+    answers_en: [
+      `It means no higher form remains available in terms of legitimacy; it does not mean conflict ends, that institutions never regress, or that all societies converge. Logical unsurpassability and temporal immutability are different claims.`,
+      `Because the author writes institutional stability and a flattened inner life as one transaction: once great struggles disappear, what remains is comfortable but thin. That is an uneasy diagnosis rather than a record of triumph.`,
+      `Material conditions, geography and organisational capacity. Whether an arrangement works depends heavily on constraints that do not move with ideas. The later turn toward state capacity and political decay is precisely an attempt to supply that omission.`,
+    ],
+    topics: ['history', 'philosophy', 'civilization'],
+  },
+  {
+    id: 'note-093',
+    slug: 'margin-of-safety-the-buffer-that-still-needs-a-valuation',
+    book: 'margin-of-safety',
+    date: '2026-11-07',
+    voice: 'editorial',
+    key_insight_zh: `安全边际把风险从「价格波动」改写为「永久损失」，这一步极为有力；但它没能解决更前面的问题：拿来打折的那个内在价值，本身仍是一个估计。`,
+    key_insight_en: `The margin of safety powerfully redefines risk as permanent loss of capital rather than mere price movement, but it leaves an earlier problem untouched: the intrinsic value being discounted is itself only an estimate, and that estimate can be wrong in kind rather than in degree.`,
+    thinking_zh: `这本书的关键在于一次概念替换。通常所谓风险被写成价格波动，于是降低风险就等于避开起伏；作者把风险重新定义为本金的永久损失，判断的重心立刻从行情转到「买得比值得的少多少」。起伏不再是敌人，付得太多才是。
+
+它真正改变的是买入理由的结构。折价不是预测，而是承认预测会错：先为估值误差、判断失误与坏运气留出空间，再决定出手。由此推出的纪律——不追高、重视现金、拒绝用杠杆把等待变成被迫——彼此是同一条原则的不同侧面，而不是几条并列的技巧。
+
+容易被忽略的一点是这个原则有个前置条件。折价需要一个「值多少」的参照，而内在价值来自对未来现金流、竞争格局与资产处置方式的假设。假设一变，看似厚实的缓冲会同时变薄；所以安全边际处理的是「估错多少仍可承受」，不能处理「估值框架本身用错了」。
+
+反方也得摆出来。书中案例大量来自破产证券、清算与特殊情形，这类机会依赖市场分割与信息不对称，容量有限，并非普遍存在的常态；在长期宽松的资金环境里，严格执行这条纪律往往意味着长期空仓。作者本人也反复提示，这套做法的难处不在算，而在愿意长期不行动。
+
+判断因此是把两层分开：作为对损失的约束，它几乎不可反驳；作为一套完整的估值方法，它并不自足。真正该补上的，是写清楚哪些假设一旦改变就会让缓冲失效——那正是书里没有展开、却最需要单独交代的部分。`,
+    thinking_en: `The book turns on one substitution. Risk is usually written as price volatility, so reducing it means avoiding movement. Here risk is redefined as permanent loss of capital, and the centre of judgement shifts from the market's mood to how far below worth the purchase sits. Movement ceases to be the enemy; overpaying is.
+
+What changes is the structure of the reason to buy. A discount is not a forecast but an admission that forecasts fail: leave room for valuation error, mistaken judgement and bad luck before acting. The disciplines that follow — refusing to chase, holding cash, declining leverage that turns waiting into compulsion — are facets of one principle rather than a list of independent techniques.
+
+The easily missed point is that the principle has a precondition. A discount needs a reference for what something is worth, and intrinsic value rests on assumptions about future cash flows, competitive position and how assets might be realised. Change those assumptions and a seemingly thick buffer thins at the same moment. The margin of safety therefore addresses how much error can be borne, not whether the valuation frame itself was wrong.
+
+The counter-case belongs here too. Many of the book's examples come from distressed securities, liquidations and special situations: opportunities that depend on market segmentation and information asymmetry, are limited in capacity and are not a standing condition of ordinary markets. In a long stretch of cheap capital, following the rule strictly often means holding nothing for years. The author repeatedly notes that the difficulty lies less in calculating than in being willing to stay inactive.
+
+The judgement is to separate two layers. As a constraint on loss it is nearly unanswerable; as a complete theory of valuation it is not self-sufficient. What needs adding is an explicit account of which assumptions, once changed, would dissolve the buffer — precisely the part the treatment leaves compressed.`,
+    quote_zh: '',
+    quote_en: '',
+    questions_zh: [
+      `把风险改写为永久损失，判断重心具体移到了哪里？`,
+      `为什么折价处理不了「估值框架本身用错」？`,
+      `严格执行安全边际，最难的环节为什么不是计算？`,
+    ],
+    questions_en: [
+      `Where exactly does the centre of judgement move when risk is redefined as permanent loss?`,
+      `Why can a discount not handle the case where the valuation frame itself is wrong?`,
+      `Why is calculation not the hardest part of applying the rule strictly?`,
+    ],
+    answers_zh: [
+      `从行情的起伏移到「买得比值得的少多少」。波动不再自动等于危险，付得过多才是；于是降低风险的主要动作变成约束买入价格，而不是躲避价格变化。`,
+      `因为折价只是相对于某个参照值留出余量，而参照值来自对现金流、竞争格局与处置方式的假设。假设错了，缓冲与估值一起失真，余量无法自我纠正。`,
+      `因为这类机会依赖市场分割与信息不对称，容量有限且并非常态；严格执行往往意味着长时间不行动。承受空仓、又不因此放宽标准，比算出折价难得多。`,
+    ],
+    answers_en: [
+      `From the market's movement to how far below worth the purchase sits. Volatility stops being dangerous by itself; overpaying is. The main act of risk reduction becomes constraining the entry price rather than dodging price changes.`,
+      `Because a discount is a margin relative to a reference value, and that value rests on assumptions about cash flows, competition and realisation. If the assumptions are wrong, the buffer distorts together with the valuation and cannot repair itself.`,
+      `Because such opportunities depend on segmentation and information asymmetry, are limited in size and are not a standing market condition. Strict application often means long inactivity. Enduring an empty portfolio without loosening the standard is far harder than computing a discount.`,
+    ],
+    topics: ['value-investing', 'risk', 'decision-making'],
+  },
+  {
+    id: 'note-094',
+    slug: 'irrational-exuberance-the-feedback-loop-that-defines-its-own-bubble',
+    book: 'irrational-exuberance',
+    date: '2026-11-07',
+    voice: 'editorial',
+    key_insight_zh: `这本书把泡沫从一种情绪改写成一套可描述的反馈机制，这是它最强的地方；代价是「泡沫」仍多在事后被确认，机制解释得越顺，越容易忘记它并不给出拐点。`,
+    key_insight_en: `The book's strength is turning a bubble from a mood into a describable feedback mechanism; the cost is that bubbles are still mostly identified after the fact, and a smooth mechanism can obscure the absence of any turning-point signal.`,
+    thinking_zh: `这本书的关键在于拒绝单一归因。希勒把价格偏离拆成几组会互相放大的因素：容易被讲成故事的新事物、媒体与口耳相传的传染、分析师与机构给出的合法性，以及价格上涨本身吸引的新买家。价格不是被某个错误念头推上去的，而是被一条层层加码的回路推上去的。
+
+它真正改变的是「非理性」这个词的所指。非理性不等于参与者愚蠢；在回路里，跟着涨势买入在局部是合理的，因为价格由后来者的行为决定。于是问题从「谁不理性」变成「什么样的结构让局部理性汇总成整体偏离」，这一转向让讨论可以脱离道德指责。
+
+容易被忽略的一点是作者的谨慎。席勒给出的是长期估值指标与结构性条件，用来说明脆弱性上升，而不是用来报出崩盘的日期；他还明确反对把市场看成完全无效。书名容易被记成一句判断，书中实际写的是一组概率性的条件。
+
+反方同样要紧。高估值可以持续多年，用它做时点判断会付出真实的持有成本；而「泡沫」的判定往往依赖后来是否大跌，这就有循环论证的风险。此外，把反馈回路讲得越完整，越容易让人误以为机制清楚就等于时间可测，两者其实无关。
+
+判断因此落在用途上：这本书适合回答「当前价格结构为何脆弱」，不适合回答「何时转向」。把它当风险清单有用，当计时器就会受伤；真正需要另补的，是一套在回路尚未反转时也能执行的仓位规则。`,
+    thinking_en: `The book refuses a single cause. Shiller breaks the departure of prices from fundamentals into mutually amplifying elements: a novelty easy to narrate, contagion through media and conversation, legitimacy supplied by analysts and institutions, and new buyers drawn in by rising prices themselves. A price is not pushed up by one mistaken idea but by a self-reinforcing loop.
+
+What changes is the referent of the word irrational. Irrationality does not mean participants are foolish; inside the loop, buying into a rise is locally reasonable because the price is set by the behaviour of later entrants. The question shifts from who is being irrational to what kind of structure lets local rationality aggregate into a collective departure, which removes the discussion from moral blame.
+
+The detail easily missed is the author's caution. What is offered is a long-horizon valuation measure and a set of structural conditions indicating rising fragility, not a date for a crash; the book also rejects the idea that markets are simply inefficient. A title is remembered as a verdict, while the pages describe probabilistic conditions.
+
+The counter-case matters just as much. Elevated valuations can persist for years, so using them for timing carries a real cost of holding or waiting. The label bubble is usually confirmed by a later fall, which risks circular reasoning. And the more complete the feedback story becomes, the easier it is to assume that a clear mechanism implies a measurable schedule, though the two are unrelated.
+
+The judgement concerns use. This book answers why a price structure is fragile; it does not answer when it turns. As a checklist of risks it is valuable, as a clock it is costly. What still has to be supplied from elsewhere is a rule for position size that can be followed while the loop has not yet reversed.`,
+    quote_zh: '',
+    quote_en: '',
+    questions_zh: [
+      `把泡沫改写成反馈回路之后，「谁不理性」这个问题为什么失效了？`,
+      `为什么机制解释得越清楚，越容易误判它的用途？`,
+      `用高估值做时点判断，代价具体落在哪里？`,
+    ],
+    questions_en: [
+      `Once a bubble is rewritten as a feedback loop, why does the question of who is irrational stop working?`,
+      `Why does a clearer mechanism make its proper use easier to misjudge?`,
+      `Where exactly does the cost fall when high valuations are used for timing?`,
+    ],
+    answers_zh: [
+      `因为价格由后来者的行为决定，跟着涨势买入在局部是合理的。偏离不是由某个人的愚蠢造成，而是大量局部合理动作汇总的结果，追查「谁不理性」找不到对应的对象。`,
+      `因为机制描述的是脆弱性从何而来，不含反转的时间信息；讲得越顺，读者越容易把「结构清楚」读成「拐点可测」。两者其实无关，误读会让风险清单被当成计时器。`,
+      `落在等待与持有的真实成本上：高估值可以延续多年，提前离场要承受长期踏空，提前做空要承受追加保证金与被迫平仓。判断可以长期正确，却在到期前先被成本压垮。`,
+    ],
+    answers_en: [
+      `Because the price is set by the behaviour of later entrants, buying into a rise is reasonable locally. The departure is not produced by anyone's foolishness but by the aggregation of many locally sensible actions, so the search for a culprit finds no target.`,
+      `Because the mechanism explains where fragility comes from and carries no information about the timing of a reversal. The smoother the account, the more readily a reader converts a clear structure into a measurable turning point. The two are unrelated, and the misreading turns a checklist into a clock.`,
+      `On the real cost of waiting and holding. Elevated valuations can last for years: exiting early means a long stretch of missed returns, and shorting early brings margin calls and forced closure. A view can be right for years and still be defeated by its carrying cost.`,
+    ],
+    topics: ['markets', 'behavioral-economics', 'risk'],
+  },
+  {
+    id: 'note-095',
+    slug: 'world-order-legitimacy-is-not-the-same-as-power',
+    book: 'world-order',
+    date: '2026-11-07',
+    voice: 'editorial',
+    key_insight_zh: `这本书最有用的一步，是把秩序拆成权力与正当性两样东西；最可疑的一步，是把「文明」当成稳定的行动者，于是同一种秩序观被安到了一整片地区身上。`,
+    key_insight_en: `The book's most useful move is to split order into power and legitimacy; its most questionable is to treat civilisations as stable actors with shared preferences, which attributes a single conception of order to an entire region and to several centuries at once.`,
+    thinking_zh: `这本书的关键在于拒绝把秩序当成实力的副产品。基辛格反复回到一个问题：一项安排要能被持续遵守，除了有人能强制执行，还得被参与者认为是正当的。威斯特伐利亚体系之所以被反复引用，不是因为它消灭了冲突，而是因为它把「谁有权决定内部事务」写成了共同承认的形式。
+
+它真正改变的是分析单位。若只看力量对比，很多行为显得不可理解；引入正当性之后，同一种举动可能是为了争取承认而非争夺资源。书中把欧洲的均势、中国的天下观、伊斯兰世界的共同体想象与美国的例外论并置，意图不是评出高下，而是说明各方对「什么算合理秩序」的预设并不共享，误判常由此产生。
+
+容易被忽略的一点是作者的身份。他不是旁观者，而是参与过这套安排运作的人；叙述里对可执行性、对谈判与默契的偏重，既带来别的史学著作没有的现场感，也让框架天然倾向于把国家与高层决策当作历史的主要承载者。
+
+反方需要认真写。把「文明」当作有稳定偏好的行动者，会抹掉内部的分歧、制度变化与代际差异；非国家行为体、技术网络与资本流动在这套框架里几乎没有位置。更根本的是，正当性若只能由既有的大使用者来定义，这个概念就会变成对现状的辩护，而失去评判现状的能力。
+
+判断因此是：把「权力加正当性」这条分解留下来，把「文明人格化」那一步放下。前者是可检验的分析工具，后者是叙述上的便利；混淆二者，会让一本谈误判的书本身制造新的误判。`,
+    thinking_en: `The book refuses to treat order as a by-product of strength. Kissinger returns to one question: for an arrangement to be obeyed over time, it needs not only someone able to enforce it but also acceptance as legitimate by those inside it. The Westphalian settlement is invoked repeatedly not because it ended conflict but because it put the question of who may decide internal affairs into a mutually recognised form.
+
+What changes is the unit of analysis. Many actions look unintelligible under a pure balance of force; once legitimacy is admitted, the same move may be a bid for recognition rather than a grab for resources. Setting European balance, the Chinese tributary imagination, the Islamic conception of community and American exceptionalism side by side is not a ranking but a demonstration that the parties do not share premises about what counts as a reasonable order — and that misreading begins there.
+
+The easily missed point is the author's position. He is not an observer but someone who helped operate the arrangement. The emphasis on what can be executed, on negotiation and tacit understanding, gives the account a immediacy other histories lack, while also predisposing the frame to treat states and senior decision-makers as the main carriers of history.
+
+The counter-case deserves care. Treating a civilisation as an actor with stable preferences erases internal disagreement, institutional change and generational difference; non-state actors, technical networks and capital flows have almost no place in the frame. More fundamentally, if legitimacy can only be defined by its established users, the concept becomes a defence of the status quo and loses the capacity to judge it.
+
+The judgement is to keep the decomposition of power plus legitimacy and drop the personification of civilisations. The first is a testable instrument; the second is a narrative convenience. Conflating them lets a book about misreading produce fresh misreadings of its own.`,
+    quote_zh: '',
+    quote_en: '',
+    questions_zh: [
+      `为什么威斯特伐利亚体系被反复引用，不是因为消灭了冲突？`,
+      `把「文明」当作行动者，会具体抹掉什么？`,
+      `正当性若只能由既有使用者定义，这个概念会失去什么？`,
+    ],
+    questions_en: [
+      `Why is the Westphalian settlement invoked so often if not because it ended conflict?`,
+      `What is concretely erased when a civilisation is treated as an actor?`,
+      `What does the concept of legitimacy lose if only its established users may define it?`,
+    ],
+    answers_zh: [
+      `因为它把「谁有权决定内部事务」写成了各方共同承认的形式，使安排具备可预期性。冲突并未停止，变化的是冲突围绕什么规则展开、由谁来判断是否被违反。`,
+      `会抹掉内部分歧、制度变迁与代际差异，也会让非国家行为体、技术网络与资本流动从画面里消失。一个地区于是被赋予单一偏好，误判反而被框架本身制造出来。`,
+      `会失去评判现状的能力，只剩对现状的辩护。正当性本该用来追问一项安排是否仍被承认；若定义权归既有的大使用者，追问就变成了对既有安排的复述。`,
+    ],
+    answers_en: [
+      `Because it put the question of who may decide internal affairs into a form all parties recognised, making the arrangement predictable. Conflict did not stop; what changed was the rule around which conflict ran and who could say it had been broken.`,
+      `Internal disagreement, institutional change and generational difference, together with non-state actors, technical networks and capital flows. A whole region is then assigned a single preference, and the frame itself manufactures the misreading it was meant to explain.`,
+      `The capacity to judge the status quo rather than defend it. Legitimacy is supposed to ask whether an arrangement is still accepted; if the established users hold the definition, the question collapses into a restatement of the arrangement.`,
+    ],
+    topics: ['history', 'power-and-politics', 'china-and-the-world'],
+  },
+  {
+    id: 'note-096',
+    slug: 'the-alignment-problem-who-gets-to-define-the-goal',
+    book: 'the-alignment-problem',
+    date: '2026-11-07',
+    voice: 'editorial',
+    key_insight_zh: `这本书把对齐写成一条技术史，最有价值也最危险的一步恰在于此：把「人想要什么」当作可被学习和优化的对象之后，谁有权定义目标这个问题就悄悄移出了画面。`,
+    key_insight_en: `The book turns alignment into a technical history, and its most valuable move is also the riskiest: once what people want is treated as something that can be learned and optimised, the question of who gets to define the goal quietly leaves the frame.`,
+    thinking_zh: `这本书的关键在于它把一个问题拆成了三代。第一代问机器能否被给定清楚的目标，第二代问目标写不清楚时能否从示范中反推，第三代问反推出来的偏好是否稳定、是否会在优化压力下变形。沿着这条线读，对齐不是某个待修的漏洞，而是能力提升之后必然浮现的一层问题。
+
+它真正改变的是难点的位置。通常的想象是模型不够强才出错，书中反复给出的反例却显示：能力越强，越会把目标字面化地执行到底，于是偏差不在智能不足，而在目标写给它的那点含糊被精确地兑现了。这一转向把责任从模型挪回到写目标的人。
+
+容易被忽略的一点是全书的方法论前提。从行为反推偏好，预设了偏好可以被观测、大体一致、且在时间中稳定；而人的选择常常受情境、提问方式与事后叙述影响，观测到的行为未必对应一个等待被发现的真实效用函数。把这条预设拿掉，技术路线里最顺的那一段就不再顺。
+
+反方必须认真写。把价值当作可从数据中学习的分布，可能本身就是范畴错误——分歧的许多情形并非信息不足，而是不同人有不可通约的诉求，此时更多数据不产生答案。「对齐」这个词还预设了一个单数的值得对齐的对象，而谁被算进这个对象，是典型的规范问题，不能由工程胜利来回答。
+
+判断因此是把两问分开：如何让系统可靠地追随给定目标，是技术问题；目标由谁定、分歧如何裁决，是制度问题。这本书对前者贡献扎实，对后者只能提出问题；把后者也交给前者的进展，才是真正值得警惕的滑移。`,
+    thinking_en: `The book's key move is to split one problem into three generations. The first asks whether a machine can be given a clear objective; the second asks whether an objective that resists specification can be inferred from demonstrations; the third asks whether inferred preferences stay stable or deform under optimisation pressure. Read along that line, alignment is not a bug awaiting repair but a layer that necessarily surfaces once capability rises.
+
+What changes is where the difficulty sits. The usual picture is that systems err because they are not capable enough. The cases assembled here show the opposite: greater capability executes an objective more literally, so deviation comes not from a deficit of intelligence but from a small ambiguity honoured with precision. That shift moves responsibility back to whoever wrote the objective.
+
+The easily missed point is a methodological premise. Inferring preferences from behaviour assumes that preferences are observable, roughly coherent and stable over time. Human choices, by contrast, bend with context, with how a question is framed and with the stories told afterwards; observed behaviour need not correspond to a utility function waiting to be discovered. Remove that premise and the smoothest stretch of the technical route stops being smooth.
+
+The counter-case needs full weight. Treating values as a distribution learnable from data may be a category mistake: many disagreements are not shortages of information but incompatible claims. The word alignment also presupposes a singular object, and who counts inside it is a normative question no engineering success can settle.
+
+The judgement is to keep two questions apart. Getting a system to reliably follow a given objective is a technical problem; deciding who sets it and how disagreements are adjudicated is an institutional one. The book contributes solidly to the first and can only pose the second. Handing the second to progress on the first is the slide actually worth worrying about.`,
+    quote_zh: '',
+    quote_en: '',
+    questions_zh: [
+      `为什么能力越强，目标里的含糊反而越危险？`,
+      `从行为反推偏好，依赖哪一条未经证明的预设？`,
+      `为什么更多数据回答不了「谁有权定义目标」？`,
+    ],
+    questions_en: [
+      `Why does greater capability make ambiguity in the objective more dangerous?`,
+      `Which unproven premise does inferring preferences from behaviour rely on?`,
+      `Why can more data not answer who has the authority to define the goal?`,
+    ],
+    answers_zh: [
+      `因为更强的执行会把目标字面化地兑现到底，原本只是一点含糊的设计会被精确地放大成结果。偏差的来源于是从智能不足转为目标写得不够诚实，责任也回到写目标的人身上。`,
+      `预设了偏好可被观测、大体一致、并在时间中稳定。实际选择常受情境、提问方式与事后叙述影响，观测到的行为未必对应一个等待被发现的真实效用函数。`,
+      `因为这是关于裁决权与成员范围的问题，不是关于信息量的问题。分歧若源于不同人不可通约的诉求，观测再充分也不会自动产生一个所有人都该服从的答案。`,
+    ],
+    answers_en: [
+      `Because stronger execution cashes out the objective literally and completely, so a small ambiguity in the design is amplified into a precise outcome. The source of deviation shifts from insufficient intelligence to an insufficiently honest objective, and responsibility returns to its author.`,
+      `That preferences are observable, roughly coherent and stable over time. Actual choices bend with context, with framing and with retrospective storytelling; observed behaviour need not map onto a utility function waiting to be found.`,
+      `Because it is a question about adjudication and about who counts as a member, not about how much information is available. Where disagreement stems from incompatible claims, no amount of observation generates an answer everyone ought to obey.`,
+    ],
+    topics: ['ai', 'philosophy', 'decision-making'],
+  },
+  {
+    id: 'note-097',
+    slug: 'the-outsiders-capital-allocation-is-not-an-operating-style',
+    book: 'the-outsiders',
+    date: '2026-11-07',
+    voice: 'editorial',
+    key_insight_zh: `这本书把资本配置从经营里单独拎出来，是极有用的分解；但八位主角的共同点是从结果往回挑出来的，于是「不做什么」被写成一种可复制的风格，而它其实无法被写进流程。`,
+    key_insight_en: `Separating capital allocation from operations is a genuinely useful decomposition, but eight protagonists were selected backwards from outcomes, so a refusal to act gets written up as a transferable style when it cannot actually be turned into a procedure.`,
+    thinking_zh: `这本书的关键在于换了一个打分项。通常评价经营者看营收增长、市场份额与产品声量，作者却把长期每股价值的变化放在中心，追问那些看起来低调的公司把现金用到了哪里。答案集中在几类动作：在自家股份便宜时回购、拒绝为规模而并购、把决策下放、保持低杠杆。
+
+它真正改变的是「不作为」的性质。在这些案例里，不扩张不是保守，而是一笔主动的资本判断：当外部项目的预期回报低于自家股份，买入自家公司就是更优配置。于是沉默的年份不再等于停滞，而是一次被执行的决定。这个转换让很多被误读为乏味的经营者重新变得可分析。
+
+容易被忽略的一点是样本的构造方式。八家公司是先看长期回报、再回头找共同特征选出来的；没有同等条件下把现金投出去却失败、或同样保守却平庸的对照组。由此得到的清单只能说明「赢家碰巧共享了这些习惯」，不能说明「这些习惯导致胜出」。
+
+反方还要补两层。其一，样本所处的年代伴随长期的低资金成本与特定的行业结构，回购的收益并非纯粹来自判断力。其二，把资本配置与经营切得太干净，会漏掉一个事实：可供配置的现金本身由经营产生，没有那台机器，配置技巧无处施展；书中对这一侧着墨明显偏少。
+
+判断因此是保留分解、放弃风格化：资本配置确实是一套独立的、应被单独考核的决策，但「局外人气质」不是可传授的方法。真正能带走的，是给每一次不行动也要求一个可核算的理由。`,
+    thinking_en: `The book's key move is to change the scoreboard. Chief executives are usually judged by revenue growth, market share and product noise; here the long-run change in per-share value sits at the centre, and the question becomes where those quiet companies put their cash. The answers cluster around a few acts: repurchasing shares when they are cheap, declining acquisitions made for scale, pushing decisions downward, keeping leverage low.
+
+What changes is the status of inaction. In these cases, not expanding is not caution but an active capital judgement: when outside projects promise less than the company's own shares, buying those shares is the better allocation. Quiet years stop signifying drift and become decisions that were carried out. That conversion makes a number of apparently dull operators analysable again.
+
+The easily missed point is how the sample was built. The eight firms were chosen by looking at long-run returns first and then searching backwards for shared traits. There is no control group of firms that deployed cash under similar conditions and failed, or that were equally cautious and merely average. What emerges can show that winners happened to share these habits, not that the habits produced the winning.
+
+Two further limits belong in the counter-case. The period carried cheap capital for a long stretch and a particular industry structure, so the payoff to buybacks was not pure judgement. And cutting capital allocation too cleanly away from operations hides the fact that the cash being allocated was itself generated by the business; without that machine the allocation skill has nothing to work on, a side the book treats lightly.
+
+The judgement is to keep the decomposition and drop the stylisation. Capital allocation is indeed a distinct decision that deserves its own assessment, but an outsider temperament is not a teachable method. What travels is the demand that every instance of doing nothing also carry an auditable reason.`,
+    quote_zh: '',
+    quote_en: '',
+    questions_zh: [
+      `为什么在这些案例里「不扩张」应被算作一次主动决定？`,
+      `先看回报再找共同特征，会让结论停在哪一步？`,
+      `把资本配置与经营切得太干净，会漏掉什么？`,
+    ],
+    questions_en: [
+      `Why should refusing to expand count as an active decision in these cases?`,
+      `Where does the conclusion stop when returns are examined before shared traits?`,
+      `What is lost when capital allocation is cut too cleanly away from operations?`,
+    ],
+    answers_zh: [
+      `因为当外部项目的预期回报低于自家股份时，不把钱投出去、转而回购，本身就是一次有比较、有取舍的配置判断。年份看起来安静，实际上是一次被执行的决定，而非拖延。`,
+      `停在「赢家碰巧共享了这些习惯」，到不了「这些习惯导致胜出」。缺少同等条件下做了相反配置却失败、或同样保守却平庸的对照组，因果链无法被检验。`,
+      `会漏掉可配置现金的来源本身。那笔钱由经营产生，没有持续产生现金的业务，配置技巧无从施展；把两者分开考核有用，把两者当成互不相关就会误判优势的根基。`,
+    ],
+    answers_en: [
+      `Because when outside projects promise less than the company's own shares, withholding capital and buying those shares is a comparative choice with a real trade-off. The quiet years are a decision carried out rather than a delay.`,
+      `At the claim that winners happened to share these habits; it cannot reach the claim that the habits caused the winning. Without controls that made the opposite allocation and failed, or were equally cautious and merely average, the causal chain is untestable.`,
+      `The origin of the cash being allocated. It is generated by the business, and without a machine that keeps producing it the allocation skill has nothing to work on. Assessing the two separately is useful; treating them as unrelated misreads where the advantage comes from.`,
+    ],
+    topics: ['management', 'investing', 'strategy'],
+  },
+  {
+    id: 'note-098',
+    slug: 'good-to-great-when-a-pattern-is-read-backwards',
+    book: 'good-to-great',
+    date: '2026-11-07',
+    voice: 'editorial',
+    key_insight_zh: `这本书给出的几条原则读起来极有说服力，原因之一恰恰是方法上的：先挑出实现跃迁的公司，再回看它们共享什么；没有失败样本作对照，共同特征就无法与致胜原因区分。`,
+    key_insight_en: `The principles are persuasive partly because of the method: companies that made the leap were selected first and their shared traits examined afterwards; with no failed comparison group, a common feature cannot be separated from a cause of success.`,
+    thinking_zh: `这本书的关键在于把「卓越」写成一组可描述的行为：领导者把功劳外推、把责任收拢；先确定谁在车上再决定去哪里；直面最难看的数据却不失去信心；把复杂战略收束成一个能反复讲清的简单交点；靠持续推动而非一次戏剧性转折。
+
+它真正改变的是管理讨论的语气。这些条目把注意力从天赋、风口与英雄式决策，移到重复、可观察、枯燥的日常动作上。「飞轮」这个意象尤其有效：它让读者不再寻找那一次决定命运的动作，转而去看每一次推动是否累加。作为一套提问清单，它确实有用。
+
+容易被忽略的一点是清单从哪来。研究对象是按业绩跃迁筛出来的，随后才归纳共同点；同类公司里做了同样动作却没有跃迁的，并不在样本内。于是一个逻辑缺口始终存在：这些特征可能是结果的表述，而非原因；也可能是当时行业条件允许它们奏效，换个环境就失效。
+
+反方需要更具体。多家被列为范例的公司此后明显衰败或被迫重组，说明「卓越」被当作稳定属性，实为一个时期的状态。更要紧的是，「刺猬理念」与「飞轮」几乎无法被证伪——任何成功都能事后讲成三环交点，任何失败都能讲成没推到底。不可证伪的框架读起来最顺，也最难用来做判断。
+
+判断因此是把它降级：当作访谈式的启发清单，别当作因果模型。可保留的是「先人后事」「直面数据」这类能独立检验的做法；该放下的是「照做即可跃迁」的暗示，以及把一段时期的业绩写成永久品质的叙述习惯。`,
+    thinking_en: `The book's key move is to render excellence as a set of describable behaviours: leaders push credit outward and pull responsibility inward; decide who is on the bus before deciding where to go; confront the ugliest figures without losing confidence; compress a complex strategy into one simple intersection that can be restated; accumulate momentum through repeated pushes rather than one dramatic turn.
+
+What changes is the tone of management talk. These items shift attention away from talent, timing and heroic decisions toward repeated, observable, unglamorous daily acts. The flywheel image works especially well: a reader stops hunting for the single fateful move and starts asking whether each push adds to the last. As an interview checklist, it genuinely earns its place.
+
+The easily missed point is where the checklist came from. The subjects were screened by a performance leap, and shared traits were induced afterwards. Comparable firms that did the same things without leaping are absent. A logical gap therefore remains: the traits may be descriptions of the outcome rather than its causes, or may have worked only because the industry conditions of that period permitted them.
+
+Several of the celebrated companies later declined sharply or were restructured, which shows that excellence was treated as a stable attribute when it was a state of one period. More importantly, the hedgehog idea and the flywheel are close to unfalsifiable: any success can be narrated afterwards as an intersection of three circles, and any failure as a failure to keep pushing.
+
+The judgement is a downgrade. Treat the book as an interview-style set of prompts, not a causal model. What can be kept are practices that can be checked independently, such as attending to people before direction and facing the data. What should be dropped is the suggestion that following the list produces a leap, along with the habit of writing one period's results as a permanent quality.`,
+    quote_zh: '',
+    quote_en: '',
+    questions_zh: [
+      `先挑赢家再归纳共同点，为什么不能得出因果结论？`,
+      `「飞轮」与「刺猬理念」为什么难以用来做判断？`,
+      `这本书里哪些部分可以独立检验，哪些不能？`,
+    ],
+    questions_en: [
+      `Why does selecting winners before inducing shared traits fail to yield a causal conclusion?`,
+      `Why are the flywheel and the hedgehog idea hard to use for judging?`,
+      `Which parts of the book can be checked independently and which cannot?`,
+    ],
+    answers_zh: [
+      `因为缺少做了同样动作却没有跃迁的对照组，无法排除「共同特征只是结果的表述」或「当时行业条件恰好允许它奏效」。相关性被观察到，但没有任何环节能把它与致胜原因分开。`,
+      `因为它们几乎无法被证伪：任何成功都能事后讲成三环交点，任何失败都能讲成没推到底。一个能解释一切结果的框架，也就无法在事前告诉决策者该选哪条路。`,
+      `「先人后事」「直面难看的数据」可以被单独观察、单独考核，因而可检验；「照做即可跃迁」以及把一段业绩写成永久品质，则依赖事后叙述，没有对应的反例标准。`,
+    ],
+    answers_en: [
+      `Because the control group is missing: firms that did the same things without leaping. Nothing rules out the traits being descriptions of the outcome, or having worked only because conditions at the time allowed it. A correlation is observed, but no step separates it from a cause of winning.`,
+      `Because they are close to unfalsifiable: any success can be retold as an intersection of three circles and any failure as insufficient pushing. A framework that explains every outcome cannot tell a decision-maker in advance which path to take.`,
+      `Putting people before direction and facing ugly figures can be observed and assessed on their own, so they are testable. The promise that following the list produces a leap, and the treatment of one period's results as a permanent quality, depend on retrospective storytelling with no standard for a counter-example.`,
+    ],
+    topics: ['management', 'strategy', 'decision-making'],
+  },
+  {
+    id: 'note-099',
+    slug: 'ai-superpowers-data-is-not-the-only-input',
+    book: 'ai-superpowers',
+    date: '2026-11-07',
+    voice: 'editorial',
+    key_insight_zh: `这本书用「发明时代转入应用时代」解释了人工智能竞争的走向，框架仍然好用；但它把数据规模当成主变量，随后几年的进展恰恰由算法与算力的突破驱动，预测因此被事件改写。`,
+    key_insight_en: `The shift from an age of invention to an age of implementation remains a usable frame, but the book makes data volume the master variable; the following years were driven instead by breakthroughs in algorithms and compute, and the forecast was rewritten by events.`,
+    thinking_zh: `这本书的关键在于一次阶段划分。作者把早期人工智能史写成由少数研究者与论文推动的发明阶段，把后来的竞争写成把既有方法落到场景里的应用阶段；一旦重心转移，决定胜负的就不再是谁能提出新结构，而是谁拥有数据、工程队伍与快速铺开的组织能力。
+
+它真正改变的是讨论的坐标。此前谈人工智能优势，多落在科研成果与人才存量上；作者把注意力移到落地速度、产品迭代与产业规模，并据此给出中美两地的分工判断。书里对就业冲击与意义问题的追问，也让论述没有停在产业竞争的层面，这是它比一般趋势书更值得读的地方。
+
+容易被忽略的一点是「数据越多越强」成立的条件。这一判断适用于以监督学习为主、改进主要来自样本规模的阶段；当能力跃迁来自模型结构、训练方法与算力组织时，数据量的边际作用就下降。把某个阶段的经验写成整个领域的规律，是全书最脆弱的一环。
+
+反方必须给足：后续生成式人工智能的突破主要由算法与算力推动，而非由某地的用户数据规模推动，书中设定的赶超窗口明显偏移。此外，把一国的技术生态压缩成「数据加执行速度」两个指标，会低估科研体制、资本耐心、开源协作与监管选择；技术决定论的叙事也容易把政策与组织的作用写成背景。
+
+判断因此是保留阶段划分、放下单一变量：区分发明与应用确实有助于定位不同主体的优势，但优势由多个不可替代的输入共同构成，且输入之间的权重会随技术范式改变。把框架当作提问方式，而非当作排位表，才不会在范式切换后失效。`,
+    thinking_en: `The book turns on a periodisation. Its author writes the early history of artificial intelligence as an age of invention driven by a small number of researchers and papers, and the later competition as an age of implementation in which existing methods are carried into concrete settings. Once the centre of gravity moves, what decides the contest is no longer who proposes a new architecture but who holds data, engineering capacity and the organisational ability to roll things out quickly.
+
+What changes is the coordinate of the discussion. Attention moves to deployment speed, product iteration and industrial scale, and a division of labour between two countries is drawn from that. The book also asks what happens to employment and to meaning, which keeps it from stopping at industrial rivalry and makes it more substantial than the usual trend volume.
+
+The easily missed point is the condition under which more data means more capability. That claim fits a phase dominated by supervised learning, where gains came from sample size. When a leap comes instead from model architecture, training method and the organisation of compute, the marginal contribution of data falls. Writing the experience of one phase into a law of the whole field is the book's most fragile step.
+
+The counter-case needs its full weight. The subsequent generative breakthrough was driven chiefly by algorithms and compute rather than by the user-data scale of any one country, and the catch-up window the book set has visibly shifted. Compressing a technical ecosystem into two indicators — data and execution speed — also understates research institutions, patient capital, open collaboration and regulatory choices.
+
+The judgement is to keep the periodisation and drop the single variable. Distinguishing invention from implementation does help locate different strengths, but advantage is built from several irreplaceable inputs whose weights change with the technical paradigm. Used as a way of asking questions, the frame survives a paradigm shift.`,
+    quote_zh: '',
+    quote_en: '',
+    questions_zh: [
+      `「发明时代」到「应用时代」的划分，究竟改变了什么判断？`,
+      `「数据越多越强」在什么阶段成立，什么阶段失效？`,
+      `为什么把优势压缩成两个指标会误判后来发生的事？`,
+    ],
+    questions_en: [
+      `What exactly does the shift from an age of invention to an age of implementation change in the judgement?`,
+      `In which phase does more data mean more capability hold, and in which does it fail?`,
+      `Why does compressing advantage into two indicators misread what happened later?`,
+    ],
+    answers_zh: [
+      `它把决定胜负的变量从「谁能提出新结构」换成「谁能把既有方法快速落到场景」。优势的坐标由科研成果与人才存量，转向数据、工程队伍、迭代速度与铺开的组织能力。`,
+      `在以监督学习为主、改进主要来自样本规模的阶段成立；当能力跃迁改由模型结构、训练方法与算力组织推动，数据量的边际作用就下降。某一阶段的经验不构成整个领域的规律。`,
+      `因为科研体制、资本耐心、开源协作与监管选择都被压成了背景，而后来生成式人工智能的突破恰恰由算法与算力推动。指标越少，叙述越顺，也越经不住范式切换。`,
+    ],
+    answers_en: [
+      `It changes the decisive variable from who can propose a new architecture to who can carry existing methods into real settings quickly. The coordinate of advantage moves from research output and talent stocks toward data, engineering teams, iteration speed and the capacity to deploy.`,
+      `It holds in a phase dominated by supervised learning, where gains came mainly from sample size. Once leaps come from architecture, training methods and the organisation of compute, the marginal contribution of data falls. The experience of one phase is not a law of the field.`,
+      `Because research institutions, patient capital, open collaboration and regulatory choice are pushed into the background, while the later generative breakthrough was driven precisely by algorithms and compute. Fewer indicators make a smoother story and a more fragile one when the paradigm changes.`,
+    ],
+    topics: ['ai', 'china-and-the-world', 'technology'],
+  },
+  {
+    id: 'note-100',
+    slug: 'extraordinary-popular-delusions-credit-is-not-a-mood',
+    book: 'extraordinary-popular-delusions',
+    date: '2026-11-07',
+    voice: 'editorial',
+    key_insight_zh: `这本书把几次投机风潮写成了群体愚蠢的编年史，读来极顺；顺的原因恰是它把信贷条件、监管缺位与信息落差压成了一种情绪，于是结构原因从故事里消失了。`,
+    key_insight_en: `The book turns several speculative episodes into a chronicle of collective folly, which reads smoothly precisely because credit conditions, absent regulation and information gaps are compressed into a mood; the structural causes then vanish from the story.`,
+    thinking_zh: `这本书的关键在于它发明了一种读法：把南海计划、密西西比计划与郁金香热并排放在一起，让读者看到同样的情节在不同年代重演——一个新奇的承诺、一批急着进场的人、一段失去参照的价格、以及随之而来的清算。作为叙事，这个模板至今几乎无人能写得更好。
+
+它真正改变的是后世谈泡沫的语言。「群众疯狂」「集体幻觉」这类说法之所以能随手调用，很大程度来自这本书把零散事件整理成了同一类现象。把几次风潮放在一处，读者才第一次能问「它们有什么共同结构」，这一层贡献不该被后来的批评抹掉。
+
+容易被忽略的一点是材料的性质。作者是十九世纪的记者，主要依托前人的记述与报刊，而非账簿与交易所记录；后世的经济史研究对其中若干事件的规模与影响提出过明显修正，尤其指出郁金香一段被讲得远比实际严重。故事越完整，越难察觉它经过了多少层转述。
+
+反方需要说透：把价格失控归因于一种心理状态，会让真正可检验的条件退出视野——谁提供了杠杆、契约如何设计、发行方与承销方承担什么责任、信息在哪些环节被截断。这些不是情绪的注脚，而是决定风潮能长多大的变量。同一套「人性不变」的解释还能套在任何一次上涨上，因此几乎不可证伪。
+
+判断因此是把用途分清：当作叙事史与语言来源，它仍然值得读；当作机制解释，它必须让位给对合约、信贷与激励的具体考察。真正该追问的不是「人怎么会这么疯」，而是「当时是什么安排允许这种疯狂变成可交易的价格」。`,
+    thinking_en: `The book's key contribution is a way of reading. Placing the South Sea scheme, the Mississippi scheme and the tulip mania side by side lets a reader watch the same plot repeat across centuries: a novel promise, a crowd eager to enter, a price that loses its reference, and a reckoning. As narrative craftsmanship, that template has rarely been improved.
+
+What it changes is the language later ages use for bubbles. Phrases about crowd madness and collective delusion circulate so freely largely because this book gathered scattered episodes into a single class of event. Only by setting several manias together could a reader first ask what structure they share.
+
+The easily missed point is the material itself. The author was a nineteenth-century journalist working chiefly from earlier accounts and newspapers rather than ledgers or exchange records. Later economic historians have revised the scale and impact of several episodes substantially, noting in particular that the tulip story was told far more dramatically than the evidence supports. The more complete the tale, the harder it is to notice how many layers of retelling it passed through.
+
+The counter-case needs to be explicit. Attributing a runaway price to a psychological state pushes the testable conditions out of view: who supplied the leverage, how contracts were written, what liability issuers and underwriters carried, where information was cut off. These are not footnotes to a mood but the variables that decide how large an episode can grow. An explanation built on unchanging human nature fits any rise whatsoever and close to unfalsifiable.
+
+The judgement is about use. As narrative history and as the source of a vocabulary, it remains worth reading; as a mechanism, it has to give way to concrete inquiry into contracts, credit and incentives. The question worth asking is not how people could be so foolish but what arrangement at the time allowed that foolishness to become a tradable price.`,
+    quote_zh: '',
+    quote_en: '',
+    questions_zh: [
+      `把几次风潮并置，带来了哪一项真正的贡献？`,
+      `为什么「人性不变」式的解释几乎不可证伪？`,
+      `把泡沫当机制研究时，应该改问什么问题？`,
+    ],
+    questions_en: [
+      `What genuine contribution comes from placing several manias side by side?`,
+      `Why is an explanation built on unchanging human nature close to unfalsifiable?`,
+      `What question should replace the mood-based one when bubbles are studied as mechanisms?`,
+    ],
+    answers_zh: [
+      `它让零散事件第一次成为同一类现象，读者于是能追问它们共享什么结构，而不必把每次上涨都当成孤例。后世谈泡沫的整套语言，也由此获得了可调用的共同参照。`,
+      `因为它能套在任何一次上涨上，且不指定可被推翻的条件：涨了是狂热，跌了是清算，无论结果如何都算解释成功。缺乏具体反例标准的说法，无法用来做事前判断。`,
+      `改问当时是什么安排允许这种情绪变成可交易的价格：谁提供杠杆、合约如何设计、发行与承销方承担什么责任、信息在哪些环节被截断。这些条件可查证，也能被制度改变。`,
+    ],
+    answers_en: [
+      `It makes scattered episodes a single class of phenomenon for the first time, so a reader can ask what structure they share instead of treating each rise as an isolated curiosity. The whole later vocabulary of bubbles gains a common reference from that move.`,
+      `Because it fits any rise and names no condition that could overturn it: a climb is fervour, a fall is reckoning, and either outcome counts as confirmation. Without a standard for a counter-example, the claim cannot guide a judgement made in advance.`,
+      `Ask what arrangement at the time allowed the mood to become a tradable price: who supplied leverage, how contracts were written, what liability issuers and underwriters carried, where information was cut off. Such conditions can be checked and changed.`,
+    ],
+    topics: ['history', 'markets', 'behavioral-economics'],
+  },
+  {
+    id: 'note-101',
+    slug: 'the-master-algorithm-unification-as-a-research-programme',
+    book: 'the-master-algorithm',
+    date: '2026-11-07',
+    voice: 'editorial',
+    key_insight_zh: `这本书最有价值的不是「五大流派终将归一」这个预言，而是它逼出的那张对照表：每一派把什么当作学习的本质；把纲领读成结论，就会漏掉真正可比较的东西。`,
+    key_insight_en: `The value lies less in the prophecy that five schools must converge than in the comparison it forces: what each school takes learning to be. Read a research programme as a conclusion and the genuinely comparable material is missed.`,
+    thinking_zh: `这本书的关键在于一张地图。作者把机器学习划成五个传统：从符号与规则出发的、从联结与权重出发的、从进化与选择出发的、从贝叶斯推断出发的、从类比与相似度出发的。每一派都有一套自称能统摄其余的主算法，而全书把它们并排放好，让分歧第一次变得可以逐项比较。
+
+它真正改变的是提问的层次。通常问「哪个方法效果更好」，这里问的是「学习究竟是什么」：是从数据里压缩出规则，是调整连接强度，是在候选空间中搜索，是按证据更新信念，还是把新问题映射到旧案例。把问题抬到这一层，是全书最耐用的贡献。
+
+容易被忽略的一点是「统一」这个词的性质。书中提出的是一个研究纲领——一种相信可以合并的立场与一组尝试，而不是已经完成的归约。纲领有启发价值，但它的说服力来自五派确实共享某些形式目标，而不来自已经找到那个能覆盖所有情形的单一算法。
+
+反方必须写清楚。不同传统携带的归纳偏置并不等价：符号系统擅长组合与可追溯的推理，联结系统擅长从高维数据里学出表示，贝叶斯方法把不确定性摆在明处。这些差别不是工程上的粗细之分，而是对「什么算学到了」的不同回答，无法简单相加。此后数年的进展更接近混合与互相借用，而非归约到某一个主算法；把科学史写成必然收敛，也是一种目的论。
+
+判断因此是把它当学派地图读，不当预言读。可保留的是那张对照表带来的判断力：面对一个新方法，先问它把学习的本质放在哪里、因此天然看不见什么；该放下的是「终有一套算法通吃」的期待。`,
+    thinking_en: `The book's key contribution is a map. Its author divides machine learning into five traditions: those starting from symbols and rules, from connections and weights, from evolution and selection, from Bayesian inference, and from analogy and similarity. Each claims a master algorithm able to absorb the rest. Setting them side by side makes their disagreements comparable item by item.
+
+What changes is the level of the question. The usual question asks which method performs better; this one asks what learning actually is — compressing rules from data, adjusting connection strengths, searching a space of candidates, updating beliefs by evidence, or mapping a new problem onto old cases. Performance shifts with tasks and compute; this layer of disagreement does not. Raising the question to that level is the book's most durable contribution.
+
+The easily missed point is the status of the word unification. What is offered is a research programme — a conviction that a merger is possible, plus a set of attempts — not a reduction already carried out. A programme can be fertile, but its plausibility comes from shared formal aims, not from a single algorithm covering every case.
+
+The counter-case needs clarity. The inductive biases carried by different traditions are not equivalent: symbolic systems favour composition and traceable reasoning, connectionist systems excel at learning representations from high-dimensional data, Bayesian methods keep uncertainty in plain view. These are not degrees of engineering refinement but different answers to what counts as having learned. Later progress looked more like hybridisation and borrowing than reduction to one master algorithm; writing the history of a field as inevitable convergence is also a teleology.
+
+The judgement is to read it as a map of schools, not a forecast. What survives is the habit of asking where a new method locates the essence of learning and what it cannot see. What should be dropped is the expectation that one algorithm will eventually cover everything.`,
+    quote_zh: '',
+    quote_en: '',
+    questions_zh: [
+      `把「哪个方法更好」换成「学习是什么」，带来了什么？`,
+      `为什么「统一」在这本书里只能算研究纲领？`,
+      `不同传统的归纳偏置为什么不能简单相加？`,
+    ],
+    questions_en: [
+      `What is gained by replacing which method works better with what learning is?`,
+      `Why can unification in this book count only as a research programme?`,
+      `Why do the inductive biases of different traditions not simply add up?`,
+    ],
+    answers_zh: [
+      `因为效果会随任务、数据与算力改变，而「把什么当作学习的本质」是更稳定的分歧。抬到这一层，读者才能看出每套方法天然看不见什么，而不只是比较当下的分数。`,
+      `因为书中给的是一种相信可以合并的立场与若干尝试，并未完成归约。五派共享某些形式目标，这让纲领显得可信；可信不等于已经找到覆盖所有情形的单一算法。`,
+      `因为它们回答的是「什么算学到了」这个不同问题：可追溯的推理、从高维数据学表示、把不确定性摆在明处，各有代价。差别属于前提层，不是工程粗细，无法相加。`,
+    ],
+    answers_en: [
+      `Because performance shifts with task, data and compute, while the account of what learning essentially is remains a stable disagreement. At that level a reader can see what each method cannot in principle notice, instead of comparing scores on today's benchmark.`,
+      `Because what is supplied is a conviction that a merger is possible plus several attempts, not a completed reduction. Shared formal aims make the programme plausible; plausibility is not the discovery of one algorithm covering every case.`,
+      `Because they answer different versions of what counts as having learned: traceable reasoning, representations from high-dimensional data, uncertainty kept explicit, each with its own cost. The difference sits at the level of premises rather than engineering fineness, so it cannot be summed.`,
+    ],
+    topics: ['machine-learning', 'ai', 'philosophy'],
+  },
+  {
+    id: 'note-102',
+    slug: 'the-big-short-being-right-is-not-the-same-as-surviving',
+    book: 'the-big-short',
+    date: '2026-11-07',
+    voice: 'editorial',
+    key_insight_zh: `这本书被记成「少数人看穿了泡沫」，但故事里真正决定结果的是另一件事：看对之后还得撑到兑现；正确判断与能活到兑现，是两项彼此独立的条件。`,
+    key_insight_en: `The book is remembered as a story about a few people seeing through a bubble, yet what actually decides the outcome is different: being right is one condition and surviving until the view pays off is another, entirely independent one.`,
+    thinking_zh: `这本书的关键在于把一处结构性错误讲成了可追踪的链条：贷款被打包、评级给出与风险不相称的标签、机构按标签持有、激励让经手者不必为远期后果负责。读者得以看见，问题不来自某个人特别贪婪，而来自每一环都按局部合理的规则运转。
+
+它真正改变的是「看穿」这个词的分量。书中主角读懂了合约与底层资产之间的错位，但真正艰难的部分在别处：头寸要持续付成本，出资人会质疑，市场可以在错误的方向上停留很久。判断正确只是入场券，能否承受等待期间的资金消耗与信任流失，才决定它会不会变成结果。
+
+容易被忽略的一点是叙事的取样。被写下来的是撑到兑现的那几位；同一时期持相近判断、却因追加保证金、赎回压力或合约到期而提前出局的人，不会成为一章。于是「看得准」这个解释被放大，「撑得住」这个条件被缩到脚注里。
+
+反方还要补一层：把危机讲成几个怪人对抗整个体系，会让制度成因退成背景。评级机构的利益冲突、会计规则、监管套利与薪酬结构，本该是可逐条检验的变量；一旦叙述围绕性格与机敏展开，这些变量就只剩下气氛。作者的笔法越好，这层遮蔽越难察觉。
+
+判断因此是把两件事分开记：这份叙述适合用来理解「正确判断的执行成本」，不适合用来理解「危机为何发生」。前者需要仓位、期限与出资人关系，后者需要合约、激励与监管记录；把它们混成一个关于聪明人的故事，两边都会学错。`,
+    thinking_en: `The book's key move is to render a structural error as a traceable chain: loans bundled together, ratings attached that did not match the risk, institutions holding on the strength of those labels, and incentives ensuring nobody along the way carried the distant consequences. A reader can see that the trouble came not from one greedy person but from every link following sensible local rules.
+
+What changes is the weight carried by the phrase seeing through it. The protagonists did read the mismatch between contracts and underlying assets, but the genuinely hard part lay elsewhere: positions kept costing money, backers grew doubtful, and a market can stay wrong for a very long time. A correct view is only an entry ticket; enduring the carrying cost and the erosion of trust is what turns it into an outcome.
+
+The easily missed point is how the story was sampled. Those written down are the ones who lasted until the view paid. Others with a similar view, forced out by margin calls or redemptions, get no chapter. Acuity is therefore enlarged into the explanation, while endurance shrinks to a footnote.
+
+A further limit belongs to the counter-case. Telling a crisis as a few eccentrics against an entire system pushes institutional causes into the background. Conflicts of interest at rating agencies, accounting rules, regulatory arbitrage and compensation design are variables that can be examined one by one; once the narrative organises itself around temperament and quickness, they survive only as atmosphere.
+
+The judgement is to keep two things separately. The account helps explain the execution cost of a correct judgement; it does not explain why the crisis happened. The first needs position size, time horizon and the relationship with capital providers; the second needs contracts, incentives and regulatory records. Merging them into a story about clever people teaches the wrong lesson on both sides.`,
+    quote_zh: '',
+    quote_en: '',
+    questions_zh: [
+      `为什么「看对」在这里只是入场券？`,
+      `叙事的取样方式，让哪个条件被缩成了脚注？`,
+      `把危机讲成几个人对抗体系，会让什么退成背景？`,
+    ],
+    questions_en: [
+      `Why is being right only an entry ticket in this account?`,
+      `Which condition is reduced to a footnote by the way the story was sampled?`,
+      `What is pushed into the background when a crisis is told as a few people against a system?`,
+    ],
+    answers_zh: [
+      `因为头寸持续产生成本，出资人会动摇，市场可能在错误方向上停留很久。判断正确并不自动兑现；能否承受等待期间的资金消耗与信任流失，才决定它是否变成结果。`,
+      `「撑得住」这一条件。被写下的是撑到兑现的少数人，同期持相近判断却因追加保证金、赎回或合约到期出局的人没有章节，于是耐力被误当成次要因素。`,
+      `评级机构的利益冲突、会计规则、监管套利与薪酬结构。这些本是可逐条检验的制度变量，一旦叙述围绕性格与机敏展开，就只剩下气氛，危机的成因也就无从追查。`,
+    ],
+    answers_en: [
+      `Because the position keeps costing money, backers waver, and a market can remain wrong for years. A correct view does not cash out by itself; absorbing the carrying cost and the loss of trust is what converts it into a result.`,
+      `Endurance. Those written down are the few who lasted until the view paid; others with a similar view who were forced out by margin calls, redemptions or expiring contracts get no chapter, so stamina is misread as a secondary factor.`,
+      `Conflicts of interest at rating agencies, accounting rules, regulatory arbitrage and compensation design. These are institutional variables that can be checked one by one; once the story organises around temperament and quickness they survive as atmosphere, and the causes become untraceable.`,
+    ],
+    topics: ['markets', 'risk', 'behavioral-economics'],
+  },
+  {
+    id: 'note-103',
+    slug: 'poor-economics-small-answers-and-their-horizon',
+    book: 'poor-economics',
+    date: '2026-11-07',
+    voice: 'editorial',
+    key_insight_zh: `这本书把「为什么会穷」拆成一串可以逐项检验的小问题，这一步极有力；但小答案的有效范围有边界，微观干预能说明某项做法有没有用，说明不了一个地区为何长期贫困。`,
+    key_insight_en: `Breaking why are people poor into a series of small testable questions is a powerful move, but small answers have a horizon: a micro-intervention can show whether a practice works without explaining why a region remained poor for decades.`,
+    thinking_zh: `这本书的关键在于拒绝一个大而无当的问题。作者不谈「贫穷的根源」，而是问疫苗为什么没被接种、化肥为什么没被采用、小额贷款是否改变家庭决策、教师缺勤能否被简单的监督机制压下去。每个问题都小到可以设计对照，也小到答案不会自动升级成世界观。
+
+它真正改变的是争论的方式。宏大叙事往往先给出一套总体解释，再把所有反例当作例外；这里反过来，先让具体机制接受检验，允许结论彼此不一致——某个地方发课本有效，另一个地方有效的是驱虫，两者并不需要一个统一理论来收编。这种不追求整齐的耐心，是全书最值得学的地方。
+
+容易被忽略的一点是「有效」这个词的适用范围。随机对照试验回答的是「在此地、此条件、此人群，这项干预是否带来差异」，它天然不回答「是什么让此地具备这些条件」。把一组局部结果连起来，并不会自动长成关于土地制度、贸易条件、财政能力或政治权力的解释。
+
+反方必须给足分量。外部效度是硬约束：同一干预换个制度环境可能完全失效，而识别这种失效往往需要试验之外的知识。更根本的是，「不存在大答案」本身也是一种立场——把问题限定在可随机化的层面，等于先把难以随机化的结构性因素移出视野，这一步看起来是方法纪律，实际上已经是一次选择。
+
+判断因此是保留拆解法、补上结构层：把大问题拆成可检验机制，用来决定眼前做什么；至于为什么这些机制恰好长在这里，仍需另一套关于制度与历史的追问。混用会让任一方都被高估。`,
+    thinking_en: `The book's key move is to refuse one enormous question. Rather than asking after the root of poverty, it asks why vaccinations are not taken up, why fertiliser is not adopted, whether small loans change household decisions, and whether a simple monitoring device reduces teacher absence. Each is small enough for a controlled comparison, and its answer does not inflate into a worldview.
+
+What changes is how arguments are conducted. Grand narratives usually begin with a total explanation and then treat every counter-example as an exception. Here specific mechanisms are tested first and conclusions are allowed to disagree — textbooks may work in one place and deworming in another, with no unified theory required to absorb both. That patience with untidiness is the most transferable habit in the book.
+
+The easily missed point is the scope of the word works. A randomised trial answers whether this intervention made a difference here. It does not answer what made these conditions obtain. Stringing local results together does not grow into an account of land tenure, terms of trade, fiscal capacity or political power. The authors are aware of this, but a reader following the title easily welds the two together.
+
+The counter-case needs full weight. External validity is a hard constraint: the same intervention may fail in another institutional setting, and seeing why requires knowledge from outside the trial. More fundamentally, the claim that there is no big answer is itself a position. Restricting inquiry to what can be randomised removes the structural factors that resist randomisation before any evidence is examined — a move that looks like methodological discipline and is already a choice.
+
+The judgement is to keep the decomposition and add a structural layer. Splitting a large question into testable mechanisms is right for deciding what to do next; why those mechanisms happen to be rooted here still needs a different line of inquiry into institutions and history.`,
+    quote_zh: '',
+    quote_en: '',
+    questions_zh: [
+      `把大问题拆成小问题，为什么反而改变了争论方式？`,
+      `「有效」这个结论的有效范围止于哪里？`,
+      `「不存在大答案」为什么本身也是一种立场？`,
+    ],
+    questions_en: [
+      `Why does splitting a large question into small ones change how the argument is conducted?`,
+      `Where does the validity of a finding that something works come to an end?`,
+      `Why is the claim that there is no big answer itself a position?`,
+    ],
+    answers_zh: [
+      `因为宏大叙事先给总体解释、再把反例当例外；拆解法让具体机制先接受检验，并允许各地结论彼此不一致，不要求一个统一理论来收编。整齐让位于可核对。`,
+      `止于「在此地、此条件、此人群是否带来差异」。它不回答是什么让此地具备这些条件，一组局部结果也不会自动长成关于土地、贸易、财政或政治权力的解释。`,
+      `因为把问题限定在可随机化的层面，等于先把难以随机化的结构性因素移出视野，这一步发生在看证据之前。它看似只是方法纪律，实则已经替研究划定了边界。`,
+    ],
+    answers_en: [
+      `Because a grand narrative supplies the total explanation first and treats counter-examples as exceptions. Decomposition tests mechanisms first and permits local conclusions to disagree, with no unified theory required to absorb them. Tidiness gives way to what can be checked.`,
+      `At whether this intervention made a difference here, under these conditions, for this population. It does not answer what made those conditions obtain, and a set of local results does not grow into an account of land, trade, fiscal capacity or political power.`,
+      `Because restricting inquiry to what can be randomised removes the structural factors that resist randomisation before evidence is examined. It looks like methodological discipline, but it has already drawn a boundary around what may be asked.`,
+    ],
+    topics: ['behavioral-economics', 'decision-making', 'class-and-inequality'],
+  },
+  {
+    id: 'note-104',
+    slug: 'misbehaving-who-decides-what-counts-as-an-error',
+    book: 'misbehaving',
+    date: '2026-11-07',
+    voice: 'editorial',
+    key_insight_zh: `这本书最扎实的是一套方法论：模型与观察不符时先改模型。最值得警惕的却是它的命名方式——把偏离叫作「错误」，等于悄悄承认了那个被偏离的模型才是标准。`,
+    key_insight_en: `The book's solid achievement is a method: when model and observation disagree, revise the model. What deserves suspicion is its naming — calling a departure an error quietly concedes that the model departed from is the standard after all.`,
+    thinking_zh: `这本书的关键在于它把一门学科写成了过程。作者从一份「反常现象」清单讲起：禀赋效应、心理账户、对损失的敏感、计划与行动之间的拉扯，这些现象逐一与标准模型的预测相冲突。早期的经济学训练要求把它们当作噪声，本书记录的正是这些噪声如何逼出一套可检验的替代描述。
+
+它真正改变的是证据与理论的顺序。通常的做法是先守住一个简洁模型，再把不符之处解释成测量误差或个别情形；这里反过来，让反复出现的偏离成为修改前提的理由。「有限理性」不是一句感慨，而是把信息成本、注意力与冲动控制写进模型的技术性要求。
+
+容易被忽略的一点是「错误」这个词的归属。偏离被命名时，基准仍是那个假设完全理性的模型；于是差异被写成人的缺陷，而不是模型适用范围的说明。命名一旦固定，后续讨论便倾向于寻找个体何处失手，而不是追问环境把选择压成了什么样。
+
+反方还要摆足。若干经典效应在大规模重复中效应量明显缩水，说明清单里有些条目并不如初读时稳固；助推把选择架构交给设计者，而设计者的价值判断很少被摆到台面上接受检验；把偏离写成个体偏差，也容易让制度约束、时间压力与信息不对称退出视野。方法上的胜利不该被读成整套结论都已定案。
+
+判断因此是留下那条方法论、交还命名权：模型需要被经验修正，这一点几乎无可辩驳；但「偏离即错误」是一次未经论证的判断，应当改成「模型在此处不适用」。前者让理论变好，后者才决定谁被要求改变。`,
+    thinking_en: `The book's key move is to write a discipline as a process. It begins with a list of anomalies: endowment effects, mental accounting, sensitivity to losses, the gap between planning and acting, each colliding with the predictions of a standard model. Early training required treating these as noise, and the book records how that noise forced a testable alternative description into being.
+
+What changes is the order of evidence and theory. The usual practice defends a lean model first and explains away mismatches as measurement error or special cases. Here recurring departures become reasons to revise the premises. Bounded rationality is not a sigh about human limits but a technical demand that information costs, attention and self-control be written into the model.
+
+The easily missed point is who owns the word error. When a departure is named, the fully rational model stays in place as the benchmark, so the difference is recorded as a defect in people rather than as a statement about where the model applies. Once the label settles, discussion drifts toward locating an individual slip instead of asking what the environment did to the choice.
+
+The counter-case needs its full weight. Several celebrated effects shrank noticeably under large-scale replication, so some items on the list are less solid than a first reading suggests. Nudging hands the choice architecture to a designer whose value judgements rarely come forward for inspection. And writing departures as individual biases lets institutional constraints, time pressure and information gaps slip out of view. A methodological victory should not be read as a settled set of findings.
+
+The judgement is to keep the method and return the naming rights. That models must be revised by evidence is near unanswerable; that departure equals error is an unargued verdict, better restated as the model not applying here. The first improves theory. The second decides who is asked to change.`,
+    quote_zh: '',
+    quote_en: '',
+    questions_zh: [
+      `「有限理性」为什么不是一句感慨，而是技术性要求？`,
+      `把偏离命名为「错误」，会把追问引向哪里？`,
+      `为什么方法上的胜利不等于整套结论已定案？`,
+    ],
+    questions_en: [
+      `Why is bounded rationality a technical demand rather than a sigh about human limits?`,
+      `Where does naming a departure an error direct the subsequent inquiry?`,
+      `Why does a methodological victory not settle the whole set of findings?`,
+    ],
+    answers_zh: [
+      `因为它要求把信息成本、注意力与自我控制这些原本被略去的变量正式写进模型，使预测能被检验。仅仅承认人有限度，并不改变模型的任何一条推导。`,
+      `会引向「个体在哪里失手」，而不是「模型在此处不适用」「环境把选择压成了什么样」。基准被默认为正确之后，需要修正的对象就从理论悄悄换成了人。`,
+      `因为清单里若干效应在大规模重复中效应量缩水，助推又把设计者的价值判断藏在架构里。方法可靠，只说明改模型的方向对，不保证每一条具体结论都稳固。`,
+    ],
+    answers_en: [
+      `Because it requires variables previously omitted — information costs, attention, self-control — to be written formally into the model so that predictions can be tested. Merely conceding that people are limited changes no derivation at all.`,
+      `Toward where the individual slipped, rather than toward where the model stops applying or how the environment shaped the choice. Once the benchmark is assumed correct, the object needing repair quietly shifts from theory to person.`,
+      `Because several effects on the list shrank under large-scale replication, and nudging embeds a designer's value judgements inside the architecture. A sound method shows the direction of revision is right; it does not certify every particular finding as stable.`,
+    ],
+    topics: ['behavioral-economics', 'cognitive-science', 'decision-making'],
+  },
+  {
+    id: 'note-105',
+    slug: 'the-age-of-ai-a-new-rationality-without-a-test',
+    book: 'the-age-of-ai',
+    date: '2026-11-07',
+    voice: 'editorial',
+    key_insight_zh: `这本书把人工智能写成一个认识论事件：能给出可用结果、却不共享人的推理过程的理性出现了。提问有力，判据却缺席——宏大断言之后，缺少可用来检验它的具体条件。`,
+    key_insight_en: `The book presents artificial intelligence as an epistemological event: a rationality that delivers usable results without sharing a human reasoning process. The question is strong but the test is missing; after the large claim, no concrete conditions for checking it are supplied.`,
+    thinking_zh: `这本书的关键在于它不把人工智能当作一件更快的工具。三位作者关心的是：当一个系统能给出可采纳的判断，却无法用人的推理链条解释它，决策、责任与人对自身位置的理解会怎样改变。工具论保留「人始终是判断者」这个前提，本书要问的正是这个前提还能不能成立。
+
+它真正改变的是讨论的层级。多数技术讨论停在能力与产业，这里抬到「理性是否还专属人类」；由此引出的治理主张也不再只是限速或审查，而是要求新的问责形式与新的哲学框架。把一项技术写成需要重新理解人的事件，是全书最有分量的一步。
+
+容易被忽略的一点是该书写作的时间位置。出版之后，生成式系统的能力门槛、使用成本与扩散速度都发生了明显变化；书中不少设想仍以「部署在大型机构里、由专家把关」为前提，而后来最常见的情形是分散的普通使用者直接调用。前提变了，基于前提的治理设计就需要重新估量。
+
+反方必须说透。三位作者分别来自外交、产业与学术高位，框架天然偏向国家与平台，日常实践与分散使用者几乎没有位置。「人工智能改变理性」是宏大断言，却没有给出什么观察会推翻它；一个不可检验的命题无法用来做判断。对风险的讨论也集中在地缘与军备，对普通错误、责任推诿与纠正渠道的着墨明显不足。
+
+判断因此是把它当提问、不当结论：值得接着追的是那组可操作的判据——出错时由谁负责、决策能否被追溯、被影响的人有没有机会纠正。这些能被写进制度并被检验；「理性换了主人」若停在一句断言，就只提供了气氛。`,
+    thinking_en: `The book refuses to treat artificial intelligence as a faster tool. Its three authors ask what happens to decision-making, responsibility and the human sense of position when a system can supply an adoptable judgement without sharing a human chain of reasoning. Instrumentalism keeps the premise that a person remains the judge; the book asks whether it still holds.
+
+What changes is the level of discussion. Most technical debate stays with capability, industry and security competition. Here the question rises to whether rationality remains an exclusively human attribute, and the governance proposals are not merely about limits but about new forms of accountability. Writing a technology as an event that requires rethinking what a person is carries the most weight in the book.
+
+The easily missed point is its position in time. After publication, capability thresholds, cost and diffusion speed all shifted sharply. Many of the book's scenarios assume deployment inside large institutions with experts at the gate, whereas the most common arrangement became dispersed ordinary users calling systems directly.
+
+The counter-case needs to be explicit. The authors write from senior positions in diplomacy, industry and academia, so the frame leans toward states and platforms, leaving everyday practice and dispersed users with almost no place. The claim that artificial intelligence changes rationality is grand but names no observation that would overturn it; an untestable proposition cannot guide a judgement. Risk is discussed mainly as geopolitics and armament, while ordinary error, the shifting of responsibility and channels for correction receive far less attention.
+
+The judgement is to take it as a question rather than a conclusion. What is worth pursuing is the operational set of tests: who answers when it fails, whether a decision can be traced, and whether affected people have any route to correction. These can be written into institutions and examined. Left as a single assertion, the claim that rationality changed hands supplies atmosphere and nothing else.`,
+    quote_zh: '',
+    quote_en: '',
+    questions_zh: [
+      `把人工智能写成认识论事件，与工具论的差别在哪里？`,
+      `为什么出版之后的时间变化会动摇书中的治理设计？`,
+      `把「人工智能改变理性」变成可判断命题，需要补什么？`,
+    ],
+    questions_en: [
+      `Where does treating artificial intelligence as an epistemological event differ from instrumentalism?`,
+      `Why do changes after publication unsettle the book's governance design?`,
+      `What would turn the claim that artificial intelligence changes rationality into a testable proposition?`,
+    ],
+    answers_zh: [
+      `工具论默认人始终是判断者，系统只是更快的手段；本书追问的恰是这个前提。当系统给出可采纳的结果却不共享人的推理链条，判断者与责任的落点都需要重新界定。`,
+      `因为能力门槛、使用成本与扩散速度都变了，而书中的设想多以「大型机构部署、专家把关」为前提。最常见的使用方式变成分散用户直接调用，基于旧前提的问责设计自然需要重估。`,
+      `需要一组可观察的判据：出错时由谁负责、决策过程能否被追溯、被影响者有没有纠正渠道，以及什么样的观察会推翻「理性已易主」这一说法。没有判据，断言只提供气氛。`,
+    ],
+    answers_en: [
+      `Instrumentalism assumes a person remains the judge and the system is only a faster means; the book questions precisely that premise. When a system delivers an adoptable result without sharing a human chain of reasoning, both the location of judgement and the location of responsibility have to be redrawn.`,
+      `Because capability thresholds, cost of use and diffusion speed all changed, while many scenarios assume deployment inside large institutions with expert gatekeeping. The common arrangement became direct use by dispersed individuals, so accountability designed for the earlier premise needs reassessment.`,
+      `An observable set of tests: who answers when it fails, whether a decision can be traced, whether affected people have a route to correction, and what observation would overturn the claim that rationality changed hands. Without such tests the assertion supplies only atmosphere.`,
+    ],
+    topics: ['ai', 'philosophy', 'modern-society'],
+  },
 ];
 
 export default notes;
