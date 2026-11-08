@@ -415,7 +415,12 @@
     "mute": "Mute",
     "unmute": "Unmute",
     "progress": "Playback position",
-    "hint": "Plays only after you click — never automatically."
+    "hint": "Plays only after you click — never automatically.",
+    "select_track": "Select track",
+    "mode_label": "Loop mode",
+    "mode_list": "Playlist loop",
+    "mode_single": "Single loop",
+    "credit_line": "Music credits"
   },
   "source": {
     "anzhengming": "AZM's list",

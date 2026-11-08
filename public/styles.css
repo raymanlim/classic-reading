@@ -1546,6 +1546,65 @@ html[data-theme="dark"] a:focus-visible .cover__img { filter: none; }
 }
 .bgm__hint { margin: 0.6rem 0 0; font-size: 0.6rem; letter-spacing: 0.03em; color: var(--bgm-dim); }
 
+/* 曲目选择器与循环方式 */
+.bgm__picker {
+  margin-top: 0.7rem;
+  padding: 0.55rem 0.6rem 0.6rem;
+  border: 1px solid var(--bgm-line);
+  border-radius: 8px;
+  background: rgba(245, 240, 229, 0.05);
+  text-align: left;
+}
+.bgm__picker-label {
+  display: block;
+  font-size: 0.56rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--bgm-dim);
+  margin-bottom: 0.35rem;
+}
+.bgm__select {
+  display: block;
+  width: 100%;
+  margin: 0 0 0.55rem;
+  padding: 5px 8px;
+  font-size: 0.72rem;
+  font-family: inherit;
+  color: var(--bgm-fg);
+  background: var(--bgm-surface);
+  border: 1px solid var(--bgm-line);
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+}
+.bgm__select:focus-visible { border-color: var(--bgm-accent); }
+.bgm__mode { display: flex; gap: 4px; }
+.bgm__mode-btn {
+  flex: 1 1 0;
+  padding: 4px 0;
+  font-size: 0.62rem;
+  letter-spacing: 0.05em;
+  color: var(--bgm-dim);
+  background: transparent;
+  border: 1px solid var(--bgm-line);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: color 0.15s, background 0.15s, border-color 0.15s;
+}
+.bgm__mode-btn:hover { color: var(--bgm-fg); }
+.bgm__mode-btn.is-active {
+  color: #1e1d19;
+  background: var(--bgm-accent);
+  border-color: transparent;
+}
+.site-footer__credits {
+  margin: 0.3rem 0 0;
+  font-size: 0.62rem;
+  letter-spacing: 0.02em;
+  color: var(--footer-dim, #8a8177);
+  word-break: break-all;
+}
+
 @media (max-width: 420px) {
   .bgm__toggle { height: 32px; font-size: 0.78rem; padding: 0 0.9rem 0 0.8rem; }
   .bgm__panel { bottom: calc(100% + 10px); }

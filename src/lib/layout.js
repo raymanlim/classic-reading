@@ -237,6 +237,7 @@ export function footer(lang, data) {
     </div>
     <div class="site-footer__bottom">
       <p>${e(t(lang, 'footer.copyright'))}</p>
+      <p class="site-footer__credits">${e(t(lang, 'bgm.credit_line'))}：${e(BGM_CREDITS[lang])}</p>
     </div>
   </footer>`;
 }
@@ -245,13 +246,76 @@ export function footer(lang, data) {
  * 右下角背景音乐播放器
  * 默认收起、默认不自动播放：只有用户点击才播放。
  * 容器带 hidden，JS 初始化后才显露 —— 禁用 JS 时不会留下无效按钮。
+ *
+ * 多曲目：下拉选择曲目（选择记忆到 localStorage 'cl-bgm'），
+ * 循环方式支持列表循环（默认，曲目顺序播放并循环）与单曲循环。
+ * 曲目元数据由 BGM_TRACKS 单一数据源同时驱动 HTML 选项与 JS 配置。
  * ------------------------------------------------------------------ */
+const BGM_TRACKS = [
+  {
+    id: 'a-quiet-place',
+    file: '/assets/a-quiet-place.mp3',
+    title: { zh: '一处安静的地方', en: 'A Quiet Place' },
+    composer: { zh: 'Rayman 原创器乐', en: 'Rayman original instrumental' },
+    credit: { zh: 'RAYMAN PERSONAL THEME · ORIGINAL INSTRUMENTAL', en: 'RAYMAN PERSONAL THEME · ORIGINAL INSTRUMENTAL' }
+  },
+  {
+    id: 'evening',
+    file: '/assets/bgm-evening.mp3',
+    title: { zh: 'Evening · 黄昏', en: 'Evening' },
+    composer: { zh: 'Kevin MacLeod（古典吉他 / 大提琴 / 双簧管）', en: 'Kevin MacLeod (classical guitar / cello / oboe)' },
+    credit: {
+      zh: '"Evening" Kevin MacLeod (incompetech.com) · CC BY 4.0',
+      en: '"Evening" Kevin MacLeod (incompetech.com) · CC BY 4.0'
+    }
+  },
+  {
+    id: 'morning',
+    file: '/assets/bgm-morning.mp3',
+    title: { zh: 'Morning · 清晨', en: 'Morning' },
+    composer: { zh: 'Kevin MacLeod（古典吉他 / 竖琴 / 长笛）', en: 'Kevin MacLeod (classical guitar / harp / flute)' },
+    credit: {
+      zh: '"Morning" Kevin MacLeod (incompetech.com) · CC BY 4.0',
+      en: '"Morning" Kevin MacLeod (incompetech.com) · CC BY 4.0'
+    }
+  },
+  {
+    id: 'guzheng-city',
+    file: '/assets/bgm-guzheng-city.mp3',
+    title: { zh: 'Guzheng City · 古筝之城', en: 'Guzheng City' },
+    composer: { zh: 'Kevin MacLeod（古筝 / Dhol 鼓）', en: 'Kevin MacLeod (guzheng / dhol)' },
+    credit: {
+      zh: '"Guzheng City" Kevin MacLeod (incompetech.com) · CC BY 4.0',
+      en: '"Guzheng City" Kevin MacLeod (incompetech.com) · CC BY 4.0'
+    }
+  }
+];
+
+/* 页脚音乐署名行（CC BY 4.0 要求） */
+const BGM_CREDITS = {
+  zh: '“Evening” “Morning” “Guzheng City” Kevin MacLeod (incompetech.com) · Licensed under Creative Commons: By Attribution 4.0 License http://creativecommons.org/licenses/by/4.0/',
+  en: '"Evening" "Morning" "Guzheng City" Kevin MacLeod (incompetech.com) · Licensed under Creative Commons: By Attribution 4.0 License http://creativecommons.org/licenses/by/4.0/'
+};
+
 export function bgmPlayer(lang) {
   const audioSrc = `${ASSETS.audio}?v=${BUILD_ID}`;
   const coverSrc = `${ASSETS.audioCover}?v=${BUILD_ID}`;
+  const trackOptions = BGM_TRACKS.map(function (tr, i) {
+    const label = tr.title[lang] + ' — ' + tr.composer[lang];
+    return `<option value="${i}"${i === 0 ? ' selected' : ''}>${e(label)}</option>`;
+  }).join('\n        ');
+  const tracksJson = JSON.stringify(BGM_TRACKS.map(function (tr) {
+    return {
+      id: tr.id,
+      file: `${tr.file}?v=${BUILD_ID}`,
+      title: tr.title,
+      credit: tr.credit
+    };
+  }));
   return `
   <div class="bgm" data-bgm hidden>
     <audio id="bgm-audio" preload="none" loop src="${audioSrc}"></audio>
+    <script type="application/json" id="bgm-tracks">${tracksJson}</script>
 
     <button class="bgm__toggle" type="button" data-bgm-toggle
             aria-expanded="false" aria-controls="bgm-panel"
@@ -269,11 +333,24 @@ export function bgmPlayer(lang) {
         </button>
       </div>
       <div class="bgm__body">
-        <p class="bgm__title">${e(t(lang, 'bgm.title'))}</p>
-        <p class="bgm__title-alt">${e(t(lang, 'bgm.title_alt'))}</p>
-        <p class="bgm__credit">${e(t(lang, 'bgm.credit'))}</p>
-        <p class="bgm__motto">${e(t(lang, 'bgm.motto'))}</p>
-        <p class="bgm__motto-sub">${e(t(lang, 'bgm.motto_sub'))}</p>
+        <p class="bgm__title" data-bgm-title>${e(t(lang, 'bgm.title'))}</p>
+        <p class="bgm__title-alt" data-bgm-title-alt>${e(t(lang, 'bgm.title_alt'))}</p>
+        <p class="bgm__credit" data-bgm-credit>${e(t(lang, 'bgm.credit'))}</p>
+        <p class="bgm__motto" data-bgm-motto>${e(t(lang, 'bgm.motto'))}</p>
+        <p class="bgm__motto-sub" data-bgm-motto-sub>${e(t(lang, 'bgm.motto_sub'))}</p>
+
+        <div class="bgm__picker">
+          <label class="bgm__picker-label" for="bgm-track-select">${e(t(lang, 'bgm.select_track'))}</label>
+          <select class="bgm__select" id="bgm-track-select" data-bgm-track-select>
+        ${trackOptions}
+          </select>
+          <div class="bgm__mode" role="group" aria-label="${e(t(lang, 'bgm.mode_label'))}">
+            <button class="bgm__mode-btn is-active" type="button" data-bgm-mode="list"
+                    aria-pressed="true">${e(t(lang, 'bgm.mode_list'))}</button>
+            <button class="bgm__mode-btn" type="button" data-bgm-mode="single"
+                    aria-pressed="false">${e(t(lang, 'bgm.mode_single'))}</button>
+          </div>
+        </div>
 
         <div class="bgm__controls">
           <button class="bgm__play" type="button" data-bgm-play

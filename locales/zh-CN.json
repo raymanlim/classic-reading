@@ -415,7 +415,12 @@
     "mute": "静音",
     "unmute": "取消静音",
     "progress": "播放进度",
-    "hint": "仅在你点击后播放，不会自动开始。"
+    "hint": "仅在你点击后播放，不会自动开始。",
+    "select_track": "选择曲目",
+    "mode_label": "循环方式",
+    "mode_list": "列表循环",
+    "mode_single": "单曲循环",
+    "credit_line": "背景音乐署名"
   },
   "source": {
     "anzhengming": "AZM推荐",

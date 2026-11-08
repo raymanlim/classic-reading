@@ -600,6 +600,8 @@
       state.time = audio.currentTime || 0;
       state.open = !panel.hidden;
       state.muted = audio.muted;
+      state.trackIndex = curIdx;
+      state.mode = mode;
       store(LS, JSON.stringify(state));
     }
     function fmt(sec) {
@@ -644,24 +646,110 @@
       toggle.setAttribute('aria-expanded', 'false');
       save();
     }
-    /* 悬停 / 聚焦时只取元数据，提前恢复进度，不播放、不下载整曲 */
+    /* ---------------- 多曲目：选择器 / 循环模式 / 曲目切换 ---------------- */
+    var trackSelect = $('[data-bgm-track-select]', root);
+    var modeBtns = $$('[data-bgm-mode]', root);
+    var titleEl = $('[data-bgm-title]', root);
+    var titleAltEl = $('[data-bgm-title-alt]', root);
+    var creditEl = $('[data-bgm-credit]', root);
+    var mottoEl = $('[data-bgm-motto]', root);
+    var mottoSubEl = $('[data-bgm-motto-sub]', root);
+    var tracksMeta = [];
+    try {
+      var trEl = $('#bgm-tracks', root);
+      tracksMeta = trEl ? (JSON.parse(trEl.textContent) || []) : [];
+    } catch (err) { tracksMeta = []; }
+    var trackCount = tracksMeta.length;
+    /* 合法性兜底：损坏的已存索引回退到 0 */
+    var savedIdx = state.trackIndex;
+    if (typeof savedIdx !== 'number' || savedIdx < 0 || savedIdx >= trackCount) savedIdx = 0;
+    var curIdx = savedIdx;
+    /* 循环方式：list = 列表循环（默认，顺序播放并循环），single = 单曲循环 */
+    var mode = state.mode === 'single' ? 'single' : 'list';
+
+    function updateTrackUI() {
+      if (!trackCount) return;
+      var meta = tracksMeta[curIdx];
+      var lang = document.body.getAttribute('data-lang') || 'zh';
+      var key = lang === 'en' ? 'en' : 'zh';
+      if (trackSelect) trackSelect.value = String(curIdx);
+      if (titleEl && meta.title && meta.title[key]) titleEl.textContent = meta.title[key];
+      if (creditEl && meta.credit && meta.credit[key]) creditEl.textContent = meta.credit[key];
+      if (titleAltEl && mottoEl && mottoSubEl && meta.id === 'a-quiet-place') {
+        /* 原曲保留静态词条 */
+        titleAltEl.hidden = false; mottoEl.hidden = false; mottoSubEl.hidden = false;
+      } else if (titleAltEl && mottoEl && mottoSubEl) {
+        /* 替换曲目：无副标题/铭言，隐藏占位行保持版面 */
+        titleAltEl.hidden = true; mottoEl.hidden = true; mottoSubEl.hidden = true;
+      }
+      modeBtns.forEach(function (b) {
+        var active = b.getAttribute('data-bgm-mode') === mode;
+        b.classList.toggle('is-active', active);
+        b.setAttribute('aria-pressed', active ? 'true' : 'false');
+      });
+    }
+    function applyTrack(index, opts) {
+      if (!trackCount) return;
+      var o = opts || {};
+      curIdx = index;
+      var meta = tracksMeta[curIdx];
+      /* 播放中切换：保持播放状态无缝续播；暂停中切换：仅换源 */
+      var wasPlaying = !audio.paused && !audio.ended;
+      audio.loop = (mode === 'single');
+      audio.src = meta.file;
+      audio.currentTime = 0;
+      state.trackIndex = curIdx;
+      save();
+      updateTrackUI();
+      audio.load();
+      if (wasPlaying) {
+        var p = audio.play();
+        if (p && p.catch) p.catch(function () { syncPlay(); });
+      } else {
+        syncPlay();
+      }
+    }
+    if (trackSelect && trackCount) {
+      trackSelect.addEventListener('change', function () {
+        applyTrack(Number(trackSelect.value), { keepPosition: false });
+      });
+    }
+    modeBtns.forEach(function (b) {
+      b.addEventListener('click', function () {
+        mode = b.getAttribute('data-bgm-mode') === 'single' ? 'single' : 'list';
+        audio.loop = (mode === 'single');
+        state.mode = mode;
+        save();
+        updateTrackUI();
+      });
+    });
+    /* 列表循环：当前曲播完自动切下一首（到末尾回到第一首） */
+    audio.addEventListener('ended', function () {
+      if (mode !== 'list' || !trackCount) return;
+      applyTrack((curIdx + 1) % trackCount, { keepPosition: false });
+    });
     function prefetch() {
       if (audio.preload === 'none') {
         audio.preload = 'metadata';
         audio.load();
       }
     }
+    /* 多曲目下悬停预取仅针对当前曲目源；切换曲目后 audio.load() 已按需取元数据 */
 
     audio.volume = vol;
     audio.muted = !!state.muted;
     volume.value = String(vol);
     volume.style.setProperty('--bgm-vol', (vol * 100) + '%');
+    /* 循环方式初值：single = 原生 loop；list = 关闭原生 loop 由 ended 事件切曲 */
+    audio.loop = (typeof state.mode === 'string' && state.mode === 'single');
     syncPlay();
     syncMute();
 
     audio.addEventListener('loadedmetadata', function () {
       totalEl.textContent = fmt(audio.duration);
-      if (!restored && savedTime > 0 && savedTime < audio.duration - 1) {
+      /* 仅默认首曲恢复历史进度：换曲后新曲目从 0 开始（跨曲目进度不恢复，
+         避免旧索引与新曲目时长错位导致 seek 越界） */
+      if (!restored && savedTime > 0 && savedTime < audio.duration - 1 && curIdx === 0) {
         try { audio.currentTime = savedTime; } catch (err) { /* 忽略不可寻址的流 */ }
       }
       restored = true;
@@ -712,6 +800,16 @@
     if (state.open) {
       panel.hidden = false;
       toggle.setAttribute('aria-expanded', 'true');
+    }
+    /* 恢复上次选择的曲目与循环方式（默认首曲、列表循环） */
+    if (trackCount && curIdx !== 0) {
+      var m0 = tracksMeta[curIdx];
+      audio.loop = (mode === 'single');
+      audio.src = m0.file;
+      updateTrackUI();
+      audio.load();
+    } else {
+      updateTrackUI();
     }
   }
 
