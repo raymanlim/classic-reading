@@ -74,7 +74,7 @@ node src/audit.mjs --og            # 顺便重新生成 public/og.png
 
 ---
 
-## 3. 日常任务（两条日更自动化）
+## 3. 日常任务（两条日更自动化 + 一条按需回填）
 
 本仓库有**两条互不重叠的日更任务**，共用同一仓库、由 `git-sync.sh` 按仓库加锁互斥：
 
@@ -254,6 +254,44 @@ fiction/science-fiction/fantasy→literature）；退役主题（金融/投资/�
   **`Editor&#39;s Note`（撇号被转义）**，用 `grep "Editor's Note"` 会得到 0 —— 这是**误报**。
 - 既有 personal 条目的 `我的思考` 处数**不应变化**（全库固定 7 处）。
 - 规模基线：页面数 / 书籍数 / 作者 109 / 分类 12 / 主题 41；近 13 期稳定为**每期 +4~8 页面、+2 书**。
+
+---
+
+### 3.3 视频链接回填（按需，单命令）
+
+🔴 **不要手工分别编辑代码与总表** —— 两处必须同步，否则台账漂移。统一走脚本：
+
+```bash
+npm run video:list     # 排期视图：已发布期号 / 待制作 / 不做视频
+npm run video:check    # 全量核对（代码自检 + 总表四段比对），差异非 0 则 RC=1
+
+# 回填一期：同时改 content/article-videos.js 与 docs/slug-video-mapping-all.md，并自动写后自检
+node scripts/backfill-article-video.mjs --backfill \
+  --slug <文章 slug> --url https://youtu.be/<id> --episode <整数期号>
+
+# 预览不写入 / 重制版强制替换
+node scripts/backfill-article-video.mjs --backfill ... --dry-run
+node scripts/backfill-article-video.mjs --backfill ... --force
+```
+
+| 文件 | 作用 |
+|---|---|
+| `content/article-videos.js` | 代码权威源：`articleVideos` / `videoPending` / `videoExcluded` 三态互斥 |
+| `docs/slug-video-mapping-all.md` | 项目内权威总表（书籍页 / 文章页 / 待制作 / 不做视频四段） |
+| `content/book-videos.js` | 书籍页视频，**另一条线，不混用**（源自「阅读笔记」的条目 `episode: ''`） |
+| `content/note-videos.js` | 笔记页视频，第三条线 |
+
+脚本行为：幂等（值一致直接 no-op）；值不同必须 `--force` 才覆盖；`--dry-run` 不写文件；
+保持原文件 CRLF/LF 风格；写后起子进程跑 `--check`。文章标题自动取自
+`content/articles/<slug>.js` 的 `title_zh`，无需手填。
+
+🔴 **脚本不负责 build / check / git 提交**，执行完仍需：
+`rm -rf dist && mkdir -p dist` → `CODEBUDDY_SAFE_DELETE_ENABLED=0 node src/build.mjs`
+→ `node src/check.mjs` →
+`git-sync.sh --paths "content/article-videos.js,docs/slug-video-mapping-all.md" --ignore-baseline`。
+
+> `docs/*-video-mapping-2026-11-04.csv` 是 11-04 历史快照，已与代码脱节且**无脚本消费**，
+> 不要当权威来源，也不要只补其中一行。
 
 ---
 
