@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-08",
+  "books": [
+    {
+      "slug": "the-dawn-of-everything",
+      "category": "history",
+      "title_zh": "人类新史：一次改写人类命运的尝试",
+      "title_en": "The Dawn of Everything: A New History of Humanity",
+      "author": "david-graeber",
+      "author_zh": "大卫·格雷伯、大卫·温格罗",
+      "author_en": "David Graeber & David Wengrow",
+      "nationality_zh": "美国、英国",
+      "nationality_en": "American & British",
+      "year": 2021,
+      "original_language": "en",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "文明不是一条必经的单行道：农业、城市与国家并不必然把人推入等级与不平等",
+      "theme_en": "Civilisation is not a one-way road: farming, cities and states did not necessarily force hierarchy upon us",
+      "tags": ["history", "civilization", "inequality", "progress", "power", "human-nature"],
+      "topics": ["history", "civilization", "class-and-inequality"],
+      "prose": {
+        "description_zh": "2021 年 10 月由 Allen Lane（Penguin 旗下）出版，是人类学家 David Graeber 与考古学家 David Wengrow 合著、篇幅逾 700 页的文明史重构，也是 Graeber 生前完成的最后一部作品。全书的起点不是一次发掘，而是一场论战：我们熟悉的「农业出现 → 剩余与人口 → 城市 → 国家 → 不平等」这条阶梯式叙事，在作者看来是十八世纪欧洲对原住民尖锐批评的保守回应，而不是考古证据逼出的结论。随后两位作者用近几十年的考古与人类学材料逐条检验：农业曾被反复采纳又放弃，若干最早的城市找不到中央王权的痕迹，有些社会会随季节在不同政治组织之间切换，大规模定居并不自动带来等级与暴力。全书没有给出一个新的终极起源故事，而是把「人类怎么走到今天」重新打开成一个仍有多条路径的问题。中文版《人类新史：一次改写人类命运的尝试》由九州出版社 2024 年 9 月出版，张帆、张雨欣译。",
+        "description_en": "Published in October 2021 by Allen Lane, an imprint of Penguin Books, this is a reconstruction of human prehistory running to more than 700 pages by the anthropologist David Graeber and the archaeologist David Wengrow, and the last book Graeber completed before his death in 2020. Its point of departure is an argument rather than an excavation. The familiar ladder leading from farming through surplus and population growth to cities, states and inequality took shape in eighteenth-century Europe, the authors contend, as a conservative reply to incisive Indigenous criticism of European society, not as a conclusion forced by the archaeological record. They then test that ladder against recent evidence. Farming was taken up and abandoned repeatedly before it became permanent. Some of the earliest urban settlements show no trace of a central ruling apparatus. Certain societies appear to have moved seasonally between sharply different political arrangements, and large settled populations did not automatically generate hierarchy or organised violence. What the book supplies is not a rival origin story with the same architecture but a reopened question: how many ways of organising a society were actually available, and how did we come to believe there had only ever been one? A Chinese edition, 人类新史, was published by Jiuzhou Press in September 2024 in a translation by Zhang Fan and Zhang Yuxin.",
+        "why_read_zh": "因为它拆掉的不是某个朝代的结论，而是「必然性」本身。反直觉的核心判断是：不平等不是规模扩大后必须支付的门票，农业与国家也不是一旦跨过就无法回头的闸门；把这两件事当成自然规律，恰恰是十八世纪论战留下来的遗产。可迁移的框架是作者提出的三种原初自由——离开所处环境的自由、不服从任意权威的自由、创造或改造社会关系的自由；用它去检查任何组织，问的都是「这三种自由各自被收走了多少」，而不是「它处于哪个发展阶段」。书中还给出季节性切换制度的个案，说明政治形态曾被当作可选择的安排。它也不是人畜无害的正确话：维基条目汇总了严肃反对，Gary M. Feinman 指其「挑选并选择性呈现个案」，Kwame Anthony Appiah 指「书的说法与其来源之间存在不一致」，David A. Bell 更斥其「近乎学术不端」，Walter Scheidel 批评缺乏物质主义视角。读完改变的是提问方式：从「我们何时失去了平等」变成「我们什么时候开始相信自由必须被交换掉，以及哪些集体选择后来被写成了规律」。 经典性证据：① 维基百科有独立书籍条目 The Dawn of Everything（2021-10-19 由 Allen Lane 首版，作者 David Graeber & David Wengrow，条目含方法论批评与学术接受专节，非仅作者页提及）；② 权威书评媒体长评：The New Yorker（Gideon Lewis-Kraus，〈Early Civilizations Had It All Figured Out〉）、The New York Review of Books（Kwame Anthony Appiah 与 David Wengrow 的长篇论战〈The Roots of Inequality〉）、The Guardian（David Priestland，〈Inequality is not the price of civilisation〉）、Times Literary Supplement（Richard Handler，〈Prehistory without hierarchy〉）。两项分属维基百科与权威书评媒体两个不同来源类型。补充荣誉不计入门槛项：2022 年 Orwell Prize for Political Writing 决选、Sunday Times / Observer / BBC History 年度图书、国家图书馆文津图书奖、2025 年 J.I. Staley Prize、译成 30 余种语言。时间检验：首版至 2026-11-08 已满 5 年 20 天，满足 ≥5 年。中文版为九州出版社 2024-9 正式引进，ISBN 9787522527949；该中文版豆瓣 8.3 分、1228 人评价，低于 8.5 分门槛，故不作为门槛证据计入。Goodreads 评分与评价人数、微信读书推荐值本次均未获取，不列为证据。",
+        "why_read_en": "Because what it dismantles is not a claim about a particular dynasty but inevitability itself. The counter-intuitive thesis is that inequality was not the admission price paid once societies grew large, and that farming and the state were not one-way gates; treating both as laws of nature is itself an inheritance from an eighteenth-century argument. The transferable framework is the book's three primordial freedoms — the freedom to move away from one's surroundings, to disobey arbitrary authority, and to create or transform social relations. Applied to any institution, it asks how much of each freedom has been given up rather than which stage of development the institution has reached. Cases of societies alternating between political forms with the seasons make the further point that a constitution can be a choice. Nor is the book safely unobjectionable. Its Wikipedia article records serious objections: Gary M. Feinman accuses the authors of cherry-picked and selectively presented examples, Kwame Anthony Appiah of a discordance between what the book says and what its sources say, David A. Bell of coming perilously close to scholarly malpractice, and Walter Scheidel of neglecting materialist perspectives. What changes is the question asked: from when did we lose equality to when did we start believing freedom had to be traded away, and which collective choices were later rewritten as laws. Evidence of standing: (1) a standalone Wikipedia article for the book, giving first publication on 19 October 2021 by Allen Lane, with dedicated sections on methodology and scholarly reception rather than a passing mention on an author page; (2) substantial reviews and essays in The New Yorker (Gideon Lewis-Kraus, Early Civilizations Had It All Figured Out), The New York Review of Books (an extended exchange between Kwame Anthony Appiah and David Wengrow, The Roots of Inequality), The Guardian (David Priestland, Inequality is not the price of civilisation) and the Times Literary Supplement (Richard Handler, Prehistory without hierarchy). These constitute two distinct source types, an encyclopedia and the review press. Not counted towards the threshold: shortlisting for the 2022 Orwell Prize for Political Writing, Book of the Year listings in the Sunday Times, Observer and BBC History, the Wenjin Book Prize of the National Library of China, the 2025 J. I. Staley Prize, and translation into more than thirty languages. First published more than five years before this recommendation, on 19 October 2021. The Chinese edition (Jiuzhou Press, September 2024, ISBN 9787522527949) scores 8.3 on Douban with 1,228 ratings, below the 8.5 threshold, so it is not used as threshold evidence. Goodreads figures and WeRead recommendation values were not obtained on this run and are not cited.",
+        "core_ideas_zh": [
+          "阶梯叙事是一场论战的产物，不是考古学的结论：农业、城市、国家、不平等被排成不可逆的单行道，源于十八世纪欧洲对原住民批评的保守回应。先问「这个框架是谁、为了回答谁而提出」，再看证据是否支持它。",
+          "三种原初自由构成可迁移的检查表：离开所处环境的自由、不服从任意权威的自由、创造或改造社会关系的自由。评估任何组织或制度，问这三项各被收走多少，比问它处在哪个发展阶段更有解释力。",
+          "农业、城市与国家不是打包出现，也不必然不可逆：农业被反复采纳又放弃，部分早期城市没有中央王权，大规模定居可以不伴随等级制。把几个变量解开，才能看出哪些是偶然的同现。",
+          "政治形态曾被当作可切换的安排：有社会随季节在不同组织方式之间往返，说明「一种规模对应一种制度」不是物理约束，而是后来被固化下来的想象。",
+          "真正的收获不是新答案，而是问题被重新打开：如果过去存在过多种活法，今天被描述为「别无选择」的制度，就需要重新举证自己为什么必然。"
+        ],
+        "core_ideas_en": [
+          "The ladder is the residue of an argument, not a finding of archaeology. Farming, cities, states and inequality were arranged into an irreversible sequence as a conservative European reply to Indigenous criticism in the eighteenth century. Ask who built the frame and against whom before asking whether the evidence supports it.",
+          "Three primordial freedoms supply a portable checklist: the freedom to move away, the freedom to disobey arbitrary authority, and the freedom to create or transform social relations. Measuring how much of each an institution has taken away explains more than locating it on a scale of development.",
+          "Farming, cities and states did not arrive as a package, nor were they necessarily irreversible. Agriculture was adopted and dropped again; some early cities had no central rulers; large settled populations could exist without hierarchy. Separating the variables reveals which coincidences were merely contingent.",
+          "Political form was once treated as switchable. Societies that moved seasonally between sharply different arrangements show that one scale of population requiring one form of government is not a physical constraint but an imagination that later hardened.",
+          "The gain is not a new answer but a reopened question. If several ways of living were once available, any institution described today as the only option has to argue again for its own necessity."
+        ],
+        "key_questions_zh": [
+          "如果不平等不是规模扩大的必然代价，为什么几乎所有现代国家仍长成相似的层级结构？",
+          "把农业与城市视为不可逆的闸门，是考古证据在支持，还是一种关于「进步」的信念在支持？",
+          "当一种社会形态可以被季节性地切换，今天被称作「自然规律」的制度安排还剩多少是必然的？",
+          "用精心挑选的个案去反驳阶段论，方法论上是否也犯了与对手对称的错误？"
+        ],
+        "key_questions_en": [
+          "If inequality was not the inevitable price of scale, why do nearly all modern states converge on a similar hierarchical structure?",
+          "Does the view of farming and cities as one-way gates rest on archaeological evidence, or on a prior belief about progress?",
+          "Once a political form can be switched with the seasons, how much of what we call natural law is genuinely necessary?",
+          "Does answering a stage theory with selected cases repeat, in reverse, the methodological weakness it sets out to expose?"
+        ],
+        "who_should_read_zh": "关心制度从哪里来、而不只想弄清某个王朝发生了什么的读者；做组织、平台与产品设计，习惯把「规模一大就必须分层」当作前提的人；以及曾经被「历史只有一条路」这类叙事说服过的读者。不适合想找一条清晰年代线的通史读者——它给的不是一个更漂亮的新答案，而是一批让旧答案失效、并且明确承认自身可被反驳的材料。",
+        "who_should_read_en": "Readers interested in where institutions come from rather than in the sequence of dynasties; people building organisations, platforms or products who take it for granted that scale requires hierarchy; and anyone who has been persuaded that history had only one road. It is not for someone after a clean chronological survey: the book offers no tidier master narrative, only evidence that disables the old one, and it openly concedes that its own case can be challenged.",
+        "reading_note_zh": "建议先读开篇关于 Kandiaronk 与欧洲启蒙思想交锋的部分，把「阶梯叙事从哪来」这条问题立住；再重点读提出三种自由与季节性制度切换的章节，这两处才有可迁移的框架；后续考古个案可按兴趣跳读，不必按页顺序硬啃。读时始终带一个反问：作者用来拆掉阶段论的个案，是否同样经过挑选——把 Feinman、Appiah、Bell、Scheidel 的批评当作对照材料一起读，效果最好。中文版用九州出版社 2024 年张帆、张雨欣译本；与任何把农业和定居视为单向闸门的环境决定论叙述对读时，注意两者对「必然性」的处理正好相反。",
+        "reading_note_en": "Begin with the opening account of Kandiaronk and the Enlightenment encounter, since that is where the question of where the ladder came from is established. Then dwell on the chapters setting out the three freedoms and seasonal switching; these carry the transferable framework. The archaeological cases that follow can be sampled by interest rather than read page by page. Keep one objection in view throughout: were the cases used to dismantle stage theory themselves selected? The criticisms of Feinman, Appiah, Bell and Scheidel make an effective companion text. Use the Jiuzhou Press 2024 translation by Zhang Fan and Zhang Yuxin. Read against any environmental-determinist account that treats farming and settlement as a one-way gate, and note how differently the two books handle necessity."
+      }
+    },
+    {
+      "slug": "designing-data-intensive-applications",
+      "category": "technology",
+      "title_zh": "数据密集型应用系统设计",
+      "title_en": "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems",
+      "author": "martin-kleppmann",
+      "author_zh": "Martin Kleppmann",
+      "author_en": "Martin Kleppmann",
+      "nationality_zh": "未获取",
+      "nationality_en": "Not verified",
+      "year": 2017,
+      "original_language": "en",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "不存在放之四海皆准的「最佳」数据系统：每个选择都是可靠性、一致性与复杂度之间可拆解的权衡",
+      "theme_en": "There is no universally best data system: every choice is a decomposable trade-off among reliability, consistency and complexity",
+      "tags": ["technology", "computing", "computer-science", "systems-thinking", "complexity", "innovation"],
+      "topics": ["technology", "computing", "systems-thinking", "complexity"],
+      "prose": {
+        "description_zh": "2017 年由 O'Reilly Media 出版的英文原著，作者 Martin Kleppmann 写作时任剑桥大学分布式系统研究员，此前在 LinkedIn 等公司参与大规模数据基础设施建设。全书十二章分三部分：第一部分从可靠性、可扩展性与可维护性三个目标出发，依次比较数据模型、存储引擎与编码演化；第二部分转向跨机器系统，处理复制、分区、事务、分布式环境的故障模型，以及一致性与共识；第三部分讨论派生数据，比较批处理与流处理，最后落到数据系统的正确性与伦理判断。作者官网明确说，本书比较多种系统的底层机制与根本限制，不进入某一个工具的配置与使用细节。它把「该选哪个数据库」还原成「愿意为哪一种失败方式付出什么代价」。简体中文版《数据密集型应用系统设计》由中国电力出版社 2018 年 9 月出版，赵军平、李三平、吕云松、耿煜译。",
+        "description_en": "Published by O'Reilly Media in 2017, this book was written while Martin Kleppmann was a researcher in distributed systems at the University of Cambridge, after several years building large-scale data infrastructure at LinkedIn and earlier startups. Twelve chapters fall into three parts. Part I starts from three goals, reliability, scalability and maintainability, and compares data models, storage engines and the evolution of encoding formats. Part II moves beyond a single machine to replication, partitioning, transactions, the failure models of distributed systems, and consistency and consensus. Part III treats derived data, sets batch and stream processing side by side, and closes on correctness and the ethical use of data. The author's own site is explicit about the scope: the book compares the fundamental ideas and limitations behind a wide variety of systems, and does not go into the details of configuring any one tool. In practice it turns the question of which database to pick into the harder question of which failure modes one is willing to pay for. The simplified Chinese edition, 数据密集型应用系统设计, was published by China Electric Power Press in September 2018, translated by Zhao Junping, Li Sanping, Lü Yunsong and Geng Yu.",
+        "why_read_zh": "因为它把「技术选型」从品牌偏好改写成可以逐条举证的取舍。反直觉之处在于：不存在一个各方面都更好的系统，一致性也不是越强越专业——线性化、隔离级别、共识协议各有明码标价，强保证往往用延迟、可用性与运维复杂度换来。可迁移的框架有两条：用可靠性、可扩展性、可维护性三个非功能目标作为坐标系，而不是拿性能榜单排序；以及追问每个组件把复杂度移到了哪里，因为所谓「用了更简单的中间件」通常只是把复杂度搬进了基础设施。它也有可被反驳的立场：坚持工程师应当理解底层机制而不是按托管服务的宣传选型，与「云平台已把这类决策抽象掉」的现实路线直接冲突；第一版几乎不处理数据使用的伦理，第二版（Kleppmann 与 Chris Riccomini 合著，2026 年出版）补入相关章节，本身说明这套框架的边界。读完改变的是提问方式：从「用哪个数据库」变成「在哪些故障下必须保住哪条保证，其余可以放弃到什么程度」。 经典性证据：① 豆瓣读书中文版《数据密集型应用系统设计》（中国电力出版社 2018-9，ISBN 9787519821968）为 9.6 分、1947 人评价，超过 8.5 分 / 1000 人门槛；② Goodreads 条目 23463279 为 4.69 分、11.4 thousand ratings、1,015 reviews，超过 4.0 分 / 5000 人门槛。两项分属中文读者平台与国际读者平台两个不同来源类型。维基百科无该书独立条目（本次查询返回「没有此名称的条目」），故不计入；Google Scholar 引用数、≥2 所顶尖大学课程必读书、权威书评媒体长评、微信读书推荐值本次均未获取，不列为证据。来源冲突与回避：Goodreads 详情页标 First published April 25, 2015，中文百科与 O'Reilly 版本信息为 2017 年 3 月，按「以出版社官网为准、回避有争议的细节」纪律，站点 year 取 2017 且不写具体月日。中文正式版信息以豆瓣条目为准；作者中文译名在正式渠道存在「马丁·科勒普曼」等不一致写法，按红线不自拟，author_zh 保留英文原名；维基百科无作者条目、本人公开主页未明示国籍，而中文来源有「英国剑桥大学研究员」、电商渠道标「[美]」的冲突，故国籍字段写「未获取」，不作推断。时间检验：2017 年首版，至 2026-11-08 已满 9 年，满足 ≥5 年。",
+        "why_read_en": "Because it turns technology selection from a matter of brand preference into a set of trade-offs that can be itemised. The counter-intuitive claim is that no system is better on every axis and that stronger consistency is not automatically more professional: linearizability, isolation levels and consensus protocols each carry a price, usually paid in latency, availability and operational complexity. Two frameworks transfer. Use reliability, scalability and maintainability as the coordinate system rather than ranking products by benchmark, and ask where each component has relocated complexity, since adopting a simpler middleware commonly moves complexity into the infrastructure instead of removing it. The position is also open to objection. The insistence that engineers should understand underlying mechanisms rather than choose according to the marketing of managed services conflicts directly with the widespread view that cloud platforms have abstracted such decisions away. The first edition barely addresses the ethics of data use; the second edition, co-written with Chris Riccomini and published in 2026, adds that material, which is itself an acknowledgement of the first edition's limits. What changes is how you ask: from which database should we use to which guarantees must survive which failures, and how far can the rest be relaxed. Evidence of standing: (1) the Chinese edition 数据密集型应用系统设计, published by China Electric Power Press in September 2018, ISBN 9787519821968, holds a Douban rating of 9.6 from 1,947 ratings, above the 8.5 / 1,000 threshold; (2) the Goodreads record 23463279 shows an average of 4.69 from 11.4 thousand ratings and 1,015 reviews, above the 4.0 / 5,000 threshold. These are two distinct source types, a Chinese reader platform and an international one. Wikipedia has no standalone article for the book, so none is counted; Google Scholar citation counts, adoption as required reading at two or more leading universities, substantial reviews in the designated review press and WeRead recommendation values were not obtained and are not cited. On conflicting sources: the Goodreads detail page says First published April 25, 2015 while O'Reilly edition information and Chinese reference works give March 2017; following the rule that publisher information takes precedence and contested details are avoided, the site records year 2017 with no month or day. Chinese edition details follow the Douban record. The author's name has no consistent Chinese transliteration across official channels, so the English form is retained rather than inventing one; Wikipedia has no author article and his own site does not state a nationality, while Chinese sources describe a researcher at Cambridge and one retailer labels him American, so the nationality field is recorded as not verified rather than inferred. First published in 2017, more than nine years before this recommendation.",
+        "core_ideas_zh": [
+          "三个非功能目标是选型的坐标系：可靠性、可扩展性、可维护性都不是性能指标，而是先要写清楚「系统在什么条件下算合格」。没有这一步，任何 benchmark 比较都缺一个共同的问法。",
+          "没有「最好的」系统，只有被明确列出的取舍：每个工具都在把某类复杂度从应用代码移进基础设施，或反过来。选型真正要回答的是「我愿意接手哪一类复杂度」。",
+          "分布式系统里的故障不是异常而是常态：网络不可靠、时钟不可靠、进程会无预警暂停，因此「真相由多数定义」是一条工程前提，不是哲学比喻。任何一致性讨论都要先接受这个前提。",
+          "一致性是一组有价格的保证，而不是一种美德：线性化、快照隔离、可串行化、共识各自换来不同的延迟、可用性与运维负担。「更强」必须能说清换走了什么。",
+          "派生数据提供统一视角：数据库、缓存、索引、批处理与流处理可看成同一条数据流上的不同物化视图，于是「多系统集成」从拼装问题变成可推理的数据流问题。"
+        ],
+        "core_ideas_en": [
+          "Three non-functional goals form the coordinate system for selection. Reliability, scalability and maintainability are not performance metrics but prior statements of what counts as a system working at all. Without them, benchmark comparisons lack a shared question.",
+          "There is no best system, only trade-offs that have been made explicit. Every tool relocates some class of complexity, either out of application code into infrastructure or back again; the real question is which class of complexity one is prepared to own.",
+          "Failure in a distributed system is the normal condition, not an exception. Networks are unreliable, clocks are unreliable, processes pause without warning, and truth is therefore defined by the majority as an engineering premise rather than a metaphor. Any discussion of consistency has to begin there.",
+          "Consistency is a priced set of guarantees, not a virtue. Linearizability, snapshot isolation, serializability and consensus each buy something and pay in latency, availability and operational burden. Stronger has to be able to say what it gave up.",
+          "Derived data gives a unified view. Databases, caches, indexes, batch jobs and stream processors can be read as different materialisations of one dataflow, which turns multi-system integration from an assembly problem into a problem that can be reasoned about."
+        ],
+        "key_questions_zh": [
+          "当某类故障真的发生时，系统必须保住哪一条保证，其余可以放弃到什么程度？",
+          "一个「更强」的一致性级别，具体换走了多少延迟、可用性与运维复杂度，谁在付这笔账？",
+          "托管服务把底层机制抽象掉之后，工程师还需要理解到哪一层，才够格做架构判断？",
+          "把批处理与流处理看成同一数据流的不同物化方式，会不会掩盖两者在正确性与重放语义上的真实差别？"
+        ],
+        "key_questions_en": [
+          "When a given failure actually occurs, which guarantee must hold, and how far can the others be relaxed?",
+          "A stronger consistency level pays in latency, availability and operational complexity: what exactly was exchanged, and who bears the cost?",
+          "Once a managed service has abstracted the underlying mechanisms away, how deep does an engineer's understanding still need to go before making an architectural judgement?",
+          "Does treating batch and stream processing as different materialisations of one dataflow conceal real differences in correctness and replay semantics?"
+        ],
+        "who_should_read_zh": "设计或维护数据链路的工程师与架构师，需要在多个存储、计算与消息组件之间做取舍的技术负责人；也适合曾经被「换个数据库就能解决」这类提议说服过的产品与管理者。不适合想找某个工具的配置清单或调优技巧的读者——作者官网明确说明，本书不进入单一工具的使用细节，给的是判断框架与失败模型。",
+        "who_should_read_en": "Engineers and architects who design or maintain data pipelines, technical leads choosing among storage, compute and messaging components, and product managers who have been persuaded that swapping a database would solve the problem. It is not for a reader after configuration checklists or tuning recipes: the author's site states plainly that the book does not cover the details of using a particular tool, and offers instead a framework for judgement and a model of failure.",
+        "reading_note_zh": "先读第一部分第 1 章，把可靠性、可扩展性、可维护性三个目标当作全书坐标系；第二部分第 8 章「分布式系统的麻烦」与第 9 章「一致性与共识」最值得慢读，前者是所有取舍的物理前提，后者把一致性拆成有价格的保证；第三部分可按手头项目跳读批处理或流处理。读每一章都带同一个问题：这个机制把复杂度移到了哪里。中文版用中国电力出版社 2018 年赵军平等译本；若与具体系统的官方文档对读，注意本书比较的是机制而非版本特性，第一版之后托管服务的形态已变化很多，具体参数以现行文档为准。",
+        "reading_note_en": "Start with Chapter 1 in Part I and treat reliability, scalability and maintainability as the coordinate system for everything that follows. Chapters 8 and 9 in Part II, on the trouble with distributed systems and on consistency and consensus, deserve the slowest reading: the first sets the physical premises for every trade-off, the second breaks consistency into guarantees with prices. Part III can be sampled according to the project at hand, batch or stream. Carry one question through every chapter: where has this mechanism moved the complexity? Use the 2018 China Electric Power Press translation by Zhao Junping and others. When reading alongside the documentation of a particular system, keep in mind that this book compares mechanisms rather than release features; managed services have changed considerably since the first edition, so current parameters should come from current documentation."
+      }
+    }
+  ]
+}
