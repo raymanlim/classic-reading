@@ -1,7 +1,8 @@
 /**
  * 书籍 → 视频解读映射（「经典书籍推荐」系列）
  *
- * 来源：Rayman 2026-11-04 提供的台账 `book-video-mapping.csv`（28 条）。
+ * 来源：Rayman 2026-11-04 提供的台账 `book-video-mapping.csv`（28 条），
+ * 2026-11-07 依总映射表 `slug-video-mapping-all.md`「书籍页」段落补齐至 32 条。
  * 与 `article-videos.js`（深度解读系列）是两条互不相同的视频线，不要混用。
  *
  * 🔴 30 vs 28 已查清（2026-11-04）：YouTube 播放列表 PLX_l4V1ACK5Q 页面显示
@@ -13,8 +14,8 @@
  * 1. 只登记台账里确认存在且可访问的条目，宁缺勿造。
  * 2. 重制版替换时直接改本文件的值，旧链接不得保留在代码里。
  * 3. slug 必须是书目里真实存在的；`src/lib/data.js` 会在构建期校验并给出警告。
- * 4. `episode` 为系列期号（AI周/科技周/金融周/投资周）。源自「阅读笔记」的 5 条
- *    不写期号——它们与 `note-videos.js` 是同一批视频，期号信息在那边。
+ * 4. `episode` 为系列期号（AI周/科技周/金融周/投资周）。源自「阅读笔记」的条目
+ *    一律不写期号（`''`）——它们与 `note-videos.js` 是同一批视频，期号信息在那边。
  */
 export const bookVideos = {
   superintelligence: { url: 'https://youtu.be/0o0GoaJ3XmM', episode: 'AI周第1期' },
@@ -40,7 +41,7 @@ export const bookVideos = {
   'extraordinary-popular-delusions': { url: 'https://youtu.be/j86ELT2_mKQ', episode: '金融周第7期' },
   'the-intelligent-investor': { url: 'https://youtu.be/KsAlqY8-niQ', episode: '投资周第1期' },
   'security-analysis': { url: 'https://youtu.be/txkueVBEZPE', episode: '投资周第2期' },
-  /* 以下 5 条源自「阅读笔记」系列，期号信息在 content/note-videos.js，此处不重复登记 */
+  /* 以下条目源自「阅读笔记」系列，期号信息在 content/note-videos.js，此处不重复登记 */
   'the-guns-of-august': { url: 'https://youtu.be/0tQAI0tOtwU', episode: '' },
   'why-nations-fail': { url: 'https://youtu.be/RVSu-G9jYR8', episode: '' },
   'thinking-fast-and-slow': { url: 'https://youtu.be/k-i115ey4U8', episode: '' },
@@ -49,5 +50,7 @@ export const bookVideos = {
   'thinking-in-systems': { url: 'https://youtu.be/wRb-dsFClV4', episode: '' },
   'the-design-of-everyday-things': { url: 'https://youtu.be/_ZEvsXLODtI', episode: '' },
   'letters-from-a-stoic': { url: 'https://youtu.be/KStTNfV83ok', episode: '' },
-  'on-liberty': { url: 'https://youtu.be/UVpNAs513-k', episode: '' }
+  'on-liberty': { url: 'https://youtu.be/UVpNAs513-k', episode: '' },
+  // 2026-11-08 依总映射表补齐（阅读笔记 10月23日 ·《道德经》解读）
+  'tao-te-ching': { url: 'https://youtu.be/4PeKj52zrfY', episode: '' }
 };
