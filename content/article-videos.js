@@ -1,13 +1,14 @@
 /**
  * 文章 → YouTube「深度解读」视频映射
  * ------------------------------------------------------------------
- * 权威来源：docs/article-video-mapping-2026-11-04.csv（Rayman 提供）
+ * 初始台账：docs/article-video-mapping-2026-11-04.csv（Rayman 提供，11-04 快照）
  *   频道「平和通神」@limrayman-gd1pz · 播放列表「深度解读」
  *   https://www.youtube.com/playlist?list=PLNR6jJn9QOTY
  *
- * 本文件由 CSV 生成，请勿手工改动条目；更新流程：
- *   1. 在 CSV 中补充/修改 youtube_url 与 status
- *   2. 重新生成本文件（或按同样格式手工追加一行）
+ * 🔴 CSV 是 11-04 历史快照，无脚本消费它；之后的回填与新增文章一律以本文件为准。
+ * 更新流程：
+ *   1. 在 `articleVideos` 追加/修改条目（url 为 youtu.be 短链，episode 为整数期号）
+ *   2. 若该 slug 原在 `videoPending`，同步从数组移除，避免状态冲突
  *   3. node src/build.mjs && node src/check.mjs
  *
  * 状态语义：
@@ -78,6 +79,8 @@ export const articleVideos = {
   'the-invention-of-inevitability': { url: 'https://youtu.be/T5QTZiN2b6E', episode: 29 },
   // 第 30 期
   'the-answer-already-filled-in': { url: 'https://youtu.be/aCICkckolmc', episode: 30 },
+  // 第 31 期（2026-11-08 回填，原列 videoPending）
+  'the-cost-of-exemption': { url: 'https://youtu.be/lcJB6LioOzs', episode: 31 },
 };
 
 /** 「不做-清单指南类」：明确不会制作视频，永久留空 */
@@ -92,6 +95,6 @@ export const videoExcluded = [
 
 /** 待制作：视频上线后移入 articleVideos（含 CSV 未覆盖的新增文章） */
 export const videoPending = [
-  'the-cost-of-exemption',
   'understanding-by-making',
+  'the-space-between-the-parts',
 ];
