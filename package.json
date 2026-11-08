@@ -28,7 +28,9 @@
     "sync:books": "node scripts/export-to-books.mjs",
     "sync:books:all": "node scripts/export-to-books.mjs --all",
     "trend:automation": "node scripts/automation-trend.mjs",
-    "trend:automation:strict": "node scripts/automation-trend.mjs --strict"
+    "trend:automation:strict": "node scripts/automation-trend.mjs --strict",
+    "video:check": "node scripts/backfill-article-video.mjs --check",
+    "video:list": "node scripts/backfill-article-video.mjs --list"
   },
   "engines": {
     "node": ">=20"
