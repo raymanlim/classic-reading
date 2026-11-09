@@ -2012,6 +2012,19 @@ export const authors = {
     ideas_zh: ['焚书不必从禁令开始：当阅读变得不必要，书会自己消失', '技术、大规模娱乐与群体压力足以完成审查，无需一纸法令', '删改有多个作者，每个群体都觉得自己有权撕掉一页', '被压缩以适应短注意力的文本，等于被提前烧过一次'],
     ideas_en: ['Book burning need not begin with a ban: once reading becomes unnecessary, books vanish on their own', 'Technology, mass entertainment and group pressure can accomplish censorship without any decree', 'Revision has many authors, and every group feels entitled to tear out a page', 'A text abridged for a shorter attention span has already been burned once']
   },
+  'yang-jiang': {
+    name_en: 'Yang Jiang',
+    name_zh: '杨绛',
+    life: '1911–2016',
+    nationality_zh: '中国',
+    nationality_en: 'Chinese',
+    role_zh: '作家、文学翻译家、外国文学研究家',
+    role_en: 'Writer, literary translator and scholar of foreign literature',
+    bio_zh: '中国现代作家、文学翻译家，本名杨季康，祖籍江苏无锡，生于北京。1932 年毕业于苏州东吴大学，后入清华大学研究院，1935 年赴英法留学。长期在中国社会科学院文学研究所、外国文学研究所工作，为中国社会科学院荣誉学部委员。译有《堂吉诃德》《小癞子》《吉尔·布拉斯》等，著有散文集《干校六记》（1981）、《将饮茶》、《我们仨》，长篇小说《洗澡》及文学评论多种。1981 年由生活·读书·新知三联书店出版的《干校六记》以六篇白描短文记日常琐细，钱锺书在书前小引中称之为「大背景的小点缀，大故事的小穿插」。',
+    bio_en: 'A modern Chinese writer and literary translator, born Yang Jikang in Beijing with family roots in Wuxi, Jiangsu. She graduated from Soochow University in 1932, pursued graduate study at Tsinghua and travelled to Britain and France in 1935. She spent much of her career at the Institute of Literature and the Institute of Foreign Literature of the Chinese Academy of Social Sciences, where she was made an honorary member of the Academic Division. Her translations include Don Quixote, Lazarillo de Tormes and Gil Blas; her own books include the essay collection Gan Xiao Liu Ji (1981), Jiang Yin Cha and We Three, the novel Baptism, and several volumes of literary criticism. Gan Xiao Liu Ji, published by SDX Joint Publishing in 1981, records small daily episodes in six plainly written essays; in a preface Qian Zhongshu called them small ornaments against a large backdrop, minor interpolations within a larger story.',
+    ideas_zh: ['以白描与节制替代评价句，把判断交还读者', '「小点缀 / 大故事」：局部写准比整体虚构更诚实', '散文体例取法《浮生六记》，六篇各自独立又互成结构', '中译《堂吉诃德》等西班牙文学经典的译介'],
+    ideas_en: ['Plain description and restraint in place of explicit judgement, leaving conclusions to the reader', 'Small ornament, large story: accuracy about a part over invention of a whole', 'A six-essay structure modelled on Shen Fu\'s Six Chapters of a Floating Life', 'Chinese translations of Spanish classics including Don Quixote']
+  }
 };
 
 export default authors;
