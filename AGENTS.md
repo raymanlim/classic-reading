@@ -262,12 +262,16 @@ fiction/science-fiction/fantasy→literature）；退役主题（金融/投资/�
 🔴 **不要手工分别编辑代码与总表** —— 两处必须同步，否则台账漂移。统一走脚本：
 
 ```bash
-npm run video:list     # 排期视图：已发布期号 / 待制作 / 不做视频
+npm run video:list     # 排期视图：已发布期号 / 待制作 / 不做视频 / 书籍视频
 npm run video:check    # 全量核对（代码自检 + 总表四段比对），差异非 0 则 RC=1
 
-# 回填一期：同时改 content/article-videos.js 与 docs/slug-video-mapping-all.md，并自动写后自检
-node scripts/backfill-article-video.mjs --backfill \
+# 回填一期「文章视频」：改 content/article-videos.js + 总表（episode 为整数）
+node scripts/backfill-article-video.mjs --backfill --type article \
   --slug <文章 slug> --url https://youtu.be/<id> --episode <整数期号>
+
+# 回填一本「书籍视频」：改 content/book-videos.js + 总表（episode 为字符串，如 "第33期"）
+node scripts/backfill-article-video.mjs --backfill --type book \
+  --slug <书 slug> --url https://youtu.be/<id> --episode "第N期"
 
 # 预览不写入 / 重制版强制替换
 node scripts/backfill-article-video.mjs --backfill ... --dry-run
@@ -278,17 +282,18 @@ node scripts/backfill-article-video.mjs --backfill ... --force
 |---|---|
 | `content/article-videos.js` | 代码权威源：`articleVideos` / `videoPending` / `videoExcluded` 三态互斥 |
 | `docs/slug-video-mapping-all.md` | 项目内权威总表（书籍页 / 文章页 / 待制作 / 不做视频四段） |
-| `content/book-videos.js` | 书籍页视频，**另一条线，不混用**（源自「阅读笔记」的条目 `episode: ''`） |
+| `content/book-videos.js` | 书籍页视频，**另一条线，不混用**，由 `--type book` 维护（源自「阅读笔记」的条目 `episode: ''` 不写期号；「每天一本经典」系列写 `'第N期'`） |
 | `content/note-videos.js` | 笔记页视频，第三条线 |
 
 脚本行为：幂等（值一致直接 no-op）；值不同必须 `--force` 才覆盖；`--dry-run` 不写文件；
 保持原文件 CRLF/LF 风格；写后起子进程跑 `--check`。文章标题自动取自
-`content/articles/<slug>.js` 的 `title_zh`，无需手填。
+`content/articles/<slug>.js` 的 `title_zh`；书籍名称自动取自 `content/books.manifest.js` 的
+`title_zh`，均无需手填。书籍视频期号是**字符串**（`'第N期'`），文章是**整数**，`--type` 区分。
 
 🔴 **脚本不负责 build / check / git 提交**，执行完仍需：
 `rm -rf dist && mkdir -p dist` → `CODEBUDDY_SAFE_DELETE_ENABLED=0 node src/build.mjs`
 → `node src/check.mjs` →
-`git-sync.sh --paths "content/article-videos.js,docs/slug-video-mapping-all.md" --ignore-baseline`。
+`git-sync.sh --paths "content/article-videos.js,content/book-videos.js,docs/slug-video-mapping-all.md" --ignore-baseline`。
 
 > `docs/*-video-mapping-2026-11-04.csv` 是 11-04 历史快照，已与代码脱节且**无脚本消费**，
 > 不要当权威来源，也不要只补其中一行。
