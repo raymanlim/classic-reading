@@ -53,6 +53,28 @@ const localDate = () => {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 };
 
+const loadBookSlugs = () => {
+  const slugs = new Set();
+  const scan = (p) => {
+    if (!fs.existsSync(p)) return;
+    const t = fs.readFileSync(p, 'utf8');
+    for (const m of t.matchAll(/slug:\s*['"]([a-z0-9-]+)['"]/g)) slugs.add(m[1]);
+    for (const m of t.matchAll(/^\s*['"]([a-z0-9-]+)['"]\s*:\s*\{/gm)) slugs.add(m[1]);
+  };
+  scan(path.join(CONTENT_DIR, 'books.manifest.js'));
+  const dir = path.join(CONTENT_DIR, 'books');
+  if (fs.existsSync(dir)) for (const f of fs.readdirSync(dir).filter((f) => f.endsWith('.js'))) scan(path.join(dir, f));
+  return slugs;
+};
+const bookTitleFor = (slug) => {
+  const manifest = path.join(CONTENT_DIR, 'books.manifest.js');
+  if (!fs.existsSync(manifest)) return slug;
+  const t = fs.readFileSync(manifest, 'utf8');
+  const m = t.match(new RegExp(`slug:\\s*['"]${slug}['"][\\s\\S]*?title_zh:\\s*['"]([^'"]*)['"]`));
+  if (!m) return slug;
+  return `《${m[1].split(/[：:]/)[0]}》解读`;
+};
+
 const USAGE = `用法：
   node scripts/backfill-article-video.mjs --list
   node scripts/backfill-article-video.mjs --check [--md <path>]
@@ -140,14 +162,20 @@ async function runCheck() {
       .filter((l) => /^\s*-\s*[a-z0-9-]+/.test(l))
       .map((l) => l.match(/^\s*-\s*([a-z0-9-]+)/)[1]);
 
-    const diff = (label, expect, actual, ignoreExtra = []) => {
+    const diff = (label, expect, actual, opts = {}) => {
+      const ignoreExtra = opts.ignoreExtra || [];
+      const bookMode = !!opts.bookMode;
       const e = Object.keys(expect), a = Object.keys(actual);
       const missing = e.filter((k) => !actual[k]);
       const extra = a.filter((k) => !expect[k] && !ignoreExtra.includes(k));
       const badUrl = e.filter((k) => actual[k] && actual[k].url !== expect[k].url);
-      const badEp = e.filter((k) => actual[k] && 'episode' in actual[k] &&
-        (expect[k].ep || '').match(/^第(\d+)期$/) &&
-        Number((expect[k].ep || '').match(/^第(\d+)期$/)[1]) !== actual[k].episode);
+      const badEp = bookMode
+        ? e.filter((k) => actual[k] && 'episode' in actual[k] &&
+            (expect[k].ep || '').match(/^第\d+期$/) &&
+            String(actual[k].episode) !== expect[k].ep)
+        : e.filter((k) => actual[k] && 'episode' in actual[k] &&
+            (expect[k].ep || '').match(/^第(\d+)期$/) &&
+            Number((expect[k].ep || '').match(/^第(\d+)期$/)[1]) !== actual[k].episode);
       console.log(`\n  [${label}] 总表 ${e.length} 条 / 代码 ${a.length} 条`);
       console.log(`    缺失(总表有·代码无): ${missing.length ? missing.join(', ') : '无'}`);
       console.log(`    多余(代码有·总表无): ${extra.length ? extra.join(', ') : '无'}`);
@@ -169,8 +197,8 @@ async function runCheck() {
       ? promoted.map((s) => `${s}（第 ${articleVideos[s].episode} 期）`).join(', ') : '无'}`);
     if (promoted.length) console.log('    → 合法迁移；请更新总表：从「待制作」移除、加入「文章页」');
 
-    problems += diff('书籍页 → book-videos.js', mdBooks, bookVideos);
-    problems += diff('文章页 → article-videos.js', mdArticles, articleVideos, promoted);
+    problems += diff('书籍页 → book-videos.js', mdBooks, bookVideos, { bookMode: true });
+    problems += diff('文章页 → article-videos.js', mdArticles, articleVideos, { ignoreExtra: promoted });
     problems += setDiff('待制作 → videoPending', mdPending, videoPending, promoted);
     problems += setDiff('不做视频 → videoExcluded', mdExcluded, videoExcluded);
     problems += report('总表书 slug 在全库不存在', Object.keys(mdBooks).filter((s) => !slugPool.has(s)));
@@ -185,6 +213,7 @@ async function runCheck() {
 /* ------------------------------------------------------------------ */
 async function runList() {
   const { articleVideos, videoExcluded, videoPending } = await load(CODE);
+  const { bookVideos } = await load(BOOKS);
   const eps = Object.values(articleVideos).map((v) => v.episode).filter(Number.isInteger);
   console.log(`已发布视频: ${Object.keys(articleVideos).length} 篇（期号 ${Math.min(...eps)}–${Math.max(...eps)}）`);
   console.log(`\n待制作 (${videoPending.length}):`);
@@ -199,22 +228,104 @@ async function runList() {
     console.log(`  - ${s} | ${title} | ${date}`);
   }
   console.log(`\n不做视频 (${videoExcluded.length}): ${videoExcluded.join(', ')}`);
+  console.log(`\n书籍视频（共 ${Object.keys(bookVideos).length} 本）:`);
+  for (const [s, v] of Object.entries(bookVideos)) {
+    console.log(`  - ${s} | ${v.episode || '(无期号)'} | ${v.url}`);
+  }
   console.log('\n回填命令模板：');
-  console.log('  node scripts/backfill-article-video.mjs --backfill --slug <slug> --url https://youtu.be/<id> --episode <N>');
+  console.log('  node scripts/backfill-article-video.mjs --backfill --type <article|book> --slug <slug> --url https://youtu.be/<id> --episode <N 或 "第N期">');
 }
 
 /* ------------------------------------------------------------------ */
 /* --backfill：改代码 + 同步总表                                        */
 /* ------------------------------------------------------------------ */
+async function runBackfillBook(slug, url, date) {
+  const episode = opt('--episode');
+  if (!episode || !/^\S+$/.test(episode)) die('--episode 必填（书籍视频期号为字符串，如 "第33期"）');
+
+  const { bookVideos } = await load(BOOKS);
+  const bookSlugs = loadBookSlugs();
+  if (!bookSlugs.has(slug) && !bookVideos[slug]) die(`书籍 slug 不存在于书目：${slug}`);
+
+  if (bookVideos[slug]) {
+    const cur = bookVideos[slug];
+    if (cur.url === url && String(cur.episode) === episode) {
+      console.log(`OK 幂等：${slug} 已登记且值一致（${episode} / ${url}），无需改动`);
+      return;
+    }
+    if (!flag('--force')) die(`${slug} 已存在但值不同（现为 ${cur.url} / ${cur.episode}）。若为重制版替换，请加 --force`);
+  }
+
+  const codeOrig = fs.readFileSync(BOOKS, 'utf8');
+  let code = readLF(BOOKS);
+  const entryLine = `  '${slug}': { url: '${url}', episode: '${episode}' },`;
+  if (bookVideos[slug]) {
+    const lineRe = new RegExp(`^\\s*'${slug}':\\s*\\{[^}]*\\},?\\s*$`, 'm');
+    if (!lineRe.test(code)) die(`无法定位 ${slug} 在 bookVideos 中的行`);
+    code = code.replace(lineRe, entryLine);
+  } else {
+    const end = code.indexOf('\n};');
+    if (end < 0) die('无法定位 bookVideos 块');
+    code = code.slice(0, end) + `\n  // ${date} 回填（${episode}）\n${entryLine}` + code.slice(end);
+  }
+
+  let docOrig = null, doc = null, docNote = '总表不存在，跳过（仅代码已更新）';
+  if (fs.existsSync(DOC)) {
+    docOrig = fs.readFileSync(DOC, 'utf8');
+    doc = readLF(DOC);
+    const s1 = doc.indexOf('## 一、书籍页');
+    const s2 = doc.indexOf('## 二、文章页');
+    if (s1 < 0 || s2 < 0) die('总表缺少「一、书籍页」或「二、文章页」段');
+    const rowRe = new RegExp(`^\\|\\s*${slug}\\s*\\|`);
+    const part = doc.slice(s1, s2).split('\n');
+    let lastIdx = -1, existIdx = -1;
+    part.forEach((l, i) => { if (/^\|\s*[a-z0-9][a-z0-9-]*\s*\|/.test(l)) lastIdx = i; if (rowRe.test(l)) existIdx = i; });
+    if (lastIdx < 0) die('总表「一、书籍页」段未找到数据行');
+    let newRow;
+    if (existIdx >= 0) {
+      const nameCell = part[existIdx].split('|')[2].trim();
+      newRow = `| ${slug} | ${nameCell} | ${episode} | ${url} |`;
+    } else {
+      newRow = `| ${slug} | ${bookTitleFor(slug)} | ${episode} | ${url} |`;
+    }
+    if (existIdx >= 0) part[existIdx] = newRow;
+    else part.splice(lastIdx + 1, 0, newRow);
+    doc = doc.slice(0, s1) + part.join('\n') + doc.slice(s2);
+
+    const b1 = doc.indexOf('## 一、书籍页');
+    const b2 = doc.indexOf('## 二、文章页');
+    const cnt = (doc.slice(b1, b2).match(/^\|\s*[a-z0-9][a-z0-9-]*\s*\|/gm) || []).length;
+    doc = doc.replace(/(## 一、书籍页[^\n]*?共\s*)\d+(\s*本)/, `$1${cnt}$2`);
+    doc = doc.replace(/^更新日期：\d{4}-\d{2}-\d{2}/m, `更新日期：${date}`);
+    docNote = `书籍页 ${existIdx >= 0 ? '替换' : '追加'} 1 行 / 计数 ${cnt} 本 / 更新日期 ${date}`;
+  }
+
+  console.log(`回填目标(书籍): ${slug} · ${episode} · ${url}`);
+  console.log(`  content/book-videos.js : ${bookVideos[slug] ? '--force 替换条目' : '追加条目'}`);
+  console.log(`  ${path.relative(ROOT, DOC)} : ${docNote}`);
+  if (flag('--dry-run')) { console.log('\n[--dry-run] 未写入任何文件。'); return; }
+  writeKeepEol(BOOKS, codeOrig, code);
+  if (docOrig !== null) writeKeepEol(DOC, docOrig, doc);
+  console.log('\n已写入。开始写后自检：');
+  const r = spawnSync(process.execPath, [SELF, '--check', '--md', DOC], { stdio: 'inherit' });
+  if (r.status !== 0) die('写后自检未通过，请检查上面的差异输出');
+  console.log('\n下一步：build → check → git-sync 发布（脚本不代劳）。');
+}
+
 async function runBackfill() {
+  const type = opt('--type') || (flag('--book') ? 'book' : 'article');
   const slug = opt('--slug');
   const url = opt('--url');
-  const episode = Number(opt('--episode'));
-  const dry = flag('--dry-run');
-  const force = flag('--force');
 
   if (!slug || !SLUG_RE.test(slug)) die('--slug 缺失或格式非法');
   if (!url || !URL_RE.test(url)) die('--url 必须是 https://youtu.be/<id> 形式的短链');
+
+  const date = localDate();
+  if (type === 'book') { await runBackfillBook(slug, url, date); return; }
+
+  const episode = Number(opt('--episode'));
+  const dry = flag('--dry-run');
+  const force = flag('--force');
   if (!Number.isInteger(episode) || episode <= 0) die('--episode 必须是正整数');
 
   const articleFile = path.join(ARTICLES_DIR, `${slug}.js`);
@@ -235,7 +346,6 @@ async function runBackfill() {
     /* --force：值相同也强制重写（可刷新条目格式），亦便于无损验证写入链路 */
   }
 
-  const date = localDate();
   const codeOrig = fs.readFileSync(CODE, 'utf8');
   let code = readLF(CODE);
   const entryLine = `  '${slug}': { url: '${url}', episode: ${episode} },`;
@@ -258,7 +368,7 @@ async function runBackfill() {
   const pEnd = pStart >= 0 ? code.indexOf('\n];', pStart) : -1;
   if (pStart >= 0 && pEnd >= 0) {
     const block = code.slice(pStart, pEnd);
-    const trimmed = block.replace(new RegExp(`^[ \\t]*'${slug}',[ \\t]*\\n`, 'm'), '');
+    const trimmed = block.replace(new RegExp(`^[ \\t]*'${slug}',[ \\t]*\\n?`, 'm'), '');
     code = code.slice(0, pStart) + trimmed + code.slice(pEnd);
   }
 

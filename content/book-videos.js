@@ -52,5 +52,9 @@ export const bookVideos = {
   'letters-from-a-stoic': { url: 'https://youtu.be/KStTNfV83ok', episode: '' },
   'on-liberty': { url: 'https://youtu.be/UVpNAs513-k', episode: '' },
   // 2026-11-08 依总映射表补齐（阅读笔记 10月23日 ·《道德经》解读）
-  'tao-te-ching': { url: 'https://youtu.be/4PeKj52zrfY', episode: '' }
+  'tao-te-ching': { url: 'https://youtu.be/4PeKj52zrfY', episode: '第32期' },
+  // 2026-11-10 回填（第33期）
+  'flow': { url: 'https://youtu.be/636I0mF1VM8', episode: '第33期' },
+  // 2026-11-10 回填（第34期）
+  'nicomachean-ethics': { url: 'https://youtu.be/CpwncqYQeQY', episode: '第34期' },
 };

@@ -1,7 +1,7 @@
 # 视频链接映射总表（书籍页 + 文章页）
 
 用途：给经典书库网站的书籍页、文章页回填对应 YouTube 视频链接。按 slug 查找，名称供人工核对。
-更新日期：2026-11-08
+更新日期：2026-11-10
 
 > 🔴 本文件是**项目内权威台账**，与 `content/book-videos.js`、`content/article-videos.js` 由
 > `scripts/backfill-article-video.mjs` 同步维护，请勿只改一侧。
@@ -10,7 +10,7 @@
 > 新增 11-08 长文 `the-space-between-the-parts` 至「待制作」（期号待定）。
 > 核对命令：`node scripts/backfill-article-video.mjs --check`
 
-## 一、书籍页（每天一本经典，共 32 本）
+## 一、书籍页（每天一本经典，共 34 本）
 
 页面地址规则：https://classic-reading.pages.dev/zh/books/<书 slug>/
 
@@ -47,9 +47,11 @@
 | the-design-of-everyday-things | 《设计心理学》解读 | 阅读笔记 10月7日 | https://youtu.be/_ZEvsXLODtI |
 | letters-from-a-stoic | 《道德书简》解读 | 阅读笔记 10月11日 | https://youtu.be/KStTNfV83ok |
 | on-liberty | 《论自由》解读 | 阅读笔记 10月20日 | https://youtu.be/UVpNAs513-k |
-| tao-te-ching | 《道德经》解读 | 阅读笔记 10月23日 | https://youtu.be/4PeKj52zrfY |
+| tao-te-ching | 《道德经》解读 | 第32期 | https://youtu.be/4PeKj52zrfY |
+| flow | 《心流》解读 | 第33期 | https://youtu.be/636I0mF1VM8 |
+| nicomachean-ethics | 《尼各马可伦理学》解读 | 第34期 | https://youtu.be/CpwncqYQeQY |
 
-## 二、文章页（深度长文解读，共 32 篇已发布）
+## 二、文章页（深度长文解读，共 34 篇已发布）
 
 页面地址规则：https://classic-reading.pages.dev/zh/articles/<文章 slug>/
 
@@ -87,12 +89,13 @@
 | the-answer-already-filled-in | 预设的答案：为什么最有效的安排不需要说服任何人 | 第30期 | https://youtu.be/aCICkckolmc |
 | the-cost-of-exemption | 豁免的成本：为什么规则最怕的不是被违反，而是被例外 | 第31期 | https://youtu.be/lcJB6LioOzs |
 | understanding-by-making | 造出来才算懂：为什么有些知识只能从试制中得到 | 第32期 | https://youtu.be/qb84d5xN3yQ |
+| the-space-between-the-parts | 部件之间：为什么每个零件都合格，整体仍会失败 | 第33期 | https://youtu.be/dNotkfU4eJ4 |
+| when-the-price-is-removed | 价格之外：配给从未被取消，只是换了账单 | 第34期 | https://youtu.be/cXI4x8LRv-8 |
 
 ## 三、待制作（已排期，发布后回填）
 
 | 文章 slug | 文章名 | 发布日期 | 预计期号 |
 |---|---|---|---|
-| the-space-between-the-parts | 部件之间：为什么每个零件都合格，整体仍会失败 | 2026-11-08 | 待定 |
 
 ## 四、不做视频的文章（清单/指南类，共 6 篇，无需回填）
 

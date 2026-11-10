@@ -83,6 +83,10 @@ export const articleVideos = {
   'the-cost-of-exemption': { url: 'https://youtu.be/lcJB6LioOzs', episode: 31 },
   // 第 32 期（2026-11-08 回填，原列 videoPending）
   'understanding-by-making': { url: 'https://youtu.be/qb84d5xN3yQ', episode: 32 },
+  // 第 33 期（2026-11-10 回填，原列 videoPending）
+  'the-space-between-the-parts': { url: 'https://youtu.be/dNotkfU4eJ4', episode: 33 },
+  // 第 34 期（2026-11-10 回填）
+  'when-the-price-is-removed': { url: 'https://youtu.be/cXI4x8LRv-8', episode: 34 },
 };
 
 /** 「不做-清单指南类」：明确不会制作视频，永久留空 */
@@ -96,6 +100,4 @@ export const videoExcluded = [
 ];
 
 /** 待制作：视频上线后移入 articleVideos（含 CSV 未覆盖的新增文章） */
-export const videoPending = [
-  'the-space-between-the-parts',
-];
+export const videoPending = [];
