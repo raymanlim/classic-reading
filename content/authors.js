@@ -2024,6 +2024,34 @@ export const authors = {
     bio_en: 'A modern Chinese writer and literary translator, born Yang Jikang in Beijing with family roots in Wuxi, Jiangsu. She graduated from Soochow University in 1932, pursued graduate study at Tsinghua and travelled to Britain and France in 1935. She spent much of her career at the Institute of Literature and the Institute of Foreign Literature of the Chinese Academy of Social Sciences, where she was made an honorary member of the Academic Division. Her translations include Don Quixote, Lazarillo de Tormes and Gil Blas; her own books include the essay collection Gan Xiao Liu Ji (1981), Jiang Yin Cha and We Three, the novel Baptism, and several volumes of literary criticism. Gan Xiao Liu Ji, published by SDX Joint Publishing in 1981, records small daily episodes in six plainly written essays; in a preface Qian Zhongshu called them small ornaments against a large backdrop, minor interpolations within a larger story.',
     ideas_zh: ['以白描与节制替代评价句，把判断交还读者', '「小点缀 / 大故事」：局部写准比整体虚构更诚实', '散文体例取法《浮生六记》，六篇各自独立又互成结构', '中译《堂吉诃德》等西班牙文学经典的译介'],
     ideas_en: ['Plain description and restraint in place of explicit judgement, leaving conclusions to the reader', 'Small ornament, large story: accuracy about a part over invention of a whole', 'A six-essay structure modelled on Shen Fu\'s Six Chapters of a Floating Life', 'Chinese translations of Spanish classics including Don Quixote']
+  },
+
+  'jacques-ranciere': {
+    name_en: 'Jacques Rancière',
+    name_zh: '雅克·朗西埃',
+    life: '1940–',
+    nationality_zh: '法国',
+    nationality_en: 'French',
+    role_zh: '哲学家、政治与美学思想研究者',
+    role_en: 'Philosopher of politics and aesthetics',
+    bio_zh: '法国哲学家，1940 年生于法属阿尔及利亚阿尔及尔。曾受 Louis Althusser 指导并参与《读〈资本论〉》（Lire le Capital，1965）的写作，后因对 1968 年五月事件的判断分歧与 Althusser 公开决裂。长期任教于巴黎第八大学（Vincennes–Saint-Denis），现为该校荣誉退休哲学教授，并任欧洲研究生院（European Graduate School）哲学教授。研究横跨政治哲学、美学、历史哲学、教育哲学与电影。1987 年出版《无知的教师：智力解放五讲》（Le Maître ignorant），借 19 世纪教师 Joseph Jacotot 的普遍教学法提出「智力平等是前提而非目标」「讲解制造愚化」等论断，成为其后续政治与美学思想的起点。',
+    bio_en: 'French philosopher, born in 1940 in Algiers, then French Algeria. A student of Louis Althusser, he contributed to Reading Capital (Lire le Capital, 1965) before breaking publicly with Althusser over their divergent readings of May 1968. He taught for many years at the University of Paris VIII: Vincennes–Saint-Denis, where he is now Emeritus Professor of Philosophy, and also holds a professorship in philosophy at the European Graduate School. His work ranges across political philosophy, aesthetics, the philosophy of history, the philosophy of education and cinema. In 1987 he published Le Maître ignorant, later translated as The Ignorant Schoolmaster, which draws on the nineteenth-century teacher Joseph Jacotot and his method of universal teaching to argue that intellectual equality is a presupposition rather than a goal and that explanation produces stultification. That argument became the point of departure for his later work on politics and aesthetics.',
+    ideas_zh: ['智力平等是教学得以开始的前提，不是有待达成的目标', '「讲解」通过替学生拆解知识制造依赖，即所谓愚化', '无知的教师放弃讲解者的位置，把权威从内容转移到对注意力的组织', '从课堂权威推及可感者的分配与社会秩序'],
+    ideas_en: ['Intellectual equality as the presupposition with which teaching begins, not a goal to be reached', 'Explanation that breaks knowledge down on a pupil’s behalf manufactures dependence, which he calls stultification', 'The ignorant schoolmaster vacates the position of explainer, shifting authority from content to the organisation of attention', 'Extending classroom authority into the distribution of the sensible and the social order']
+  },
+
+  'neal-stephenson': {
+    name_en: 'Neal Stephenson',
+    name_zh: '尼尔·斯蒂芬森',
+    life: '1959–',
+    nationality_zh: '美国',
+    nationality_en: 'American',
+    role_zh: '小说家、随笔作家',
+    role_en: 'Novelist and essayist',
+    bio_zh: '美国小说家，1959 年生于马里兰州，毕业于波士顿大学，主修物理学与地理学。1992 年以《雪崩》（Snow Crash）成名，此后作品横跨赛博朋克、历史小说与科技史，包括 Cryptonomicon、巴洛克循环与《七夏娃》等。1995 年出版 The Diamond Age（全名 The Diamond Age: Or, A Young Lady’s Illustrated Primer），以纳米技术时代一本可随读者实时改写自己的「插画启蒙读本」为轴，追问教育工程化、阶级与主体性；该书获 1996 年雨果奖最佳长篇小说与同年轨迹奖最佳长篇小说。他亦撰写关于计算、技术与科学的非虚构随笔。',
+    bio_en: 'American novelist, born in Maryland in 1959 and educated at Boston University, where he studied physics and geography. He became widely known with Snow Crash (1992) and has since written across cyberpunk, historical fiction and the history of technology, including Cryptonomicon, the Baroque Cycle and Seveneves. The Diamond Age (1995), fully titled The Diamond Age: Or, A Young Lady’s Illustrated Primer, turns on an illustrated primer that rewrites itself in response to its reader in a nanotechnological age, and uses it to ask about the engineering of education, class and agency. It won the 1996 Hugo Award for Best Novel and the Locus Award for Best Novel in the same year. He has also written non-fiction essays on computing, technology and science.',
+    ideas_zh: ['《钻石年代》把教育能否被工程化写成一条可追的制度线索', '自适应系统隐含理想用户画像，落到画像之外的人手里才暴露其价值观', '把技术设定推到极致，观察匮乏消失后新的稀缺在社会哪一层重新出现'],
+    ideas_en: ['The Diamond Age treats the question of whether education can be engineered as an institutional thread rather than a gadget', 'Every adaptive system encodes an ideal user, and its values surface only when someone outside that model uses it', 'Pushing a technological premise to its extreme to see at which layer scarcity reappears once it has been abolished']
   }
 };
 
