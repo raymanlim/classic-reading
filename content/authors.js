@@ -2052,6 +2052,34 @@ export const authors = {
     bio_en: 'American novelist, born in Maryland in 1959 and educated at Boston University, where he studied physics and geography. He became widely known with Snow Crash (1992) and has since written across cyberpunk, historical fiction and the history of technology, including Cryptonomicon, the Baroque Cycle and Seveneves. The Diamond Age (1995), fully titled The Diamond Age: Or, A Young Lady’s Illustrated Primer, turns on an illustrated primer that rewrites itself in response to its reader in a nanotechnological age, and uses it to ask about the engineering of education, class and agency. It won the 1996 Hugo Award for Best Novel and the Locus Award for Best Novel in the same year. He has also written non-fiction essays on computing, technology and science.',
     ideas_zh: ['《钻石年代》把教育能否被工程化写成一条可追的制度线索', '自适应系统隐含理想用户画像，落到画像之外的人手里才暴露其价值观', '把技术设定推到极致，观察匮乏消失后新的稀缺在社会哪一层重新出现'],
     ideas_en: ['The Diamond Age treats the question of whether education can be engineered as an institutional thread rather than a gadget', 'Every adaptive system encodes an ideal user, and its values surface only when someone outside that model uses it', 'Pushing a technological premise to its extreme to see at which layer scarcity reappears once it has been abolished']
+  },
+
+  'aldo-leopold': {
+    name_en: 'Aldo Leopold',
+    name_zh: '奥尔多·利奥波德',
+    life: '1887–1948',
+    nationality_zh: '美国',
+    nationality_en: 'American',
+    role_zh: '生态学家、林学家、自然资源管理者',
+    role_en: 'Ecologist, forester and natural resource manager',
+    bio_zh: '美国生态学家、林学家与自然资源管理者，1887 年生于艾奥瓦州伯灵顿，毕业于耶鲁大学森林系，长期任职于美国林务局（US Forest Service），后任威斯康星大学游戏管理（wildlife management）教授，被后世称为「生态伦理之父」。1935 年购得威斯康星河畔的废弃农场并带头恢复其生态，即后来所称的沙乡（Sand County）；其观察笔记与哲学论文身后由其子 Luna Leopold 编辑整理，1949 年由牛津大学出版社以 A Sand County Almanac 为名出版，其中「土地伦理」（The Land Ethic）一文主张把人类从土地共同体的征服者改造成普通成员，成为现代环境伦理的奠基文本之一。1948 年 4 月在赶赴邻居农场扑救山火时去世。其子女于 1982 年创立 Aldo Leopold Foundation（非营利机构），维护沙乡农场旧址。',
+    bio_en: 'American ecologist, forester and natural-resource manager, born in Burlington, Iowa, in 1887 and educated in forestry at Yale. He spent much of his career with the US Forest Service and later held a chair in wildlife management at the University of Wisconsin; posterity knows him as a father of ecological ethics. In 1935 he bought a worn-out farm along the Wisconsin River and set about restoring its ecology, the place later known as Sand County. His field notes and philosophical essays were edited posthumously by his son Luna Leopold and published by Oxford University Press in 1949 as A Sand County Almanac, whose concluding essay The Land Ethic argues for converting humanity from conqueror of the land-community into a plain member of it, making the book a founding text of modern environmental ethics. He died in April 1948 while fighting a wildfire on a neighbour’s farm. His children founded the non-profit Aldo Leopold Foundation in 1982, which maintains the historic farmstead.',
+    ideas_zh: ['土地伦理：正确与否的判准是生物群落的完整、稳定与美丽', '把人类从土地共同体的征服者改写为普通成员', '生态恢复需要长期田野观察，而非单一政策动作'],
+    ideas_en: ['The land ethic: rightness is judged by the integrity, stability and beauty of the biotic community', 'Rewriting humanity from conqueror of the land-community into a plain member of it', 'Ecological restoration depends on long field observation, not single policy moves']
+  },
+
+  'david-deutsch': {
+    name_en: 'David Deutsch',
+    name_zh: '戴维·多伊奇',
+    life: '1953–',
+    nationality_zh: '英国',
+    nationality_en: 'British',
+    role_zh: '物理学家、量子计算奠基人之一',
+    role_en: 'Physicist and one of the founders of quantum computation',
+    bio_zh: '英国物理学家，1953 年生于海法，先后就读于剑桥大学与牛津大学，现任牛津大学物理学教授、英国皇家学会会员，并为牛津大学量子计算中心成员。1985 年提出量子图灵机（quantum Turing machine），为量子计算奠定理论基础；1997 年出版 The Fabric of Reality，从进化、量子物理、知识与计算四条主线展开世界观，2011 年出版 The Beginning of Infinity，主张好解释的创造是宇宙间客观上无限的过程，乐观主义是关于知识创造本性的定理而非愿望。1998 年获英国物理学会狄拉克奖章（Dirac Medal and Prize），2022 年获基础物理学突破奖（Breakthrough Prize in Fundamental Physics）。',
+    bio_en: 'British physicist, born in Haifa in 1953, educated at Cambridge and Oxford, where he is Professor of Physics, a Fellow of the Royal Society, and a member of the Centre for Quantum Computation. In 1985 he proposed the quantum Turing machine, laying the theoretical foundation of quantum computation. The Fabric of Reality (1997) set out his worldview across four strands—evolution, quantum physics, knowledge and computation—while The Beginning of Infinity (2011) argues that the creation of good explanations is an objectively infinite process in the universe and that optimism is a theorem about the nature of knowledge creation rather than a wish. He received the Dirac Medal and Prize of the Institute of Physics in 1998 and the Breakthrough Prize in Fundamental Physics in 2022.',
+    ideas_zh: ['量子图灵机与量子计算的理论基础', '好解释的标准是难改动性（hard to vary）', '问题不可避免但原则上皆可解决：乐观主义是定理', '计算的普遍性推出解释力的无限性'],
+    ideas_en: ['The quantum Turing machine and the theoretical basis of quantum computation', 'The criterion of a good explanation: being hard to vary', 'Problems are unavoidable yet solvable in principle: optimism as a theorem', 'Universality of computation entails unbounded explanatory reach']
   }
 };
 
