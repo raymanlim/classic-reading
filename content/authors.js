@@ -2080,6 +2080,34 @@ export const authors = {
     bio_en: 'British physicist, born in Haifa in 1953, educated at Cambridge and Oxford, where he is Professor of Physics, a Fellow of the Royal Society, and a member of the Centre for Quantum Computation. In 1985 he proposed the quantum Turing machine, laying the theoretical foundation of quantum computation. The Fabric of Reality (1997) set out his worldview across four strands—evolution, quantum physics, knowledge and computation—while The Beginning of Infinity (2011) argues that the creation of good explanations is an objectively infinite process in the universe and that optimism is a theorem about the nature of knowledge creation rather than a wish. He received the Dirac Medal and Prize of the Institute of Physics in 1998 and the Breakthrough Prize in Fundamental Physics in 2022.',
     ideas_zh: ['量子图灵机与量子计算的理论基础', '好解释的标准是难改动性（hard to vary）', '问题不可避免但原则上皆可解决：乐观主义是定理', '计算的普遍性推出解释力的无限性'],
     ideas_en: ['The quantum Turing machine and the theoretical basis of quantum computation', 'The criterion of a good explanation: being hard to vary', 'Problems are unavoidable yet solvable in principle: optimism as a theorem', 'Universality of computation entails unbounded explanatory reach']
+  },
+
+  'charles-c-mann': {
+    name_en: 'Charles C. Mann',
+    name_zh: '查尔斯·C·曼恩',
+    life: '1955–',
+    nationality_zh: '美国',
+    nationality_en: 'American',
+    role_zh: '科学记者、非虚构作家',
+    role_en: 'Science journalist and non-fiction author',
+    bio_zh: '美国科学记者与作家，1955 年生，长期为《科学》《大西洋月刊》《连线》担任特约编辑，并为《纽约时报》《华盛顿邮报》《史密森尼》《财富》等撰稿，曾三次入围美国国家杂志奖。2005 年出版 1491: New Revelations of the Americas Before Columbus，综合考古学、人类学与人口学的新证据，主张哥伦布抵达前的美洲并非原始荒野，而是原住民长期以火与农作塑造的景观；该书获 2006 年美国国家学院传播奖（National Academies Communication Award）年度最佳图书奖。2011 年出版续作 1493: Uncovering the New World Columbus Created，追踪哥伦布之后物种、疾病与人口的全球交换；另著有 The Wizard and the Prophet。中文版《1491：前哥伦布时代美洲启示录》由胡亦南译、中信出版社 2014 年出版。他亦曾获美国律师协会、美国物理学会、阿尔弗雷德·P·斯隆基金会与兰南基金会的写作奖项。',
+    bio_en: 'American science journalist and author, born in 1955, a long-serving contributing editor at Science, The Atlantic Monthly and Wired, and a contributor to The New York Times, The Washington Post, Smithsonian and Fortune. He has been a three-time finalist for the National Magazine Award. His 1491: New Revelations of the Americas Before Columbus (2005) synthesised new evidence from archaeology, anthropology and demography to argue that the pre-Columbian Americas were not a pristine wilderness but a landscape shaped over millennia by Indigenous fire and cultivation; it won the 2006 National Academies Communication Award for best book of the year. 1493: Uncovering the New World Columbus Created (2011) followed the global exchange of species, disease and populations after Columbus, and he also wrote The Wizard and the Prophet. The Chinese edition of 1491, translated by Hu Yinan, was published by CITIC Press in 2014. He has received writing awards from the American Bar Association, the American Institute of Physics, the Alfred P. Sloan Foundation and the Lannan Foundation.',
+    ideas_zh: ['所谓原始荒野往往是人口崩溃之后的次生景观，观测时点会污染自然基线', '原住民是塑造美洲环境的关键种，用火与土壤改良长期经营景观', '人口估计的可靠性取决于推算链的每一个假设，而非最终数字'],
+    ideas_en: ['A supposedly pristine wilderness is often a secondary landscape after demographic collapse; the moment of observation contaminates the natural baseline', 'Indigenous peoples were a keystone species shaping American environments through fire and soil management over millennia', 'The reliability of a population estimate rests on every assumption in its chain of inference, not on the final number']
+  },
+
+  'charles-perrow': {
+    name_en: 'Charles Perrow',
+    name_zh: '查尔斯·佩罗',
+    life: '1925–2019',
+    nationality_zh: '美国',
+    nationality_en: 'American',
+    role_zh: '组织社会学家、耶鲁大学社会学教授',
+    role_en: 'Organizational sociologist and professor of sociology at Yale',
+    bio_zh: '美国社会学家（1925–2019），组织社会学的重要人物，先后任教于密歇根大学、匹兹堡大学、威斯康星大学麦迪逊分校与纽约州立大学石溪分校，1981 年加入耶鲁大学，2000 年荣休，2004 年曾任斯坦福大学国际安全与合作中心访问教授。1972 年出版 Complex Organizations: A Critical Essay，为其引用最广的著作。1984 年由 Basic Books 出版 Normal Accidents: Living with High-Risk Technologies，以 1979 年三哩岛事故为起点，提出以「复杂/线性交互」与「紧/松耦合」两个维度解释高风险系统的结构，断言在复杂且紧耦合、兼具灾难潜势的系统中，多重故障的意外组合不可避免，即「正常事故」；1999 年 Princeton University Press 更新版增补博帕尔、切尔诺贝利与挑战者号的后记。2007 年另著 The Next Catastrophe，把分析扩展到自然灾害与关键基础设施的集中化风险。中文版《高风险技术与“正常”事故》1988 年由科学技术文献出版社出版，译者署名「寒窗」。',
+    bio_en: 'American sociologist (1925–2019) and a leading figure in organizational sociology. He taught at the University of Michigan, the University of Pittsburgh, the University of Wisconsin–Madison and SUNY Stony Brook before joining Yale University in 1981, where he became emeritus in 2000; in 2004 he was a visiting professor at Stanford University’s Center for International Security and Cooperation. Complex Organizations: A Critical Essay (1972) remains his most widely cited work. Normal Accidents: Living with High-Risk Technologies (Basic Books, 1984) took the 1979 Three Mile Island accident as its point of departure and proposed two dimensions—complex versus linear interactions and tight versus loose coupling—to explain the structure of high-risk systems, arguing that in complex, tightly coupled systems with catastrophic potential, unforeseen combinations of multiple failures are inevitable, which he called normal accidents. Princeton University Press issued an updated edition in 1999 with an afterword on Bhopal, Chernobyl and Challenger. The Next Catastrophe (2007) extended the analysis to natural disasters and the risks of concentrated critical infrastructure. A Chinese translation appeared in 1988 from Scientific and Technical Documents Press under the collective translator name Han Chuang.',
+    ideas_zh: ['正常事故：复杂且紧耦合系统中的事故是结构的正常产出，不是偶发的人为失误', '以复杂/线性交互与紧/松耦合两维构建风险坐标，先问故障能否被隔离', '安全冗余会提高复杂度、稀释责任并推高生产压力，反而制造新的事故类别', '重大事故的归因应从追责个人转向组织结构与管理条件'],
+    ideas_en: ['Normal accidents: in complex, tightly coupled systems accidents are the normal output of structure rather than sporadic human error', 'A risk coordinate built from complex/linear interactions and tight/loose coupling—first ask whether a fault can be isolated', 'Safety redundancy increases complexity, dilutes responsibility and raises production pressure, creating new categories of accident', 'Attribution for major accidents should shift from blaming individuals to organisational structure and management conditions']
   }
 };
 
