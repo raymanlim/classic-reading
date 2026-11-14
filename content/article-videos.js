@@ -87,6 +87,12 @@ export const articleVideos = {
   'the-space-between-the-parts': { url: 'https://youtu.be/dNotkfU4eJ4', episode: 33 },
   // 第 34 期（2026-11-10 回填）
   'when-the-price-is-removed': { url: 'https://youtu.be/cXI4x8LRv-8', episode: 34 },
+  // 第 35 期（2026-11-14 回填）
+  'the-unsigned-contract': { url: 'https://youtu.be/ROPMNIlK8jw', episode: 35 },
+  // 第 36 期（2026-11-14 回填）
+  'the-seduction-of-the-single-cause': { url: 'https://youtu.be/wRAPp1hGvfk', episode: 36 },
+  // 第 37 期（2026-11-14 回填）
+  'the-one-you-can-see': { url: 'https://youtu.be/jZpC66AOIkY', episode: 37 },
 };
 
 /** 「不做-清单指南类」：明确不会制作视频，永久留空 */
@@ -100,4 +106,6 @@ export const videoExcluded = [
 ];
 
 /** 待制作：视频上线后移入 articleVideos（含 CSV 未覆盖的新增文章） */
-export const videoPending = [];
+export const videoPending = [
+  'whether-it-can-be-undone',
+];

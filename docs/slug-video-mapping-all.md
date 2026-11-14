@@ -1,16 +1,9 @@
 # 视频链接映射总表（书籍页 + 文章页）
 
 用途：给经典书库网站的书籍页、文章页回填对应 YouTube 视频链接。按 slug 查找，名称供人工核对。
-更新日期：2026-11-10
+更新日期：2026-11-14
 
-> 🔴 本文件是**项目内权威台账**，与 `content/book-videos.js`、`content/article-videos.js` 由
-> `scripts/backfill-article-video.mjs` 同步维护，请勿只改一侧。
-> 原始来源：Rayman 2026-11-07 提供的 `slug-video-mapping-all (1).md`（Downloads，该本地副本已不在）。
-> 2026-11-08 更新：第 31、32 期视频上线，从「待制作」移入「文章页」；
-> 新增 11-08 长文 `the-space-between-the-parts` 至「待制作」（期号待定）。
-> 核对命令：`node scripts/backfill-article-video.mjs --check`
-
-## 一、书籍页（每天一本经典，共 34 本）
+## 一、书籍页（每天一本经典，共 37 本）
 
 页面地址规则：https://classic-reading.pages.dev/zh/books/<书 slug>/
 
@@ -47,11 +40,14 @@
 | the-design-of-everyday-things | 《设计心理学》解读 | 阅读笔记 10月7日 | https://youtu.be/_ZEvsXLODtI |
 | letters-from-a-stoic | 《道德书简》解读 | 阅读笔记 10月11日 | https://youtu.be/KStTNfV83ok |
 | on-liberty | 《论自由》解读 | 阅读笔记 10月20日 | https://youtu.be/UVpNAs513-k |
-| tao-te-ching | 《道德经》解读 | 第32期 | https://youtu.be/4PeKj52zrfY |
-| flow | 《心流》解读 | 第33期 | https://youtu.be/636I0mF1VM8 |
-| nicomachean-ethics | 《尼各马可伦理学》解读 | 第34期 | https://youtu.be/CpwncqYQeQY |
+| tao-te-ching | 《道德经》解读 | 阅读笔记 10月23日 | https://youtu.be/4PeKj52zrfY |
+| flow | 《心流：最优体验心理学》解读 | 阅读笔记 10月24日 | https://youtu.be/636I0mF1VM8 |
+| nicomachean-ethics | 《尼各马可伦理学》解读 | 阅读笔记 10月28日 | https://youtu.be/CpwncqYQeQY |
+| the-silk-roads | 《丝绸之路：一部全新的世界史》解读 | 阅读笔记 10月31日 | https://youtu.be/DlVppWIOg4s |
+| amusing-ourselves-to-death | 《娱乐至死》解读 | 阅读笔记 11月4日 | https://youtu.be/pSXFvtna4S4 |
+| the-wealth-of-nations | 《国富论》解读 | 阅读笔记 11月4日 | https://youtu.be/XxCRIQVsASU |
 
-## 二、文章页（深度长文解读，共 34 篇已发布）
+## 二、文章页（深度长文解读，共 37 篇已发布）
 
 页面地址规则：https://classic-reading.pages.dev/zh/articles/<文章 slug>/
 
@@ -91,11 +87,15 @@
 | understanding-by-making | 造出来才算懂：为什么有些知识只能从试制中得到 | 第32期 | https://youtu.be/qb84d5xN3yQ |
 | the-space-between-the-parts | 部件之间：为什么每个零件都合格，整体仍会失败 | 第33期 | https://youtu.be/dNotkfU4eJ4 |
 | when-the-price-is-removed | 价格之外：配给从未被取消，只是换了账单 | 第34期 | https://youtu.be/cXI4x8LRv-8 |
+| the-unsigned-contract | 未签署的契约：我们向过去借来的秩序 | 第35期 | https://youtu.be/ROPMNIlK8jw |
+| the-seduction-of-the-single-cause | 单一因果的诱惑：为什么我们总把复杂事件压缩成一个原因 | 第36期 | https://youtu.be/wRAPp1hGvfk |
+| the-one-you-can-see | 看得见的那一个：为什么责任不随人数增长 | 第37期 | https://youtu.be/jZpC66AOIkY |
 
 ## 三、待制作（已排期，发布后回填）
 
 | 文章 slug | 文章名 | 发布日期 | 预计期号 |
 |---|---|---|---|
+| whether-it-can-be-undone | 能不能撤回：为什么决策的第一种分类不是对错 | 2026-11-13 | 待定 |
 
 ## 四、不做视频的文章（清单/指南类，共 6 篇，无需回填）
 

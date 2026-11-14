@@ -57,4 +57,8 @@ export const bookVideos = {
   'flow': { url: 'https://youtu.be/636I0mF1VM8', episode: '第33期' },
   // 2026-11-10 回填（第34期）
   'nicomachean-ethics': { url: 'https://youtu.be/CpwncqYQeQY', episode: '第34期' },
+  // 2026-11-14 依 Drive 台账回填（阅读笔记 10月31日 / 11月4日 / 11月4日）
+  'the-silk-roads': { url: 'https://youtu.be/DlVppWIOg4s', episode: '' },
+  'amusing-ourselves-to-death': { url: 'https://youtu.be/pSXFvtna4S4', episode: '' },
+  'the-wealth-of-nations': { url: 'https://youtu.be/XxCRIQVsASU', episode: '' }
 };
