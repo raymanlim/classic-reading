@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-17",
+  "books": [
+    {
+      "slug": "wo-yu-di-tan",
+      "category": "essays",
+      "title_zh": "我与地坛",
+      "title_en": "I and the Temple of Earth",
+      "author": "shi-tiesheng",
+      "author_zh": "史铁生",
+      "author_en": "Shi Tiesheng",
+      "nationality_zh": "中国",
+      "nationality_en": "Chinese",
+      "year": 1991,
+      "original_language": "zh",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "在残缺与必死的处境里，人如何亲手为自己重建活着的意义",
+      "theme_en": "How a person rebuilds meaning in a life marked by disability and certain death",
+      "tags": ["essay", "philosophy", "human-nature", "classics", "reading"],
+      "topics": ["essays-and-reflection", "religion-and-meaning", "attention-and-depth"],
+      "prose": {
+        "description_zh": "《我与地坛》是史铁生最长的一篇哲思散文，1991 年首发于《上海文学》，后收入同名散文集。二十一岁因病双腿瘫痪后，作者整日摇着轮椅躲进北京废弃的地坛公园，在十五年里观察草木、落日、蜂儿与形形色色的游客，也反复追问一个无从回避的问题：为什么还要活下去。文章一半写他如何在一个荒芜的园子里重新学习看世界，一半写他多年后才读懂的母亲——那个目送他出门、又忧心他是否想不开的女人，在儿子终于理解她时已不在人世。它没有给出答案，却把提问本身变成了一种活法。",
+        "description_en": "I and the Temple of Earth is the longest philosophical essay by Shi Tiesheng, first published in the literary journal Shanghai Literature in 1991 and later collected in a volume of the same name. After an illness paralysed both his legs at twenty-one, the author spent his days wheeling himself into Beijing's neglected Temple of Earth park, watching grass, sunsets, insects and passers-by over fifteen years, and repeatedly asking a question he could not evade: why go on living. Half the essay describes how he relearned to see the world in a ruined garden; the other half is about the mother he understood only years too late — the woman who watched him leave and feared he might not return, and who was gone by the time he finally understood her. It offers no answer, but turns the asking itself into a way of living.",
+        "why_read_zh": "多数谈论苦难的书要么把它说成财富，要么把它说成需要战胜的敌人，这本书两者都拒绝。史铁生给出的核心判断是：苦难本身毫无意义，意义是人后来一点点加上去的——地坛的草木不因他的残疾而存在，是他的注视让它们与他的命运相关。这个判断把主动权交还给承受者，也划出一条硬边界：任何「苦难使人崇高」的说法都是旁观者的奢侈。更值得读的是他从母亲那里读出的那一课：理解总在失去之后才姗姗来迟，这份迟到不是感伤的修辞，而是每天都要偿还的伦理债。对任何在疾病、丧失或无意义感中挣扎的人，它提供的是一种诚实的、不廉价的注视方式。",
+        "why_read_en": "Most books about suffering either call it a gift or an enemy to be conquered; this one refuses both. Shi Tiesheng's central claim is that suffering carries no meaning in itself — meaning is something a person gradually adds. The grass in the park does not exist because of his disability; it is his attention that links them to his fate. That claim hands agency back to the person who endures, and draws a hard line: any talk of suffering ennobling us is a luxury available only to onlookers. Equally worth reading is the lesson he draws from his mother — that understanding arrives only after loss, and that this lateness is not sentimental rhetoric but an ethical debt repaid daily. For anyone wrestling with illness, bereavement or a sense of meaninglessness, the essay offers an honest, uncheapened way of looking.",
+        "core_ideas_zh": [
+          "苦难不自带意义：地坛的万物本与他的命运无关，是他的注视建立了关联，意义因而是人的建构而非苦难的报偿",
+          "「死是一件不必急于求成的事」——既然死亡终会到来且不会错过，生命就不是一场倒计时，而是可自由填充的余地",
+          "母亲那一课：理解总在失去之后才到来，这份迟到使「子欲养而亲不待」从成语变成具体的伦理负担",
+          "目光的伦理：写作不是抒发感受，而是把习以为常的世界重新看一遍，在别人看不到意义的地方看出关联"
+        ],
+        "core_ideas_en": [
+          "Suffering carries no inherent meaning: the objects in the park are unrelated to his fate until his attention connects them, so meaning is a human construction, not a reward for pain",
+          "'Death is something there is no hurry about' — since it will come and cannot be missed, life is not a countdown but room to be filled freely",
+          "The lesson of the mother: understanding arrives after loss, turning a familiar proverb into a concrete ethical burden",
+          "The ethics of looking: writing is not the expression of feeling but the act of seeing the ordinary world again and finding connections where others see none"
+        ],
+        "key_questions_zh": [
+          "如果苦难本身没有意义，人为何仍要为自己的处境寻找意义？这种寻找是自欺还是自由？",
+          "为什么对至亲的理解总在失去之后才到来？迟到的理解能否偿还生前的亏欠？",
+          "当身体被不可逆地限制，一个人还剩下哪些真正属于自己的自由？"
+        ],
+        "key_questions_en": [
+          "If suffering has no meaning in itself, why do people still seek meaning in their condition — is that self-deception or freedom?",
+          "Why does understanding of those closest to us arrive only after they are gone? Can late understanding repay an earlier debt?",
+          "When the body is irreversibly constrained, what freedom remains that is genuinely one's own?"
+        ],
+        "who_should_read_zh": "适合正在经历疾病、丧失或意义危机的读者，也适合关心生命教育与生死议题的人。它对「苦难崇高化」保持警惕，因此同样适合那些不相信励志叙事、想要一种更诚实的思想散文的读者。中学以上即可阅读；但因为全文写的是需要用一生去消化的处境，不同年龄重读会得到完全不同的东西。",
+        "who_should_read_en": "For readers living through illness, bereavement or a crisis of meaning, and for anyone concerned with life education and questions of death. Because it is wary of romanticising suffering, it also suits readers distrustful of inspirational narratives who want a more honest kind of reflective prose. Accessible from secondary-school age, but since it describes a situation that takes a lifetime to digest, rereading at different ages yields quite different books.",
+        "reading_note_zh": "全文不长，但几乎每段都需要慢读。建议第一遍只读前两节——写母亲的部分——一口气读完，不要在细节上停留；第二遍再读后面关于地坛景物与生死追问的段落，这两部分才是全书的思想骨架。可配合史铁生的《病隙碎笔》与《命若琴弦》同读：同一组问题在随笔、小说与这篇长散文里分别呈现出不同的重量。若想看「注视如何改变所见」的另一种路径，可再看本站的《知觉现象学》。",
+        "reading_note_en": "Short, but nearly every paragraph rewards slow reading. On a first pass, read only the opening two sections — the ones about his mother — straight through without stopping at details. On a second pass, turn to the later passages on the park and on life and death; these carry the essay's philosophical weight. Read alongside Shi Tiesheng's Fragments of Illness and If String Breaks, where the same questions take on different weight in the forms of aphorism and fiction. For another account of how attention changes what is seen, try Phenomenology of Perception, also in this library."
+      }
+    },
+    {
+      "slug": "out-of-control",
+      "category": "ai",
+      "title_zh": "失控：机器、社会与经济世界的新生物学",
+      "title_en": "Out of Control: The New Biology of Machines, Social Systems, and the Economic World",
+      "author": "kevin-kelly",
+      "author_zh": "凯文·凯利",
+      "author_en": "Kevin Kelly",
+      "nationality_zh": "美国",
+      "nationality_en": "American",
+      "year": 1994,
+      "original_language": "en",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "智能不是被设计出来的，而是从大量简单个体的互动中自发涌现的",
+      "theme_en": "Intelligence is not designed from above but emerges from the interactions of many simple agents",
+      "tags": ["ai", "complexity", "systems-thinking", "innovation", "technology"],
+      "topics": ["ai", "complexity", "systems-thinking", "innovation"],
+      "prose": {
+        "description_zh": "《失控》出版于 1994 年，是《连线》杂志创始编辑凯文·凯利对复杂系统的一次长途考察。他从蜂群与蚁群写到神经网络、免疫系统、市场、计算机病毒与互联网，指出这些系统共享一种组织方式：没有中央指挥，每个单元只遵循极简单的局部规则，秩序与智能却从它们的互动中自发浮现。作者把这一结构称为「蜂群思维」，并用它重新审视人工智能的路线、大型组织的僵化、基因技术与经济演化。书中大量看似预言的判断——去中心化、云计算、物联网、群体的智慧——写于这些词流行之前十余年，这也是它至今仍被反复阅读的原因。",
+        "description_en": "Published in 1994, Out of Control is a long-form survey of complex systems by Kevin Kelly, a founding editor of Wired. Moving from bee and ant colonies to neural networks, the immune system, markets, computer viruses and the internet, he argues that these systems share one principle of organisation: no central command, each unit following only simple local rules, yet order and intelligence emerging spontaneously from their interaction. He calls this structure 'hive mind' and uses it to reconsider the direction of artificial intelligence, the rigidity of large organisations, genetic engineering and economic evolution. Many of the book's apparently predictive claims — decentralisation, cloud computing, the internet of things, the wisdom of crowds — were written more than a decade before those terms became current, which is why it is still read.",
+        "why_read_zh": "这本书提供了两样至今稀缺的东西：一套可迁移的思维框架，和一个可被反驳的强主张。框架是「涌现」——面对任何复杂系统，与其追问谁在设计，不如追问局部规则是什么、反馈如何让它自我放大。主张则更锋利：在足够复杂的系统里，顶层控制既不现实也不必要，真正有效的做法是放弃控制、设定规则、允许演化。这直接挑战了「要解决问题先要掌控全局」的工程直觉。而它也不是不容置疑的教义：批评者指出，把自组织当作万能隐喻会遮蔽权力问题——谁来设定那些局部规则？谁承担演化的代价？带着这个反驳去读，才不会把一本洞见之书读成技术乌托邦宣言。",
+        "why_read_en": "The book offers two things still in short supply: a portable framework and a strong, refutable thesis. The framework is emergence — faced with any complex system, ask less about who designed it than about the local rules and the feedback that amplifies them. The thesis is sharper: in systems complex enough, top-down control is neither realistic nor necessary; what works is to relinquish control, set rules and allow evolution. That directly challenges the engineering instinct that a problem must be mastered before it can be solved. Nor is the book beyond dispute: critics argue that treating self-organisation as a universal metaphor conceals the question of power — who sets the local rules, and who bears the cost of evolution? Read with that objection in hand, and it becomes a book of insights rather than a techno-utopian manifesto.",
+        "core_ideas_zh": [
+          "涌现先于设计：蜂群没有指挥官，智能来自简单个体遵循局部规则后的集体行为，秩序是自下而上长出来的",
+          "失控是更高级的控制：在复杂领域，全知全能的中心不可能也不必要，有效做法是设定规则、释放演化并接受不可预测的后果",
+          "共同演化：进化不只有竞争，物种、技术与制度在相互塑造中共同改变；封闭而追求纯粹的系统反而脆弱",
+          "立场可被反驳：批评者指出「自组织」隐喻把既有秩序自然化，回避谁在设定规则、谁承担代价这一政治问题"
+        ],
+        "core_ideas_en": [
+          "Emergence precedes design: a hive has no commander; intelligence arises when simple agents follow local rules, and order grows from below",
+          "Losing control is a higher form of control: in complex domains an omniscient centre is impossible and unnecessary; set rules, release evolution and accept unpredictable outcomes",
+          "Co-evolution: evolution is not only competition; species, technologies and institutions change one another, while closed systems seeking purity are fragile",
+          "The position is refutable: critics argue the metaphor of self-organisation naturalises existing orders and evades the political question of who sets the rules and bears the costs"
+        ],
+        "key_questions_zh": [
+          "当系统复杂到没有任何个体能掌握全局时，秩序还能从哪里来？",
+          "放弃中央控制，是承认理性的限度，还是把责任推给「自然演化」？",
+          "把市场、互联网和人工智能都读成蜂群，会遮蔽哪些不可替代的差异？"
+        ],
+        "key_questions_en": [
+          "When a system grows too complex for any agent to grasp the whole, where can order come from?",
+          "Is relinquishing central control an acknowledgement of reason's limits, or an abdication of responsibility to 'natural evolution'?",
+          "What irreducible differences are hidden when markets, the internet and artificial intelligence are all read as hives?"
+        ],
+        "who_should_read_zh": "适合从事人工智能、互联网与复杂系统研究的人，也适合管理者与政策制定者思考「何时该放权、何时必须介入」。它尤其适合那些已经听腻「涌现」「去中心化」这些词、想弄清它们背后究竟有何实质、边界又在哪里的读者。全书七百余页、材料庞杂，不适合寻找简明结论的人。",
+        "who_should_read_en": "For researchers in artificial intelligence, the internet and complex systems, and for managers and policymakers weighing when to delegate and when to intervene. It is especially useful for readers tired of words like 'emergence' and 'decentralisation' who want to know what substance, and what limits, lie behind them. At over seven hundred densely packed pages, it is not for those seeking a concise conclusion.",
+        "reading_note_zh": "全书篇幅巨大，不必线性通读。第一遍建议先读开篇导言与「蜂群思维」相关章节，建立框架；然后跳读讲共同演化与经济世界的段落，看框架如何落到具体领域；关于机器与智能的几章可留到最后细读。每章末的注释往往藏着关键案例，值得回看。可配合本站的《哥德尔、艾舍尔、巴赫》对读——两书都追问心智与复杂性，但一个从形式系统出发，一个从生物与网络出发。",
+        "reading_note_en": "The book is too large to read straight through. Begin with the introduction and the chapters on hive mind to build the framework, then skip to the sections on co-evolution and the economic world to see it applied. Save the chapters on machines and intelligence for a slower second pass. The endnotes often hide key cases and reward revisiting. Pair it with Gödel, Escher, Bach, also in this library: both ask what mind and complexity are, but one starts from formal systems and the other from biology and networks."
+      }
+    }
+  ]
+}
