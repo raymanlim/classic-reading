@@ -9006,9 +9006,9 @@ The live question is plain: once observable differences are written out one by o
       "It implies hierarchy has biological roots; institutions are extensions of them."
     ],
     "topics": [
-            "science-and-nature",
+      "science-and-nature",
       "philosophy",
-      "society"
+      "modern-society"
     ]
   },
   {
@@ -9236,7 +9236,7 @@ The live question is plain: once observable differences are written out one by o
     "topics": [
             "history",
       "cognitive-science",
-      "society"
+      "modern-society"
     ]
   }
 ];
