@@ -88,31 +88,35 @@ async function readManifest() {
  *   source='backfill' → 人工补遗批次（进库但不计入每日推荐频次）
  *   source='anzhengming' / 'xiaomingshuo' → 外部书单导入
  * 仅当书级别字段缺失时，才回退到文件名（daily-YYYY-MM-DD.js）判断。
+ *
+ * 🔴 必须用动态 import 只取 batch 数组。历史上曾用正则扫全文，把
+ * co_authors[].slug 也算成书目 slug，导致「slug 未解析」误报。
  */
-function readLists() {
+async function readLists() {
   if (!fs.existsSync(LISTS_DIR)) return [];
   const out = [];
-  const catRe = /category:\s*['"]([^'"]+)['"]/g;
-  const slugRe = /slug:\s*['"]([^'"]+)['"]/g;
-  const srcRe = /source:\s*['"]([^'"]+)['"]/g;
-  for (const f of fs.readdirSync(LISTS_DIR).filter((x) => x.endsWith('.js'))) {
-    const txt = fs.readFileSync(path.join(LISTS_DIR, f), 'utf8');
+  for (const f of fs.readdirSync(LISTS_DIR).filter((x) => x.endsWith('.js')).sort()) {
+    let batch;
+    try {
+      const mod = await import(`file://${path.join(LISTS_DIR, f).replace(/\\/g, '/')}?t=${Date.now()}`);
+      batch = mod?.batch;
+    } catch (err) {
+      console.error(`⚠️ 跳过无法解析的列表文件 ${f}: ${err.message}`);
+      continue;
+    }
+    if (!Array.isArray(batch)) continue;
     const dm = f.match(/(\d{4}-\d{2}-\d{2})/);
     const date = dm ? dm[1] : null;
     const fallbackSource = f.startsWith('daily-') ? 'daily' : 'batch';
-    const cats = [...txt.matchAll(catRe)].map((m) => m[1]);
-    const slugs = [...txt.matchAll(slugRe)].map((m) => m[1]);
-    const srcs = [...txt.matchAll(srcRe)].map((m) => m[1]);
-    // category / slug / source 按出现顺序一一对应（每本书对象内各出现一次）
-    const aligned = cats.length === slugs.length && srcs.length === cats.length;
-    cats.forEach((c, i) => {
+    for (const b of batch) {
+      if (!b || !b.category) continue;
       out.push({
-        slug: aligned ? slugs[i] : null,
-        category: c,
+        slug: b.slug || null,
+        category: b.category,
         date,
-        source: aligned ? srcs[i] : fallbackSource,
+        source: b.source || fallbackSource,
       });
-    });
+    }
   }
   return out;
 }
@@ -129,7 +133,7 @@ function pad(s, n) {
 async function main() {
   const json = process.argv.includes('--json');
   const manifest = await readManifest();
-  const lists = readLists();
+  const lists = await readLists();
   const all = [...manifest, ...lists];
 
   const today = new Date().toISOString().slice(0, 10);

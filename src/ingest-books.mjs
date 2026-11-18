@@ -8,7 +8,7 @@
  * 设计目标：让定时任务能安全地「每天加两本」，重复运行不会产生脏数据。
  *
  * 幂等性：输出文件按日期命名（content/lists/daily-<date>.js），
- * 同一天重跑 = 覆盖当天文件，不会累积。
+ * 同一天重跑 = 与当日已有条目按 slug 合并，不会累积重复书。
  *
  * 去重：slug 与 title_zh / title_en（归一化后）都会与全库比对；
  * 命中即跳过该本，其余正常写入，并在 stdout 报告。
@@ -96,6 +96,13 @@ async function loadDayFile(date) {
 }
 
 /* ---------------- --existing ---------------- */
+/**
+ * 输出格式是 TSV（不是 JSON、不是一行一个 slug）：
+ *   # 全库已有 N 本（用于去重，新书不得与其重复）
+ *   # slug\ttitle_zh\ttitle_en\tauthor
+ *   <slug>\t<中文名>\t<英文名>\t<作者slug>
+ * 比对时跳过 # 行，split('\t') 后取第 0 列为 slug，第 1/2 列为书名。
+ */
 async function cmdExisting() {
   const rows = await loadExisting();
   console.log(`# 全库已有 ${rows.length} 本（用于去重，新书不得与其重复）`);

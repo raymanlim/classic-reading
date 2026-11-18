@@ -5,6 +5,21 @@
 
 ---
 
+## 0. 最短执行路径（2026-11-19 整理）
+
+每日推荐任务只按以下顺序执行，不要自行创建临时去重脚本：
+
+1. `node src/coverage.mjs` — 读取主题建议；报告里的「最近已推荐」仅供避重参考。
+2. `node src/ingest-books.mjs --existing > _stage/existing-slugs.txt` — 导出全库去重 TSV。
+3. `node src/ingest-books.mjs --taxonomy` — 导出合法 category/tag/topic。
+4. 选题、事实核验、写双语 prose → 写 `_inbox/YYYY-MM-DD.json`。
+5. `node src/ingest-books.mjs --file _inbox/YYYY-MM-DD.json` — 最终裁决以内置校验为准。
+6. `node src/build.mjs` → `node src/check.mjs` → `git-sync.sh` 同步推送。
+
+详细约束见第 5 节（去重口径与候选来源）和第 6 节（经典性取证）。
+
+---
+
 ## 1. 构建卡死的判定与处置（2026-10-25 实测，两次复现）
 
 ### 症状
@@ -109,7 +124,50 @@ grep -c "'<author-slug>':" content/authors.js
 
 ---
 
-## 5. 经典性判定的取证范围（prompt 的展开版）
+## 5. `--existing` 的输出格式与去重口径（2026-11-19 教训）
+
+`node src/ingest-books.mjs --existing` 的输出**不是 JSON，也不是一行一个 slug**，而是标准 TSV：
+
+```text
+# 全库已有 N 本（用于去重，新书不得与其重复）
+# slug<TAB>title_zh<TAB>title_en<TAB>author
+<slug><TAB><中文名><TAB><英文名><TAB><作者slug>
+...
+```
+
+四列是预期格式。正确读法：
+
+1. `node src/ingest-books.mjs --existing > _stage/existing-slugs.txt`
+2. 比对时跳过 `#` 开头的注释行；
+3. 以制表符 `split('\t')` 拆分；
+4. 第 0 列是 slug，第 1/2 列是书名，第 3 列只是作者；
+5. slug 与归一化后的中英文书名都要查重，作者不参与 slug 查重。
+
+看到四列**不要报错、不要重建去重脚本**。最终裁决只认 `node src/ingest-books.mjs --file ...` 的内置校验：
+
+- `status=added`：成功
+- `status=skipped_duplicate`：换书
+- 校验失败：按错误原文修载荷，不要绕开脚本
+
+### 候选来源的限制
+
+候选池**只有**：
+
+- `content/sources/hackernews-books.js`
+- `content/sources/anzhengming-yt.js`
+- 独立网络检索
+
+`content/list-prose/anz-*.js`、`xms-*.js`、`daily-*.js` 都是**已经入库书籍的阅读指引 overlay**，不是未入库新书，禁止把它们当候选池扫描。也不要为了去重新建 `_stage/crossmatch.mjs`、`existing-titles.json`、`new-book-candidates.mjs` 等临时脚本。
+
+### `coverage.mjs` 的提示边界
+
+`coverage.mjs` 给出的是**主题建议**。如果报告里出现「slug 未解析」，只表示旧版正则把 `co_authors[].slug` 等字段误计入列表统计；已于 2026-11-19 修复为动态导入 `batch` 数组。不要把这类提示解释成书目数据损坏，也不要因此修改内容文件。
+
+入库成功后直接进入 build/check，**不再扩展检索**。单个命令失败只记录错误，不得连续重试超过 2 次。
+
+---
+
+## 6. 经典性判定的取证范围（prompt 的展开版）
 
 选书时至少覆盖 **2 个不同来源类型**，按可靠性排序：
 
