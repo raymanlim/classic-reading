@@ -620,6 +620,20 @@ export const authors = {
     ideas_en: ['Preserving capital first', 'Following trends and cutting losses', 'The battle for investment survival']
   },
 
+  'gerald-sussman': {
+    name_en: 'Gerald Jay Sussman',
+    name_zh: '杰拉尔德·杰伊·萨斯曼',
+    life: '1934–',
+    nationality_zh: '美国',
+    nationality_en: 'American',
+    role_zh: '计算机科学家',
+    role_en: 'Computer scientist',
+    bio_zh: '美国计算机科学家，麻省理工学院教授。与哈罗德·阿贝尔森及朱莉·萨斯曼同编《计算机程序的构造和解释》（SICP），该书自 1984 年起在 MIT 和斯坦福等高校长期作为核心课程教材使用。',
+    bio_en: 'American computer scientist and MIT professor, longtime teacher of MIT CS 6.001. With Harold Abelson and Julie Sussman he wrote Structure and Interpretation of Computer Programs (SICP), the project which won a teaching award.',
+    ideas_zh: ['SICP 的教学方法', '计算即理解', '过程抽象的力量'],
+    ideas_en: ['The teaching method of SICP', 'Computation as understanding', 'The power of process abstraction']
+  },
+
   'gustave-le-bon': {
     name_en: 'Gustave Le Bon',
     name_zh: '古斯塔夫·勒庞',
@@ -632,6 +646,20 @@ export const authors = {
     bio_en: 'French social psychologist and sociologist. The Crowd describes the anonymity, contagion and suggestibility of group psychology and is a founding work in the study of crowds.',
     ideas_zh: ['群体心理与感染', '「乌合之众」', '群体中的去个性化'],
     ideas_en: ['Crowd psychology and contagion', 'The popular mind', 'Deindividuation in groups']
+  },
+
+  'harold-abelson': {
+    name_en: 'Harold Abelson',
+    name_zh: '哈罗德·阿贝尔森',
+    life: '1934–2016',
+    nationality_zh: '美国',
+    nationality_en: 'American',
+    role_zh: '计算机科学家、MIT 教授',
+    role_en: 'Computer scientist and MIT professor',
+    bio_zh: '美国计算机科学家，麻省理工学院教授。与 Gerald Jay Sussman 及 Julie Sussman 共同编写《计算机程序的构造和解释》（SICP），影响了几代程序员的思考方式。',
+    bio_en: 'American computer scientist and MIT professor. With Gerald Jay Sussman and Julie Sussman, he wrote Structure and Interpretation of Computer Programs (SICP), shaping the thinking of generations of programmers.',
+    ideas_zh: ['SICP 的结构化编程', '计算的抽象与过程', 'MIT 计算机科学的奠基框架'],
+    ideas_en: ['The architecture of SICP', 'Abstraction and process in computing', 'A foundational framework for MIT computer science']
   },
 
   'henry-kissinger': {
@@ -802,6 +830,20 @@ export const authors = {
     ideas_en: ['The harm principle', 'Liberty and individuality', 'Utilitarian ethics']
   },
 
+  'julie-sussman': {
+    name_en: 'Julie Sussman',
+    name_zh: '朱莉·萨斯曼',
+    life: '1941–',
+    nationality_zh: '美国',
+    nationality_en: 'American',
+    role_zh: '合著者',
+    role_en: 'Co-author',
+    bio_zh: '美国作家与编辑。被列为 MIT 经典教材《计算机程序的构造和解释》（SICP）第二版的合著者之一，该书使用长达数十年。',
+    bio_en: 'American computer scientist and educator who carried an educational mission with Harper Sussman. Co-author with Harold Abelson and Gerald Jay Sussman of SICP, listed as MIT\'s standard computer science textbook, used for decades.',
+    ideas_zh: ['SICP 的教育方法论', '计算机程序的构造与解释', '过程与表现的平衡'],
+    ideas_en: ['Educational methodology of SICP', 'The construction and interpretation of programs', 'Balancing process and performance']
+  },
+
   'kai-fu-lee': {
     name_en: 'Kai-Fu Lee',
     name_zh: '李开复',
@@ -954,6 +996,20 @@ export const authors = {
     bio_en: 'American management scholar and Harvard Business School professor who founded the field of competitive strategy. Competitive Strategy introduced the five forces framework and three generic strategies.',
     ideas_zh: ['五力模型', '三种通用战略', '价值链分析'],
     ideas_en: ['The five forces', 'Three generic strategies', 'Value chain analysis']
+  },
+
+  'michel-foucault': {
+    name_en: 'Michel Foucault',
+    name_zh: '米歇尔·福柯',
+    life: '1926–1984',
+    nationality_zh: '法国',
+    nationality_en: 'French',
+    role_zh: '哲学家、思想史家',
+    role_en: 'Philosopher and intellectual historian',
+    bio_zh: '法国哲学家，曾任法兰西公学院教授。对权力、知识与规训机制的谱系学分析，彻底改变了我们对监狱、精神病学、性与社会规范的认识。《规训与惩罚》与《知识考古学》与《性史》构成其理论坐标的核心。',
+    bio_en: 'French philosopher and professor at the Collège de France. His genealogical analyses of power, knowledge and disciplinary mechanisms transformed our understanding of prisons, psychiatry, sexuality and social norms. Discipline and Punish, together with The Archaeology of Knowledge and The History of Sexuality, are the core of his theoretical coordinates.',
+    ideas_zh: ['规训与惩罚：权力通过微观机制运作', '知识与权力的共生', '呼吁批判性地审视「常识」'],
+    ideas_en: ['Discipline and punishment: power in the micro-mechanisms', 'The symbiosis of knowledge and power', 'A call to critically examine common sense']
   },
 
   'mihaly-csikszentmihalyi': {

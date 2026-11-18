@@ -535,6 +535,14 @@
       })
       .catch(function () { /* 索引加载失败时保持静态回退 */ });
 
+    /* 搜索每敲一个字都要重新跑一遍 610 条谓的打分和高亮，
+       所以把输入防抖（每次完整计算）和结果重绘暂挂，避免逐字击发把主线程卡死。 */
+    var renderTimer = null;
+    function debouncedRender(q) {
+      clearTimeout(renderTimer);
+      renderTimer = setTimeout(function () { render(q); }, 100);
+    }
+
     form.addEventListener('submit', function (ev) {
       ev.preventDefault();
       var q = input.value.trim();
@@ -547,7 +555,7 @@
       var q = input.value.trim();
       var url = window.location.pathname + (q ? '?q=' + encodeURIComponent(q) : '');
       history.replaceState(null, '', url);
-      render(q);
+      debouncedRender(q);
     });
 
     $$('[data-search-example]').forEach(function (btn) {

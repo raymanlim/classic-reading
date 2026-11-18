@@ -12,6 +12,21 @@ import { coverImage } from './covers.js';
 
 const e = escapeHtml;
 
+/**
+ * JSON-LD 正文转义
+ * ------------------------------------------------------------------
+ * 在 <script type="application/ld+json"> 中，是 raw text 元素，内部的字符
+ * 引用（如 &quot;）不可被 HTML 解析器重新拼回去，所以不能把引号转成
+ * 实体——而应该让 JSON.stringify 自己转义引号（输出为 \&quot;），原样
+ * 保留 & / < / >，JSON.parse 才能吃到正确的文字。
+ *
+ * 唯一可能造成截断的是字面 </script，JSON.stringify 不会输出反斜杠，
+ * 这里做一次预防（对不存在的结尾 < /> 做无害化，语义仍等价）。
+ */
+export function ldEscape(item) {
+  return JSON.stringify(item).replace(/<\/script/g, '<\\' + '/script');
+}
+
 /* 首屏主题引导：必须在样式渲染前把 data-theme 落到 <html>，
    否则深色偏好用户会看到一帧白屏（FOUC）。
    偏好键与取值须与 public/app.js 的 initTheme 保持一致：
@@ -39,7 +54,7 @@ export function head({ lang, title, description, path, type = 'website', jsonLd 
   const alt = otherLang(lang);
   const canonical = absUrl(lang, path);
   const ld = Array.isArray(jsonLd) ? jsonLd : [jsonLd];
-  const ogImage = `${SITE_URL}${ASSETS.og}`;
+  const ogImage = `${SITE_URL}${ASSETS.og}?v=${BUILD_ID}`;
 
   return `
   <meta charset="utf-8">
@@ -71,7 +86,7 @@ export function head({ lang, title, description, path, type = 'website', jsonLd 
   <meta name="twitter:description" content="${e(description)}">
   <meta name="twitter:image" content="${ogImage}">
   <link rel="alternate" type="application/rss+xml" title="Classics Library" href="/feed.xml">
-  ${ld.map((item) => `<script type="application/ld+json">${JSON.stringify(item)}</script>`).join('\n  ')}`;
+  ${ld.map((item) => `<script type="application/ld+json">${ldEscape(item)}</script>`).join('\n  ')}`;
 }
 
 /* ------------------------------------------------------------------

@@ -323,6 +323,9 @@ function buildRootRedirect() {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>Classics Library · 经典书库</title>
 <meta name="description" content="${escapeHtml(t('zh', 'site.description'))}">
 <link rel="canonical" href="${SITE_URL}/zh/">
@@ -356,6 +359,9 @@ function buildRedirectStub(lang, from, to) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>${escapeHtml(t(lang, 'redirect.title'))}</title>
 <meta name="robots" content="noindex, follow">
 <link rel="canonical" href="${canonical}">

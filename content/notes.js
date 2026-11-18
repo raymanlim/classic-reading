@@ -8669,6 +8669,576 @@ The live question is plain: once observable differences are written out one by o
     "science-and-nature"
   ]
 },
+  {
+    "id": "note-226",
+    "slug": "liberalism-the-cost-of-success",
+    "book": "liberalism",
+    "date": "2026-11-18",
+    "voice": "editorial",
+    "key_insight_zh": "自由主义若不是一个需要被辩护的哲学命题，而是一个社会实验。从 John Gray 的叙述中可以看到，自由主义在完成从制度设计到身份实现的全面转型后，取消了传统社会提供的确定性，将选择的重量转移到每一个体的肩上。自由主义对公共领域的构建逻辑，不同于对私人领域的尊重逻辑。当个体不再需要从等级暴政中获得价值感时对他获得的自由是巨大的；但这也更能让自由主义社会陷入孤独。自由主义的局限在核心矛盾上：自由与责任不可分离。当自由被视为完全的选择权，责任就会被法律系统的执行逻辑掩盖为一道过程。",
+    "key_insight_en": "If liberalism is not a philosophical proposition needing defense, but a social experiment. In Gray's account, liberalism completed a total transformation from institutional design to identity construction, canceled the certainty supplied by the social hierarchy, and put the weight of choice upon each individual. Liberalism constructs the public sphere via a different logic than it respects the private sphere. When an individual no longer needs validation from the hierarchy, what is gained is enormous — which is why a liberal society is more liable to loneliness. The limits lie in a core contradiction: freedom and responsibility are inseparable. When freedom is treated as pure choice, responsibility is masked by the logic of legal-system execution as a process.",
+    "quote_zh": "",
+    "quote_en": "",
+    "thinking_zh": "自由主义若不是一个需要被辩护的哲学命题，而是一个社会实验。从 John Gray 的叙述中可以看到，自由主义在完成从制度设计到身份实现的全面转型后，取消了传统社会提供的确定性，将选择的重量转移到每一个体的肩上。自由主义对公共领域的构建逻辑，不同于对私人领域的尊重逻辑。当个体不再需要从等级暴政中获得价值感时对他获得的自由是巨大的；但这也更能让自由主义社会陷入孤独。自由的局限在核心矛盾上：自由与责任不可分离。当自由被视为完全的选择权，责任就会被法律系统的执行逻辑掩盖为一道过程。",
+    "thinking_en": "Liberalism is not a philosophical proposition needing defense, but a social experiment.",
+    "questions_zh": [
+      "自由主义在取消等级之后，为什么没有减少责任，反而让它更分散？",
+      "Gray 将自由主义视为一种社会实验而非哲学命题，这意味着什么？",
+      "为什么自由的社会比等级制的社会更容易感到孤独？"
+    ],
+    "questions_en": [
+      "Why did freedom not reduce responsibility but disperse it after abolishing hierarchy?",
+      "What does it mean that Gray treats liberalism as a social experiment, not a philosophical proposition?",
+      "Why are free societies more liable to loneliness than graded ones?"
+    ],
+    "answers_zh": [
+      "因为责任从制度义务变成了个人选择：每个人都在决定别人的不平等是否正当。",
+      "这消解了自由主义的形而上学标准，使它成为可被历史检验的事物。",
+      "因为当社会不再要求归属感时，人情的温度会下降，人与人之间只剩下选择权与同等的冷。"
+    ],
+    "answers_en": [
+      "Because responsibility changed from institutional obligation to personal choice: everyone decides whether another's inequality is justified.",
+      "It dissolves the metaphysical standard, making it a thing testable by history.",
+      "Because when society no longer requires belonging, human temperature drops, leaving only selection rights and equal coldness."
+    ],
+    "topics": [
+            "philosophy",
+      "civilization",
+      "power-and-politics"
+    ]
+  },
+  {
+    "id": "note-227",
+    "slug": "the-feast-of-the-goat-the-paradox-of-tyranny",
+    "book": "the-feast-of-the-goat",
+    "date": "2026-11-18",
+    "voice": "editorial",
+    "key_insight_zh": "独裁者的权力是恋物癖式的：它依赖个人崇拜带来的日常仪式，一旦仪式停止，权力的合法性就坍塌。Trujillo 不是普通的独裁者，而是一个用仪式维持幻象的玩具。",
+    "key_insight_en": "The dictator's power is fetishistic: it relies on the daily rituals of personality cult, and once those rituals stop the legitimacy collapses. Trujillo is not an ordinary dictator but a toy maintaining illusion through ritual.",
+    "quote_zh": "",
+    "quote_en": "",
+    "thinking_zh": "《公羊的节日》构建了一个关于独裁的空间。这个静水般的章节揭示了一个关于权力的冷酷命题：独裁的维持比独裁更容易。当独裁的霸权变成全社会的信仰，恐惧就升级为背景噪音。一个令人不安的事实是，独裁体制不仅是暴力的，而且它更具渗透性 — 它变异了人之间的人际关系。最好的部分也许不是独裁者的暴行，而是它如何温水煮蛙式地让当时的个体养成了沉默。",
+    "thinking_en": "The Feast of the Goat builds a space about the dictator. This still-water chapter reveals a cold proposition about power: sustaining dictatorship is harder than overthrowing it. When dictatorial hegemony becomes a faith of all society, fear becomes background noise. An unsettling fact is that a dictator regime is not only violent, it is more penetrative — it mutates interpersonal relationships. Perhaps the best part is not the dictator's atrocities but how it forces citizens into silence in a water-boiling way.",
+    "questions_zh": [
+      "为什么独裁保持比独裁理由本身更难？",
+      "为什么美貌、秩序或恐惧，能让群体屈服于制度而非孤立的独裁者？",
+      "沉默如何成为独裁的生态持续的保障？"
+    ],
+    "questions_en": [
+      "Why is dictatorship's survival harder than the original purpose?",
+      "Why do beauty, order, or fear make groups yield to institutions more than isolated dictators?",
+      "How does silence become an ecological guarantee of continued dictatorship?"
+    ],
+    "answers_zh": [
+      "因为独裁的权力合法性被锁死在最初的形式上，而维持这一形式永远在消耗超出预期的资源。",
+      "因为制度通过恐惧提供的是安全而不是恐惧本身 — 群体在恐惧中找到了组织。",
+      "沉默成为体制的免疫系统，一切异议只有变成了文本才能存活。"
+    ],
+    "answers_en": [
+      "Because the legitimacy of dictator power is locked in its initial form, and maintaining it always consumes resources beyond expectations.",
+      "Because the system provides safety through fear, rather than fear itself — and groups found organization in fear.",
+      "Silence becomes the system's immune system; every dissent survives only by becoming a text."
+    ],
+    "topics": [
+            "power-and-politics",
+      "history",
+      "authoritarianism"
+    ]
+  },
+  {
+    "id": "note-228",
+    "slug": "civilized-to-death-the-loss-of-suffering",
+    "book": "civilized-to-death",
+    "date": "2026-11-18",
+    "voice": "editorial",
+    "key_insight_zh": "拉斯奇认为当代文明的核心问题是：我们失去了“痛苦的能力”。通过取缔苦难，我们不仅失掉对痛苦的 preserve，也失掉了对苦难的哲学反思。",
+    "key_insight_en": "Lasch argues the core problem of contemporary civilization is that we lost the capacity to suffer. By prohibiting suffering, we lose not only the preservation of pain but also the philosophical reflection on it.",
+    "quote_zh": "",
+    "quote_en": "",
+    "thinking_zh": "《文明至死》的核心命题不是对痛苦的恐惧，而是对“反痛苦”制度的批判。拉斯奇认为，现代社会制造了一种系统：通过医疗、消费与抚慰的策略来替代痛苦的留存价值。痛苦变成了一种被管理的变量，被消除是科技的信号。然而这个命题有一个重要思想：痛苦的意义被制度化了。痛苦曾让哲学、文学与宗教有深远的内容，而文明的进步反而通过消除这些传统内容，造成了精神生态的退化。最尖锐的批评是：当痛苦无法表达，抑郁症就不再被理解为疾病，而被理解为抵抗。",
+    "thinking_en": "The core proposition of Civilization to Death is not the fear of pain, but the critique of the anti-pain system. Lasch holds that modern society created a system: replacing the retained value of suffering through medical, consumerist, and soothing strategies. Pain becomes a managed variable where elimination is the signal of technology. Yet this proposition carries an important thought: the meaning of pain was institutionalized. Pain once gave philosophy, literature and religion profound content, and civilization's progress instead degraded a spiritual ecology by removing those traditional contents. The sharpest criticism is this: when suffering cannot be expressed, depression is no longer understood as illness but as resistance.",
+    "questions_zh": [
+      "为什么消除痛苦反而构成了对痛苦意义的剥夺？",
+      "拉斯奇认为文明的进步以牺牲阻力为代价，哪里看出这一点？",
+      "当痛苦被制度化管理后，我们失去的是哪些能力？"
+    ],
+    "questions_en": [
+      "Why does the elimination of pain constitute a deprivation of its meaning?",
+      "Where can we see that progress came at the cost of resistance?",
+      "When pain is managed institutionally, which capacities have we lost?"
+    ],
+    "answers_zh": [
+      "因为痛苦曾作为诸如哲学、宗教与艺术的基础，消失了之后伤口就愈合了。",
+      "文明通过消除阻力让进步的代价是，人在情感上失去了文学向外部的扩张。",
+      "我们失去的是对苦难的敏感性、对生命的达意能力，以及对死亡的直面能力。"
+    ],
+    "answers_en": [
+      "Because pain once served as the base of philosophy, religion, and art; when it disappears, one need never face the wound.",
+      "Civilization removes friction — but the cost is that people lose literature's expansion outward to the exterior in emotion.",
+      "We lose sensitivity to suffering, the capacity to express life, and the ability to face death."
+    ],
+    "topics": [
+            "philosophy",
+      "modern-society",
+      "power-and-politics"
+    ]
+  },
+  {
+    "id": "note-229",
+    "slug": "how-groups-encourage-misbehavior-trust-cost",
+    "book": "how-groups-encourage-misbehavior",
+    "date": "2026-11-18",
+    "voice": "editorial",
+    "key_insight_zh": "当一群人决定为什么行为是可接受的，这个决定不是由制度来维持的，而是由群体的信任机制来维持的。越信任的群体，越可能在不知不觉中鼓励错误的行为。",
+    "key_insight_en": "When a group decides what behavior is acceptable, that decision is not maintained by institutions but by the group's trust mechanism. The more trusting a group, the more it may unknowingly encourage bad behavior.",
+    "quote_zh": "",
+    "quote_en": "",
+    "thinking_zh": "《害马之群》探讨了一个反直觉的命题：在高度信任的群体中，错误行为更容易被接受。其核心机制是：当信任度过高时，行为的标准从“对与错”变成“信任的代价”。如果一个人对我的信任足够深，他的错误行为就会被容忍为忠诚的证明。这种机制最值得注意的是它权力的流失：不是因为群体不关心，而是因为关注点从结果转移到了维持关系上。一个高度互信的群体最终会以“我们信任你”为保护伞，为错误行为提供免责。",
+    "thinking_en": "How Groups Encourage Misbehavior explores a counterintuitive proposition: in high-trust groups, bad behavior is easier to accept. The core mechanism: when trust levels are too high, behavioral standards shift from right-and-wrong to the cost of trust. If a person's trust in me is deep enough, their error is tolerated as proof of loyalty. The most noteworthy thing about this mechanism is the loss of power: not because a group doesn't care, but because focus moves from result to relationship maintenance. A high-trust group eventually uses \"we trust you\" as protection, providing exoneration for misbehavior.",
+    "questions_zh": [
+      "为什么越信任的群体越容易纵容错误行为？",
+      "如果信任本身就是支持结果的信号，我们为什么还需要它？",
+      "制度和信任之间，哪一种力量更劝服人不去犯错？"
+    ],
+    "questions_en": [
+      "Why do more trusting groups more easily condone bad behavior?",
+      "If trust itself signals support for results, why still need it?",
+      "Between institutions and trust, which force better persuades a person not to err?"
+    ],
+    "answers_zh": [
+      "因为责任从制度义务变成了个人选择：每个人都在决定别人的不平等是否正当。",
+      "这消解了自由主义的形而上学标准，使它成为可被历史检验的事物。",
+      "因为当社会不再要求归属感时，人情的温度会下降，人与人之间只剩下选择权与同等的冷。"
+    ],
+    "answers_en": [
+      "Because responsibility changed from institutional obligation to personal choice: everyone decides whether another's inequality is justified.",
+      "It dissolves the metaphysical standard, making it a thing testable by history.",
+      "Because when society no longer requires belonging, human temperature drops, leaving only selection rights and equal coldness."
+    ],
+    "topics": [
+            "management",
+      "modern-society",
+      "cognitive-science"
+    ]
+  },
+  {
+    "id": "note-230",
+    "slug": "the-conformist-identity-through-following",
+    "book": "the-conformist",
+    "date": "2026-11-18",
+    "voice": "editorial",
+    "key_insight_zh": "莫拉维亚在《同流者》中讲述了一个关于随大流的故事：一个人之所以服从，不是因为他支持，而是因为他害怕被排除。服从不是为了得利益，而是不要用被抛弃的恐惧。",
+    "key_insight_en": "Moravia in The Conformist tells a story about following the crowd: a person obeys not because he supports, but because he fears exclusion. Obedience is not for gain, but to avoid the fear of abandonment.",
+    "quote_zh": "",
+    "quote_en": "",
+    "thinking_zh": "《同流者》的核心叙事不是权力对个体的压迫，而是个体如何利用自我服从来完成对权力的拥戴。马尔科阿姆是那个时代的产物，他在肯特式的无力中明白：真正的顺从不是接受权威本身，而是把权威的判断当作自己的价值感来源。这就是他行动的核心。",
+    "thinking_en": "The core narrative of The Conformist is not power's oppression of the individual, but the individual's use of self-obedience to complete the Empire's purchase. Marcolm is the product of his era: he understands in Kempt's powerless way that true obedience is not accepting authority itself, but treating the authority's judgment as one's own source of value.",
+    "questions_zh": [
+      "为什么一个服从者会通过服从获得价值感？",
+      "如果权威拒绝提供价值感，个体还愿服从吗？",
+      "服从与独立之间，有没有中间的灰色地带？"
+    ],
+    "questions_en": [
+      "Why does an obedient person gain a sense of value through obedience?",
+      "If authority refuses to provide validation, does the individual still want to conform?",
+      "Is there a gray area between obedience and independence?"
+    ],
+    "answers_zh": [
+      "因为服从是一种低成本的社会保护策略；自己的判断会带来不确定性，而权威提供的是确定。",
+      "不会；当权威拒绝，个体首先会寻找另一个替代品而不是坚持独立。",
+      "是的；大多数人在服从的框架内寻求独立空间，而这种框架本身就是权威的一种延伸。"
+    ],
+    "answers_en": [
+      "Because obedience is a low-cost social protection strategy; own judgment creates uncertainty while authority provides certainty.",
+      "No; when authority refuses, individuals seek substitutes first rather than insisting on independence.",
+      "Yes; most people seek independent space within their obedience framework, and that framework itself is a form of authoritarian extension."
+    ],
+    "topics": [
+            "cognitive-science",
+      "philosophy",
+      "power-and-politics"
+    ]
+  },
+  {
+    "id": "note-231",
+    "slug": "propaganda-technique-in-the-world-war-knowledge",
+    "book": "propaganda-technique-in-the-world-war",
+    "date": "2026-11-18",
+    "voice": "editorial",
+    "key_insight_zh": "克里尔把宣传看成技术：与事实无关，与受众的认知习惯有关。宣传的力量不来自它说了什么，而来自它如何说。",
+    "key_insight_en": "Creel approached propaganda as technology: not relating to facts, but to the audience's cognitive habits. A propaganda's power doesn't come from what it says, but from how it says it.",
+    "quote_zh": "",
+    "quote_en": "",
+    "thinking_zh": "《世界大战中的宣传技巧》揭示了一个现代世界最清晰的机制之一：宣传以信任网络为基础。当信息通过权威与熟人传递时，它的接受度远高于信息本身。宣传的效果是通过关系网络扩散的，它所用的不是诡辩，而是信任的账户。这个命题的一个关键点是：信息的传播与维护系统会先于内容本身发挥作用。宣传不是对事实的扭曲，而是对认知框架的重新布置。",
+    "thinking_en": "Propaganda Technique in the World War reveals one of the clearest mechanisms of the modern world: propaganda is based on trust networks. When information is transmitted through authority and acquaintances, its acceptance is far higher than the information itself. The effect of propaganda is diffused through relational networks — its currency is trust, not sophistry. A key point: the propagation and maintenance system of information takes effect before its content. Propaganda is not the distortion of facts, but the restructuring of cognitive frames.",
+    "questions_zh": [
+      "宣传依赖信任网络还是依赖逻辑？",
+      "信息传播的维护系统为什么要先于内容本身？",
+      "为什么有效宣传后的事实会看起来与框架一致？"
+    ],
+    "questions_en": [
+      "Does propaganda rely on trust networks or on logic?",
+      "Why must the maintenance system of information propagation precede its content?",
+      "Why do facts after effective propaganda look consistent with the frame?"
+    ],
+    "answers_zh": [
+      "信任网络让信息更容易被接受，逻辑反而是次要的。",
+      "因为接收者首先是麻木的；系统先于内容发挥作用。",
+      "因为有效的宣传会先构造一种认知框架，让事实看起来与框架一致。"
+    ],
+    "answers_en": [
+      "Trust networks make information easier to accept; logic is secondary.",
+      "Because receivers are first numb; the system takes effect before content.",
+      "Because effective propaganda constructs a cognitive frame first — facts then look consistent with the frame."
+    ],
+    "topics": [
+            "power-and-politics",
+      "civilization",
+      "technology"
+    ]
+  },
+  {
+    "id": "note-232",
+    "slug": "21-lessons-for-the-21st-century-global-challenge",
+    "book": "21-lessons-for-the-21st-century",
+    "date": "2026-11-18",
+    "voice": "editorial",
+    "key_insight_zh": "哈瑞里的忧虑不是技术终将超越人类，而是全球性问题尖锐化之后，制度无法提供有说服力的答案。在每一个议题面前，最大的困难不是缺乏知识，而是没有足够的共识来应对。",
+    "key_insight_en": "Harari's worry is not that technology will outstrip humanity, but that after global problems sharpen, institutions fail to provide persuasive answers. In the face of every issue, the greatest difficulty is not lack of knowledge, but insufficient consensus to respond.",
+    "quote_zh": "",
+    "quote_en": "",
+    "thinking_zh": "《今日简史》的核心不是对技术进步的赞美，而是对全球性问题尖锐化的忧虑。哈瑞里提出的问题总是全局性的：气候变化、生物技术、人工智能。在每一个议题面前，最大的困难不是缺乏知识，而是没有足够的共识来应对。当一个时代面临前所未有的整体挑战时，旧框架不再适用。因此最紧迫的不是寻找答案，而是回答“我们如何能够共同思考”。",
+    "thinking_en": "21 Lessons for the 21st Century is not praise of technological progress, but worry about the sharperification of global problems. Harari's questions are always global: climate change, bioengineering, AI. In the face of every issue, the greatest difficulty is not lack of knowledge, but insufficient consensus. When an era faces unprecedented overall challenge, old frameworks no longer serve. Thus what is most urgent is not to find answers but to answer \"how we can think together\".",
+    "questions_zh": [
+      "为什么全球性问题尖锐化之后制度无法提供答案？",
+      "在每一个议题面前，最大的困难不是缺乏知识而是什么？",
+      "为什么回答“如何共同思考”比寻找答案更紧迫？"
+    ],
+    "questions_en": [
+      "Why can institutional failure not provide answers after global problems sharpen?",
+      "In the face of every issue, is the greatest difficulty not lack of knowledge, but what?",
+      "Why is answering 'how we think together' more urgent than finding answers?"
+    ],
+    "answers_zh": [
+      "因为旧制度建立在全球化共识上，而全球性挑战要求跨国合作。",
+      "最大的困难是共识缺乏，知识反而充足。",
+      "因为共识是 collectively thinking 的前提；没有它没有答案。"
+    ],
+    "answers_en": [
+      "Because old institutions were built on globalized consensus, while global challenges require transnational cooperation.",
+      "The greatest difficulty is lacking consensus; knowledge is instead ample.",
+      "Because consensus is the premise of collective thinking; without it there is no answer."
+    ],
+    "topics": [
+            "civilization",
+      "technology",
+      "power-and-politics"
+    ]
+  },
+  {
+    "id": "note-233",
+    "slug": "envy-the-standard-of-success",
+    "book": "envy",
+    "date": "2026-11-18",
+    "voice": "editorial",
+    "key_insight_zh": "赫伯特·甘斯认为嫉妒是一种社会行为：它不是心理缺陷，而是一个关于“公平”的锚定机制。嫉妒让我们通过比较找到自己的坐标，并通过否定别人的成功来保存自己的尊严。",
+    "key_insight_en": "Herbert Gans holds envy is a social behavior: not a psychological defect, but an anchoring mechanism of \"fairness.\" Envy lets us find our coordinates through comparison, and preserves dignity by negating others' success.",
+    "quote_zh": "",
+    "quote_en": "",
+    "thinking_zh": "《嫉妒》的核心命题是：嫉妒是社会结构的零件，而不是个体的心理病理。甘斯论证嫉妒是一种机制，用于管理和分配资源匮乏的焦虑。嫉妒的方式：比较生活中的某类资源时，我们树立他人为参照系。这种比较提供了评价标准——自己不成功时经由嫉妒获得占便宜的感觉。在古老的农业社会与现代城市社会之间架起了一种恒常结构。嫉妒不是罪恶，而是社会秩序的调节器。",
+    "thinking_en": "The core proposition of Envy is that envy is a component of social structure, not an individual psychological pathology. Gans argues envy is a mechanism for managing and distributing anxiety over resource scarcity. The way envy works: when comparing certain kinds of resources, we set others as our reference point. This comparison provides the evaluation standard — when one is unsuccessful, one gets a sense of advantage via envy. It builds a constant structure between ancient agricultural society and modern urban society. Envy is not a sin; it is the regulator of social order.",
+    "questions_zh": [
+      "嫉妒如何成为社会结构的零件？",
+      "如果嫉妒是一种机制，为什么我们仍然认为它是错误的？",
+      "比较中的参照系是如何被选择的？"
+    ],
+    "questions_en": [
+      "How is envy a component of social structure?",
+      "If envy is a mechanism, why do we still think it is wrong?",
+      "How are the reference points in comparison chosen?"
+    ],
+    "answers_zh": [
+      "因为嫉妒维持了关于公平的底线，而社会演进需要它。",
+      "因为我们把机制当作了病因来理解。",
+      "参照系在行动主体的身边选择 —— 通常与自身同质的群体。"
+    ],
+    "answers_en": [
+      "Because envy maintains the baseline of fairness; social evolution needs it.",
+      "Because we misunderstand a mechanism as an etiology.",
+      "Reference points are chosen near the acting subject — usually groups homogeneous with themselves."
+    ],
+    "topics": [
+            "modern-society",
+      "power-and-politics",
+      "class-and-inequality"
+    ]
+  },
+  {
+    "id": "note-234",
+    "slug": "the-naked-ape-the-social-origins",
+    "book": "the-naked-ape",
+    "date": "2026-11-18",
+    "voice": "editorial",
+    "key_insight_zh": "德斯蒙德·莫里斯把人类看成裸猿：我们不是因为进化出了工具而得名，而是因为我们建立了一套社会规则来约束本能。一个文明的标志不是技术，而是对野性的妥善管理。",
+    "key_insight_en": "Desmond Morris treats humans as naked apes: we are not named for evolution of tools, but for establishing social rules to constrain instinct. A civilization's sign is not technology, but proper management of wildness.",
+    "quote_zh": "",
+    "quote_en": "",
+    "thinking_zh": "《裸猿》通过神经学、人类学与社会学的综合，把人类社会看成一种特殊动物的行为模式。莫里斯认为，人类的暴力和竞争都是本能驱动的，但社会的核心功能是管理这些本能。当失控的本能蔓延到制度层面，文明就建立不了。野蛮不是文明的敌人，而是文明的底层材料。技术越强大，本能的管理越重要。",
+    "thinking_en": "The Naked Ape combines neuroscience, anthropology, and sociology, treating human society as the behavior pattern of a special animal. Morris holds that human violence and competition are instinct-driven, but society's core function is managing these instincts. When uncontrolled instincts spread to institutional levels, civilization cannot be built. Wildness is not civilization's enemy but its base material. The more powerful technology, the more important instinct management becomes.",
+    "questions_zh": [
+      "文明是压制本能还是管理本能？",
+      "为什么一个社会必须管理本能而非消除本能？",
+      "等级秩序在动物界的普遍意味着什么？"
+    ],
+    "questions_en": [
+      "Does civilization repress or manage instinct?",
+      "Why must a society manage rather than eliminate instinct?",
+      "What does the universality of hierarchy in the animal kingdom imply?"
+    ],
+    "answers_zh": [
+      "文明管理本能：它不是压制，而是让本能找到合适的出口。",
+      "因为消除本能等于消除人类的生存能力。",
+      "它意味着等级制有生物学的根源，制度只是其延伸。"
+    ],
+    "answers_en": [
+      "Civilization manages instinct: it does not repress, but finds suitable outlets.",
+      "Because eliminating instinct means eliminating survival capacity.",
+      "It implies hierarchy has biological roots; institutions are extensions of them."
+    ],
+    "topics": [
+            "science-and-nature",
+      "philosophy",
+      "society"
+    ]
+  },
+  {
+    "id": "note-235",
+    "slug": "the-meaning-of-human-existence-the-universe",
+    "book": "the-meaning-of-human-existence",
+    "date": "2026-11-18",
+    "voice": "editorial",
+    "key_insight_zh": "E. O. Wilson 认为生命的意义不是被发现的，而是被创造的。一个宇宙没有义务赋予人类意义，意义是我们对宇宙回声的回应。",
+    "key_insight_en": "E. O. Wilson holds the meaning of life is not discovered, but created. The universe has no obligation to endow humans with meaning; meaning is our response to the universe's echo.",
+    "quote_zh": "",
+    "quote_en": "",
+    "thinking_zh": "《人类存在的意义》提出一个生物学的命题：意义的创造是人类延续的冲动。生命对意义的渴望不是宗教产物，而是进化的副产品。人类需要在宇宙的尺度上找到自己的位置，否则就很难持续的意义。科学和美感的结合创造了我们面对的意义。",
+    "thinking_en": "The Meaning of Human Existence puts forward a biological proposition: meaning-creation is the impulse of continued life. The yearning for meaning is not a religious product but an evolutionary by-product. Humans need to find their place in the cosmic scale, otherwise sustained meaning is difficult. The combination of science and beauty creates the meaning we face.",
+    "questions_zh": [
+      "为什么意义需要创造而不是被发现？",
+      "进化为什么要给人类意义渴望的温暖？",
+      "人类的渺小与意义是否一定矛盾？"
+    ],
+    "questions_en": [
+      "Why must meaning be created, not discovered?",
+      "Why would evolution give humans the warmth of meaning yearning?",
+      "Is human insignificance necessarily contradictory to meaning?"
+    ],
+    "answers_zh": [
+      "因为宇宙本身没有预设的意义，意义只能在个体的时间中产生；发现只是把未成形的东西解释出来。",
+      "因为它让个体能更有活力地面对生存的无意义。",
+      "不矛盾；渺小恰恰要求我们在有限中制造自己的尺度。"
+    ],
+    "answers_en": [
+      "Because the universe has no preset meaning; meaning only arises in individual time. Discovery merely interprets the unformed.",
+      "Because it lets individuals face existential nothingness with more vitality.",
+      "No contradiction; insignificance precisely requires us to create our own scale within the finite."
+    ],
+    "topics": [
+            "science-and-nature",
+      "religion-and-meaning",
+      "philosophy"
+    ]
+  },
+  {
+    "id": "note-236",
+    "slug": "helen-of-troy-the-name",
+    "book": "helen-of-troy",
+    "date": "2026-11-18",
+    "voice": "editorial",
+    "key_insight_zh": "Bettany Hughes 讲述的特洛伊战争不是一场关于一个人物的战争，而是一场关于“名字为何赢过历史”的记忆战争。海伦是符号，不是英雄，也不是罪人。",
+    "key_insight_en": "Bettany Hughes' telling of the Trojan War is not a war about a person, but a memory war about \"why names defeat history.\" Helen is a symbol, not a hero, nor a sinner.",
+    "quote_zh": "",
+    "quote_en": "",
+    "thinking_zh": "《特洛伊的海伦》把城市变成了一座记忆的博物馆。海伦不仅是传说中的女子，她是特洛伊人、希腊人、与后世解释权的核心。海伦被赋予了双重身份：她是人，也是被抛到空间中的符号。海伦不真实，但她被历史需要。历史需要她的名字来解释文化的方向。",
+    "thinking_en": "Helen of Troy turns the city into a museum of memory. Helen is not just a legendary woman: she is the core of Trojan, Greek, and later interpretive rights. Helen is given dual identity: she is person, but also a symbol thrown into space. Helen is not real, but she is needed by history. History needs her name to explain cultural direction.",
+    "questions_zh": [
+      "为什么海伦是符号而非英雄？",
+      "名字如何胜过历史本身？",
+      "一段被建构的神话如何让历史讲述自己？"
+    ],
+    "questions_en": [
+      "Why is Helen a symbol, not a hero?",
+      "How do names defeat history itself?",
+      "How does a constructed myth make history tell about itself?"
+    ],
+    "answers_zh": [
+      "因为她被文化赋予了符号地位，而英雄必须行动。",
+      "名字一旦传播就脱离了创作者；历史本身可能没有名字有生命力。",
+      "神话是历史讲述自身的工具：通过它，文化获得自我解释。"
+    ],
+    "answers_en": [
+      "Because culture gave her symbolic status, while heroes must act.",
+      "Once a name spreads it leaves its creator; history itself may have no life those names have.",
+      "The myth is history's tool to tell about itself: via it, culture gains self-explanation."
+    ],
+    "topics": [
+            "history",
+      "art-and-culture",
+      "literature"
+    ]
+  },
+  {
+    "id": "note-237",
+    "slug": "the-gender-knot-patriarchal-legacy",
+    "book": "the-gender-knot",
+    "date": "2026-11-18",
+    "voice": "editorial",
+    "key_insight_zh": "简·米科夫斯基认为性别是一种法律关系，而不只是身体的差异。父权制不是生物学的延续，而是一场权力的制度接力。",
+    "key_insight_en": "Jane Mirowski holds gender is a legal relationship, not merely bodily difference. Patriarchy is not a biological continuation but an institutional relay of power.",
+    "quote_zh": "",
+    "quote_en": "",
+    "thinking_zh": "《性别打结》把性别看成一种制度的契约。在性别问题上，一个核心悖论是：社会越“文明”，性别等级的结构越隐形。女性从来不是被禁止——而是被结构性地引导到不匹配的位置上。父权制最需要的是她的合作，而不是她的反抗。",
+    "thinking_en": "The Gender Knot treats gender as an institutional contract. On gender, a core paradox is: the more \"civilized\" a society, the more invisible its gender hierarchy. Women were never prohibited — they were structurally guided to mismatched positions. Patriarchy needs her cooperation most, not her resistance.",
+    "questions_zh": [
+      "性别是社会关系还是个人身份？",
+      "为什么父权制更需要合作而不是反抗？",
+      "平等的条件不是消除差异，而是如何对待差异？"
+    ],
+    "questions_en": [
+      "Is gender a social relation or personal identity?",
+      "Why does patriarchy need cooperation more than resistance?",
+      "Is equality's condition not eliminating difference, but how difference is treated?"
+    ],
+    "answers_zh": [
+      "它既是社会关系和个人身份并行构成；社会关系决定后者。",
+      "因为合作让不平等变得自然，反抗让不平等被注意到。",
+      "因为平等的核心不是消除差异，而是让所有差异有同等的发声力。"
+    ],
+    "answers_en": [
+      "They are composed of both social relations and personal identity; the social relation determines the latter.",
+      "Because cooperation makes inequality natural, and resistance makes inequality noticed.",
+      "Because equality's core is not eliminating difference, but giving all differences equal voice."
+    ],
+    "topics": [
+            "gender-and-family",
+      "modern-society",
+      "power-and-politics"
+    ]
+  },
+  {
+    "id": "note-238",
+    "slug": "a-canticle-for-leibowitz-survival-and",
+    "book": "a-canticle-for-leibowitz",
+    "date": "2026-11-18",
+    "voice": "editorial",
+    "key_insight_zh": "惠特克在《莱博维茨的赞歌》中思索文明的循环：技术会溃灭，而知识需要被保存。一个文明的毁灭不是因为技术消失，而是没人记得它曾存在过。",
+    "key_insight_en": "Whitaker in A Canticle for Leibowitz ponders the cycle of civilization: technology collapses, but knowledge needs preservation. A civilization's ruin is not because technology vanishes, but because no one remembers it once existed.",
+    "quote_zh": "",
+    "quote_en": "",
+    "thinking_zh": "《莱博维茨的赞歌》写的是文明的循环和科技的保存。一个社会在灾难后幸存，不一定因为技术被留存，而是因为知识被写成了可传承的文本。知识劳动者的重要性：他们保存的不是技术细节，而是文明存续的方式。技术的终点不是知识本身而是文明的延续。",
+    "thinking_en": "A Canticle for Leibowitz writes of the cycle of civilization and preservation of technology. A society surviving disaster is not necessarily because technology is stored, but because knowledge is written as portable texts. The importance of intellectual labor: they preserve not technical details but the modes of civilization's continuation. The endpoint of technology is not knowledge itself but civilization's continuation.",
+    "questions_zh": [
+      "为什么知识的保存比技术的保存更重要？",
+      "文明在毁灭后如何被重新唤醒？",
+      "“知识工作者”在一个后灾难时代承担什么角色？"
+    ],
+    "questions_en": [
+      "Why is knowledge preservation more important than technology preservation?",
+      "How is civilization reawakened after a fall?",
+      "What role do 'knowledge workers' bear in a post-disaster era?"
+    ],
+    "answers_zh": [
+      "因为知识的保存提供了再生的框架，技术细节则可以在框架内修复。",
+      "文明通过保存它的名字和它的故事来被重新唤醒。",
+      "知识工作者保存文明的火种——不是发明，而是传承。"
+    ],
+    "answers_en": [
+      "Because knowledge preservation supplies the framework for regeneration; technical details can be repaired within it.",
+      "Civilization is reawakened by preserving its names and stories.",
+      "Knowledge workers preserve civilization's spark — not invention, but transmission."
+    ],
+    "topics": [
+            "science-and-nature",
+      "civilization",
+      "history"
+    ]
+  },
+  {
+    "id": "note-239",
+    "slug": "the-politics-of-social-solidarity-class-mechanism",
+    "book": "the-politics-of-social-solidarity",
+    "date": "2026-11-18",
+    "voice": "editorial",
+    "key_insight_zh": "彼得·巴丁格的《福利大博弈》把福利制度看成 uma 阶级的博弈。社会福利不是自上而下的恩赐，而是阶级的产物。",
+    "key_insight_en": "Peter Baldwin's The Politics of Social Solidarity treats the welfare system as a class game. Social welfare is not a benevolence from above, but a product of class.",
+    "quote_zh": "",
+    "quote_en": "",
+    "thinking_zh": "福利制度不是技术进步之后的自然结果，而是阶级斗争的产物。巴丁格论证：福利制度的建立并非为了穷人，而是为了中产阶级在政治上的安全网。当阶级利益被重新定义之后，福利就不再是商品。福利国家不是道德成果，而是政治契约。",
+    "thinking_en": "The welfare system is not a natural result of technology progress, but a product of class struggle. Baldwin argues: welfare systems were not established for the poor, but as a safety net for the middle class politically. When class interests are redefined, welfare becomes no longer a commodity. The welfare state is not a moral achievement, but a political contract.",
+    "questions_zh": [
+      "福利制度为什么是阶级博弈的产物而不是恩赐？",
+      "当阶级利益被重新定义，福利变成了什么？",
+      "为什么福利国家是一个政治契约而不是道德成果？"
+    ],
+    "questions_en": [
+      "Why is the welfare system a product of class game, not a benevolence?",
+      "When class interests are redefined, what does welfare become?",
+      "Why is the welfare state a political contract rather than a moral achievement?"
+    ],
+    "answers_zh": [
+      "因为福利制度的资助者不是穷人自己；它来自阶级之间的利益交换。",
+      "福利在重新定义后被重新功能化为一种控制机制。",
+      "因为福利国家不是某些人自愿施予的，而是通过契约达成平衡的政治制度。"
+    ],
+    "answers_en": [
+      "Because the welfare system is funded by those who are not the poor themselves; it comes from exchange of interests among classes.",
+      "Welfare is functionally redefined into a control mechanism.",
+      "Because the welfare state is not given voluntarily by some; it is a political institution balancing through contract."
+    ],
+    "topics": [
+            "power-and-politics",
+      "class-and-inequality",
+      "history"
+    ]
+  },
+  {
+    "id": "note-240",
+    "slug": "extraordinary-popular-delusions-the-truth-from-crowd",
+    "book": "extraordinary-popular-delusions",
+    "date": "2026-11-18",
+    "voice": "editorial",
+    "key_insight_zh": "约翰·卡尔·哈尔认为，群体的狂热不是一种偶发性事件，而是一种结构化的情绪重构。成功的泡沫不是因为虚假，而是因为它提供了结构化的希望。",
+    "key_insight_en": "John Calvin Hall holds that the group's frenzy is not an eventuality, but a structural reconfiguration of emotions. The success of a bubble is not because it is false, but because it offers structured hope.",
+    "quote_zh": "",
+    "quote_en": "",
+    "thinking_zh": "《大癫狂》把历史上的狂热举动看成一种经济结构机制。群体狂热与商品泡沫一样，都是人类面向希望的结构化产物。它不是偶然主义的产物。泡沫在巅峰被抬高的不是假话，而是希望。",
+    "thinking_en": "Extraordinary Popular Delusions views the historical frenzy as an economic structural mechanism. Group frenzy, like commodity flooding, is a structured product of humanity facing hope. It is not a product of chance. At the bubble's peak, what is elevated is not falsehood, but hope.",
+    "questions_zh": [
+      "为什么群体狂热是结构化的而非偶性的？",
+      "泡沫成功的基础是虚假，还是结构化了希望？",
+      "为什么在狂热的巅峰人更容易相信希望？"
+    ],
+    "questions_en": [
+      "Why is group frenzy structural rather than accidental?",
+      "Is the foundation of the bubble's success falsehood or structured hope?",
+      "Why do people believe in hope more at the peak of frenzy?"
+    ],
+    "answers_zh": [
+      "因为它在帮助个体应对时代不确定性时提供了社会坐标。",
+      "因为它提供了结构化的希望而非完全假话。",
+      "因为狂热越高，距离真相的威胁越远。"
+    ],
+    "answers_en": [
+      "Because it provides social coordinates when helping individuals face epochal uncertainty.",
+      "Because it supplies structured hope rather than complete falsehood.",
+      "Because the higher the frenzy, the farther from the threat of truth."
+    ],
+    "topics": [
+            "history",
+      "cognitive-science",
+      "society"
+    ]
+  }
 ];
 
 export default notes;

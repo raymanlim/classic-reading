@@ -186,7 +186,8 @@ function renderListFile(date, books) {
     theme_zh: ${q(b.theme_zh)},
     theme_en: ${q(b.theme_en)},
     tags: ${JSON.stringify(b.tags)},
-    topics: ${JSON.stringify(b.topics)}
+    topics: ${JSON.stringify(b.topics)},
+    co_authors: ${JSON.stringify(b.co_authors || [])}
   }`)
     .join(',\n');
 
