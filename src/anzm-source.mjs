@@ -20,13 +20,16 @@
  * 🔴 去重是硬要求（Rayman 2026-10-20 指令）：候选池与全库（策展经典 + AZM + XMS +
  *    每日推荐）零重复。规则见 DEDUP 段落；入库前 ingest-books.mjs 仍会二次去重。
  */
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { loadData, ROOT } from './lib/data.js';
 
-const SRC_DIR = process.env.ANZM_DIR || 'D:/Obsidian/obsidian_valut/Books/安争鸣油管推荐书目';
-const MERGED_FILE = '2026-10-18 小鸣说推荐书目合并整理.md';
+const SRC_DIR = process.env.ANZM_DIR || 'D:/Obsidian/obsidian_valut/Books/10_安争鸣油管推荐书目';
+// vault 内合并整理文件会按整理日期重命名（如 2026-10-18 → 2026-11-14），
+// 写死文件名会导致源解析静默返回空池。此处按前缀匹配当前最新的一个。
+const MERGED_GLOB = '小鸣说推荐书目合并整理.md';
 const GUIDE_FILE = '安争鸣（Stella An）频道推荐书目全景深度导读指南.md';
+const CORE_FILE = '「小鳴說」頻道核心書單.md';
 const OUT_JS = join(ROOT, 'content', 'sources', 'anzhengming-yt.js');
 const OUT_MD = join(ROOT, 'docs', '安争鸣油管推荐书目-候选池.md');
 
@@ -43,7 +46,14 @@ const CAT_MAP = {
   '经济、商业与社会阶层': 'economics',
   历史: 'history',
   社科: 'society',
-  文艺: 'literature'
+  文艺: 'literature',
+  // 核心書單（2026-11-14 新增）的六大主題
+  '政治學、社會學與歷史反思': 'history',
+  '哲學思潮與思想史': 'philosophy',
+  '史詩文學、古典著作與奇書': 'literature',
+  '腦科學、心理學、基因與前沿科學': 'technology',
+  '經濟學、幸福學與人生指南': 'economics',
+  '藝術史與文化賞析': 'literature'
 };
 
 /* ------------------------------------------------------------------
@@ -164,8 +174,54 @@ const isRealAuthor = (a) =>
   !/^(社会学|哲学|文学|历史学|心理学|经济学|艺术史|思想史)$/.test(a);
 
 /* ------------------------------------------------------------------
- * 解析两个来源
+ * 解析三个来源
  * ------------------------------------------------------------------ */
+
+/** 在 vault 目录内按文件名后缀匹配最新的合并整理文件（按日期前缀排序取末位） */
+function findMergedFile() {
+  if (!existsSync(SRC_DIR)) return '';
+  const hits = readdirSync(SRC_DIR)
+    .filter((f) => f.endsWith(MERGED_GLOB))
+    .sort();
+  if (!hits.length) return '';
+  return join(SRC_DIR, hits[hits.length - 1]);
+}
+
+/** 核心書單：六大主題表格，「書名與作者」列含书名+作者+视频链接 */
+function parseCore(absPath) {
+  const rows = [];
+  if (!existsSync(absPath)) return rows;
+  const text = readFileSync(absPath, 'utf8');
+  let cat = '';
+  for (const line of text.split(/\r?\n/)) {
+    const h = line.match(/^###\s+[一二三四五六]、\s*([^（(]+)/);
+    if (h) { cat = h[1].trim(); continue; }
+    if (!line.startsWith('| ') || /^\|\s*:?-+/.test(line)) continue;
+    const cells = line.split('|').slice(1, -1).map((c) => c.trim());
+    if (cells.length < 7) continue;
+    const first = cells[0] || '';
+    // 书名与作者：去掉书名号内的书名、方括号视频链接后，剩余为作者
+    const video = (first.match(/\((https?:\/\/[^)]+)\)/) || [])[1] || '';
+    const namePart = first.replace(/\([^)]*\)/g, '').replace(/\*\*/g, '').trim();
+    const titles = [...namePart.matchAll(/《([^》]+)》/g)].map((m) => m[1]);
+    if (!titles.length) continue;
+    const author = cleanAuthor(namePart.replace(/《[^》]+》/g, '').trim());
+    for (const title of titles) {
+      rows.push({
+        title: TITLE_FIX[title] || title,
+        author: isRealAuthor(author) ? author : '',
+        author_raw: author,
+        category: CAT_MAP[cat] || 'society',
+        theme_zh: (cells[3] || '').replace(/\*\*/g, '').slice(0, 160),
+        why_zh: (cells[2] || '').replace(/\*\*/g, '').slice(0, 200),
+        video,
+        from: 'core-list'
+      });
+    }
+  }
+  return rows;
+}
+
 function parseMerged(absPath) {
   const rows = [];
   if (!existsSync(absPath)) return rows;
@@ -226,12 +282,13 @@ function parseGuide(absPath) {
 /* ------------------------------------------------------------------
  * 主流程
  * ------------------------------------------------------------------ */
-const mergedRows = parseMerged(join(SRC_DIR, MERGED_FILE));
+const mergedRows = parseMerged(findMergedFile());
 const guideRows = parseGuide(join(SRC_DIR, GUIDE_FILE));
+const coreRows = parseCore(join(SRC_DIR, CORE_FILE));
 
-/* 1. 两源合并（按归一化标题），别名挂到主条目 */
+/* 1. 三源合并（按归一化标题），别名挂到主条目 */
 const pool = new Map();
-for (const row of [...mergedRows, ...guideRows]) {
+for (const row of [...mergedRows, ...guideRows, ...coreRows]) {
   const mainTitle = ALIAS_OF[row.title];
   const key = norm(mainTitle || row.title);
   if (!key) continue;

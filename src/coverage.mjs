@@ -189,14 +189,18 @@ async function main() {
   });
 
   // 选取：第一本取缺口最高者；第二本必须来自不同互斥组（避免同日题材扎堆）
+  // DAILY_BOOKS=1 可临时降为每日一本（默认 2）
+  const dailyCount = Number(process.env.DAILY_BOOKS || 2);
   const ranked = scored.filter((x) => !x.cooling).sort((a, b) => b.score - a.score);
   const picked = [];
   if (ranked.length) picked.push(ranked[0]);
-  const second = ranked.find((x) => picked.length && groupOf(x.key) !== groupOf(picked[0].key));
-  if (second) picked.push(second);
-  else if (ranked.length > 1) picked.push(ranked[1]); // 无跨组候选时才退让
-  const fallback = picked.length < 2
-    ? scored.filter((x) => x.cooling).sort((a, b) => b.score - a.score).slice(0, 2 - picked.length)
+  if (dailyCount >= 2) {
+    const second = ranked.find((x) => picked.length && groupOf(x.key) !== groupOf(picked[0].key));
+    if (second) picked.push(second);
+    else if (ranked.length > 1) picked.push(ranked[1]); // 无跨组候选时才退让
+  }
+  const fallback = picked.length < dailyCount
+    ? scored.filter((x) => x.cooling).sort((a, b) => b.score - a.score).slice(0, dailyCount - picked.length)
     : [];
   const suggest = [...picked, ...fallback];
 
@@ -250,8 +254,8 @@ async function main() {
         (s.shallowPool ? ' —— 池子较浅，需仔细挑选真正够经典的书' : '')
     );
   }
-  if (suggest.length < 2) {
-    console.log('  ⚠️ 可用主题不足 2 个（全部处于冷却期），可从相邻主题补位：金融↔投资、经济↔商业。');
+  if (suggest.length < (Number(process.env.DAILY_BOOKS || 2))) {
+    console.log('  ⚠️ 可用主题不足（全部处于冷却期），可从相邻主题补位：AI↔科技、历史↔哲学、文学↔散文、教育↔哲学。');
   }
   console.log('');
   console.log('## 最近 7 天已推荐（避免题材与书目重复）');
