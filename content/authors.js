@@ -2247,7 +2247,59 @@ export const authors = {
     ideas_zh: ['大脑不是为了思考而设计的：默认状态是避免思考，因此「走神」不是意志薄弱而是节能', '工作记忆是硬约束：思考的瓶颈是同时可处理的项数，而不是智力高低', '事实先于思维技能：没有背景知识，所谓「批判性思维」只是空中楼阁', '可被反驳之处：把实验室认知科学直接迁移到课堂，效果证据并不一致，本书本身也承认这些原则需要专业判断'],
     ideas_en: ['The mind is not designed for thinking: avoiding thought is the default, so distraction is energy-saving rather than weakness of will', 'Working memory is a hard constraint: the bottleneck on thinking is how many items can be processed at once, not how intelligent one is', 'Facts come before thinking skills: without background knowledge, "critical thinking" is an empty structure', 'Refutable: transferring laboratory cognitive science straight into classrooms has produced inconsistent effect evidence, and the book itself concedes that its principles require professional judgement']
   }
+,
 
+  'hubert-dreyfus': {
+    name_en: 'Hubert L. Dreyfus',
+    name_zh: '休伯特·德雷福斯',
+    life: '1929–2017',
+    nationality_zh: '美国',
+    nationality_en: 'American',
+    role_zh: '哲学家、加利福尼亚大学伯克利分校哲学教授',
+    role_en: 'Philosopher and professor emeritus at UC Berkeley',
+    bio_zh: '美国哲学家，1929 年 10 月 15 日生于印第安纳州特雷霍特，2017 年 4 月 22 日卒于伯克利。他本科在哈佛主修物理，听逻辑学家 C·I·刘易斯一节课后转向哲学，1951 至 1964 年间在哈佛取得学士、硕士与哲学博士学位，其间赴弗赖堡随海德格尔研究、在鲁汶研究胡塞尔档案，1964 年以《胡塞尔的知觉现象学》获博士学位。1964 年起他在麻省理工学院任哲学讲师，1965 年受兰德公司委托撰写《炼金术与人工智能》，系统攻击早期 AI 研究的哲学预设；1972 年扩展为《计算机不能做什么：人工智能的极限》（1992 年麻省理工出版社出增订版 What Computers Still Cannot Do 并加新序），此书在英语世界至少被译成十种语言，是他在公共领域的成名作。他 1968 年起任教于伯克利分校近五十年，以对海德格尔、福柯、梅洛-庞蒂、克尔凯郭尔的系统阐释闻名（被戏称为 Dreydegger），代表作另有《在场与在场者》《心灵超越机器》《所有的光辉》。他的批判在若干处被后来的连接主义与深度学习部分推翻，他在 1992 年新序中对此作了自我修正。',
+    bio_en: 'American philosopher, born in Terre Haute, Indiana on 15 October 1929 and dead in Berkeley on 22 April 2017. He entered Harvard as a physics major and switched to philosophy after hearing a lecture by the logician C. I. Lewis, taking his BA, MA and PhD there between 1951 and 1964, with a period in Freiburg studying under Heidegger and a Fulbright year in the Husserl Archives at Louvain; his 1964 dissertation was on Husserl and perception. He taught at MIT from 1964, and in 1965 the RAND Corporation commissioned him to write Alchemy and Artificial Intelligence, a systematic attack on the philosophical presuppositions of early AI. That report became What Computers Cannot Do in 1972 (revised and republished by MIT Press in 1992 as What Computers Still Cannot Do, with a new introduction), translated into at least ten languages and the work that made him publicly known. He taught at Berkeley for nearly fifty years from 1968 and became famous for his systematic readings of Heidegger, Foucault, Merleau-Ponty and Kierkegaard, earning the nickname Dreydegger; other books include Being-in-the-World, Mind over Machine and All Things Shining. Parts of his critique were later overturned by connectionism and deep learning, a correction he acknowledged himself in the 1992 preface.',
+    ideas_zh: [
+      '智能并不依赖符号操作：人的专业技能依赖尚未被充分理解的非形式化、无意识过程',
+      '「知道如何」与「知道什么」的分野：能被逐步复述的求解，不等于在具体处境中行事的技能',
+      'AI 的四项隐含假设：生物学、心理学、认识论与本体论假设，任何一项不成立，通用机器就只是空想',
+      '第一步谬误：把某个特例上的成功当成通往通用智能的必然台阶，以此替代实证检验',
+      '可被反驳之处：把形式化的失败归因于哲学前提过于草率，连接主义与深度学习的后来兴起部分推翻了其判断'
+    ],
+    ideas_en: [
+      'Intelligence does not rest on symbolic manipulation: human expertise depends on processes that remain non-formal and largely unconscious',
+      'Knowing how against knowing that: a solution you can recite step by step is not the same as a skill exercised in a concrete situation',
+      'Four hidden assumptions behind AI: the biological, psychological, epistemological and ontological ones, any of which collapses the project of a general machine',
+      'The first-step fallacy: reading a success on one special case as the inevitable rung on the ladder towards general intelligence',
+      'Refutable: blaming philosophy for the failure of formalisation was too convenient, and connectionism and deep learning later overturned part of the argument'
+    ],
+  },
+
+  'jorge-luis-borges': {
+    name_en: 'Jorge Luis Borges',
+    name_zh: '豪尔赫·路易斯·博尔赫斯',
+    life: '1899–1986',
+    nationality_zh: '阿根廷',
+    nationality_en: 'Argentine',
+    role_zh: '作家、诗人、翻译家，阿根廷国立图书馆馆长',
+    role_en: 'Writer, poet and translator; director of the National Library of Argentina',
+    bio_zh: '阿根廷作家、诗人与翻译家，1899 年 8 月 24 日生于布宜诺斯艾利斯，1986 年 6 月 14 日卒于日内瓦。祖父是英国血统，家庭在他幼年便让他同时浸淫英语与西班牙语；第一次世界大战期间他随家人在欧洲长大，早年在巴黎接触象征主义并与之决裂。1923 年他自费出版第一部诗集《布宜诺斯艾利斯激情》，1935 年出版第一部短篇小说集《恶棍列传》，1944 年以《虚构集》统名出版《小径分岔的花园》与《杜撰集》两部而声名大噪，1956 年增订版加入《结局》《凤凰教派》《南方》。他长期在布宜诺斯艾利斯市立图书馆任职，馆藏与目录经验直接进入《巴别图书馆》等作品；1955 年出任阿根廷国立图书馆馆长。1950 年代起视力急剧衰退直至失明，他靠记忆与口述继续写作，由亲友代笔。他的作品深刻影响了余华、马原、残雪、苏童、格非等中国先锋派作家，被视为魔幻现实主义文学的重要源头。1961 年他与塞缪尔·贝克特分享国际出版者奖（Prix Formentor），《世界报》将《虚构集》列入「20 世纪百书」；他终身未获诺贝尔文学奖，1982 年马尔克斯领奖时曾公开表示不理解为何不授予他。',
+    bio_en: 'Argentine writer, poet and translator, born in Buenos Aires on 24 August 1899 and dead in Geneva on 14 June 1986. His grandfather was of British descent and the family had him reading in two languages from early childhood; he spent his childhood in Europe during the First World War and encountered the Symbolists in Paris, only to break with them. He self-published his first book of poems, Veinte poemas para ser leidos en el Avellaneda, in 1923 and his first story collection, Los vagabundos, in 1935; Ficciones, which united The Garden of Forking Paths with Artificios in 1944, made him internationally known, and the 1956 edition added The End, The Sect of the Phoenix and The South. He worked for years in the municipal libraries of Buenos Aires, an experience of catalogues and shelves that fed directly into The Library of Babel, and in 1955 became director of the National Library of Argentina. His sight failed sharply through the 1950s until he was blind, and he continued writing from memory with friends as amanuenses. His work shaped the Chinese avant-garde from Yu Hua and Ma Yuan to Can Xue, Su Tong and Ge Fei, and he is widely treated as a founding source of magical realism. In 1961 he shared the Prix Formentor with Samuel Beckett, and Le Monde included Ficciones among its books of the century. He never received the Nobel Prize; when Garcia Marquez accepted it in 1982 he said publicly that he still did not understand why it had not gone to Borges.',
+    ideas_zh: [
+      '取消现实与虚构的二元对立：虚构不是现实的摹本，而是认识现实的必要条件',
+      '无限的可数化：有限的符号与组合足以生成一个无限的文本宇宙',
+      '记忆与理解的分离：博闻强记的富内斯记得一切，却无法归纳、无法思考',
+      '作者与文本的解耦：同一串字词由不同作者写出，就成为不同的作品',
+      '可被反驳之处：批评者认为他把智性游戏当作避难所，回避了阿根廷二十世纪的政治暴力与历史创伤'
+    ],
+    ideas_en: [
+      'Cancelling the binary between reality and fiction: invention is not a copy of the world but a condition for grasping it',
+      'Making infinity countable: a finite set of symbols and combinations generates an unbounded universe of texts',
+      'Separating memory from understanding: Funes the Memorious remembers everything and therefore cannot generalise or think',
+      'Decoupling authorship from the text: the same words, set down by a different author, make a different work',
+      'Refutable: critics argue that intellectual play became a refuge from the political violence and historical trauma of twentieth-century Argentina'
+    ],
+  }
 };
 
 export default authors;

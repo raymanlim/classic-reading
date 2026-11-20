@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-20",
+  "books": [
+    {
+      "slug": "what-computers-cant-do",
+      "category": "ai",
+      "title_zh": "计算机不能做什么：人工智能的极限",
+      "title_en": "What Computers Can't Do: The Limits of Artificial Intelligence",
+      "author": "hubert-dreyfus",
+      "author_zh": "休伯特·德雷福斯",
+      "author_en": "Hubert L. Dreyfus",
+      "nationality_zh": "美国",
+      "nationality_en": "American",
+      "year": 1972,
+      "original_language": "en",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "智能不来自规则，而来自身体与情境",
+      "theme_en": "Intelligence does not come from rules, but from bodies and situations",
+      "tags": [
+        "ai",
+        "computing",
+        "cognitive-science",
+        "philosophy",
+        "future-of-technology",
+        "classics"
+      ],
+      "topics": [
+        "ai",
+        "computing",
+        "cognitive-science",
+        "philosophy",
+        "systems-thinking"
+      ],
+      "prose": {
+        "description_zh": "休伯特·德雷福斯的这本第一专著，源自他 1965 年为兰德公司撰写的报告《炼金术与人工智能》。他系统拆解早期符号主义人工智能的四项隐含假设：生物学假设，认为大脑像数字计算机一样离散处理信息；心理学假设，认为心智是一台按形式规则处理比特的机器；认识论假设，认为一切知识都可以形式化；本体论假设，认为世界由可被独立符号表示的独立事实构成。论证从现象学出发：人的技能依赖尚未被充分理解的非形式化、无意识过程，并且始终嵌入身体与具体处境，因此原则上无法被完整规则化。棋类、语言翻译、模式识别、通用问题求解的相继停滞，在他看来不是工程细节上的欠缺，而是研究方向本身出了错。全书 1979 年修订扩充，1992 年由麻省理工学院出版社出增订版并加入新序，其中作者重新评估了连接主义与神经网络的兴起对自身论点的冲击。",
+        "description_en": "Hubert Dreyfus's first book grew out of Alchemy and Artificial Intelligence, the report he wrote for the RAND Corporation in 1965. He takes apart four assumptions that sat underneath early symbolic AI: the biological assumption, that the brain processes information in discrete steps like a digital switch; the psychological assumption, that the mind is a device operating on bits under formal rules; the epistemological assumption, that all knowledge can be formalised; and the ontological assumption, that the world consists of independent facts representable by independent symbols. Working from phenomenology rather than from the laboratory, he argues that human skill rests on processes that are still not fully understood — non-formal, largely unconscious, and bound to bodily situation — and therefore cannot in principle be written down as rules. Chess, machine translation, pattern recognition and general problem solving had all stalled, and Dreyfus read that stagnation not as an engineering shortage but as a symptom of a mistaken direction of travel. The book was revised in 1979 and republished by MIT Press in 1992 with a new introduction in which the author reassesses his argument against connectionism and neural networks.",
+        "why_read_zh": "它的价值不在于预言对错，而在于提供了一套至今仍在用的追问方式：当有人宣布某个系统「学会了」某件事，德雷福斯式的追问会先问两个问题——这个任务是可形式化的吗？我们是不是在拿一个只解决了特例的系统，跟人的整体能力作比较？1992 年增订版里他给出的「知道如何」与「知道什么」之分尤其锋利：一个模型可以在分布内拟合得极好，却仍然不具备情境理解。对今天读大模型的人来说，这套区分让你把「性能」和「理解」分开来谈，而这正是眼下最容易被混为一谈的地方。值得注意的是这本书并不总是对的。伯纳德·威廉姆斯当年就在《纽约书评》上当面反驳他，认为把形式化的失败归因于哲学前提过于草率；而连接主义与深度学习的后来兴起，事实上部分推翻了他「表征必败」的判断，作者本人在 1992 年的新序里也承认了这一点。正因如此它值得读：它示范了一个领域在早期如何用哲学假设替代实证检验，又如何后来被数据纠偏。经典性证据（命中 3 项，含具体数值与来源）：① 权威书评媒体长评：《纽约书评》(The New York Review of Books) 于 1973 年 11 月 13 日刊出伯纳德·威廉姆斯的书评《How Smart Are Computers?》，并于 1974 年 6 月 27 日刊出德雷福斯、约翰·豪格兰与威廉姆斯的公开论战《An Exchange on Artificial Intelligence》，是 AI 哲学史上罕见的媒体级论战；② 学术引用：德雷福斯本人 Google Scholar 学术主页所列《What computers still can't do: A critique of artificial reason》(MIT Press, 1992) 被引 9,861 次，Semantic Scholar 对同一条目记录 1,208–1,334 次引用、OpenAlex 记录 1,628 次，均远超「学术类引用数 ≥1000」门槛；③ 英文维基百科有独立专题条目《Hubert Dreyfus's views on artificial intelligence》(pageid 8919856)，《What Computers Can't Do》与《What Computers Still Can't Do》两个书名均重定向至该条目，条目完整记录本书 1972、1979、1992 三个版本、1965 年兰德报告渊源与当年的接受史。未计入项：豆瓣读书《计算机不能做什么》评分 8.2 分、61 人评价，未达「评分 ≥8.5 且评价人数 ≥1000」门槛；Goodreads 该书条目评分 4.18/5、228 ratings，未达「评分人数 ≥5000」门槛；未查得本书所获权威奖项，亦未取得官方大学课程必读书单证据，故不计入、不编造。中文维基百科无该书独立条目，亦不计入。时间检验：1972 年首版，至 2026-11-20 已满 54 年，远超 ≥5 年门槛。",
+        "why_read_en": "The value of this book is not that its predictions came true, but that it hands you a way of asking questions that is still useful. When someone announces that a system has learned something, a Dreyfus-style question arrives first: is this task even formalisable, and are we comparing a system that solved one special case against the general competence of a person? The distinction he draws in the 1992 revision, between knowing how and knowing that, is the sharpest tool in the book. A model can fit its training distribution beautifully and still have no grasp of the situation it is in. For anyone reading about large models today, that distinction lets you keep performance and understanding apart, which is exactly the confusion the field is currently sliding into. The book is also not beyond dispute. Bernard Williams attacked it head-on in The New York Review of Books, arguing that blaming philosophy for the failure of formalisation was too convenient; and the later rise of connectionism and deep learning did in fact cut against Dreyfus's claim that representation must fail, a point the author himself conceded in the new preface. That is precisely why it is still worth reading: it shows how a young field substituted philosophical assumption for empirical testing, and how data later forced a correction. Classic-evidence note, three items: the New York Review of Books published Bernard Williams's review on 13 November 1973 and then, on 27 June 1974, a published exchange with Dreyfus and John Haugeland; the author's own Google Scholar page lists 9,861 citations for the 1992 MIT Press edition, with Semantic Scholar recording 1,208 to 1,334 and OpenAlex 1,628; and English Wikipedia carries a dedicated article, Hubert Dreyfus's views on artificial intelligence, which both English titles of the book redirect to. Not counted: Douban's 8.2 from 61 raters and Goodreads' 4.18/5 from 228 ratings both fall short of the numeric thresholds, and no authoritative book prize or official university course list was located, so none of that is claimed here.",
+        "core_ideas_zh": [
+          "智能并不依赖符号操作：人的专业技能依赖尚未被充分理解的非形式化、无意识过程",
+          "「知道如何」与「知道什么」的分野：能被逐步复述的求解，不等于在具体处境中行事的技能",
+          "AI 的四项隐含假设：生物学、心理学、认识论与本体论假设，任何一项不成立，通用机器就只是空想",
+          "第一步谬误：把某个特例上的成功当成通往通用智能的必然台阶，以此替代实证检验"
+        ],
+        "core_ideas_en": [
+          "Intelligence does not rest on symbolic manipulation: human expertise depends on processes that remain non-formal and largely unconscious",
+          "Knowing how against knowing that: a solution you can recite step by step is not the same as a skill exercised in a concrete situation",
+          "Four hidden assumptions behind AI: the biological, psychological, epistemological and ontological ones, any of which collapses the project of a general machine",
+          "The first-step fallacy: reading a success on one special case as the inevitable rung on the ladder towards general intelligence"
+        ],
+        "key_questions_zh": [
+          "一个系统在某类任务上跑赢人类时，我们凭什么说它在「理解」，而不是在做一次更宽泛的搜索？",
+          "常识、身体与情境感若无法被完整形式化，那么把它们交给机器的可行路径究竟是什么？",
+          "当我们用「模拟人类」来定义 AI 的目标时，是不是把一个哲学问题偷偷换成了一个工程问题？"
+        ],
+        "key_questions_en": [
+          "When a system outperforms people on a class of tasks, on what grounds do we say it understands rather than searches more broadly?",
+          "If common sense, embodiment and situational sense cannot be fully formalised, what route could actually hand them to a machine?",
+          "When we define the goal of AI as simulating human beings, are we quietly swapping a philosophical question for an engineering one?"
+        ],
+        "who_should_read_zh": "适合所有在人工智能里工作或思考其边界的人：算法工程师、研究者、技术决策者、产品负责人，也适合正在判断「某个模型到底有没有真的懂」的读者。它不适合想找技术路线或工程实现的人——这本书不教任何模型，也不预测任何时间表。对中文读者还有两个额外好处：一是它提供了与英美 AI 主流叙事不同的立场，能让你看到「经验性智能」这条长期被压制的思路；二是它示范了如何把现象学与认知科学的材料交叉起来，去审视为智能下定义这件事。阅读门槛在于需要一点耐心：论证靠拆解具体案例推进，节奏偏慢，中译本的术语也略显生硬。",
+        "who_should_read_en": "For anyone who works in artificial intelligence or thinks about its edges: engineers, researchers, people who set technical direction, product leads, and readers trying to decide whether a given model genuinely understands something. It is not a book for people looking for architectures or implementations — it teaches no model and forecasts no timeline. Two extra benefits for a Chinese reader: it supplies a position largely absent from the Anglo-American AI narrative, one that keeps alive the idea of intelligence as something learned by situated experience; and it models a cross between phenomenology and cognitive science that can be turned on the very act of defining what intelligence is. The cost is patience: the argument proceeds by dismantling concrete cases, the pace is slow, and the older Chinese translation renders some terms stiffly.",
+        "reading_note_zh": "建议分两次读：第一次只读前三章，把四项假设与「知道如何 / 知道什么」记下来，这是全书最可迁移的部分；第二次跳读各章对具体 AI 案例（棋类、模式识别、机器翻译、通用问题求解）的分析，看他如何用失败的具体形态反推前提问题。若只有一次时间，读 1992 年增订版的新序，它交代了作者如何回应联结主义的挑战，也是理解今天语境最省力的入口。配合读物：加里·克莱因《认知快鉴》中「无意识智能」一章可与「第一步谬误」互证；再对照《人工智能：一种现代的方法》的绪论，看同一个问题在工程学派那里如何被重新表述，以及「理性派传统」这个说法从何处来。",
+        "reading_note_en": "Read it in two passes. The first time, stay inside the first three chapters and let the four assumptions and the knowing-how/knowing-that distinction settle; that is the part that travels. The second time, move through the chapters that analyse particular AI cases — chess, pattern recognition, machine translation, general problem solving — and watch him work backwards from the shape of each failure to the premises underneath it. If you have time for only one sitting, read the new introduction to the 1992 revision: it shows how the author answered the connectionist challenge and is the cheapest route into the book for a reader in 2026. For company, the chapter on unconscious intelligence in Gary Klein's Sources of Power pairs well with the first-step fallacy, and the preface of Russell and Norvig's Artificial Intelligence: A Modern Approach shows the same question being reframed by the engineering school, including where the phrase rationalist tradition comes from."
+      }
+    },
+    {
+      "slug": "ficciones",
+      "category": "literature",
+      "title_zh": "虚构集",
+      "title_en": "Ficciones",
+      "author": "jorge-luis-borges",
+      "author_zh": "豪尔赫·路易斯·博尔赫斯",
+      "author_en": "Jorge Luis Borges",
+      "nationality_zh": "阿根廷",
+      "nationality_en": "Argentine",
+      "year": 1944,
+      "original_language": "es",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "虚构不是现实的摹本，而是现实得以成立的另一种方式",
+      "theme_en": "Fiction is not a copy of reality but another way reality gets constituted",
+      "tags": [
+        "fiction",
+        "short-stories",
+        "novel-of-ideas",
+        "classics",
+        "modernism"
+      ],
+      "topics": [
+        "literature",
+        "philosophy",
+        "art-and-culture",
+        "religion-and-meaning"
+      ],
+      "prose": {
+        "description_zh": "《虚构集》是博尔赫斯 1944 年以 Editorial Sur 名义出版的第一部短篇小说集，由 1941 年的《小径分岔的花园》与《杜撰集》两大部分合并而成，1956 年再版时增补三篇。收有《特隆、乌克巴尔、奥比斯·特蒂乌斯》《〈吉诃德〉的作者皮埃尔·梅纳德》《环形废墟》《巴比伦彩票》《巴别图书馆》《博闻强记的富内斯》《死亡和指南针》等篇目。全书以「取消现实与虚构的二元对立」为共同手法：用一部并不存在的百科全书让另一个世界接管事实，用一段与塞万提斯逐字相同的《堂吉诃德》证明同一文本在不同作者笔下可以互不相同，用一座穷尽所有组合的图书馆把无限变成有限的可数物。博尔赫斯一生几乎只写短篇，这部作品是他进入世界文学的核心入口，也是余华、马原、残雪、苏童、格非这一脉中国先锋小说的共同源头。站内长文《我们为何遗忘》谈到的富内斯，也出自这一卷。",
+        "description_en": "Ficciones is the first book of stories Jorge Luis Borges published, issued by Editorial Sur in 1944 and formed by joining El jardín de senderos que se bifurcan (1941) to the Artificios section; the 1956 edition added three more pieces. It gathers Tlön, Uqbar, Orbis Tertius, Pierre Menard, Author of the Quixote, The Circular Ruins, The Lottery in Babylon, The Library of Babel, Funes the Memorious and Death and the Compass. One gesture runs through the whole book: the binary between reality and fiction is cancelled. A fabricated encyclopedia ends up taking over what people accept as fact; a passage identical word for word to Cervantes demonstrates that the same text becomes a different work in a different author's hand; a library that exhausts every combination turns infinity into something finite and countable. Borges wrote almost nothing but short fiction, and this volume is the door through which the world literature entered; it is also the shared origin of the Chinese avant-garde line running through Yu Hua, Ma Yuan, Can Xue, Su Tong and Ge Fei. Funes the Memorious, the figure discussed in this site's essay on forgetting, comes from these pages.",
+        "why_read_zh": "读它的收益不在「迷宫」「无限」这些已经被用滥的标签，而在博尔赫斯给出的一个具体手法：把现实与虚构的对立取消掉。《特隆、乌克巴尔、奥比斯·特蒂乌斯》里，一个虚构的百科全书最终接管了人们对世界的全部认知；《环形废墟》里，梦境反过来塑造了醒着的人生；《皮埃尔·梅纳德》里，作者身份与文本本身被彻底拆开。这些不是奇幻玩票，它们各自对应一个严肃问题：我们凭什么判定眼前这一份信息是「真的」？谁在规定什么算证据？一旦接受这个视角，读新闻、读论文、读模型生成的答案时，判断标准会悄悄改变——你会开始追问信息来源的权威是被谁生产出来的。它同时也是一把可迁移的思维工具：博尔赫斯用「巴别图书馆」把无限重新变回可数之物，用「博闻强记的富内斯」把「记得多」与「想得清」彻底分开，这两把尺子在认知科学与信息论里至今都还合用。它的可反驳处同样明显：批评者指出博尔赫斯把智性游戏当成了避难所，回避了阿根廷二十世纪的政治暴力与历史创伤，《纽约时报》2016 年的长篇讣文也把这一点与他长期被视为诺奖最著名的遗漏者并列讨论；也有人认为他的晚期作品过于封闭、过于向内。这些质疑不削弱这本书，但提醒读者：把他读成「超脱的哲人」是简化，读成「回避的哲人」同样是简化。经典性证据（命中 4 项，含具体数值与来源）：① 豆瓣读书中译本《虚构集》（王永年译，浙江文艺出版社 2008 年 2 月）评分 9.2 分、3,925 人评价，达到「评分 ≥8.5 且评价人数 ≥1000」门槛；② Goodreads 条目 Ficciones 评分 4.39/5、84,677 ratings，达到「评分 ≥4.0 且评分人数 ≥5000」门槛（Collected Ficciones 4.55/5、26,355 ratings 与 Labyrinths 4.44/5、34,745 ratings 同样达标，但不重复计数）；③ 维基百科有独立书籍条目：英文条目 Ficciones 详载 1941 年《小径分岔的花园》与 1944 年 Editorial Sur 合并出版的沿革、完整篇目与接受史，中文维基百科另有独立条目《虚构集》；④ 权威书评媒体与奖项：《纽约客》1962 年 8 月 18 日刊出 Anthony Thwaite 评该书英文本的《Stunt Man》，《纽约时报》1962 年 5 月 27 日刊出 Mildred Adams 评英文选本 Labyrinths 的书评；同年博尔赫斯因本书及其英文版问世的推动获国际出版者奖 Prix Formentor（与塞缪尔·贝克特分享）；法国《世界报》(Le Monde)「20 世纪百书」亦收录本书。未计入项：微信读书《虚构集:小径分岔的花园·杜撰集（博尔赫斯全集）》条目推荐值 84.9%（同一书不同抓取时点显示 83.7%–84.9%），该数值对应上海译文 2023 年全集版而非本次入库的浙江文艺 2008 年版，版本不同故不计入本次版本的证据、不混用。时间检验：1944 年首版，至 2026-11-20 已满 82 年，远超 ≥5 年门槛。",
+        "why_read_en": "The reward for reading it does not lie in the labels — labyrinth, infinity — that have been worn smooth by repetition, but in Borges's specific manoeuvre of cancelling the opposition between reality and fiction. In Tlön, Uqbar, Orbis Tertius a fabricated encyclopedia ends up taking over what people accept as fact; in The Circular Ruins the dream shapes the waking life rather than the other way round; in Pierre Menard the authorship of a text is dismantled entirely. None of this is fantasy for its own sake. Each piece poses a serious question: by what standard do we decide that the information in front of us is real, and who gets to issue the standards? Adopt that viewpoint and your criteria change when you read the news, a paper, or an answer generated by a model — you begin to ask who manufactured the authority of the source. The book also hands you transferable instruments. Borges turns infinity back into something countable in The Library of Babel, and separates the ability to remember from the ability to think in Funes the Memorious; both instruments remain serviceable in cognitive science and information theory. The book is also open to serious objection: critics have argued that Borges turned intellectual play into a refuge from the political violence and historical trauma of twentieth-century Argentina, a point the New York Times set beside his long standing status as the most famous omission from the Nobel list in its 2016 obituary, while others find the late work hermetic and inward-turning. Such objections do not weaken the book; they warn against reading Borges as a detached sage, and equally against reading him as an evasive one. Classic-evidence note, four items: Douban scores the Wang Yongnian translation, published by Zhejiang Literature and Art in February 2008, at 9.2 from 3,925 raters; Goodreads records Ficciones at 4.39/5 from 84,677 ratings, with Collected Ficciones at 4.55 from 26,355 and Labyrinths at 4.44 from 34,745 also above the threshold; Wikipedia carries a standalone article on the book in both English and Chinese; and The New Yorker published Anthony Thwaite's review Stunt Man on 18 August 1962, while The New York Times ran Mildred Adams on Labyrinths on 27 May 1962, the same year Borges shared the Prix Formentor, the prize that made the English publication possible, and Le Monde's books of the century includes the title. Not counted: the 84.9 per cent recommendation value on WeChat belongs to the 2023 Shanghai Translation complete-works edition rather than the 2008 edition entered here, so it is excluded from the evidence for this version. Time test: first published in 1944, eighty-two years before today.",
+        "core_ideas_zh": [
+          "取消现实与虚构的二元对立：虚构不是现实的摹本，而是认识现实的必要条件",
+          "无限的可数化：有限的符号与组合足以生成一个无限的文本宇宙",
+          "记忆与理解的分离：博闻强记的富内斯记得一切，却无法归纳、无法思考、无法入睡",
+          "作者与文本的解耦：同一串字词由不同作者写出，就成为不同的作品"
+        ],
+        "core_ideas_en": [
+          "Cancelling the binary between reality and fiction: invention is not a copy of the world but a condition for grasping it",
+          "Making infinity countable: a finite set of symbols and combinations generates an unbounded universe of texts",
+          "Separating memory from understanding: Funes the Memorious remembers everything and therefore cannot generalise, think, or sleep",
+          "Decoupling authorship from the text: the same words, set down by a different author, make a different work"
+        ],
+        "key_questions_zh": [
+          "当一部虚构的百科全书最终被当作事实接受时，是谁的承认让它成为了事实？",
+          "一个人记住全部细节之后，为什么反而失去了理解的能力？",
+          "同一个文本由不同作者重写，我们该把意义归给字词本身，还是归给写作这个动作？"
+        ],
+        "key_questions_en": [
+          "When a fabricated encyclopedia is finally accepted as fact, whose agreement made it so?",
+          "Why does a person who retains every detail of their life lose the capacity to understand?",
+          "When two authors write the same text, should meaning belong to the words or to the act of writing?"
+        ],
+        "who_should_read_zh": "适合想读「有思想的短篇」的读者，尤其是被推理小说、科幻或哲学随笔吸引、却总觉得缺了点什么的人。它篇幅短、单篇独立，最适合零散时间读：每篇二十分钟，读完一篇就能获得一次完整的认知冲击。也适合做内容工作的人——写作者、编辑、策展人、从事知识产品的人，博尔赫斯对「文本如何制造权威」的敏感是职业性的。对中文读者还有一个额外入口：余华、马原、残雪、苏童、格非这一脉的中国先锋小说几乎都从博尔赫斯出发，顺着他的作品读回这条影响链，会有另一层收获。翻译上建议以王永年译本为主，本站收录的正是这一版本。",
+        "who_should_read_en": "For readers who want short fiction that actually thinks — particularly anyone drawn to detective stories, science fiction or philosophical essays but left feeling something is missing. The pieces are short and self-contained, which makes the book ideal for reading in fragments: twenty minutes per story, and each one lands as a complete shock to a held assumption. It also suits people who make things for a living — writers, editors, curators, anyone building knowledge products — because Borges's sensitivity to how a text manufactures authority is professional rather than decorative. For Chinese readers there is an extra entrance: the Chinese avant-garde line from Yu Hua through Ma Yuan, Can Xue, Su Tong and Ge Fei comes almost entirely out of Borges, so reading him and then reading them back along that line yields a second kind of understanding. On translation, the Wang Yongnian version is the one to use; it is the edition this site records.",
+        "reading_note_zh": "建议按「先具体后抽象」的次序读：先读《特隆、乌克巴尔、奥比斯·特蒂乌斯》《巴比伦彩票》《巴别图书馆》《博闻强记的富内斯》这四篇，它们分别对应虚构接管现实、偶然被制度化、无限的可数化、记忆与理解的分离，合起来就是全书最清晰的骨架；再读《〈吉诃德〉的作者皮埃尔·梅纳德》和《环形废墟》，这两篇会把前面建立的坐标再次掀翻；最后读《南方》，它被博尔赫斯自认为最得意的一篇，也是理解他晚期转向的钥匙。中文建议用王永年译本（浙江文艺出版社 2008 年版，即本站所收版本），他另有《博尔赫斯小说集》《探讨别集》等译本可选，后者收录了大量非虚构的文学评论。博尔赫斯终身未获诺贝尔文学奖，1982 年马尔克斯领奖时还公开说过不理解为何不给他——读他的书时不必把这个遗憾当成筹码，它是评价体系失灵的注脚，而不是作品之外的加冕。",
+        "reading_note_en": "Read it from the concrete towards the abstract. Begin with Tlön, Uqbar, Orbis Tertius, The Lottery in Babylon, The Library of Babel and Funes the Memorious: between them they cover invention taking over reality, chance turned into an institution, infinity made countable, and memory split off from understanding, and together they form the clearest skeleton in the book. Then read Pierre Menard and The Circular Ruins, which overturn the coordinates you have just built, and end with The South, the story Borges himself rated highest and the key to his late turn. In Chinese, work from the Wang Yongnian translation, the 2008 Zhejiang Literature and Art edition recorded here; Collected Ficciones and Selected Non-Fictions are useful companions, the latter supplying the literary criticism that shows the same mind at work on other writers. Borges never received the Nobel Prize, and when García Márquez accepted it in 1982 he said publicly that he still did not understand why it had not gone to Borges. Treat that as a footnote on a broken judging system rather than as an extra laurel to hang on the work."
+      }
+    }
+  ]
+}
