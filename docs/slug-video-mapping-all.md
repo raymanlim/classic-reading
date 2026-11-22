@@ -1,7 +1,7 @@
 # 视频链接映射总表（书籍页 + 文章页）
 
 用途：给经典书库网站的书籍页、文章页回填对应 YouTube 视频链接。按 slug 查找，名称供人工核对。
-更新日期：2026-11-14
+更新日期：2026-11-22
 
 ## 一、书籍页（每天一本经典，共 37 本）
 
@@ -47,7 +47,7 @@
 | amusing-ourselves-to-death | 《娱乐至死》解读 | 阅读笔记 11月4日 | https://youtu.be/pSXFvtna4S4 |
 | the-wealth-of-nations | 《国富论》解读 | 阅读笔记 11月4日 | https://youtu.be/XxCRIQVsASU |
 
-## 二、文章页（深度长文解读，共 37 篇已发布）
+## 二、文章页（深度长文解读，共 42 篇已发布）
 
 页面地址规则：https://classic-reading.pages.dev/zh/articles/<文章 slug>/
 
@@ -90,12 +90,16 @@
 | the-unsigned-contract | 未签署的契约：我们向过去借来的秩序 | 第35期 | https://youtu.be/ROPMNIlK8jw |
 | the-seduction-of-the-single-cause | 单一因果的诱惑：为什么我们总把复杂事件压缩成一个原因 | 第36期 | https://youtu.be/wRAPp1hGvfk |
 | the-one-you-can-see | 看得见的那一个：为什么责任不随人数增长 | 第37期 | https://youtu.be/jZpC66AOIkY |
+| whether-it-can-be-undone | 能不能撤回：为什么决策的第一种分类不是对错 | 第38期 | https://youtu.be/47BvTt2Y2tc |
+| the-publicness-of-belief | 被看见的共识：为什么私下都同意的事，迟迟不会发生 | 第39期 | https://youtu.be/_qTXFjFKKbk |
+| the-inertia-of-the-good | 好的惯性：为什么正确的事物会持续犯错 | 第40期 | https://youtu.be/zUrXmbfOeNY |
+| the-discipline-that-needs-no-violence | 不需要暴力的强制 | 第41期 | https://youtu.be/W4_j9zIwIh4 |
+| when-belief-becomes-identity | 当信念成为身份：为什么纠正一个事实像是攻击一个人 | 第42期 | https://youtu.be/rtIUAOsaPsk |
 
 ## 三、待制作（已排期，发布后回填）
 
 | 文章 slug | 文章名 | 发布日期 | 预计期号 |
 |---|---|---|---|
-| whether-it-can-be-undone | 能不能撤回：为什么决策的第一种分类不是对错 | 2026-11-13 | 待定 |
 
 ## 四、不做视频的文章（清单/指南类，共 6 篇，无需回填）
 

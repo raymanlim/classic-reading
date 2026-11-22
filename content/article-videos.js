@@ -93,6 +93,16 @@ export const articleVideos = {
   'the-seduction-of-the-single-cause': { url: 'https://youtu.be/wRAPp1hGvfk', episode: 36 },
   // 第 37 期（2026-11-14 回填）
   'the-one-you-can-see': { url: 'https://youtu.be/jZpC66AOIkY', episode: 37 },
+  // 第 38 期（2026-11-22 回填，原列 videoPending）
+  'whether-it-can-be-undone': { url: 'https://youtu.be/47BvTt2Y2tc', episode: 38 },
+  // 第 39 期（2026-11-22 回填）
+  'the-publicness-of-belief': { url: 'https://youtu.be/_qTXFjFKKbk', episode: 39 },
+  // 第 40 期（2026-11-22 回填）
+  'the-inertia-of-the-good': { url: 'https://youtu.be/zUrXmbfOeNY', episode: 40 },
+  // 第 41 期（2026-11-22 回填）
+  'the-discipline-that-needs-no-violence': { url: 'https://youtu.be/W4_j9zIwIh4', episode: 41 },
+  // 第 42 期（2026-11-22 回填）
+  'when-belief-becomes-identity': { url: 'https://youtu.be/rtIUAOsaPsk', episode: 42 },
 };
 
 /** 「不做-清单指南类」：明确不会制作视频，永久留空 */
@@ -107,5 +117,5 @@ export const videoExcluded = [
 
 /** 待制作：视频上线后移入 articleVideos（含 CSV 未覆盖的新增文章） */
 export const videoPending = [
-  'whether-it-can-be-undone',
+
 ];
