@@ -1,9 +1,9 @@
 # 视频链接映射总表（书籍页 + 文章页）
 
 用途：给经典书库网站的书籍页、文章页回填对应 YouTube 视频链接。按 slug 查找，名称供人工核对。
-更新日期：2026-11-22
+更新日期：2026-11-23
 
-## 一、书籍页（每天一本经典，共 37 本）
+## 一、书籍页（每天一本经典，共 41 本）
 
 页面地址规则：https://classic-reading.pages.dev/zh/books/<书 slug>/
 
@@ -46,6 +46,10 @@
 | the-silk-roads | 《丝绸之路：一部全新的世界史》解读 | 阅读笔记 10月31日 | https://youtu.be/DlVppWIOg4s |
 | amusing-ourselves-to-death | 《娱乐至死》解读 | 阅读笔记 11月4日 | https://youtu.be/pSXFvtna4S4 |
 | the-wealth-of-nations | 《国富论》解读 | 阅读笔记 11月4日 | https://youtu.be/XxCRIQVsASU |
+| the-analects | 《论语》解读 | 第39期 | https://youtu.be/dzaZNbBCGyY |
+| meditations | 《沉思录》解读 | 第40期 | https://youtu.be/0diFtFjXMbk |
+| history-of-the-peloponnesian-war | 《伯罗奔尼撒战争史》解读 | 第41期 | https://youtu.be/L0NV9xpUXkM |
+| the-general-theory | 《就业、利息和货币通论》解读 | 第42期 | https://youtu.be/MczygxZ06bA |
 
 ## 二、文章页（深度长文解读，共 42 篇已发布）
 

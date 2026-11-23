@@ -60,5 +60,13 @@ export const bookVideos = {
   // 2026-11-14 依 Drive 台账回填（阅读笔记 10月31日 / 11月4日 / 11月4日）
   'the-silk-roads': { url: 'https://youtu.be/DlVppWIOg4s', episode: '' },
   'amusing-ourselves-to-death': { url: 'https://youtu.be/pSXFvtna4S4', episode: '' },
-  'the-wealth-of-nations': { url: 'https://youtu.be/XxCRIQVsASU', episode: '' }
+  'the-wealth-of-nations': { url: 'https://youtu.be/XxCRIQVsASU', episode: '' },
+  // 2026-11-23 回填（第39期）
+  'the-analects': { url: 'https://youtu.be/dzaZNbBCGyY', episode: '第39期' },
+  // 2026-11-23 回填（第40期）
+  'meditations': { url: 'https://youtu.be/0diFtFjXMbk', episode: '第40期' },
+  // 2026-11-23 回填（第41期）
+  'history-of-the-peloponnesian-war': { url: 'https://youtu.be/L0NV9xpUXkM', episode: '第41期' },
+  // 2026-11-23 回填（第42期）
+  'the-general-theory': { url: 'https://youtu.be/MczygxZ06bA', episode: '第42期' },
 };
