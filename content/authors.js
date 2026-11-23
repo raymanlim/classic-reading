@@ -2299,6 +2299,47 @@ export const authors = {
       'Decoupling authorship from the text: the same words, set down by a different author, make a different work',
       'Refutable: critics argue that intellectual play became a refuge from the political violence and historical trauma of twentieth-century Argentina'
     ],
+  },
+  'wilfred-thesiger': {
+    name_en: 'Wilfred Thesiger',
+    name_zh: '威尔弗雷德·塞西杰',
+    life: '1910-2003',
+    nationality_zh: '英国',
+    nationality_en: 'British',
+    role_zh: '探险家、旅行文学作家',
+    role_en: 'Explorer and travel writer',
+    bio_zh: '英国探险家与旅行文学作家，1910 年生于埃塞俄比亚的亚的斯亚贝巴，成长于英埃边界，1933 年代表牛津大学参加拳击比赛并任校队队长。他早年在苏丹政治署任职，二战期间在阿比西尼亚、叙利亚与北非沙漠服役并获杰出服务奖章，战后辞去公职转入沙漠，1945 至 1950 年间两度穿越阿拉伯半岛南部的「空白之地」。代表作《阿拉伯之沙》（1959）与《沼地阿拉伯人》（1964）是二十世纪旅行文学的标杆，后者获海尼曼奖，前者被收入《国家地理》「有史以来最伟大的 100 部探险作品」榜，并被书评家 Michael Dirda 称为「现代英语旅行文学六大杰作之一」；英文维基百科有独立条目 Arabian Sands。他 1995 年获授爵士，1966 年获英国皇家亚洲学会柏顿纪念奖，另获英国皇家地理学会创会人奖章，是英国皇家文学学会荣誉会士、大英学院院士与牛津马格达伦学院荣誉院士。他拒绝使用机械交通工具穿越沙漠，认为那会毁掉旅行的精神意义；批评者则指出其对贝都生活的理想化，以及对女性与殖民秩序的沉默。',
+    bio_en: 'A British explorer and travel writer, born in Addis Ababa in 1910 and raised on the Anglo-Ethiopian frontier. He boxed for Oxford University, captaining the team in 1933. He served in the Sudan Political Service before the war, then in Abyssinia, Syria and the North African deserts during the Second World War, winning the DSO, and afterwards gave up public service for the desert, crossing the Empty Quarter of southern Arabia twice between 1945 and 1950. His Arabian Sands (1959) and The Marsh Arabs (1964) are the benchmarks of twentieth-century travel literature: the latter won the Heinemann Award, the former was included in National Geographic\'s list of the 100 Greatest Adventure Books of All Time and was called by critic Michael Dirda one of the half-dozen greatest works of modern English travel writing. It has a standalone English Wikipedia article, Arabian Sands. He was knighted in 1995, received the Royal Asiatic Society\'s Burton Memorial Medal in 1966 and the Royal Geographical Society\'s Founder\'s Medal, and is a Fellow of the Royal Society of Literature, the British Academy and Magdalen College, Oxford. He refused mechanical transport across the desert on the grounds that it destroyed the meaning of travel; critics note the idealisation of Bedouin life and the silence on women and on the colonial order.',
+    ideas_zh: ['现代性并不等于进步：便利与机械同时终结了以能力与荣誉为尺度的生存方式', '民族志式的写作方法：不站在远处观察，而是融入其中长期生活，并承担由此带来的代价', '两种尺度的冲突不可调和：荣誉与复仇之法和「文明」的定义互不相容，作者拒绝替任何一方裁决', '可被反驳之处：对贝都生活的理想化、对女性与殖民秩序的沉默，以及把正在被石油经济吞噬的世界当作纯净标本'],
+    ideas_en: ['Modernity is not the same as progress: convenience and machinery also end a way of life measured by competence and honour', 'An ethnographic method: living among people rather than observing them from a distance, and paying the price of that choice', 'The clash between two scales is irreducible - honour and retribution are incompatible with the definition of civility, and the author refuses to adjudicate', 'Refutable: the idealisation of Bedouin life, the silence on women and the colonial order, and the treatment of a world already being consumed by the oil economy']
+  },
+
+  'jean-lave': {
+    name_en: 'Jean Lave',
+    name_zh: '琼·莱夫',
+    life: '1939-',
+    nationality_zh: '美国',
+    nationality_en: 'American',
+    role_zh: '社会人类学家、加利福尼亚大学伯克利分校地理学荣休教授',
+    role_en: 'Social anthropologist and professor emerita of geography at the University of California, Berkeley',
+    bio_zh: '美国社会人类学家，1939 年生，曾任教于加州大学欧文分校，现为加州大学伯克利分校地理学荣休教授。她以研究学徒制与技能传承起家：在法国南部裁缝铺的田野观察使她发现，学徒真正从同伴而非师傅身上学到东西，这一观察后来成为她与艾蒂纳·温格 1991 年合著《情境学习：合法的边缘性参与》的起点。该书提出「合法的边缘性参与」与「实践共同体」两个概念，取代了把学习理解成知识获取的认知主义框架，英文维基百科有独立条目 Situated learning，该书在 Google Scholar 上的引用数逾 11.9 万次，被评价为学习科学领域最具影响力的奠基性著作之一。她的研究重心始终是「参与的变化即学习」这一命题，并影响了后来关于职业身份形成与工作学习的研究。',
+    bio_en: 'An American social anthropologist, born in 1939. She taught at the University of California, Irvine and is professor emerita of geography at the University of California, Berkeley. Her work began with apprenticeship and skill transmission: fieldwork in a tailor\'s shop in southern France showed her that apprentices learn chiefly from one another rather than from the master, an observation that became the seed of the 1991 book she wrote with Etienne Wenger, Situated Learning: Legitimate Peripheral Participation. That book introduced the concepts of legitimate peripheral participation and communities of practice, displacing the cognitivist account of learning as knowledge acquisition; it has a standalone English Wikipedia article, Situated learning, and more than 119,000 citations on Google Scholar, and is widely described as one of the most influential foundational works in the learning sciences. Her central proposition throughout has been that a change in participation is learning itself, which shaped later research on the formation of professional identity and on learning at work.',
+    ideas_zh: ['学习是参与的变化，而不是知识的获取：学会一件事与成为某种人是同一个过程', '实践共同体是知识的位置：知识不是可脱情境封存的客体，而是人、实践与社会世界相互构成的关系', '合法边缘参与：新手以正当的外围身份进入真实工作，在承担越来越复杂的任务中从边缘走向中心', '可被反驳之处：实践共同体的内部结构刻画过于简略，学术类比牵强，该概念后来被随意套用，2015 年的文献综述为其提出使用规范'],
+    ideas_en: ['Learning is a change in participation, not the acquisition of knowledge: learning to do something and becoming a certain kind of person are one process', 'The community of practice is where knowledge lives: knowledge is a relation co-constituted by person, practice and social world', 'Legitimate peripheral participation: newcomers enter real work under a legitimate peripheral role and move towards the centre as the work assigned to them grows more complex', 'Refutable: the internal structure of practice is sketched too thinly, the academic analogies are strained, and the construct has since been applied indiscriminately - a 2015 literature review set out rules for its use']
+  },
+
+  'etienne-wenger': {
+    name_en: 'Etienne Wenger',
+    name_zh: '艾蒂纳·温格',
+    life: '1952-',
+    nationality_zh: '瑞士',
+    nationality_en: 'Swiss',
+    role_zh: '教育理论研究者、实践共同体理论提出者',
+    role_en: 'Educational theorist and originator of the theory of communities of practice',
+    bio_zh: '瑞士教育理论研究者，1952 年生于瑞士纳沙泰尔，在日内瓦大学取得计算机科学学士与硕士学位，1990 年在加州大学欧文分校获信息与计算机科学博士学位。他原本研究人工智能与辅导系统，在加入约翰·塞利·布朗领导的学习研究院后，转向人类学家琼·莱夫对非洲裁缝学徒制的田野观察，并由此发展出「实践共同体」理论：1991 年与莱夫合著《情境学习：合法的边缘性参与》，1998 年出版《实践共同体：学习、意义与身份》，2000 年提出「三种归属模式」，2002 年与迈克多莫特、斯奈德合著《培育实践共同体》。他关于「小行星地球学习」的研究把技术变革与学习共同体直接连起来，对组织学习与知识管理影响广泛。他的博士训练来自计算机科学，这与该书把学习理论建立在「参与与结构」而非「符号处理」之上直接相关。',
+    bio_en: 'A Swiss educational theorist born in Neuchatel in 1952. He took a B.S. and an M.S. in computer science from the University of Geneva and a Ph.D. in information and computer science from the University of California, Irvine in 1990. Originally working on artificial intelligence and tutoring systems, he joined the Institute for Research on Learning under John Seely Brown and turned to Jean Lave\'s fieldwork on apprenticeship among African tailors, developing the theory of communities of practice: Situated Learning: Legitimate Peripheral Participation with Lave in 1991, Communities of Practice: Learning, Meaning, and Identity in 1998, the three modes of belonging in 2000, and Cultivating Communities of Practice with McDermott and Snyder in 2002. His work on Learning for a Small Planet connects technological change directly to learning communities and has been influential in organizational learning and knowledge management. His doctorate came from computer science, which is directly reflected in a learning theory built on participation and structure rather than on symbol processing.',
+    ideas_zh: ['知识存在于实践共同体之中，而不是存在于个人的头脑或文件中', '学习是身份的变化：成为共同体的一员，意味着同时获得技能、意义与归属', '三种归属模式：参与、参与方式与想象，解释了新人如何从边缘走向中心', '可被反驳之处：框架对权力、冲突与共同体内部的不平等着墨不多，「知识在共同体中」这一主张在高度流动的远程协作时代面临挑战'],
+    ideas_en: ['Knowledge resides in communities of practice, not in individual minds or in documents', 'Learning is a change of identity: becoming a member means acquiring skills, meaning and belonging at once', 'The three modes of belonging - engagement, alignment and imagination - explain how newcomers move from the edge to the centre', 'Refutable: the framework says little about power, conflict and internal inequality, and the claim that knowledge sits in communities is strained in an era of highly mobile, remote collaboration']
   }
 };
 
