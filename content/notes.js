@@ -18,7 +18,7 @@ export const notes = [
     quote_zh: '',
     quote_en: '',
     thinking_zh:
-      '这本书最有价值的地方，不是它对时间点的判断，而是它把"控制"从科幻话题变成了工程话题。我读完之后改变的一个习惯是：不再问"AI 会不会失控"，而是问"在什么条件下，一个比我强大的系统会做出我不想要的事"。这个问题和智能无关，和目标的表述有关。它让我意识到，对齐不是技术收尾工作，而是前提。',
+      '这本书最有价值的地方，不是它对时间点的判断，而是它把"控制"从科幻话题变成了工程话题。我读完之后改变的一个习惯是：不再问"AI 会不会失控"，而是问"在什么条件下，一个比我强大的系统会做出我不想要的事"。这个问题和智能无关，和目标的表述有关。它让我意识到，对齐不是技术收尾工作，而是前提。我真正被说服的是它对风险的重新定位：危险的来源不是恶意，而是能力放大之后表述漏洞的同步放大——一个模糊目标在弱系统上是小麻烦，在强系统上是不可逆的事故。这一点改变了我对"更聪明就更安全"的直觉。但我也保留一个反驳：全书把问题框定为"控制"，暗中假设被控制的对象始终是边界清晰的系统；如果系统能改写自己的目标、拆分或复制自身，"控制什么"这件事本身就不稳定，前提可能比作者承认的更脆弱。另一个可质疑之处是它聚焦极端场景，容易让眼前不那么戏剧的真实风险——错误的激励、被污染的数据、把指标当目标的习惯——显得无关紧要。反过来看，这些日常场景其实是同一问题的缩小版：每一次我把模糊指令交给推荐算法、绩效系统或自动化流程，都在重复"精确执行一个我没想清楚的目标"。所以这本书对我最大的用处不是预测未来，而是给现在的每一次授权加一道自检：我要求的，真的是我想要的吗？',
     thinking_en:
       'The book\'s real value is not its timing but its move from science fiction to engineering: it turns "control" into a design problem. What changed for me is the question I now ask. Not "will AI go out of control," but "under what conditions would a system more capable than me do something I do not want?" That question is not about intelligence; it is about how goals are specified. It convinced me that alignment is a precondition, not a finishing step.',
     questions_zh: [
@@ -48,13 +48,13 @@ export const notes = [
     slug: 'intelligent-investor-price-vs-value',
     book: 'the-intelligent-investor',
     date: '2026-09-22',
-    key_insight_zh: '投资的核心不是预测价格，而是持续地区分"你付出的价格"和"你得到的价值"。',
+    key_insight_zh: '投资的核心不是预测价格，而是持续地区分"你付出的价格"和"你得到的价值"：前者每天由别人的情绪决定，后者只能靠自己对生意的理解估计，二者之间的落差才是机会的来源。',
     key_insight_en:
       'The core of investing is not forecasting prices but persistently separating the price you pay from the value you receive.',
     quote_zh: '',
     quote_en: '',
     thinking_zh:
-      '我最初以为这本书的价值在于具体的方法，读进去才发现它真正的贡献是心理上的：它把"市场先生"变成了一种可以日常使用的比喻。价格每天在变，价值不会每天在变，这个简单的不对称，才是长期持有的心理基础。它没有教我怎么赢，而是教我如何在别人情绪失控时不跟着失控。',
+      '我最初以为这本书的价值在于具体的方法，读进去才发现它真正的贡献是心理上的：它把"市场先生"变成了一种可以日常使用的比喻。价格每天在变，价值不会每天在变，这个简单的不对称，才是长期持有的心理基础。它没有教我怎么赢，而是教我如何在别人情绪失控时不跟着失控。它真正解决的是"知道该买什么却拿不住"这个执行问题：多数亏损并不是算错了价值，而是在价格偏离时把判断交还给了报价。它改变了我的提问方式，从"现在该买还是该卖"改成"我对价值的估计有没有变，价格的变化有没有带来新的事实"。可反驳之处也在这里：价值并不像书里暗示的那样"不会每天变"，竞争格局、技术和监管每天都在改写价值；把"价值不变"当成信仰，容易变成拒绝更新信息的借口，"长期持有"与"死扛"之间的界限，书里并没有给足工具。安全边际我后来理解成一种认知上的谦逊：承认自己算不准，所以只在明显便宜时才动手。市场先生也不只存在于股市，房价、薪资、排名，凡是有每日报价的地方，人都会把报价误认成价值，这是这本书在现实中最广泛的用途。',
     thinking_en:
       'I expected the book to be about method. What struck me is that its real contribution is psychological: it turns the market into a counterparty you can learn to ignore. Price moves daily; value does not. That simple asymmetry is the psychological basis for holding anything long. It did not teach me how to win; it taught me how not to lose my footing when others do.',
     questions_zh: [
@@ -84,13 +84,13 @@ export const notes = [
     slug: 'guns-of-august-contingency',
     book: 'the-guns-of-august',
     date: '2026-09-24',
-    key_insight_zh: '大战往往不是被某个人决定的，而是被已经启动的机制推着走完的。',
+    key_insight_zh: '大战往往不是被某个人决定的，而是被已经启动的机制推着走完的：当时间表、联盟义务和通讯延迟彼此咬合，每个参与者的局部理性都会汇成整体上的非理性，刹车反而成了最危险的动作。',
     key_insight_en:
       'Great wars are often not decided by a single person but carried to completion by mechanisms that were already in motion.',
     quote_zh: '',
     quote_en: '',
     thinking_zh:
-      '这本书让我重新理解了"失控"这个词。动员时间表、联盟义务、通讯延迟，这些看似中性的安排，共同构成了一个一旦启动就难以停止的系统。我从中得到的一个判断习惯是：看到重大冲突时，先别急着找"谁该负责"，先看有没有已经被锁死的机制。责任归属让人解气，机制分析才让人看清下一步。',
+      '这本书让我重新理解了"失控"这个词。动员时间表、联盟义务、通讯延迟，这些看似中性的安排，共同构成了一个一旦启动就难以停止的系统。我从中得到的一个判断习惯是：看到重大冲突时，先别急着找"谁该负责"，先看有没有已经被锁死的机制。责任归属让人解气，机制分析才让人看清下一步。它解决的问题是"为什么所有人都不想要战争，战争还是发生了"——用个人恶意或愚蠢解释不了这种事，必须去看激励和时钟。但我也对这种方法保持警惕：机制解释容易滑向"没人需要负责"的宿命论，把具体决策者的选择洗掉；如果时间表被推到近乎决定论的位置，就低估了个人在关键时刻仍可以做不同的事，也低估了"违背机制"的成本其实是可以被计算的。机制分析的正确用法是找出可干预的点，而不是用它免除判断。与现实联系很直接：任何组织里都有"八月炮火"式的时间表——承诺过的上线日、季度考核、已经发出的公开承诺——它们让"暂停"变成需要更大勇气的事。我现在遇到失控的项目，会先画出时间表和依赖关系，看是哪一环把延期成本定得比继续执行还高；找到了那一环，才谈得上改。',
     thinking_en:
       'This book made me reconsider what "out of control" actually means. Mobilization timetables, alliance obligations, and communication delays — neutral-looking arrangements — together form a system that is hard to stop once started. The habit I took from it: when a conflict escalates, do not rush to assign blame. Look first for mechanisms that are already locked in. Blame is satisfying; mechanism analysis is what shows you what comes next.',
     questions_zh: [
@@ -120,13 +120,13 @@ export const notes = [
     slug: 'why-nations-fail-institutions',
     book: 'why-nations-fail',
     date: '2026-09-25',
-    key_insight_zh: '决定长期繁荣的，不是资源或文化，而是制度是否把权力和收益分散给足够多的人。',
+    key_insight_zh: '决定长期繁荣的，不是资源或文化，而是制度是否把权力和收益分散给足够多的人：充裕的资源若只喂饱少数人，反而会买来压制；稀缺的资源若逼出广泛参与，也可能长出包容性制度。',
     key_insight_en:
       'What decides long-run prosperity is not resources or culture but whether institutions spread power and reward widely enough.',
     quote_zh: '',
     quote_en: '',
     thinking_zh:
-      '这本书的说服力来自它把"制度"这个抽象词变成了可以观察的东西：谁有权做决定，谁能分享增长的收益。我读的时候一直提醒自己，不要把它当成一个可以解释一切的万能框架——它的批评者也很有道理。但它确实给了我一个有用的提问方式：当看到一国长期停滞，先问它的制度在奖励什么行为。',
+      '这本书的说服力来自它把"制度"这个抽象词变成了可以观察的东西：谁有权做决定，谁能分享增长的收益。我读的时候一直提醒自己，不要把它当成一个可以解释一切的万能框架——它的批评者也很有道理。但它确实给了我一个有用的提问方式：当看到一国长期停滞，先问它的制度在奖励什么行为。它解决的是"为什么有些国家有资源、有人才却长期停滞"，答案不在文化性格或地理命运，而在权力与收益的分配结构。我的提问方式因此从"这个国家的人是不是不够努力"变成"在这套规则下，普通人努力能换来什么，谁有动力维持现状"。可反驳之处在于：制度从何而来，书中的历史叙述多是回溯性的，容易用后来的结果去挑选早期的制度差异；那些制度相近而结局相反、或禀赋相似而命运迥异的案例，恰恰是它需要额外解释的地方。所以我把它当提问工具而不是答案：它能告诉我去看什么变量，却不能替我做因果判断。同一套逻辑拿到公司里几乎立刻可用——看晋升、加薪和免责实际奖励什么，比看墙上的价值观更准；当一个组织开始排斥说真话的人、把收益集中到少数决策者手里，就是它的"攫取性制度"开始运转的信号。',
     thinking_en:
       'The book persuades by turning "institutions" into something observable: who holds decision rights and who shares in the gains. While reading, I kept reminding myself not to treat it as a theory that explains everything — its critics have real points. Still, it gave me a useful question: when a country stagnates for a long time, ask first what its institutions are rewarding.',
     questions_zh: [
@@ -156,13 +156,13 @@ export const notes = [
     slug: 'thinking-fast-and-slow-two-systems',
     book: 'thinking-fast-and-slow',
     date: '2026-09-26',
-    key_insight_zh: '我们的错误大多不是随机的，而是系统性的：快思考在它不该发言的时候抢答了。',
+    key_insight_zh: '我们的错误大多不是随机的，而是系统性的：快思考在它不该发言的时候抢答了，还会给这次抢答配一段听起来很完整的理由，让人误以为自己真的想清楚了。',
     key_insight_en:
       'Most of our errors are not random but systematic: fast thinking answers when it should have stayed quiet.',
     quote_zh: '',
     quote_en: '',
     thinking_zh:
-      '这本书我读得最慢，因为几乎每一章都在指出我刚刚犯过的错。它最大的作用不是让我"变得更理性"——那种期待本身就很天真——而是让我能在事后认出自己掉进了哪个陷阱。我现在会刻意在重要判断前停顿几秒，问一句：这是快思考的直觉，还是慢思考算出来的结论？就这一个停顿，已经值回票价。',
+      '这本书我读得最慢，因为几乎每一章都在指出我刚刚犯过的错。它最大的作用不是让我"变得更理性"——那种期待本身就很天真——而是让我能在事后认出自己掉进了哪个陷阱。我现在会刻意在重要判断前停顿几秒，问一句：这是快思考的直觉，还是慢思考算出来的结论？就这一个停顿，已经值回票价。它解决的问题不是"怎么变聪明"，而是"为什么聪明人也会重复同一种错"：答案在系统的分工本身——快思考负责效率，代价是把相关性当因果、把生动当概率。这也改变了我对"理由"的信任：一个判断之后能说出一大段理由，并不说明它来自慢思考，很多时候只是快思考事后补的叙事，所以我如今对"我觉得很有道理"保持警惕。可反驳之处同样明显：书里的若干效应在重复验证中并不都稳固，而把偏差当成认知的固定缺陷，容易变成一种逃避——"我就是这样的人"反而成了不改进的借口；作者自己也不否认知道偏差并不能免疫。我更愿意把它当作一套事后复盘的词汇表：出错时能说清自己掉进的是哪个坑，而不是笼统地骂自己蠢。最实用的场景是重要但不紧急的决定——要不要换工作、要不要投入一笔钱、要不要在会上反驳——在这些地方把"我觉得"改写成"我的理由是"并写下来，快思考就很难继续垄断结论。',
     thinking_en:
       'I read this book slowly, because nearly every chapter pointed at an error I had just made. Its effect was not to make me more rational — that expectation is naive — but to let me recognize, afterward, which trap I fell into. I now pause before important judgments and ask one question: is this a fast intuition, or a slow conclusion? That single pause has already been worth the whole book.',
     questions_zh: [
@@ -192,13 +192,13 @@ export const notes = [
     slug: 'innovators-dilemma-good-management-trap',
     book: 'the-innovators-dilemma',
     date: '2026-09-28',
-    key_insight_zh: '让优秀公司失败的不是管理不善，恰恰是它们太擅长服务现有客户。',
+    key_insight_zh: '让优秀公司失败的不是管理不善，恰恰是它们太擅长服务现有客户：客户说的是真话，但那些话只关于今天的价值网，而新需求在早期听起来总像"不需要"。',
     key_insight_en:
       'What destroys great companies is not bad management but the very excellence of serving their existing customers.',
     quote_zh: '',
     quote_en: '',
     thinking_zh:
-      '这本书最反直觉、也最令人不安的地方在于：它证明失败可以来自正确的决定。每一家被颠覆的公司，几乎都做出了在当时看起来最合理的资源分配。这让我对"把事做对"这件事本身变得警惕起来——有时候真正的问题不是执行，而是你正在正确地执行一件已经过时的事。',
+      '这本书最反直觉、也最令人不安的地方在于：它证明失败可以来自正确的决定。每一家被颠覆的公司，几乎都做出了在当时看起来最合理的资源分配。这让我对"把事做对"这件事本身变得警惕起来——有时候真正的问题不是执行，而是你正在正确地执行一件已经过时的事。它解决的是"为什么管理良好的公司会被小公司颠覆"这个悖论：不是因为它们变笨了，而是资源配置流程忠实反映了现有客户的偏好，而颠覆性需求在早期恰好不在这份清单上。我的提问方式因此从"他们执行得好不好"改成"增长来自哪里"——如果增量主要来自老客户的加购与提效，曲线再漂亮也只是在旧轨道上加速。可反驳之处是，把失败归因于"成功本身"有事后叙事的味道，那些成功转型的大公司说明管理选择仍然起作用，结构决定论会低估人的能动性；而且很多颠覆并不是客户需求变了，而是成本结构变了，书里把"听客户"和"被颠覆"绑得过紧。这提醒我别把框架当定律。现实中同样的机制一直在我见过的团队里运转：最优秀的工程师被分配给最能明确表达需求的客户，探索性项目因为"看不到回报"被砍掉。真正的防护不是号召创新，而是留一块允许失败的隔离地带，让那些暂时不服务现有客户的小实验活下来。',
     thinking_en:
       'The most counterintuitive and unsettling part is that it shows failure can come from correct decisions. Nearly every disrupted company allocated resources in the way that looked most reasonable at the time. That made me wary of doing things right as a goal in itself — sometimes the real problem is not execution but that you are executing an obsolete thing very well.',
     questions_zh: [
@@ -236,7 +236,7 @@ export const notes = [
     quote_zh: '',
     quote_en: '',
     thinking_zh:
-      '梅多斯的核心主张是：系统的行为主要来自结构，而不是参与者的意图。她列出的杠杆点从参数、缓冲、流量一路排到规则、目标与范式——越靠后越有效，也越难改动，而人们习惯去调的往往是靠前的那几项。她描述的若干「系统陷阱」（公地悲剧、目标侵蚀、成瘾式依赖）共享同一个形状：每个参与者都在做局部理性的选择，合成出来却是集体非理性的结果。这与「聪明人一起犯错」那类社会性解释正好互补——那里强调的是放大机制，这里强调的是结构本身就会产生行为。由此得出的推论相当不客气：把反复出现的失败归因于具体的人，通常是最省事、也最无效的一种解释。',
+      '梅多斯的核心主张是：系统的行为主要来自结构，而不是参与者的意图。她列出的杠杆点从参数、缓冲、流量一路排到规则、目标与范式——越靠后越有效，也越难改动，而人们习惯去调的往往是靠前的那几项。她描述的若干「系统陷阱」（公地悲剧、目标侵蚀、成瘾式依赖）共享同一个形状：每个参与者都在做局部理性的选择，合成出来却是集体非理性的结果。这与「聪明人一起犯错」那类社会性解释正好互补——那里强调的是放大机制，这里强调的是结构本身就会产生行为。由此得出的推论相当不客气：把反复出现的失败归因于具体的人，通常是最省事、也最无效的一种解释。由此可以推出的实践规则是：先定位反馈回路与延迟，再谈责任人；因为在高杠杆处，一个参数的微调往往被回路抵消，而一条规则的改变会重写所有人的日常选择。可反驳之处在于，结构决定论若被推到极端，会抹去行动者在关键节点上的选择空间；梅多斯后期也强调，改变范式的能力恰恰来自个体对模型的反思。把系统视角当作诊断工具而非免责声明，才是它最稳妥的用法。现实中的对应随处可见：考核指标只统计可被计数的部分，于是所有未被计数的贡献逐渐停止；修复它靠的不是提醒员工更努力，而是改写指标本身。',
     thinking_en:
       'Meadows\'s central claim is that a system\'s behaviour comes mainly from its structure, not from the intentions of the people inside it. Her leverage points run from parameters and buffers up through rules, goals and paradigms — the higher ones are more powerful and far harder to change, yet attention tends to go to the lower ones. The traps she catalogues — the tragedy of the commons, goal erosion, addiction — share one shape: each participant makes a locally rational choice, and the aggregate is collectively irrational. That complements social accounts of collective failure: those stress amplification, whereas Meadows stresses that structure alone can generate behaviour. The uncomfortable corollary is that attributing a recurring failure to particular people is usually the cheapest explanation and the least useful one.',
     questions_zh: [
@@ -274,7 +274,7 @@ export const notes = [
     quote_zh: '',
     quote_en: '',
     thinking_zh:
-      '这本书的关键在于它把「信息」从一个日常词汇改造成了一个可以被度量的量。香农的定义刻意不谈意义：一条消息携带多少信息，取决于它排除了多少不确定性，而与它是否真实、是否重要无关。这个抽象撑起了现代通信与存储的全部基础设施，同时也留下了一个容易被忽略的后果——信息量的增长与理解力的增长是两件不同的事。值得警惕的是，当一个组织把「更多数据」当作「更清楚」的替代品时，它其实是在用一个不属于意义范畴的量，去回答一个关于意义的问题。另一个容易被忽略的地方是噪音的地位：在这个框架里，噪音不是需要清除的杂质，而是前提；没有噪音，冗余就毫无价值，而冗余恰恰是意义得以存活的余地。',
+      '这本书的关键在于它把「信息」从一个日常词汇改造成了一个可以被度量的量。香农的定义刻意不谈意义：一条消息携带多少信息，取决于它排除了多少不确定性，而与它是否真实、是否重要无关。这个抽象撑起了现代通信与存储的全部基础设施，同时也留下了一个容易被忽略的后果——信息量的增长与理解力的增长是两件不同的事。值得警惕的是，当一个组织把「更多数据」当作「更清楚」的替代品时，它其实是在用一个不属于意义范畴的量，去回答一个关于意义的问题。另一个容易被忽略的地方是噪音的地位：在这个框架里，噪音不是需要清除的杂质，而是前提；没有噪音，冗余就毫无价值，而冗余恰恰是意义得以存活的余地。由此可以推出一个对当下尤其相关的判断：信道容量与判断力之间不存在替代关系，前者是指数增长的工程问题，后者是需要时间与语境的诠释问题。可反驳之处在于，把意义完全逐出定义也付出了代价——它让这套理论在回答"什么值得被传递"时保持沉默，因此无法独立处理信息过载中的价值排序；把工程上的成功误当作关于意义的理论，是常见的越界。现实中的对应是：一整套消息系统可以做到零丢失、低延迟，却仍让接收者一无所知；问题不在传输，而在没有人承担把信号变成判断的那一步。',
     thinking_en:
       'The key move in this book is to convert "information" from an everyday word into a measurable quantity. Shannon\'s definition deliberately says nothing about meaning: how much information a message carries depends on how much uncertainty it resolves, not on whether it is true or important. That abstraction underwrites the entire infrastructure of modern communication and storage, and it leaves one easily overlooked consequence — growth in the volume of information and growth in understanding are two different things. The caution worth keeping is this: when an organisation treats "more data" as a substitute for "more clarity," it is using a quantity outside the domain of meaning to answer a question about meaning. The other easily missed point is the status of noise. In this framework noise is not an impurity to be eliminated but a precondition; without it, redundancy would be worthless — and redundancy is precisely the room in which meaning survives.',
     questions_zh: [
@@ -312,7 +312,7 @@ export const notes = [
     quote_zh: '',
     quote_en: '',
     thinking_zh:
-      '这本书的关键在于它把「犯错」从道德范畴挪到了设计范畴。诺曼的核心主张是：一件日常用品如果需要说明书才能用对，缺陷在于它给出的可供性，而不在于使用者的能力——人并非不理性，他们只是在按设计提供的线索行动。它真正改变的是归因方向：把反复出现的操作失误当作系统的属性来诊断，而不是当作个人的粗心。值得警惕的是，这种视角同样可以被滥用，把所有责任都推给「设计」和「系统」，会让人逐渐失去承担后果的能力。容易被忽略的一点是，诺曼并不主张设计应当消灭错误，而是主张让错误变得可见、可撤销、代价可控——这比追求零失误现实得多，也更接近工程上的诚实。',
+      '这本书的关键在于它把「犯错」从道德范畴挪到了设计范畴。诺曼的核心主张是：一件日常用品如果需要说明书才能用对，缺陷在于它给出的可供性，而不在于使用者的能力——人并非不理性，他们只是在按设计提供的线索行动。它真正改变的是归因方向：把反复出现的操作失误当作系统的属性来诊断，而不是当作个人的粗心。值得警惕的是，这种视角同样可以被滥用，把所有责任都推给「设计」和「系统」，会让人逐渐失去承担后果的能力。容易被忽略的一点是，诺曼并不主张设计应当消灭错误，而是主张让错误变得可见、可撤销、代价可控——这比追求零失误现实得多，也更接近工程上的诚实。由此得到的实践顺序是：先观察错误在什么情境下反复发生，再追溯设计给出的线索与反馈是否与正确动作一致，最后才评估使用者的培训是否到位；把培训放在第一步，等于用人的记忆去弥补设计的缺陷。可反驳之处在于，"设计导致错误"的边界并不总是清晰：当使用者明知线索有问题却仍选择冒险操作时，责任就回到了角色判断而非设计；这套视角若被无限扩张，会消解一切个人责任。用它诊断反复出现的同类失误，而不用它豁免一次性、有意识的选择，才不会从一种归罪滑向另一种归罪。',
     thinking_en:
       'The key move in this book is to shift "making a mistake" out of the moral register and into the register of design. Norman\'s central claim is that when an everyday object requires a manual to be used correctly, the defect lies in the affordances it offers rather than in the competence of its user — people are not irrational, they are following the cues the design supplies. What it genuinely changes is the direction of attribution: recurring operational errors get diagnosed as properties of a system rather than as individual carelessness. The caution worth keeping is that the same lens can be abused; assigning all responsibility to "design" and "the system" gradually erodes the capacity to own a consequence. The easily missed point is that Norman does not argue for eliminating error at all. He argues for making error visible, reversible, and cheap — a far more realistic goal than zero defects, and a more honest one in engineering terms.',
     questions_zh: [
@@ -350,7 +350,7 @@ export const notes = [
     quote_zh: '',
     quote_en: '',
     thinking_zh:
-      '这本书的关键在于把痛苦从「需要被消除的故障」重新定义成一种有认知功能的经验，而不是一种纯粹的损耗。韩炳哲的观察是双向的：社会把痛苦医疗化、私人化，使它退出公共讨论；个体则把自己交给绩效与自我优化，在持续的不适管理里完成自愿的自我剥削。它真正改变的是对「舒适」的评价——一个把所有摩擦都磨平的体系，同时也磨掉了越过门槛所需要的那股张力。值得警惕的是，这个诊断很容易被误读成对苦难的美化；它要求的不是主动去找痛，而是拒绝把任何不适都当成需要立刻修复的缺陷。容易被忽略的一点是，妥协并非软弱，而是一种理性计算：在一个把反抗定价过高的环境里，顺从往往是个人层面的最优解——正因如此，问题才不在个人身上。',
+      '这本书的关键在于把痛苦从「需要被消除的故障」重新定义成一种有认知功能的经验，而不是一种纯粹的损耗。韩炳哲的观察是双向的：社会把痛苦医疗化、私人化，使它退出公共讨论；个体则把自己交给绩效与自我优化，在持续的不适管理里完成自愿的自我剥削。它真正改变的是对「舒适」的评价——一个把所有摩擦都磨平的体系，同时也磨掉了越过门槛所需要的那股张力。值得警惕的是，这个诊断很容易被误读成对苦难的美化；它要求的不是主动去找痛，而是拒绝把任何不适都当成需要立刻修复的缺陷。容易被忽略的一点是，妥协并非软弱，而是一种理性计算：在一个把反抗定价过高的环境里，顺从往往是个人层面的最优解——正因如此，问题才不在个人身上。由此可以得出的实践判断是：区分"需要治疗的痛"与"构成门槛的痛"，是个体在舒适社会中重新获得主动权的前提；前者应当被缓解，后者需要保留其信号功能。可反驳之处在于，"门槛"这一隐喻很难被操作化——没有任何标准能在事前判定哪一次不适会带来真正的改变，事后归因又极易把无谓的受苦追认为必要的成长；这一风险要求对拥抱痛苦的叙事保持警惕。现实中的对应是：当一切摩擦都被产品化为可购买的服务，选择忍受某种不便反而成为一种稀缺的、需要理由的能力。',
     thinking_en:
       'The key move in this book is to redefine pain as an experience with a cognitive function rather than as pure loss — something to be eliminated. Han\'s observation runs in two directions at once: society medicalises and privatises pain until it drops out of public argument, while individuals hand themselves over to performance and self-optimisation, completing a voluntary self-exploitation through the continuous management of discomfort. What it genuinely changes is the valuation of comfort — a system that sands down every source of friction also sands down the tension required to cross a threshold. The caution worth keeping is that the diagnosis is easily misread as a romanticisation of suffering; what it asks for is not the pursuit of pain but a refusal to treat every discomfort as a defect requiring immediate repair. The easily missed point is that compromise is not weakness but a rational calculation: where resistance has been priced very high, compliance is often the optimal individual move — which is precisely why the problem does not lie with the individual.',
     questions_zh: [
@@ -426,7 +426,7 @@ export const notes = [
     quote_zh: '',
     quote_en: '',
     thinking_zh:
-      '这本书的关键在于把嫉妒从个人心理重新描述为社会结构：它不能被消灭，也不能被满足，因为它的触发条件是相对的——别人变好，它就产生。它真正改变的是对「公平」的理解：嫉妒既是分配正义的心理底座，没有它则任何公平规范都失去执行力，同时也是发展的永久刹车，因为它系统性地惩罚一切超出均值的成功。容易被忽略的一点是，嫉妒的对象总是具体的人而非抽象的制度，因此它倾向于把怨恨引向身边的成功者，而不是催生结构性变革——这解释了为什么普遍的嫉妒情绪常常与政治上的保守并行。值得警惕的是，追求「无嫉妒社会」的政治想象通常以更坏的结局收场：压制嫉妒需要持续的监督与强制，而执行监督的人自己并不对嫉妒免疫。',
+      '这本书的关键在于把嫉妒从个人心理重新描述为社会结构：它不能被消灭，也不能被满足，因为它的触发条件是相对的——别人变好，它就产生。它真正改变的是对「公平」的理解：嫉妒既是分配正义的心理底座，没有它则任何公平规范都失去执行力，同时也是发展的永久刹车，因为它系统性地惩罚一切超出均值的成功。容易被忽略的一点是，嫉妒的对象总是具体的人而非抽象的制度，因此它倾向于把怨恨引向身边的成功者，而不是催生结构性变革——这解释了为什么普遍的嫉妒情绪常常与政治上的保守并行。值得警惕的是，追求「无嫉妒社会」的政治想象通常以更坏的结局收场：压制嫉妒需要持续的监督与强制，而执行监督的人自己并不对嫉妒免疫。由此可以推出的判断是：嫉妒不是需要被根除的恶习，而是需要被制度引导的信号——它提醒人们差距正在被感知，却不能决定差距应当如何被回应。可反驳之处在于，把它解释成结构产物也可能走到另一极端：易于把具体个人的怨恨全部外推给制度，从而免除对自身选择的审视；一种同时承认结构约束与个人责任的解释更难，但也更可靠。现实中的对应是：当增长成果普遍提高而比较对象近在眼前时，绝对改善并不会自动消解相对失落——这正是许多"生活变好却更不满"的情形的结构性来源。',
     thinking_en:
       'The key move in this book is to redescribe envy from an individual psychological quirk into a social structure: it cannot be abolished and cannot be satisfied, because its trigger is relative — someone else improves, and envy appears. What it genuinely changes is the understanding of fairness: envy is the psychological foundation of distributive justice, without which no norm of fairness has any enforcing power, and at the same time a permanent brake on development, because it systematically punishes every success that rises above the average. The easily missed point is that envy always targets concrete people rather than abstract systems, so it channels resentment toward successful neighbours instead of producing structural change — which explains why pervasive envy so often coexists with political conservatism. The caution worth keeping is that political imaginings of an envy-free society tend to end far worse: suppressing envy requires continuous surveillance and coercion, and those who do the suppressing are not themselves immune to it.',
     questions_zh: [
@@ -1225,9 +1225,15 @@ export const notes = [
     quote_zh: '',
     quote_en: '',
     thinking_zh:
-      '这本书的关键在于，它把「服从」还原成一个情境变量，而不是人格缺陷。米尔格拉姆的实验显示，普通人在权威的指令下会施加远超自认底线的伤害，说明第二手的指令一旦披上合法外衣，就能压过亲见的事实。它真正改变的是我们对「我只是在执行命令」这句话的理解——那不是一句开脱，而是一套真实运转的认知开关。容易被忽略的一点是，这种服从机制恰恰是第二手知识得以运转的社会底座：我们默认相信权威已经替我们验证过。值得警惕的是，当权威本身出错或被俘获，这条最省力的信任通道就会批量生产错误。',
+      '这本书的关键在于，它把「服从」还原成一个情境变量，而不是人格缺陷。米尔格拉姆的实验显示，普通人在权威的指令下会施加远超自认底线的伤害，说明第二手的指令一旦披上合法外衣，就能压过亲见的事实。它真正改变的是我们对「我只是在执行命令」这句话的理解——那不是一句开脱，而是一套真实运转的认知开关。容易被忽略的一点是，这种服从机制恰恰是第二手知识得以运转的社会底座：我们默认相信权威已经替我们验证过。值得警惕的是，当权威本身出错或被俘获，这条最省力的信任通道就会批量生产错误。可反驳之处在于，实验情境的极端性限制了它的外推：实验室里的服从发生在无后果、指令清晰的封闭环境中，现实组织里的抵抗往往有同伴、有退出成本、有先例可循，把两者等同会夸大情境的力量。更稳妥的用法是把它当成一张检查清单：当指令来自权威而自己没有独立验证时，问一句"如果签发这条指令的人不在场，我还会做同样的事吗"。现实中的对应是流程化审批——每一步都"只是签字"，责任被均匀稀释，最后没有任何一个人做过完整的判断；这与第二手知识的信任机制恰好同源：便利来自分工，风险也来自分工。',
     thinking_en:
       'What matters in this book is that it treats obedience as a situational variable rather than a defect of character. Milgram\'s experiments show that ordinary people will inflict harm far beyond their own stated limits when an authority directs them, which suggests that a secondhand instruction, once wrapped in legitimacy, can override what a person sees with their own eyes. What it genuinely changes is the reading of "I was only following orders" — not an excuse, but a genuinely operating cognitive switch. The easily missed point is that this obedience mechanism is precisely the social substrate that lets secondhand knowledge function: we default to trusting that authority has already verified on our behalf. The caution worth keeping is that when the authority is itself wrong or captured, this most economical channel of trust mass-produces error.',
+    questions_zh: [
+      '如果权威不在场、指令以匿名文件形式送达，服从会发生什么变化？这说明了什么？',
+      '第二手知识的信任通道与「我只是在执行命令」，是同一种机制还是两种不同的机制？',
+      '在流程化审批的组织里，责任被稀释到什么程度时，个人的独立判断就完全消失了？',
+      '你是否曾因为「有上级签字」而跳过独立验证？事后怎样评估那次跳过的代价？',
+    ],
     topics: ['cognitive-science', 'decision-making', 'power-and-politics'],
   },
   {
@@ -1243,9 +1249,15 @@ export const notes = [
     quote_zh: '',
     quote_en: '',
     thinking_zh:
-      '这本书的关键在于它把「理性」从一台纯逻辑机器的形象里拉了出来。达马西奥记录的额叶损伤病人，智力测验正常、能清楚复述每个选项的利弊，却在日常生活中无法做出任何决定——不是因为他们算错了，而是因为他们不再「在意」任何一个选项。它真正改变的是对「冷静判断」的理解：情绪不是判断的噪声，而是给选项标上权重的机制；没有权重，所有选项在数学上等价，选择就失去了依据。容易被忽略的一点是，这并不意味着情绪总是可靠的——它同样会系统性地扭曲判断，把人推向短视与偏见。值得警惕的是，把「去情绪化」当成提高判断质量的办法，可能只是把噪声换成另一种形式的瘫痪。',
+      '这本书的关键在于它把「理性」从一台纯逻辑机器的形象里拉了出来。达马西奥记录的额叶损伤病人，智力测验正常、能清楚复述每个选项的利弊，却在日常生活中无法做出任何决定——不是因为他们算错了，而是因为他们不再「在意」任何一个选项。它真正改变的是对「冷静判断」的理解：情绪不是判断的噪声，而是给选项标上权重的机制；没有权重，所有选项在数学上等价，选择就失去了依据。容易被忽略的一点是，这并不意味着情绪总是可靠的——它同样会系统性地扭曲判断，把人推向短视与偏见。值得警惕的是，把「去情绪化」当成提高判断质量的办法，可能只是把噪声换成另一种形式的瘫痪。由此得到的实践含义是：做决定时真正要追问的不是"我有没有偏见"，而是"这件事对我为什么重要"——后者才是权重的来源，也是情绪提供信息的通道。可反驳之处在于，承认情绪是必要前提并不能解决它被操纵的问题：广告、群体与算法都在批量制造"在意"，借用的正是这套权重机制；认清情绪的功能，不等于信任每一次情绪。更诚实的结论是：理性需要情绪提供方向，但也需要独立的检验来审核这个方向的来源。现实中的对应是那些"条件都很好却就是不想做"的选择——利弊列得清清楚楚，缺的恰恰是一个真正的在乎。',
     thinking_en:
       'What matters in this book is that it pulls reason away from the image of a purely logical machine. Damasio\'s patients with frontal-lobe damage score normally on intelligence tests and can recite the pros and cons of every option, yet cannot decide anything in ordinary life — not because they calculate wrongly, but because they no longer care about any option. What it genuinely changes is the understanding of "cool judgment": emotion is not the noise in judgment but the mechanism that assigns weight to options; without weight, all options are mathematically equivalent and choice loses its basis. The easily missed point is that this does not make emotion reliable — it also distorts judgment systematically, pushing people toward short-termism and prejudice. The caution worth keeping is that treating "de-emotionalisation" as a way to improve judgment may merely swap noise for a different kind of paralysis.',
+    questions_zh: [
+      '额叶损伤病人「算得清却选不了」，这个现象究竟否定了理性的哪一部分？',
+      '如果情绪提供权重，那么当情绪被外部操纵时，理性还有没有自我纠正的手段？',
+      '「冷静判断」在哪些场合是优点，在哪些场合其实是瘫痪的另一种说法？',
+      '你最近一次「条件都很好却就是不想做」的选择，缺的是信息还是在意？',
+    ],
     topics: ['cognitive-science', 'decision-making', 'philosophy'],
   },
   {
@@ -8679,7 +8691,7 @@ The live question is plain: once observable differences are written out one by o
     "key_insight_en": "If liberalism is not a philosophical proposition needing defense, but a social experiment. In Gray's account, liberalism completed a total transformation from institutional design to identity construction, canceled the certainty supplied by the social hierarchy, and put the weight of choice upon each individual. Liberalism constructs the public sphere via a different logic than it respects the private sphere. When an individual no longer needs validation from the hierarchy, what is gained is enormous — which is why a liberal society is more liable to loneliness. The limits lie in a core contradiction: freedom and responsibility are inseparable. When freedom is treated as pure choice, responsibility is masked by the logic of legal-system execution as a process.",
     "quote_zh": "",
     "quote_en": "",
-    "thinking_zh": "自由主义若不是一个需要被辩护的哲学命题，而是一个社会实验。从 John Gray 的叙述中可以看到，自由主义在完成从制度设计到身份实现的全面转型后，取消了传统社会提供的确定性，将选择的重量转移到每一个体的肩上。自由主义对公共领域的构建逻辑，不同于对私人领域的尊重逻辑。当个体不再需要从等级暴政中获得价值感时对他获得的自由是巨大的；但这也更能让自由主义社会陷入孤独。自由的局限在核心矛盾上：自由与责任不可分离。当自由被视为完全的选择权，责任就会被法律系统的执行逻辑掩盖为一道过程。",
+    "thinking_zh": "自由主义若不是一个需要被辩护的哲学命题，而是一个社会实验。从 John Gray 的叙述中可以看到，自由主义在完成从制度设计到身份实现的全面转型后，取消了传统社会提供的确定性，将选择的重量转移到每一个体的肩上。自由主义对公共领域的构建逻辑，不同于对私人领域的尊重逻辑。当个体不再需要从等级暴政中获得价值感时对他获得的自由是巨大的；但这也更能让自由主义社会陷入孤独。自由的局限在核心矛盾上：自由与责任不可分离。当自由被视为完全的选择权，责任就会被法律系统的执行逻辑掩盖为一道过程。这个判断的锋利之处在于，它把自由主义的代价放回了自由主义内部，而不是推给它的敌人；可反驳之处在于，把自由主义整体当作一场社会实验，会抹平内部差别巨大的诸版本——作为法律规则的自由主义与作为身份实现的自由主义，并不以同一种方式失败。更有用的读法是把它当成一个诊断入口：当一种制度许诺“你可以成为任何人”，它就同时取消了“你不必成为什么”的豁免；选择权既是解放，也是新的义务。现实中的对应是当代的自我经营：名义上自由越大，不选择的自由反而越少。",
     "thinking_en": "Liberalism is not a philosophical proposition needing defense, but a social experiment.",
     "questions_zh": [
       "自由主义在取消等级之后，为什么没有减少责任，反而让它更分散？",
@@ -8717,7 +8729,7 @@ The live question is plain: once observable differences are written out one by o
     "key_insight_en": "The dictator's power is fetishistic: it relies on the daily rituals of personality cult, and once those rituals stop the legitimacy collapses. Trujillo is not an ordinary dictator but a toy maintaining illusion through ritual.",
     "quote_zh": "",
     "quote_en": "",
-    "thinking_zh": "《公羊的节日》构建了一个关于独裁的空间。这个静水般的章节揭示了一个关于权力的冷酷命题：独裁的维持比独裁更容易。当独裁的霸权变成全社会的信仰，恐惧就升级为背景噪音。一个令人不安的事实是，独裁体制不仅是暴力的，而且它更具渗透性 — 它变异了人之间的人际关系。最好的部分也许不是独裁者的暴行，而是它如何温水煮蛙式地让当时的个体养成了沉默。",
+    "thinking_zh": "《公羊的节日》构建了一个关于独裁的空间。这个静水般的章节揭示了一个关于权力的冷酷命题：独裁的维持比独裁更容易。当独裁的霸权变成全社会的信仰，恐惧就升级为背景噪音。一个令人不安的事实是，独裁体制不仅是暴力的，而且它更具渗透性 — 它变异了人之间的人际关系。最好的部分也许不是独裁者的暴行，而是它如何温水煮蛙式地让当时的个体养成了沉默。我从中读出的问题不是“坏人如何作恶”，而是“好人如何学会不作声”——后者更值得追问。可反驳之处在于，把独裁解释为仪式与恋物，容易高估象征而低估利益结构：许多人沉默不是因为被幻象迷惑，而是因为揭穿幻象的代价要由自己独自承担。这个区分会改变抵抗的策略——是去拆穿神话，还是改变揭穿神话之后的收益分配。与现实的联系是：任何要求成员持续表态忠诚的组织，都在小规模复制同一机制；当沉默成为最安全的选项，忠诚的表态就不再证明信念，只证明一次风险计算。",
     "thinking_en": "The Feast of the Goat builds a space about the dictator. This still-water chapter reveals a cold proposition about power: sustaining dictatorship is harder than overthrowing it. When dictatorial hegemony becomes a faith of all society, fear becomes background noise. An unsettling fact is that a dictator regime is not only violent, it is more penetrative — it mutates interpersonal relationships. Perhaps the best part is not the dictator's atrocities but how it forces citizens into silence in a water-boiling way.",
     "questions_zh": [
       "为什么独裁保持比独裁理由本身更难？",
@@ -8755,7 +8767,7 @@ The live question is plain: once observable differences are written out one by o
     "key_insight_en": "Lasch argues the core problem of contemporary civilization is that we lost the capacity to suffer. By prohibiting suffering, we lose not only the preservation of pain but also the philosophical reflection on it.",
     "quote_zh": "",
     "quote_en": "",
-    "thinking_zh": "《文明至死》的核心命题不是对痛苦的恐惧，而是对“反痛苦”制度的批判。拉斯奇认为，现代社会制造了一种系统：通过医疗、消费与抚慰的策略来替代痛苦的留存价值。痛苦变成了一种被管理的变量，被消除是科技的信号。然而这个命题有一个重要思想：痛苦的意义被制度化了。痛苦曾让哲学、文学与宗教有深远的内容，而文明的进步反而通过消除这些传统内容，造成了精神生态的退化。最尖锐的批评是：当痛苦无法表达，抑郁症就不再被理解为疾病，而被理解为抵抗。",
+    "thinking_zh": "《文明至死》的核心命题不是对痛苦的恐惧，而是对“反痛苦”制度的批判。拉斯奇认为，现代社会制造了一种系统：通过医疗、消费与抚慰的策略来替代痛苦的留存价值。痛苦变成了一种被管理的变量，被消除是科技的信号。然而这个命题有一个重要思想：痛苦的意义被制度化了。痛苦曾让哲学、文学与宗教有深远的内容，而文明的进步反而通过消除这些传统内容，造成了精神生态的退化。最尖锐的批评是：当痛苦无法表达，抑郁症就不再被理解为疾病，而被理解为抵抗。这个命题真正解决的问题是：为什么物质条件改善之后，人的精神状态反而更难安顿——因为制度可以接管痛苦的管理，却不能替人完成对痛苦的理解。它改变了我的提问方式：不再问“怎样消除这种不适”，而是问“这种不适在要求我承认什么”。可反驳之处在于，“痛苦具有意义”这一判断很容易被推到替苦难辩护的地步；并非所有痛苦都自动产生深刻，许多痛苦只是纯粹的损耗，把它们浪漫化反而是一种冷漠。更稳妥的说法是：制度有权缓解痛苦，但没有权替人决定痛苦意味着什么。现实中的对应是，当一种文化把所有负面情绪都变成需要修复的故障，人反而失去了给自己讲一个完整故事的能力。",
     "thinking_en": "The core proposition of Civilization to Death is not the fear of pain, but the critique of the anti-pain system. Lasch holds that modern society created a system: replacing the retained value of suffering through medical, consumerist, and soothing strategies. Pain becomes a managed variable where elimination is the signal of technology. Yet this proposition carries an important thought: the meaning of pain was institutionalized. Pain once gave philosophy, literature and religion profound content, and civilization's progress instead degraded a spiritual ecology by removing those traditional contents. The sharpest criticism is this: when suffering cannot be expressed, depression is no longer understood as illness but as resistance.",
     "questions_zh": [
       "为什么消除痛苦反而构成了对痛苦意义的剥夺？",
@@ -8793,7 +8805,7 @@ The live question is plain: once observable differences are written out one by o
     "key_insight_en": "When a group decides what behavior is acceptable, that decision is not maintained by institutions but by the group's trust mechanism. The more trusting a group, the more it may unknowingly encourage bad behavior.",
     "quote_zh": "",
     "quote_en": "",
-    "thinking_zh": "《害马之群》探讨了一个反直觉的命题：在高度信任的群体中，错误行为更容易被接受。其核心机制是：当信任度过高时，行为的标准从“对与错”变成“信任的代价”。如果一个人对我的信任足够深，他的错误行为就会被容忍为忠诚的证明。这种机制最值得注意的是它权力的流失：不是因为群体不关心，而是因为关注点从结果转移到了维持关系上。一个高度互信的群体最终会以“我们信任你”为保护伞，为错误行为提供免责。",
+    "thinking_zh": "《害马之群》探讨了一个反直觉的命题：在高度信任的群体中，错误行为更容易被接受。其核心机制是：当信任度过高时，行为的标准从“对与错”变成“信任的代价”。如果一个人对我的信任足够深，他的错误行为就会被容忍为忠诚的证明。这种机制最值得注意的是它权力的流失：不是因为群体不关心，而是因为关注点从结果转移到了维持关系上。一个高度互信的群体最终会以“我们信任你”为保护伞，为错误行为提供免责。它解决的问题是：为什么最讲信任的团体反而最缺乏纠错能力——因为质疑被视为对关系的背叛，而不是对结果的负责。它改变了提问方式：从“这个人值不值得信任”改成“在这段关系里，提出异议的成本由谁承担”。可反驳之处在于，高信任群体并非必然纵容错误；若存在清晰的独立复核渠道，信任反而是协作的润滑剂。真正危险的并不是信任本身，而是把信任当作替代验证的通行证。现实中的对应是熟人创业团队与家庭企业：起初靠信任省下制度成本，规模扩大后仍用“我们之间不用这套”来拒绝流程，错误便会以忠诚的名义被保护下来。",
     "thinking_en": "How Groups Encourage Misbehavior explores a counterintuitive proposition: in high-trust groups, bad behavior is easier to accept. The core mechanism: when trust levels are too high, behavioral standards shift from right-and-wrong to the cost of trust. If a person's trust in me is deep enough, their error is tolerated as proof of loyalty. The most noteworthy thing about this mechanism is the loss of power: not because a group doesn't care, but because focus moves from result to relationship maintenance. A high-trust group eventually uses \"we trust you\" as protection, providing exoneration for misbehavior.",
     "questions_zh": [
       "为什么越信任的群体越容易纵容错误行为？",
@@ -8831,7 +8843,7 @@ The live question is plain: once observable differences are written out one by o
     "key_insight_en": "Moravia in The Conformist tells a story about following the crowd: a person obeys not because he supports, but because he fears exclusion. Obedience is not for gain, but to avoid the fear of abandonment.",
     "quote_zh": "",
     "quote_en": "",
-    "thinking_zh": "《同流者》的核心叙事不是权力对个体的压迫，而是个体如何利用自我服从来完成对权力的拥戴。马尔科阿姆是那个时代的产物，他在肯特式的无力中明白：真正的顺从不是接受权威本身，而是把权威的判断当作自己的价值感来源。这就是他行动的核心。",
+    "thinking_zh": "《同流者》的核心叙事不是权力对个体的压迫，而是个体如何利用自我服从来完成对权力的拥戴。马尔科阿姆是那个时代的产物，他在肯特式的无力中明白：真正的顺从不是接受权威本身，而是把权威的判断当作自己的价值感来源。这就是他行动的核心。它解决的是“服从从哪里获得动力”这个问题：答案不只是恐惧，而是对归属的需要——被排除的代价高于服从的代价，人就会主动把权威的判断内化成自己的价值感。可反驳之处在于，把顺从完全解释为心理防御，会低估利益计算；有些人服从是因为服从确实带来位置与安全，并非纯粹出于恐惧。这个区分影响如何评价一个人：是把他当作被结构塑造的受害者，还是当作在给定选项里做了理性选择的人。现实中的对应是职场里的“合群”压力——当异议被暗示为不够忠诚，多数人的选择不是反抗，而是先说服自己本来也认同。",
     "thinking_en": "The core narrative of The Conformist is not power's oppression of the individual, but the individual's use of self-obedience to complete the Empire's purchase. Marcolm is the product of his era: he understands in Kempt's powerless way that true obedience is not accepting authority itself, but treating the authority's judgment as one's own source of value.",
     "questions_zh": [
       "为什么一个服从者会通过服从获得价值感？",
@@ -8869,7 +8881,7 @@ The live question is plain: once observable differences are written out one by o
     "key_insight_en": "Creel approached propaganda as technology: not relating to facts, but to the audience's cognitive habits. A propaganda's power doesn't come from what it says, but from how it says it.",
     "quote_zh": "",
     "quote_en": "",
-    "thinking_zh": "《世界大战中的宣传技巧》揭示了一个现代世界最清晰的机制之一：宣传以信任网络为基础。当信息通过权威与熟人传递时，它的接受度远高于信息本身。宣传的效果是通过关系网络扩散的，它所用的不是诡辩，而是信任的账户。这个命题的一个关键点是：信息的传播与维护系统会先于内容本身发挥作用。宣传不是对事实的扭曲，而是对认知框架的重新布置。",
+    "thinking_zh": "《世界大战中的宣传技巧》揭示了一个现代世界最清晰的机制之一：宣传以信任网络为基础。当信息通过权威与熟人传递时，它的接受度远高于信息本身。宣传的效果是通过关系网络扩散的，它所用的不是诡辩，而是信任的账户。这个命题的一个关键点是：信息的传播与维护系统会先于内容本身发挥作用。宣传不是对事实的扭曲，而是对认知框架的重新布置。它解决的问题是：为什么内容未必高明的信息仍能大范围改变行为——因为传播路径先于论证质量发挥作用。它改变了我的提问方式：看到一种说法流行，先问“谁在替它背书、通过什么关系到达我”，而不是急着判断它说得对不对。可反驳之处在于，若把一切接受都归因于信任网络，就低估了受众的判断力；框架也需要与已有经验相容才起作用。另一种风险是把宣传概念泛化到一切说服，从而失去批评的锋芒。现实中的对应是今天的转发链条与意见领袖：同一句话由不同人说出，可信度相差数倍——这说明我们评估的往往不是命题，而是传递它的人。",
     "thinking_en": "Propaganda Technique in the World War reveals one of the clearest mechanisms of the modern world: propaganda is based on trust networks. When information is transmitted through authority and acquaintances, its acceptance is far higher than the information itself. The effect of propaganda is diffused through relational networks — its currency is trust, not sophistry. A key point: the propagation and maintenance system of information takes effect before its content. Propaganda is not the distortion of facts, but the restructuring of cognitive frames.",
     "questions_zh": [
       "宣传依赖信任网络还是依赖逻辑？",
@@ -8907,7 +8919,7 @@ The live question is plain: once observable differences are written out one by o
     "key_insight_en": "Harari's worry is not that technology will outstrip humanity, but that after global problems sharpen, institutions fail to provide persuasive answers. In the face of every issue, the greatest difficulty is not lack of knowledge, but insufficient consensus to respond.",
     "quote_zh": "",
     "quote_en": "",
-    "thinking_zh": "《今日简史》的核心不是对技术进步的赞美，而是对全球性问题尖锐化的忧虑。哈瑞里提出的问题总是全局性的：气候变化、生物技术、人工智能。在每一个议题面前，最大的困难不是缺乏知识，而是没有足够的共识来应对。当一个时代面临前所未有的整体挑战时，旧框架不再适用。因此最紧迫的不是寻找答案，而是回答“我们如何能够共同思考”。",
+    "thinking_zh": "《今日简史》的核心不是对技术进步的赞美，而是对全球性问题尖锐化的忧虑。哈瑞里提出的问题总是全局性的：气候变化、生物技术、人工智能。在每一个议题面前，最大的困难不是缺乏知识，而是没有足够的共识来应对。当一个时代面临前所未有的整体挑战时，旧框架不再适用。因此最紧迫的不是寻找答案，而是回答“我们如何能够共同思考”。它解决的问题是：为什么知识已经足够，全球性议题仍然停滞——因为致命的缺口在共同叙事，而不在数据。它改变了提问方式：从“这项技术会带来什么后果”改成“谁愿意接受这个后果，以及依据什么理由”。可反驳之处在于，把困境归结为共识不足，可能低估了利益冲突的硬度；有些分歧不是理解不够，而是代价分配根本谈不拢，把它称为共识问题反而掩盖了权力问题。现实中的对应是任何跨部门项目：技术方案往往不是难点，难点是各方对“什么算成功”没有共同定义；没有这个定义，更多数据只会让分歧更精细，而不会更接近解决。",
     "thinking_en": "21 Lessons for the 21st Century is not praise of technological progress, but worry about the sharperification of global problems. Harari's questions are always global: climate change, bioengineering, AI. In the face of every issue, the greatest difficulty is not lack of knowledge, but insufficient consensus. When an era faces unprecedented overall challenge, old frameworks no longer serve. Thus what is most urgent is not to find answers but to answer \"how we can think together\".",
     "questions_zh": [
       "为什么全球性问题尖锐化之后制度无法提供答案？",
@@ -8945,7 +8957,7 @@ The live question is plain: once observable differences are written out one by o
     "key_insight_en": "Herbert Gans holds envy is a social behavior: not a psychological defect, but an anchoring mechanism of \"fairness.\" Envy lets us find our coordinates through comparison, and preserves dignity by negating others' success.",
     "quote_zh": "",
     "quote_en": "",
-    "thinking_zh": "《嫉妒》的核心命题是：嫉妒是社会结构的零件，而不是个体的心理病理。甘斯论证嫉妒是一种机制，用于管理和分配资源匮乏的焦虑。嫉妒的方式：比较生活中的某类资源时，我们树立他人为参照系。这种比较提供了评价标准——自己不成功时经由嫉妒获得占便宜的感觉。在古老的农业社会与现代城市社会之间架起了一种恒常结构。嫉妒不是罪恶，而是社会秩序的调节器。",
+    "thinking_zh": "《嫉妒》的核心命题是：嫉妒是社会结构的零件，而不是个体的心理病理。甘斯论证嫉妒是一种机制，用于管理和分配资源匮乏的焦虑。嫉妒的方式：比较生活中的某类资源时，我们树立他人为参照系。这种比较提供了评价标准——自己不成功时经由嫉妒获得占便宜的感觉。在古老的农业社会与现代城市社会之间架起了一种恒常结构。嫉妒不是罪恶，而是社会秩序的调节器。它解决的问题是：为什么人们在绝对条件改善时仍感到不公——因为比较的参照系是他人，而不是某个客观标准。它改变了提问方式：从“他得到了多少”改成“我把谁当成了参照，以及这个参照是如何被选中的”。可反驳之处在于，把嫉妒解释为公平锚定的机制，容易替它脱罪：一种心理机制可被理解，并不等于它的社会后果可取；它也可能固化“别人的所得就是我的损失”这种零和想象。现实中的对应是薪酬保密与公开排行榜：一旦参照系被制度性地设为身边的同侪，再高的绝对收入也难以消除相对失落——这正是许多组织越激励越不满的原因。",
     "thinking_en": "The core proposition of Envy is that envy is a component of social structure, not an individual psychological pathology. Gans argues envy is a mechanism for managing and distributing anxiety over resource scarcity. The way envy works: when comparing certain kinds of resources, we set others as our reference point. This comparison provides the evaluation standard — when one is unsuccessful, one gets a sense of advantage via envy. It builds a constant structure between ancient agricultural society and modern urban society. Envy is not a sin; it is the regulator of social order.",
     "questions_zh": [
       "嫉妒如何成为社会结构的零件？",
@@ -8983,7 +8995,7 @@ The live question is plain: once observable differences are written out one by o
     "key_insight_en": "Desmond Morris treats humans as naked apes: we are not named for evolution of tools, but for establishing social rules to constrain instinct. A civilization's sign is not technology, but proper management of wildness.",
     "quote_zh": "",
     "quote_en": "",
-    "thinking_zh": "《裸猿》通过神经学、人类学与社会学的综合，把人类社会看成一种特殊动物的行为模式。莫里斯认为，人类的暴力和竞争都是本能驱动的，但社会的核心功能是管理这些本能。当失控的本能蔓延到制度层面，文明就建立不了。野蛮不是文明的敌人，而是文明的底层材料。技术越强大，本能的管理越重要。",
+    "thinking_zh": "《裸猿》通过神经学、人类学与社会学的综合，把人类社会看成一种特殊动物的行为模式。莫里斯认为，人类的暴力和竞争都是本能驱动的，但社会的核心功能是管理这些本能。当失控的本能蔓延到制度层面，文明就建立不了。野蛮不是文明的敌人，而是文明的底层材料。技术越强大，本能的管理越重要。它解决的问题是：为什么技术能力增长并不自动带来更好的生活——因为未被制度化的本能仍会寻找出口，并绕开一切精巧的设计。可反驳之处在于，把社会制度解释为本能管理的装置，容易滑向生物决定论：它很难说明同一套本能为何在不同制度下产生截然不同的秩序，也容易把可以改变的安排说成不可改变的天性。这个区分很重要，因为它决定了改革是可能还是徒劳。现实中的对应是组织里的等级与领地行为：流程写得再平等，只要资源分配仍依赖非正式亲近关系，本能就会绕过制度重新画出边界。",
     "thinking_en": "The Naked Ape combines neuroscience, anthropology, and sociology, treating human society as the behavior pattern of a special animal. Morris holds that human violence and competition are instinct-driven, but society's core function is managing these instincts. When uncontrolled instincts spread to institutional levels, civilization cannot be built. Wildness is not civilization's enemy but its base material. The more powerful technology, the more important instinct management becomes.",
     "questions_zh": [
       "文明是压制本能还是管理本能？",
@@ -9021,7 +9033,7 @@ The live question is plain: once observable differences are written out one by o
     "key_insight_en": "E. O. Wilson holds the meaning of life is not discovered, but created. The universe has no obligation to endow humans with meaning; meaning is our response to the universe's echo.",
     "quote_zh": "",
     "quote_en": "",
-    "thinking_zh": "《人类存在的意义》提出一个生物学的命题：意义的创造是人类延续的冲动。生命对意义的渴望不是宗教产物，而是进化的副产品。人类需要在宇宙的尺度上找到自己的位置，否则就很难持续的意义。科学和美感的结合创造了我们面对的意义。",
+    "thinking_zh": "《人类存在的意义》提出一个生物学的命题：意义的创造是人类延续的冲动。生命对意义的渴望不是宗教产物，而是进化的副产品。人类需要在宇宙的尺度上找到自己的位置，否则就很难持续的意义。科学和美感的结合创造了我们面对的意义。它解决的问题是：在一个不提供预设意义的宇宙里，人为什么仍然要为自己寻找意义——答案不是宇宙欠我们一个说法，而是意义是生命延续自身时造出的副产品。可反驳之处在于，把意义解释为进化副产品，并不等于证明它虚假；但从“它是副产品”推出“它因此不值得追求”，是典型的自然主义跳跃——作者未必这样主张，读者却容易这样读。现实中的对应是当代的“意义危机”：当传统叙事退场，人们并不会停止追问，而是把工作、消费或关系抬升为新的意义载体；载体变了，那种需要被满足的结构没有变。",
     "thinking_en": "The Meaning of Human Existence puts forward a biological proposition: meaning-creation is the impulse of continued life. The yearning for meaning is not a religious product but an evolutionary by-product. Humans need to find their place in the cosmic scale, otherwise sustained meaning is difficult. The combination of science and beauty creates the meaning we face.",
     "questions_zh": [
       "为什么意义需要创造而不是被发现？",
@@ -9059,7 +9071,7 @@ The live question is plain: once observable differences are written out one by o
     "key_insight_en": "Bettany Hughes' telling of the Trojan War is not a war about a person, but a memory war about \"why names defeat history.\" Helen is a symbol, not a hero, nor a sinner.",
     "quote_zh": "",
     "quote_en": "",
-    "thinking_zh": "《特洛伊的海伦》把城市变成了一座记忆的博物馆。海伦不仅是传说中的女子，她是特洛伊人、希腊人、与后世解释权的核心。海伦被赋予了双重身份：她是人，也是被抛到空间中的符号。海伦不真实，但她被历史需要。历史需要她的名字来解释文化的方向。",
+    "thinking_zh": "《特洛伊的海伦》把城市变成了一座记忆的博物馆。海伦不仅是传说中的女子，她是特洛伊人、希腊人、与后世解释权的核心。海伦被赋予了双重身份：她是人，也是被抛到空间中的符号。海伦不真实，但她被历史需要。历史需要她的名字来解释文化的方向。它解决的问题是：为什么一个名字能压过复杂的历史真相——因为名字可以被反复讲述，而真相需要语境才能成立。它改变了提问方式：从“海伦是否真的存在、是否该负责”改成“谁需要这个符号，以及用它来解释什么”。可反驳之处在于，把人物彻底符号化，会抹去具体人的能动性，也容易让所有历史叙述都变成权力游戏，失去与事实对话的能力；符号化与虚构之间仍有界线。现实中的对应是公众记忆中的标签化人物：一个人被简化成某个事件的名字之后，关于他的讨论就不再关于他本人，而变成各方借这个名字讲述自己的立场。",
     "thinking_en": "Helen of Troy turns the city into a museum of memory. Helen is not just a legendary woman: she is the core of Trojan, Greek, and later interpretive rights. Helen is given dual identity: she is person, but also a symbol thrown into space. Helen is not real, but she is needed by history. History needs her name to explain cultural direction.",
     "questions_zh": [
       "为什么海伦是符号而非英雄？",
@@ -9097,7 +9109,7 @@ The live question is plain: once observable differences are written out one by o
     "key_insight_en": "Jane Mirowski holds gender is a legal relationship, not merely bodily difference. Patriarchy is not a biological continuation but an institutional relay of power.",
     "quote_zh": "",
     "quote_en": "",
-    "thinking_zh": "《性别打结》把性别看成一种制度的契约。在性别问题上，一个核心悖论是：社会越“文明”，性别等级的结构越隐形。女性从来不是被禁止——而是被结构性地引导到不匹配的位置上。父权制最需要的是她的合作，而不是她的反抗。",
+    "thinking_zh": "《性别打结》把性别看成一种制度的契约。在性别问题上，一个核心悖论是：社会越“文明”，性别等级的结构越隐形。女性从来不是被禁止——而是被结构性地引导到不匹配的位置上。父权制最需要的是她的合作，而不是她的反抗。它解决的问题是：为什么最隐蔽的不平等反而最稳固——因为它不靠禁令运行，而靠日常合作来复制。它改变了提问方式：从“谁在压迫谁”改成“这套安排需要谁主动配合，配合得到什么回报”。可反驳之处在于，把一切都归给制度契约，会稀释具体行动者的责任；结构再强，也要由人在具体场合做出选择，否则改革就无从谈起。现实中的对应是家庭与职场中那些“自愿”的选择：当某种分工被描述为天性或偏好，实际承担成本的一方往往很难指出强制发生在哪里——因为它从未以命令的形式出现。",
     "thinking_en": "The Gender Knot treats gender as an institutional contract. On gender, a core paradox is: the more \"civilized\" a society, the more invisible its gender hierarchy. Women were never prohibited — they were structurally guided to mismatched positions. Patriarchy needs her cooperation most, not her resistance.",
     "questions_zh": [
       "性别是社会关系还是个人身份？",
@@ -9135,7 +9147,7 @@ The live question is plain: once observable differences are written out one by o
     "key_insight_en": "Whitaker in A Canticle for Leibowitz ponders the cycle of civilization: technology collapses, but knowledge needs preservation. A civilization's ruin is not because technology vanishes, but because no one remembers it once existed.",
     "quote_zh": "",
     "quote_en": "",
-    "thinking_zh": "《莱博维茨的赞歌》写的是文明的循环和科技的保存。一个社会在灾难后幸存，不一定因为技术被留存，而是因为知识被写成了可传承的文本。知识劳动者的重要性：他们保存的不是技术细节，而是文明存续的方式。技术的终点不是知识本身而是文明的延续。",
+    "thinking_zh": "《莱博维茨的赞歌》写的是文明的循环和科技的保存。一个社会在灾难后幸存，不一定因为技术被留存，而是因为知识被写成了可传承的文本。知识劳动者的重要性：他们保存的不是技术细节，而是文明存续的方式。技术的终点不是知识本身而是文明的延续。它解决的问题是：文明为什么会在技术崩溃后重新回到起点——因为技术可以毁于一旦，而可传承的记录能让方法在几代人之后被重新发现。可反驳之处在于，把保存知识当作文明存续的关键，容易高估文本而低估实践：被抄写却不理解的技术文本可能只是空洞的符号；知识要活下来，必须与能验证它的共同体一起保存。现实中的对应是任何行业的交接：留下文档不等于留下能力，真正决定延续的是是否有人还能读懂、怀疑并修正它。这也是我对“传承”更谨慎的原因：保存不是复印，而是维持一条能纠错的链条。",
     "thinking_en": "A Canticle for Leibowitz writes of the cycle of civilization and preservation of technology. A society surviving disaster is not necessarily because technology is stored, but because knowledge is written as portable texts. The importance of intellectual labor: they preserve not technical details but the modes of civilization's continuation. The endpoint of technology is not knowledge itself but civilization's continuation.",
     "questions_zh": [
       "为什么知识的保存比技术的保存更重要？",
@@ -9173,7 +9185,7 @@ The live question is plain: once observable differences are written out one by o
     "key_insight_en": "Peter Baldwin's The Politics of Social Solidarity treats the welfare system as a class game. Social welfare is not a benevolence from above, but a product of class.",
     "quote_zh": "",
     "quote_en": "",
-    "thinking_zh": "福利制度不是技术进步之后的自然结果，而是阶级斗争的产物。巴丁格论证：福利制度的建立并非为了穷人，而是为了中产阶级在政治上的安全网。当阶级利益被重新定义之后，福利就不再是商品。福利国家不是道德成果，而是政治契约。",
+    "thinking_zh": "福利制度不是技术进步之后的自然结果，而是阶级斗争的产物。巴丁格论证：福利制度的建立并非为了穷人，而是为了中产阶级在政治上的安全网。当阶级利益被重新定义之后，福利就不再是商品。福利国家不是道德成果，而是政治契约。它解决的问题是：为什么福利国家的扩张不能用道德进步来解释——因为制度是不同阶级在利益计算后达成的交易，受益者、出资者与决策者往往不是同一群人。可反驳之处在于，把福利还原为阶级博弈，容易低估观念与政治动员的独立作用；同样的利益结构在不同国家走出不同路径，说明解释不能只看阶级位置。现实中的对应是今天关于公共服务的争论：各方很少直接谈“给多少”，而是争“谁值得、谁该付”——一旦问题被这样设置，福利就不再是权利，而是需要不断证明自己配得上的交换。",
     "thinking_en": "The welfare system is not a natural result of technology progress, but a product of class struggle. Baldwin argues: welfare systems were not established for the poor, but as a safety net for the middle class politically. When class interests are redefined, welfare becomes no longer a commodity. The welfare state is not a moral achievement, but a political contract.",
     "questions_zh": [
       "福利制度为什么是阶级博弈的产物而不是恩赐？",
@@ -9211,7 +9223,7 @@ The live question is plain: once observable differences are written out one by o
     "key_insight_en": "John Calvin Hall holds that the group's frenzy is not an eventuality, but a structural reconfiguration of emotions. The success of a bubble is not because it is false, but because it offers structured hope.",
     "quote_zh": "",
     "quote_en": "",
-    "thinking_zh": "《大癫狂》把历史上的狂热举动看成一种经济结构机制。群体狂热与商品泡沫一样，都是人类面向希望的结构化产物。它不是偶然主义的产物。泡沫在巅峰被抬高的不是假话，而是希望。",
+    "thinking_zh": "《大癫狂》把历史上的狂热举动看成一种经济结构机制。群体狂热与商品泡沫一样，都是人类面向希望的结构化产物。它不是偶然主义的产物。泡沫在巅峰被抬高的不是假话，而是希望。它解决的问题是：为什么明显不成立的叙事仍能席卷人群——因为它提供的不是事实判断，而是一套把不确定感安放下来的秩序；在混乱中，一个有结构的故事比一个正确的数字更有吸引力。它改变了提问方式：从“人们为什么会相信这种明显的假话”改成“这种叙事替他们处理了哪一种无法承受的不确定性”。可反驳之处在于，把狂热解释为希望的结构化，容易低估欺骗与利益操纵的作用：许多泡沫确实是被有意制造出来的，并不只是自发形成的心理安慰。现实中的对应是每一次投资热潮与舆论风潮：最流行的说法往往不是论证最严密的，而是最能给焦虑提供一个位置、一个时间表和一个同伴的。",
     "thinking_en": "Extraordinary Popular Delusions views the historical frenzy as an economic structural mechanism. Group frenzy, like commodity flooding, is a structured product of humanity facing hope. It is not a product of chance. At the bubble's peak, what is elevated is not falsehood, but hope.",
     "questions_zh": [
       "为什么群体狂热是结构化的而非偶性的？",

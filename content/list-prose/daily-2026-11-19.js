@@ -27,7 +27,7 @@ export const batch = {
         'Where did guilt and moral conscience begin? Can they be re-understood apart from religion?',
         'Have you ever forgotten the power structure behind saying \'right\' without thinking?'
       ],
-    who_should_read_zh: '对权力的起源感兴趣、对“善”和“恶”之间的起源被迷信的人群、对“历史”与“思想”相合成感兴趣的读者。',
+    who_should_read_zh: '适合对道德起源、权力运作与思想史感兴趣的读者，尤其是哲学、社会学、政治理论方向的学生与研究者；也适合已读过《善恶的彼岸》、想看清「谱系学」如何具体操作的人。它要求读者容忍反讽与夸张，不适合寻找一套可直接引用的道德准则的读者。',
     who_should_read_en: 'Readers interested in the origins of power, who are interested in how \'Good and Evil\' is formed, and who are interested in the synthesis of history and thought.',
     reading_note_zh: '尼采的文本依赖隐喻，不适合一次性阅读。可以先读第一篇，对“贵族式道德”与“奴隶式道德”的区分形成整体感受，再进入“禁欲主义理想”和罪疚感的部分。第三篇最为复杂，建议带着一个明确的疑问读：如果良心是历史构造的产物，我们会是怎样？',
     reading_note_en: 'Nietzsche\'s text relies on metaphor and cannot be read in one sitting. It is best to read the first essay to form an overall sense of the contrast between \'aristocratic\' and \'slave\' morality, then proceed to \'ascetic ideal\' and the guilt section. The third is most complex; bring a clear question to it: if conscience is a historical construction, what would we be like?'
@@ -59,7 +59,7 @@ export const batch = {
         'When time passes silently, where do people leave their traces?',
         'Why is it that we only see the meaning of the past in the present, while that seeing is itself already a new loss?'
       ],
-    who_should_read_zh: '对意识流小说、现代主义和文学时间感兴趣的人。也适合那些平时不爱读小说、但愿意看看时间在文字里如何变形的人。',
+    who_should_read_zh: '适合对意识流小说、现代主义与文学时间感兴趣的读者，也适合平时少读小说、却愿意看看时间如何在文字里被压缩与变形的人。若对第二部「时间流逝」的大段留白感到困惑，可先读第一、三部分，再回头读它；喜欢《尤利西斯》或普鲁斯特的人会更容易进入它的节奏。',
     who_should_read_en: 'Those interested in stream of consciousness fiction, modernism and literary time. Also for people who don\'t usually love novels but are willing to see how time takes shape in writing.',
     reading_note_zh: '不要急于读完。伍尔夫的节奏需要停留与回望：在每段意识流过之后，可以停下来问自己人物真正在说的是什么。小说第二部特别短小，篇幅不到全书三分之一，但它是中间最富张力的章节。试着在每一个句子之间感受到时间的重量，读完后再考虑那些被忽略的人物。',
     reading_note_en: 'Do not rush to finish. Woolf\'s rhythm requires stopping and looking back: after each stream of consciousness, pause and ask what the characters are really saying. The second section is particularly short; it is best read in one breath and then slowly closed.'

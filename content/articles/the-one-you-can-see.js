@@ -77,7 +77,7 @@ export const article = {
 
 三条判据自身也有限度，值得一起写下。把生命换算成金额，写明舍弃维度并不等于补偿它；留痕会新增文件负担，也可能诱发表演性关怀，让「登记过」替代「处理过」；频繁调整口径会破坏长期比较，并给操纵留出空间。它们不是打分表，而是三个提醒。
 
-于是可以回到开头的问题。责任之所以不随人数增长，不是因为人数太抽象，而是因为账本里本来就没有那一栏。《贫穷的本质》反复展示的，正是当问题被拆成可测的具体条目时，原本笼统的「穷人」才重新变成能被讨论的对象；而《福利大博弈》提醒的是，谁被算进共同体，本身就是一套制度选择的结果。补上这一栏，人数才开始进入计算。判断一个系统是否可靠，不看它救过谁，而看它能否说清这一次没有为谁做什么、以及为什么。让不作为也留下可审计的痕迹，是唯一不依赖善意的改进。`,
+于是可以回到开头的问题。责任之所以不随人数增长，不是因为人数太抽象，而是因为账本里本来就没有那一栏。《贫穷的本质：我们为什么摆脱不了贫穷》反复展示的，正是当问题被拆成可测的具体条目时，原本笼统的「穷人」才重新变成能被讨论的对象；而《福利大博弈》提醒的是，谁被算进共同体，本身就是一套制度选择的结果。补上这一栏，人数才开始进入计算。判断一个系统是否可靠，不看它救过谁，而看它能否说清这一次没有为谁做什么、以及为什么。让不作为也留下可审计的痕迹，是唯一不依赖善意的改进。`,
   content_en: `## One Person Against a Hundred
 
 A child needs money for an operation. There is a name, a photograph, a diagnosis and a deadline, and the sum is raised within days. In the same period, an infrastructure change that would reduce the same class of risk for far more people stalls, because the case is long, the benefit cannot be attached to anyone in particular, and no one can say when the job will be finished. The difference between the two is not the size of the consequence. It is that the first is a story with an ending.
