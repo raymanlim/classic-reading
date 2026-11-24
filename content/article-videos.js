@@ -103,6 +103,10 @@ export const articleVideos = {
   'the-discipline-that-needs-no-violence': { url: 'https://youtu.be/W4_j9zIwIh4', episode: 41 },
   // 第 42 期（2026-11-22 回填）
   'when-belief-becomes-identity': { url: 'https://youtu.be/rtIUAOsaPsk', episode: 42 },
+  // 第 43 期（2026-11-24 回填）
+  'the-style-is-not-the-signature': { url: 'https://youtu.be/tGKgLga8ask', episode: 43 },
+  // 第 44 期（2026-11-24 回填）
+  'effort-is-an-explanation-not-a-virtue': { url: 'https://youtu.be/9XLWquCItgQ', episode: 44 },
 };
 
 /** 「不做-清单指南类」：明确不会制作视频，永久留空 */

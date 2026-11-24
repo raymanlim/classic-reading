@@ -69,4 +69,6 @@ export const bookVideos = {
   'history-of-the-peloponnesian-war': { url: 'https://youtu.be/L0NV9xpUXkM', episode: '第41期' },
   // 2026-11-23 回填（第42期）
   'the-general-theory': { url: 'https://youtu.be/MczygxZ06bA', episode: '第42期' },
+  // 2026-11-24 回填（第43期）
+  'the-decline-and-fall-of-the-roman-empire': { url: 'https://youtu.be/QROjKoMgVhY', episode: '第43期' },
 };
