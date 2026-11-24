@@ -1,9 +1,9 @@
 # 视频链接映射总表（书籍页 + 文章页）
 
 用途：给经典书库网站的书籍页、文章页回填对应 YouTube 视频链接。按 slug 查找，名称供人工核对。
-更新日期：2026-11-23
+更新日期：2026-11-24
 
-## 一、书籍页（每天一本经典，共 41 本）
+## 一、书籍页（每天一本经典，共 42 本）
 
 页面地址规则：https://classic-reading.pages.dev/zh/books/<书 slug>/
 
@@ -50,8 +50,9 @@
 | meditations | 《沉思录》解读 | 第40期 | https://youtu.be/0diFtFjXMbk |
 | history-of-the-peloponnesian-war | 《伯罗奔尼撒战争史》解读 | 第41期 | https://youtu.be/L0NV9xpUXkM |
 | the-general-theory | 《就业、利息和货币通论》解读 | 第42期 | https://youtu.be/MczygxZ06bA |
+| the-decline-and-fall-of-the-roman-empire | 《罗马帝国衰亡史》解读 | 第43期 | https://youtu.be/QROjKoMgVhY |
 
-## 二、文章页（深度长文解读，共 42 篇已发布）
+## 二、文章页（深度长文解读，共 44 篇已发布）
 
 页面地址规则：https://classic-reading.pages.dev/zh/articles/<文章 slug>/
 
@@ -99,6 +100,8 @@
 | the-inertia-of-the-good | 好的惯性：为什么正确的事物会持续犯错 | 第40期 | https://youtu.be/zUrXmbfOeNY |
 | the-discipline-that-needs-no-violence | 不需要暴力的强制 | 第41期 | https://youtu.be/W4_j9zIwIh4 |
 | when-belief-becomes-identity | 当信念成为身份：为什么纠正一个事实像是攻击一个人 | 第42期 | https://youtu.be/rtIUAOsaPsk |
+| the-style-is-not-the-signature | 风格不是作者的签名 | 第43期 | https://youtu.be/tGKgLga8ask |
+| effort-is-an-explanation-not-a-virtue | 努力是一种解释，不是一种美德 | 第44期 | https://youtu.be/9XLWquCItgQ |
 
 ## 三、待制作（已排期，发布后回填）
 
