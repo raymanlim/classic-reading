@@ -2340,6 +2340,34 @@ export const authors = {
     bio_en: 'A Swiss educational theorist born in Neuchatel in 1952. He took a B.S. and an M.S. in computer science from the University of Geneva and a Ph.D. in information and computer science from the University of California, Irvine in 1990. Originally working on artificial intelligence and tutoring systems, he joined the Institute for Research on Learning under John Seely Brown and turned to Jean Lave\'s fieldwork on apprenticeship among African tailors, developing the theory of communities of practice: Situated Learning: Legitimate Peripheral Participation with Lave in 1991, Communities of Practice: Learning, Meaning, and Identity in 1998, the three modes of belonging in 2000, and Cultivating Communities of Practice with McDermott and Snyder in 2002. His work on Learning for a Small Planet connects technological change directly to learning communities and has been influential in organizational learning and knowledge management. His doctorate came from computer science, which is directly reflected in a learning theory built on participation and structure rather than on symbol processing.',
     ideas_zh: ['知识存在于实践共同体之中，而不是存在于个人的头脑或文件中', '学习是身份的变化：成为共同体的一员，意味着同时获得技能、意义与归属', '三种归属模式：参与、参与方式与想象，解释了新人如何从边缘走向中心', '可被反驳之处：框架对权力、冲突与共同体内部的不平等着墨不多，「知识在共同体中」这一主张在高度流动的远程协作时代面临挑战'],
     ideas_en: ['Knowledge resides in communities of practice, not in individual minds or in documents', 'Learning is a change of identity: becoming a member means acquiring skills, meaning and belonging at once', 'The three modes of belonging - engagement, alignment and imagination - explain how newcomers move from the edge to the centre', 'Refutable: the framework says little about power, conflict and internal inequality, and the claim that knowledge sits in communities is strained in an era of highly mobile, remote collaboration']
+  },
+
+  'mikhail-bulgakov': {
+    name_en: 'Mikhail Bulgakov',
+    name_zh: '米哈伊尔·布尔加科夫',
+    life: '1891-1940',
+    nationality_zh: '俄罗斯（苏联时期）',
+    nationality_en: 'Russian (Soviet)',
+    role_zh: '小说家、剧作家',
+    role_en: 'Novelist and playwright',
+    bio_zh: '俄罗斯小说家与剧作家，1891 年生于基辅，1916 年毕业于基辅大学医学院，曾在第一次世界大战与俄国内战期间行医，1920 年起放弃医学专事写作。代表作有中篇《不祥的蛋》《狗心》、长篇《白卫军》与剧本《图尔宾一家的日子》。《白卫军》改编的剧本获准上演并引发争论，但他的多数作品在此后的审查中遭禁，他本人多次写信申诉。1928 至 1940 年间他持续写作《大师与玛格丽特》，书稿在生前未能完整发表：1966 至 1967 年删节本在《莫斯科》杂志连载，1967 年巴黎 YMCA Press 出版首个单行本，1973 年苏联才推出完整未删节版。他 1940 年在莫斯科病逝。英文维基百科有独立条目 Mikhail Bulgakov 与 The Master and Margarita；后者入选《世界报》「世纪之书」100 种。Salman Rushdie 曾称该书与作者是《撒旦诗篇》的两大影响之一。',
+    bio_en: 'A Russian novelist and playwright, born in Kiev in 1891 and graduated from the medical faculty of Kyiv University in 1916. He practised medicine during the First World War and the Russian Civil War, then abandoned it for writing in 1920. His major works include the novellas The Fatal Eggs and Heart of a Dog, the novel The White Guard and the play The Days of the Turbins, adapted from the novel. The play was permitted on stage and proved controversial, but most of his work was subsequently censored and he repeatedly appealed against the bans. He worked on The Master and Margarita from 1928 until 1940 without seeing it published in full: a censored serial appeared in Moskva in 1966-67, the first book edition followed at YMCA Press in Paris in 1967, and the first uncensored Soviet edition in 1973. He died in Moscow in 1940. English Wikipedia has standalone articles on Mikhail Bulgakov and on The Master and Margarita, the latter included in Le Monde\'s 100 Books of the Century. Salman Rushdie named the book and its author as two of the influences behind The Satanic Verses.',
+    ideas_zh: ['怯懦是最严重的罪：沉默与自保在权力面前不是中立，而是对责任的让渡', '自称理性的机构往往最擅长制造谎言，撒旦反而承担了揭穿虚假的叙事职能', '创作与爱情都是拒绝被没收的自由，代价是放弃安全', '可被反驳之处：善恶的分配过于依赖超自然框架，漫画式讽刺削弱了制度责任的具体性'],
+    ideas_en: ['Cowardice is the gravest sin: silence and self-protection under power are not neutral but a surrender of responsibility', 'Institutions that call themselves rational are often the most accomplished liars, while the Devil carries the narrative function of exposing falsehood', 'Both writing and love are forms of freedom that cannot be confiscated, and both require surrendering safety', 'Refutable: the distribution of good and evil leans too heavily on a supernatural framework, and satirical caricature weakens the specificity of institutional responsibility']
+  },
+
+  'james-c-scott': {
+    name_en: 'James C. Scott',
+    name_zh: '詹姆斯·C·斯科特',
+    life: '1936-2024',
+    nationality_zh: '美国',
+    nationality_en: 'American',
+    role_zh: '政治学家、人类学家、农学研究学者',
+    role_en: 'Political scientist, anthropologist and agrarian studies scholar',
+    bio_zh: '美国政治学家与人类学家，1936 年生，2024 年 7 月 19 日在康涅狄格州达勒姆去世，生前为耶鲁大学政治学斯特林荣休教授、人类学教授，并创办耶鲁农学研究中心并任首任主任。他 1978 至 1980 年在马来西亚一个七十户人家的村庄做了两年田野，写成《弱者的武器：农民反抗的日常形式》（1985），把偷懒、装糊涂、暗中破坏这类「日常抵抗」带进政治学视野。其他代表作包括《农民的道义经济学》（1976）、《国家的视角》（1998）、《支配与抵抗艺术》（1990）、《逃避统治的艺术》（2009）与《作茧自缚》（2017）。2012 年《纽约时报》人物文章称他为「抵抗研究领域的非官方创始人」，称《弱者的武器》「堪称该领域圣经」；2020 年获社会科学研究理事会最高荣誉阿尔伯特·O·赫希曼奖。',
+    bio_en: 'An American political scientist and anthropologist, born in 1936 and died in Durham, Connecticut, on 19 July 2024. At his death he was Sterling Professor Emeritus of Political Science and professor of Anthropology at Yale, and the founding director of Yale\'s Agrarian Studies Center. Between 1978 and 1980 he spent two years doing fieldwork in a seventy-household Malaysian village, producing Weapons of the Weak: Everyday Forms of Peasant Resistance (1985), which brought everyday resistance — foot-dragging, feigned ignorance, covert sabotage — into political science. Other major books include The Moral Economy of the Peasant (1976), Seeing Like a State (1998), Domination and the Arts of Resistance (1990), The Art of Not Being Governed (2009) and Against the Grain (2017). A 2012 New York Times profile described him as the unofficial founder of the field of resistance studies and called Weapons of the Weak a kind of Bible; in 2020 he received the Albert O. Hirschman Prize, the Social Science Research Council\'s highest honour.',
+    ideas_zh: ['国家为使社会「可辨认」而进行的标准化，同时销毁了规划本身所需要的地方知识', '极端现代主义意识形态、独裁的国家能力、软弱的公民社会与行政清晰性四者叠加，使善意的社会工程走向灾难', '米提斯——实践中积累、难以编码的地方技艺——与技术知识同等重要，不能被前者替代', '可被反驳之处：证据选择性强、较少权衡反证；批评者认为集体化的失败首先是激励结构的失败'],
+    ideas_en: ['Standardisation undertaken to make society legible simultaneously destroys the local knowledge the plan itself needs', 'High-modernist ideology, authoritarian state capacity, a weak civil society and administrative legibility together turn benign social engineering into disaster', 'Metis — practical, hard-to-code local know-how — is as important as technical knowledge and cannot be substituted by it', 'Refutable: the evidence is selective and rarely weighs disconfirming material; critics argue that collectivisation failed first and foremost because of incentives']
   }
 };
 
