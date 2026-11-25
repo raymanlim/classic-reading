@@ -71,4 +71,6 @@ export const bookVideos = {
   'the-general-theory': { url: 'https://youtu.be/MczygxZ06bA', episode: '第42期' },
   // 2026-11-24 回填（第43期）
   'the-decline-and-fall-of-the-roman-empire': { url: 'https://youtu.be/QROjKoMgVhY', episode: '第43期' },
+  // 2026-11-25 回填（第44期）
+  'thus-spoke-zarathustra': { url: 'https://youtu.be/nsJMM7yBwy4', episode: '第44期' },
 };

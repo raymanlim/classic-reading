@@ -1,9 +1,9 @@
 # 视频链接映射总表（书籍页 + 文章页）
 
 用途：给经典书库网站的书籍页、文章页回填对应 YouTube 视频链接。按 slug 查找，名称供人工核对。
-更新日期：2026-11-24
+更新日期：2026-11-25
 
-## 一、书籍页（每天一本经典，共 42 本）
+## 一、书籍页（每天一本经典，共 43 本）
 
 页面地址规则：https://classic-reading.pages.dev/zh/books/<书 slug>/
 
@@ -51,6 +51,7 @@
 | history-of-the-peloponnesian-war | 《伯罗奔尼撒战争史》解读 | 第41期 | https://youtu.be/L0NV9xpUXkM |
 | the-general-theory | 《就业、利息和货币通论》解读 | 第42期 | https://youtu.be/MczygxZ06bA |
 | the-decline-and-fall-of-the-roman-empire | 《罗马帝国衰亡史》解读 | 第43期 | https://youtu.be/QROjKoMgVhY |
+| thus-spoke-zarathustra | 《查拉图斯特拉如是说》解读 | 第44期 | https://youtu.be/nsJMM7yBwy4 |
 
 ## 二、文章页（深度长文解读，共 44 篇已发布）
 
