@@ -10033,6 +10033,84 @@ The live question is plain: once observable differences are written out one by o
     answers_en: ['The test has to be observable rather than felt. Can the user modify or refuse the scheduling? Who sets the objective function, and can it be questioned? And when a learner falls outside the assumed profile, does the system lower the difficulty, change the path, or simply mark the learner an anomaly? All three point at the same distinction: negotiable guidance against non-negotiable discipline.', 'On the surface the system tunes the parameters; in fact the person who set them decides what "learning" means. That is the sharpest thing in the novel — once being carefully tended and being prescribed cannot be told apart, engineering education moves authority from the visible teacher into invisible defaults. A learning path should be judged by whether the student can still object to what is being taught, not by how precisely the path fits.', 'At least three. The allocation of the new scarcity — cultural grouping, manners, access — stays in the hands of the existing order, so the disappearance of scarcity does not remove domination. Technical narratives tend to treat politics and economic structure as an appendix, leaving out who owns the compilers and who pays for them. And they treat order as a natural outcome, when order is always designed. That is where the charge of over-strong technological determinism comes from.'],
     topics: ['literature', 'education', 'technology'],
   }
+,
+  {
+    id: 'note-262',
+    slug: 'beloved-memory-that-cannot-be-handed-over',
+    book: 'beloved',
+    date: '2026-11-25',
+    voice: 'editorial',
+    key_insight_zh:
+      '《宠儿》的论点不是奴隶制的暴烈，而是记忆一旦无法用语言交出去，就改用身体承担：赛丝讲不出那场往事，那段历史只能留在她背上的疤、溪边走不掉的脚印，和一个不肯离开的孩子身上。',
+    key_insight_en:
+      'Morrison\'s argument is not about how violent slavery was but about what happens to a memory that cannot be handed over in words: it changes carrier, moving from narrative into the body, from the body into the ground, and into whoever is left carrying it.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '《宠儿》的核心装置不是暴行，而是记忆的传递方式。莫里森造了一个自造词，兼作动词与名词，指的不是回忆，而是记忆的复演：无法被完整想起，却会强制重演。赛丝的说明是，记忆不在人身上，在地方身上。\n\n于是叙述碰到边界。这种记忆说不出：赛丝一开口，成年人几乎同时问她是不是疯了；社区给得出祷告，给不出词。莫里森于是让形式接手——叙述在几个声音之间切换，偶尔出现一段不属于任何人的口吻，用第三人称说「她」，由旁观者的语言拼起，顶替那句说不出口的话。\n\n关键在身体。赛丝看不见背后的疤；读背的是另外两人——保罗·D读成一件铁匠的装饰品，艾米读成一棵开花的野樱树。赛丝选了后者，因为那棵树还活着：同一组痕迹，两种读法。身体不是被动档案，而是待解读的文本。校长的账本要求孩子列出身上的「动物特征」，塞丝当年的反抗正在这里：不写，就不会被写进去。\n\n这套读法也有代价。莫里森说明，记忆的复演不是超自然事件，而是被创伤重新激活时的感官强度：可以被感觉、被看见、可以走进去。若把它读成纯粹象征，这本书就会退成一篇关于创伤代际传递的论文，重复了它拒绝的可概括性。\n\n它改变的是提问的方式。被语言交不出去的记忆不会消失，只是换了载体：从叙述转到身体，从身体转到地点。书的沉默不是空的，沉默有位置。一份摘要或书单的价值不在于说了什么，而在于有没有把那个位置指出来——被概括掉的从来不是结论，是位置。',
+    thinking_en:
+      'The central device of Beloved is not the violence but the way memory travels. Morrison coins a term, used as verb and noun, for something other than recollection: memory as re-enactment, which cannot be recalled in full yet compels repetition. Sethe places it in the place rather than the person, where arriving and standing makes it happen again.\n\nNarrative hits the boundary of its reach. This memory cannot be spoken: when Sethe opens her mouth, the adults present ask almost in unison whether she has gone mad. The community can supply encirclement and prayer; it cannot supply a word. Morrison hands the work to form instead — narrators shifting, tenses sliding, passages in a voice belonging to no one.\n\nThe body is the decisive evidence. Sethe cannot see the scar on her back; two others read it for her. Paul D reads it as an ornament an ironsmith made too passionately to display; Amy reads it as a chokecherry tree in bloom. Sethe keeps the second, because that tree is still alive. A body, it turns out, is not a passive archive but a text awaiting interpretation.\n\nThere is a cost to this reading. Morrison repeatedly explains that the re-enactment is not supernatural but a sensory intensity triggered in body and place by trauma: it can be felt, seen and stepped into. Read as pure symbol, the novel decays into a paper on the transmission of trauma, repeating the summarability it refuses.\n\nWhat the novel changes is the shape of the question. A memory that cannot be handed over in language does not vanish; it changes carrier, moving from narrative to body, from body to place, from place to whoever is left holding it. The silence of a book is not empty; silence has a position.',
+    questions_zh: [
+      '赛丝背上的疤被两个人读成两种东西，一种被接受、一种被退回；这说明身体是档案还是文本？证据在小说里是哪几处？',
+      '「记忆的复演」与普通的回忆差别在哪里？如果记忆可以走在通往身体与地点的路上，那么「记录」还剩下什么作用？',
+      '把这本书处理成一篇关于创伤代际传递的论文，会丢掉哪一部分？这样的处理符合作者的方法吗？'
+    ],
+    questions_en: [
+      'Two people read the same scar on the same back, and one reading is accepted while the other is returned. Does that make the body an archive or a text, and where in the novel is the evidence?',
+      'Where does re-enactment differ from ordinary recollection, and if a memory can travel by way of the body and the place, what work is left for the record?',
+      'Turning this novel into a paper on the intergenerational transmission of trauma loses which part of it, and is that treatment consistent with the method the book itself uses?'
+    ],
+    answers_zh: [
+      '是文本，不是档案。档案是被动的、可被誊写的；文本需要解读者，而解读权在别人手里。小说里的证据至少有四处：艾米与保罗·D 给出相反的读法而赛丝只接受一种；赛丝看不见背后的伤疤；校长的账本要求孩子列出身上的动物特征；以及结尾那一段走不掉的脚印。身体从来没有属于自己的读法。',
+      '差别在方向：回忆指向过去，复演在当下重演过去，而且触发点不在头脑里，而在身体与地点上。既然如此，记录就只能保存事实与时序，无法保存那件事在一个人身上造成的形状。记录能留下证据，留不下后果；能证明发生过，不能证明被发生了什么。',
+      '会丢掉整本书的形式。它处理创伤的方式恰恰是展示不可概括性本身：无法被说出的部分被交给碎片、时态切换与沉默来承担。若把整本书整理成一个代际传递的论点，形式所示范的东西就被论点取消了——等于把书读成了它所反对的那种东西。'
+    ],
+    answers_en: [
+      'A text, not an archive. An archive is passive and can be copied out; a text requires an interpreter, and the right of interpretation belongs to someone else. There are at least four pieces of evidence: Amy and Paul D give opposite readings and Sethe keeps one; Sethe cannot see the scar; the schoolteacher demands that children list the animal characteristics of their bodies; and the footprints at the end that refuse to be walked away. A body never has a reading of its own.',
+      'The difference is direction. Recollection points back; re-enactment performs the past in the present, and its trigger is not located in the mind but in the body and the place. If that holds, the record can preserve facts and sequence but not the shape the event took in a particular person. The record keeps the evidence and loses the consequence: it can prove that something happened, never what it did to someone.',
+      'It loses the form of the entire book. The way this novel handles trauma is by displaying unsummarisability itself: what cannot be spoken is handed to fragments, tense shifts and silence. Reduce the novel to a thesis about transmission and the form cancels exactly what the form demonstrates — the book has been read as the very thing it argues against.'
+    ],
+    topics: ['literature', 'history', 'cognitive-science']
+  }
+,
+  {
+    id: 'note-263',
+    slug: 'the-world-as-will-and-representation-what-knowledge-cannot-reach',
+    book: 'the-world-as-will-and-representation',
+    date: '2026-11-25',
+    voice: 'editorial',
+    key_insight_zh:
+      '《作为意志和表象的世界》的真正赌注不是悲观，而是两个并行的断言：人同时是表象与意志，凡是能被知识说明的部分都不完整；知识越发达，意志那一层就越无法被交出去。',
+    key_insight_en:
+      'Schopenhauer\'s wager is not pessimism but two parallel claims: human beings are representation and will at once, and whatever knowledge can account for is thereby incomplete. The more articulate knowledge grows, the less of the will can be handed over in words.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的基本构造是两卷对照：《表象》讲世界如何被认识，《意志》讲此后还剩下什么。前者讲认识的形式，后者讲欲望与恐惧。多数哲学说人兼有理性与非理性，叔本华更进一步：两者不是一个人的两副心肠，而是同一件事的两种呈现。\n\n所谓四重否定，是把世界从因果、动机、时间与存在的连续性里剥离，直到剩下的东西不再有内容。那个空名字，就是意志。力量与危险同源：它把意志安置在证明无法企及处，因此既不可反驳，也无法被检验。\n\n叔本华没有停在绝望上，而给出两条出路。审美观照让人暂时跳出意志，因为美意味着对象不服务于目的，艺术成了通向解脱的窄门。更宽的一条是禁欲：主动放弃欲望，而非被动看破。康德的道德被他斥为意志的另一种伪装：立起「应当」，只是把匮乏换了位置。\n\n这本书今天的问题必须承认。悲观论断已经成了共识：「人不会死于满足而死于追求」如今像格言而不像指控。更严重的是《论女性》——把女性描述成意志的客观化，是书里最薄弱也最难辩护的部分。还有一层：四重否定是哲学构造而不是发现，当作事实会滑向宿命论；把意志设定为应当被克服的对象，又重蹈他批判过的道德说教。\n\n但它仍留下两个清醒的判断。其一，它把知识与物的关系写成了清楚的形式：能被说明的部分与被说明的部分之间，差距不靠更多知识来填。其二，它演示了一部书最容易被抛弃的部分，往往最该被审查：当悲观的结论已变成共识，剩下的批判性就会压到最不被争论的那一节上。',
+    thinking_en:
+      'The book is built as a two-part contrast: one volume sets out how the world is known, the other what remains once it has been known. The first handles the forms of cognition; the second handles desire, fear and aimless striving. Most philosophy says human beings have a rational and an irrational side. Schopenhauer goes further.\n\nThe famous quadruple negation strips the world of cause, motive, time and continuity of being until what remains has no content and can no longer be named. The empty name left over is the will. The strength and the danger are the same thing: it places the will where proof cannot reach, and therefore where neither refutation nor verification is possible.\n\nNor does Schopenhauer stop at despair. Two exits are offered. Aesthetic contemplation suspends the will, because beauty means an object serving no purpose, which makes art a narrow door towards deliverance. The wider door is asceticism, the giving up of desire rather than the mere seeing through it. Kantian morality is dismissed as another disguise of the will.\n\nThe limits are worth stating. The pessimism has become consensus, and the observation that people die from pursuit rather than from satisfaction now reads as a maxim rather than an accusation. Worse, the essay on women describes them as an objectification of the will, and that section is both the weakest and the least defensible part of the book. The quadruple negation is a construction rather than a discovery: treated as fact it slides into fatalism.\n\nTwo judgements survive. First, the book gives the relation between knowledge and things a precise form: the gap between what can be explained and what is being explained is not closed by adding more knowledge. Second, it demonstrates that the part of a book most easily discarded is often the part most in need of scrutiny.',
+    questions_zh: [
+      '四重否定的作用是把意志安置在不可证明之处，这样做是诚实的克制，还是把一个哲学构造伪装成了发现？判据可以是什么？',
+      '《论女性》把女性描述成意志的客观化；如果这本书的核心论证成立，这个结论是逻辑推出的，还是别处的成见在结论处显形？',
+      '当「人不会死于满足而死于追求」成为共识，这句话还剩下什么？悲观论断一旦被广泛接受，它就不再能承担批判的功能，这时一本书还能提供什么？'
+    ],
+    questions_en: [
+      'The quadruple negation places the will where proof cannot reach. Is that honest restraint, or does it pass off a philosophical construction as a discovery, and what would the test be?',
+      'The essay on women describes women as an objectification of the will. If the central argument of the book holds, does that conclusion follow logically, or does a bias elsewhere in the system show through at the conclusion?',
+      'Once the observation that people die from pursuit rather than from satisfaction has become consensus, what is left of it? A pessimistic claim that everyone accepts can no longer do critical work. What can the book still offer?'
+    ],
+    answers_zh: [
+      '两种可能都有，判据在于是否交代了这条路径的代价。交代了就仍然是哲学构造，没有交代就滑向事实宣称。这本书里最诚实的一步恰恰出现在最后：最高善无法在有限存在者身上实现，它把这份不可知标在主体自身这一侧，而不是标在他人身上。',
+      '不是逻辑推出的，而是别处的成见在结论处显形。一套把意志说成无目的、无差别、无内容的形而上学，要推出关于任何人群的差别结论都需要额外前提，而书里没有给出。更关键的是，同一套论证在方法上无法区分人的差别，只能描述共性——它缺少能产生差别的零件。',
+      '剩下的不是宿命的版本，而是审查的对象。当一项批判已经变成共识，它就不再批判任何东西，于是它唯一还能做的事是暴露自身：谁在说、说了多少次、在什么场合说、哪些人从来没有被这个批判覆盖到。这本书的性别那一节，恰好是这种自身暴露最彻底的部分。'
+    ],
+    answers_en: [
+      'Both readings are possible, and the test is whether the cost of the path is stated. If it is stated, the argument remains a philosophical construction; if it is not, it slides into an assertion of fact. The most honest step in the book comes at the very end: since the highest good cannot be realised by a finite being, the unknowable is marked on the subject side rather than imposed on everyone else.',
+      'It does not follow logically; a bias elsewhere in the system shows through at the conclusion. A metaphysics that describes the will as aimless, undifferentiated and contentless requires extra premises to derive any claim about a group of people, and the book supplies none. More tellingly, the same argument cannot distinguish people at all, since it can only describe what is common to them; it lacks the part that would produce difference.',
+      'What remains is not a more fatalistic version but an object of scrutiny. Once a critique has become consensus it no longer criticises anything, and the only thing left for it to do is to expose itself: who says it, how often, on what occasions, and which people the critique has never once reached. The section on gender is precisely where this book exposes itself most thoroughly.'
+    ],
+    topics: ['philosophy', 'cognitive-science', 'existentialism']
+  }
 ];
 
 export default notes;
