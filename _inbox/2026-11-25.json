@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-25",
+  "books": [
+    {
+      "slug": "how-we-became-posthuman",
+      "category": "ai",
+      "title_zh": "我们何以成为后人类",
+      "title_en": "How We Became Posthuman: Virtual Bodies in Cybernetics, Literature, and Informatics",
+      "author": "n-katherine-hayles",
+      "author_zh": "N. 凯瑟琳·海勒",
+      "author_en": "N. Katherine Hayles",
+      "nationality_zh": "美国",
+      "nationality_en": "American",
+      "year": 1999,
+      "original_language": "en",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "信息如何失去身体：从控制论到后人类主体的技术史与思想史",
+      "theme_en": "How information lost its body: the technical and intellectual history from cybernetics to the posthuman subject",
+      "tags": ["ai", "computing", "consciousness", "cognitive-science", "philosophy", "critical-thinking"],
+      "topics": ["ai", "computing", "cognitive-science", "philosophy", "modern-society"],
+      "prose": {
+        "description_zh": "1999 年由芝加哥大学出版社出版的学术专著，作者追踪三条相互交织的线索：信息如何失去它的身体，赛博人形象在文化观念与技术建构中的形成，以及控制论对自由主义人文主义主体的消解。全书从二战后纽约的梅西控制论会议讲起，经维纳的控制论焦虑、伯纳德·沃尔夫 1952 年的小说《Limbo》、菲利普·迪克 1960 年代的反乌托邦叙事，一路写到人工生命研究，最后提出「半符号方框」这一分析工具，用以刻画同一套符号系统同时具有建构与解构两重运作方式的方式。海勒要回答的不是机器能否思考，而是：把思维设想成脱离身体的信息处理，必须先抹去、遗忘并掩盖什么？她的结论是所谓后人类并非人类的消失，而是「自主个体」这一自由主义人文主义假设的终结——主体从来就是由异质成分持续拼接而成。",
+        "description_en": "A scholarly monograph published by the University of Chicago Press in 1999, the book pursues three interwoven threads: how information lost its body, how the cyborg was constructed in cultural imagination and technical practice, and how cybernetics dismantled the liberal humanist subject. Beginning with the Macy Conferences on cybernetics in postwar New York, it moves through Norbert Wiener's anxiety about control, Bernard Wolfe's 1952 novel Limbo, Philip K. Dick's dystopian fiction of the 1960s, and finally to artificial life research, closing with the semiotic square as an instrument for describing how a symbolic system operates constructively and deconstructively at once. Hayles is not asking whether machines can think. She is asking what had to be erased, forgotten and elided in order to conceive of thought as disembodied information processing. Her answer is that the posthuman does not mean the end of humanity but the end of a particular liberal-humanist assumption of the autonomous individual: the subject was always a heterogeneous composite, continuously rebuilding its own boundaries.",
+        "why_read_zh": "它真正提供的是一套可迁移的追问工具：每当「智能」「意识」「上传」「数字生命」这些词在技术讨论中出现，可以立刻反问一句——这里预设的「身体」是什么？被排除掉的是什么？海勒给出的框架是具身性的：信息的物质载体不是实现的偶然细节，而是决定其意义的前提。这个反直觉的结论在今天尤具分量，因为生成式模型与大模型正在把「语言可脱离身体与经验独立处理」从隐含假设变成工程现实。本书也明确可被反驳：评论者批评其行文艰深、部分术语含混，女性主义学者进一步指出它以「物质的物理实在」对抗「话语建构」时，同样默认了一个未经论证的本体论优先性；另有学者认为它高估了控制论对人文主义的解构能力。这些反对意见本身构成了阅读价值——它训练的不是结论，而是如何把一次技术叙事拆成可争论的层次。经典性证据（命中 3 项）：① 英文维基百科有独立书籍条目 How We Became Posthuman，载明 1999 年由芝加哥大学出版社首版、366 页、ISBN 978-0-226-32146-2，信息框并列「René Wellek Prize (2000)」；② 权威奖项：该书获美国比较文学协会 2000 年勒内·韦勒克奖（René Wellek Prize，年度最佳比较文学著作），并获科幻研究协会伊顿奖（Eaton Award，最佳科幻理论批评著作），两项均在维基条目「Awards」章节与作者官方简介中明确记载；③ 大学课程必读书：杜伦大学官方学者页面对该书的说明写明「It has been adopted as a textbook in courses throughout North America, Europe and the U.K.」，作者本人亦称其为后人类研究的奠基文本。未计入项：豆瓣读书中文版《我们何以成为后人类》（北京大学出版社 2017 年版，刘宇清译）评分 7.9、836 人评价，评分未达 8.5 门槛，故不计入豆瓣项；Goodreads 英文版评分 4.08、913 人评分，评分人数未达 5000 门槛，故不计入 Goodreads 项；Google Scholar 引用数与微信读书推荐值本次未取得可核验数值，不计入、不编造。时间检验：1999 年首版，至 2026-11-25 已满 27 年，远超 ≥5 年门槛。",
+        "why_read_en": "What the book supplies is a portable instrument of interrogation: whenever intelligent, consciousness, uploading or digital life enters a technical discussion, one can immediately ask what body is being presupposed here, and what has been excluded. Hayles's framework is one of embodiment. The material carrier of information is not an incidental detail of implementation but a precondition of its meaning. That counterintuitive conclusion lands with unusual force today, as generative models and large language models turn the assumption that language can be processed independently of body and experience from an implicit premise into an engineering reality. The book is also plainly open to objection. Reviewers fault its difficulty and the imprecision of some of its terminology around the body; feminist critics go further, arguing that in setting material physical reality against discourse it smuggles in an unargued ontological priority; others think it overstates how far cybernetics actually dismantled humanism. Those objections are part of its value, because what it trains is not a conclusion but a way of taking a technical narrative apart into arguable layers. Classic evidence (three items matched): (1) a standalone English Wikipedia article, How We Became Posthuman, recording the 1999 University of Chicago Press first edition, 366 pages, ISBN 978-0-226-32146-2, with René Wellek Prize (2000) listed in the infobox; (2) authoritative awards — the book won the American Comparative Literature Association's René Wellek Prize in 2000 for the best book published in the field of comparative literature, and the Eaton Award for the best book in science fiction theory and criticism, both recorded in the article's Awards section and in the author's official faculty biography; (3) university course adoption — Durham University's official scholar page states that it has been adopted as a textbook in courses throughout North America, Europe and the U.K., and the author herself calls it the founding text for posthuman studies. Not counted: the Chinese edition, translated by Liu Yuqing (Peking University Press, 2017), scores 7.9 on Douban from 836 raters, below the 8.5 threshold, so the Douban item is not claimed; the English edition on Goodreads stands at 4.08 from 913 ratings, below the 5,000-rating threshold, so the Goodreads item is not claimed; no verifiable Google Scholar citation count or WeChat Reading value was obtained. Age test: first published in 1999, 27 years before 2026-11-25, well beyond the five-year threshold.",
+        "core_ideas_zh": [
+          "信息不能脱离物质载体独立存在：把思维等同于脱离身体的信息处理，是一次需要被解释的历史构造，而不是不言自明的前提",
+          "后人类不是人类的消亡，而是「自主个体」这一自由主义人文主义假设的终结；主体始终是由异质成分持续拼接、不断重建边界的构造",
+          "半符号方框：同一套符号系统同时具有建构与解构两重运作方式，可用模式化与随机性的配比来刻画其运作机制",
+          "可被反驳之处：术语艰深含混；以物质的物理实在对抗话语建构时，可能只是换了一个未经论证的本体论优先性"
+        ],
+        "core_ideas_en": [
+          "Information cannot exist apart from its material carrier: treating thought as disembodied information processing is a historical construction requiring explanation, not a self-evident premise",
+          "Posthumanism is not the end of humanity but the end of a particular liberal-humanist assumption of the autonomous individual; the subject was always a heterogeneous composite continuously rebuilding its own boundaries",
+          "The semiotic square: a symbolic system operates constructively and deconstructively at once, and its mechanics can be characterised by the proportion of pattern to randomness",
+          "Refutable: the terminology is dense and imprecise, and answering discourse with material physical reality may only substitute one unargued ontological priority for another"
+        ],
+        "key_questions_zh": [
+          "要把思维设想成可脱离身体的信息处理，必须先抹去、遗忘并掩盖掉什么？",
+          "为什么「信息」这一概念在二十世纪被当作无重量的中性实体，而在二十一世纪它又重新变得昂贵？",
+          "当身体既是认知的限制条件又是认知的构成条件时，我们该用什么标准评价一个自动系统的「理解」？"
+        ],
+        "key_questions_en": [
+          "What had to be erased, forgotten and elided in order to conceive of thought as disembodied information processing?",
+          "Why was the concept of information treated in the twentieth century as a weightless neutral entity, and why has it become expensive again in the twenty-first?",
+          "If the body is both a limit on cognition and a constituent of it, by what standard should we judge an automated system's understanding?"
+        ],
+        "who_should_read_zh": "适合做 AI 技术判断的读者：产品负责人、算法工程师、政策研究者，以及任何要在「模型能力」与「模型嵌入何种社会条件」之间划线的人。也适合修读媒介研究、STS 或科学史的研究生——它给出的追问顺序可以直接改写你的研究问题。缺点是文字确实艰深，建议配合导论与第 3、7 两章的提要先行阅读。不适合把它当作「后人类主义速通」的人：这本书的价值恰恰在于它拒绝速通。",
+        "who_should_read_en": "For readers who make judgements about AI: product leads, algorithm engineers, policy researchers, and anyone trying to draw a line between what a model can do and what social conditions it is embedded in. Also for graduate students in media studies, science and technology studies, or the history of science, whose research questions this book can rewrite through its order of questioning. The prose is genuinely difficult, so begin with the introduction and skim the summaries of chapters three and seven. It is not a quick route into posthumanism, and its value lies precisely in refusing to be one.",
+        "reading_note_zh": "建议先读导论与第 3 章（梅西会议与控制论），再读第 7 章（菲利普·迪克的边界工作），这两处是全书论证的骨架；第 4 章「自由主体性的危机」处理维纳，是概念最吃紧的一段，值得逐句读。半符号方框在第 1 章末给出，可先跳过，等读完后再回头看它如何把前面的材料收拢成工具。中文版用北京大学出版社 2017 年刘宇清译本；读完可接续读作者的《我如何思考》（How We Think），看她如何把同一套框架用于当代注意力经济。",
+        "reading_note_en": "Start with the introduction and chapter three on the Macy Conferences, then read chapter seven on boundary work in the mid-sixties novels; these form the spine of the argument. Chapter four, on the crisis of liberal subjectivity, is the most conceptually demanding passage and is worth reading sentence by sentence. The semiotic square appears at the end of chapter one and can be skipped on a first pass, then revisited to see how it gathers the preceding material into a usable instrument. The Chinese translation by Liu Yuqing (Peking University Press, 2017) is serviceable; follow it with the author's How We Think to see the same framework applied to the contemporary attention economy."
+      }
+    },
+    {
+      "slug": "the-prince",
+      "category": "philosophy",
+      "title_zh": "君主论",
+      "title_en": "The Prince",
+      "author": "niccolo-machiavelli",
+      "author_zh": "尼可罗·马基雅维利",
+      "author_en": "Niccolò Machiavelli",
+      "nationality_zh": "意大利",
+      "nationality_en": "Italian",
+      "year": 1532,
+      "original_language": "it",
+      "list_category_zh": "每日推荐",
+      "list_category_en": "Daily Pick",
+      "theme_zh": "政治与道德的分离：有效性与合法性之间的两难，以及不可回避的判断",
+      "theme_en": "The separation of politics from morality: the dilemma between effectiveness and legitimacy, and the judgement that cannot be evaded",
+      "tags": ["philosophy", "power", "politics", "institutions", "classics", "critical-thinking"],
+      "topics": ["philosophy", "power-and-politics", "history", "decision-making"],
+      "prose": {
+        "description_zh": "马基雅维利 1513 年写就、1532 年在其身后由 Antonio Blado d'Asola 印行的政治论著作，全书二十六章，形式上是一份写给新君主的操作指南。核心议题是：君主应如何取得并维持一个新生政体。他逐一讨论君主国的不同类型、扩张与兼并、怎样避免被阴谋推翻、如何评价一位君主的名声，并提出两条最著名的判断——被畏惧比被爱戴更安全，因为爱戴依赖恩惠而恩惠一旦停止就转为怨恨；以及必须看上去有德，但不必真的按德的规则行事，因为世界是人组成的，靠表象运转。全书以「命运与人力」的对照收尾：决定性的局面由外部偶然性造成，对抗它的方式不是等待好运，而是掌握自己的地盘并避免让Fortuna 有可乘之机。",
+        "description_en": "A political treatise composed by Machiavelli in 1513 and printed posthumously in 1532 by Antonio Blado d'Asola, The Prince runs to twenty-six chapters and takes the form of an instruction guide for a new prince. Its central question is how a prince acquires and holds a newly acquired principality. Machiavelli works through the different types of principality, expansion and annexation, how to forestall conspiracies, how a ruler's reputation should be judged, and produces his two most quoted judgements: that it is safer to be feared than loved, since love depends on benefits whose withdrawal turns into hatred; and that a prince must appear virtuous without actually having to act by the rules of virtue, because the world is made of men and runs on appearances. The book closes by setting fortune against human effort: decisive situations are made by external contingency, and the response is not to wait for luck but to hold one's own ground and deny Fortune an opening.",
+        "why_read_zh": "它提供的是一套可迁移的政治判断框架：面对任何权力位置，可以先分开「有效」与「正当」两个评价轴，再问决策者是在为自己还是在为共同体做局。最反直觉的地方在于，它并不主张统治者是坏人，而主张统治者与道德评价分属两套系统——一位以有效性为唯一标准行事的君主，在道德上仍可能是爱国的、务实的、被历史肯定的。这迫使读者改变提问方式：不问「该不该这样做」，而问「在什么处境下、以什么代价、换取了什么」。它同时明确可被反驳：昆廷·斯金纳的语文学研究指出，把马基雅维利读成纯粹的道德虚无主义者是后世的误读，他本人的共和倾向被长期忽视；帕特里克·布歇隆在《教人恐惧的艺术》中主张，这本书更像是对暴政的警告而非操作手册。此外，把政治从道德中彻底剥离之后，如何避免为任意强权提供技术性背书，正是本书始终没有回答的问题。经典性证据（命中 3 项）：① 豆瓣读书中文版《君主论》（潘汉典译，商务印书馆 2005 年版）评分 8.7、22,455 人评价，达到「评分 ≥8.5 且评价人数 ≥1000」门槛；② 英文维基百科有独立书籍条目 The Prince，载明 1532 年由 Antonio Blado d'Asola 出版、原始题名为 De Principatibus，写作始于 1513 年，并在 Influence 章节记述 1559 年被列入教宗保罗四世《禁书目录》；③ 权威书评媒体长评：《纽约书评》（New York Review of Books）2020 年 10 月 22 日刊出 Tim Parks 的书评 Whatever It Takes，其中引述帕特里克·布歇隆对本书「整个纲领就是要把政治行动与常规道德脱钩」的概括，并记录了狄德罗与卢梭两种相反解读的争论；此外牛津大学出版社的教材资源 Key Thinker: Niccolo Machiavelli 以本书为主体组织全篇章节。未计入项：豆瓣读书其他版本评分与评价人数随版本与时间变动（另检索到 8.5 分 1,304 人、9.1 分 145 人、8.5 分 1,691 人等快照），统一以人数最多的商务印书馆 2005 年版为口径，不并用其他版本数据；Goodreads 评分与评分人数、微信读书推荐值本次未取得可核验数值，不计入、不编造；本书所获具体奖项未取得可核验信息，不计入。时间检验：1513 年撰成、1532 年首次印行，至 2026-11-25 已满 494 年，远超 ≥5 年门槛。",
+        "why_read_en": "What it supplies is a portable political framework. Facing any position of power, one can first separate effectiveness from legitimacy as two distinct axes of evaluation, and then ask whether the decision-maker is serving himself or the community. Its most counterintuitive move is that it does not make the ruler a villain; it makes the ruler and the moral verdict belong to different systems, so that a prince acting on effectiveness alone may still turn out to be patriotic, pragmatic and vindicated by history. This forces a different question: not whether something should be done, but in what situation, at what cost, and in exchange for what. It is also plainly open to objection. Quentin Skinner's philological work argues that reading Machiavelli as a pure amoralist is a later misreading that neglects his republican commitments, while Patrick Boucheron, in The Art of Teaching People What to Fear, argues that the book is closer to a warning against tyranny than a manual for tyranny. And the question the book never answers is how to prevent a fully detached politics from providing technical cover to arbitrary power. Classic evidence (three items matched): (1) the Chinese edition of The Prince, translated by Pan Handian (Commercial Press, 2005), scores 8.7 on Douban from 22,455 raters, clearing the 8.5-and-1,000 bar; (2) a standalone English Wikipedia article, The Prince, recording the 1532 publication by Antonio Blado d'Asola, the original title De Principatibus, the composition beginning in 1513, and, in its Influence section, the listing of the work on the Index of Paul IV in 1559; (3) a long review in authoritative press — The New York Review of Books, 22 October 2020, Tim Parks's Whatever It Takes, which quotes Patrick Boucheron's summary that the book's whole program is to uncouple political action from conventional morality and sets out the opposed readings of Diderot and Rousseau. The textbook resource Key Thinker: Niccolo Machiavelli from Oxford University Press is additionally organised around this book. Not counted: Douban scores and rater counts for other editions vary with edition and date (snapshots of 8.5 from 1,304, 9.1 from 145 and 8.5 from 1,691 were also retrieved), and the single edition with the largest rater count is used as the basis instead of pooling; no verifiable Goodreads score, rating count or WeChat Reading value was obtained; no specific award for the book was verified. Age test: composed in 1513 and first printed in 1532, 494 years before 2026-11-25, well beyond the five-year threshold.",
+        "core_ideas_zh": [
+          "政治判断与道德判断可以分离：一位以有效性为唯一标准行事的君主，在道德评价上仍可能是爱国而务实的",
+          "畏惧优于爱戴：爱戴依赖恩惠维系，而恩惠一旦停止便转为怨恨，因此必须避免被憎恨",
+          "外表与实质的分离：君主不必真有德行，但必须让人看上去有德，因为世界由人组成并靠表象运转",
+          "命运与人力：决定性局面由外部偶然性造成，可控的不是运气本身，而是自己的地盘与不留给偶然的空隙"
+        ],
+        "core_ideas_en": [
+          "Political and moral judgement can be separated: a prince who acts on effectiveness alone may still prove patriotic and pragmatic in moral terms",
+          "Being feared is safer than being loved, because love rests on benefits, and benefits withheld turn into hatred, so one must above all avoid being hated",
+          "The separation of appearance from substance: a prince need not actually be virtuous but must appear to be, because the world is made of men and runs on appearances",
+          "Fortune and effort: decisive situations are made by external contingency, and what remains controllable is not luck itself but one's own ground and the refusal to leave fortune an opening"
+        ],
+        "key_questions_zh": [
+          "当有效性要求与正当性要求冲突时，判断者应当以哪一套标准为准，这套冲突本身能否被消解？",
+          "如果评价权与被评价者共享同一套术语与利益，「被畏惧比被爱戴更好」这类结论还成立吗？",
+          "一部把政治从道德中剥离出来的书，如何避免沦为任何强权的技术性背书？"
+        ],
+        "key_questions_en": [
+          "When effectiveness and legitimacy conflict, which standard should govern judgement, and can that conflict itself be dissolved?",
+          "If the evaluator shares the vocabulary and the interests of the evaluated, does a claim like it being safer to be feared than loved still hold?",
+          "How does a book that separates politics from morality avoid becoming technical cover for arbitrary power?"
+        ],
+        "who_should_read_zh": "适合所有被要求在不确定条件下作出取舍的人：管理者、组织负责人、战略与政策分析者，以及关心组织如何处理伦理冲突的读者。它也能帮读者识别一种常见的语言——用 effectiveness 包装不正当，用稳定包装服从，用「现实」回避追问。阅读门槛低但陷阱不低：文字只有约七万字，却极容易被读成一部权术手册，因此最好与《论李维》对照读，看同一位作者在共和论述中给出的另一套主张。",
+        "who_should_read_en": "For anyone required to choose between options under uncertainty: managers, organisation leaders, strategy and policy analysts, and readers concerned with how organisations handle ethical conflict. It also helps identify a common idiom, effectiveness deployed to package the improper, stability deployed to package submission, realism used to decline the question. The threshold is low but the trap is not, since at roughly seventy thousand characters the book is easily mistaken for a manual of cunning, so it is best read against the Discourses on Livy, where the same author sets out a republican counter-case.",
+        "reading_note_zh": "建议按「先框架后细节」的顺序读：第一遍只读第 1、8、15、16、17、19、25、26 章，勾出「畏惧」「表象」「命运与人力」三组关键词，形成全书骨架；第二遍再补读军事与教廷两章（第 11 至 14 章），这是全书最枯燥也最见作者实务经验的部分。中文版可用潘汉典译、商务印书馆「汉译世界学术名著丛书」本；读完务必接读《论李维》，尤其第 2 至第 5 章，那里保留了马基雅维利对共和与公民美德的正面论述，可校正单独读《君主论》造成的印象偏差。",
+        "reading_note_en": "Read framework first and detail second. On a first pass read only chapters 1, 8, 15, 16, 17, 19, 25 and 26, marking the three clusters of keywords: being feared, appearance, and fortune against human effort. A second pass should cover the chapters on the church and on armies, 11 through 14, which are the driest but show the author's practical experience most plainly. Pan Handian's translation in the Commercial Press Chinese Collected Works of World Academic Masterpieces is a solid choice. Afterwards, read the Discourses on Livy, especially chapters two to five, which preserve Machiavelli's positive account of republican freedom and civic virtue and correct the impression left by The Prince alone."
+      }
+    }
+  ]
+}
