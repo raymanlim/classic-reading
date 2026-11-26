@@ -1,9 +1,9 @@
 # 视频链接映射总表（书籍页 + 文章页）
 
 用途：给经典书库网站的书籍页、文章页回填对应 YouTube 视频链接。按 slug 查找，名称供人工核对。
-更新日期：2026-11-25
+更新日期：2026-11-26
 
-## 一、书籍页（每天一本经典，共 43 本）
+## 一、书籍页（每天一本经典，共 44 本）
 
 页面地址规则：https://classic-reading.pages.dev/zh/books/<书 slug>/
 
@@ -52,8 +52,9 @@
 | the-general-theory | 《就业、利息和货币通论》解读 | 第42期 | https://youtu.be/MczygxZ06bA |
 | the-decline-and-fall-of-the-roman-empire | 《罗马帝国衰亡史》解读 | 第43期 | https://youtu.be/QROjKoMgVhY |
 | thus-spoke-zarathustra | 《查拉图斯特拉如是说》解读 | 第44期 | https://youtu.be/nsJMM7yBwy4 |
+| leviathan | 《利维坦》解读 | 第45期 | https://youtu.be/MnhY3ecGfKw |
 
-## 二、文章页（深度长文解读，共 44 篇已发布）
+## 二、文章页（深度长文解读，共 45 篇已发布）
 
 页面地址规则：https://classic-reading.pages.dev/zh/articles/<文章 slug>/
 
@@ -103,6 +104,7 @@
 | when-belief-becomes-identity | 当信念成为身份：为什么纠正一个事实像是攻击一个人 | 第42期 | https://youtu.be/rtIUAOsaPsk |
 | the-style-is-not-the-signature | 风格不是作者的签名 | 第43期 | https://youtu.be/tGKgLga8ask |
 | effort-is-an-explanation-not-a-virtue | 努力是一种解释，不是一种美德 | 第44期 | https://youtu.be/9XLWquCItgQ |
+| a-ruler-ground-to-human-shape | 按人磨的尺子 | 第45期 | https://youtu.be/yyDjcVJco3c |
 
 ## 三、待制作（已排期，发布后回填）
 
