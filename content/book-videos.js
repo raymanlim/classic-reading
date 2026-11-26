@@ -73,4 +73,6 @@ export const bookVideos = {
   'the-decline-and-fall-of-the-roman-empire': { url: 'https://youtu.be/QROjKoMgVhY', episode: '第43期' },
   // 2026-11-25 回填（第44期）
   'thus-spoke-zarathustra': { url: 'https://youtu.be/nsJMM7yBwy4', episode: '第44期' },
+  // 2026-11-26 回填（第45期）
+  'leviathan': { url: 'https://youtu.be/MnhY3ecGfKw', episode: '第45期' },
 };

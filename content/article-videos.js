@@ -107,6 +107,8 @@ export const articleVideos = {
   'the-style-is-not-the-signature': { url: 'https://youtu.be/tGKgLga8ask', episode: 43 },
   // 第 44 期（2026-11-24 回填）
   'effort-is-an-explanation-not-a-virtue': { url: 'https://youtu.be/9XLWquCItgQ', episode: 44 },
+  // 第 45 期（2026-11-25 回填）
+  'a-ruler-ground-to-human-shape': { url: 'https://youtu.be/yyDjcVJco3c', episode: 45 },
 };
 
 /** 「不做-清单指南类」：明确不会制作视频，永久留空 */
