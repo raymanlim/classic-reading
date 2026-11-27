@@ -10186,6 +10186,82 @@ The live question is plain: once observable differences are written out one by o
       'The tension is real. Levelling down lowers the threshold of entry, while this book raises it. But the two are not strictly opposed, because what rises is not the difficulty of reading but the mode of reception: allowing a book not to be understood and not to be consumed whole frees part of the readership from the position of consumer.'
     ],
     topics: ['literature', 'history', 'civilization']
+  },
+  {
+    id: 'note-266',
+    slug: 'bad-or-the-dumbing-of-america-the-gilded-faucet',
+    book: 'bad-or-the-dumbing-of-america',
+    date: '2026-11-27',
+    voice: 'editorial',
+    key_insight_zh:
+      '福赛尔区分糟糕与恶俗：糟糕是没人会称赞的东西，恶俗却是刻意镀金的赝品，必须含有虚饰与欺骗。一件东西被反复称赞、抬上位置之后，糟糕才升级为恶俗。经典的复制品沿着经典的通道上升得更快。',
+    key_insight_en:
+      'Fussell separates bad from BAD: bad is what nobody praises, BAD is a counterfeit with deliberate gilding, and it requires fraud. So a thing becomes BAD when someone vouches for it, and copies of a canonised work climb that route faster than the original.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这本书的力气全在一个区分上。糟糕是地上的一摊狗屎、一次留级、一种猩红热病，没有人会说它好；恶俗则是同一件东西镀上金——割破手指的浴室龙头只是糟糕，镀了金就是恶俗。恶俗还必须额外具备一样东西：故意的虚饰与欺骗性。福赛尔说得很直白，恶俗是商业欺诈时代专有的现象。\n\n因此书里最锋利的一处观察是关于升降的：一件明显糟糕的东西，臭名不会持续太久，因为很快会有人出来对它大加赞赏，于是它被晋升为恶俗。也就是说，赝品之所以成为赝品，靠的不是它更差，而是有人替它作了保。一部作品被抬上经典位置之后，沿着同一条通道复制的版本会升得更快，因为复制品不必再论证自身，只需重新通过那个曾经选中原件的筛子。\n\n福赛尔并没有把恶俗随手贴给街面上的消费。他排了等级，把低俗的娱乐常客与更精致的权力姿态分列两端，理由是后者更懂得虚饰。敌意是真实的，但敌人的轮廓完全是他自己画的。\n\n麻烦正在这里。恶俗的成立要靠「故意欺骗」这个要件，可整套内容工业里几乎没有人意图欺骗——每个环节只负责自己那一段，赝品是装置自己长出来的。取消意图要件，剩下的判准就变成由谁认定，品味的判断便滑成趣味的裁决。书里说恶俗属于「孤独者」的专属领域，而这份孤独按定义不可核查。\n\n还有一层反身：这本书本身是精装、烫金、由大出版社印行的对粗劣印刷品的指控，享受着自己所描述的那套等级制度。一位英语教授写一本教人辨认恶俗的书，本身就是当众显示分辨力——正是它所诊断的那件事。',
+    thinking_en:
+      'The book\'s entire force sits in a single distinction. Bad is dog shit on the pavement, a failed grade, scarlet fever — nobody claims such a thing is good. BAD is the same thing plated in gold: a bathroom faucet that cuts your finger is merely bad; gilded, it becomes BAD. BAD additionally requires the element of deliberate embellishment and deception, a phenomenon peculiar to the age of commercial fraud.\n\nThe sharpest observation concerns ascent and descent. An obviously bad thing does not stay bad: someone comes forward, praises it extravagantly, and it is promoted into BAD. The counterfeit is not counterfeit because it is worse. It is counterfeit because someone has vouched for it. And once a work has been lifted into a canonical position, the versions copied along that same route rise faster still, since a copy needs no argument of its own — only passage through the same sieve that once admitted the original.\n\nFussell does not simply attach the label to consumer streets. He ranks it, placing a cheap entertainer at one end and a polished exercise of political vanity at the other, since the latter knows how to embellish. The hostility is genuine, but the enemy is drawn entirely by his own hand.\n\nThe trouble lies there. The charge of being BAD depends on intent, yet almost nobody in the content industry intends to deceive. Each segment does its own small work and the counterfeit grows out of the arrangement. Strip out the intent requirement and what remains is a verdict handed down by whoever claims the standing to hand it down; Fussell reserves BAD for the alone, and that aloneness is by definition unverifiable.\n\nAnd there is a reflex the book cannot escape. It appears in fine bindings from large publishers, and its author, a professor of English, performs discernment in public — precisely the thing being diagnosed.',
+    questions_zh: [
+      '福赛尔说恶俗必须含有刻意的欺骗，可当代内容工业里几乎没有人有意行骗。在取消「意图」要件之后，这个判断还剩下什么可依据的东西？',
+      '一件作品被反复称赞之后才变成恶俗，那么针对经典作品的致敬性拙劣复制，究竟该算作恶俗，还是另算一类失败？',
+      '书里把恶俗划归「孤独者」的专属领域，而孤独无法被核查。当一种判断本身不可被检验时，它还剩下批评的力量吗？'
+    ],
+    answers_zh: [
+      '剩下的一致性。同一件商品在生产端被默认、在消费端被吹捧、在评论端被赞美，这三处共享同一套虚假承诺，而受益者不止一方。此时即便找不出具体的行骗者，判定恶俗依然成立——只是依据从「意图」换成了「装置」。',
+      '不该算作恶俗。福赛尔定义的恶俗里含有明知虚假仍为之的那层自觉，而致敬性复制往往是真诚的模仿加上拙劣的执行——它更接近另一种失败：形式保住了，功能丢了。混淆两者会让批评失去分辨力。',
+      '会减弱，但不至于取消。孤独确实不可核查，可它针对的对象本身处在变动之中，而变动是公开的、可争论的。福赛尔真正的力量不在裁定权，而在于逼人把标准说出来：一部作品凭什么被称作好，依据由谁写下。'
+    ],
+    questions_en: [
+      'Fussell insists BAD requires deliberate deception, yet almost nobody in the content industry intends to deceive. Once the intent requirement is dropped, what is left for the judgement to rest on?',
+      'A work becomes BAD only after it has been praised repeatedly. Where does the clumsy tribute paid to a canonical work belong — inside the category of BAD, or somewhere else entirely?',
+      'The book reserves BAD for the alone, and that aloneness cannot be verified. Does a judgement that resists verification retain any power to criticise?'
+    ],
+    answers_en: [
+      'Consistency. The same commodity is tacitly produced, loudly praised on the street and solemnly reviewed; all three share one false promise, and the beneficiaries are not confined to one party. Even with no identifiable deceiver in court, the verdict can stand — only the ground shifts from intent to arrangement.',
+      'Not inside it. The definition carries a layer of knowing complicity, and the clumsy tribute is usually sincere imitation badly executed — a different failure, in which the form survives and the function does not. Conflating the two costs criticism its discrimination.',
+      'It weakens the judgement without voiding it. The solitude is indeed unverifiable, but the objects it addresses are themselves in motion, and that motion is public and arguable. The real force of the book is not the power to adjudicate but the demand that the standard be stated out loud.'
+    ],
+    topics: ['art-and-culture', 'modern-society', 'class-and-inequality']
+  },
+  {
+    id: 'note-267',
+    slug: 'memorabilia-the-socrates-who-was-never-written-down',
+    book: 'memorabilia',
+    date: '2026-11-27',
+    voice: 'editorial',
+    key_insight_zh:
+      '色诺芬的《回忆苏格拉底》与柏拉图的《申辩篇》给出两个互不相容的苏格拉底：前者关心正义在城邦里如何有用，后者关心追问本身。西方哲学的奠基人一个字也没留下，这个形象是门徒写出来的。',
+    key_insight_en:
+      'Xenophon\'s Socrates and Plato\'s are incompatible: one asks whether justice works in a city, the other asks what a thing is. Socrates wrote nothing himself, so the founder of Western philosophy was composed by his pupils — and canonical status is conferred on names, not only on books.',
+    quote_zh: '',
+    quote_en: '',
+    thinking_zh:
+      '这部书值得先看体裁。四卷《回忆苏格拉底》不是体系著作，是「回忆」的汇编，第一卷从一开始就是一份答辩，用来抵挡「败坏青年」的指控。关于西方哲学起点人物的第一份重要文献，是前学生代写的辩护状。\n\n色诺芬笔下的苏格拉底与柏拉图的并非同一人。柏拉图的苏格拉底在《申辩篇》里是受审者，宁可不改一句话也不换无罪，是不断用追问把对手逼到难堪的人；同一副笔墨在《会饮篇》里成了追问本身的化身。色诺芬的苏格拉底平实得多：谈家政与经营，谈正义在城邦里有无用处，谈节制与勇敢各安其分。他甚至劝阻学生追究自然本性——第一卷开篇与第三卷第七节里，苏格拉底明确把自然探究视为使人自负与怠惰之物，并举阿那克萨哥拉为反面例证。\n\n两个形象之间的裂缝有个名字：苏格拉底问题。但意义不止于考据。被整个西方奉为源头的那个人物，恰是最早由他人代笔塑造的产物之一。经典的授予不只发生在书的层面：连「谁是创始人」、连作者身份，同样有门槛。\n\n最有力的反驳是：分歧说明苏格拉底的方法是一种实践而非教条，各记其所见，不必有一份被判为伪造。这有力量，却救不了另一件事。色诺芬笔下苏格拉底对自然探究的劝阻，与他本人拥护斯巴达式秩序的政治立场彼此贴合；这份证词里的苏格拉底显得更实在，一部分来自记述者的偏好。被记载者带着立场记下被记载者。\n\n于是读任何一位奠基人，都该先问四件事：谁写的、何时写的、为谁写的、想证明什么。这不是犬儒，而是不把作者当成自明的起点。',
+    thinking_en:
+      'Memorabilia is worth reading for its genre before its content. Xenophon\'s four books are not a systematic treatise but a compilation of things remembered, and Book One opens as a defence against the charge of corrupting the youth. The first substantial portrait of the founder of Western philosophy is therefore a plea written by a former student on his former teacher\'s behalf.\n\nThe Socrates in these pages is not the Socrates of Plato\'s Apology. Plato\'s is a man on trial who refuses to soften a single phrase to buy an acquittal, one who uses questioning to leave his interlocutors embarrassed; in the Symposium and the Phaedo the same figure becomes the embodiment of questioning itself. Xenophon\'s is far more practical — concerned with household management, with whether justice actually works in a city, with temperance and courage in their proper places. He even warns students off investigating the natural nature of things, telling them in the first book and again in the third that such inquiry makes people conceited and idle, citing Anaxagoras as the warning case.\n\nScholars call this divergence the Socratic problem, but its significance reaches past textual criticism. The figure venerated as the origin of an entire tradition was among the earliest products of other people\'s pens. Canonical status is conferred not only on books but on names, on who counts as the author.\n\nThe strongest reply is that the divergence shows Socratic inquiry was a practice rather than a doctrine, so each pupil recorded what he saw and no one need be branded a forger. That has real force, yet it leaves something standing: Xenophon\'s warning against natural inquiry sits comfortably with his own Spartan sympathies. The Socrates who appears more useful is partly the Socrates his recorder wanted him to be.',
+    questions_zh: [
+      '既然苏格拉底本人一个字也没留下，「苏格拉底主义」究竟是苏格拉底的思想，还是门徒的写作风格？',
+      '色诺芬劝阻自然探究，与他本人的政治立场彼此贴合。这让他的记载整体变得不可信，还是只让其中一部分变得可疑？',
+      '面对柏拉图与色诺芬的分歧，把其中一方判为失真，是不是最稳妥的做法？'
+    ],
+    answers_zh: [
+      '更接近后者，但不止于风格。苏格拉底留下的是做法，而做法在不同门徒手里会长成不同的哲学。分歧本身说明那个源头不是一个固定教条，而是一种活动；把它整理成一套学说，是后来的事。',
+      '只让其中一部分变得可疑。色诺芬在具体事迹与言谈的记录上仍有分量，他的偏好更可能表现在「该强调什么」，而非「编造什么」。把立场一致的部分整体划掉，会连同大量可靠的东西一起扔掉。',
+      '不稳妥。把一方判为失真，等于用一个未经检验的标准去检验另一个未经检验的文本。更稳的做法是承认两人各自写成了什么，然后追问：后世为何普遍选了柏拉图那一个。'
+    ],
+    questions_en: [
+      'If Socrates left no writing at all, is Socratic philosophy the thought of Socrates, or the style of his pupils?',
+      'Xenophon\'s warning against natural inquiry matches his own political sympathies closely. Does that make his testimony worthless as a whole, or only doubtful in part?',
+      'When Plato and Xenophon disagree about Socrates, is declaring one of them the distortion the safest available move?'
+    ],
+    answers_en: [
+      'Closer to the second, though not only that. Socrates left a practice, and a practice grows into different philosophies in different hands. The divergence shows that the source was an activity rather than a fixed doctrine; turning it into a system of teachings is a later job.',
+      'Only in part. Xenophon remains weighty on specific events and remarks; his bias shows up more in what he chose to stress than in what he invented. Striking out everything that agrees with his politics throws away a great deal that is reliable.',
+      'No. Condemning one side means testing one untested text with another untested standard. The sounder course is to accept what each man actually wrote, and then ask why later generations settled on the Platonic version.'
+    ],
+    topics: ['philosophy', 'history', 'education']
   }
 ];
 
