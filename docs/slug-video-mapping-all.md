@@ -1,9 +1,9 @@
 # 视频链接映射总表（书籍页 + 文章页）
 
 用途：给经典书库网站的书籍页、文章页回填对应 YouTube 视频链接。按 slug 查找，名称供人工核对。
-更新日期：2026-11-26
+更新日期：2026-11-27
 
-## 一、书籍页（每天一本经典，共 44 本）
+## 一、书籍页（每天一本经典，共 45 本）
 
 页面地址规则：https://classic-reading.pages.dev/zh/books/<书 slug>/
 
@@ -53,6 +53,7 @@
 | the-decline-and-fall-of-the-roman-empire | 《罗马帝国衰亡史》解读 | 第43期 | https://youtu.be/QROjKoMgVhY |
 | thus-spoke-zarathustra | 《查拉图斯特拉如是说》解读 | 第44期 | https://youtu.be/nsJMM7yBwy4 |
 | leviathan | 《利维坦》解读 | 第45期 | https://youtu.be/MnhY3ecGfKw |
+| the-protestant-ethic-and-the-spirit-of-capitalism | 《新教伦理与资本主义精神》解读 | 第46期 | https://youtu.be/N5-1_zujveA |
 
 ## 二、文章页（深度长文解读，共 45 篇已发布）
 
